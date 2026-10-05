@@ -1,0 +1,1069 @@
+{
+  "_meta": {
+    "purpose": "Strong’s Concordance links for biblical place-name dig markers (OT Hebrew / NT Greek).",
+    "url_pattern_hebrew": "https://www.blueletterbible.org/lexicon/hXXXX/kjv/wlc/0-1/",
+    "url_pattern_greek": "https://www.blueletterbible.org/lexicon/gXXXX/kjv/tr/0-1/",
+    "verse_translation": "LSB (Legacy Standard Bible)",
+    "verse_url_pattern": "https://read.lsbible.org/?q={reference}",
+    "not_for": [
+      "Apostle Martyrdom pins",
+      "ministry route lines",
+      "contested hypothesis labels without place lemmas",
+      "PEF overlay"
+    ],
+    "method": "Prefer the most specific named biblical place in the marker title. Numbers from Blue Letter Bible / standard Strong’s lexicons — never invented. Null when modern-only or no single place lemma."
+  },
+  "ot": {
+    "DAN-01,DAN-02": {
+      "biblical_name": "Dan",
+      "modern_name": "Tel Dan (Tell el-Qadi)",
+      "lang": "H",
+      "strongs": "H1835",
+      "lemma": "דָּן",
+      "gloss_short": "judge; northern tribe/city",
+      "url": "https://www.blueletterbible.org/lexicon/h1835/kjv/wlc/0-1/"
+    },
+    "DAN-STELE": {
+      "biblical_name": "Dan",
+      "modern_name": "Tel Dan",
+      "lang": "H",
+      "strongs": "H1835",
+      "lemma": "דָּן",
+      "gloss_short": "judge; northern tribe/city",
+      "url": "https://www.blueletterbible.org/lexicon/h1835/kjv/wlc/0-1/"
+    },
+    "MEG-01": {
+      "biblical_name": "Megiddo",
+      "modern_name": "Tel Megiddo (Tell el-Mutesellim)",
+      "lang": "H",
+      "strongs": "H4023",
+      "lemma": "מְגִדּוֹן",
+      "gloss_short": "place of crowds; royal fortress city",
+      "url": "https://www.blueletterbible.org/lexicon/h4023/kjv/wlc/0-1/"
+    },
+    "MEG-02,MEG-03": {
+      "biblical_name": "Megiddo",
+      "modern_name": "Tel Megiddo",
+      "lang": "H",
+      "strongs": "H4023",
+      "lemma": "מְגִדּוֹן",
+      "gloss_short": "place of crowds; royal fortress city",
+      "url": "https://www.blueletterbible.org/lexicon/h4023/kjv/wlc/0-1/"
+    },
+    "HAZ-01,HAZ-02": {
+      "biblical_name": "Hazor",
+      "modern_name": "Tel Hazor",
+      "lang": "H",
+      "strongs": "H2674",
+      "lemma": "חָצוֹר",
+      "gloss_short": "village / enclosure; Canaanite capital",
+      "url": "https://www.blueletterbible.org/lexicon/h2674/kjv/wlc/0-1/"
+    },
+    "LAC-01": {
+      "biblical_name": "Lachish",
+      "modern_name": "Tel Lachish (Tell ed-Duweir)",
+      "lang": "H",
+      "strongs": "H3923",
+      "lemma": "לָכִישׁ",
+      "gloss_short": "invincible; Judean fortress city",
+      "url": "https://www.blueletterbible.org/lexicon/h3923/kjv/wlc/0-1/"
+    },
+    "LAC-02,LAC-03": {
+      "biblical_name": "Lachish",
+      "modern_name": "Tel Lachish",
+      "lang": "H",
+      "strongs": "H3923",
+      "lemma": "לָכִישׁ",
+      "gloss_short": "invincible; Judean fortress city",
+      "url": "https://www.blueletterbible.org/lexicon/h3923/kjv/wlc/0-1/"
+    },
+    "JER-01,JER-02": {
+      "biblical_name": "Jericho",
+      "modern_name": "Jericho (Tell es-Sultan)",
+      "lang": "H",
+      "strongs": "H3405",
+      "lemma": "יְרִיחוֹ",
+      "gloss_short": "fragrant; city of palm trees",
+      "url": "https://www.blueletterbible.org/lexicon/h3405/kjv/wlc/0-1/"
+    },
+    "QUM-01": {
+      "biblical_name": null,
+      "modern_name": "Qumran (Khirbet Qumran)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern dig name; not a Hebrew Bible place-name lemma"
+    },
+    "COD-01,COD-02,COD-04": {
+      "biblical_name": "Jerusalem",
+      "modern_name": "Jerusalem – City of David",
+      "lang": "H",
+      "strongs": "H3389",
+      "lemma": "יְרוּשָׁלַ͏ִם",
+      "gloss_short": "teaching of peace; capital city",
+      "url": "https://www.blueletterbible.org/lexicon/h3389/kjv/wlc/0-1/"
+    },
+    "COD-03": {
+      "biblical_name": "Gihon",
+      "modern_name": "Jerusalem – City of David / Gihon",
+      "lang": "H",
+      "strongs": "H1521",
+      "lemma": "גִּיחוֹן",
+      "gloss_short": "bursting forth; Jerusalem spring",
+      "url": "https://www.blueletterbible.org/lexicon/h1521/kjv/wlc/0-1/"
+    },
+    "GEZ-01,GEZ-02": {
+      "biblical_name": "Gezer",
+      "modern_name": "Tel Gezer",
+      "lang": "H",
+      "strongs": "H1507",
+      "lemma": "גֶּזֶר",
+      "gloss_short": "portion; Canaanite/Israelite city",
+      "url": "https://www.blueletterbible.org/lexicon/h1507/kjv/wlc/0-1/"
+    },
+    "BEE-01": {
+      "biblical_name": "Beersheba",
+      "modern_name": "Tel Beersheba",
+      "lang": "H",
+      "strongs": "H884",
+      "lemma": "בְּאֵר שֶׁבַע",
+      "gloss_short": "well of the oath / seven",
+      "url": "https://www.blueletterbible.org/lexicon/h884/kjv/wlc/0-1/"
+    },
+    "GIB-01": {
+      "biblical_name": "Gibeon",
+      "modern_name": "Gibeon (el-Jib)",
+      "lang": "H",
+      "strongs": "H1391",
+      "lemma": "גִּבְעוֹן",
+      "gloss_short": "hill city",
+      "url": "https://www.blueletterbible.org/lexicon/h1391/kjv/wlc/0-1/"
+    },
+    "SAM-01": {
+      "biblical_name": "Samaria",
+      "modern_name": "Samaria (Sebaste / Shomron)",
+      "lang": "H",
+      "strongs": "H8111",
+      "lemma": "שֹׁמְרוֹן",
+      "gloss_short": "watch mountain; northern capital",
+      "url": "https://www.blueletterbible.org/lexicon/h8111/kjv/wlc/0-1/"
+    },
+    "SAM-02": {
+      "biblical_name": "Samaria",
+      "modern_name": "Samaria (Sebaste)",
+      "lang": "H",
+      "strongs": "H8111",
+      "lemma": "שֹׁמְרוֹן",
+      "gloss_short": "watch mountain; northern capital",
+      "url": "https://www.blueletterbible.org/lexicon/h8111/kjv/wlc/0-1/"
+    },
+    "SHE-01": {
+      "biblical_name": "Shechem",
+      "modern_name": "Shechem (Tell Balata)",
+      "lang": "H",
+      "strongs": "H7927",
+      "lemma": "שְׁכֶם",
+      "gloss_short": "shoulder; covenant city",
+      "url": "https://www.blueletterbible.org/lexicon/h7927/kjv/wlc/0-1/"
+    },
+    "BSH-01": {
+      "biblical_name": "Beth-shean",
+      "modern_name": "Beth Shean (Tel Bet She’an / Scythopolis)",
+      "lang": "H",
+      "strongs": "H1052",
+      "lemma": "בֵּית שְׁאָן",
+      "gloss_short": "house of ease / security",
+      "url": "https://www.blueletterbible.org/lexicon/h1052/kjv/wlc/0-1/"
+    },
+    "ARA-01": {
+      "biblical_name": "Arad",
+      "modern_name": "Tel Arad",
+      "lang": "H",
+      "strongs": "H6166",
+      "lemma": "עֲרָד",
+      "gloss_short": "fugitive; Negev city",
+      "url": "https://www.blueletterbible.org/lexicon/h6166/kjv/wlc/0-1/"
+    },
+    "MAS-01": {
+      "biblical_name": null,
+      "modern_name": "Masada",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Josephus-era fortress name; not an OT place-name lemma"
+    },
+    "ASH-01": {
+      "biblical_name": "Ashkelon",
+      "modern_name": "Ashkelon",
+      "lang": "H",
+      "strongs": "H831",
+      "lemma": "אַשְׁקְלוֹן",
+      "gloss_short": "migration; Philistine pentapolis city",
+      "url": "https://www.blueletterbible.org/lexicon/h831/kjv/wlc/0-1/"
+    },
+    "EKR-01": {
+      "biblical_name": "Ekron",
+      "modern_name": "Tel Miqne-Ekron",
+      "lang": "H",
+      "strongs": "H6138",
+      "lemma": "עֶקְרוֹן",
+      "gloss_short": "emigration / torn up; Philistine city",
+      "url": "https://www.blueletterbible.org/lexicon/h6138/kjv/wlc/0-1/"
+    },
+    "QEI-01": {
+      "biblical_name": "Shaaraim (possible)",
+      "modern_name": "Khirbet Qeiyafa",
+      "lang": "H",
+      "strongs": "H8189",
+      "lemma": "שַׁעֲרַיִם",
+      "gloss_short": "two gates — proposed ID, not certain",
+      "url": "https://www.blueletterbible.org/lexicon/h8189/kjv/wlc/0-1/"
+    },
+    "REH-01": {
+      "biblical_name": null,
+      "modern_name": "Tel Rehov",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern tell name; not a clear single OT place lemma for this mound"
+    },
+    "SHI-01": {
+      "biblical_name": "Shiloh",
+      "modern_name": "Shiloh (Khirbet Seilun)",
+      "lang": "H",
+      "strongs": "H7887",
+      "lemma": "שִׁילֹה",
+      "gloss_short": "tranquil; early sanctuary town",
+      "url": "https://www.blueletterbible.org/lexicon/h7887/kjv/wlc/0-1/"
+    },
+    "AI-01": {
+      "biblical_name": "Ai",
+      "modern_name": "Ai (et-Tell)",
+      "lang": "H",
+      "strongs": "H5857",
+      "lemma": "עַי",
+      "gloss_short": "heap of ruins; city near Bethel",
+      "url": "https://www.blueletterbible.org/lexicon/h5857/kjv/wlc/0-1/"
+    },
+    "TIM-01": {
+      "biblical_name": "Timnah",
+      "modern_name": "Timnah (Tel Batash)",
+      "lang": "H",
+      "strongs": "H8553",
+      "lemma": "תִּמְנָה",
+      "gloss_short": "portion; Sorek Valley town",
+      "url": "https://www.blueletterbible.org/lexicon/h8553/kjv/wlc/0-1/"
+    },
+    "JEZ-01": {
+      "biblical_name": "Jezreel",
+      "modern_name": "Tel Jezreel",
+      "lang": "H",
+      "strongs": "H3157",
+      "lemma": "יִזְרְעֶאל",
+      "gloss_short": "God sows; Omride royal center",
+      "url": "https://www.blueletterbible.org/lexicon/h3157/kjv/wlc/0-1/"
+    },
+    "KAJ-01": {
+      "biblical_name": null,
+      "modern_name": "Kuntillet Ajrud (Horvat Teman)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern site name; Teman (H8487) is a region/person, not this way-station lemma"
+    },
+    "HEB-01": {
+      "biblical_name": "Hebron",
+      "modern_name": "Hebron (Tel Rumeida)",
+      "lang": "H",
+      "strongs": "H2275",
+      "lemma": "חֶבְרוֹן",
+      "gloss_short": "association; highland city",
+      "url": "https://www.blueletterbible.org/lexicon/h2275/kjv/wlc/0-1/"
+    },
+    "DIB-01": {
+      "biblical_name": "Dibon",
+      "modern_name": "Dibon (Dhiban)",
+      "lang": "H",
+      "strongs": "H1769",
+      "lemma": "דִּיבוֹן",
+      "gloss_short": "pining; Moabite city",
+      "url": "https://www.blueletterbible.org/lexicon/h1769/kjv/wlc/0-1/"
+    },
+    "DEA-01": {
+      "biblical_name": null,
+      "modern_name": "Tell Deir Alla",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern tell; Balaam (H1109) is a person lemma, not a place name here"
+    },
+    "HES-01": {
+      "biblical_name": "Heshbon",
+      "modern_name": "Heshbon (Tell Hesban)",
+      "lang": "H",
+      "strongs": "H2809",
+      "lemma": "חֶשְׁבּוֹן",
+      "gloss_short": "stronghold; Sihon’s capital (ID debated)",
+      "url": "https://www.blueletterbible.org/lexicon/h2809/kjv/wlc/0-1/"
+    },
+    "ATA-01": {
+      "biblical_name": "Ataroth",
+      "modern_name": "Khirbat Ataruz (Ataroth)",
+      "lang": "H",
+      "strongs": "H5852",
+      "lemma": "עֲטָרוֹת",
+      "gloss_short": "crowns; Moabite/Israelite town",
+      "url": "https://www.blueletterbible.org/lexicon/h5852/kjv/wlc/0-1/"
+    },
+    "UGA-01": {
+      "biblical_name": null,
+      "modern_name": "Ugarit (Ras Shamra)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not named as a place lemma in the Hebrew Bible"
+    },
+    "EBL-01": {
+      "biblical_name": null,
+      "modern_name": "Ebla (Tell Mardikh)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not a Hebrew Bible place-name lemma"
+    },
+    "BYB-01": {
+      "biblical_name": "Gebal",
+      "modern_name": "Byblos (Gubla / Jbeil)",
+      "lang": "H",
+      "strongs": "H1380",
+      "lemma": "גְּבַל",
+      "gloss_short": "boundary; Phoenician Gebal",
+      "url": "https://www.blueletterbible.org/lexicon/h1380/kjv/wlc/0-1/"
+    },
+    "TYR-01": {
+      "biblical_name": "Tyre",
+      "modern_name": "Tyre (Ṣur)",
+      "lang": "H",
+      "strongs": "H6865",
+      "lemma": "צֹר",
+      "gloss_short": "rock; Phoenician island-city",
+      "url": "https://www.blueletterbible.org/lexicon/h6865/kjv/wlc/0-1/"
+    },
+    "AMA-01": {
+      "biblical_name": null,
+      "modern_name": "Amarna (Akhetaten)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Egyptian capital name; not an OT place lemma"
+    },
+    "KAR-01": {
+      "biblical_name": "No (Thebes)",
+      "modern_name": "Karnak / Thebes",
+      "lang": "H",
+      "strongs": "H4996",
+      "lemma": "נֹא",
+      "gloss_short": "No / No-Amon; Egyptian Thebes",
+      "url": "https://www.blueletterbible.org/lexicon/h4996/kjv/wlc/0-1/"
+    },
+    "PIR-01": {
+      "biblical_name": "Rameses",
+      "modern_name": "Pi-Ramesses (Qantir)",
+      "lang": "H",
+      "strongs": "H7486",
+      "lemma": "רַעְמְסֵס",
+      "gloss_short": "child of the sun; store-city",
+      "url": "https://www.blueletterbible.org/lexicon/h7486/kjv/wlc/0-1/"
+    },
+    "AVA-01": {
+      "biblical_name": null,
+      "modern_name": "Avaris (Tell el-Dab’a)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Hyksos capital; not an OT place-name lemma"
+    },
+    "SER-01": {
+      "biblical_name": null,
+      "modern_name": "Serabit el-Khadim",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern mine/temple site; not an OT place lemma"
+    },
+    "NIN-01": {
+      "biblical_name": "Nineveh",
+      "modern_name": "Nineveh (Kuyunjik / Nebi Yunus)",
+      "lang": "H",
+      "strongs": "H5210",
+      "lemma": "נִינְוֵה",
+      "gloss_short": "abode of Ninus; Assyrian capital",
+      "url": "https://www.blueletterbible.org/lexicon/h5210/kjv/wlc/0-1/"
+    },
+    "NIM-01": {
+      "biblical_name": "Calah",
+      "modern_name": "Nimrud (Kalhu)",
+      "lang": "H",
+      "strongs": "H3625",
+      "lemma": "כָּלַח",
+      "gloss_short": "vigor; Assyrian Calah",
+      "url": "https://www.blueletterbible.org/lexicon/h3625/kjv/wlc/0-1/"
+    },
+    "KHO-01": {
+      "biblical_name": null,
+      "modern_name": "Khorsabad (Dur-Sharrukin)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Sargon’s capital; not named as an OT place lemma"
+    },
+    "BAB-01": {
+      "biblical_name": "Babel / Babylon",
+      "modern_name": "Babylon",
+      "lang": "H",
+      "strongs": "H894",
+      "lemma": "בָּבֶל",
+      "gloss_short": "confusion; Mesopotamian capital",
+      "url": "https://www.blueletterbible.org/lexicon/h894/kjv/wlc/0-1/"
+    },
+    "CYR-01": {
+      "biblical_name": "Babel / Babylon",
+      "modern_name": "Babylon (Cyrus Cylinder findspot)",
+      "lang": "H",
+      "strongs": "H894",
+      "lemma": "בָּבֶל",
+      "gloss_short": "confusion; Mesopotamian capital",
+      "url": "https://www.blueletterbible.org/lexicon/h894/kjv/wlc/0-1/"
+    },
+    "UR-01": {
+      "biblical_name": "Ur",
+      "modern_name": "Ur (Tell el-Muqayyar)",
+      "lang": "H",
+      "strongs": "H218",
+      "lemma": "אוּר",
+      "gloss_short": "flame / light; Ur of the Chaldeans",
+      "url": "https://www.blueletterbible.org/lexicon/h218/kjv/wlc/0-1/"
+    },
+    "MAR-01": {
+      "biblical_name": null,
+      "modern_name": "Mari (Tell Hariri)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not a Hebrew Bible place-name lemma"
+    },
+    "NIP-01": {
+      "biblical_name": null,
+      "modern_name": "Nippur",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not a Hebrew Bible place-name lemma"
+    },
+    "HAT-01": {
+      "biblical_name": null,
+      "modern_name": "Hattusa (Boğazköy / Boğazkale)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Hittite capital; OT has Hittite people (H2850), not this city lemma"
+    },
+    "CAR-01": {
+      "biblical_name": "Carchemish",
+      "modern_name": "Carchemish",
+      "lang": "H",
+      "strongs": "H3751",
+      "lemma": "כַּרְכְּמִישׁ",
+      "gloss_short": "fortress of Chemosh; Euphrates city",
+      "url": "https://www.blueletterbible.org/lexicon/h3751/kjv/wlc/0-1/"
+    },
+    "SUS-01": {
+      "biblical_name": "Shushan",
+      "modern_name": "Susa (Shushan)",
+      "lang": "H",
+      "strongs": "H7800",
+      "lemma": "שׁוּשַׁן",
+      "gloss_short": "lily; Persian royal city",
+      "url": "https://www.blueletterbible.org/lexicon/h7800/kjv/wlc/0-1/"
+    },
+    "PER-01": {
+      "biblical_name": null,
+      "modern_name": "Persepolis (Takht-e Jamshid)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Achaemenid ceremonial capital; not an OT place lemma"
+    },
+    "PAS-01": {
+      "biblical_name": null,
+      "modern_name": "Pasargadae",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Cyrus’s capital; not an OT place lemma"
+    },
+    "TAY-01": {
+      "biblical_name": "Tema",
+      "modern_name": "Tayma (Tema)",
+      "lang": "H",
+      "strongs": "H8487",
+      "lemma": "תֵּימָא",
+      "gloss_short": "south / desert; North Arabian oasis",
+      "url": "https://www.blueletterbible.org/lexicon/h8487/kjv/wlc/0-1/"
+    },
+    "SID-01": {
+      "biblical_name": "Sidon",
+      "modern_name": "Sidon (Saida)",
+      "lang": "H",
+      "strongs": "H6721",
+      "lemma": "צִידוֹן",
+      "gloss_short": "fishing; Phoenician city",
+      "url": "https://www.blueletterbible.org/lexicon/h6721/kjv/wlc/0-1/"
+    }
+  },
+  "nt": {
+    "JER-NT-01": {
+      "biblical_name": "Siloam",
+      "modern_name": "Jerusalem — Pool of Siloam (Birkat el-Hamra)",
+      "lang": "G",
+      "strongs": "G4611",
+      "lemma": "Σιλωάμ",
+      "gloss_short": "sent; pool in Jerusalem",
+      "url": "https://www.blueletterbible.org/lexicon/g4611/kjv/tr/0-1/"
+    },
+    "JER-NT-02": {
+      "biblical_name": "Jerusalem",
+      "modern_name": "Jerusalem — Pilgrimage Road (Stepped Street)",
+      "lang": "G",
+      "strongs": "G2414",
+      "lemma": "Ἱεροσόλυμα",
+      "gloss_short": "Jerusalem (Hellenized)",
+      "url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/"
+    },
+    "JER-NT-03": {
+      "biblical_name": "Jerusalem",
+      "modern_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+      "lang": "G",
+      "strongs": "G2414",
+      "lemma": "Ἱεροσόλυμα",
+      "gloss_short": "Jerusalem (Hellenized)",
+      "url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/"
+    },
+    "JER-NT-04": {
+      "biblical_name": "Jerusalem",
+      "modern_name": "Jerusalem — City of David (Givati Parking Lot / Area G NT layers)",
+      "lang": "G",
+      "strongs": "G2414",
+      "lemma": "Ἱεροσόλυμα",
+      "gloss_short": "Jerusalem (Hellenized)",
+      "url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/"
+    },
+    "JER-NT-05": {
+      "biblical_name": "Bethesda",
+      "modern_name": "Jerusalem — Bethesda / Sheep Gate Pools (St. Anne)",
+      "lang": "G",
+      "strongs": "G964",
+      "lemma": "Βηθεσδά",
+      "gloss_short": "house of mercy / flowing; pool",
+      "url": "https://www.blueletterbible.org/lexicon/g964/kjv/tr/0-1/"
+    },
+    "BETH-01": {
+      "biblical_name": "Bethany",
+      "modern_name": "Bethany (al-Eizariya / Bethany beyond the Mount of Olives)",
+      "lang": "G",
+      "strongs": "G963",
+      "lemma": "Βηθανία",
+      "gloss_short": "house of affliction / dates",
+      "url": "https://www.blueletterbible.org/lexicon/g963/kjv/tr/0-1/"
+    },
+    "OLIV-01": {
+      "biblical_name": "Olivet",
+      "modern_name": "Mount of Olives — Tombs and Dominus Flevit",
+      "lang": "G",
+      "strongs": "G1638",
+      "lemma": "ἐλαιών",
+      "gloss_short": "olive grove; Mount of Olives",
+      "url": "https://www.blueletterbible.org/lexicon/g1638/kjv/tr/0-1/"
+    },
+    "HEROD-01": {
+      "biblical_name": null,
+      "modern_name": "Herodium (Herodion)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Herodian fortress name; not an NT place-name lemma"
+    },
+    "MAS-NT-01": {
+      "biblical_name": null,
+      "modern_name": "Masada",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Josephus-era fortress; not an NT place lemma"
+    },
+    "BETHL-01": {
+      "biblical_name": "Bethlehem",
+      "modern_name": "Bethlehem — Church of the Nativity / early Christian complex",
+      "lang": "G",
+      "strongs": "G965",
+      "lemma": "Βηθλέεμ",
+      "gloss_short": "house of bread",
+      "url": "https://www.blueletterbible.org/lexicon/g965/kjv/tr/0-1/"
+    },
+    "CAP-01,CAP-02": {
+      "biblical_name": "Capernaum",
+      "modern_name": "Capernaum (Kefar Nahum)",
+      "lang": "G",
+      "strongs": "G2584",
+      "lemma": "Καπερναούμ",
+      "gloss_short": "village of comfort; Jesus’ Galilee base",
+      "url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/"
+    },
+    "CAP-03": {
+      "biblical_name": "Capernaum",
+      "modern_name": "Capernaum — Greek Orthodox property (eastern)",
+      "lang": "G",
+      "strongs": "G2584",
+      "lemma": "Καπερναούμ",
+      "gloss_short": "village of comfort",
+      "url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/"
+    },
+    "MAG-01,MAG-02": {
+      "biblical_name": "Magdala",
+      "modern_name": "Magdala (Migdal)",
+      "lang": "G",
+      "strongs": "G3093",
+      "lemma": "Μαγδαλά",
+      "gloss_short": "tower; lakeside town",
+      "url": "https://www.blueletterbible.org/lexicon/g3093/kjv/tr/0-1/"
+    },
+    "SEP-01": {
+      "biblical_name": null,
+      "modern_name": "Sepphoris (Zippori / Diocaesarea)",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not named in the NT"
+    },
+    "BETHS-01": {
+      "biblical_name": "Bethsaida",
+      "modern_name": "Bethsaida candidate — et-Tell",
+      "lang": "G",
+      "strongs": "G966",
+      "lemma": "Βηθσαϊδά",
+      "gloss_short": "house of fishing — candidate ID",
+      "url": "https://www.blueletterbible.org/lexicon/g966/kjv/tr/0-1/"
+    },
+    "BETHS-02": {
+      "biblical_name": "Bethsaida",
+      "modern_name": "Bethsaida candidate — el-Araj (Beit ha-Bek)",
+      "lang": "G",
+      "strongs": "G966",
+      "lemma": "Βηθσαϊδά",
+      "gloss_short": "house of fishing — candidate ID",
+      "url": "https://www.blueletterbible.org/lexicon/g966/kjv/tr/0-1/"
+    },
+    "CHOR-01": {
+      "biblical_name": "Chorazin",
+      "modern_name": "Chorazin (Korazim)",
+      "lang": "G",
+      "strongs": "G5523",
+      "lemma": "Χοραζίν",
+      "gloss_short": "a town of Galilee",
+      "url": "https://www.blueletterbible.org/lexicon/g5523/kjv/tr/0-1/"
+    },
+    "HIPP-01": {
+      "biblical_name": "Decapolis",
+      "modern_name": "Hippos / Sussita (Decapolis)",
+      "lang": "G",
+      "strongs": "G1179",
+      "lemma": "Δεκάπολις",
+      "gloss_short": "ten-city region (city itself unnamed in NT)",
+      "url": "https://www.blueletterbible.org/lexicon/g1179/kjv/tr/0-1/"
+    },
+    "TIB-01": {
+      "biblical_name": "Tiberias",
+      "modern_name": "Tiberias",
+      "lang": "G",
+      "strongs": "G5085",
+      "lemma": "Τιβεριάς",
+      "gloss_short": "city of Tiberius; Galilee capital",
+      "url": "https://www.blueletterbible.org/lexicon/g5085/kjv/tr/0-1/"
+    },
+    "NAZ-01": {
+      "biblical_name": "Nazareth",
+      "modern_name": "Nazareth — International Marian Center house",
+      "lang": "G",
+      "strongs": "G3478",
+      "lemma": "Ναζαρέθ",
+      "gloss_short": "the guarded one; Jesus’ hometown",
+      "url": "https://www.blueletterbible.org/lexicon/g3478/kjv/tr/0-1/"
+    },
+    "NAZ-02": {
+      "biblical_name": "Nazareth",
+      "modern_name": "Nazareth — Sisters of Nazareth Convent",
+      "lang": "G",
+      "strongs": "G3478",
+      "lemma": "Ναζαρέθ",
+      "gloss_short": "the guarded one",
+      "url": "https://www.blueletterbible.org/lexicon/g3478/kjv/tr/0-1/"
+    },
+    "BAN-01": {
+      "biblical_name": "Caesarea",
+      "modern_name": "Caesarea Philippi / Banias (Paneas)",
+      "lang": "G",
+      "strongs": "G2542",
+      "lemma": "Καισάρεια",
+      "gloss_short": "Caesarea (Philippi)",
+      "url": "https://www.blueletterbible.org/lexicon/g2542/kjv/tr/0-1/"
+    },
+    "KURSI-01": {
+      "biblical_name": null,
+      "modern_name": "Kursi (Gergesa tradition) — E Shore Galilee",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Gergesa is a manuscript/tradition reading; no single standard Strong’s place lemma for Kursi"
+    },
+    "JERNT-01": {
+      "biblical_name": "Jericho",
+      "modern_name": "Jericho — Herodian / NT-era Tulul Abu el-Alayiq & related",
+      "lang": "G",
+      "strongs": "G2410",
+      "lemma": "Ἰεριχώ",
+      "gloss_short": "place of fragrance",
+      "url": "https://www.blueletterbible.org/lexicon/g2410/kjv/tr/0-1/"
+    },
+    "QUM-NT-01": {
+      "biblical_name": null,
+      "modern_name": "Qumran",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Modern dig name; not an NT place lemma"
+    },
+    "EMM-01": {
+      "biblical_name": "Emmaus",
+      "modern_name": "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
+      "lang": "G",
+      "strongs": "G1695",
+      "lemma": "Ἐμμαοῦς",
+      "gloss_short": "hot springs — candidate ID",
+      "url": "https://www.blueletterbible.org/lexicon/g1695/kjv/tr/0-1/"
+    },
+    "CAES-01,CAES-02": {
+      "biblical_name": "Caesarea",
+      "modern_name": "Caesarea Maritima",
+      "lang": "G",
+      "strongs": "G2542",
+      "lemma": "Καισάρεια",
+      "gloss_short": "Caesarea (Maritima)",
+      "url": "https://www.blueletterbible.org/lexicon/g2542/kjv/tr/0-1/"
+    },
+    "ANT-01": {
+      "biblical_name": "Antioch",
+      "modern_name": "Antioch on the Orontes (Antakya)",
+      "lang": "G",
+      "strongs": "G490",
+      "lemma": "Ἀντιόχεια",
+      "gloss_short": "driven against; Syrian Antioch",
+      "url": "https://www.blueletterbible.org/lexicon/g490/kjv/tr/0-1/"
+    },
+    "CYP-01": {
+      "biblical_name": "Paphos",
+      "modern_name": "Paphos (Nea Paphos), Cyprus",
+      "lang": "G",
+      "strongs": "G3974",
+      "lemma": "Πάφος",
+      "gloss_short": "boiling / hot; Cyprus city",
+      "url": "https://www.blueletterbible.org/lexicon/g3974/kjv/tr/0-1/"
+    },
+    "EPH-01": {
+      "biblical_name": "Ephesus",
+      "modern_name": "Ephesus (Efes)",
+      "lang": "G",
+      "strongs": "G2181",
+      "lemma": "Ἔφεσος",
+      "gloss_short": "permitted; Asian metropolis",
+      "url": "https://www.blueletterbible.org/lexicon/g2181/kjv/tr/0-1/"
+    },
+    "PERG-01": {
+      "biblical_name": "Pergamos",
+      "modern_name": "Pergamon (Pergamum / Bergama)",
+      "lang": "G",
+      "strongs": "G4010",
+      "lemma": "Πέργαμος",
+      "gloss_short": "height / fortified; Asian city",
+      "url": "https://www.blueletterbible.org/lexicon/g4010/kjv/tr/0-1/"
+    },
+    "SMYR-01": {
+      "biblical_name": "Smyrna",
+      "modern_name": "Smyrna (Izmir — Agora and Bayraklı core)",
+      "lang": "G",
+      "strongs": "G4667",
+      "lemma": "Σμύρνα",
+      "gloss_short": "myrrh; Asian city",
+      "url": "https://www.blueletterbible.org/lexicon/g4667/kjv/tr/0-1/"
+    },
+    "TROAS-01": {
+      "biblical_name": "Troas",
+      "modern_name": "Alexandria Troas",
+      "lang": "G",
+      "strongs": "G5174",
+      "lemma": "Τρῳάς",
+      "gloss_short": "Trojan; Aegean port",
+      "url": "https://www.blueletterbible.org/lexicon/g5174/kjv/tr/0-1/"
+    },
+    "ICON-01": {
+      "biblical_name": "Iconium",
+      "modern_name": "Iconium / Lystra / Derbe region (Konya plain sites)",
+      "lang": "G",
+      "strongs": "G2430",
+      "lemma": "Ἰκόνιον",
+      "gloss_short": "little image; Lycaonian city (primary of three)",
+      "url": "https://www.blueletterbible.org/lexicon/g2430/kjv/tr/0-1/"
+    },
+    "PAT-01": {
+      "biblical_name": "Patmos",
+      "modern_name": "Patmos (Apocalypse cave tradition / early Christian remains)",
+      "lang": "G",
+      "strongs": "G3963",
+      "lemma": "Πάτμος",
+      "gloss_short": "my killing; Aegean island",
+      "url": "https://www.blueletterbible.org/lexicon/g3963/kjv/tr/0-1/"
+    },
+    "LAOD-01": {
+      "biblical_name": "Laodicea",
+      "modern_name": "Laodicea on the Lycus",
+      "lang": "G",
+      "strongs": "G2993",
+      "lemma": "Λαοδίκεια",
+      "gloss_short": "justice of the people",
+      "url": "https://www.blueletterbible.org/lexicon/g2993/kjv/tr/0-1/"
+    },
+    "HIER-01": {
+      "biblical_name": "Hierapolis",
+      "modern_name": "Hierapolis (Pamukkale)",
+      "lang": "G",
+      "strongs": "G2404",
+      "lemma": "Ἱεράπολις",
+      "gloss_short": "holy city",
+      "url": "https://www.blueletterbible.org/lexicon/g2404/kjv/tr/0-1/"
+    },
+    "COR-01": {
+      "biblical_name": "Corinth",
+      "modern_name": "Corinth (Ancient Corinth)",
+      "lang": "G",
+      "strongs": "G2882",
+      "lemma": "Κόρινθος",
+      "gloss_short": "satiated; Achaian colony",
+      "url": "https://www.blueletterbible.org/lexicon/g2882/kjv/tr/0-1/"
+    },
+    "COR-02": {
+      "biblical_name": "Cenchrea",
+      "modern_name": "Cenchreae (Kenchreai)",
+      "lang": "G",
+      "strongs": "G2747",
+      "lemma": "Κεγχρεαί",
+      "gloss_short": "millet; Corinth’s eastern port",
+      "url": "https://www.blueletterbible.org/lexicon/g2747/kjv/tr/0-1/"
+    },
+    "PHIL-01": {
+      "biblical_name": "Philippi",
+      "modern_name": "Philippi",
+      "lang": "G",
+      "strongs": "G5375",
+      "lemma": "Φίλιπποι",
+      "gloss_short": "lover of horses; Macedonian colony",
+      "url": "https://www.blueletterbible.org/lexicon/g5375/kjv/tr/0-1/"
+    },
+    "THES-01": {
+      "biblical_name": "Thessalonica",
+      "modern_name": "Thessalonica (Thessaloniki — Roman forum / agora)",
+      "lang": "G",
+      "strongs": "G2332",
+      "lemma": "Θεσσαλονίκη",
+      "gloss_short": "victory of Thessalia",
+      "url": "https://www.blueletterbible.org/lexicon/g2332/kjv/tr/0-1/"
+    },
+    "BER-01": {
+      "biblical_name": "Berea",
+      "modern_name": "Berea (Veria)",
+      "lang": "G",
+      "strongs": "G960",
+      "lemma": "Βέροια",
+      "gloss_short": "well watered; Macedonian town",
+      "url": "https://www.blueletterbible.org/lexicon/g960/kjv/tr/0-1/"
+    },
+    "ATH-01": {
+      "biblical_name": "Athens",
+      "modern_name": "Athens — Ancient Agora",
+      "lang": "G",
+      "strongs": "G116",
+      "lemma": "Ἀθῆναι",
+      "gloss_short": "uncertainty; city of Athena",
+      "url": "https://www.blueletterbible.org/lexicon/g116/kjv/tr/0-1/"
+    },
+    "DELPH-01": {
+      "biblical_name": null,
+      "modern_name": "Delphi",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Gallio inscription findspot; Delphi is not an NT narrative place lemma"
+    },
+    "ROME-01": {
+      "biblical_name": "Rome",
+      "modern_name": "Rome — Catacombs (Callixtus, Sebastiano, Priscilla, et al.)",
+      "lang": "G",
+      "strongs": "G4516",
+      "lemma": "Ῥώμη",
+      "gloss_short": "strength; imperial capital",
+      "url": "https://www.blueletterbible.org/lexicon/g4516/kjv/tr/0-1/"
+    },
+    "ROME-02": {
+      "biblical_name": "Rome",
+      "modern_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+      "lang": "G",
+      "strongs": "G4516",
+      "lemma": "Ῥώμη",
+      "gloss_short": "strength; imperial capital",
+      "url": "https://www.blueletterbible.org/lexicon/g4516/kjv/tr/0-1/"
+    },
+    "ROME-03": {
+      "biblical_name": "Rome",
+      "modern_name": "Rome — Ostia Antica (port of Rome) & related Pauline journey context",
+      "lang": "G",
+      "strongs": "G4516",
+      "lemma": "Ῥώμη",
+      "gloss_short": "strength — Ostia itself unnamed in NT; primary lemma Rome",
+      "url": "https://www.blueletterbible.org/lexicon/g4516/kjv/tr/0-1/"
+    },
+    "POMP-01": {
+      "biblical_name": null,
+      "modern_name": "Pompeii & Herculaneum",
+      "lang": null,
+      "strongs": null,
+      "lemma": null,
+      "gloss_short": null,
+      "url": null,
+      "strongs_null_reason": "Not named in the NT; background social world only"
+    },
+    "PUT-01": {
+      "biblical_name": "Puteoli",
+      "modern_name": "Puteoli (Pozzuoli)",
+      "lang": "G",
+      "strongs": "G4223",
+      "lemma": "Ποτίολοι",
+      "gloss_short": "sulphurous springs; Italian port",
+      "url": "https://www.blueletterbible.org/lexicon/g4223/kjv/tr/0-1/"
+    },
+    "MALT-01": {
+      "biblical_name": "Melita",
+      "modern_name": "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+      "lang": "G",
+      "strongs": "G3194",
+      "lemma": "Μελίτη",
+      "gloss_short": "honey; island of Acts 28",
+      "url": "https://www.blueletterbible.org/lexicon/g3194/kjv/tr/0-1/"
+    },
+    "ARAR-01": {
+      "biblical_name": "Ararat",
+      "modern_name": "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
+      "lang": "H",
+      "strongs": "H780",
+      "lemma": "אֲרָרָט",
+      "gloss_short": "curse reversed — OT place; NT flood typology only",
+      "url": "https://www.blueletterbible.org/lexicon/h780/kjv/wlc/0-1/"
+    },
+    "GAD-01": {
+      "biblical_name": "Gadara",
+      "modern_name": "Umm Qais (Gadara) — Decapolis",
+      "lang": "G",
+      "strongs": "G1046",
+      "lemma": "Γαδαρηνός",
+      "gloss_short": "reward at the end — Gadarene (people/region of Gadara)",
+      "url": "https://www.blueletterbible.org/lexicon/g1046/kjv/tr/0-1/"
+    },
+    "SAM-01": {
+      "biblical_name": "Samaria",
+      "modern_name": "Samaria / Sebaste (NT-period Herodian city)",
+      "lang": "G",
+      "strongs": "G4540",
+      "lemma": "Σαμάρεια",
+      "gloss_short": "guardianship; region/city",
+      "url": "https://www.blueletterbible.org/lexicon/g4540/kjv/tr/0-1/"
+    },
+    "SYCH-01": {
+      "biblical_name": "Sychar",
+      "modern_name": "Jacob’s Well / Sychar area (Askar / Balata)",
+      "lang": "G",
+      "strongs": "G4965",
+      "lemma": "Συχάρ",
+      "gloss_short": "drunken / a place in Samaria",
+      "url": "https://www.blueletterbible.org/lexicon/g4965/kjv/tr/0-1/"
+    },
+    "ALEX-01": {
+      "biblical_name": "Alexandria (gentilic)",
+      "modern_name": "Alexandria (Egypt) — Kom el-Dikka & early Christian/Jewish urban context",
+      "lang": "G",
+      "strongs": "G221",
+      "lemma": "Ἀλεξανδρεύς",
+      "gloss_short": "an Alexandrian — NT names people of the city, not a separate city lemma",
+      "url": "https://www.blueletterbible.org/lexicon/g221/kjv/tr/0-1/"
+    },
+    "WW-01": {
+      "biblical_name": "Jerusalem",
+      "modern_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+      "lang": "G",
+      "strongs": "G2414",
+      "lemma": "Ἱεροσόλυμα",
+      "gloss_short": "Jerusalem (Hellenized)",
+      "url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/"
+    }
+  }
+}

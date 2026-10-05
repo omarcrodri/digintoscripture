@@ -1,0 +1,204 @@
+{
+  "generated": "2026-10-01",
+  "build": "20261001-e",
+  "product_rules": {
+    "stops_per_path": 5,
+    "target_minutes": 5,
+    "on_screen_bible": "LSB references only",
+    "ot_speech": "Yahweh untranslated",
+    "ui_flow": "pan pin → open panel → next",
+    "audio": "PD later; no LSB audio pack without a deal",
+    "narration_source_judah": "discover-path-assyria-narration.md",
+    "narration_source_lake": "discover-story-paths-examples.md (beats only — full lake script TBD Mission Lead)"
+  },
+  "paths": [
+    {
+      "id": "discover-yahweh-shook-judah",
+      "title": "When Yahweh shook Judah",
+      "era": "OT",
+      "theme": "Assyria 701 BCE — Lachish to Jerusalem to Nineveh",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "id": "discover-yahweh-shook-judah-stop-1",
+          "order": 1,
+          "biblical_name": "Lachish",
+          "primary_pin_id": "LAC-01",
+          "primary_pin_id_raw": "LAC-01",
+          "lsb_on_screen": [
+            "2 Kings 18:13–17",
+            "Isaiah 36:1–2"
+          ],
+          "panel_truth_line": "Lachish was Judah’s southwest fortress city. In Hezekiah’s day Assyria besieged it — the open wound before Jerusalem.",
+          "caveats": "Assyrian siege of Lachish is among the best-documented Judah campaign sites (reliefs + tell). Tour beat is Scripture + site geography — not a claim that every wall course visible today is the 701 BCE face.",
+          "solidity": "strong",
+          "narration": "You are standing where Judah's southwest fortress watched the coastal road. In Hezekiah's days, Assyria came down like a slow storm. City after city heard the rumor: Sennacherib is coming. Lachish was no village. It was walls, gates, and grain—the kind of stronghold that makes a land feel safe.\n\nThen the siege began. Earth piled against stone. Smoke rose where homes had been. The Bible does not decorate this. It says the king of Assyria seized Judah's fortified cities—and Lachish stands in that story as the open wound before Jerusalem.\n\nFeel the height of the tell. Imagine a foreign tongue in the valley. This is where fear became geography. The empire was no longer a name in a letter. It was here, at the gate, asking whether Yahweh still guarded His people—or whether Judah would fall the way stronger walls had already fallen.",
+          "segment": "Opening",
+          "layer": "ot-digs"
+        },
+        {
+          "id": "discover-yahweh-shook-judah-stop-2",
+          "order": 2,
+          "biblical_name": "Samaria",
+          "primary_pin_id": "SAM-01",
+          "primary_pin_id_raw": "SAM-01",
+          "lsb_on_screen": [
+            "2 Kings 17:5–6",
+            "2 Kings 17:18–23"
+          ],
+          "panel_truth_line": "Samaria fell first. Judah’s fear at Lachish was rational — the same empire had already emptied the northern capital.",
+          "caveats": "Flashback stop — not part of the 701 BCE Judah siege sequence. Herodian/NT Sebaste overlays the hill; keep OT exile beat clear from later Roman city fabric.",
+          "solidity": "strong",
+          "narration": "Look north in your mind—to Samaria, Israel's hill capital. Years before Lachish shook, this city learned what Assyria does when a kingdom will not bend. The king of Assyria came up; after hard years the city was taken. People were carried away. The land that once lived under Yahweh's covenant was emptied and resettled.\n\nWhy stop here on a Judah path? Because Jerusalem's fear did not grow alone. Samaria was the older sister who fell first. The text says Yahweh removed Israel from His sight. Exile was the warning written in empty streets.\n\nSo when Assyrian banners later darkened Judah, every soldier remembered Samaria. Empires do not only conquer hills. They teach survivors what happens when a people trusts horses and kings more than Yahweh. Samaria is the scar behind Lachish's wound.",
+          "segment": "Flashback",
+          "layer": "ot-digs"
+        },
+        {
+          "id": "discover-yahweh-shook-judah-stop-3",
+          "order": 3,
+          "biblical_name": "Jerusalem",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "2 Kings 18:17–19:19",
+            "Isaiah 37:14–20"
+          ],
+          "panel_truth_line": "Jerusalem — where Yahweh set His Name — hears Assyrian taunts. Hezekiah spreads the threat before Yahweh.",
+          "caveats": "Do not treat Large Stone Structure / ‘palace of David’ (CBG-22) as settled in this tour — crisis beat is Zion under threat + prayer, not palace ID. Keep Yahweh’s Name / deliverance center, not archaeology overclaim.",
+          "solidity": "strong",
+          "narration": "Now the story tightens on Jerusalem—the City of David, where Yahweh set His Name. Assyrian messengers stand outside and shout psychology as warfare. They mock Hezekiah. They mock the people's hope. They name conquered gods as proof that Jerusalem's God will fail too.\n\nHezekiah does what frightened kings rarely do well: he takes the threat into the house of Yahweh and spreads it out like a letter he cannot answer alone. He prays that Yahweh would hear, and see, and save—not for Judah's pride, but so the earth would know that Yahweh alone is God.\n\nThis stop is the hinge. Walls matter. Water will matter next. But the center is not engineering. It is whether Yahweh will defend His own honor when an empire claims the world. The city is fragile. The Name it bears is not.",
+          "segment": "Crisis",
+          "layer": "ot-digs"
+        },
+        {
+          "id": "discover-yahweh-shook-judah-stop-4",
+          "order": 4,
+          "biblical_name": "Gihon",
+          "primary_pin_id": "COD-03",
+          "primary_pin_id_raw": "COD-03",
+          "lsb_on_screen": [
+            "2 Kings 20:20",
+            "2 Chronicles 32:2–4",
+            "2 Chronicles 32:30"
+          ],
+          "panel_truth_line": "Gihon is Jerusalem’s lifeblood. Under siege, Hezekiah’s people prepared water — trust in Yahweh with calloused hands.",
+          "caveats": "Tunnel attribution and exact cut chronology have scholarly debate on phases; tour may say ‘tradition tied to Hezekiah’ and ‘water brought inward’ without over-precise engineering claims. Siloam pool (JER-NT-01) is the outlet end — optional secondary open, not required for this stop.",
+          "solidity": "strong",
+          "narration": "Walk down toward the spring—Gihon, Jerusalem's lifeblood on the eastern slope. In a siege, courage without water is a short story. Hezekiah understood that. He stopped outer springs and brought water inward—work later generations still tie to the tunnel through the rock.\n\nPicture workers with lamps, measuring by sound through stone, racing an army's calendar. This is faith with calloused hands. Yahweh had been asked to save; Judah still dug. The spring becomes a parable you can touch: trust in Yahweh does not cancel wise preparation. It orders it.\n\nWhen people later praise Hezekiah's works, they remember more than clever stone. They remember prayer in the temple and labor in the dark as one obedience. Gihon is where theology meets thirst—and where a city under Yahweh's care refused to die politely.",
+          "segment": "Engineering faith",
+          "layer": "ot-digs"
+        },
+        {
+          "id": "discover-yahweh-shook-judah-stop-5",
+          "order": 5,
+          "biblical_name": "Nineveh",
+          "primary_pin_id": "NIN-01",
+          "primary_pin_id_raw": "NIN-01",
+          "lsb_on_screen": [
+            "Nahum 1:1–8",
+            "Nahum 3:1–7",
+            "Isaiah 37:36–38"
+          ],
+          "panel_truth_line": "Nineveh — home of the empire that shook Judah. Yahweh judges the oppressor in His time. Empires are borrowed breath.",
+          "caveats": "Zoom-out stop far from Judah. Nahum’s oracle is theological judgment on Nineveh; do not imply the tour ‘proves’ every Nahum detail by the ruin mounds alone. Isaiah 37 deliverance is Judah-side; Nineveh’s later fall is a separate historical horizon — narration already holds both carefully.",
+          "solidity": "strong",
+          "narration": "The path pulls east—to Nineveh, jewel of the empire that crushed Lachish and taunted Jerusalem. For a while it seemed unstoppable: broad walls, proud kings, a machine that moved nations like cattle. Judah's deliverance in Hezekiah's day cracked the myth of endless power; it did not end Assyria's story overnight.\n\nThe prophet Nahum speaks into that myth. Yahweh is slow to anger—and great in power. He will not leave the guilty unpunished. Nineveh the bloody city, full of lies and plunder, will become a spectacle. The same God who heard Hezekiah's prayer writes history past the siege ramp.\n\nSo we close where the oppressor lived. Lachish fell under pressure. Samaria fell in judgment and exile. Jerusalem cried out. Gihon was prepared. And Nineveh learns that empires are borrowed breath. Yahweh remains. That is the tour's last word.",
+          "segment": "Closing",
+          "layer": "ot-digs"
+        }
+      ]
+    },
+    {
+      "id": "discover-along-the-lake",
+      "title": "Along the lake where He taught",
+      "era": "NT",
+      "theme": "Nazareth → Capernaum → Magdala → Bethsaida → Chorazin",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "id": "discover-along-the-lake-stop-1",
+          "order": 1,
+          "biblical_name": "Nazareth",
+          "primary_pin_id": "NAZ-01",
+          "primary_pin_id_raw": "NAZ-01",
+          "lsb_on_screen": [
+            "Luke 4:16–30"
+          ],
+          "panel_truth_line": "Nazareth — where familiarity met unbelief. The path starts in His hometown (Luke 4).",
+          "caveats": "First-century Nazareth is archaeologically modest. Do NOT use Sisters of Nazareth ‘Jesus house’ (CBG-06) as proven dig consensus — optional contested footnote only. Pin NAZ-01 as primary hometown geography.",
+          "solidity": "mixed",
+          "narration": "Start in Nazareth—Jesus' hometown. Here familiarity met unbelief. Luke remembers the synagogue reading and the hard turn when neighbors would not receive Him. The path begins where people thought they already knew the story.",
+          "segment": "Opening",
+          "layer": "nt-digs"
+        },
+        {
+          "id": "discover-along-the-lake-stop-2",
+          "order": 2,
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Mark 1:21–34",
+            "Matthew 4:13"
+          ],
+          "panel_truth_line": "Capernaum — His base by the lake. Teaching and healings with authority that unsettled the town.",
+          "caveats": "Synagogue visible today is later rebuild over earlier remains — say ‘synagogue site / teaching base’ carefully. ‘House of Peter’ (CBG-05) is contested identification — do not require it for this stop.",
+          "solidity": "strong",
+          "narration": "Down by the northwest shore, Capernaum becomes His base. Teaching in the synagogue site, healings that unsettled the town, authority that people felt in the streets. Matthew notes He settled here. This is where ministry had an address.",
+          "segment": "Base",
+          "layer": "nt-digs"
+        },
+        {
+          "id": "discover-along-the-lake-stop-3",
+          "order": 3,
+          "biblical_name": "Magdala",
+          "primary_pin_id": "MAG-01",
+          "primary_pin_id_raw": "MAG-01,MAG-02",
+          "lsb_on_screen": [
+            "Luke 8:1–3"
+          ],
+          "panel_truth_line": "Magdala — a named shore town in the Gospel world. Real first-century streets beside the lake.",
+          "caveats": "Lighter direct Gospel narrative dig-proof than Capernaum. Honest packaging: strong narrative geography + real first-century town; do not invent Magdala miracle scenes the Gospels do not locate here.",
+          "solidity": "mixed",
+          "narration": "Along the shore road stands Magdala—a real first-century Galilee town, named in the Gospel world through Mary Magdalene's place-name. Excavations show streets and a synagogue from that era. Keep the beat honest: strong geography, lighter miracle scenes set here by name alone.",
+          "segment": "Shore road",
+          "layer": "nt-digs"
+        },
+        {
+          "id": "discover-along-the-lake-stop-4",
+          "order": 4,
+          "biblical_name": "Bethsaida",
+          "primary_pin_id": "BETHS-02",
+          "primary_pin_id_raw": "BETHS-02",
+          "lsb_on_screen": [
+            "Mark 8:22–26",
+            "John 1:44"
+          ],
+          "panel_truth_line": "Bethsaida — signs and disciples’ hometown ties. Scholars still debate the exact tell; the Gospels place the town here by the lake.",
+          "caveats": "REQUIRED disclosure: Bethsaida ID contested (CBG-04). Primary tour pin BETHS-02 (el-Araj) with on-panel note that et-Tell remains an alternate candidate — do not declare the debate settled. Blind-man healing (JM-19) attaches to Bethsaida tradition; feeding shore (JM-12) is nearby geography, not a second mandatory pan.",
+          "solidity": "mixed",
+          "narration": "Bethsaida sits in the Gospel map as a town of signs and disciples' hometown ties—blind-man healing tradition, fishing families who followed Him. Scholars still debate the exact tell: this tour opens el-Araj while et-Tell remains a serious alternate. The Gospels place the town by the lake; the dig ID is contested.",
+          "segment": "Signs",
+          "layer": "nt-digs",
+          "contested_note": "Bethsaida identification is contested (CBG-04): el-Araj (this pin, BETHS-02) vs et-Tell (BETHS-01). This tour does not declare the debate settled."
+        },
+        {
+          "id": "discover-along-the-lake-stop-5",
+          "order": 5,
+          "biblical_name": "Chorazin",
+          "primary_pin_id": "CHOR-01",
+          "primary_pin_id_raw": "CHOR-01",
+          "lsb_on_screen": [
+            "Matthew 11:20–24"
+          ],
+          "panel_truth_line": "Chorazin — a town that saw works and would not turn. Privilege without repentance is empty (Matthew 11).",
+          "caveats": "Basalt synagogue is later Roman/Byzantine fabric on the town site — fine as the named-town locus; do not call the standing synagogue ‘the building Jesus entered.’ Closing beat is privilege without repentance.",
+          "solidity": "strong",
+          "narration": "Close at Chorazin, named in Jesus' woes over towns that saw works and would not turn. Privilege without repentance is empty. The standing basalt synagogue is later fabric on the town site—fine as the named locus, not 'the building He entered.' End on the hard word that love tells the truth.",
+          "segment": "Closing",
+          "layer": "nt-digs"
+        }
+      ]
+    }
+  ]
+}

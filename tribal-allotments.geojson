@@ -1,0 +1,1004 @@
+{
+  "type": "FeatureCollection",
+  "name": "tribal-allotments",
+  "build": "20261001-q",
+  "layer_key": "tribal_allotments",
+  "default": "off",
+  "note": "Joshua-era schematic allotments. Not a survey. Levi absent. No new pins. Coordinates copied from the 2026-10-04 site-truth pack.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-judah",
+        "name": "Judah",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 1,
+        "solidity": "mixed",
+        "claim": "Joshua 15 allots Judah the southern hills, the Negev, the Shephelah, and a coast the text itself says was not cleared. Simeon sits inside this same tract.",
+        "caveats": "Philistine cities inside the fill (Ashkelon, Ashdod, Gath, and the Ekron edge) are allotted in Joshua 15:45–47 and were not taken (Judges 1:18–19). That is the claim, not a conquest map. The north edge is the Hinnom line. City of David pins are also inside Benjamin on purpose. See TRIBE-benjamin. Simeon's Beersheba fill is drawn on top of Judah, not cut out of it (Joshua 19:1). Ekron, Timnah, and Beth-shemesh are also inside the Dan allotment. That shared Shephelah strip is a fuzzy edge. Kuntillet Ajrud, Timna, and Busayra are outside. This sketch stops in the Negev. It does not run to Sinai or Edom. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 15:1–12",
+          "Joshua 15:20–63",
+          "Judges 1:18–19"
+        ],
+        "color": "#7a4b2a",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "LAC-01",
+          "LAC-02,LAC-03",
+          "HEB-01",
+          "ARA-01",
+          "MAS-01",
+          "MAS-NT-01",
+          "QUM-01",
+          "QUM-NT-01",
+          "ASH-01",
+          "ASD-01",
+          "QEI-01",
+          "GAT-01",
+          "AZK-01",
+          "TBM-01",
+          "HES2-01",
+          "RAR-01",
+          "BEE-01",
+          "BETHL-01",
+          "COD-01,COD-02,COD-04",
+          "COD-03",
+          "KET-01",
+          "JER-NT-01",
+          "EKR-01",
+          "TIM-01",
+          "BSM-01",
+          "MOT-01"
+        ],
+        "overlap_with": [
+          "TRIBE-simeon (textual inclusion)",
+          "TRIBE-benjamin (Hinnom / Jerusalem fuzzy edge)",
+          "TRIBE-dan (northern Shephelah fuzzy edge)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.4,
+              31.02
+            ],
+            [
+              34.85,
+              30.9
+            ],
+            [
+              35.2,
+              30.96
+            ],
+            [
+              35.45,
+              31.15
+            ],
+            [
+              35.52,
+              31.48
+            ],
+            [
+              35.5,
+              31.73
+            ],
+            [
+              35.28,
+              31.81
+            ],
+            [
+              35.02,
+              31.82
+            ],
+            [
+              34.75,
+              31.86
+            ],
+            [
+              34.55,
+              31.82
+            ],
+            [
+              34.48,
+              31.55
+            ],
+            [
+              34.42,
+              31.2
+            ],
+            [
+              34.4,
+              31.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-simeon",
+        "name": "Simeon",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 4,
+        "solidity": "mixed",
+        "claim": "Simeon has no separate outer border. Joshua 19:1 puts its inheritance inside Judah, in the Negev around Beersheba.",
+        "caveats": "Paint this on top of Judah. Do not punch a hole in Judah. The only anchored town is Beersheba. Sharuhen is named in Joshua 19:6, but the Tell el-Ajjul candidate (AJJ-01) is left outside so the fill does not swallow the Philistine coast. Tel Haror (HAR-01), a Gerar candidate, is also outside. Gerar is not a Simeon allotment town. Arad stays with Judah, east of this basin. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:1–9",
+          "Joshua 15:21–32"
+        ],
+        "color": "#c9a227",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "BEE-01"
+        ],
+        "overlap_with": [
+          "TRIBE-judah (entirely inside; textual, not an accident)"
+        ],
+        "ui_note": "Inside Judah"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.64,
+              31.18
+            ],
+            [
+              34.72,
+              31.08
+            ],
+            [
+              34.95,
+              31.06
+            ],
+            [
+              35.08,
+              31.18
+            ],
+            [
+              35.05,
+              31.36
+            ],
+            [
+              34.82,
+              31.42
+            ],
+            [
+              34.68,
+              31.34
+            ],
+            [
+              34.64,
+              31.24
+            ],
+            [
+              34.64,
+              31.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-benjamin",
+        "name": "Benjamin",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 3,
+        "solidity": "mixed",
+        "claim": "A small inland tribe between Judah and Ephraim: Jericho, Bethel, Ai, Gibeon, Mizpah, and the Jerusalem ridge on the Hinnom line. It does not reach the sea.",
+        "caveats": "Jerusalem is a fuzzy edge, not a clean capital. Joshua 15:8 and 18:16 run the border through the Valley of Hinnom. Joshua 15:63 leaves the Jebusites with Judah. Joshua 18:28 lists Jebus, that is Jerusalem, in Benjamin. COD-01,COD-02,COD-04, COD-03, KET-01, and JER-NT-01 are in both fills on purpose. JER-01,JER-02 is Jericho, not Jerusalem. It is Benjamin only. Ramat Rahel and Qumran stay in Judah, south of this fill. Bethlehem stays in Judah. Mozah (MOT-01) is a Benjamin town (Joshua 18:26) and also clips Judah's north edge. Other Jerusalem NT pins (JER-NT-02 through JER-NT-05, WW-01, OLIV-01, BETH-01) sit on this same ridge and were not each listed. Bethel is in Benjamin's city list and on Joseph's border. This sketch keeps the pin in Benjamin only. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 18:11–28",
+          "Joshua 15:5–11",
+          "Joshua 16:1–2"
+        ],
+        "color": "#8e3d5a",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "JER-01,JER-02",
+          "JERNT-01",
+          "GIB-01",
+          "AI-01",
+          "BET-01",
+          "MIZ-01",
+          "MOT-01",
+          "COD-01,COD-02,COD-04",
+          "COD-03",
+          "KET-01",
+          "JER-NT-01"
+        ],
+        "overlap_with": [
+          "TRIBE-judah (Hinnom / Jerusalem / Mozah fuzzy edge)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.55,
+              31.76
+            ],
+            [
+              35.52,
+              31.95
+            ],
+            [
+              35.36,
+              32.03
+            ],
+            [
+              35.16,
+              32.0
+            ],
+            [
+              35.02,
+              31.9
+            ],
+            [
+              34.99,
+              31.8
+            ],
+            [
+              35.14,
+              31.75
+            ],
+            [
+              35.36,
+              31.75
+            ],
+            [
+              35.55,
+              31.76
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-ephraim",
+        "name": "Ephraim",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "Ephraim is the southern half of Joseph: Shiloh in the hills, Gezer on the southwest border, and a west outlet toward the sea north of Joppa. Shechem is Manasseh, not Ephraim.",
+        "caveats": "Gezer is Ephraim's border town and was not cleared (Joshua 16:3, 16:10). It is not inside the Dan fill. Aphek (APK-01) is on the Yarkon edge and is kept on the Ephraim side. Dan's text reaches 'over against Joppa' (Joshua 19:46); the port itself is in the Dan fill, not Aphek. Lod (LYD-01) falls in both Ephraim and Dan. Fuzzy edge. Benjaminite building notes in Chronicles are later and are not drawn. Joppa is Dan, not Ephraim. Bethel is Benjamin, not Ephraim. Shiloh is the Ephraim anchor. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 16:1–10",
+          "Joshua 17:7–10"
+        ],
+        "color": "#1e6b4a",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "SHI-01",
+          "GEZ-01,GEZ-02",
+          "APK-01",
+          "LYD-01"
+        ],
+        "overlap_with": [
+          "TRIBE-dan (Lod only; fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.78,
+              32.1
+            ],
+            [
+              34.92,
+              31.84
+            ],
+            [
+              35.12,
+              31.98
+            ],
+            [
+              35.32,
+              32.04
+            ],
+            [
+              35.56,
+              32.08
+            ],
+            [
+              35.56,
+              32.19
+            ],
+            [
+              35.22,
+              32.16
+            ],
+            [
+              34.96,
+              32.15
+            ],
+            [
+              34.8,
+              32.12
+            ],
+            [
+              34.78,
+              32.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-manasseh-west",
+        "name": "Manasseh (west)",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "Western half of Manasseh: Shechem, Samaria, and Tirzah in the hills, west toward the Sharon, south of the Jezreel. East of the Jordan is a different polygon.",
+        "caveats": "Joshua 17:11 names Beth-shean, Ibleam, Dor, Endor, Taanach, and Megiddo as towns Manasseh was to hold inside Issachar and Asher. They are not given a second blob. Megiddo, Jezreel, Beth-shean, and Rehov are drawn with Issachar. Dor is drawn with Asher. The Jezreel rim where this fill meets Issachar is a fuzzy edge. Megiddo itself stays in Issachar. Caesarea Maritima (CAES-01,CAES-02) falls outside this sketch. It is a later city and is not an anchor. SAM-01 is the same id string on the OT Sebaste pin and the NT Sebaste pin. One anchor, both layers. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 17:1–13",
+          "Joshua 16:8–9"
+        ],
+        "color": "#1a6b6b",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "SHE-01",
+          "SAM-01",
+          "SAM-02",
+          "TIR-01",
+          "SYCH-01"
+        ],
+        "overlap_with": [
+          "TRIBE-issachar (Jezreel rim; fuzzy, Megiddo not included here)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.15,
+              32.16
+            ],
+            [
+              35.56,
+              32.19
+            ],
+            [
+              35.56,
+              32.3
+            ],
+            [
+              35.48,
+              32.4
+            ],
+            [
+              35.28,
+              32.47
+            ],
+            [
+              35.05,
+              32.48
+            ],
+            [
+              34.88,
+              32.4
+            ],
+            [
+              34.86,
+              32.15
+            ],
+            [
+              35.15,
+              32.16
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-issachar",
+        "name": "Issachar",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "The Jezreel valley and the hills south of lower Galilee, east to the Jordan: Jezreel, Megiddo, Beth-shean, and Rehov. Nazareth is not in this fill.",
+        "caveats": "Megiddo is geographically in this valley. Joshua 17:11 also assigns it to Manasseh. The polygon follows the valley tribe. The Manasseh claim is a sentence, not a second shape. The south rim against western Manasseh is fuzzy. The north rim against Zebulun is fuzzy. Nazareth and Sepphoris stay in Zebulun. The east edge stops at the Jordan. It does not cross into Gad or eastern Manasseh. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:17–23",
+          "Joshua 17:11"
+        ],
+        "color": "#6a7a2e",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "MEG-01",
+          "MEG-02,MEG-03",
+          "JEZ-01",
+          "BSH-01",
+          "REH-01"
+        ],
+        "overlap_with": [
+          "TRIBE-manasseh-west (Jezreel rim, fuzzy)",
+          "TRIBE-zebulun (north rim, fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.12,
+              32.46
+            ],
+            [
+              35.32,
+              32.43
+            ],
+            [
+              35.55,
+              32.43
+            ],
+            [
+              35.55,
+              32.52
+            ],
+            [
+              35.48,
+              32.64
+            ],
+            [
+              35.32,
+              32.68
+            ],
+            [
+              35.1,
+              32.64
+            ],
+            [
+              35.08,
+              32.48
+            ],
+            [
+              35.12,
+              32.46
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-zebulun",
+        "name": "Zebulun",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "Landlocked lower Galilee. Nazareth and Sepphoris sit here. Joshua 19 does not give Zebulun the sea; Genesis 49:13 is a blessing, not this allotment line.",
+        "caveats": "No OT dig pin falls cleanly inside. The anchors are NT sites on the same hills. A thin fuzzy edge meets Asher on the west and Issachar on the south. Tyre, Dor, Megiddo, and Jezreel are not in this fill. The Sea of Galilee is Naphtali's side, not Zebulun's. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:10–16",
+          "Genesis 49:13"
+        ],
+        "color": "#3d5a99",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "NAZ-01",
+          "NAZ-02",
+          "SEP-01"
+        ],
+        "overlap_with": [
+          "TRIBE-asher (west rim, fuzzy)",
+          "TRIBE-issachar (south rim, fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.06,
+              32.67
+            ],
+            [
+              35.24,
+              32.65
+            ],
+            [
+              35.37,
+              32.72
+            ],
+            [
+              35.39,
+              32.9
+            ],
+            [
+              35.24,
+              32.97
+            ],
+            [
+              35.08,
+              32.9
+            ],
+            [
+              35.04,
+              32.78
+            ],
+            [
+              35.08,
+              32.68
+            ],
+            [
+              35.06,
+              32.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-asher",
+        "name": "Asher",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "The coast from Carmel and Dor north through Tyre to Great Sidon, with a narrow inland step. Not the upper Galilee of Hazor and not Tel Dan.",
+        "caveats": "Dor is in this coastal fill. Joshua 17:11 also gives Dor to Manasseh. Same treatment as Megiddo: one polygon, the other claim in the caveat. Sidon is the northern extent named in Joshua 19:28. The fill stops there. It is not Phoenicia as a later province and it is not Ugarit. Inland edge against Zebulun is fuzzy and thin. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:24–31",
+          "Joshua 17:11"
+        ],
+        "color": "#2a7a9b",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "DOR-01",
+          "TYR-01",
+          "SID-01"
+        ],
+        "overlap_with": [
+          "TRIBE-zebulun (inland rim, fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              32.66
+            ],
+            [
+              35.12,
+              32.9
+            ],
+            [
+              35.26,
+              33.22
+            ],
+            [
+              35.42,
+              33.6
+            ],
+            [
+              35.22,
+              33.48
+            ],
+            [
+              35.08,
+              33.22
+            ],
+            [
+              34.96,
+              32.9
+            ],
+            [
+              34.9,
+              32.58
+            ],
+            [
+              35.0,
+              32.66
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-naphtali",
+        "name": "Naphtali",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "Upper Galilee and the west side of the Sea of Galilee: Hazor, the later site of Dan (Laish), Abel-beth-maacah, Capernaum, Magdala, and Chorazin. This is not the Joshua allotment of the tribe of Dan.",
+        "caveats": "Tel Dan (DAN-01,DAN-02 and DAN-STELE) is inside this northern sketch because Laish is here. Joshua 19:47 and Judges 18 move Dan to Leshem/Laish later. Do not read this pin as the original Dan allotment. That allotment is TRIBE-dan, on the coast. Banias (BAN-01) is on the fuzzy Hermon edge. Caesarea Philippi is a later name. Bethsaida candidates (BETHS-01, BETHS-02) are left outside, east of this shore line. Hippos is outside, on the east shore. Capernaum is included as the west-shore country later called Naphtali (Matthew 4:13–15, citing Isaiah 9). It is not a Joshua city list entry. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:32–39",
+          "Joshua 19:47",
+          "Judges 18:27–29",
+          "Matthew 4:13–15"
+        ],
+        "color": "#5b458a",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "HAZ-01,HAZ-02",
+          "DAN-01,DAN-02",
+          "DAN-STELE",
+          "ABM-01",
+          "CAP-01,CAP-02",
+          "MAG-01,MAG-02",
+          "CHOR-01",
+          "BAN-01"
+        ],
+        "overlap_with": [
+          "TRIBE-zebulun (thin Galilee rim)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.42,
+              32.8
+            ],
+            [
+              35.54,
+              32.83
+            ],
+            [
+              35.6,
+              32.86
+            ],
+            [
+              35.66,
+              33.0
+            ],
+            [
+              35.74,
+              33.24
+            ],
+            [
+              35.72,
+              33.34
+            ],
+            [
+              35.5,
+              33.36
+            ],
+            [
+              35.38,
+              33.02
+            ],
+            [
+              35.38,
+              32.84
+            ],
+            [
+              35.42,
+              32.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-dan",
+        "name": "Dan",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 4,
+        "solidity": "mixed",
+        "claim": "Primary shape is the Joshua 19 allotment: northern Shephelah (Ekron, Timnah, Beth-shemesh, Emmaus/Aijalon) and the coast over against Joppa. Not Tel Dan.",
+        "caveats": "The later move north is real and is not this polygon. Joshua 19:47 and Judges 18 take Dan to Leshem/Laish. That city is Tel Dan, anchored on Naphtali as geography, with the migration stated there. Do not draw a second Dan blob in the Huleh. Judges 1:34 says the Amorites pressed Dan into the hill country. This fill is the allotment, not the land they held. Ekron, Timnah, and Beth-shemesh are also on Judah's north border. Fuzzy shared edge. Paint Dan above Judah. Gezer is kept out, with Ephraim. Aphek is kept out, on Ephraim's side of the Yarkon. Joppa is in. Lod is in both this fill and Ephraim. Fuzzy. The west notch near Gezer is only there so that pin stays with Ephraim. It is not a surveyed wadi. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 19:40–48",
+          "Judges 1:34",
+          "Judges 18:1",
+          "Judges 18:27–29"
+        ],
+        "color": "#9c4a1a",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "EKR-01",
+          "TIM-01",
+          "BSM-01",
+          "EMM-01",
+          "JOP-01",
+          "LYD-01"
+        ],
+        "overlap_with": [
+          "TRIBE-judah (Shephelah border towns)",
+          "TRIBE-ephraim (Lod only)"
+        ],
+        "ui_note": "Joshua allotment (coast)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.7,
+              31.75
+            ],
+            [
+              34.88,
+              31.72
+            ],
+            [
+              35.02,
+              31.73
+            ],
+            [
+              35.05,
+              31.85
+            ],
+            [
+              34.98,
+              31.845
+            ],
+            [
+              34.9,
+              31.855
+            ],
+            [
+              34.9,
+              31.98
+            ],
+            [
+              34.78,
+              32.08
+            ],
+            [
+              34.7,
+              32.08
+            ],
+            [
+              34.7,
+              31.9
+            ],
+            [
+              34.7,
+              31.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-reuben",
+        "name": "Reuben",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "East of the Jordan, from the Arnon up onto the Mishor: Dibon, Ataroth, and Heshbon. Not west of the river. Not the Gilead hills of Gad.",
+        "caveats": "The Mesha inscription, found at Dibon, says the men of Gad had lived at Ataroth from of old. Joshua's town list puts Dibon, Heshbon, and this plateau in Reuben. This sketch follows Joshua and does not draw a second Gad polygon over the Mishor. Jericho is west of the Jordan and is Benjamin. Do not slide Reuben across the Dead Sea. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 13:15–23",
+          "Numbers 32:33–38"
+        ],
+        "color": "#8a5a44",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "DIB-01",
+          "ATA-01",
+          "HES-01"
+        ],
+        "overlap_with": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.57,
+              31.35
+            ],
+            [
+              35.8,
+              31.3
+            ],
+            [
+              36.05,
+              31.42
+            ],
+            [
+              36.12,
+              31.62
+            ],
+            [
+              36.05,
+              31.8
+            ],
+            [
+              35.84,
+              31.88
+            ],
+            [
+              35.64,
+              31.84
+            ],
+            [
+              35.57,
+              31.58
+            ],
+            [
+              35.57,
+              31.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-gad",
+        "name": "Gad",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "East of the Jordan, north of Heshbon and south of the Jabbok: the valley town at Deir Alla (Succoth). A short block, not a corridor drawn up to the Sea of Galilee.",
+        "caveats": "Joshua 13:27 also names the Jordan valley toward the Sea of Chinnereth. That long finger is not drawn. A thin corridor would look like a survey. Dibon, Ataroth, and Heshbon stay in Reuben. See the Mesha tension on TRIBE-reuben. Gerasa and Pella are north of this block, in eastern Manasseh. Deir Alla is the anchor. The pin is east of the river. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 13:24–28",
+          "Numbers 32:34–36"
+        ],
+        "color": "#5c6b32",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "DEA-01"
+        ],
+        "overlap_with": [
+          "TRIBE-manasseh-east (Jabbok rim, thin and fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.57,
+              31.9
+            ],
+            [
+              35.82,
+              31.9
+            ],
+            [
+              36.05,
+              32.06
+            ],
+            [
+              36.05,
+              32.2
+            ],
+            [
+              35.78,
+              32.25
+            ],
+            [
+              35.6,
+              32.25
+            ],
+            [
+              35.57,
+              32.1
+            ],
+            [
+              35.57,
+              31.98
+            ],
+            [
+              35.57,
+              31.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TRIBE-manasseh-east",
+        "name": "Manasseh (east)",
+        "layer_key": "tribal_allotments",
+        "draw_rank": 2,
+        "solidity": "mixed",
+        "claim": "The other half of Manasseh: Gilead north of the Jabbok, and Bashan. East of the Jordan only. Pella, Gerasa, and Gamla are the anchors.",
+        "caveats": "Half-Manasseh here is Joshua 13:29–31 (Gilead and Bashan), not the western hills. Western Manasseh is a separate fill. The broad fill also covers later east-shore and Decapolis sites HIPP-01 (Hippos), KURSI-01 (Kursi), and GAD-01 (Gadara). They are not anchors and they are not Joshua cities. Leave them unlisted in the panel or mark them as later names on the same sketch. Gamla is a Second Temple site on the Bashan/Golan edge, used only as a geographic anchor for the east plateau. Does not reach Damascus. Does not cross the Jordan. Deir Alla stays with Gad. Sketch only, about 20–80 km, not a surveyed border. Solidity is mixed at best and weak on the edges. Do not read a vertex as a field line.",
+        "lsb_refs": [
+          "Joshua 13:29–31",
+          "Joshua 17:1",
+          "Joshua 17:5–6"
+        ],
+        "color": "#0e6b58",
+        "fill_opacity": 0.46,
+        "tradition": "Geographic tradition: Aharoni; Rainey/Notley. No page number. These rings were not traced from those maps.",
+        "anchor_pin_ids": [
+          "PEL-01",
+          "GER-01",
+          "GAM-01"
+        ],
+        "overlap_with": [
+          "TRIBE-gad (Jabbok rim, thin and fuzzy)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.58,
+              32.28
+            ],
+            [
+              35.85,
+              32.22
+            ],
+            [
+              36.12,
+              32.46
+            ],
+            [
+              36.38,
+              32.92
+            ],
+            [
+              36.12,
+              33.16
+            ],
+            [
+              35.78,
+              33.1
+            ],
+            [
+              35.6,
+              32.7
+            ],
+            [
+              35.58,
+              32.42
+            ],
+            [
+              35.58,
+              32.28
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

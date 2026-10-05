@@ -1,0 +1,839 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.161,
+            36.2025
+          ],
+          [
+            35.922,
+            36.12
+          ],
+          [
+            33.9028,
+            35.1856
+          ],
+          [
+            32.415,
+            34.757
+          ],
+          [
+            30.854,
+            36.959
+          ],
+          [
+            31.177,
+            38.304
+          ],
+          [
+            32.485,
+            37.872
+          ],
+          [
+            32.34,
+            37.601
+          ],
+          [
+            33.189,
+            37.352
+          ],
+          [
+            32.34,
+            37.601
+          ],
+          [
+            32.485,
+            37.872
+          ],
+          [
+            31.177,
+            38.304
+          ],
+          [
+            30.854,
+            36.959
+          ],
+          [
+            30.703,
+            36.884
+          ],
+          [
+            36.161,
+            36.2025
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PAUL-J1",
+        "name": "Paul — Missionary Journey 1",
+        "apostle_id": "paul",
+        "apostle_name": "Paul",
+        "journey": 1,
+        "source_basis": "acts",
+        "acts_refs": "Acts 13:1–14:28",
+        "honesty": "Stop sequence from Acts; paths are straight map connectors between known places, not reconstructed ancient roads.",
+        "stops": [
+          "antioch_syria",
+          "seleucia_pieria",
+          "salamis_cyprus",
+          "paphos",
+          "perga",
+          "antioch_pisidia",
+          "iconium",
+          "lystra",
+          "derbe",
+          "lystra",
+          "iconium",
+          "antioch_pisidia",
+          "perga",
+          "attalia",
+          "antioch_syria"
+        ],
+        "stop_count": 15,
+        "color": "#38bdf8",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Paul Journey 1: Cyprus + southern Anatolia corridor — Cyprus DoA + Turkish MoC primary. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.161,
+            36.2025
+          ],
+          [
+            34.895,
+            36.916
+          ],
+          [
+            33.189,
+            37.352
+          ],
+          [
+            32.34,
+            37.601
+          ],
+          [
+            32.485,
+            37.872
+          ],
+          [
+            26.1579,
+            39.751
+          ],
+          [
+            24.401,
+            40.939
+          ],
+          [
+            24.2859,
+            41.0119
+          ],
+          [
+            23.847,
+            40.824
+          ],
+          [
+            23.531,
+            40.728
+          ],
+          [
+            22.944,
+            40.64
+          ],
+          [
+            22.205,
+            40.523
+          ],
+          [
+            23.7225,
+            37.9749
+          ],
+          [
+            22.8805,
+            37.906
+          ],
+          [
+            23.002,
+            37.882
+          ],
+          [
+            27.341,
+            37.939
+          ],
+          [
+            34.891,
+            32.5005
+          ],
+          [
+            35.2354,
+            31.7767
+          ],
+          [
+            36.161,
+            36.2025
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PAUL-J2",
+        "name": "Paul — Missionary Journey 2",
+        "apostle_id": "paul",
+        "apostle_name": "Paul",
+        "journey": 2,
+        "source_basis": "acts",
+        "acts_refs": "Acts 15:36–18:22",
+        "honesty": "Includes Syria/Cilicia–Galatia revisit then Macedonia/Achaia; Ephesus brief call on return (Acts 18:19–21).",
+        "stops": [
+          "antioch_syria",
+          "tarsus",
+          "derbe",
+          "lystra",
+          "iconium",
+          "troas",
+          "neapolis_kavala",
+          "philippi",
+          "amphipolis",
+          "apollonia_macedon",
+          "thessalonica",
+          "berea",
+          "athens",
+          "corinth",
+          "cenchreae",
+          "ephesus",
+          "caesarea_maritima",
+          "jerusalem",
+          "antioch_syria"
+        ],
+        "stop_count": 19,
+        "color": "#38bdf8",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Paul Journey 2: Syria/Cilicia–Anatolia–Macedonia–Achaia — Turkish MoC, Greek Ephorates, plus Levant stops. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.161,
+            36.2025
+          ],
+          [
+            32.485,
+            37.872
+          ],
+          [
+            27.341,
+            37.939
+          ],
+          [
+            26.1579,
+            39.751
+          ],
+          [
+            24.2859,
+            41.0119
+          ],
+          [
+            22.944,
+            40.64
+          ],
+          [
+            22.8805,
+            37.906
+          ],
+          [
+            24.2859,
+            41.0119
+          ],
+          [
+            26.1579,
+            39.751
+          ],
+          [
+            26.337,
+            39.49
+          ],
+          [
+            26.555,
+            39.11
+          ],
+          [
+            26.136,
+            38.368
+          ],
+          [
+            26.978,
+            37.753
+          ],
+          [
+            27.279,
+            37.53
+          ],
+          [
+            27.288,
+            36.891
+          ],
+          [
+            28.226,
+            36.443
+          ],
+          [
+            29.318,
+            36.266
+          ],
+          [
+            35.204,
+            33.27
+          ],
+          [
+            35.082,
+            32.927
+          ],
+          [
+            34.891,
+            32.5005
+          ],
+          [
+            35.2354,
+            31.7767
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PAUL-J3",
+        "name": "Paul — Missionary Journey 3",
+        "apostle_id": "paul",
+        "apostle_name": "Paul",
+        "journey": 3,
+        "source_basis": "acts",
+        "acts_refs": "Acts 18:23–21:17",
+        "honesty": "Long Ephesus stay then Macedonia/Greece; coastal return via Miletus (elders speech) to Jerusalem. Some inland Galatian towns summarized via Iconium node.",
+        "stops": [
+          "antioch_syria",
+          "iconium",
+          "ephesus",
+          "troas",
+          "philippi",
+          "thessalonica",
+          "corinth",
+          "philippi",
+          "troas",
+          "assos",
+          "mitylene",
+          "chios",
+          "samos",
+          "miletus",
+          "cos",
+          "rhodes",
+          "patara",
+          "tyre",
+          "ptolemais_acre",
+          "caesarea_maritima",
+          "jerusalem"
+        ],
+        "stop_count": 21,
+        "color": "#38bdf8",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Paul Journey 3: Ephesus-centered Anatolia + Greece return — Turkish MoC + Greek Ephorates. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.891,
+            32.5005
+          ],
+          [
+            35.368,
+            33.563
+          ],
+          [
+            29.985,
+            36.259
+          ],
+          [
+            24.808,
+            34.928
+          ],
+          [
+            14.3999,
+            35.9479
+          ],
+          [
+            15.287,
+            37.076
+          ],
+          [
+            15.647,
+            38.111
+          ],
+          [
+            14.122,
+            40.8219
+          ],
+          [
+            13.02,
+            41.48
+          ],
+          [
+            12.484,
+            41.892
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PAUL-ROME",
+        "name": "Paul — Voyage to Rome",
+        "apostle_id": "paul",
+        "apostle_name": "Paul",
+        "journey": 4,
+        "source_basis": "acts",
+        "acts_refs": "Acts 27:1–28:16",
+        "honesty": "Shipwreck pin uses traditional St Paul’s Bay, Malta (candidate; Acts names Melita). Forum Appii / Three Taverns approached via Forum Appii coordinate.",
+        "stops": [
+          "caesarea_maritima",
+          "sidon",
+          "myra",
+          "fair_havens",
+          "malta_st_paul_bay",
+          "syracuse",
+          "rhegium",
+          "puteoli",
+          "forum_appii",
+          "rome"
+        ],
+        "stop_count": 10,
+        "color": "#38bdf8",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Voyage to Rome: Levant–Asia Minor–Malta–Italy corridor — multi-authority including Heritage Malta + Italian MiC/Vatican at terminus. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.2354,
+            31.7767
+          ],
+          [
+            35.1899,
+            32.276
+          ],
+          [
+            34.888,
+            31.951
+          ],
+          [
+            34.752,
+            32.053
+          ],
+          [
+            34.891,
+            32.5005
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PETER-ACTS",
+        "name": "Peter — Judea / Samaria / Caesarea (Acts)",
+        "apostle_id": "peter",
+        "apostle_name": "Peter",
+        "journey": 1,
+        "source_basis": "acts",
+        "acts_refs": "Acts 8:14–25; 9:32–10:48; 11:1–18",
+        "honesty": "Samaria visit with John (Acts 8); Lydda–Joppa–Caesarea Cornelius arc (Acts 9–10).",
+        "stops": [
+          "jerusalem",
+          "samaria_sebaste",
+          "lydda",
+          "joppa",
+          "caesarea_maritima"
+        ],
+        "stop_count": 5,
+        "color": "#fb923c",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Peter Acts arc: Judea/Samaria/Caesarea — primarily IAA / complex West Bank + INPA Caesarea. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.2354,
+            31.7767
+          ],
+          [
+            36.161,
+            36.2025
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PETER-ANTIOCH",
+        "name": "Peter — Jerusalem to Antioch",
+        "apostle_id": "peter",
+        "apostle_name": "Peter",
+        "journey": 2,
+        "source_basis": "acts",
+        "acts_refs": "Galatians 2:11–14; cf. Acts 11–12 context",
+        "honesty": "Antioch confrontation is from Galatians (Paul’s letter), not a travelogue in Acts; line is schematic Jerusalem↔Antioch.",
+        "stops": [
+          "jerusalem",
+          "antioch_syria"
+        ],
+        "stop_count": 2,
+        "color": "#fb923c",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Jerusalem–Antioch: IAA/PA context to Turkish MoC (Antakya). MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            36.161,
+            36.2025
+          ],
+          [
+            12.484,
+            41.892
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PETER-ROME",
+        "name": "Peter — Antioch to Rome (tradition)",
+        "apostle_id": "peter",
+        "apostle_name": "Peter",
+        "journey": 3,
+        "source_basis": "tradition",
+        "acts_refs": "Early tradition (1 Clement; Gaius via Eusebius); not narrated in Acts",
+        "honesty": "TRADITION leg — dashed style in UI. Acts does not narrate Peter going to Rome.",
+        "stops": [
+          "antioch_syria",
+          "rome"
+        ],
+        "stop_count": 2,
+        "color": "#fb923c",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Tradition dashed leg Antioch→Rome — Turkish MoC to Vatican/Italian church authorities. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.2354,
+            31.7767
+          ],
+          [
+            35.1899,
+            32.276
+          ],
+          [
+            34.75,
+            31.65
+          ],
+          [
+            34.643,
+            31.794
+          ],
+          [
+            34.891,
+            32.5005
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-PHILIP-ACTS8",
+        "name": "Philip — Samaria / Gaza road / Azotus / Caesarea",
+        "apostle_id": "philip",
+        "apostle_name": "Philip the Evangelist",
+        "journey": 1,
+        "source_basis": "acts",
+        "acts_refs": "Acts 8:5–40",
+        "honesty": "Acts 8 Philip is the Evangelist (one of the Seven), often distinguished from Philip the Apostle. Gaza-road pin is a midpoint on the desert road tradition, not a named town in Acts.",
+        "stops": [
+          "jerusalem",
+          "samaria_sebaste",
+          "gaza_road_mid",
+          "azotus_ashdod",
+          "caesarea_maritima"
+        ],
+        "stop_count": 5,
+        "color": "#c084fc",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Philip Acts 8: Samaria–Gaza road–Azotus–Caesarea — IAA / coastal plain park authorities. MULTI-JURISDICTION: not a single managing authority."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.2354,
+            31.7767
+          ],
+          [
+            27.341,
+            37.939
+          ],
+          [
+            26.5479,
+            37.308
+          ]
+        ]
+      },
+      "properties": {
+        "id": "MIN-JOHN-TRAD",
+        "name": "John — Jerusalem → Ephesus → Patmos (tradition)",
+        "apostle_id": "john",
+        "apostle_name": "John",
+        "journey": 1,
+        "source_basis": "tradition",
+        "acts_refs": "Acts places John early in Jerusalem/Samaria; Ephesus residence Irenaeus/Eusebius; Patmos Rev 1:9",
+        "honesty": "TRADITION schematic — not a single Acts itinerary. Patmos is exile for Revelation; Ephesus is early-church tradition.",
+        "stops": [
+          "jerusalem",
+          "ephesus",
+          "patmos"
+        ],
+        "stop_count": 3,
+        "color": "#e11d48",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — apostle ministry route LineString (Acts/tradition schematic), not an excavation site.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "John tradition: Jerusalem→Ephesus→Patmos — IAA to Turkish MoC. MULTI-JURISDICTION: not a single managing authority.",
+          "official_website": "https://muze.gov.tr/muze-detay?SectionId=EFS01&DistId=EFS"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://muze.gov.tr/muze-detay?SectionId=EFS01&DistId=EFS",
+        "official_website_label": "Türkiye MoC — Ephesus Archaeological Site",
+        "sources": "Scripture citations: LSB (app standard); early refs as listed in feature notes",
+        "status_kind": "none"
+      }
+    }
+  ],
+  "metadata": {
+    "layer": "apostle_ministries",
+    "note": "Straight LineString connectors between Acts/tradition stops. Not ancient road geometries. Thomas India route deferred (insufficient sequential confidence for v1).",
+    "colors": {
+      "paul": "#38bdf8",
+      "peter": "#fb923c",
+      "philip": "#c084fc",
+      "john": "#e11d48"
+    },
+    "apostles_v1": [
+      "paul",
+      "peter",
+      "philip",
+      "john"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45912508737196,
+          31.74109813257868
+        ]
+      },
+      "properties": {
+        "id": "SPN-alberino-01",
+        "layer": "sponsor:alberino",
+        "name": "Qumran (Khirbet Qumran)",
+        "sponsor_id": "alberino",
+        "sponsor_label": "Expedition: Alberino (sponsor)",
+        "attached_map_pin_id": "QUM-01",
+        "attached_primary_id": "QUM-01",
+        "found": "Channel presents the 1947 Judean-desert cliff-cave discovery and treats the Book of Giants (and related Watchers/Nephilim narrative) as Dead Sea Scrolls material from the Qumran/Judean desert caves.",
+        "support": "Archive notes + transcript for zEW1k0qU8Sg (Book of Giants) and Er507MsGp0M (Book of Enoch) name DSS/Qumran cave discovery; both video ids verified in timothy-alberino-archive all-videos.tsv. Core OT pin QUM-01 already embeds both videos with contested-framing disclosure.",
+        "notes": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/zEW1k0qU8Sg",
+            "provider": "youtube",
+            "title": "The Alberino Analysis - The Book of Giants",
+            "source": "https://www.youtube.com/watch?v=zEW1k0qU8Sg",
+            "label": "Sponsor video (Alberino Analysis)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/Er507MsGp0M",
+            "provider": "youtube",
+            "title": "The Alberino Analysis - The Book of Enoch",
+            "source": "https://www.youtube.com/watch?v=Er507MsGp0M",
+            "label": "Sponsor video (Alberino Analysis)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://thealberinoanalysis.com/",
+        "sponsor_cta_host": "thealberinoanalysis.com",
+        "sponsor_cta_alt_url": "https://timothyalberino.com/",
+        "sponsor_cta_alt_label": "Timothy Alberino (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity.",
+        "ministry_label": "Timothy Alberino is an author/explorer/lecturer (Birthright; Book of Enoch commentary) whose Alberino Analysis members community and NephCon conference package alternative history, megaliths, Nephilim/Watchers theology, and UFO/disclosure topics. Channel presentation ≠ peer-reviewed dig consensus. Chip off-by-default. Thin biblical-map overlap expected after Kramer pack.",
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic",
+          "Roman / Byzantine"
+        ],
+        "sources": "Alberino Analysis YouTube (embed); timothyalberino.com / thealberinoanalysis.com (outbound). Links Qumran finds already on core with contested-framing disclosure.",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459259367651136,
+          31.74092192855833
+        ]
+      },
+      "properties": {
+        "id": "SPN-alberino-02",
+        "layer": "sponsor:alberino",
+        "name": "Qumran",
+        "sponsor_id": "alberino",
+        "sponsor_label": "Expedition: Alberino (sponsor)",
+        "attached_map_pin_id": "QUM-NT-01",
+        "attached_primary_id": "QUM-NT-01",
+        "found": "Same DSS cave-discovery / Book of Giants + Book of Enoch manuscript angle attached to the NT-context Qumran pointer (same complex as QUM-01).",
+        "support": "Same verified videos zEW1k0qU8Sg and Er507MsGp0M; core NT pin QUM-NT-01 already embeds both with contested-framing disclosure.",
+        "notes": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/zEW1k0qU8Sg",
+            "provider": "youtube",
+            "title": "The Alberino Analysis - The Book of Giants",
+            "source": "https://www.youtube.com/watch?v=zEW1k0qU8Sg",
+            "label": "Sponsor video (Alberino Analysis)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/Er507MsGp0M",
+            "provider": "youtube",
+            "title": "The Alberino Analysis - The Book of Enoch",
+            "source": "https://www.youtube.com/watch?v=Er507MsGp0M",
+            "label": "Sponsor video (Alberino Analysis)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://thealberinoanalysis.com/",
+        "sponsor_cta_host": "thealberinoanalysis.com",
+        "sponsor_cta_alt_url": "https://timothyalberino.com/",
+        "sponsor_cta_alt_label": "Timothy Alberino (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Birthright-Posthuman-Apocalypse-Usurpation-Dominion/dp/B08M83XF8W",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity.",
+        "ministry_label": "Timothy Alberino is an author/explorer/lecturer (Birthright; Book of Enoch commentary) whose Alberino Analysis members community and NephCon conference package alternative history, megaliths, Nephilim/Watchers theology, and UFO/disclosure topics. Channel presentation ≠ peer-reviewed dig consensus. Chip off-by-default. Thin biblical-map overlap expected after Kramer pack.",
+        "eras": [
+          "Persian / Hellenistic",
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "sources": "Alberino Analysis YouTube (embed); timothyalberino.com / thealberinoanalysis.com (outbound). Links Qumran finds already on core with contested-framing disclosure.",
+        "status_kind": "visitor"
+      }
+    }
+  ]
+}

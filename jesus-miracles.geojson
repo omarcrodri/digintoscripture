@@ -1,0 +1,1632 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.30269,
+          32.8222
+        ]
+      },
+      "properties": {
+        "id": "JM-01",
+        "name": "Cana — water to wine",
+        "miracle_summary": "First sign: water turned to wine at a wedding in Cana of Galilee.",
+        "verses": "John 2:1-11",
+        "location": "Cana of Galilee",
+        "gospel_refs": "John 2:1-11",
+        "sources": "John 2; OpenBible Cana (Horbat Qana candidate vs Kafr Kanna tradition). Coord: OpenBible.info atlas (Cana).",
+        "notes": "Cana has competing IDs (Khirbet Qana vs Kafr Kanna). Atlas uses Horbat Qana; unconfirmed vs tradition.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Cana",
+        "strongs_id": "G2580",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2580/kjv/tr/0-1/",
+        "strongs_lemma": "Κανᾶ",
+        "lat": 32.8222,
+        "lon": 35.30269,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Cana — IAA; church properties at Kafr Kanna traditions. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.576903,
+          32.880918
+        ]
+      },
+      "properties": {
+        "id": "JM-02",
+        "name": "Capernaum — base healings (fever and many)",
+        "miracle_summary": "Capernaum base: Peter's mother-in-law and many sick healed at evening.",
+        "verses": "Matthew 8:14-17; Mark 1:29-34; Luke 4:38-41",
+        "location": "Capernaum",
+        "gospel_refs": "Matthew 8; Mark 1; Luke 4",
+        "sources": "NT dig Capernaum (Kefar Nahum). Coord: ot/nt dig pin.",
+        "notes": "Pin at Capernaum dig for Galilean base healings.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Capernaum",
+        "strongs_id": "G2584",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/",
+        "strongs_lemma": "Καπερναούμ",
+        "creation_ministry": {
+          "blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "panel_blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Archaeological Find Confirms the New Testament",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/08/28/archaeological-find-confirms-new-testament/",
+              "summary": "Ken Ham on Galilee first-century synagogue finds used as NT-era context.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.880918,
+        "lon": 35.576903,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Franciscan Custody of the Holy Land (Capernaum) + IAA",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Capernaum healings — Franciscan Custody + IAA (see CAP-01). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.576903,
+          32.880918
+        ]
+      },
+      "properties": {
+        "id": "JM-03",
+        "name": "Capernaum — paralytic forgiven and healed",
+        "miracle_summary": "Paralytic lowered through the roof; forgiven and walked.",
+        "verses": "Mark 2:1-12; Matthew 9:1-8; Luke 5:17-26",
+        "location": "Capernaum",
+        "gospel_refs": "Mark 2; Matthew 9; Luke 5",
+        "sources": "NT dig Capernaum. Coord: ot/nt dig pin.",
+        "notes": "Same town dig pin; distinct event.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Capernaum",
+        "strongs_id": "G2584",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/",
+        "strongs_lemma": "Καπερναούμ",
+        "creation_ministry": {
+          "blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "panel_blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Archaeological Find Confirms the New Testament",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/08/28/archaeological-find-confirms-new-testament/",
+              "summary": "Ken Ham on Galilee first-century synagogue finds used as NT-era context.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.880918,
+        "lon": 35.576903,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Franciscan Custody of the Holy Land (Capernaum) + IAA",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Capernaum paralytic — Franciscan Custody + IAA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.576903,
+          32.880918
+        ]
+      },
+      "properties": {
+        "id": "JM-04",
+        "name": "Capernaum — centurion's servant",
+        "miracle_summary": "Healed a centurion's servant at a distance; faith praised.",
+        "verses": "Matthew 8:5-13; Luke 7:1-10",
+        "location": "Capernaum",
+        "gospel_refs": "Matthew 8; Luke 7",
+        "sources": "NT dig Capernaum. Coord: ot/nt dig pin.",
+        "notes": "Capernaum dig pin.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Capernaum",
+        "strongs_id": "G2584",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/",
+        "strongs_lemma": "Καπερναούμ",
+        "creation_ministry": {
+          "blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "panel_blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Archaeological Find Confirms the New Testament",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/08/28/archaeological-find-confirms-new-testament/",
+              "summary": "Ken Ham on Galilee first-century synagogue finds used as NT-era context.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.880918,
+        "lon": 35.576903,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Franciscan Custody of the Holy Land (Capernaum) + IAA",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Capernaum centurion — Franciscan Custody + IAA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.236657,
+          31.780554
+        ]
+      },
+      "properties": {
+        "id": "JM-05",
+        "name": "Bethesda — lame man healed",
+        "miracle_summary": "Invalid healed at the Sheep Gate pools called Bethesda.",
+        "verses": "John 5:1-9",
+        "location": "Jerusalem — Bethesda",
+        "gospel_refs": "John 5:1-9",
+        "sources": "NT dig Bethesda / St. Anne pools. Coord: ot/nt dig pin.",
+        "notes": "Excavated twin pools match Johannine setting.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Bethesda",
+        "strongs_id": "G964",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g964/kjv/tr/0-1/",
+        "strongs_lemma": "Βηθεσδά",
+        "creation_ministry": {
+          "blurb": "No verified answersingenesis.org article specifically on the Pool of Bethesda / Sheep Gate excavations was found. CM Borderland and Ark Encounter Jerusalem model provide general first-century Jerusalem ministry framing only.",
+          "panel_blurb": "No verified answersingenesis.org article specifically on the Pool of Bethesda / Sheep Gate excavations was found. CM Borderland and Ark Encounter Jerusalem model provide general first-century Jerusalem ministry framing only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.780554,
+        "lon": 35.236657,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "White Fathers / St. Anne’s + IAA (Bethesda)",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Bethesda — St. Anne’s / White Fathers + IAA (see JER-NT-05). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235359,
+          31.770475
+        ]
+      },
+      "properties": {
+        "id": "JM-06",
+        "name": "Siloam — man born blind",
+        "miracle_summary": "Blind man washed in the pool of Siloam and came seeing.",
+        "verses": "John 9:1-11",
+        "location": "Jerusalem — Pool of Siloam",
+        "gospel_refs": "John 9:1-11",
+        "sources": "NT dig Pool of Siloam. Coord: ot/nt dig pin.",
+        "notes": "Pool excavated; pilgrimage road context nearby.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Siloam",
+        "strongs_id": "G4611",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g4611/kjv/tr/0-1/",
+        "strongs_lemma": "Σιλωάμ",
+        "creation_ministry": {
+          "blurb": "AiG Hezekiah articles highlight Siloam Tunnel/pool waterworks as still-visible Jerusalem archaeology. Ark Encounter’s first-century Jerusalem model and Creation Museum Borderland supply NT-era Jerusalem thematic context—not Siloam-specific dig panels.",
+          "panel_blurb": "AiG Hezekiah articles highlight Siloam Tunnel/pool waterworks as still-visible Jerusalem archaeology. Ark Encounter’s first-century Jerusalem model and Creation Museum Borderland supply NT-era Jerusalem thematic context—not Siloam-specific dig panels.",
+          "coverage": "site_specific",
+          "aig": [
+            {
+              "title": "Inscription “One of the Most Important Archaeological Discoveries in Israel of All Time”",
+              "url": "https://answersingenesis.org/archaeology/one-of-the-most-important-archaeological-discoveries/",
+              "summary": "AiG on Hezekiah-related inscriptions summarizing Siloam Tunnel/pool works and other reforms; also notes Lachish siege archaeology.",
+              "kind": "article"
+            },
+            {
+              "title": "Discovery of King Hezekiah’s Seal Confirms God’s Word",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/01/12/discovery-king-hezekiahs-seal-confirms-gods-word/",
+              "summary": "Ken Ham on Hezekiah bulla from Jerusalem; also cites Hezekiah's tunnel and Lachish siege as corroboration.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.770475,
+        "lon": 35.235359,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "IAA + City of David (Pool of Siloam)",
+          "type": "mixed",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "077-9966726",
+          "contact_url": "https://cityofdavid.org.il/en/contact-us/",
+          "notes": "Siloam blind man — IAA + City of David (see JER-NT-01). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://cityofdavid.org.il/en/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://cityofdavid.org.il/en/",
+        "official_website_label": "City of David",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.350139,
+          32.630694
+        ]
+      },
+      "properties": {
+        "id": "JM-07",
+        "name": "Nain — widow's son raised",
+        "miracle_summary": "Jesus raised a widow's only son at the town gate of Nain.",
+        "verses": "Luke 7:11-17",
+        "location": "Nain",
+        "gospel_refs": "Luke 7:11-17",
+        "sources": "Luke 7; OpenBible Nain (Nein). Coord: OpenBible.info atlas (Nain).",
+        "notes": "Village identified with Nein near Nazareth.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Nain",
+        "strongs_id": "G3484",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g3484/kjv/tr/0-1/",
+        "strongs_lemma": "Ναΐν",
+        "lat": 32.630694,
+        "lon": 35.350139,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Nain — IAA; village church tradition. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.265962,
+          31.769934
+        ]
+      },
+      "properties": {
+        "id": "JM-08",
+        "name": "Bethany — Lazarus raised",
+        "miracle_summary": "Lazarus raised after four days in the tomb at Bethany.",
+        "verses": "John 11:1-44",
+        "location": "Bethany",
+        "gospel_refs": "John 11:1-44",
+        "sources": "John 11; NT dig Bethany (al-Eizariya). Coord: ot/nt dig pin.",
+        "notes": "Pin at Bethany dig/tradition town east of Olivet.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Bethany",
+        "strongs_id": "G963",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g963/kjv/tr/0-1/",
+        "strongs_lemma": "Βηθανία",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "panel_blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.769934,
+        "lon": 35.265962,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Bethany Lazarus — PA / Franciscan Lazarium tradition. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.590033,
+          32.818906
+        ]
+      },
+      "properties": {
+        "id": "JM-09",
+        "name": "Sea of Galilee — calming the storm",
+        "miracle_summary": "Rebuked wind and sea; calm followed.",
+        "verses": "Mark 4:35-41; Matthew 8:23-27; Luke 8:22-25",
+        "location": "Sea of Galilee",
+        "gospel_refs": "Mark 4; Matthew 8; Luke 8",
+        "sources": "Synoptics; OpenBible Sea of Galilee; nearby NT digs Capernaum/Magdala/Kursi. Coord: OpenBible.info atlas (Sea of Galilee).",
+        "notes": "Event on the lake — pin at atlas lake point, not a shoreline dig.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "lat": 32.818906,
+        "lon": 35.590033,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Sea of Galilee storm — multi-shore IAA / INPA lake parks; not a single dig. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.590033,
+          32.818906
+        ]
+      },
+      "properties": {
+        "id": "JM-10",
+        "name": "Sea of Galilee — walking on water",
+        "miracle_summary": "Walked on the sea toward the boat; Peter's brief walk.",
+        "verses": "Matthew 14:22-33; Mark 6:45-52; John 6:16-21",
+        "location": "Sea of Galilee",
+        "gospel_refs": "Matthew 14; Mark 6; John 6",
+        "sources": "Gospels; OpenBible Sea of Galilee. Coord: OpenBible.info atlas (Sea of Galilee).",
+        "notes": "Lake event pin.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "lat": 32.818906,
+        "lon": 35.590033,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Walking on water — Sea of Galilee; IAA/INPA lake context. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.507222,
+          32.860556
+        ]
+      },
+      "properties": {
+        "id": "JM-11",
+        "name": "Gennesaret — shoreline healings",
+        "miracle_summary": "After crossing, healings in the Gennesaret shoreline region.",
+        "verses": "Matthew 14:34-36; Mark 6:53-56",
+        "location": "Gennesaret",
+        "gospel_refs": "Matthew 14; Mark 6",
+        "sources": "OpenBible Gennesaret; Magdala dig nearby on west shore. Coord: OpenBible.info atlas (Gennesaret).",
+        "notes": "Plain/shore region pin.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "lat": 32.860556,
+        "lon": 35.507222,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Gennesaret shoreline — IAA / Magdala-Ginosar area. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.634926,
+          32.8917
+        ]
+      },
+      "properties": {
+        "id": "JM-12",
+        "name": "Feeding of the 5,000 — Bethsaida shore region",
+        "miracle_summary": "Fed five thousand with five loaves and two fish (northeast shore traditions vary).",
+        "verses": "Mark 6:30-44; Luke 9:10-17; John 6:1-14",
+        "location": "Bethsaida region / Galilee shore",
+        "gospel_refs": "Mark 6; Luke 9; John 6",
+        "sources": "Luke links Bethsaida; NT Bethsaida candidate digs (et-Tell / el-Araj). Coord: ot/nt dig pin.",
+        "notes": "Exact hillside debated; pin uses el-Araj Bethsaida candidate on map.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Bethsaida",
+        "strongs_id": "G966",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g966/kjv/tr/0-1/",
+        "strongs_lemma": "Βηθσαϊδά",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "panel_blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.8917,
+        "lon": 35.634926,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Feeding 5,000 Bethsaida shore — IAA (et-Tell / el-Araj candidates). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.659655,
+          32.778559
+        ]
+      },
+      "properties": {
+        "id": "JM-13",
+        "name": "Feeding of the 4,000 — Decapolis side",
+        "miracle_summary": "Fed four thousand on the Decapolis / east-shore itinerary.",
+        "verses": "Mark 8:1-10; Matthew 15:32-39",
+        "location": "Decapolis / east Galilee",
+        "gospel_refs": "Mark 8; Matthew 15",
+        "sources": "Mark 7-8 Decapolis context; NT dig Hippos/Sussita as Decapolis map anchor. Coord: ot/nt dig pin.",
+        "notes": "Regional pin at Hippos — event hillside not excavated as such.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Decapolis",
+        "strongs_id": "G1179",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g1179/kjv/tr/0-1/",
+        "strongs_lemma": "Δεκάπολις",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "panel_blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.778559,
+        "lon": 35.659655,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Feeding 4,000 Decapolis side — IAA / Hippos-Sussita / east shore parks. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.649965,
+          32.782912
+        ]
+      },
+      "properties": {
+        "id": "JM-14",
+        "name": "Gerasene/Gadara/Gergesa — demoniac and pigs",
+        "miracle_summary": "Delivered demoniac(s); herd of pigs rushed into the sea. Manuscripts/place names vary.",
+        "verses": "Mark 5:1-20; Matthew 8:28-34; Luke 8:26-39",
+        "location": "East shore of Galilee (Gergesa/Kursi tradition vs Gadara/Gerasa names)",
+        "gospel_refs": "Mark 5; Matthew 8; Luke 8",
+        "sources": "NT dig Kursi (Gergesa tradition) and Umm Qais (Gadara). Byzantine Kursi marks early Christian memory. Coord: ot/nt dig pin.",
+        "notes": "Synoptic city names differ; many maps favor Kursi/Gergesa for the steep bank. Pin = Kursi dig (unconfirmed vs Gadara political name).",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "lat": 32.782912,
+        "lon": 35.649965,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "INPA (Kursi) + IAA; competing Gadara DoA Jordan",
+          "type": "mixed",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "moked@npa.org.il",
+          "contact_phone": "*3639",
+          "contact_url": "https://en.parks.org.il/",
+          "notes": "Gerasene/Kursi tradition — INPA Kursi + IAA; competing Gadara (DoA Jordan Umm Qais). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.432955,
+          31.849912
+        ]
+      },
+      "properties": {
+        "id": "JM-15",
+        "name": "Jericho — Bartimaeus sight restored",
+        "miracle_summary": "Blind Bartimaeus healed as Jesus left Jericho.",
+        "verses": "Mark 10:46-52; Luke 18:35-43",
+        "location": "Jericho",
+        "gospel_refs": "Mark 10; Luke 18",
+        "sources": "NT dig Jericho Herodian/NT-era. Coord: ot/nt dig pin.",
+        "notes": "Roadside departure from Jericho — pin at NT Jericho.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Jericho",
+        "strongs_id": "G2410",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2410/kjv/tr/0-1/",
+        "strongs_lemma": "Ἰεριχώ",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "panel_blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.849912,
+        "lon": 35.432955,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Jericho Bartimaeus — PA Jericho / Tell es-Sultan vicinity. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://whc.unesco.org/en/list/1687/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/1687/",
+        "official_website_label": "UNESCO — Ancient Jericho / Tell es-Sultan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.576903,
+          32.880918
+        ]
+      },
+      "properties": {
+        "id": "JM-16",
+        "name": "Capernaum — Jairus's daughter raised",
+        "miracle_summary": "Synagogue leader's daughter raised; hemorrhaging woman healed on the way.",
+        "verses": "Mark 5:21-43; Matthew 9:18-26; Luke 8:40-56",
+        "location": "Capernaum",
+        "gospel_refs": "Mark 5; Matthew 9; Luke 8",
+        "sources": "NT dig Capernaum. Coord: ot/nt dig pin.",
+        "notes": "Capernaum dig pin.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Capernaum",
+        "strongs_id": "G2584",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/",
+        "strongs_lemma": "Καπερναούμ",
+        "creation_ministry": {
+          "blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "panel_blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Archaeological Find Confirms the New Testament",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/08/28/archaeological-find-confirms-new-testament/",
+              "summary": "Ken Ham on Galilee first-century synagogue finds used as NT-era context.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.880918,
+        "lon": 35.576903,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Franciscan Custody of the Holy Land (Capernaum) + IAA",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Jairus’s daughter Capernaum — Franciscan Custody + IAA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.196076,
+          33.270533
+        ]
+      },
+      "properties": {
+        "id": "JM-17",
+        "name": "Tyre/Sidon region — Canaanite woman's daughter",
+        "miracle_summary": "Daughter delivered from a demon after the mother's plea in the Tyre–Sidon district.",
+        "verses": "Matthew 15:21-28; Mark 7:24-30",
+        "location": "Region of Tyre and Sidon",
+        "gospel_refs": "Matthew 15; Mark 7",
+        "sources": "OT dig Tyre; Sidon dig. Coord: ot/nt dig pin.",
+        "notes": "Regional ministry pin at Tyre dig (district, not a house address).",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "biblical_name": "Tyre",
+        "strongs_id": "H6865",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6865/kjv/wlc/0-1/",
+        "strongs_lemma": "צֹר",
+        "creation_ministry": {
+          "blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "panel_blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 33.270533,
+        "lon": 35.196076,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Directorate General of Antiquities (DGA), Lebanon — Ministry of Culture",
+          "type": "national_antiquities",
+          "role": "National DGA under Ministry of Culture oversees archaeological sites in Lebanon.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.culture.gov.lb/",
+          "notes": "Tyre/Sidon region — Lebanese DGA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://whc.unesco.org/en/list/299/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/299/",
+        "official_website_label": "UNESCO — Tyre",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.659655,
+          32.778559
+        ]
+      },
+      "properties": {
+        "id": "JM-18",
+        "name": "Decapolis — deaf man healed (Ephphatha)",
+        "miracle_summary": "Deaf man with speech difficulty healed; Ephphatha.",
+        "verses": "Mark 7:31-37",
+        "location": "Decapolis",
+        "gospel_refs": "Mark 7:31-37",
+        "sources": "Mark 7 Decapolis itinerary; NT Hippos dig as Decapolis anchor. Coord: ot/nt dig pin.",
+        "notes": "Regional Decapolis pin.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Decapolis",
+        "strongs_id": "G1179",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g1179/kjv/tr/0-1/",
+        "strongs_lemma": "Δεκάπολις",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "panel_blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.778559,
+        "lon": 35.659655,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Decapolis deaf man — IAA / Decapolis parks (Hippos etc.) / possible DoA Jordan. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.634926,
+          32.8917
+        ]
+      },
+      "properties": {
+        "id": "JM-19",
+        "name": "Bethsaida — blind man (two-stage)",
+        "miracle_summary": "Blind man healed in stages at Bethsaida.",
+        "verses": "Mark 8:22-26",
+        "location": "Bethsaida",
+        "gospel_refs": "Mark 8:22-26",
+        "sources": "NT Bethsaida candidates. Coord: ot/nt dig pin.",
+        "notes": "Pin at el-Araj candidate; et-Tell also on map — identity contested.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Bethsaida",
+        "strongs_id": "G966",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g966/kjv/tr/0-1/",
+        "strongs_lemma": "Βηθσαϊδά",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "panel_blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.8917,
+        "lon": 35.634926,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Bethsaida blind man — IAA (candidate sites). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.243558,
+          31.777727
+        ]
+      },
+      "properties": {
+        "id": "JM-20",
+        "name": "Olivet / arrest — Malchus's ear restored",
+        "miracle_summary": "At the arrest, ear of the high priest's servant restored (Luke).",
+        "verses": "Luke 22:50-51; John 18:10",
+        "location": "Jerusalem — Gethsemane / arrest area",
+        "gospel_refs": "Luke 22; John 18",
+        "sources": "Gospels; Mount of Olives / Gethsemane tradition near NT Olivet dig. Coord: ot/nt dig pin.",
+        "notes": "Arrest locale on Olivet approach — pin at Mount of Olives NT feature.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Olivet",
+        "strongs_id": "G1638",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g1638/kjv/tr/0-1/",
+        "strongs_lemma": "ἐλαιών",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG / Creation Museum / Ark Encounter page was verified for this NT site. CM Borderland and Ark Encounter’s Jerusalem model are thematic NT ministry exhibits only—not dig reports for this coordinate.",
+          "panel_blurb": "No site-specific AiG / Creation Museum / Ark Encounter page was verified for this NT site. CM Borderland and Ark Encounter’s Jerusalem model are thematic NT ministry exhibits only—not dig reports for this coordinate.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 31.777727,
+        "lon": 35.243558,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Gethsemane Malchus — Franciscan Custody Gethsemane + IAA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.30269,
+          32.8222
+        ]
+      },
+      "properties": {
+        "id": "JM-21",
+        "name": "Cana — official's son (second Cana sign)",
+        "miracle_summary": "Royal official's son healed at Capernaum while Jesus was at Cana.",
+        "verses": "John 4:46-54",
+        "location": "Cana of Galilee (Jesus spoke the word)",
+        "gospel_refs": "John 4:46-54",
+        "sources": "John 4; OpenBible Cana; Capernaum dig for the sick child locale. Coord: OpenBible.info atlas (Cana).",
+        "notes": "Second Cana sign; Cana ID still debated.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Cana",
+        "strongs_id": "G2580",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2580/kjv/tr/0-1/",
+        "strongs_lemma": "Κανᾶ",
+        "lat": 32.8222,
+        "lon": 35.30269,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Cana official’s son — IAA / Kafr Kanna church traditions. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.576903,
+          32.880918
+        ]
+      },
+      "properties": {
+        "id": "JM-22",
+        "name": "Galilee — leper cleansed (Capernaum itinerary)",
+        "miracle_summary": "Leper cleansed; told to show himself to the priest.",
+        "verses": "Mark 1:40-45; Matthew 8:1-4; Luke 5:12-16",
+        "location": "Galilee (Capernaum itinerary)",
+        "gospel_refs": "Mark 1; Matthew 8; Luke 5",
+        "sources": "Synoptics early Galilee itinerary; NT Capernaum dig as base pin. Coord: ot/nt dig pin.",
+        "notes": "Town not named; Capernaum-base itinerary pin.",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Capernaum",
+        "strongs_id": "G2584",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2584/kjv/tr/0-1/",
+        "strongs_lemma": "Καπερναούμ",
+        "creation_ministry": {
+          "blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "panel_blurb": "Ken Ham’s AiG blog on Galilee synagogue archaeology is the closest verified Capernaum-region coverage; no Capernaum “House of Peter” monographic AiG page verified. CM Borderland supplies NT Galilee thematic exhibit context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Archaeological Find Confirms the New Testament",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/08/28/archaeological-find-confirms-new-testament/",
+              "summary": "Ken Ham on Galilee first-century synagogue finds used as NT-era context.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.880918,
+        "lon": 35.576903,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Galilee leper — IAA Capernaum itinerary context. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.507222,
+          32.860556
+        ]
+      },
+      "properties": {
+        "id": "JM-23",
+        "name": "Gennesaret shore — miraculous catch of fish (Luke)",
+        "miracle_summary": "Huge catch after empty night; nets breaking (Luke call narrative).",
+        "verses": "Luke 5:1-11",
+        "location": "Sea of Galilee / Gennesaret shore",
+        "gospel_refs": "Luke 5:1-11",
+        "sources": "Luke 5; OpenBible Sea of Galilee / Gennesaret. Coord: OpenBible.info atlas (Gennesaret).",
+        "notes": "Lake/shore event.",
+        "layer": "jesus-miracles",
+        "confidence": "confirmed",
+        "lat": 32.860556,
+        "lon": 35.507222,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Miraculous catch (Luke) — Sea of Galilee / IAA-INPA. Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.539937,
+          32.779963
+        ]
+      },
+      "properties": {
+        "id": "JM-24",
+        "name": "Sea of Tiberias — 153 fish (post-resurrection)",
+        "miracle_summary": "Risen Jesus directs another catch; 153 fish; breakfast on shore.",
+        "verses": "John 21:1-14",
+        "location": "Sea of Galilee (Tiberias)",
+        "gospel_refs": "John 21:1-14",
+        "sources": "John 21; NT Tiberias dig as Sea of Tiberias naming anchor. Coord: ot/nt dig pin.",
+        "notes": "Pin at Tiberias dig; traditional Tabgha shore meal site is nearby tradition (not the dig footprint).",
+        "layer": "jesus-miracles",
+        "confidence": "unconfirmed",
+        "biblical_name": "Tiberias",
+        "strongs_id": "G5085",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g5085/kjv/tr/0-1/",
+        "strongs_lemma": "Τιβεριάς",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "panel_blurb": "No site-specific AiG page verified for this Galilee/Israel NT site. Creation Museum Borderland (Israel at the Time of Jesus) is thematic ministry exhibit context only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.779963,
+        "lon": 35.539937,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus miracle tradition pin (memoria / Gospel setting). No separate dig-halt campaign for this pin; check NT dig pins (Capernaum, Bethesda, Siloam, etc.) for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Benedictine Abbey at Tabgha / INPA / IAA (Sea of Galilee tradition)",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.tabgha.org/",
+          "notes": "153 fish post-resurrection — Sea of Galilee / IAA-INPA; Tabgha church tradition (Benedictine). Miracle narrative pin — use regional antiquities/church authorities at the place tradition, not a miracle dig office.",
+          "official_website": "https://www.custodia.org/en/sanctuaries/tabgha"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.custodia.org/en/sanctuaries/tabgha",
+        "official_website_label": "Custody of the Holy Land — Tabgha",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2295,
+          31.7785
+        ]
+      },
+      "properties": {
+        "id": "JM-GOLGOTHA",
+        "layer": "jesus-miracles",
+        "name": "Golgotha / Calvary — crucifixion of Jesus",
+        "miracle_summary": "Jesus is crucified at the Place of a Skull (Golgotha / Calvary). This pin marks the crucifixion site tradition — not a healing sign. Competing memorials exist (Holy Sepulchre vs Garden Tomb); dig proof of the exact first-century spot remains debated.",
+        "verses": "Matthew 27:33–50; Mark 15:22–37; Luke 23:33–46; John 19:17–30",
+        "location": "Jerusalem — traditional Golgotha / Calvary (Church of the Holy Sepulchre precinct commonly marked; Garden Tomb is an alternate Protestant tradition)",
+        "gospel_refs": "Matt 27; Mark 15; Luke 23; John 19",
+        "sources": "Gospel accounts (LSB on-screen); Holy Sepulchre / Jerusalem pilgrimage tradition; competing Garden Tomb tradition noted for honesty",
+        "notes": "Honesty: exact first-century Crucifixion bedrock location is not settled by a single undisputed dig. Pin uses the long-standing Holy Sepulchre area coordinates as the dominant historic pilgrimage marker.",
+        "confidence": "tradition",
+        "marker_style": "wooden_cross",
+        "biblical_name": "Golgotha / Calvary",
+        "strongs_id": "G1115",
+        "strongs_lemma": "Golgotha",
+        "strongs_lang": "G",
+        "strongs_gloss": "skull (Place of a Skull)",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g1115/kjv/tr/0-1/",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Jesus crucifixion tradition / memoria pin (Church of the Holy Sepulchre area). Not a dedicated modern excavation-campaign halt record for this pin; see Jerusalem NT dig pins for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Status Quo churches (Holy Sepulchre) + Israel Antiquities Authority (surroundings)",
+          "type": "church",
+          "role": "Church of the Holy Sepulchre under multi-denomination Status Quo; IAA regulates antiquities in the area.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Golgotha tradition primarily at Church of the Holy Sepulchre (Status Quo). Competing Garden Tomb tradition exists. No single dig email — church Status Quo + IAA.",
+          "official_website": "https://www.custodia.org/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.custodia.org/",
+        "official_website_label": "Status Quo churches (Holy Sepulchre) + Israel Antiquities Authority (surroundings)",
+        "status_kind": "none"
+      }
+    }
+  ]
+}

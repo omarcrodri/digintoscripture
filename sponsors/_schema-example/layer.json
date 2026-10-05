@@ -1,0 +1,16 @@
+{
+  "sponsor_id": "example-expedition",
+  "layer_id": "sponsor:example-expedition",
+  "chip_label": "Expedition: Example (sponsor)",
+  "chip_short": "Example",
+  "default_on": false,
+  "sponsor_display_name": "Example Expedition",
+  "disclosure": "Sponsor expedition layer. Pins and videos are this team's field work and presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate.",
+  "info_blurb": "Opt-in layer of sites this expedition personally mapped, with their embeds and a link out to their paywalled content.",
+  "pin_color": "#f97316",
+  "policebot_hosts": [
+    "example.com"
+  ],
+  "geojson": "sites.geojson",
+  "status": "schema_stub_only"
+}

@@ -1,0 +1,1109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6737,
+          31.8402
+        ]
+      },
+      "properties": {
+        "id": "tall-el-hammam-teh-tell-el-hammam-",
+        "name": "Tall el-Hammam (TeH / Tell el-Hammam)",
+        "layer": "sodom_gomorrah",
+        "location": "Eastern lower Jordan Valley, NE of Dead Sea, Amman Governorate, Jordan (~12.6 km NE of Dead Sea; ~11.7 km E of Jordan River)",
+        "mechanism": "cosmic_airburst",
+        "tag": "contested",
+        "shows": "A Middle Bronze Age destruction/abandonment horizon exists at TeH with ash, collapsed architecture, and unusual heat-affected pottery/mudbrick reported by excavators. Proponents argued these matched a Tunguska-scale airburst ~1650 BCE. Scientific Reports published that claim in 2021.",
+        "does_not": "DOES NOT establish a confirmed cosmic airburst. Jaret & Harris (2022) argued mineralogic/geochemical data fail impact-diagnostic criteria (shocked quartz not convincingly demonstrated; high-temp melts/geochemistry not uniquely extraterrestrial). Boslough & Bruno (2025) showed Tunguska comparisons overestimated blast temperature/wind and cannot produce claimed melting at stated distances. Image-manipulation concerns were raised (Bik / Retraction Watch). Scientific Reports RETRACTED the Bunch et al. paper on 24 Apr 2025 (doi:10.1038/s41598-025-99265-5). Authors largely disagreed and later republished expanded versions elsewhere (e.g. Airbursts and Cratering Impacts / ScienceOpen). Mainstream archaeology does not accept the airburst conclusion.",
+        "genesis_link": "AUTHOR CLAIM (Collins/Silvia/some Bunch coauthors): TeH = Sodom; airburst mirrors 'fire from heaven' / salt narrative. Bunch et al. said Sodom ID was beyond paper's scope but speculated oral tradition. ARCHAEOLOGICAL CONSENSUS: Sodom ID not accepted; airburst paper retracted; TeH remains a major MBA Jordan Valley site with debated destruction cause.",
+        "researchers": "Bunch et al. 2021 Sci Rep 11:18632 doi:10.1038/s41598-021-97778-3 [RETRACTED 2025]; Author Correction 2022 doi:10.1038/s41598-022-06266-9; Retraction Note 2025 doi:10.1038/s41598-025-99265-5; Jaret & Harris 2022 Sci Rep 12:5189 doi:10.1038/s41598-022-08216-x; Boslough & Bruno 2025 Sci Rep 15:13869 doi:10.1038/s41598-025-98362-9; Silvia (Trinity Southwest / TeH team); Collins (TeH director); expanded republication ScienceOpen doi:10.14293/ACI.2025.0003; hydrocode modeling doi:10.14293/ACI.2024.0005",
+        "notes": "As of research date (2026-09-30): original Sci Rep airburst paper is RETRACTED. Cross-link: sodom-gomorrah-airburst-evidence.md",
+        "creation_ministry": {
+          "blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+              "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+              "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+            "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+            "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Tall el-Hammam seasons continued under Jordan DoA partnership; 2020 work was restricted by COVID conditions per project-linked reporting, but no clear Jordanian DoA stop-work order or permit revocation was verified. Not counted as org/government-ordered halt.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "DoA Jordan + Tall el-Hammam Excavation Project (Trinity Southwest / Veritas International)",
+          "type": "mixed",
+          "role": "DoA licenses; TeHEP publishes excavation claims (Sodom ID contested).",
+          "contact_name": "TSU Administration (TeHEP dig inquiries)",
+          "contact_title": "Dig administration",
+          "contact_email": "admin@tsu-edu.us",
+          "contact_phone": "505-332-4253",
+          "contact_url": "https://tallelhammam.com/",
+          "notes": "CONTROVERSY note: airburst/Sodom claims contested. Dual DoA + TeHEP.",
+          "official_website": "https://www.tehep.com/home-1"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.tehep.com/home-1",
+        "official_website_label": "Tall el-Hammam Excavation Project (TeHEP)",
+        "sources": "Bunch et al. 2021 Sci Rep 11:18632 doi:10.1038/s41598-021-97778-3 [RETRACTED 2025]; Author Correction 2022 doi:10.1038/s41598-022-06266-9; Retraction Note 2025 doi:10.1038/s41598-025-99265-5; Jaret & Harris 2022 Sci Rep 12:5189 doi:10.1038/s41598-022-08216-x; Boslough & Bruno 2025 Sci Rep 15:13869 doi:10.1038/s41598-025-98362-9; Silvia (Trinity Southwest / TeH team); Collins (TeH director); expanded republication ScienceOpen doi:10.14293/ACI.2025.0003; hydrocode modeling doi:10.14293/ACI.2024.0005; Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 [RETRACTED]; Retraction doi:10.1038/s41598-025-99265-5; https://answersingenesis.org/archaeology/have-we-found-sodom/",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6737,
+          31.8402
+        ]
+      },
+      "properties": {
+        "id": "tall-el-hammam-teh-tell-el-hammam-",
+        "name": "Tall el-Hammam (TeH / Tell el-Hammam)",
+        "layer": "sodom_gomorrah",
+        "location": "Eastern lower Jordan Valley, NE of Dead Sea, Jordan",
+        "mechanism": "warfare_conflagration_or_unspecified_destruction",
+        "tag": "mainstream_destruction_without_airburst",
+        "shows": "Excavations (Collins et al., Jordan DoA reports) document a large Bronze Age fortified city with an MBA occupation ending in destruction/abandonment. Heat-affected pottery reported. Precise cause of fire/collapse not uniquely proven by excavation alone.",
+        "does_not": "Does not prove cosmic explosion, earthquake, or biblical Sodom. Fire can result from warfare, accident, or post-abandonment burning. Chronology and Sodom ID disputed by southern-theory scholars (e.g. Wood/ABR). Some critics question Trinity Southwest University framing and marketing of finds.",
+        "genesis_link": "AUTHOR CLAIM (Collins): TeH is best Sodom candidate on geography (kikkar N of Dead Sea), size, MBA date, destruction. CRITICS (Wood etc.): wrong geography vs southern tradition; chronology issues for patriarchal dating; airburst claim not accepted.",
+        "researchers": "Collins et al. ADAJ season reports 2006–2016; Collins & Aljarrah 2011 ADAJ 55; Kay Prag earlier survey/excavation Levant 1991; Kersel/Chesson/Hill Sapiens 2021 critique of biblical marketing",
+        "notes": "Destruction layer existence ≠ airburst. Tag reflects accepted presence of destruction/abandonment evidence without endorsing airburst.",
+        "creation_ministry": {
+          "blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+              "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+              "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+            "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+            "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Tall el-Hammam seasons continued under Jordan DoA partnership; 2020 work was restricted by COVID conditions per project-linked reporting, but no clear Jordanian DoA stop-work order or permit revocation was verified. Not counted as org/government-ordered halt.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "DoA Jordan + Tall el-Hammam Excavation Project (Trinity Southwest / Veritas International)",
+          "type": "mixed",
+          "role": "DoA licenses; TeHEP publishes excavation claims (Sodom ID contested).",
+          "contact_name": "TSU Administration (TeHEP dig inquiries)",
+          "contact_title": "Dig administration",
+          "contact_email": "admin@tsu-edu.us",
+          "contact_phone": "505-332-4253",
+          "contact_url": "https://tallelhammam.com/",
+          "notes": "CONTROVERSY note: airburst/Sodom claims contested. Dual DoA + TeHEP.",
+          "official_website": "https://www.tehep.com/home-1"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.tehep.com/home-1",
+        "official_website_label": "Tall el-Hammam Excavation Project (TeHEP)",
+        "sources": "Collins et al. ADAJ season reports 2006–2016; Collins & Aljarrah 2011 ADAJ 55; Kay Prag earlier survey/excavation Levant 1991; Kersel/Chesson/Hill Sapiens 2021 critique of biblical marketing; Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 [RETRACTED]; Retraction doi:10.1038/s41598-025-99265-5; https://answersingenesis.org/archaeology/have-we-found-sodom/",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6737,
+          31.8402
+        ]
+      },
+      "properties": {
+        "id": "tall-el-hammam-teh-tell-el-hammam-",
+        "name": "Tall el-Hammam (TeH / Tell el-Hammam)",
+        "layer": "sodom_gomorrah",
+        "location": "Eastern lower Jordan Valley, NE of Dead Sea, Jordan",
+        "mechanism": "earthquake_seismic",
+        "tag": "research_claim",
+        "shows": "TeH sits in a seismically active rift setting where earthquakes can destroy mudbrick cities. Collapse and fire are geologically plausible. No published TeH-specific paleoseismic trench study uniquely tying the MBA horizon to a dated quake was found in this research pass.",
+        "does_not": "No diagnostic TeH seismite or fault rupture published that uniquely dates the MBA destruction. Earthquake is a general regional possibility, not a demonstrated TeH event. Does not prove Genesis narrative.",
+        "genesis_link": "Indirect only: some popular/geological writers link Dead Sea earthquakes to Genesis imagery. For TeH specifically, Collins favors catastrophic cosmic/fire scenario over ordinary quake. Consensus: seismic hazard real; biblical ID unproven.",
+        "researchers": "Regional paleoseismology: Ken-Tor et al. 2001 JGR doi:10.1029/2000JB900313 (Ze'elim seismites); Neev & Emery 1995 Oxford (regional fault framework). TeH airburst proponents argued against ordinary earthquake as sole cause of claimed ultra-high-temp melts.",
+        "notes": "Mechanism plausible regionally; site-specific published proof for MBA TeH earthquake event not established in sources reviewed.",
+        "creation_ministry": {
+          "blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+              "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+              "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+            "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+            "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Tall el-Hammam seasons continued under Jordan DoA partnership; 2020 work was restricted by COVID conditions per project-linked reporting, but no clear Jordanian DoA stop-work order or permit revocation was verified. Not counted as org/government-ordered halt.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "DoA Jordan + Tall el-Hammam Excavation Project (Trinity Southwest / Veritas International)",
+          "type": "mixed",
+          "role": "DoA licenses; TeHEP publishes excavation claims (Sodom ID contested).",
+          "contact_name": "TSU Administration (TeHEP dig inquiries)",
+          "contact_title": "Dig administration",
+          "contact_email": "admin@tsu-edu.us",
+          "contact_phone": "505-332-4253",
+          "contact_url": "https://tallelhammam.com/",
+          "notes": "CONTROVERSY note: airburst/Sodom claims contested. Dual DoA + TeHEP.",
+          "official_website": "https://www.tehep.com/home-1"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.tehep.com/home-1",
+        "official_website_label": "Tall el-Hammam Excavation Project (TeHEP)",
+        "sources": "Regional paleoseismology: Ken-Tor et al. 2001 JGR doi:10.1029/2000JB900313 (Ze'elim seismites); Neev & Emery 1995 Oxford (regional fault framework). TeH airburst proponents argued against ordinary earthquake as sole cause of claimed ultra-high-temp melts; Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 [RETRACTED]; Retraction doi:10.1038/s41598-025-99265-5; https://answersingenesis.org/archaeology/have-we-found-sodom/",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6737,
+          31.8402
+        ]
+      },
+      "properties": {
+        "id": "tall-el-hammam-teh-tell-el-hammam-",
+        "name": "Tall el-Hammam (TeH / Tell el-Hammam)",
+        "layer": "sodom_gomorrah",
+        "location": "Eastern lower Jordan Valley, NE of Dead Sea, Jordan",
+        "mechanism": "salt_hypersalinity_agricultural_abandonment",
+        "tag": "contested",
+        "shows": "Proponents reported elevated salt in sampled destruction sediments and correlated regional settlement gap. Dead Sea environs are naturally saline; salt can sterilize fields.",
+        "does_not": "Salt enrichment does not uniquely prove an airburst-driven salt rain. Natural Dead Sea aerosols, flood deposits, or post-depositional processes possible. Regional abandonment timing/causes debated (climate, socio-political). Claims tied to retracted Sci Rep paper should be treated as contested.",
+        "genesis_link": "AUTHOR CLAIM: salt matches Lot's wife / land becoming wasteland motif. CONSENSUS: literary parallel speculative; not archaeological proof of Sodom.",
+        "researchers": "Bunch et al. 2021 (retracted); Collins popular/academic Sodom arguments; regional settlement surveys of Kikkar",
+        "notes": "Often bundled with airburst hypothesis; not independently validated as extraterrestrial salt rain.",
+        "creation_ministry": {
+          "blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+              "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+              "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG rejects TeH=Sodom (Have We Found Sodom?; airburst critique; biblical-problems piece). Prefers southern Bab edh-Dhra geography. Ministry interpretation vs Collins/airburst popularization.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+            "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+            "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Tall el-Hammam seasons continued under Jordan DoA partnership; 2020 work was restricted by COVID conditions per project-linked reporting, but no clear Jordanian DoA stop-work order or permit revocation was verified. Not counted as org/government-ordered halt.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "DoA Jordan + Tall el-Hammam Excavation Project (Trinity Southwest / Veritas International)",
+          "type": "mixed",
+          "role": "DoA licenses; TeHEP publishes excavation claims (Sodom ID contested).",
+          "contact_name": "TSU Administration (TeHEP dig inquiries)",
+          "contact_title": "Dig administration",
+          "contact_email": "admin@tsu-edu.us",
+          "contact_phone": "505-332-4253",
+          "contact_url": "https://tallelhammam.com/",
+          "notes": "CONTROVERSY note: airburst/Sodom claims contested. Dual DoA + TeHEP.",
+          "official_website": "https://www.tehep.com/home-1"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.tehep.com/home-1",
+        "official_website_label": "Tall el-Hammam Excavation Project (TeHEP)",
+        "sources": "Bunch et al. 2021 (retracted); Collins popular/academic Sodom arguments; regional settlement surveys of Kikkar; Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 [RETRACTED]; Retraction doi:10.1038/s41598-025-99265-5; https://answersingenesis.org/archaeology/have-we-found-sodom/",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5342,
+          31.2539
+        ]
+      },
+      "properties": {
+        "id": "bab-edh-dhra-bab-adh-dhra-",
+        "name": "Bab edh-Dhra (Bab adh-Dhra')",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea plain (southern Ghor), Karak region, Jordan; S bank of Wadi al-Karak near Lisan peninsula",
+        "mechanism": "fire_conflagration_destruction",
+        "tag": "mainstream_destruction_without_airburst",
+        "shows": "Major EB III occupation ended with fire damage in parts of the town and cemetery charnel houses (~c. 2350–2300 BCE per Rast/Schaub). Site suffered exposure to fire; later limited EB IV occupation outside ruined fortifications. Large EB cemetery (shaft tombs, charnel houses).",
+        "does_not": "Does NOT show airburst, shocked minerals, nanodiamonds, or cosmic geochemistry in published excavation literature. Fire extent debated—some summaries say Bab edh-Dhra lacked the intense site-wide conflagration seen at Numeira. Cause could be accident, attack, earthquake-triggered fire, or ritual burning of charnel houses. Human remains mainly in cemetery, not a city-wide skeletal catastrophe layer.",
+        "genesis_link": "AUTHOR CLAIM (Rast later nuance; Wood/ABR; van Hattem): Bab edh-Dhra often proposed as Sodom (or one of Cities of the Plain). Rast suggested tradition may stem from Bab edh-Dhra + Numeira pair. CONSENSUS: plausible southern candidate for some biblical archaeologists; not proven; chronology (EB III vs MBA patriarch dates) is a major objection for others.",
+        "researchers": "Rast & Schaub EDSP; Bab edh-Dhra' Excavations at the Town Site 1975–1981 (Eisenbrauns 2003); Schaub & Rast cemetery volume 1989; Rast ABD 'Bab Edh-Dhra'; Lapp 1960s cemetery digs; Chesson & Schaub 2007 Crossing Jordan chapters",
+        "notes": "No published airburst lab suite for this site found in this research. Classic southern Sodom candidate.",
+        "creation_ministry": {
+          "blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Bab edh-Dhra — DoA Jordan; Expedition to the Dead Sea Plain (EDSP) historically.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Rast & Schaub EDSP; Bab edh-Dhra' Excavations at the Town Site 1975–1981 (Eisenbrauns 2003); Schaub & Rast cemetery volume 1989; Rast ABD 'Bab Edh-Dhra'; Lapp 1960s cemetery digs; Chesson & Schaub 2007 Crossing Jordan chapters; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5342,
+          31.2539
+        ]
+      },
+      "properties": {
+        "id": "bab-edh-dhra-bab-adh-dhra-",
+        "name": "Bab edh-Dhra (Bab adh-Dhra')",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea plain, Jordan",
+        "mechanism": "earthquake_seismic",
+        "tag": "research_claim",
+        "shows": "Structural collapse and fire are consistent with seismic damage to mudbrick towns on a fault-bounded basin edge. Geologist Donahue documented hydrologic/topographic change during/after EB occupation.",
+        "does_not": "No uniquely diagnostic seismite published for the town destruction horizon. Earthquake remains a hypothesis among several (attack, accidental fire, erosion/abandonment). Does not prove simultaneous five-city Genesis event.",
+        "genesis_link": "Southern-theory writers combine quake + fire/bitumen with Genesis 'brimstone'. Speculative geological reading of text; not consensus archaeology.",
+        "researchers": "Rast ABD; Donahue 1980/1984/1985 geologic papers; Neev & Emery 1995 (regional seismic framework); Clapp 1936 geology/bitumens",
+        "notes": "Plausible mechanism; not uniquely demonstrated.",
+        "creation_ministry": {
+          "blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Bab edh-Dhra — DoA Jordan; Expedition to the Dead Sea Plain (EDSP) historically.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Rast ABD; Donahue 1980/1984/1985 geologic papers; Neev & Emery 1995 (regional seismic framework); Clapp 1936 geology/bitumens; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5342,
+          31.2539
+        ]
+      },
+      "properties": {
+        "id": "bab-edh-dhra-bab-adh-dhra-",
+        "name": "Bab edh-Dhra (Bab adh-Dhra')",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea plain, Jordan",
+        "mechanism": "bitumen_hydrocarbon_gas_fire",
+        "tag": "research_claim",
+        "shows": "Dead Sea region has documented bitumen and hydrocarbon associations. An earthquake-driven gas/bitumen fire is geologically imaginable and was proposed by petroleum geologists as a natural reading of 'brimstone and fire'.",
+        "does_not": "No excavation paper proves a hydrocarbon blowout destroyed Bab edh-Dhra. No measured ancient gas-release residues uniquely dated to the EB III horizon at the town. Mechanism is regional geological inference, not site-lab confirmation. Clapp found no recent lava/ash volcanism.",
+        "genesis_link": "AUTHOR CLAIM: matches fire/brimstone/smoke rising like a furnace. CONSENSUS: colorful naturalizing hypothesis; remains unproven for any specific EB town.",
+        "researchers": "Clapp 1936 AJA 40:323–344 doi:10.2307/498693; Clapp 1936 AAPG Bull. (Geology and Bitumens); Neev & Emery 1995 Oxford Univ. Press The Destruction of Sodom, Gomorrah, and Jericho; Wood ABR popular synthesis citing Clapp/Neev/Emery/Harris & Beardow",
+        "notes": "Often applied to southern basin generally, not TeH airburst literature.",
+        "creation_ministry": {
+          "blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Bab edh-Dhra — DoA Jordan; Expedition to the Dead Sea Plain (EDSP) historically.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Clapp 1936 AJA 40:323–344 doi:10.2307/498693; Clapp 1936 AAPG Bull. (Geology and Bitumens); Neev & Emery 1995 Oxford Univ. Press The Destruction of Sodom, Gomorrah, and Jericho; Wood ABR popular synthesis citing Clapp/Neev/Emery/Harris & Beardow; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5342,
+          31.2539
+        ]
+      },
+      "properties": {
+        "id": "bab-edh-dhra-bab-adh-dhra-",
+        "name": "Bab edh-Dhra (Bab adh-Dhra')",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea plain, Jordan",
+        "mechanism": "climate_drought_abandonment",
+        "tag": "research_claim",
+        "shows": "Broader southern Levant saw major urban reorganization at end of EB III. Climate stress is one discussed factor among socio-political ones. Bab edh-Dhra shows post-destruction limited EB IV use then decline of urban form.",
+        "does_not": "4.2 ka BP event timing does not simply equal Bab edh-Dhra destruction date (debated offsets). Climate alone does not explain burned gates/charnel houses. Recent scholarship emphasizes resilience/transformation rather than total apocalyptic collapse (e.g. Khirbat Iskandar work).",
+        "genesis_link": "Some authors (e.g. Klein) read Genesis as memory of rapid climatic desiccation turning a fertile plain into salt wasteland. Speculative; not site-specific proof.",
+        "researchers": "Neev & Emery 1995; Klein Climatic Change (Sodom climatic perspective); Höflmayer 2014 ROSAPAT; Chesson/Schaub EDSP; Richard et al. on EB IV resilience (Khirbat Iskandar)",
+        "notes": "Complementary to, not exclusive of, fire/quake hypotheses.",
+        "creation_ministry": {
+          "blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG presents Bab edh-Dhra as strong southern Sodom candidate (Wood summary; fiery destruction). Ministry preference—not universal archaeological consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Bab edh-Dhra — DoA Jordan; Expedition to the Dead Sea Plain (EDSP) historically.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Neev & Emery 1995; Klein Climatic Change (Sodom climatic perspective); Höflmayer 2014 ROSAPAT; Chesson/Schaub EDSP; Richard et al. on EB IV resilience (Khirbat Iskandar); Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5294,
+          31.1316
+        ]
+      },
+      "properties": {
+        "id": "numeira-numayra-an-numayra-",
+        "name": "Numeira (Numayra / an-Numayra)",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea shore, ~13 km S of Bab edh-Dhra, Jordan; S bank of Wadi Numeira; ~280 m below sea level",
+        "mechanism": "fire_conflagration_destruction",
+        "tag": "mainstream_destruction_without_airburst",
+        "shows": "Clear, intense fire destructions during EB III. Final burn ended occupation; site not reoccupied. ~0.5 ha walled town (~30% excavated 1977–1983). Strong archaeological evidence of catastrophic fire—stronger site-wide burn signature than often attributed to Bab edh-Dhra.",
+        "does_not": "No published airburst mineral suite (shocked quartz, nanodiamonds, Pt anomaly) for Numeira found. Fire cause unresolved (earthquake, attack, accident). Destruction date debated (~2600 vs ~2350/2300 BCE vs Udd's lowered dates); not simultaneous with Bab edh-Dhra if ~250 yr gap accepted. Small size challenges 'city' language.",
+        "genesis_link": "AUTHOR CLAIM (Wood/ABR; some EDSP-era popularizers): Numeira = Gomorrah. CONSENSUS: candidate only; chronological gap with Bab edh-Dhra and EB vs MBA debate weaken pair-as-Sodom/Gomorrah model for many scholars.",
+        "researchers": "Coogan BASOR reports; Rast & Schaub EDSP; Chesson, Schaub & Rast Numayra monograph (Eisenbrauns); Donahue geologic reconstruction BASOR 255 (1984); Expedition Dead Sea Plain site page",
+        "notes": "Best southern-Ghor example of excavated fiery destruction among Cities-of-the-Plain candidates.",
+        "creation_ministry": {
+          "blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+          "aig": [
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            },
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          },
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Numeira — DoA Jordan; EDSP historically with Bab edh-Dhra.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Coogan BASOR reports; Rast & Schaub EDSP; Chesson, Schaub & Rast Numayra monograph (Eisenbrauns); Donahue geologic reconstruction BASOR 255 (1984); Expedition Dead Sea Plain site page; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5294,
+          31.1316
+        ]
+      },
+      "properties": {
+        "id": "numeira-numayra-an-numayra-",
+        "name": "Numeira (Numayra / an-Numayra)",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea shore, Jordan",
+        "mechanism": "earthquake_seismic",
+        "tag": "research_claim",
+        "shows": "Tower collapse and fire can fit seismic destruction. Finnegan (via BBC documentary reporting) interpreted crushed skeletons as consistent with structural collapse. Geotechnical writers link Dead Sea fault shaking to liquefaction/landslide risk south of the lake.",
+        "does_not": "Excavators also note isolated room fires over centuries without requiring one mega-quake. No instrumented paleoseismic proof uniquely dated to Numeira's final horizon. Blocked doors are ambiguous (defense, abandonment, remodeling).",
+        "genesis_link": "Used to naturalize Genesis catastrophe as quake + fire. Speculative link.",
+        "researchers": "Coogan 1984 BASOR 255; Donahue 1984 BASOR 255; Harris & Beardow 1995 QJEG 28:349–362 doi:10.1144/GSL.QJEGH.1995.028.P4.04; BBC Horizon-style summaries of Harris work",
+        "notes": "Earthquake often paired with fire explanation.",
+        "creation_ministry": {
+          "blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+          "aig": [
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            },
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          },
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Numeira — DoA Jordan; EDSP historically with Bab edh-Dhra.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Coogan 1984 BASOR 255; Donahue 1984 BASOR 255; Harris & Beardow 1995 QJEG 28:349–362 doi:10.1144/GSL.QJEGH.1995.028.P4.04; BBC Horizon-style summaries of Harris work; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5294,
+          31.1316
+        ]
+      },
+      "properties": {
+        "id": "numeira-numayra-an-numayra-",
+        "name": "Numeira (Numayra / an-Numayra)",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea shore, Jordan",
+        "mechanism": "bitumen_hydrocarbon_gas_fire",
+        "tag": "research_claim",
+        "shows": "Regional geology allows combustible seeps. Does not uniquely explain site archaeology beyond general plausibility of fire sources.",
+        "does_not": "No Numeira-specific hydrocarbon blowout residues published. Ordinary structural fire remains simplest description of ash layers.",
+        "genesis_link": "Southern naturalizers apply brimstone model to Numeira as Gomorrah. Unproven.",
+        "researchers": "Clapp 1936; Neev & Emery 1995; Wood ABR synthesis",
+        "notes": "",
+        "creation_ministry": {
+          "blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+          "aig": [
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            },
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG/Wood-aligned pieces link Numeira (name-play with Gomorrah) beside Bab edh-Dhra as burned southern plain cities. Ministry identification.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          },
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Numeira — DoA Jordan; EDSP historically with Bab edh-Dhra.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Clapp 1936; Neev & Emery 1995; Wood ABR synthesis; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5,
+          31.05
+        ]
+      },
+      "properties": {
+        "id": "ghor-es-safi-zoara-biblical-zoar-traditi",
+        "name": "Ghor es-Safi / Zoara (biblical Zoar tradition)",
+        "layer": "sodom_gomorrah",
+        "location": "Southeastern Dead Sea, lowest part of Rift Valley, Jordan (Ghor as-Safi); traditional Zoar/Zoara",
+        "mechanism": "multi_period_settlement_not_single_catastrophe",
+        "tag": "mainstream_destruction_without_airburst",
+        "shows": "Long-lived oasis/settlement zone identified with biblical Zoar in Christian/classical tradition (city Lot fled to). Politis-led work documents rich multi-period archaeology. EB presence exists (cemetery etc.) but not a single famous Genesis-19 destruction excavation like Numeira.",
+        "does_not": "Does not provide a published airburst or unique fiery destruction proving Sodom's sister-city catastrophe. Traditional Zoar survival in Genesis complicates models that sink all cities under the lake.",
+        "genesis_link": "Strongest traditional link is to Zoar (escaped city), not Sodom. Used geographically to anchor southern Cities of the Plain. Consensus on Zoar tradition stronger than on Sodom ID of any one tell.",
+        "researchers": "Politis Ancient Landscapes of Zoara I (Routledge); ACOR Zoara chapter; Rast & Schaub survey listing Safi among five EB sites; Albright 1924 Moab/Dead Sea expedition",
+        "notes": "Tag = traditional/archaeological multi-period site without airburst claim. 'Destruction' not the main published story.",
+        "creation_ministry": {
+          "blurb": "AiG southern-Sodom article cites Zoar south of the Dead Sea (Lot’s refuge; later Madaba Map tradition) against northern TeH models. Theme/site-adjacent ministry geography—not a Zoar excavation report.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG southern-Sodom article cites Zoar south of the Dead Sea (Lot’s refuge; later Madaba Map tradition) against northern TeH models. Theme/site-adjacent ministry geography—not a Zoar excavation report.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this candidate site in the sources checked (past expedition seasons ended or are inactive without a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Ghor es-Safi / Zoara tradition — DoA Jordan; multi-period settlement.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "sources": "Politis Ancient Landscapes of Zoara I (Routledge); ACOR Zoara chapter; Rast & Schaub survey listing Safi among five EB sites; Albright 1924 Moab/Dead Sea expedition; Expedition Bible note QjPcSQUY2W0; https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "status_kind": "dig"
+      }
+    }
+  ]
+}

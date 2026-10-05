@@ -1,0 +1,21 @@
+{
+  "sponsor_id": "alberino",
+  "layer_id": "sponsor:alberino",
+  "chip_label": "Expedition: Alberino (sponsor)",
+  "chip_short": "Alberino",
+  "default_on": false,
+  "sponsor_display_name": "Timothy Alberino — Alberino Analysis / Nephcon",
+  "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity.",
+  "info_blurb": "Opt-in Alberino Analysis / Nephcon — thin Qumran attach only (Giants + Enoch). Contested Nephilim/Watchers framing; not dig consensus. Core OT/NT stay free.",
+  "pin_color": "#a78bfa",
+  "policebot_hosts": [
+    "timothyalberino.com",
+    "thealberinoanalysis.com",
+    "amazon.com",
+    "uscreen.tv",
+    "birthrightconference.com"
+  ],
+  "geojson": "sites.geojson",
+  "phase": "thin",
+  "status": "live_thin"
+}

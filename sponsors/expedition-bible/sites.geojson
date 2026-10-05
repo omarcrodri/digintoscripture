@@ -1,0 +1,563 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.57495958491488,
+          32.88023622571864
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-01",
+        "layer": "sponsor:expedition-bible",
+        "name": "Capernaum (Kefar Nahum)",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "CAP-01,CAP-02",
+        "attached_primary_id": "CAP-01,CAP-02",
+        "found": "Channel tours Capernaum’s fishing-village remains and basalt synagogue under the limestone synagogue, framing Jesus’ Matthew 11 saying that Capernaum will be judged more harshly than Sodom.",
+        "support": "N0opJ2qGQs4 (opens at southern Sodom then pivots to Capernaum).",
+        "notes": "Site archaeology (basalt synagogue phase, village) is well published; ‘strong’ rates the field presentation of Capernaum itself, not the Sodom comparison or judgment theology. Label ministry gospel framing separately.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Site archaeology (basalt synagogue phase, village) is well published; ‘strong’ rates the field presentation of Capernaum itself, not the Sodom comparison or judgment theology. Label ministry gospel framing separately.",
+        "gospel_hook": "Optional Matt 11 accountability saying — keep as Scripture citation, not as archaeological proof of judgment.",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/N0opJ2qGQs4",
+            "provider": "youtube",
+            "title": "Capernaum Unearthed: Why will this fishing village be judged harsher than Sodom?",
+            "source": "https://www.youtube.com/watch?v=N0opJ2qGQs4",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89098165003626,
+          32.50049963344134
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-02",
+        "layer": "sponsor:expedition-bible",
+        "name": "Caesarea Maritima",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "CAES-01,CAES-02",
+        "attached_primary_id": "CAES-01,CAES-02",
+        "found": "Channel tours Herod’s artificial harbor, palace, hippodrome, and theater, tying the site to Acts episodes (Cornelius, Agrippa I, Paul) as the maritime bridge for the Gentile mission.",
+        "support": "SNnCtAR_8Q8 site tour.",
+        "notes": "Herodian harbor/city archaeology is strong; Acts event localization is standard NT geography, not new excavation proof of each episode. Ministry presentation of gospel-to-nations theme.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Herodian harbor/city archaeology is strong; Acts event localization is standard NT geography, not new excavation proof of each episode. Ministry presentation of gospel-to-nations theme.",
+        "gospel_hook": "Optional Acts Gentile-mission framing — do not overclaim specific Acts scenes as excavated events.",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/SNnCtAR_8Q8",
+            "provider": "youtube",
+            "title": "Caesarea: The City that Changed the World!",
+            "source": "https://www.youtube.com/watch?v=SNnCtAR_8Q8",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2248,
+          31.7672
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-03",
+        "layer": "sponsor:expedition-bible",
+        "name": "Ketef Hinnom — silver amulets findspot",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "KET-01",
+        "attached_primary_id": "KET-01",
+        "found": "Channel presents Gabriel Barkay’s 1979 Ketef Hinnom silver scrolls (priestly blessing) as the oldest biblical text yet found, older than Dead Sea Scrolls.",
+        "support": "X74dr58e6T8.",
+        "notes": "'Strong' for the amulets’ existence, paleography, and YHWH/Numbers blessing content as widely accepted. Channel apologetic ‘God is real’ packaging is ministry add-on and does not change find solidity.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "'Strong' for the amulets’ existence, paleography, and YHWH/Numbers blessing content as widely accepted. Channel apologetic ‘God is real’ packaging is ministry add-on and does not change find solidity.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/X74dr58e6T8",
+            "provider": "youtube",
+            "title": "The OLDEST copy of Scripture ever found! (Even older than the Dead Sea Scrolls)",
+            "source": "https://www.youtube.com/watch?v=X74dr58e6T8",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.15273090062488,
+          36.35933998859271
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-04",
+        "layer": "sponsor:expedition-bible",
+        "name": "Nineveh (Kuyunjik / Nebi Yunus)",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "NIN-01",
+        "attached_primary_id": "NIN-01",
+        "found": "Channel presents Nineveh’s rediscovery/excavation as Bible-driven archaeology and uses Nineveh/Mosul context for OT absolute dating via eclipse omen tablet (George Smith).",
+        "support": "34XBkm4QiLo (Nineveh finds) + 3DJtVlLRMGw (dating method at Nineveh).",
+        "notes": "Assyrian capital archaeology and eclipse-anchored chronology are mainstream. Channel’s Bible-confirming rhetoric is ministry framing around real finds.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Assyrian capital archaeology and eclipse-anchored chronology are mainstream. Channel’s Bible-confirming rhetoric is ministry framing around real finds.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/34XBkm4QiLo",
+            "provider": "youtube",
+            "title": "Bible Evidence Unearthed at Nineveh!",
+            "source": "https://www.youtube.com/watch?v=34XBkm4QiLo",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/3DJtVlLRMGw",
+            "provider": "youtube",
+            "title": "How we KNOW the dates for the Old Testament!",
+            "source": "https://www.youtube.com/watch?v=3DJtVlLRMGw",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.42074558443791,
+          32.54161410744104
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-05",
+        "layer": "sponsor:expedition-bible",
+        "name": "Babylon",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "BAB-01",
+        "attached_primary_id": "BAB-01",
+        "found": "Channel visits Babylon (hard-won Iraqi visa) and contrasts Jeremiah’s desolation prophecies with the ruined site; also cites Judean royal ration-tablet evidence for Davidic descendants in exile.",
+        "support": "QtUNHjDmGOY (prophecies/site) + BeDWfx1QUxs (Jehoiachin ration tablets framing).",
+        "notes": "Site visit and ration tablets (Jehoiachin) are strong historical/archaeological facts. Prophecy-fulfillment rhetoric is ministry interpretation of desolation vs later occupation phases — do not inflate solidity for sermon framing.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Site visit and ration tablets (Jehoiachin) are strong historical/archaeological facts. Prophecy-fulfillment rhetoric is ministry interpretation of desolation vs later occupation phases — do not inflate solidity for sermon framing.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/QtUNHjDmGOY",
+            "provider": "youtube",
+            "title": "Exploring Babylon and the Prophecies Against Her",
+            "source": "https://www.youtube.com/watch?v=QtUNHjDmGOY",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/BeDWfx1QUxs",
+            "provider": "youtube",
+            "title": "Evidence That King David’s Descendants Survived In Exile",
+            "source": "https://www.youtube.com/watch?v=BeDWfx1QUxs",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.616639281537765,
+          32.21661819341938
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-06",
+        "layer": "sponsor:expedition-bible",
+        "name": "Tell Deir Alla",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "DEA-01",
+        "attached_primary_id": "DEA-01",
+        "found": "Channel presents the Deir Alla plaster inscription naming Balaam son of Beor as extrabiblical confirmation of the Numbers prophet and as archaeology for the ‘star out of Jacob’ oracle trajectory.",
+        "support": "Qrv1_C-I3Es (fuller) + XoZ3QdzDwoc (short).",
+        "notes": "Balaam inscription is widely accepted. Linking it to Messianic star fulfillment is ministry theology beyond the find.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Balaam inscription is widely accepted. Linking it to Messianic star fulfillment is ministry theology beyond the find.",
+        "gospel_hook": "Optional Num 24 star → Jesus — theological; inscription itself does not name Jesus.",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/Qrv1_C-I3Es",
+            "provider": "youtube",
+            "title": "Archaeology for “the Star who will come from Jacob”",
+            "source": "https://www.youtube.com/watch?v=Qrv1_C-I3Es",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/XoZ3QdzDwoc",
+            "provider": "youtube",
+            "title": "Prophet Found Through Archaeology - Bible Proves True",
+            "source": "https://www.youtube.com/watch?v=XoZ3QdzDwoc",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78328074326502,
+          31.499970915771264
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-07",
+        "layer": "sponsor:expedition-bible",
+        "name": "Dibon (Dhiban)",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "DIB-01",
+        "attached_primary_id": "DIB-01",
+        "found": "Channel recounts discovery/reconstruction of the Moabite Stone (Mesha Stele) from the Dibon region and its parallels to 2 Kings’ Moab–Israel conflict, including Yahweh’s name.",
+        "support": "b05ULhPu9Sk.",
+        "notes": "Mesha Stele is a cornerstone Northwest Semitic inscription (now in Louvre). Channel discovery narrative and ‘MATCHES the Bible’ rhetoric are ministry packaging of a consensus find.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Mesha Stele is a cornerstone Northwest Semitic inscription (now in Louvre). Channel discovery narrative and ‘MATCHES the Bible’ rhetoric are ministry packaging of a consensus find.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/b05ULhPu9Sk",
+            "provider": "youtube",
+            "title": "Discovering the MOABITE STONE...MATCHES the Bible!",
+            "source": "https://www.youtube.com/watch?v=b05ULhPu9Sk",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3339,
+          20.4364
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-08",
+        "layer": "sponsor:expedition-bible",
+        "name": "Soleb Temple — Shasu of Yhwȝ inscription",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "SOL-01",
+        "attached_primary_id": "SOL-01",
+        "found": "Channel presents Amenhotep III’s Soleb temple list (‘land of the Shasu of Yahweh’) as the earliest mention of Israel’s God Yahweh outside the Bible.",
+        "support": "pGEOZ5YI22M (+ QU6bvxN5xCI multi-evidence package).",
+        "notes": "Soleb Yhw Shasu reference is widely discussed in scholarship. Channel apologetic packaging (‘God is REAL’) is ministry; find solidity separate.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Soleb Yhw Shasu reference is widely discussed in scholarship. Channel apologetic packaging (‘God is REAL’) is ministry; find solidity separate.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/pGEOZ5YI22M",
+            "provider": "youtube",
+            "title": "Searching for the earliest mention of the Israelite's God, “Yahweh.”",
+            "source": "https://www.youtube.com/watch?v=pGEOZ5YI22M",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/QU6bvxN5xCI",
+            "provider": "youtube",
+            "title": "This will convince you that God is REAL!",
+            "source": "https://www.youtube.com/watch?v=QU6bvxN5xCI",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Exodus / Wilderness"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.601,
+          25.718
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-09",
+        "layer": "sponsor:expedition-bible",
+        "name": "Merneptah Stele findspot — Merneptah mortuary temple (West Thebes)",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "MER-01",
+        "attached_primary_id": "MER-01",
+        "found": "Channel presents Petrie’s 1896 Merneptah Stele discovery at Thebes as the first extrabiblical mention of ‘Israel’ in Canaan.",
+        "support": "4z9V-44cLpQ.",
+        "notes": "Stele and ‘Israel’ line are consensus. Short video; ministry triumph framing does not change find solidity.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Stele and ‘Israel’ line are consensus. Short video; ministry triumph framing does not change find solidity.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/4z9V-44cLpQ",
+            "provider": "youtube",
+            "title": "Evidence for Ancient Israel Discovered in Egypt",
+            "source": "https://www.youtube.com/watch?v=4z9V-44cLpQ",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.73,
+          31.547
+        ]
+      },
+      "properties": {
+        "id": "SPN-expedition-bible-10",
+        "layer": "sponsor:expedition-bible",
+        "name": "Tell el-Hesi",
+        "sponsor_id": "expedition-bible",
+        "sponsor_label": "Expedition: Bible (sponsor)",
+        "attached_map_pin_id": "HES2-01",
+        "attached_primary_id": "HES2-01",
+        "found": "Channel presents Flinders Petrie’s work at Tell el-Hesi as the birthplace of pottery seriation/chronology in Levantine archaeology.",
+        "support": "vKbihBzdqJ4.",
+        "notes": "Method-history claim is standard historiography of the discipline. Not a Bible-event identification claim.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Method-history claim is standard historiography of the discipline. Not a Bible-event identification claim.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/vKbihBzdqJ4",
+            "provider": "youtube",
+            "title": "The Place in Israel Where Archaeology was Born",
+            "source": "https://www.youtube.com/watch?v=vKbihBzdqJ4",
+            "label": "Sponsor video (Expedition Bible)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://expeditionbible.com/",
+        "sponsor_cta_host": "expeditionbible.com",
+        "sponsor_cta_alt_url": "https://wheregodcamedown.com/",
+        "sponsor_cta_alt_label": "Where God Came Down (site)",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://www.amazon.com/Where-Came-Down-Joel-Kramer/dp/0998037419",
+        "sponsor_book_cta_host": "amazon.com",
+        "affiliate_disclosed": true,
+        "affiliate_note": "Sponsor / affiliate disclosure — outbound Amazon product link only; DigIntoScripture affiliate not negotiated yet. Short Amazon links are not used.",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+        "ministry_label": "Expedition Bible (Joel Kramer) is an apologetics-archaeology ministry / Sourceflix–Living Hope lineage presentation, with Kramer also teaching via Shepherd’s Theological Seminary archaeology program. Personal field visits and ministry films ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Expedition Bible / Joel Kramer YouTube (embed); site pages expeditionbible.com, wheregodcamedown.com (outbound).",
+        "status_kind": "visitor"
+      }
+    }
+  ]
+}

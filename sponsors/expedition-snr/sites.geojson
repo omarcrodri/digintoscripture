@@ -1,0 +1,2996 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.57495958491488,
+          32.88023622571864
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-01",
+        "layer": "sponsor:expedition-snr",
+        "name": "Capernaum (Kefar Nahum)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "CAP-01,CAP-02",
+        "attached_primary_id": "CAP-01,CAP-02",
+        "found": "SNR site walk presents Capernaum as Jesus’ Galilee base town with visible synagogue / shoreline archaeology framing.",
+        "support": "Official map pin 'Capernaum, the town of Jesus' video ifTro5uRaT8 on snrisrael.com/data/map_places.json; secondary Capernaum↔Chorazin walk RZwYwyVrRxY.",
+        "notes": "Christian travel-video packaging, not dig-director report. Synagogue display layers are multi-period; ministry framing ≠ peer dig consensus. Chip = their presentation only.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Christian travel-video packaging, not dig-director report. Synagogue display layers are multi-period; ministry framing ≠ peer dig consensus. Chip = their presentation only.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/ifTro5uRaT8",
+            "provider": "youtube",
+            "title": "Capernaum, the town of Jesus",
+            "source": "https://www.youtube.com/watch?v=ifTro5uRaT8",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/RZwYwyVrRxY",
+            "provider": "youtube",
+            "title": "Walking from Capernaum to Chorazin: In the Footsteps of Jesus",
+            "source": "https://www.youtube.com/watch?v=RZwYwyVrRxY",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.51137652523835,
+          32.83851887487917
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-02",
+        "layer": "sponsor:expedition-snr",
+        "name": "Magdala (Migdal)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "MAG-01,MAG-02",
+        "attached_primary_id": "MAG-01,MAG-02",
+        "found": "SNR presents Magdala as Mary Magdalene’s hometown with first-century town / synagogue archaeology framing.",
+        "support": "Map pin 'Magdala, The Town of Mary Magdalene' video ANghogdBRss verified in map_places.json.",
+        "notes": "Pilgrimage/ministry packaging common at Magdala. Synagogue + Magdala Stone are real finds; Mary Magdalene hometown tradition is faith packaging. Sponsor presentation ≠ dig consensus.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Pilgrimage/ministry packaging common at Magdala. Synagogue + Magdala Stone are real finds; Mary Magdalene hometown tradition is faith packaging. Sponsor presentation ≠ dig consensus.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/ANghogdBRss",
+            "provider": "youtube",
+            "title": "Magdala, The Town of Mary Magdalene",
+            "source": "https://www.youtube.com/watch?v=ANghogdBRss",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.236382535124164,
+          31.773523834056604
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-03",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem – City of David",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "COD-01,COD-02,COD-04",
+        "attached_primary_id": "COD-01,COD-02,COD-04",
+        "found": "SNR walks City of David and Hezekiah’s Tunnel as biblical Jerusalem water-system / Davidic-city archaeology.",
+        "support": "Map pin 'City of David and Hezekiah's Tunnel' video 10AEQJqMWrw.",
+        "notes": "Tourist-route presentation of Ir David complex. Large Stone Structure / 'palace of David' readings remain contested (see CBG-22) — do not treat SNR walk as settling that debate. Tunnel/Gihon locus is real.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Tourist-route presentation of Ir David complex. Large Stone Structure / 'palace of David' readings remain contested (see CBG-22) — do not treat SNR walk as settling that debate. Tunnel/Gihon locus is real.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/10AEQJqMWrw",
+            "provider": "youtube",
+            "title": "City of David and Hezekiah's Tunnel",
+            "source": "https://www.youtube.com/watch?v=10AEQJqMWrw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23535901320472,
+          31.770475330836124
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-04",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem — Pool of Siloam (Birkat el-Hamra)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JER-NT-01",
+        "attached_primary_id": "JER-NT-01",
+        "found": "SNR covers newer Pool of Siloam excavation exposure as the NT-era pool linked to John 9.",
+        "support": "Map pin 'New Pool of Siloam Excavations' video lkIh1y78-l0.",
+        "notes": "Excavation progress and visitor access change over time; channel dates a visit, not a final report. Gospel association is Christian teaching on a real pool locus.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Excavation progress and visitor access change over time; channel dates a visit, not a final report. Gospel association is Christian teaching on a real pool locus.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/lkIh1y78-l0",
+            "provider": "youtube",
+            "title": "Unseen in Over 2,000 Years: New Pool of Siloam Excavations",
+            "source": "https://www.youtube.com/watch?v=lkIh1y78-l0",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.236657369394074,
+          31.78055386237271
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-05",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem — Bethesda / Sheep Gate Pools (St. Anne)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JER-NT-05",
+        "attached_primary_id": "JER-NT-05",
+        "found": "SNR presents the Pool of Bethesda complex as the John 5 healing site.",
+        "support": "Map pin 'The Pool of Bethesda' video uH6GrNKJy_o.",
+        "notes": "St. Anne / Bethesda identification is the standard Christian archaeological reading; packaging is ministry site-walk.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "St. Anne / Bethesda identification is the standard Christian archaeological reading; packaging is ministry site-walk.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/uH6GrNKJy_o",
+            "provider": "youtube",
+            "title": "The Pool of Bethesda: Where Jesus Healed The Paralytic",
+            "source": "https://www.youtube.com/watch?v=uH6GrNKJy_o",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89098165003626,
+          32.50049963344134
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-06",
+        "layer": "sponsor:expedition-snr",
+        "name": "Caesarea Maritima",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "CAES-01,CAES-02",
+        "attached_primary_id": "CAES-01,CAES-02",
+        "found": "SNR presents Caesarea Maritima as Herodian/Roman harbor city and Pauline imprisonment setting (Acts).",
+        "support": "Map pin 'Caesarea Maritima, Where Apostle Paul Was Imprisoned' video lJ71dph8qE8.",
+        "notes": "Broad site tourism video; Acts framing is Christian teaching on a major excavated harbor city.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Broad site tourism video; Acts framing is Christian teaching on a major excavated harbor city.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/lJ71dph8qE8",
+            "provider": "youtube",
+            "title": "Caesarea Maritima, Where Apostle Paul Was Imprisoned",
+            "source": "https://www.youtube.com/watch?v=lJ71dph8qE8",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69441124977073,
+          33.24846529257964
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-07",
+        "layer": "sponsor:expedition-snr",
+        "name": "Caesarea Philippi / Banias (Paneas)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "BAN-01",
+        "attached_primary_id": "BAN-01",
+        "found": "SNR walks Banias / Paneas trails and Pan sanctuary area as Caesarea Philippi region geography.",
+        "support": "Map pins 'Banias, the Unseen Path' c48vy4pEhJs; related Pan/Herod temple videos VtzkIyFOVCM, 74dE5E7b_oc.",
+        "notes": "Strong for Banias geography. Pan-cult horror framing is ministry storytelling on a real sanctuary locus. Do not use Hermon snow/hike videos as Banias dig evidence.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Strong for Banias geography. Pan-cult horror framing is ministry storytelling on a real sanctuary locus. Do not use Hermon snow/hike videos as Banias dig evidence.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/c48vy4pEhJs",
+            "provider": "youtube",
+            "title": "The Path We've Never Taken at Banias [Unscripted]",
+            "source": "https://www.youtube.com/watch?v=c48vy4pEhJs",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/VtzkIyFOVCM",
+            "provider": "youtube",
+            "title": "The Horrors of the Idol Worshipping Temple of Pan",
+            "source": "https://www.youtube.com/watch?v=VtzkIyFOVCM",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.65245845269085,
+          33.24855630319875
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-08",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tel Dan (Tell el-Qadi)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "DAN-01,DAN-02",
+        "attached_primary_id": "DAN-01,DAN-02",
+        "found": "SNR presents Tel Dan including the Middle Bronze arched Canaanite gate and northern Israelite cult site context.",
+        "support": "Map pin 'Tel Dan and the 4,000 Year Old Canaanite Gate' video 6cqeGPiNhgM.",
+        "notes": "Gate and high-place archaeology are real; channel dating language is popularized. Tel Dan Stele is not the primary focus of this title — do not overclaim stele content from this video alone.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Gate and high-place archaeology are real; channel dating language is popularized. Tel Dan Stele is not the primary focus of this title — do not overclaim stele content from this video alone.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/6cqeGPiNhgM",
+            "provider": "youtube",
+            "title": "Tel Dan and the 4,000 Year Old Canaanite Gate",
+            "source": "https://www.youtube.com/watch?v=6cqeGPiNhgM",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.18495552977311,
+          32.58528793682009
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-09",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tel Megiddo (Tell el-Mutesellim)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "MEG-01",
+        "attached_primary_id": "MEG-01",
+        "found": "SNR presents Tel Megiddo as biblical Armageddon / major Canaanite-Israelite tell.",
+        "support": "Map pin 'Armageddon Is a Place in Israel (Tel Megiddo)' video 55vwL1wDGbA.",
+        "notes": "Armageddon = Har Megiddo wordplay is Christian teaching. Six-chambered gate / stables debates stay contested (CBG-09 / CBG-19) — SNR walk does not settle them.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Armageddon = Har Megiddo wordplay is Christian teaching. Six-chambered gate / stables debates stay contested (CBG-09 / CBG-19) — SNR walk does not settle them.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/55vwL1wDGbA",
+            "provider": "youtube",
+            "title": "Armageddon Is a Place in Israel (Tel Megiddo)",
+            "source": "https://www.youtube.com/watch?v=55vwL1wDGbA",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.45912508737196,
+          31.74109813257868
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-10",
+        "layer": "sponsor:expedition-snr",
+        "name": "Qumran (Khirbet Qumran)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "QUM-01",
+        "attached_primary_id": "QUM-01",
+        "found": "SNR presents Qumran caves / settlement as Dead Sea Scrolls discovery setting.",
+        "support": "Map pin 'Qumran Caves and the Dead Sea Scrolls' video vLn1ltBqeSI.",
+        "notes": "Standard tourist-archaeology framing of Qumran/DSS. Copper Scroll treasure-hunt episodes (BKKukeXMqOc etc.) are weaker speculative follow-ons — keep those mixed/weak, not strong.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Standard tourist-archaeology framing of Qumran/DSS. Copper Scroll treasure-hunt episodes (BKKukeXMqOc etc.) are weaker speculative follow-ons — keep those mixed/weak, not strong.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/vLn1ltBqeSI",
+            "provider": "youtube",
+            "title": "Qumran Caves and the Dead Sea Scrolls",
+            "source": "https://www.youtube.com/watch?v=vLn1ltBqeSI",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.35386542890848,
+          31.315586039269284
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-11",
+        "layer": "sponsor:expedition-snr",
+        "name": "Masada",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "MAS-01",
+        "attached_primary_id": "MAS-01",
+        "found": "SNR presents Masada fortress as Herodian / First Jewish Revolt refuge site.",
+        "support": "Map pin 'The Fortress of Masada' video wHcpPJzfrfQ.",
+        "notes": "Josephus-driven siege narrative packaging is standard tourism; archaeology of the fortress is real.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Josephus-driven siege narrative packaging is standard tourism; archaeology of the fortress is real.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/wHcpPJzfrfQ",
+            "provider": "youtube",
+            "title": "The Fortress of Masada",
+            "source": "https://www.youtube.com/watch?v=wHcpPJzfrfQ",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28071895585035,
+          32.7532113109217
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-12",
+        "layer": "sponsor:expedition-snr",
+        "name": "Sepphoris (Zippori / Diocaesarea)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "SEP-01",
+        "attached_primary_id": "SEP-01",
+        "found": "SNR presents ancient Sepphoris with Jewish wedding / mosaic-city framing near Nazareth.",
+        "support": "Map pin 'Ancient Sepphoris and a Jewish Wedding' video jgwiih_3cNQ.",
+        "notes": "Wedding packaging is cultural/ministry; Sepphoris is a major excavated Galilee city. Not a named NT miracle town.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Wedding packaging is cultural/ministry; Sepphoris is a major excavated Galilee city. Not a named NT miracle town.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/jgwiih_3cNQ",
+            "provider": "youtube",
+            "title": "Ancient Sepphoris and a Jewish Wedding",
+            "source": "https://www.youtube.com/watch?v=jgwiih_3cNQ",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Persian / Hellenistic",
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28960322717362,
+          32.055585709483594
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-13",
+        "layer": "sponsor:expedition-snr",
+        "name": "Shiloh (Khirbet Seilun)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "SHI-01",
+        "attached_primary_id": "SHI-01",
+        "found": "SNR presents ancient Shiloh as early Israelite cult / tabernacle-tradition site.",
+        "support": "Map pin 'Exploring Ancient Shiloh' video wgWzUd_P8dY.",
+        "notes": "Tabernacle footprint presentations vary by excavator/ministry narrative; treat as site walk on a real tell, not settled tabernacle architecture.",
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Tabernacle footprint presentations vary by excavator/ministry narrative; treat as site walk on a real tell, not settled tabernacle architecture.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/wgWzUd_P8dY",
+            "provider": "youtube",
+            "title": "Exploring Ancient Shiloh",
+            "source": "https://www.youtube.com/watch?v=wgWzUd_P8dY",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "1",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.564102927919855,
+          32.911387029676874
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-14",
+        "layer": "sponsor:expedition-snr",
+        "name": "Chorazin (Korazim)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "CHOR-01",
+        "attached_primary_id": "CHOR-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video viMo0niInWI at this named place.",
+        "notes": "Cursed-city / metal-detect / floor-lift packaging over a real Galilee synagogue town.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Cursed-city / metal-detect / floor-lift packaging over a real Galilee synagogue town.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/viMo0niInWI",
+            "provider": "youtube",
+            "title": "The Cursed Ancient Village of Chorazin",
+            "source": "https://www.youtube.com/watch?v=viMo0niInWI",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/lUn298W-Mdg",
+            "provider": "youtube",
+            "title": "Metal Detecting Chorazin",
+            "source": "https://www.youtube.com/watch?v=lUn298W-Mdg",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/X778lBvf_mU",
+            "provider": "youtube",
+            "title": "Lifting the ancient floor of the cursed city of Chorazin",
+            "source": "https://www.youtube.com/watch?v=X778lBvf_mU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/RZwYwyVrRxY",
+            "provider": "youtube",
+            "title": "Walking Capernaum to Chorazin",
+            "source": "https://www.youtube.com/watch?v=RZwYwyVrRxY",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.63492602502099,
+          32.89169986747185
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-15",
+        "layer": "sponsor:expedition-snr",
+        "name": "Bethsaida candidate — el-Araj (Beit ha-Bek)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "BETHS-02",
+        "attached_primary_id": "BETHS-02",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video 9LKnQgirrvU at this named place.",
+        "notes": "el-Araj / Church of the Apostles framing; Bethsaida ID still contested vs et-Tell (CBG-04).",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "el-Araj / Church of the Apostles framing; Bethsaida ID still contested vs et-Tell (CBG-04).",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/9LKnQgirrvU",
+            "provider": "youtube",
+            "title": "The True Location Of Bethsaida",
+            "source": "https://www.youtube.com/watch?v=9LKnQgirrvU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/l2mg-8ugrgc",
+            "provider": "youtube",
+            "title": "Church of the Apostles, el-Araj",
+            "source": "https://www.youtube.com/watch?v=l2mg-8ugrgc",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/uxhK6tK7XeU",
+            "provider": "youtube",
+            "title": "The Church of the Apostles in Galilee",
+            "source": "https://www.youtube.com/watch?v=uxhK6tK7XeU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/HhCsmbJ3m9Y",
+            "provider": "youtube",
+            "title": "Mysterious Discovery at the Church of the Apostles of Jesus",
+            "source": "https://www.youtube.com/watch?v=HhCsmbJ3m9Y",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.631,
+          32.91
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-16",
+        "layer": "sponsor:expedition-snr",
+        "name": "Bethsaida — et-Tell vs el-Araj",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "CBG-04",
+        "attached_primary_id": "CBG-04",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video 9LKnQgirrvU at this named place.",
+        "notes": "Same Bethsaida debate package as BETHS-02; attach as contested reading, not settled ID.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Same Bethsaida debate package as BETHS-02; attach as contested reading, not settled ID.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/9LKnQgirrvU",
+            "provider": "youtube",
+            "title": "The True Location Of Bethsaida",
+            "source": "https://www.youtube.com/watch?v=9LKnQgirrvU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/l2mg-8ugrgc",
+            "provider": "youtube",
+            "title": "Church of the Apostles, el-Araj",
+            "source": "https://www.youtube.com/watch?v=l2mg-8ugrgc",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.30269,
+          32.8222
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-17",
+        "layer": "sponsor:expedition-snr",
+        "name": "Cana — water to wine",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JM-01",
+        "attached_primary_id": "JM-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video a2sf2W9KmqQ at this named place.",
+        "notes": "Traditional Cana vs search-for-real-Cana videos; identity of biblical Cana debated.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Traditional Cana vs search-for-real-Cana videos; identity of biblical Cana debated.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/a2sf2W9KmqQ",
+            "provider": "youtube",
+            "title": "Cana of Galilee, Where Jesus Turned Water Into Wine",
+            "source": "https://www.youtube.com/watch?v=a2sf2W9KmqQ",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/onDR1sy9MmY",
+            "provider": "youtube",
+            "title": "In search of the real Cana, where Jesus turned water into wine",
+            "source": "https://www.youtube.com/watch?v=onDR1sy9MmY",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.29743837016623,
+          32.701955553904725
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-18",
+        "layer": "sponsor:expedition-snr",
+        "name": "Nazareth — International Marian Center house",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "NAZ-01",
+        "attached_primary_id": "NAZ-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video CyDyIyn-yRE at this named place.",
+        "notes": "Nazareth village / quarry / outreach videos; tourism and ministry lean. Not dig-director reports.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Nazareth village / quarry / outreach videos; tourism and ministry lean. Not dig-director reports.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/CyDyIyn-yRE",
+            "provider": "youtube",
+            "title": "1st Century Nazareth Village Comes to Life",
+            "source": "https://www.youtube.com/watch?v=CyDyIyn-yRE",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/bB59Byju_5c",
+            "provider": "youtube",
+            "title": "Archaeologists Find a Stone Quarry from the Time of Jesus in Nazareth",
+            "source": "https://www.youtube.com/watch?v=bB59Byju_5c",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/D54ixFQ2uY0",
+            "provider": "youtube",
+            "title": "Tour of Nazareth: Part 1 & 2",
+            "source": "https://www.youtube.com/watch?v=D54ixFQ2uY0",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.296916896414075,
+          32.702415998161044
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-19",
+        "layer": "sponsor:expedition-snr",
+        "name": "Nazareth — Sisters of Nazareth Convent",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "NAZ-02",
+        "attached_primary_id": "NAZ-02",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video CyDyIyn-yRE at this named place.",
+        "notes": "Same Nazareth package; CBG-06 'Jesus house' remains contested — do not treat SNR village film as proving it.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Same Nazareth package; CBG-06 'Jesus house' remains contested — do not treat SNR village film as proving it.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/CyDyIyn-yRE",
+            "provider": "youtube",
+            "title": "1st Century Nazareth Village Comes to Life",
+            "source": "https://www.youtube.com/watch?v=CyDyIyn-yRE",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/bB59Byju_5c",
+            "provider": "youtube",
+            "title": "Archaeologists Find a Stone Quarry from the Time of Jesus in Nazareth",
+            "source": "https://www.youtube.com/watch?v=bB59Byju_5c",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8525,
+          31.7028
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-20",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tell es-Safi / Gath (Tel Zafit)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "GAT-01",
+        "attached_primary_id": "GAT-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video r2k0AQJZCIc at this named place.",
+        "notes": "'City of 5 Giants / Goliath hometown' title is sensational; Gath excavations are real — Goliath media overreach flagged on CBG-21.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "'City of 5 Giants / Goliath hometown' title is sensational; Gath excavations are real — Goliath media overreach flagged on CBG-21.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/r2k0AQJZCIc",
+            "provider": "youtube",
+            "title": "City of 5 Giants - Goliath's Hometown Found! (Gath / Tell es-Safi)",
+            "source": "https://www.youtube.com/watch?v=r2k0AQJZCIc",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.847,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-21",
+        "layer": "sponsor:expedition-snr",
+        "name": "Gath (Tell es-Safi) — 'Goliath' media overreach",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "CBG-21",
+        "attached_primary_id": "CBG-21",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video r2k0AQJZCIc at this named place.",
+        "notes": "Same Gath video; keep contested-media caveat front.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Same Gath video; keep contested-media caveat front.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/r2k0AQJZCIc",
+            "provider": "youtube",
+            "title": "City of 5 Giants - Goliath's Hometown Found! (Gath / Tell es-Safi)",
+            "source": "https://www.youtube.com/watch?v=r2k0AQJZCIc",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.54602590715149,
+          31.669396202660593
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-22",
+        "layer": "sponsor:expedition-snr",
+        "name": "Ashkelon",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "ASH-01",
+        "attached_primary_id": "ASH-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video 1xYepBY5ZXg at this named place.",
+        "notes": "Philistine DNA / gate popular video on a major excavated coastal site.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Philistine DNA / gate popular video on a major excavated coastal site.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/1xYepBY5ZXg",
+            "provider": "youtube",
+            "title": "Philistine DNA and 4000-year old gate in Tel Ashkelon",
+            "source": "https://www.youtube.com/watch?v=1xYepBY5ZXg",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.752,
+          32.054
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-23",
+        "layer": "sponsor:expedition-snr",
+        "name": "Joppa / Jaffa (Yafo) — Acts & Jonah port",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JOP-01",
+        "attached_primary_id": "JOP-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video CkPEme9Zdqc at this named place.",
+        "notes": "Simon the Tanner house tradition + Jaffa visit; house ID is traditional.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Simon the Tanner house tradition + Jaffa visit; house ID is traditional.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/CkPEme9Zdqc",
+            "provider": "youtube",
+            "title": "Simon the Tanner House in Ancient Jaffa",
+            "source": "https://www.youtube.com/watch?v=CkPEme9Zdqc",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "New Testament era",
+          "Persian / Hellenistic",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.840719635517466,
+          31.24468039125321
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-24",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tel Beersheba",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "BEE-01",
+        "attached_primary_id": "BEE-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video bS-gsJNCOtM at this named place.",
+        "notes": "'Well of Abraham' tradition vs archaeology framing — channel itself flags tradition vs dig.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "'Well of Abraham' tradition vs archaeology framing — channel itself flags tradition vs dig.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/bS-gsJNCOtM",
+            "provider": "youtube",
+            "title": "The Well of Abraham: Tradition vs Archaeology",
+            "source": "https://www.youtube.com/watch?v=bS-gsJNCOtM",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20738708673438,
+          31.703950917336396
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-25",
+        "layer": "sponsor:expedition-snr",
+        "name": "Bethlehem — Church of the Nativity / early Christian complex",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "BETHL-01",
+        "attached_primary_id": "BETHL-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video hVJbzKrwezI at this named place.",
+        "notes": "Nativity / shepherds’ field / market videos; strong Christian tradition, later fabric.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Nativity / shepherds’ field / market videos; strong Christian tradition, later fabric.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/hVJbzKrwezI",
+            "provider": "youtube",
+            "title": "The Nativity of Jesus in Bethlehem",
+            "source": "https://www.youtube.com/watch?v=hVJbzKrwezI",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/n9d7mTDryT8",
+            "provider": "youtube",
+            "title": "Shepherds’ Field in Bethlehem",
+            "source": "https://www.youtube.com/watch?v=n9d7mTDryT8",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/dGeNnFsVK4U",
+            "provider": "youtube",
+            "title": "The Bethlehem You Don't Know",
+            "source": "https://www.youtube.com/watch?v=dGeNnFsVK4U",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/f9yZt8IOl6A",
+            "provider": "youtube",
+            "title": "Bethlehem City and Market",
+            "source": "https://www.youtube.com/watch?v=f9yZt8IOl6A",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2295,
+          31.7785
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-26",
+        "layer": "sponsor:expedition-snr",
+        "name": "Golgotha / Calvary — crucifixion of Jesus",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JM-GOLGOTHA",
+        "attached_primary_id": "JM-GOLGOTHA",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video gOZZaYsyx2g at this named place.",
+        "notes": "Holy Sepulchre vs Garden Tomb debate video + burial-place visit; traditional loci, contested specifics.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Holy Sepulchre vs Garden Tomb debate video + burial-place visit; traditional loci, contested specifics.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/gOZZaYsyx2g",
+            "provider": "youtube",
+            "title": "Where Is Golgotha: Holy Sepulchre or Garden Tomb?",
+            "source": "https://www.youtube.com/watch?v=gOZZaYsyx2g",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/Mc90PpS07Og",
+            "provider": "youtube",
+            "title": "Jesus' Burial Place",
+            "source": "https://www.youtube.com/watch?v=Mc90PpS07Og",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.234451173455874,
+          31.77662422628255
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-27",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JER-NT-03",
+        "attached_primary_id": "JER-NT-03",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video MHiXq0srWZw at this named place.",
+        "notes": "Temple Mount tunnel / beams / robot / night videos — access-limited, tour-led; not official dig reports.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Temple Mount tunnel / beams / robot / night videos — access-limited, tour-led; not official dig reports.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/MHiXq0srWZw",
+            "provider": "youtube",
+            "title": "The Temple Mount Secrets: An Archaeological Goldmine",
+            "source": "https://www.youtube.com/watch?v=MHiXq0srWZw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/1-XFUix2jUE",
+            "provider": "youtube",
+            "title": "Robot in the Temple Mount Tunnel",
+            "source": "https://www.youtube.com/watch?v=1-XFUix2jUE",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/RMUnjJI5s8I",
+            "provider": "youtube",
+            "title": "Hidden Door Under the Temple Mount",
+            "source": "https://www.youtube.com/watch?v=RMUnjJI5s8I",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/h3W9iX0SnCo",
+            "provider": "youtube",
+            "title": "Untold Archaeology of the Temple Mount — Rare Footage",
+            "source": "https://www.youtube.com/watch?v=h3W9iX0SnCo",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/VwrVuW78gIo",
+            "provider": "youtube",
+            "title": "Rockefeller Museum, Jerusalem",
+            "source": "https://www.youtube.com/watch?v=VwrVuW78gIo",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/LmVCjs4c-So",
+            "provider": "youtube",
+            "title": "Temple Mount at Night",
+            "source": "https://www.youtube.com/watch?v=LmVCjs4c-So",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23548699096236,
+          31.77579432610307
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-28",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "WW-01",
+        "attached_primary_id": "WW-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video h74Lv8Lwgyo at this named place.",
+        "notes": "Ophel / Solomon’s Gate presentation overlaps southern Temple Mount approaches; gate-dating claims popularized.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Ophel / Solomon’s Gate presentation overlaps southern Temple Mount approaches; gate-dating claims popularized.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/h74Lv8Lwgyo",
+            "provider": "youtube",
+            "title": "Archaeologists Found King Solomon’s Gate",
+            "source": "https://www.youtube.com/watch?v=h74Lv8Lwgyo",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/CkYUfNW7ZOM",
+            "provider": "youtube",
+            "title": "CkYUfNW7ZOM",
+            "source": "https://www.youtube.com/watch?v=CkYUfNW7ZOM",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.956,
+          29.788
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-29",
+        "layer": "sponsor:expedition-snr",
+        "name": "Timna Valley — Egyptian / Midianite copper district",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "TIMV-01",
+        "attached_primary_id": "TIMV-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video 0fcUVe6S4vg at this named place.",
+        "notes": "Tabernacle replica in Timna Park is a modern educational rebuild beside real copper-mining archaeology — label replica clearly.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Tabernacle replica in Timna Park is a modern educational rebuild beside real copper-mining archaeology — label replica clearly.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/0fcUVe6S4vg",
+            "provider": "youtube",
+            "title": "Tabernacle of Moses Replica in Timna Park",
+            "source": "https://www.youtube.com/watch?v=0fcUVe6S4vg",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Exodus / Wilderness",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.443857864644926,
+          31.870716077203216
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-30",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jericho (Tell es-Sultan)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JER-01,JER-02",
+        "attached_primary_id": "JER-01,JER-02",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video F-m0hr0nQIk at this named place.",
+        "notes": "Jericho→Jerusalem Wadi Qelt / Good Samaritan trail videos — landscape pilgrimage, not Tell es-Sultan dig season reports.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Jericho→Jerusalem Wadi Qelt / Good Samaritan trail videos — landscape pilgrimage, not Tell es-Sultan dig season reports.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/F-m0hr0nQIk",
+            "provider": "youtube",
+            "title": "From Jericho to Jerusalem in Two Days [Unseen Footage]",
+            "source": "https://www.youtube.com/watch?v=F-m0hr0nQIk",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/q6Uz9gIdm68",
+            "provider": "youtube",
+            "title": "Jericho to Jerusalem, walking the ancient trail of the Good Samaritan",
+            "source": "https://www.youtube.com/watch?v=q6Uz9gIdm68",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Neolithic / Chalcolithic"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.43295453687229,
+          31.849912449706125
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-31",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jericho — Herodian / NT-era Tulul Abu el-Alayiq & related",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JERNT-01",
+        "attached_primary_id": "JERNT-01",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video q6Uz9gIdm68 at this named place.",
+        "notes": "Same Jericho–Jerusalem trail package; NT-era Jericho adjacency.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Same Jericho–Jerusalem trail package; NT-era Jericho adjacency.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/q6Uz9gIdm68",
+            "provider": "youtube",
+            "title": "Jericho to Jerusalem, walking the ancient trail of the Good Samaritan",
+            "source": "https://www.youtube.com/watch?v=q6Uz9gIdm68",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/F-m0hr0nQIk",
+            "provider": "youtube",
+            "title": "Jericho to Jerusalem Hike (Wadi Qelt)",
+            "source": "https://www.youtube.com/watch?v=F-m0hr0nQIk",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.432955,
+          31.849912
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-32",
+        "layer": "sponsor:expedition-snr",
+        "name": "John the Baptist — Jordan wilderness / Jericho approach",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "PR-30",
+        "attached_primary_id": "PR-30",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video CGFqZAlD4pM at this named place.",
+        "notes": "Jordan baptismal geography videos; traditional Qasr el-Yahud / Jordan sites. Aenon-near-Salim is better as its own NEW pin (see NEW).",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Jordan baptismal geography videos; traditional Qasr el-Yahud / Jordan sites. Aenon-near-Salim is better as its own NEW pin (see NEW).",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/CGFqZAlD4pM",
+            "provider": "youtube",
+            "title": "Baptism of Jesus in Jordan River",
+            "source": "https://www.youtube.com/watch?v=CGFqZAlD4pM",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/G9URLfcy8-A",
+            "provider": "youtube",
+            "title": "Baptized in the Jordan River",
+            "source": "https://www.youtube.com/watch?v=G9URLfcy8-A",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.590033,
+          32.818906
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-33",
+        "layer": "sponsor:expedition-snr",
+        "name": "Sea of Galilee — calming the storm",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JM-09",
+        "attached_primary_id": "JM-09",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video pjGMXPcGp3Y at this named place.",
+        "notes": "Sea of Galilee storm / shoreline / Beatitudes videos — landscape for miracle pins, not excavated miracle footprints.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Sea of Galilee storm / shoreline / Beatitudes videos — landscape for miracle pins, not excavated miracle footprints.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/pjGMXPcGp3Y",
+            "provider": "youtube",
+            "title": "Monster Storm at the Sea of Galilee where Jesus Walked",
+            "source": "https://www.youtube.com/watch?v=pjGMXPcGp3Y",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/ftayxaeMm4Q",
+            "provider": "youtube",
+            "title": "Sea of Galilee and Mount Beatitudes",
+            "source": "https://www.youtube.com/watch?v=ftayxaeMm4Q",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/h7vIynRK0HU",
+            "provider": "youtube",
+            "title": "A Hidden Beach on the Sea of Galilee, Tabgha Pilgerhaus",
+            "source": "https://www.youtube.com/watch?v=h7vIynRK0HU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.590033,
+          32.818906
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-34",
+        "layer": "sponsor:expedition-snr",
+        "name": "Sea of Galilee — walking on water",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "JM-10",
+        "attached_primary_id": "JM-10",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video pjGMXPcGp3Y at this named place.",
+        "notes": "Same Galilee landscape package.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Same Galilee landscape package.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/pjGMXPcGp3Y",
+            "provider": "youtube",
+            "title": "Monster Storm at the Sea of Galilee where Jesus Walked",
+            "source": "https://www.youtube.com/watch?v=pjGMXPcGp3Y",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/ftayxaeMm4Q",
+            "provider": "youtube",
+            "title": "Sea of Galilee and Mount Beatitudes",
+            "source": "https://www.youtube.com/watch?v=ftayxaeMm4Q",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.236382535124164,
+          31.773523834056604
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-35",
+        "layer": "sponsor:expedition-snr",
+        "name": "Jerusalem – City of David / Gihon",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "COD-03",
+        "attached_primary_id": "COD-03",
+        "found": "SNR maps/films this locus in their Israel biblical-site video series.",
+        "support": "Official snrisrael.com map_places.json lists video 10AEQJqMWrw at this named place.",
+        "notes": "Covered primarily via City of David + Hezekiah’s Tunnel strong attach; Gihon adjacency.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Covered primarily via City of David + Hezekiah’s Tunnel strong attach; Gihon adjacency.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/10AEQJqMWrw",
+            "provider": "youtube",
+            "title": "City of David and Hezekiah's Tunnel",
+            "source": "https://www.youtube.com/watch?v=10AEQJqMWrw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "ATTACH_EXISTING",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4989,
+          32.8243
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-arbel",
+        "layer": "sponsor:expedition-snr",
+        "name": "Mount Arbel (Galilee cliffs)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Mount Arbel (Galilee cliffs).",
+        "support": "map_places.json video _echC2jrZao; channel presents named site walk.",
+        "notes": "Real cliff overlooking Galilee ministry geography; 'Jesus led most of his ministry' is channel synthesis. No DigIntoScripture Arbel pin today.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real cliff overlooking Galilee ministry geography; 'Jesus led most of his ministry' is channel synthesis. No DigIntoScripture Arbel pin today.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/_echC2jrZao",
+            "provider": "youtube",
+            "title": "Mount Arbel in Galilee Where Jesus Led Most of His Ministry",
+            "source": "https://www.youtube.com/watch?v=_echC2jrZao",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era",
+          "Persian / Hellenistic"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2338,
+          31.7686
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-akeldama",
+        "layer": "sponsor:expedition-snr",
+        "name": "Akeldama (Field of Blood tradition)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Akeldama (Field of Blood tradition).",
+        "support": "map_places.json video W6SkIL15X1I; channel presents named site walk.",
+        "notes": "Traditional Judas/Field of Blood locus in Hinnom; tradition-heavy, excavated monastic/burial remains nearby. Unique map gap.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Traditional Judas/Field of Blood locus in Hinnom; tradition-heavy, excavated monastic/burial remains nearby. Unique map gap.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/W6SkIL15X1I",
+            "provider": "youtube",
+            "title": "We went to Akeldama where Judas hung himself",
+            "source": "https://www.youtube.com/watch?v=W6SkIL15X1I",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.239815,
+          31.779767
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-gethsemane",
+        "layer": "sponsor:expedition-snr",
+        "name": "Gethsemane Garden (Mount of Olives west slope)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Gethsemane Garden (Mount of Olives west slope).",
+        "support": "map_places.json video 5rqiuL7lNrw; channel presents named site walk.",
+        "notes": "Strong Christian tradition; olive trees/churches are later commemorative. No dedicated DigIntoScripture Gethsemane pin (Olivet pin is tombs/Dominus Flevit).",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Strong Christian tradition; olive trees/churches are later commemorative. No dedicated DigIntoScripture Gethsemane pin (Olivet pin is tombs/Dominus Flevit).",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/5rqiuL7lNrw",
+            "provider": "youtube",
+            "title": "Gethsemane Garden",
+            "source": "https://www.youtube.com/watch?v=5rqiuL7lNrw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.525417,
+          32.39955
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-aenon-salim",
+        "layer": "sponsor:expedition-snr",
+        "name": "Aenon near Salim / Tel Shalem springs",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Aenon near Salim / Tel Shalem springs.",
+        "support": "map_places.json video bDggQrp1gGU; channel presents named site walk.",
+        "notes": "Gospel of John locus (Aenon near Salim); channel argues Tel Shalem + springs. Identification debated; better NEW than force onto PR-30 Jordan/Jericho approach only.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Gospel of John locus (Aenon near Salim); channel argues Tel Shalem + springs. Identification debated; better NEW than force onto PR-30 Jordan/Jericho approach only.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/bDggQrp1gGU",
+            "provider": "youtube",
+            "title": "John the Baptist and The Hidden Springs of Salim",
+            "source": "https://www.youtube.com/watch?v=bDggQrp1gGU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.500178,
+          32.501088
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-beit-shean",
+        "layer": "sponsor:expedition-snr",
+        "name": "Beit Shean / Scythopolis",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Beit Shean / Scythopolis.",
+        "support": "map_places.json video ZxEqNWktxw4; channel presents named site walk.",
+        "notes": "Major excavated Decapolis/Roman-Byzantine city; clear unique locus we lack.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Major excavated Decapolis/Roman-Byzantine city; clear unique locus we lack.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/ZxEqNWktxw4",
+            "provider": "youtube",
+            "title": "Beit Shean and Scythopolis — The Ancient Roman City",
+            "source": "https://www.youtube.com/watch?v=ZxEqNWktxw4",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.126,
+          31.2803
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-tel-arad",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tel Arad — Judahite temple",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Tel Arad — Judahite temple.",
+        "support": "map_places.json video dDReygTAnqw; channel presents named site walk.",
+        "notes": "Real Iron Age temple at Arad; channel packaging sensational. Unique OT temple locus we lack.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real Iron Age temple at Arad; channel packaging sensational. Unique OT temple locus we lack.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/dDReygTAnqw",
+            "provider": "youtube",
+            "title": "Shocking Discovery at Ancient Temple in Israel / Tel Arad Temple Discovery",
+            "source": "https://www.youtube.com/watch?v=dDReygTAnqw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.394157,
+          31.466036
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-ein-gedi",
+        "layer": "sponsor:expedition-snr",
+        "name": "Ein Gedi (David wilderness tradition)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Ein Gedi (David wilderness tradition).",
+        "support": "map_places.json video bMWrfQHbp48; channel presents named site walk.",
+        "notes": "Real oasis/spring complex with biblical David tradition; tourism packaging.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real oasis/spring complex with biblical David tradition; tourism packaging.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/bMWrfQHbp48",
+            "provider": "youtube",
+            "title": "Ein Gedi and the Waterfall Of David",
+            "source": "https://www.youtube.com/watch?v=bMWrfQHbp48",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.660131,
+          32.778694
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-hippos",
+        "layer": "sponsor:expedition-snr",
+        "name": "Susita / Hippos (Decapolis)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Susita / Hippos (Decapolis).",
+        "support": "map_places.json video 3Ey7cV5p_vE; channel presents named site walk.",
+        "notes": "Real Decapolis city east of Galilee; 'city on a hill' link is interpretive.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real Decapolis city east of Galilee; 'city on a hill' link is interpretive.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/3Ey7cV5p_vE",
+            "provider": "youtube",
+            "title": "The City on the Hill Jesus Mentions; Susita/Hippos",
+            "source": "https://www.youtube.com/watch?v=3Ey7cV5p_vE",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era",
+          "Persian / Hellenistic"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.087847,
+          32.673041
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-mt-carmel",
+        "layer": "sponsor:expedition-snr",
+        "name": "Mount Carmel — Elijah / Baal contest tradition",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Mount Carmel — Elijah / Baal contest tradition.",
+        "support": "map_places.json video QuuY574nIWY; channel presents named site walk.",
+        "notes": "Real mountain ridge; Muhraka tradition site. Contest locus commemorative.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real mountain ridge; Muhraka tradition site. Contest locus commemorative.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/QuuY574nIWY",
+            "provider": "youtube",
+            "title": "Mount Carmel, Where Elijah Slew 450 Prophets of Baal",
+            "source": "https://www.youtube.com/watch?v=QuuY574nIWY",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.390024,
+          32.686733
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-mt-tabor",
+        "layer": "sponsor:expedition-snr",
+        "name": "Mount Tabor — Transfiguration tradition",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Mount Tabor — Transfiguration tradition.",
+        "support": "map_places.json video 1mTsHDknh0E; channel presents named site walk.",
+        "notes": "Traditional Transfiguration mountain (vs Hermon alternatives); church-crowned commemorative site.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Traditional Transfiguration mountain (vs Hermon alternatives); church-crowned commemorative site.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/1mTsHDknh0E",
+            "provider": "youtube",
+            "title": "Mount of Transfiguration, Mt Tabor",
+            "source": "https://www.youtube.com/watch?v=1mTsHDknh0E",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era",
+          "Persian / Hellenistic"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.95686,
+          31.696225
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-valley-elah",
+        "layer": "sponsor:expedition-snr",
+        "name": "Valley of Elah (David & Goliath tradition)",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Valley of Elah (David & Goliath tradition).",
+        "support": "map_places.json video dVfdExb3jaA; channel presents named site walk.",
+        "notes": "Real valley between Socoh/Azekah geography; battle spot tradition, not excavated duel footprint.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Real valley between Socoh/Azekah geography; battle spot tradition, not excavated duel footprint.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/dVfdExb3jaA",
+            "provider": "youtube",
+            "title": "David & Goliath: The Valley of Elah",
+            "source": "https://www.youtube.com/watch?v=dVfdExb3jaA",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9165,
+          32.6172
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-tel-dor",
+        "layer": "sponsor:expedition-snr",
+        "name": "Tel Dor",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Tel Dor.",
+        "support": "map_places.json video QgsQ-lgPJZQ; channel presents named site walk.",
+        "notes": "Major coastal tell; biblical Dor. Unique pin gap.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Major coastal tell; biblical Dor. Unique pin gap.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/QgsQ-lgPJZQ",
+            "provider": "youtube",
+            "title": "The Bible Mentions This City… But Tourists Ignore It",
+            "source": "https://www.youtube.com/watch?v=QgsQ-lgPJZQ",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine",
+          "New Testament era",
+          "Persian / Hellenistic"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1103,
+          31.3927
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-susya",
+        "layer": "sponsor:expedition-snr",
+        "name": "Susya — ancient synagogue / Yeshua inscription",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR site walk at Susya (channel presentation). Epigraphic cite (not the videos): IIP KSUS0002 / CIIP IV 3872 — An Aramaic synagogue mosaic at Susya names a man ישוע (Yeshua) in a “remembered for good” dedication (titles debated). Not proof of Jesus of Nazareth; not an NT Jesus temple-synagogue claim.",
+        "support": "Epigraphy: IIP KSUS0002 / CIIP IV 3872 (Aramaic synagogue mosaic dedication naming ישוע). SNR videos (bHMQFQZ8DjA, e-rTfBb_jfo) = channel visit/context only, not the epigraphic source.",
+        "notes": "Linguist (Professor Xavier) SAFE footnote: An Aramaic synagogue mosaic at Susya names a man ישוע (Yeshua) in a “remembered for good” dedication (titles debated). BAN: \"Jesus of Nazareth proven,\" \"Yeshua inscription = NT Jesus in an ancient temple-synagogue,\" any Gospel over-read. Common Jewish personal name; Byzantine-period Jewish synagogue dedication — not NT-period Gospel narrative. SNR YouTube embeds = channel context only; epigraphic source remains IIP KSUS0002 / CIIP IV 3872 (Brown; Werlin 2015).",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Linguist (Professor Xavier) SAFE footnote: An Aramaic synagogue mosaic at Susya names a man ישוע (Yeshua) in a “remembered for good” dedication (titles debated). BAN: \"Jesus of Nazareth proven,\" \"Yeshua inscription = NT Jesus in an ancient temple-synagogue,\" any Gospel over-read. Common Jewish personal name; Byzantine-period Jewish synagogue dedication — not NT-period Gospel narrative. SNR YouTube embeds = channel context only; epigraphic source remains IIP KSUS0002 / CIIP IV 3872 (Brown; Werlin 2015).",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/bHMQFQZ8DjA",
+            "provider": "youtube",
+            "title": "We Found the Name of Jesus… and an EVEN BIGGER Discovery!",
+            "source": "https://www.youtube.com/watch?v=bHMQFQZ8DjA",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/e-rTfBb_jfo",
+            "provider": "youtube",
+            "title": "“Yeshua” (Jesus) Inscription Discovered in an Ancient Temple like Synagogue in Susya",
+            "source": "https://www.youtube.com/watch?v=e-rTfBb_jfo",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Roman / Byzantine"
+        ],
+        "sources": "Epigraphic: IIP KSUS0002 / CIIP IV 3872. Sergio & Rhoda YouTube embeds = channel context only (not epigraphic source). snrisrael.com / Patreon outbound. No merch CTA.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "linguist_footnote": "An Aramaic synagogue mosaic at Susya names a man ישוע (Yeshua) in a “remembered for good” dedication (titles debated).",
+        "epigraphic_cites": "IIP KSUS0002 / CIIP IV 3872",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.356336,
+          32.55004
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-gideon-harod",
+        "layer": "sponsor:expedition-snr",
+        "name": "Spring of Harod / Gideon’s Cave tradition",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Spring of Harod / Gideon’s Cave tradition.",
+        "support": "map_places.json video YWm0MhzEfvw; channel presents named site walk.",
+        "notes": "Judges 7 spring tradition near Harod; commemorative/tourism. Unique map gap.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Judges 7 spring tradition near Harod; commemorative/tourism. Unique map gap.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/YWm0MhzEfvw",
+            "provider": "youtube",
+            "title": "Gideon's Cave and the Spring of Harod",
+            "source": "https://www.youtube.com/watch?v=YWm0MhzEfvw",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.909341,
+          31.633771
+        ]
+      },
+      "properties": {
+        "id": "SPN-snr-moresheth",
+        "layer": "sponsor:expedition-snr",
+        "name": "Moresheth-gath / Micah hometown candidate",
+        "sponsor_id": "expedition-snr",
+        "sponsor_label": "Expedition: Sergio & Rhoda (sponsor)",
+        "attached_map_pin_id": "",
+        "attached_primary_id": "",
+        "found": "SNR filmed a clear unique locus DigIntoScripture currently lacks: Moresheth-gath / Micah hometown candidate.",
+        "support": "map_places.json video 1lMDYqlx5aU; channel presents named site walk.",
+        "notes": "Micah hometown geography; candidate ID may be channel-led — treat as mixed NEW.",
+        "surveyor_solidity": "mixed",
+        "surveyor_caveat": "Micah hometown geography; candidate ID may be channel-led — treat as mixed NEW.",
+        "gospel_hook": "",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/1lMDYqlx5aU",
+            "provider": "youtube",
+            "title": "Finding Micah’s Hometown, An Unexpected Discovery",
+            "source": "https://www.youtube.com/watch?v=1lMDYqlx5aU",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://www.patreon.com/snrisrael",
+        "sponsor_cta_host": "patreon.com",
+        "sponsor_cta_alt_url": "https://snrisrael.com/",
+        "sponsor_cta_alt_label": "Sergio & Rhoda (site)",
+        "sponsor_book_cta_label": "Tours (WeTravel)",
+        "sponsor_book_cta_url": "https://inspire.wetravel.com/",
+        "sponsor_book_cta_host": "inspire.wetravel.com",
+        "affiliate_disclosed": false,
+        "affiliate_note": "DigIntoScripture affiliate not negotiated; outbound links only (Patreon / snrisrael.com / WeTravel).",
+        "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+        "ministry_label": "Sergio & Rhoda in Israel (SNR / snrisrael) are an Israel-based Christian couple producing biblical-site travel and archaeology-interest YouTube videos, group tours, Patreon support, and merch/calendars. Public bios describe ordinary professional backgrounds (not licensed dig directors). Personal site walks and ministry packaging ≠ peer-reviewed dig consensus. Chip off-by-default.",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "pin_recommendation": "NEW",
+        "phase": "2",
+        "status_kind": "visitor"
+      }
+    }
+  ]
+}

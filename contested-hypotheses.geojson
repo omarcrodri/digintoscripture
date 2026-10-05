@@ -1,0 +1,2011 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.67,
+          31.84
+        ]
+      },
+      "properties": {
+        "id": "CBG-01",
+        "name": "Tall el-Hammam (TeH)",
+        "layer": "contested_hypotheses",
+        "location": "E Jordan Valley / NE Dead Sea plain, Jordan (~31.84 N, 35.67 E)",
+        "testament": "OT",
+        "hypothesis": "Steven Collins and others identified TeH as biblical Sodom (Gen 13–19; cities of the Kikkar). Bunch et al. (Sci Rep 2021) argued a ~1650 BCE Tunguska-scale cosmic airburst destroyed the Middle Bronze city and could underlie the Genesis 19 fire-from-heaven tradition.",
+        "found": "A large MBA settlement with a destruction/abandonment horizon and reports of heat-affected pottery/mudbrick and unusual materials. The 2021 paper claimed shocked quartz, melts >2000 °C, spherules, salt spike, skeletal trauma, and regional abandonment.",
+        "divergence": "Scientific Reports retracted the airburst article on 24 Apr 2025 (doi:10.1038/s41598-025-99265-5), citing Jaret & Harris (mineralogy/geochemistry not impact-diagnostic) and Boslough & Bruno (invalid Tunguska comparisons). Editors: airburst destruction 'not sufficiently supported.' Sodom ID was never mainstream consensus. Some coauthors disagree and republished elsewhere; Nature Portfolio retraction stands. Pattern (C) lab claim retracted; (A/B) place ID contested.",
+        "status_tag": "fully_retracted",
+        "sources": "Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 (RETRACTED); Retraction Note doi:10.1038/s41598-025-99265-5; Jaret & Harris Sci Rep 2022 doi:10.1038/s41598-022-08216-x; Boslough & Bruno Sci Rep 2025 doi:10.1038/s41598-025-98362-9; https://www.nature.com/articles/s41598-025-99265-5; Jerusalem Post coverage of retraction; Bunch et al. Sci Rep 2021 doi:10.1038/s41598-021-97778-3 [RETRACTED]; Retraction doi:10.1038/s41598-025-99265-5; https://answersingenesis.org/archaeology/have-we-found-sodom/",
+        "notes": "Fair: TeH is a real excavated MBA city with destruction evidence. The airburst mechanism and Genesis-Sodom equation are what failed peer confidence. Distinguish site archaeology from the retracted bolide paper. Surveyor type (C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG explicitly rejects Tall el-Hammam as biblical Sodom (geography vs Gen/Ezek; chronology; reoccupation; Zoar survival) and rejects airburst-as-inspiration headlines. Ministry scriptural critique—not dig consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+              "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+              "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG explicitly rejects Tall el-Hammam as biblical Sodom (geography vs Gen/Ezek; chronology; reoccupation; Zoar survival) and rejects airburst-as-inspiration headlines. Ministry scriptural critique—not dig consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical Problems Identifying Tall el-Hammam as Sodom",
+            "url": "https://answersingenesis.org/archaeology/biblical-problems-identifying-tall-el-hammam-sodom/",
+            "summary": "AiG critique of TeH=Sodom identification on scriptural geography/chronology grounds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA) + Tall el-Hammam Excavation Project (Trinity Southwest / Veritas International)",
+          "type": "mixed",
+          "role": "DoA licenses the site; TeHEP (TSU/VIU) is the published foreign excavation mission. Sodom identification is contested.",
+          "contact_name": "Glenda Austin / TSU Administration (dig inquiries)",
+          "contact_title": "TeHEP dig administration contact",
+          "contact_email": "admin@tsu-edu.us",
+          "contact_phone": "505-332-4253",
+          "contact_url": "https://tallelhammam.com/",
+          "notes": "CONTROVERSY: TeHEP identifies TeH as Sodom; many scholars reject. Dual contact: DoA (Jordan national) + TeHEP mission.",
+          "official_website": "https://www.tehep.com/home-1"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.tehep.com/home-1",
+        "official_website_label": "Tall el-Hammam Excavation Project (TeHEP)",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.447,
+          31.871
+        ]
+      },
+      "properties": {
+        "id": "CBG-02",
+        "name": "Jericho (Tell es-Sultan)",
+        "layer": "contested_hypotheses",
+        "location": "West Bank / Jordan Valley, near modern Jericho",
+        "testament": "OT",
+        "hypothesis": "Joshua 6: Israelites march around fortified Jericho; walls fall; city burned. John Garstang (1930s) dated City IV fiery destruction ~1400 BCE and linked it to the conquest.  Intifada halted the Italian–Palestinian season: Sapienza’s Tell es-Sultan team records that autumn 2000 fieldwork was interrupted by the severe political situation, with a forced field stop into the mid-2000s before cooperation digs returned—proof that Jericho’s trenches track geopolitics as well as stratigraphy.",
+        "found": "Major Bronze Age destruction with collapsed mudbrick, ash, and stored grain. Kenyon redated Garstang's City IV walls/destruction to end of Middle Bronze (~1550 BCE), with only sparse LB occupation—not a walled Late Bronze city matching a ~13th-c. conquest model.",
+        "divergence": "Mainstream view: Kenyon's MB end dating (supported by later 14C) means the famous destruction is too early for a Late Bronze 'conquest' horizon; no fortified city fitting ~1230 BCE. Minority (Wood et al.) revive Garstang ~1400 BCE pottery reading. Debate continues but Kenyon's stratigraphy dominates textbooks. Pattern (A): real place and real destruction; dating/interpretation overreach relative to popular conquest sync.",
+        "status_tag": "ongoing_debate",
+        "sources": "Garstang & Garstang, The Story of Jericho (1948); Kenyon, Digging Up Jericho (1957); Wood, BAR 16/2 (1990); Bruins & van der Plicht Radiocarbon 1995; NatGeo 'Fall of Jericho' summary; MDPI Religions 14/796 (2023 overview); Expedition Bible note C27CmsSGx5Y (Jericho Unearthed — Garstang vs Kenyon); https://www.youtube.com/watch?v=C27CmsSGx5Y; K. Kenyon, Digging Up Jericho; J. Garstang, The Story of Jericho (1948)",
+        "notes": "Not 'no Jericho'—site is Tell es-Sultan. Contest is chronology and whether Joshua's narrative matches a specific destruction layer. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "Answers in Genesis publishes Bryant Wood–aligned articles arguing Tell es-Sultan’s collapsed mudbrick walls, burn layer, and grain jars fit Joshua 6 around 1400 BC (contra Kenyon’s ~1550 BC)—ministry interpretation, not dig consensus. The Creation Museum’s Biblical Authority exhibit/blog (“Is Tell es-Sultan Rahab’s Jericho?”) repeats the same Jericho correlations for visitors in Petersburg, KY.",
+          "aig": [
+            {
+              "title": "The Walls of Jericho",
+              "url": "https://answersingenesis.org/archaeology/the-walls-of-jericho/",
+              "summary": "Bryant Wood argues Jericho's mudbrick walls fell outward ~1400 BC (not Kenyon's ~1550 BC), with burn layer and unplundered grain matching Joshua 6—AiG ministry interpretation of dig data.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeology's Lost Conquest",
+              "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+              "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            },
+            {
+              "title": "Conservative Jews Reject Torah, Allegedly in Light of Archaeology",
+              "url": "https://answersingenesis.org/archaeology/conservative-jews-reject-torah-allegedly-in-light-of-archaeology/",
+              "summary": "AiG apologetic citing Wood's Jericho correlations against conquest skepticism.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "Is Tell es-Sultan Rahab’s Jericho?",
+              "url": "https://creationmuseum.org/blog/2023/10/12/is-tell-es-sultan-rahabs-jericho/",
+              "summary": "Creation Museum Biblical Authority exhibit blog: collapsed walls outward, burn layer, charred grain jars, north wall segment tied to Rahab.",
+              "exhibit_or_page": "Biblical Authority exhibit / Jericho panel blog"
+            },
+            {
+              "title": "Explore Biblical Authority at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2026/07/30/explore-biblical-authority-at-creation-museum/",
+              "summary": "Museum page describing Biblical Authority exhibit using archaeology (including Jericho).",
+              "exhibit_or_page": "Biblical Authority exhibit"
+            }
+          ],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "Answers in Genesis publishes Bryant Wood–aligned articles arguing Tell es-Sultan’s collapsed mudbrick walls, burn layer, and grain jars fit Joshua 6 around 1400 BC (contra Kenyon’s ~1550 BC)—ministry interpretation, not dig consensus. The Creation Museum’s Biblical Authority exhibit/blog (“Is Tell es-Sultan Rahab’s Jericho?”) repeats the same Jericho correlations for visitors in Petersburg, KY.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "The Walls of Jericho",
+            "url": "https://answersingenesis.org/archaeology/the-walls-of-jericho/",
+            "summary": "Bryant Wood argues Jericho's mudbrick walls fell outward ~1400 BC (not Kenyon's ~1550 BC), with burn layer and unplundered grain matching Joshua 6—AiG ministry interpretation of dig data.",
+            "kind": "article"
+          },
+          {
+            "title": "Archaeology's Lost Conquest",
+            "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+            "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          },
+          {
+            "title": "Conservative Jews Reject Torah, Allegedly in Light of Archaeology",
+            "url": "https://answersingenesis.org/archaeology/conservative-jews-reject-torah-allegedly-in-light-of-archaeology/",
+            "summary": "AiG apologetic citing Wood's Jericho correlations against conquest skepticism.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [
+          {
+            "title": "Is Tell es-Sultan Rahab’s Jericho?",
+            "url": "https://creationmuseum.org/blog/2023/10/12/is-tell-es-sultan-rahabs-jericho/",
+            "summary": "Creation Museum Biblical Authority exhibit blog: collapsed walls outward, burn layer, charred grain jars, north wall segment tied to Rahab.",
+            "exhibit_or_page": "Biblical Authority exhibit / Jericho panel blog"
+          },
+          {
+            "title": "Explore Biblical Authority at the Creation Museum",
+            "url": "https://creationmuseum.org/blog/2026/07/30/explore-biblical-authority-at-creation-museum/",
+            "summary": "Museum page describing Biblical Authority exhibit using archaeology (including Jericho).",
+            "exhibit_or_page": "Biblical Authority exhibit"
+          }
+        ],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "halt_recorded",
+          "date": "2000-10 (Fourth season interrupted; forced field stop ~2001–2005 noted by expedition)",
+          "halted_by": "Severe political/security situation of the Second Intifada interrupting the Italian–Palestinian expedition (not a named single stop-work agency)",
+          "summary": "Sapienza’s Jericho project pages state the September–October 2000 season “was interrupted due to the severe political situation,” and later reports refer to a “forced stop of activities on the field (2001–2005)” while study continued off-site. Fieldwork later resumed under Sapienza–Palestinian cooperation. Classed as a conflict/security interruption of a specific project; no single government stop-work order is named in the expedition’s summary.",
+          "sources": [
+            "https://sites.google.com/uniroma1.it/sapienzatojericho/results/season-1997-2000"
+          ]
+        },
+        "site_authority": {
+          "name": "Palestinian MOTA / Tell es-Sultan management (Jericho) — contested chronology debates",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://whc.unesco.org/en/list/1687/",
+          "notes": "Same Jericho tell as OT dig; contested conquest chronologies.",
+          "official_website": "https://whc.unesco.org/en/list/1687/"
+        },
+        "dig_status": "halted",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/1687/",
+        "official_website_label": "UNESCO — Ancient Jericho / Tell es-Sultan",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.287,
+          31.917
+        ]
+      },
+      "properties": {
+        "id": "CBG-03",
+        "name": "Ai — et-Tell vs Khirbet el-Maqatir (and Kh. Nisya)",
+        "layer": "contested_hypotheses",
+        "location": "Central highlands N of Jerusalem (et-Tell ~9 mi N; Maqatir ~0.6 mi W of et-Tell)",
+        "testament": "OT",
+        "hypothesis": "Joshua 7–8: Israelites attack Ai near Bethel after Jericho. W.F. Albright (1924) fixed Ai at et-Tell; expected LB fortified town destroyed by fire.",
+        "found": "et-Tell: major Early Bronze city, then gap—unoccupied in Late Bronze at the conventional conquest horizon. Callaway called Ai an 'embarrassment' to conquest models that take both Bible and et-Tell ID seriously. ABR reports an LB I fortified site with destruction at Maqatir.",
+        "divergence": "Classic wrong-site vs alt-ID problem: if et-Tell = Ai, archaeology diverges from Joshua 7–8 at the conquest horizon. Conservatives propose Maqatir (or formerly Nisya) as the true Ai. Majority scholarship still defaults to et-Tell and treats the narrative as etiological or relocated memory. Pattern (B) primary; (A) if alternate accepted.",
+        "status_tag": "contested",
+        "sources": "Albright JPOS 1924; Callaway, BA 1968 / excavation reports; Wood ABR reports (biblearchaeology.org); BibleInterp Maqatir 2013 PDF; Livingston Kh. Nisya publications; Expedition Bible note lK7GQxkEkKk (Problem of Ai); https://www.youtube.com/watch?v=lK7GQxkEkKk; Callaway BASOR Ai reports; https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-places/the-great-bethsaida-debate/; Arav & Freund Bethsaida vols; Notley & Aviam reports",
+        "notes": "Honest split: empty et-Tell at LB is the problem that founded ABR. Alternate IDs remain minority. Surveyor type (B).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG sides with ABR: Khirbet el-Maqatir (and related claims) over et-Tell for Joshua’s Ai. Contested identification presented as ministry/ABR interpretation.",
+          "aig": [
+            {
+              "title": "Getting Archaeology Right at Ai",
+              "url": "https://answersingenesis.org/archaeology/getting-archaeology-right-at-ai/",
+              "summary": "AiG presents ABR/Bryant Wood case that Khirbet el-Maqatir (not et-Tell) fits Joshua's Ai: gate, fortifications, LB pottery, and fiery destruction.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeology and Ai",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2013/02/08/archaeology-and-ai/",
+              "summary": "Ken Ham blog endorsing ABR excavations claiming Khirbet el-Maqatir as biblical Ai.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeology's Lost Conquest",
+              "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+              "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG sides with ABR: Khirbet el-Maqatir (and related claims) over et-Tell for Joshua’s Ai. Contested identification presented as ministry/ABR interpretation.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Getting Archaeology Right at Ai",
+            "url": "https://answersingenesis.org/archaeology/getting-archaeology-right-at-ai/",
+            "summary": "AiG presents ABR/Bryant Wood case that Khirbet el-Maqatir (not et-Tell) fits Joshua's Ai: gate, fortifications, LB pottery, and fiery destruction.",
+            "kind": "article"
+          },
+          {
+            "title": "Archaeology and Ai",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2013/02/08/archaeology-and-ai/",
+            "summary": "Ken Ham blog endorsing ABR excavations claiming Khirbet el-Maqatir as biblical Ai.",
+            "kind": "article"
+          },
+          {
+            "title": "Archaeology's Lost Conquest",
+            "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+            "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-site: et-Tell / Khirbet el-Maqatir / Kh. Nisya — PA / Civil Administration archaeology + ABR (Maqatir historically)",
+          "type": "mixed",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://biblearchaeology.org/",
+          "notes": "Competing Ai candidates across highland sites. No single authority.",
+          "official_website": "https://biblearchaeology.org/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://biblearchaeology.org/",
+        "official_website_label": "Multi-site: et-Tell / Khirbet el-Maqatir / Kh. Nisya — PA / Civil Administration archaeology + ABR (Maqatir historically)",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.631,
+          32.91
+        ]
+      },
+      "properties": {
+        "id": "CBG-04",
+        "name": "Bethsaida — et-Tell vs el-Araj",
+        "layer": "contested_hypotheses",
+        "location": "N shore / NE of Sea of Galilee, Israel",
+        "testament": "NT",
+        "hypothesis": "Gospels: Bethsaida home of Peter, Andrew, Philip (John 1:44; Mark 8:22–26; Luke 9:10). Excavators sought a lakeside fishing village later raised to polis (Julias) by Philip the Tetrarch (Josephus).",
+        "found": "et-Tell: substantial Iron Age and Hellenistic-Roman remains inland on a tell; Arav argues it matches Julias grandeur. el-Araj: lakeshore Roman bathhouse, Byzantine basilica claimed as Church of the Apostles / Peter's house tradition; stronger fishing-village geography.",
+        "divergence": "Two competent teams, two sites—ongoing 'Great Bethsaida Debate.' Geography (shore vs inland) and Roman finds at el-Araj challenge exclusive et-Tell ID. Not a fraud case; genuine site-identification contest. Pattern (B).",
+        "status_tag": "ongoing_debate",
+        "sources": "BAS: 'The Great Bethsaida Debate'; 'Where Is Biblical Bethsaida?'; 'Searching for Bethsaida: The Case for El-Araj' (BAS Library); el-Araj project reports; Arav Bethsaida volumes; Expedition Bible note lK7GQxkEkKk (Problem of Ai); https://www.youtube.com/watch?v=lK7GQxkEkKk; Callaway BASOR Ai reports; https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-places/the-great-bethsaida-debate/; Arav & Freund Bethsaida vols; Notley & Aviam reports",
+        "notes": "Bible pointed toward the Gennesaret NE coast correctly; which mound is Bethsaida is the fight. Surveyor type (B).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "No verified AiG article adjudicating et-Tell vs el-Araj Bethsaida was found. CM Borderland offers general NT Galilee theme only (none_found for site debate).",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified AiG article adjudicating et-Tell vs el-Araj Bethsaida was found. CM Borderland offers general NT Galilee theme only (none_found for site debate).",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [
+          {
+            "title": "New Exhibit Now Open at the Creation Museum",
+            "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+            "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+            "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+          }
+        ],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Bethsaida dual-candidate debate — IAA licenses both et-Tell and el-Araj workstreams.",
+          "official_website": "https://www.bethsaida-julias.com/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://www.bethsaida-julias.com/",
+        "official_website_label": "Bethsaida–Julias Excavation Project (el-Araj)",
+        "official_video_embed": "https://www.youtube.com/embed/LE79zQiLA8s",
+        "official_video_source": "https://www.bethsaida-julias.com/",
+        "official_video_provider": "youtube",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.575,
+          32.881
+        ]
+      },
+      "properties": {
+        "id": "CBG-05",
+        "name": "Capernaum — 'House of Peter' (Insula I)",
+        "layer": "contested_hypotheses",
+        "location": "NW Sea of Galilee, Tell Hum / Kefar Nahum, Israel",
+        "testament": "NT",
+        "hypothesis": "Mark 1:29–34; Luke 4:38–39 etc.: Jesus heals Peter's mother-in-law in Peter's house at Capernaum. Franciscan excavators expected to find the house under the octagonal Byzantine church tradition.",
+        "found": "First-century domestic complex under the octagonal church; one room plastered and shifted from household pottery to lamps/storage jars by late 1st/early 2nd c.—interpreted as meeting hall; 4th-c. domus ecclesiae; pilgrim graffiti naming Jesus/Peter.",
+        "divergence": "Site Capernaum ID is solid. Named 'Peter's house' rests on early Christian tradition + architectural special treatment, not an inscription saying 'Peter lived here.' Critics doubt continuous Jewish-Christian memory transmission. Plausible tradition ≠ archaeological proof of ownership. Pattern (A).",
+        "status_tag": "contested",
+        "sources": "Corbo/Loffreda Capernaum excavation reports; Custodia Terra Santa Capernaum page; Grey, 'Simon Peter in Capernaum' (BYU RSC); BAS 'Peter in Capernaum' sidebar; https://www.custodia.org/en/sanctuaries/capernaum/; Corbo, Cafarnao I; Loffreda pottery vols",
+        "notes": "Town and house complex are real; overreach is certainty of personal ID. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "No AiG page specifically endorsing Capernaum Insula I “House of Peter” was verified. Coverage: none_found for this contested claim.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No AiG page specifically endorsing Capernaum Insula I “House of Peter” was verified. Coverage: none_found for this contested claim.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Franciscan Custody (Capernaum) + IAA — 'House of Peter' identification contested",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.custodia.org/",
+          "notes": "Site managed by Franciscans; identification of Insula I as Peter’s house is interpretive/contested.",
+          "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/kfar-nahum-capernaum-national-park/",
+        "official_website_label": "INPA — Kfar Nahum (Capernaum) National Park",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.298,
+          32.702
+        ]
+      },
+      "properties": {
+        "id": "CBG-06",
+        "name": "Nazareth — Sisters of Nazareth 'Jesus house'",
+        "layer": "contested_hypotheses",
+        "location": "Central Nazareth, Israel (Sisters of Nazareth Convent)",
+        "testament": "NT",
+        "hypothesis": "Gospels place Jesus's upbringing in Nazareth (Luke 2:39–52; Matt 2:23). Media framed Ken Dark's first-century house as possibly 'Jesus's childhood home,' echoing Byzantine Church of the Nutrition tradition (De Locis Sanctis).",
+        "found": "Well-preserved Early Roman domestic structure (rock-cut + built courtyard house), later tombs, Byzantine church/crypt matching pilgrim description of house between two tombs. Jewish cultural markers (e.g. possible limestone vessels).",
+        "divergence": "Dark explicitly: archaeology cannot prove it was Jesus's house; Byzantines probably believed it was. International media often overstated. Village existence in 1st c. is supported; personal ID is tradition, not proven. Pattern (A).",
+        "status_tag": "contested",
+        "sources": "Dark, Antiquaries Journal 92 (2012) doi:10.1017/S0003581512001308; Dark BibleInterp 'Sisters of Nazareth Site'; Reading Univ. 2015 news release (cautious wording)",
+        "notes": "Separate 'Nazareth didn't exist' myth-busting from 'this room is Jesus's bedroom' hype. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "No verified AiG article on Sisters of Nazareth “Jesus house” claim. Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified AiG article on Sisters of Nazareth “Jesus house” claim. Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Sisters of Nazareth Convent + IAA",
+          "type": "church",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Property of Sisters of Nazareth; 'Jesus house' claim contested in scholarship.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "dig_status": "open",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.298,
+          39.701
+        ]
+      },
+      "properties": {
+        "id": "CBG-07",
+        "name": "Noah's Ark claims — Durupınar / Ararat region",
+        "layer": "contested_hypotheses",
+        "location": "E Turkey: Durupınar formation near Doğubayazıt; various Ararat search locales",
+        "testament": "OT",
+        "hypothesis": "Genesis 8:4 — ark rests on 'mountains of Ararat.' Searchers expected a wooden (or petrified) ship wreck on/near Ağrı Dağı.",
+        "found": "Boat-shaped natural landform (Durupınar) in landslide/earthflow terrain; claimed 'wood,' 'rivets,' and chambers have not survived independent scientific verification as ship remains. Geological consensus: syncline / limestone block + clay flow shaping.",
+        "divergence": "No peer-accepted archaeological wreck. Geologists (e.g. Collins; Avcı earthflow papers) explain morphology naturally. Wyatt-linked claims widely rejected even by many creationist researchers. Pattern (C)/(B): wrong object treated as ark; popular claims contested.",
+        "status_tag": "contested",
+        "sources": "Collins & Fasold, 'Bogus Noah's Ark from Turkey Exposed as a Common Geologic Structure,' J. Geoscience Education 44 (1996) https://www.csun.edu/~vcgeo005/Nr1Bogus2.pdf; L.G. Collins geological assessments; Avcı Bulletin Eng Geol Env on Telçeker earthflow; creationist critiques of Wyatt ark claims; no accepted peer ark publication; https://www.youtube.com/watch?v=W_xfWVfBJvk (Ken Ham, 2026-09-28, cautionary); https://answersingenesis.org/noahs-ark/",
+        "notes": "Document carefully as contested popular claims—not mainstream dig results. Does not disprove flood traditions; it disproves these wreck IDs. Surveyor type (C)/(B).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG/Snelling have long rejected Durupınar as Noah’s Ark (geology, basement rock, Gen 8:4 region wording). Ken Ham 2025 blogs restate caution vs Noah’s Ark Scans hype. Ark Encounter is AiG’s replica alternative—not endorsement of Durupınar digs.",
+          "aig": [
+            {
+              "title": "Special Report: Amazing “Ark” Exposé",
+              "url": "https://answersingenesis.org/creationism/arguments-to-avoid/special-report-amazing-ark-expose/",
+              "summary": "Andrew Snelling 1992 geological refutation of Durupınar/Wyatt boat-shape as Noah's Ark.",
+              "kind": "article"
+            },
+            {
+              "title": "Has Noah’s Ark Been Found . . . For Real This Time?",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2025/06/01/has-noahs-ark-been-found-for-real/",
+              "summary": "Ken Ham + Snelling rebuttal of 2025 Durupınar/Noah's Ark Scans hype.",
+              "kind": "article"
+            },
+            {
+              "title": "Noah’s Ark Back in the News . . . But Has It Really Been Found?",
+              "url": "https://answersingenesis.org/noahs-ark/noahs-ark-back-in-news-has-it-really-been-found/",
+              "summary": "AiG restates Durupınar skepticism after media recycling of radar 'cabins/decks' claims.",
+              "kind": "article"
+            },
+            {
+              "title": "Is Noah’s Ark on Mount Ararat?",
+              "url": "https://answersingenesis.org/noahs-ark/noahs-ark-found/noahs-ark-mount-ararat/",
+              "summary": "Snelling: Genesis says mountains (region) of Ararat; Durupınar dismissed as geology.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [
+            {
+              "title": "About the Life-Size Noah’s Ark",
+              "url": "https://arkencounter.com/about/",
+              "summary": "About page for Williamstown KY full-scale Ark replica and Flood narrative exhibits.",
+              "exhibit_or_page": "Life-size Ark / Flood narrative"
+            },
+            {
+              "title": "Exhibits | Ark Encounter",
+              "url": "https://arkencounter.com/exhibits/",
+              "summary": "Ark Encounter exhibits index: life-size Ark decks including Flood geology / pre-Flood world themes.",
+              "exhibit_or_page": "Ark exhibits (Flood / pre-Flood)"
+            }
+          ],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG/Snelling have long rejected Durupınar as Noah’s Ark (geology, basement rock, Gen 8:4 region wording). Ken Ham 2025 blogs restate caution vs Noah’s Ark Scans hype. Ark Encounter is AiG’s replica alternative—not endorsement of Durupınar digs.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Special Report: Amazing “Ark” Exposé",
+            "url": "https://answersingenesis.org/creationism/arguments-to-avoid/special-report-amazing-ark-expose/",
+            "summary": "Andrew Snelling 1992 geological refutation of Durupınar/Wyatt boat-shape as Noah's Ark.",
+            "kind": "article"
+          },
+          {
+            "title": "Has Noah’s Ark Been Found . . . For Real This Time?",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2025/06/01/has-noahs-ark-been-found-for-real/",
+            "summary": "Ken Ham + Snelling rebuttal of 2025 Durupınar/Noah's Ark Scans hype.",
+            "kind": "article"
+          },
+          {
+            "title": "Noah’s Ark Back in the News . . . But Has It Really Been Found?",
+            "url": "https://answersingenesis.org/noahs-ark/noahs-ark-back-in-news-has-it-really-been-found/",
+            "summary": "AiG restates Durupınar skepticism after media recycling of radar 'cabins/decks' claims.",
+            "kind": "article"
+          },
+          {
+            "title": "Is Noah’s Ark on Mount Ararat?",
+            "url": "https://answersingenesis.org/noahs-ark/noahs-ark-found/noahs-ark-mount-ararat/",
+            "summary": "Snelling: Genesis says mountains (region) of Ararat; Durupınar dismissed as geology.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [
+          {
+            "title": "About the Life-Size Noah’s Ark",
+            "url": "https://arkencounter.com/about/",
+            "summary": "About page for Williamstown KY full-scale Ark replica and Flood narrative exhibits.",
+            "exhibit_or_page": "Life-size Ark / Flood narrative"
+          },
+          {
+            "title": "Exhibits | Ark Encounter",
+            "url": "https://arkencounter.com/exhibits/",
+            "summary": "Ark Encounter exhibits index: life-size Ark decks including Flood geology / pre-Flood world themes.",
+            "exhibit_or_page": "Ark exhibits (Flood / pre-Flood)"
+          }
+        ],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Popular ark / Wyatt-style claims operate largely outside licensed academic digs. Türkiye tightly regulates Ararat research permits (Law 2863 / security zone), but no single verified stop-work order against a licensed academic campaign was attached to this pin in sources checked. Distinction: permit scarcity ≠ documented halt of an authorized dig.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Turkish MoC regional museums — Durupınar / Ararat ark-claim locales (not verified ark excavation)",
+          "type": "national_antiquities",
+          "role": "Oversees museums, archaeological sites (örenyerleri), and excavation permits in Türkiye.",
+          "contact_name": null,
+          "contact_title": "General Directorate contact",
+          "contact_email": "kulturvarlikmuze@ktb.gov.tr",
+          "contact_phone": "+90-312-470-6464",
+          "contact_url": "https://kvmgm.ktb.gov.tr/TR-138338/merkez-teskilati-iletisim-bilgileri.html",
+          "notes": "Popular claims; not a consensus archaeological site.",
+          "official_website": "https://muze.gov.tr/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Other / multi-period unspecified"
+        ],
+        "official_website": "https://muze.gov.tr/",
+        "official_website_label": "Türkiye Museums (MoC)",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.798,
+          35.798
+        ]
+      },
+      "properties": {
+        "id": "CBG-08",
+        "name": "Ebla (Tell Mardikh)",
+        "layer": "contested_hypotheses",
+        "location": "NW Syria, ~55 km SW of Aleppo",
+        "testament": "OT",
+        "hypothesis": "After palace archives found (1970s), Giovanni Pettinato announced tablet parallels to biblical patriarchs, Yahweh, Flood story, and Cities of the Plain (Sodom, Gomorrah, Zoar/Bela) per Gen 14.  War closed the tablets’ hometown: after the 2010 season, Sapienza’s Italian mission at Ebla (Tell Mardikh) suspended fieldwork from 2011 amid Syria’s conflict—years when the tell suffered military use and clandestine digging before later recovery missions returned to stabilize what survived.",
+        "found": "Vast 3rd-millennium BCE cuneiform archive of a major Syrian kingdom—real breakthrough for Near Eastern history. Shared Semitic personal-name patterns (e.g. forms resembling Ishmael, Michael) appear as expected in the region.",
+        "divergence": "Pettinato's Sodom/Gomorrah/Zoar readings contested by Archi; Pettinato himself walked back Zoar/Bela and could not substantiate five cities. Matthiae denied patriarchal proofs, Yahweh cult, and Sodom mentions in preface. Consensus: Ebla does not confirm biblical patriarchs or Cities of the Plain. Pattern (A)/(C): real archive; biblical overclaims retracted/walked back.",
+        "status_tag": "partially_retracted",
+        "sources": "Archi, 'Are the Cities of the Plain Mentioned in the Ebla Tablets?' Biblical Archaeology Review 7/6 (1981) https://library.biblicalarchaeology.org/article/are-the-cities-of-the-plain-mentioned-in-the-ebla-tablets/; Archi BAS Library 'Are the Cities of the Plain Mentioned in the Ebla Tablets?'; Christianity Today 1981 Ebla overview; Matthiae English preface denials (1979)",
+        "notes": "Classic cautionary tale: sensational Bible parallels announced before tablets fully published. Surveyor type (A)/(C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "No verified answersingenesis.org article focused on Ebla (Tell Mardikh) tablet controversies was found. Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified answersingenesis.org article focused on Ebla (Tell Mardikh) tablet controversies was found. Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "halt_recorded",
+          "date": "2011 (fieldwork suspended after 2010 season; recovery missions later)",
+          "halted_by": "Syrian conflict / security conditions forcing suspension of the Italian Archaeological Mission’s field seasons (Sapienza–DGAM framework interrupted on site)",
+          "summary": "Sapienza University documents that the Italian Archaeological Mission excavated at Ebla through 2010; foreign fieldwork was suspended from 2011 because of Syria’s political crisis. Later Sapienza recovery/restoration campaigns addressed wartime damage and clandestine digging (2014–2019 occupation damage noted in Sapienza recovery reporting). This is a war/security interruption of a specific project, not a routine end-of-funding pause.",
+          "sources": [
+            "https://dipantichita.web.uniroma1.it/index.php/en/italian-archaeological-mission-syria-ebla-syria",
+            "https://www.uniroma1.it/en/notizia/ebla-sixty-years-later-protection-and-recovery-archaeological-site"
+          ]
+        },
+        "site_authority": {
+          "name": "Directorate-General of Antiquities and Museums (DGAM), Syria",
+          "type": "national_antiquities",
+          "role": "National directorate for antiquities and museums in Syria.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "http://www.dgam.gov.sy/",
+          "notes": "Ebla archive interpretation controversies — DGAM Syria. Authority-only.",
+          "official_website": "https://www.dgam.gov.sy/"
+        },
+        "dig_status": "halted",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://www.dgam.gov.sy/",
+        "official_website_label": "Directorate-General of Antiquities and Museums (DGAM), Syria",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.183,
+          32.585
+        ]
+      },
+      "properties": {
+        "id": "CBG-09",
+        "name": "Megiddo, Hazor, Gezer — six-chambered 'Solomonic' gates",
+        "layer": "contested_hypotheses",
+        "location": "N Israel / Shephelah: Tel Megiddo; Tel Hazor; Tel Gezer",
+        "testament": "OT",
+        "hypothesis": "1 Kings 9:15: Solomon builds/fortifies Hazor, Megiddo, Gezer. Yigael Yadin argued matching six-chambered gates + casemate systems = same Solomonic royal architect (~10th c. BCE).",
+        "found": "Monumental six-chambered gates and related Iron II fortifications at all three sites—real architecture. Similar gates appear more widely than Yadin assumed.",
+        "divergence": "Low Chronology (Finkelstein) re-dates key strata (e.g. Megiddo VA–IVB) to 9th c. Omride period, not Solomon. Traditional/high chronology defenders and some recent 14C keep 10th-c. options. Style alone no longer proves Solomonic authorship. Pattern (A): Bible named real cities; builder/date attribution contested.",
+        "status_tag": "ongoing_debate",
+        "sources": "Yadin on Solomonic gates; Finkelstein BASOR/NEA on low chronology & Megiddo Omride; PMC Gezer chronology paper (2023); BYU Studia Antiqua 'Gates, Dates, and Debates'",
+        "notes": "Not 'fake gates'—real monuments, disputed century and king. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG United Monarchy apologetics engage Solomonic building claims (Megiddo/Hazor/Gezer gate debates) at theme level. Ministry interpretation of contested Iron Age chronology.",
+          "aig": [
+            {
+              "title": "False History—“Out with David and Solomon!”",
+              "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+              "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeological Evidence for the Kingdom of Judah",
+              "url": "https://answersingenesis.org/archaeology/archaeological-evidence-kingdom-judah/",
+              "summary": "AiG summary of Garfinkel-related work including Lachish Level 5 fortifications and Khirbet Qeiyafa as early Judean evidence—interpreted within a biblical-kingdom framework.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG United Monarchy apologetics engage Solomonic building claims (Megiddo/Hazor/Gezer gate debates) at theme level. Ministry interpretation of contested Iron Age chronology.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "False History—“Out with David and Solomon!”",
+            "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+            "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+            "kind": "article"
+          },
+          {
+            "title": "Archaeological Evidence for the Kingdom of Judah",
+            "url": "https://answersingenesis.org/archaeology/archaeological-evidence-kingdom-judah/",
+            "summary": "AiG summary of Garfinkel-related work including Lachish Level 5 fortifications and Khirbet Qeiyafa as early Judean evidence—interpreted within a biblical-kingdom framework.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Multi-site Solomonic gates debate (Megiddo, Hazor, Gezer) — IAA + respective park/expedition authorities.",
+          "official_website": "https://www.themegiddoexpedition.com/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.themegiddoexpedition.com/",
+        "official_website_label": "The Megiddo Expedition",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.35,
+          31.35
+        ]
+      },
+      "properties": {
+        "id": "CBG-10",
+        "name": "Dead Sea 'brimstone balls' (Lisan Formation sulfur nodules)",
+        "layer": "contested_hypotheses",
+        "location": "Paleo-Dead Sea / Lisan Formation outcrops, Israel & Jordan shores",
+        "testament": "OT",
+        "hypothesis": "Gen 19:24 'brimstone and fire' — tourist and popular ministries collect flammable sulfur nodules as physical leftovers of Sodom's destruction falling from the sky.",
+        "found": "Elemental sulfur nodules inside late Pleistocene Lake Lisan gypsum beds (~70–14 ka BP). Isotope work shows microbially mediated sulfate reduction during diagenesis—geological, not Bronze Age fallout.",
+        "divergence": "PLOS One (2013) explains nodules as open-system microbial products, not airburst brimstone. Chronology (tens of thousands of years before any patriarchal window) breaks tourist BA-fallout claim. Pattern (C)/(A): real sulfur; wrong mechanism and age for Gen 19.",
+        "status_tag": "diverged",
+        "sources": "Torres et al. 'Fire and Brimstone…' PLOS One 2013 doi:10.1371/journal.pone.0075883; Frontiers Earth Sci sulfate-reduction Dead Sea papers; companion sodom-gomorrah workspace notes",
+        "notes": "Sulfur is real and burns—geology ≠ Genesis proof. Surveyor type (C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG southern-Sodom articles mention sulfur/bitumen south of the Dead Sea in biblical geography arguments, but no verified AiG article specifically on Lisan Formation “brimstone balls” was found. Theme_only adjacent to Sodom geography.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG southern-Sodom articles mention sulfur/bitumen south of the Dead Sea in biblical geography arguments, but no verified AiG article specifically on Lisan Formation “brimstone balls” was found. Theme_only adjacent to Sodom geography.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction: Israel (IAA/GSI) and Jordan (DoA) Dead Sea shores",
+          "type": "mixed",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "MULTI-JURISDICTION: Lisan Formation sulfur nodules on both shores. Not a single dig concession.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.55,
+          31.25
+        ]
+      },
+      "properties": {
+        "id": "CBG-11",
+        "name": "Bab edh-Dhra & Numeira (southern Cities of the Plain candidates)",
+        "layer": "contested_hypotheses",
+        "location": "SE Dead Sea plain / southern Ghor, Jordan",
+        "testament": "OT",
+        "hypothesis": "Gen 13–19 cities of the plain; Albright/Lapp/Rast–Schaub southern theory: Bab edh-Dhra ≈ Sodom, Numeira ≈ Gomorrah (sometimes + Feifa, Khanazir, Safi as five cities).",
+        "found": "Real EB town + vast cemetery at Bab edh-Dhra; intense EB fire/tower collapse at Numeira (ash to ~1.5 m). Destructions not simultaneous (~centuries apart in current readings). No airburst mineral program in EDSP lit.",
+        "divergence": "Chronology: EB III ends (~2350–2300 BCE) earlier than most patriarchal MBA datings. Sites small; destructions staggered. Rast framed them as possible tradition sources, not proven ID. Northern TeH theory competes. Pattern (A)/(B): real destructions; Sodom/Gomorrah labels contested.",
+        "status_tag": "contested",
+        "sources": "Rast & Schaub Bab edh-Dhra town/cemetery volumes (Eisenbrauns); Numayra monograph; ABR 'Locating Sodom' critique of northern theory; Rast & Schaub, Bab edh-Dhra Excavations at the Town Site (Eisenbrauns 2003); http://expeditiondeadseaplain.org/?page_id=27; workspace sodom-gomorrah-catastrophic-events.*; Expedition Bible note QjPcSQUY2W0 (Sodom burned—Zoar did NOT); https://www.youtube.com/watch?v=QjPcSQUY2W0",
+        "notes": "Keep: excavated fire ≠ automatic Sodom. Southern vs northern ID is live scholarly argument. Surveyor type (A)/(B).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG favors Bab edh-Dhra (± Numeira as Gomorrah) as southern Cities of the Plain candidates (Wood summary; fiery destruction)—against TeH. Ministry site preference, not universal dig consensus.",
+          "aig": [
+            {
+              "title": "Have We Found Sodom?",
+              "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+              "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+              "kind": "article"
+            },
+            {
+              "title": "Digging Past the Doubts",
+              "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+              "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+              "kind": "article"
+            },
+            {
+              "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+              "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+              "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG favors Bab edh-Dhra (± Numeira as Gomorrah) as southern Cities of the Plain candidates (Wood summary; fiery destruction)—against TeH. Ministry site preference, not universal dig consensus.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Have We Found Sodom?",
+            "url": "https://answersingenesis.org/archaeology/have-we-found-sodom/",
+            "summary": "AiG prefers southern Bab edh-Dhra over northern Tall el-Hammam on biblical geography; ministry site ID, not dig consensus.",
+            "kind": "article"
+          },
+          {
+            "title": "Digging Past the Doubts",
+            "url": "https://answersingenesis.org/archaeology/digging-past-doubts/",
+            "summary": "Wood-aligned conquest apologetic covering Jericho pottery/scarabs, Bab edh-Dhra/Numeira as southern Sodom/Gomorrah candidates, and Eridu unfinished ziggurat as a Babel theory.",
+            "kind": "article"
+          },
+          {
+            "title": "Did a Space Rock Destroy Sodom and Gomorrah?",
+            "url": "https://answersingenesis.org/archaeology/did-space-rock-destroy-sodom-gomorrah/",
+            "summary": "Ken Ham rejects Tall el-Hammam airburst-as-Sodom headlines on chronology, reoccupation, Zoar survival, and location.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Bab edh-Dhra & Numeira — DoA Jordan; Expedition to the Dead Sea Plain (EDSP) historically.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.249,
+          31.666
+        ]
+      },
+      "properties": {
+        "id": "CBG-12",
+        "name": "Herodium — Herod's tomb mausoleum",
+        "layer": "contested_hypotheses",
+        "location": "Herodium National Park, West Bank (S of Jerusalem)",
+        "testament": "NT",
+        "hypothesis": "Josephus (Ant. 17; War 1): Herod buried at Herodium. Ehud Netzer excavated seeking that royal tomb; 2007 announced mausoleum on N slope as Herod's burial.",
+        "found": "Destroyed ornate mausoleum, shattered sarcophagus pieces, theater, monumental stair—Herodian-period elite burial monument in a site Josephus links to Herod's funeral.",
+        "divergence": "Patrich & Arubas (PEQ 2015): too modest, poor approach, awkward under later stair, stratigraphy vs Herod's design standards—so not the king's tomb (though Herodian). Porat and many others defend Netzer. Widely accepted in public, still debated in print. Pattern (A).",
+        "status_tag": "contested",
+        "sources": "Netzer BAR 'In Search of Herod's Tomb'; Patrich & Arubas PEQ 147/4 (2015) PDF on herodium.org; BAS 'Was Herod's Tomb Really Found?'; 'Not Fit for a King?'",
+        "notes": "Josephus guided the search correctly to Herodium; which structure is the royal tomb is the contest. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG mentions Herodium finds (Pilato ring) but no verified dedicated critique/endorsement of Netzer’s Herod tomb mausoleum ID was found. Limited site mention → theme_only.",
+          "aig": [
+            {
+              "title": "Three Dead Rulers, One Risen King",
+              "url": "https://answersingenesis.org/jesus/three-dead-rulers-one-risen-king/",
+              "summary": "AiG notes Herodium copper ring with Pilato name among Herodian/Pilate-era finds.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG mentions Herodium finds (Pilato ring) but no verified dedicated critique/endorsement of Netzer’s Herod tomb mausoleum ID was found. Limited site mention → theme_only.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "Three Dead Rulers, One Risen King",
+            "url": "https://answersingenesis.org/jesus/three-dead-rulers-one-risen-king/",
+            "summary": "AiG notes Herodium copper ring with Pilato name among Herodian/Pilate-era finds.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "INPA (Herodium) + IAA — Herod tomb identification debates",
+          "type": "mixed",
+          "role": "INPA manages national-park visitor operations; IAA oversees antiquities and excavations within parks.",
+          "contact_name": null,
+          "contact_title": "INPA information / reservations",
+          "contact_email": "moked@npa.org.il",
+          "contact_phone": "*3639",
+          "contact_url": "https://en.parks.org.il/",
+          "notes": "Park + IAA; Netzer excavation legacy.",
+          "official_website": "https://en.parks.org.il/reserve-park/herodium-park/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/herodium-park/",
+        "official_website_label": "INPA — Herodium Park",
+        "official_video_embed": "https://www.youtube.com/embed/tgK-QF7TQM0",
+        "official_video_source": "https://en.parks.org.il/reserve-park/herodium-park/",
+        "official_video_provider": "youtube",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.287,
+          32.24
+        ]
+      },
+      "properties": {
+        "id": "CBG-13",
+        "name": "Mount Ebal — Zertal 'Joshua's altar'",
+        "layer": "contested_hypotheses",
+        "location": "Mt. Ebal (N of Shechem/Nablus), West Bank",
+        "testament": "OT",
+        "hypothesis": "Josh 8:30–35; Deut 27: Joshua builds an altar on Mount Ebal for covenant ceremony. Adam Zertal excavated Iron I cultic structure and identified it as that altar.  Permits are politics here: Mount Ebal sits in Area B, where the Palestinian Authority’s antiquities department holds excavation licensing. Reporting by Emek Shaveh holds that recent soil-sifting/removal campaigns lacked a PA license—so “who may dig Joshua’s altar?” is as contested as the altar identification itself.",
+        "found": "Iron Age I stone structure with ash, animal bones (mostly kosher species), pottery—widely accepted as an early Israelite open-air cult site.",
+        "divergence": "Most scholars accept cultic use but reject or withhold endorsement of the specific Joshua-altar ID (architecture, location details, dating debates). Pattern (A): real early Israelite cult place; biblical naming overreached for many.",
+        "status_tag": "contested",
+        "sources": "Zertal BAR 11/1 (1985) 'Has Joshua's Altar Been Found on Mt. Ebal?'; BAS reviews of Iron I structure; Zertal, 'An Early Iron Age Cultic Site on Mount Ebal: Excavation Seasons 1982–1987,' Tel Aviv 14 (1987) 105–165",
+        "notes": "Do not conflate with later lead 'curse tablet' claim (separate case). Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG presents Zertal’s Mount Ebal structure (and earlier round altar) as likely Joshua’s altar, noting dating disputes (13th vs 15th c. / Stripling). Ministry interpretation of a contested cult site.",
+          "aig": [
+            {
+              "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+              "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+              "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+              "kind": "article"
+            },
+            {
+              "title": "“Curse Tablet” Uncovered on Biblical Mount Ebal",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2023/05/21/curse-tablet-uncovered-biblical-mount-ebal/",
+              "summary": "Ken Ham blog on Mount Ebal lead defixio announcement.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG presents Zertal’s Mount Ebal structure (and earlier round altar) as likely Joshua’s altar, noting dating disputes (13th vs 15th c. / Stripling). Ministry interpretation of a contested cult site.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+            "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+            "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+            "kind": "article"
+          },
+          {
+            "title": "“Curse Tablet” Uncovered on Biblical Mount Ebal",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2023/05/21/curse-tablet-uncovered-biblical-mount-ebal/",
+            "summary": "Ken Ham blog on Mount Ebal lead defixio announcement.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "halt_recorded",
+          "date": "post-Oslo Area B regime; contested 2019–2020s activity without PA excavation license",
+          "halted_by": "Palestinian Authority Department of Antiquities and Cultural Heritage (DACH) jurisdiction in Area B — no PA excavation license issued for recent non-PA campaigns (per Emek Shaveh / reporting)",
+          "summary": "Mount Ebal / el-Burnat lies in West Bank Area B, where Oslo arrangements assign archaeology to the PA’s DACH. Emek Shaveh reports that recent soil-removal/sifting linked to the “curse tablet” work proceeded without a PA excavation license (and outside clear Israeli Civil Administration Area C authority). This is documented permit/jurisdiction denial for authorized digs—not a claim that Zertal’s 1980s excavation was court-stopped. Distinction: unauthorized activity vs. a licensed dig ordered shut.",
+          "sources": [
+            "https://emekshaveh.org/en/mt-ebal-ii/",
+            "https://emekshaveh.org/en/mount-ebal-curse-tablet/"
+          ]
+        },
+        "site_authority": {
+          "name": "Mount Ebal — complex West Bank jurisdiction; Zertal survey/excavation legacy",
+          "type": "mixed",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Access and authority contested politically. No clear single current site office email.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "dig_status": "halted",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Mount Ebal — complex West Bank jurisdiction; Zertal survey/excavation legacy",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.288,
+          32.241
+        ]
+      },
+      "properties": {
+        "id": "CBG-14",
+        "name": "Mount Ebal — lead 'curse tablet'",
+        "layer": "contested_hypotheses",
+        "location": "From Mt. Ebal dump/wet-sifted material (not primary sealed locus)",
+        "testament": "OT",
+        "hypothesis": "Promoters claimed a folded lead object from Ebal dump preserves Late Bronze proto-Hebrew curse text naming YHW, tying Deut 27 / Josh 8 covenant curses to the site.  Permits are politics here: Mount Ebal sits in Area B, where the Palestinian Authority’s antiquities department holds excavation licensing. Reporting by Emek Shaveh holds that recent soil-sifting/removal campaigns lacked a PA license—so “who may dig Joshua’s altar?” is as contested as the altar identification itself.",
+        "found": "Small folded lead object recovered from previously excavated dump soil; CT imagery used to claim internal letters.",
+        "divergence": "Peer critiques (IEJ / Heritage Science responses): images do not demonstrably show claimed letters; object may be fishing-net weight; Lavrion lead provenance does not date it to LB; insecure context. Stripling maintains writing is present. Pattern (C)/(A).",
+        "status_tag": "contested",
+        "sources": "Stripling et al. Heritage Science 2023; Maeir & Rollston / Mazar / Yahalom-Mack critiques; Times of Israel 2023 'fresh doubt'; Aren Maeir blog; npj Heritage Science refutation doi:10.1038/s40494-023-01130-z",
+        "notes": "Higher bar needed for extraordinary inscription claims from dump. Surveyor type (C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG covers Stripling’s Mount Ebal lead curse tablet (YHW/El; Late Bronze claims). Still debated epigraphically outside ministry circles—label as AiG/ABR-aligned interpretation.",
+          "aig": [
+            {
+              "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+              "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+              "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+              "kind": "article"
+            },
+            {
+              "title": "“Curse Tablet” Uncovered on Biblical Mount Ebal",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2023/05/21/curse-tablet-uncovered-biblical-mount-ebal/",
+              "summary": "Ken Ham blog on Mount Ebal lead defixio announcement.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG covers Stripling’s Mount Ebal lead curse tablet (YHW/El; Late Bronze claims). Still debated epigraphically outside ministry circles—label as AiG/ABR-aligned interpretation.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+            "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+            "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+            "kind": "article"
+          },
+          {
+            "title": "“Curse Tablet” Uncovered on Biblical Mount Ebal",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2023/05/21/curse-tablet-uncovered-biblical-mount-ebal/",
+            "summary": "Ken Ham blog on Mount Ebal lead defixio announcement.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "halt_recorded",
+          "date": "post-Oslo Area B regime; contested 2019–2020s activity without PA excavation license",
+          "halted_by": "Palestinian Authority Department of Antiquities and Cultural Heritage (DACH) jurisdiction in Area B — no PA excavation license issued for recent non-PA campaigns (per Emek Shaveh / reporting)",
+          "summary": "Mount Ebal / el-Burnat lies in West Bank Area B, where Oslo arrangements assign archaeology to the PA’s DACH. Emek Shaveh reports that recent soil-removal/sifting linked to the “curse tablet” work proceeded without a PA excavation license (and outside clear Israeli Civil Administration Area C authority). This is documented permit/jurisdiction denial for authorized digs—not a claim that Zertal’s 1980s excavation was court-stopped. Distinction: unauthorized activity vs. a licensed dig ordered shut.",
+          "sources": [
+            "https://emekshaveh.org/en/mt-ebal-ii/",
+            "https://emekshaveh.org/en/mount-ebal-curse-tablet/"
+          ]
+        },
+        "site_authority": {
+          "name": "Mount Ebal lead tablet claim — associated researchers / ABR publicity; jurisdiction as CBG-13",
+          "type": "mixed",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://biblearchaeology.org/",
+          "notes": "Object claim highly contested. Not a standing site office.",
+          "official_website": "https://biblearchaeology.org/"
+        },
+        "dig_status": "halted",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "official_website": "https://biblearchaeology.org/",
+        "official_website_label": "Mount Ebal lead tablet claim — associated researchers / ABR publicity; jurisdiction as CBG-13",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.568,
+          33.017
+        ]
+      },
+      "properties": {
+        "id": "CBG-15",
+        "name": "Hazor — Late Bronze destruction & Joshua 11",
+        "layer": "contested_hypotheses",
+        "location": "Tel Hazor, Upper Galilee, Israel",
+        "testament": "OT",
+        "hypothesis": "Josh 11:10–13: Joshua burns Hazor, head of northern kingdoms. Yadin attributed final LB palace/city fiery destruction (Str. XIII / lower-city 1A) to Israelites ~late 13th c. BCE.",
+        "found": "Dramatic LB palace burn with smashed statues, ash—clear violent end of Canaanite Hazor. Iron Age rebuild follows.",
+        "divergence": "Destruction real; agent disputed (Israelites vs internal revolt vs other enemies). Judges 4 still depicting later Canaanite Hazor complicates simple one-conquest reading. Dating within LB debated for early vs late conquest schemes. Pattern (A).",
+        "status_tag": "ongoing_debate",
+        "sources": "Yadin Hazor reports; Ben-Tor summaries; BAS 'Who Destroyed Canaanite Hazor?'; Zuckerman internal-revolt papers; Exegesis International Hazor dating essay",
+        "notes": "Stronger archaeological 'fit' than Jericho/Ai for a conquest burn—but still not a signed Israelite calling card. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "In “Archaeology’s Lost Conquest,” AiG attributes Hazor’s 15th-century BC fiery destruction to Joshua 11 and a later 13th-century burn to Judges 4—early-date conquest interpretation contested among archaeologists. No dedicated CM/Ark Hazor exhibit page found.",
+          "aig": [
+            {
+              "title": "Archaeology's Lost Conquest",
+              "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+              "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+              "kind": "article"
+            },
+            {
+              "title": "Getting Archaeology Right at Ai",
+              "url": "https://answersingenesis.org/archaeology/getting-archaeology-right-at-ai/",
+              "summary": "AiG presents ABR/Bryant Wood case that Khirbet el-Maqatir (not et-Tell) fits Joshua's Ai: gate, fortifications, LB pottery, and fiery destruction.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "In “Archaeology’s Lost Conquest,” AiG attributes Hazor’s 15th-century BC fiery destruction to Joshua 11 and a later 13th-century burn to Judges 4—early-date conquest interpretation contested among archaeologists. No dedicated CM/Ark Hazor exhibit page found.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Archaeology's Lost Conquest",
+            "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+            "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+            "kind": "article"
+          },
+          {
+            "title": "Getting Archaeology Right at Ai",
+            "url": "https://answersingenesis.org/archaeology/getting-archaeology-right-at-ai/",
+            "summary": "AiG presents ABR/Bryant Wood case that Khirbet el-Maqatir (not et-Tell) fits Joshua's Ai: gate, fortifications, LB pottery, and fiery destruction.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "INPA (Tel Hazor) + IAA — LB destruction / Joshua 11 debates",
+          "type": "mixed",
+          "role": "INPA manages national-park visitor operations; IAA oversees antiquities and excavations within parks.",
+          "contact_name": null,
+          "contact_title": "INPA information / reservations",
+          "contact_email": "moked@npa.org.il",
+          "contact_phone": "*3639",
+          "contact_url": "https://en.parks.org.il/",
+          "notes": "Same Hazor park complex.",
+          "official_website": "https://en.parks.org.il/reserve-park/tel-hazor-national-park/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/tel-hazor-national-park/",
+        "official_website_label": "INPA — Tel Hazor National Park",
+        "official_video_embed": "https://www.youtube.com/embed/ZlLJXeSxGNA",
+        "official_video_source": "https://en.parks.org.il/reserve-park/tel-hazor-national-park/",
+        "official_video_provider": "youtube",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.43,
+          29.05
+        ]
+      },
+      "properties": {
+        "id": "CBG-16",
+        "name": "Ron Wyatt popular claims (Red Sea crossing / chariot wheels; Ark of the Covenant)",
+        "layer": "contested_hypotheses",
+        "location": "Nuweiba / Gulf of Aqaba claims; Jerusalem subterranean claims; also Durupınar (see CBG-07)",
+        "testament": "both",
+        "hypothesis": "Exodus 14 Red Sea crossing; Heb 9 / OT Ark narratives. Wyatt claimed underwater chariot wheels, human/horse bones at Nuweiba crossing, and discovery of the Ark of the Covenant beneath Jerusalem with miraculous blood tests.",
+        "found": "No independently verified, peer-reviewed artifacts with chain of custody. Alleged wheels/bones not scientifically excavated, conserved, or published; Ark claim lacks accessible evidence and lab documentation.",
+        "divergence": "Rejected by professional archaeologists and by many Christian/SDA critics; no excavation records meeting field standards. Document as contested popular claims—not as excavation results. Pattern (C).",
+        "status_tag": "contested",
+        "sources": "Ferrell Jenkins, 'Pharaoh's chariot wheels… examining claims of Ron Wyatt' https://ferrelljenkins.blog/2011/03/08/pharaohs-chariot-wheels-and-other-things-that-wont-float-%e2%80%94-examining-the-claims-of-the-late-ron-wyatt/; Ferrell Jenkins critique of chariot-wheel claims; Bible Archaeology Report 'Fake News in Biblical Archaeology'; Christian Courier Wyatt critique; Tentmaker WAR documentation site",
+        "notes": "Include for Surveyor honesty: high public visibility, near-zero scholarly acceptance. Separate from legitimate digs. Surveyor type (C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG places Wyatt-style Durupınar Ark claims under “arguments to avoid” (Snelling exposé) and rejects unverified Ark of the Covenant discovery claims. Explicit ministry rejection of popular Wyatt narratives.",
+          "aig": [
+            {
+              "title": "Special Report: Amazing “Ark” Exposé",
+              "url": "https://answersingenesis.org/creationism/arguments-to-avoid/special-report-amazing-ark-expose/",
+              "summary": "Andrew Snelling 1992 geological refutation of Durupınar/Wyatt boat-shape as Noah's Ark.",
+              "kind": "article"
+            },
+            {
+              "title": "Has the Ark of the Covenant Been Found?",
+              "url": "https://answersingenesis.org/bible-questions/has-the-ark-of-the-covenant-been-found/",
+              "summary": "AiG rejects Ron Wyatt-style Ark of the Covenant discovery claims as unverified.",
+              "kind": "article"
+            },
+            {
+              "title": "Is Noah’s Ark on Mount Ararat?",
+              "url": "https://answersingenesis.org/noahs-ark/noahs-ark-found/noahs-ark-mount-ararat/",
+              "summary": "Snelling: Genesis says mountains (region) of Ararat; Durupınar dismissed as geology.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG places Wyatt-style Durupınar Ark claims under “arguments to avoid” (Snelling exposé) and rejects unverified Ark of the Covenant discovery claims. Explicit ministry rejection of popular Wyatt narratives.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Special Report: Amazing “Ark” Exposé",
+            "url": "https://answersingenesis.org/creationism/arguments-to-avoid/special-report-amazing-ark-expose/",
+            "summary": "Andrew Snelling 1992 geological refutation of Durupınar/Wyatt boat-shape as Noah's Ark.",
+            "kind": "article"
+          },
+          {
+            "title": "Has the Ark of the Covenant Been Found?",
+            "url": "https://answersingenesis.org/bible-questions/has-the-ark-of-the-covenant-been-found/",
+            "summary": "AiG rejects Ron Wyatt-style Ark of the Covenant discovery claims as unverified.",
+            "kind": "article"
+          },
+          {
+            "title": "Is Noah’s Ark on Mount Ararat?",
+            "url": "https://answersingenesis.org/noahs-ark/noahs-ark-found/noahs-ark-mount-ararat/",
+            "summary": "Snelling: Genesis says mountains (region) of Ararat; Durupınar dismissed as geology.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Popular ark / Wyatt-style claims operate largely outside licensed academic digs. Türkiye tightly regulates Ararat research permits (Law 2863 / security zone), but no single verified stop-work order against a licensed academic campaign was attached to this pin in sources checked. Distinction: permit scarcity ≠ documented halt of an authorized dig.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction popular-claim locales (Egypt Sinai / Israel / Türkiye) — not an official excavation authority",
+          "type": "unknown",
+          "role": "Ron Wyatt-style claims are not managed as a licensed scientific excavation program by a national antiquities authority.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "UNKNOWN as a managed dig: claims span Nuweiba, Jerusalem subterranean, Durupınar. National authorities regulate land, but there is no official Wyatt excavation office. Do not invent contacts."
+        },
+        "dig_status": "open",
+        "eras": [
+          "Exodus / Wilderness",
+          "Bronze Age",
+          "Other / multi-period unspecified"
+        ],
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.237,
+          31.751
+        ]
+      },
+      "properties": {
+        "id": "CBG-17",
+        "name": "Talpiot 'Jesus Family Tomb'",
+        "layer": "contested_hypotheses",
+        "location": "East Talpiot, Jerusalem",
+        "testament": "NT",
+        "hypothesis": "Media/academic promoters (Jacobovici, Tabor) argued a 1980 rock-cut tomb with ossuaries inscribed 'Jesus son of Joseph,' Mary, and others was Jesus's family tomb—implying bodily remains contradict empty-tomb proclamation narratives.",
+        "found": "Ordinary 1st-c. Jewish tomb with ~10 ossuaries; common names (Yeshua, Yosef, Marya, etc.). Statistical name-cluster arguments advanced by promoters.",
+        "divergence": "Epigraphers/archaeologists (Rollston, Magness, Kloner, et al.): names too common; tomb type elite Jerusalem family; no secure NT link. Later 'Patio tomb' / Jonah-image claims also rejected by most. Consensus: not Jesus's family tomb. Pattern (A)/(C).",
+        "status_tag": "contested",
+        "sources": "BAS 'The Tomb of Jesus? Wrong on Every Count'; Rollston Talpiot methodological PDF (BibleInterp); ABR 'Thinking Clearly About the Jesus Family Tomb'; Tabor & Jacobovici popular books (promoter side)",
+        "notes": "Artifact-in-tomb case but site-linked. James Ossuary authenticity is a related but separate forgery trial debate—mention only as adjacent media cluster. Surveyor type (A)/(C).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG rejects Talpiot “Jesus Family Tomb” documentary claims (common names; empty-tomb theology). Clear Answers in Genesis counter-article coverage.",
+          "aig": [
+            {
+              "title": "The So-Called Jesus Family Tomb",
+              "url": "https://answersingenesis.org/jesus/resurrection/the-so-called-jesus-family-tomb/",
+              "summary": "AiG rejects Talpiot 'Jesus Family Tomb' media claims.",
+              "kind": "article"
+            },
+            {
+              "title": "“Jesus’ tomb found” claim as empty as Jesus’ [real] tomb",
+              "url": "https://answersingenesis.org/jesus/resurrection/jesus-tomb-found-claim-as-empty-as-jesus-real-tomb/",
+              "summary": "AiG critique of documentary claiming Jesus family tomb at Talpiot.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG rejects Talpiot “Jesus Family Tomb” documentary claims (common names; empty-tomb theology). Clear Answers in Genesis counter-article coverage.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "The So-Called Jesus Family Tomb",
+            "url": "https://answersingenesis.org/jesus/resurrection/the-so-called-jesus-family-tomb/",
+            "summary": "AiG rejects Talpiot 'Jesus Family Tomb' media claims.",
+            "kind": "article"
+          },
+          {
+            "title": "“Jesus’ tomb found” claim as empty as Jesus’ [real] tomb",
+            "url": "https://answersingenesis.org/jesus/resurrection/jesus-tomb-found-claim-as-empty-as-jesus-real-tomb/",
+            "summary": "AiG critique of documentary claiming Jesus family tomb at Talpiot.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "IAA (Talpiot tomb discovery context) — media 'Jesus Family Tomb' claim contested",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "IAA involved in original tomb clearance/documentation. Sensational identification contested.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "dig_status": "open",
+        "eras": [
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.281,
+          32.213
+        ]
+      },
+      "properties": {
+        "id": "CBG-18",
+        "name": "Shechem (Tel Balata)",
+        "layer": "contested_hypotheses",
+        "location": "Tel Balata, eastern Nablus / West Bank",
+        "testament": "OT",
+        "hypothesis": "Gen 12; 33–35; Josh 24; Judges 9: patriarchal altars, covenant assembly, Abimelech destroys Shechem. Excavators expected Middle–Late Bronze and Iron remains matching those narratives.",
+        "found": "Major Bronze Age temple/fortifications (Migdal Temple), destruction horizons, Iron Age occupation—Shechem ID is secure from geography and archaeology.",
+        "divergence": "Site ID largely succeeded (contrast Ai). Contests focus on syncing specific destruction layers to Abimelech (Judg 9) or Josh 24 ceremony—chronology/interpretation debates rather than 'wrong hill.' Some maximalist/minimalist fights over patriarchal historicity. Pattern (A).",
+        "status_tag": "ongoing_debate",
+        "sources": "Wright Shechem reports; ABD Shechem; BAS articles on Shechem temple; Bible Odyssey / standard encyclopedia entries",
+        "notes": "Included as partial contrast: Bible guided to a real capital; narrative-layer matches still argued. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG Mount Ebal articles situate the altar/curse tablet near Shechem (Gerizim/Ebal covenant setting); Lost Conquest also lists Shechem destruction among Judges-period correlations. Adjacent ministry coverage rather than a full Shechem dig monograph.",
+          "aig": [
+            {
+              "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+              "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+              "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeology's Lost Conquest",
+              "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+              "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG Mount Ebal articles situate the altar/curse tablet near Shechem (Gerizim/Ebal covenant setting); Lost Conquest also lists Shechem destruction among Judges-period correlations. Adjacent ministry coverage rather than a full Shechem dig monograph.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "Joshua’s Altar and the Mount Ebal Curse Tablet",
+            "url": "https://answersingenesis.org/archaeology/joshuas-altar-and-mount-ebal-curse-tablet/",
+            "summary": "AiG summarizes Zertal altar + Stripling lead curse tablet as conquest-supporting; notes dating debate.",
+            "kind": "article"
+          },
+          {
+            "title": "Archaeology's Lost Conquest",
+            "url": "https://answersingenesis.org/archaeology/archaeologys-lost-conquest/",
+            "summary": "AiG survey of early-date conquest: Jericho, Ai, and Hazor destructions framed as consistent with Joshua; Hazor 15th-c. burn attributed to Joshua and later to Deborah/Barak.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Shechem/Tel Balata — PA archaeological park context.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.184,
+          32.586
+        ]
+      },
+      "properties": {
+        "id": "CBG-19",
+        "name": "Megiddo — 'Solomon's stables'",
+        "layer": "contested_hypotheses",
+        "location": "Tel Megiddo, Israel",
+        "testament": "OT",
+        "hypothesis": "1 Kgs 9:15–19; 10:26 — Solomon's chariot cities. Chicago excavators labeled pillared buildings 'Solomon's stables.'",
+        "found": "Large pillared buildings; function debated (stables vs storehouses/barracks). Stratigraphic date shifted with low/high chronology away from automatic 10th-c. Solomon.",
+        "divergence": "Even if stables, many date them later (Omride or 8th c.). Name 'Solomon's stables' is a legacy label that over-determined interpretation. Pattern (A).",
+        "status_tag": "diverged",
+        "sources": "Megiddo expedition reports; Finkelstein low-chronology papers; standard Bible dictionary Megiddo entries",
+        "notes": "Companion to CBG-09 gates debate. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG United Monarchy theme pieces touch Solomonic Megiddo building claims; no verified AiG article solely on “Solomon’s stables” reidentification was found. Theme_only.",
+          "aig": [
+            {
+              "title": "False History—“Out with David and Solomon!”",
+              "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+              "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "theme_only",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG United Monarchy theme pieces touch Solomonic Megiddo building claims; no verified AiG article solely on “Solomon’s stables” reidentification was found. Theme_only.",
+        "creation_ministry_coverage": "theme_only",
+        "creation_ministry_aig": [
+          {
+            "title": "False History—“Out with David and Solomon!”",
+            "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+            "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Megiddo Expedition + IAA + INPA — 'Solomon’s stables' interpretation contested",
+          "type": "mixed",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "dig.megiddo@gmail.com",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.themegiddoexpedition.com/",
+          "notes": "Same Megiddo authorities; interpretation debate.",
+          "official_website": "https://www.themegiddoexpedition.com/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.themegiddoexpedition.com/",
+        "official_website_label": "The Megiddo Expedition",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.981,
+          31.718
+        ]
+      },
+      "properties": {
+        "id": "CBG-20",
+        "name": "Khirbet Qeiyafa — 'Davidic' fortress media claims",
+        "layer": "contested_hypotheses",
+        "location": "Shephelah overlooking Elah Valley, Israel",
+        "testament": "OT",
+        "hypothesis": "1 Sam 17 Elah Valley / early Judahite state under David. Excavators (Garfinkel) argued a fortified 10th-c. Judahite city supporting a Davidic kingdom against minimalist views.",
+        "found": "Short-lived fortified Iron Age site; two gates; ostracon with early Hebrew/Canaanite text; cultic rooms without figurines (interpreted as aniconic).",
+        "divergence": "Site is real and important; contest is whether it proves a Davidic Judahite state vs other polities/chronologies. Media often jumped from fortress → 'King David's city.' Scholarly debate ongoing. Pattern (A).",
+        "status_tag": "ongoing_debate",
+        "sources": "Garfinkel Qeiyafa excavation reports; Finkelstein critiques; BAS coverage of Qeiyafa ostracon and fortifications",
+        "notes": "Bible correctly points attention to Elah corridor; political label is the stretch. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG’s Kingdom of Judah overview cites Khirbet Qeiyafa among early Judean fortification evidence used against minimalist David/Solomon skepticism. Ministry reading of Garfinkel-related work—not dig consensus packaging.",
+          "aig": [
+            {
+              "title": "Archaeological Evidence for the Kingdom of Judah",
+              "url": "https://answersingenesis.org/archaeology/archaeological-evidence-kingdom-judah/",
+              "summary": "AiG summary of Garfinkel-related work including Lachish Level 5 fortifications and Khirbet Qeiyafa as early Judean evidence—interpreted within a biblical-kingdom framework.",
+              "kind": "article"
+            },
+            {
+              "title": "False History—“Out with David and Solomon!”",
+              "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+              "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG’s Kingdom of Judah overview cites Khirbet Qeiyafa among early Judean fortification evidence used against minimalist David/Solomon skepticism. Ministry reading of Garfinkel-related work—not dig consensus packaging.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Archaeological Evidence for the Kingdom of Judah",
+            "url": "https://answersingenesis.org/archaeology/archaeological-evidence-kingdom-judah/",
+            "summary": "AiG summary of Garfinkel-related work including Lachish Level 5 fortifications and Khirbet Qeiyafa as early Judean evidence—interpreted within a biblical-kingdom framework.",
+            "kind": "article"
+          },
+          {
+            "title": "False History—“Out with David and Solomon!”",
+            "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+            "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Khirbet Qeiyafa — IAA; Garfinkel/Hebrew University missions historically.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.847,
+          31.7
+        ]
+      },
+      "properties": {
+        "id": "CBG-21",
+        "name": "Gath (Tell es-Safi) — 'Goliath' media overreach",
+        "layer": "contested_hypotheses",
+        "location": "Tell es-Safi, Shephelah, Israel",
+        "testament": "OT",
+        "hypothesis": "1 Sam 17 Goliath of Gath; Philistine pentapolis. Excavation sought Philistine Gath; a pottery sherd with names resembling 'Goliath' sparked headlines implying the giant's name on site.",
+        "found": "Major Philistine city matching Gath's scale and destruction (likely Hazael); inscribed pottery with Indo-European-like names in the Goliath phonetic neighborhood—not an ID of the biblical giant.",
+        "divergence": "Maeir himself cautioned against equating the sherd with biblical Goliath. Site ID as Gath is strong; personal Goliath claim was media overreach. Pattern (A).",
+        "status_tag": "diverged",
+        "sources": "Maeir Gath project publications; BAS reports on Goliath-like inscription; Maeir public clarifications",
+        "notes": "Good example: Bible → right city; headline → wrong certainty. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "No verified AiG article specifically cautioning “Goliath” media overreach at Tell es-Safi/Gath was found. Coverage: none_found for this contested media claim.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified AiG article specifically cautioning “Goliath” media overreach at Tell es-Safi/Gath was found. Coverage: none_found for this contested media claim.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "IAA + Tell es-Safi/Gath Archaeological Project (Bar-Ilan University / Aren Maeir)",
+          "type": "mixed",
+          "role": "Bar-Ilan Gath project excavates under IAA license.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": null,
+          "contact_phone": "073-3507350",
+          "contact_url": "https://gath.wordpress.com/",
+          "notes": "Project blog/site is public face; IAA licenses. No personal email invented.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Iron Age",
+          "Bronze Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority (Tell es-Safi / Gath)",
+        "status_kind": "dig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235,
+          31.774
+        ]
+      },
+      "properties": {
+        "id": "CBG-22",
+        "name": "Jerusalem — City of David 'palace of David' (Large Stone Structure)",
+        "layer": "contested_hypotheses",
+        "location": "City of David ridge, Jerusalem",
+        "testament": "OT",
+        "hypothesis": "2 Sam 5: David takes Jerusalem; lives in a palace. Eilat Mazar announced Large Stone Structure as King David's palace guided by biblical topography.",
+        "found": "Massive stone structure and nearby Stepped Stone Structure; Iron Age pottery assemblages debated (10th vs 9th/later).",
+        "divergence": "Whether the building is 10th-c. royal Davidic palace remains sharply contested; alternative datings and functions proposed. Bible correctly focuses search on the southeastern hill; palace ID not settled. Pattern (A).",
+        "status_tag": "ongoing_debate",
+        "sources": "Mazar BAR articles on David's palace; Finkelstein et al. critiques in Tel Aviv / BAS; City of David excavation summaries",
+        "notes": "Method case: using Bible as digging guide can work for neighborhoods and still overshoot on named rooms. Surveyor type (A).",
+        "coord_source": "published_site_approx",
+        "creation_ministry": {
+          "blurb": "AiG covers Eilat Mazar City of David work (including palace claims in news framing) and later Givati finds. Large Stone Structure = “palace of David” remains contested; AiG treats finds as Scripture-affirming ministry news.",
+          "aig": [
+            {
+              "title": "Non-existent Wall Found",
+              "url": "https://answersingenesis.org/archaeology/non-existent-wall-found/",
+              "summary": "AiG report on Eilat Mazar's City of David wall/tower attributed to Nehemiah's era; frames finds as worldview-interpreted.",
+              "kind": "article"
+            },
+            {
+              "title": "Discovery of King Hezekiah’s Seal Confirms God’s Word",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2016/01/12/discovery-king-hezekiahs-seal-confirms-gods-word/",
+              "summary": "Ken Ham on Hezekiah bulla from Jerusalem; also cites Hezekiah's tunnel and Lachish siege as corroboration.",
+              "kind": "article"
+            },
+            {
+              "title": "Biblical “Chamber” Identified in Jerusalem?",
+              "url": "https://answersingenesis.org/blogs/ken-ham/2024/04/17/biblical-chamber-identified-in-jerusalem/",
+              "summary": "Ken Ham summarizing Givati Parking Lot Building 100 as possible Josiah-era chamber with 586 BC burn layer.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "site_specific",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "AiG covers Eilat Mazar City of David work (including palace claims in news framing) and later Givati finds. Large Stone Structure = “palace of David” remains contested; AiG treats finds as Scripture-affirming ministry news.",
+        "creation_ministry_coverage": "site_specific",
+        "creation_ministry_aig": [
+          {
+            "title": "Non-existent Wall Found",
+            "url": "https://answersingenesis.org/archaeology/non-existent-wall-found/",
+            "summary": "AiG report on Eilat Mazar's City of David wall/tower attributed to Nehemiah's era; frames finds as worldview-interpreted.",
+            "kind": "article"
+          },
+          {
+            "title": "Discovery of King Hezekiah’s Seal Confirms God’s Word",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2016/01/12/discovery-king-hezekiahs-seal-confirms-gods-word/",
+            "summary": "Ken Ham on Hezekiah bulla from Jerusalem; also cites Hezekiah's tunnel and Lachish siege as corroboration.",
+            "kind": "article"
+          },
+          {
+            "title": "Biblical “Chamber” Identified in Jerusalem?",
+            "url": "https://answersingenesis.org/blogs/ken-ham/2024/04/17/biblical-chamber-identified-in-jerusalem/",
+            "summary": "Ken Ham summarizing Givati Parking Lot Building 100 as possible Josiah-era chamber with 586 BC burn layer.",
+            "kind": "article"
+          }
+        ],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No dig halt is recorded for this contested hypothesis pin in the sources checked (debates concern interpretation, dating, or media claims rather than a verified government stop-work order).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "IAA + City of David / ELAD — Large Stone Structure 'palace of David' debate",
+          "type": "mixed",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "077-9966726",
+          "contact_url": "https://cityofdavid.org.il/en/contact-us/",
+          "notes": "Dual ELAD visitor + IAA excavation; identification contested.",
+          "official_website": "https://cityofdavid.org.il/en/"
+        },
+        "dig_status": "open",
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://cityofdavid.org.il/en/",
+        "official_website_label": "City of David (Ir David / ELAD)",
+        "status_kind": "dig"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1947 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-01",
+        "name": "Isaiah — Jerusalem",
+        "prophet": "Isaiah",
+        "location": "Jerusalem",
+        "verses": "Isaiah 1:1; Isaiah 6:1-8; Isaiah 7:3",
+        "what_ministered": "Vision call and court prophecy in Judah under Uzziah–Hezekiah; Assyrian crisis from Jerusalem.",
+        "sources": "Isaiah superscription; OT dig City of David / Jerusalem pins. Coord: ot/nt dig pin.",
+        "notes": "Text locates Isaiah in Jerusalem; pin uses OT Jerusalem dig coords.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Isaiah Jerusalem — IAA / Jerusalem antiquities context (prophet pin, not a dig concession). Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.25758,
+          31.80752
+        ]
+      },
+      "properties": {
+        "id": "PR-02",
+        "name": "Jeremiah — Anathoth",
+        "prophet": "Jeremiah",
+        "location": "Anathoth",
+        "verses": "Jeremiah 1:1; Jeremiah 11:21-23",
+        "what_ministered": "Priestly hometown; early call and local opposition at Anathoth (Benjamin).",
+        "sources": "Jeremiah 1:1; OpenBible atlas Anathoth. Coord: OpenBible.info atlas (Anathoth).",
+        "notes": "Hometown pin — OpenBible identification (Ras el Kharruba candidate).",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Anathoth",
+        "strongs_id": "H6068",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6068/kjv/wlc/0-1/",
+        "strongs_lemma": "עֲנָתוֹת",
+        "lat": 31.80752,
+        "lon": 35.25758,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Anathoth (al-Isa) — West Bank village tradition; PA/complex jurisdiction. Prophet memorial pin. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-03",
+        "name": "Jeremiah — Jerusalem",
+        "prophet": "Jeremiah",
+        "location": "Jerusalem",
+        "verses": "Jeremiah 1:15-19; Jeremiah 7:1-2; Jeremiah 38:6",
+        "what_ministered": "Temple-court preaching, siege-era warnings, cistern imprisonment under Zedekiah.",
+        "sources": "Jeremiah narratives; OT Jerusalem dig pin. Coord: ot/nt dig pin.",
+        "notes": "Ministry focus in the capital during Babylon's advance.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Jeremiah Jerusalem — IAA / Jerusalem context. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.420746,
+          32.541614
+        ]
+      },
+      "properties": {
+        "id": "PR-04",
+        "name": "Ezekiel — Babylon region (exile)",
+        "prophet": "Ezekiel",
+        "location": "Babylon region (exile)",
+        "verses": "Ezekiel 1:1-3; Ezekiel 3:15",
+        "what_ministered": "Visions by the Chebar canal among Judean exiles; priest-prophet in Babylonian exile.",
+        "sources": "Ezekiel 1:1-3; OT dig Babylon. Chebar/Nippur canal locale debated in detail. Coord: ot/nt dig pin.",
+        "notes": "Pin uses Babylon dig as regional exile capital — Chebar exact channel discussed among scholars.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Babel / Babylon",
+        "strongs_id": "H894",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h894/kjv/wlc/0-1/",
+        "strongs_lemma": "בָּבֶל",
+        "creation_ministry": {
+          "blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "panel_blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "6. Archaeological Finds",
+              "url": "https://answersingenesis.org/archaeology/6-archaeological-finds/",
+              "summary": "AiG list including Tel Dan Stele (House of David) and Pilate Dedication Stone from Caesarea Maritima.",
+              "kind": "article"
+            },
+            {
+              "title": "Tower of Babel",
+              "url": "https://answersingenesis.org/tower-of-babel/",
+              "summary": "AiG Tower of Babel topic hub: ministry interpretation of dispersion and ziggurat background.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 32.541614,
+        "lon": 44.420746,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "State Board of Antiquities and Heritage (SBAH), Iraq",
+          "type": "national_antiquities",
+          "role": "National board licensing excavations and protecting heritage sites in Iraq.",
+          "contact_name": null,
+          "contact_title": "Relations Department",
+          "contact_email": "relations@sbah.gov.iq",
+          "contact_phone": null,
+          "contact_url": "https://sbah.gov.iq/",
+          "notes": "Ezekiel Babylon exile setting — SBAH Iraq. Literary setting pin. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://whc.unesco.org/en/list/278/"
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/278/",
+        "official_website_label": "UNESCO — Babylon",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.420746,
+          32.541614
+        ]
+      },
+      "properties": {
+        "id": "PR-05",
+        "name": "Daniel — Babylon",
+        "prophet": "Daniel",
+        "location": "Babylon",
+        "verses": "Daniel 1:1-6; Daniel 2:48; Daniel 5:1-30",
+        "what_ministered": "Court service and visions in Neo-Babylonian capital (Daniel narrative setting).",
+        "sources": "Daniel 1-5; OT dig Babylon. Coord: ot/nt dig pin.",
+        "notes": "Narrative setting in Babylon; not a separate Daniel-house excavation.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Babel / Babylon",
+        "strongs_id": "H894",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h894/kjv/wlc/0-1/",
+        "strongs_lemma": "בָּבֶל",
+        "creation_ministry": {
+          "blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "panel_blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "6. Archaeological Finds",
+              "url": "https://answersingenesis.org/archaeology/6-archaeological-finds/",
+              "summary": "AiG list including Tel Dan Stele (House of David) and Pilate Dedication Stone from Caesarea Maritima.",
+              "kind": "article"
+            },
+            {
+              "title": "Tower of Babel",
+              "url": "https://answersingenesis.org/tower-of-babel/",
+              "summary": "AiG Tower of Babel topic hub: ministry interpretation of dispersion and ziggurat background.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 32.541614,
+        "lon": 44.420746,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "State Board of Antiquities and Heritage (SBAH), Iraq",
+          "type": "national_antiquities",
+          "role": "National board licensing excavations and protecting heritage sites in Iraq.",
+          "contact_name": null,
+          "contact_title": "Relations Department",
+          "contact_email": "relations@sbah.gov.iq",
+          "contact_phone": null,
+          "contact_url": "https://sbah.gov.iq/",
+          "notes": "Daniel Babylon — SBAH Iraq. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://whc.unesco.org/en/list/278/"
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/278/",
+        "official_website_label": "UNESCO — Babylon",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.25775,
+          32.189157
+        ]
+      },
+      "properties": {
+        "id": "PR-06",
+        "name": "Daniel — Susa (Shushan) vision setting",
+        "prophet": "Daniel",
+        "location": "Susa (Shushan) vision setting",
+        "verses": "Daniel 8:2",
+        "what_ministered": "Vision dated as at the citadel of Susa in Elam (vision locale).",
+        "sources": "Daniel 8:2; OT dig Susa. Coord: ot/nt dig pin.",
+        "notes": "Vision locale statement; not necessarily continuous residence.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Shushan",
+        "strongs_id": "H7800",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7800/kjv/wlc/0-1/",
+        "strongs_lemma": "שׁוּשַׁן",
+        "creation_ministry": {
+          "blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "panel_blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 32.189157,
+        "lon": 48.25775,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Ministry of Cultural Heritage, Tourism and Handicrafts (Iran)",
+          "type": "national_antiquities",
+          "role": "National ministry overseeing cultural heritage sites in Iran.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": "+98-21-33953000",
+          "contact_url": "https://www.mcth.ir/",
+          "notes": "Daniel Susa vision setting — Iranian cultural heritage (Susa). Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://whc.unesco.org/en/list/1455/"
+        },
+        "eras": [
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/1455/",
+        "official_website_label": "UNESCO — Susa",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.189926,
+          32.275961
+        ]
+      },
+      "properties": {
+        "id": "PR-07",
+        "name": "Hosea — Samaria / Northern Kingdom",
+        "prophet": "Hosea",
+        "location": "Samaria / Northern Kingdom",
+        "verses": "Hosea 1:1; Hosea 7:1; Hosea 8:5-6",
+        "what_ministered": "Prophesied to Israel (Ephraim) before Samaria's fall; marriage sign-act.",
+        "sources": "Hosea superscription; OT dig Samaria (Sebaste). Coord: ot/nt dig pin.",
+        "notes": "Pin at Samaria capital as northern ministry emblem.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Samaria",
+        "strongs_id": "G4540",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g4540/kjv/tr/0-1/",
+        "strongs_lemma": "Σαμάρεια",
+        "creation_ministry": {
+          "blurb": "NT-period Sebaste/Samaria: no dedicated AiG Herodian-Sebaste dig article verified; nearest is Assyria/OT Samaria theme plus CM Borderland NT Israel context.",
+          "panel_blurb": "NT-period Sebaste/Samaria: no dedicated AiG Herodian-Sebaste dig article verified; nearest is Assyria/OT Samaria theme plus CM Borderland NT Israel context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Recent Archaeological Finds in Assyria Corroborate Scripture",
+              "url": "https://answersingenesis.org/archaeology/recent-archaeological-finds-assyria-corroborate-scripture/",
+              "summary": "AiG on Assyrian imperial finds corroborating biblical Assyria/Judah interactions (Nineveh sphere).",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.275961,
+        "lon": 35.189926,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Hosea Samaria/Northern Kingdom — Sebaste/complex jurisdiction. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.21048,
+          31.63247
+        ]
+      },
+      "properties": {
+        "id": "PR-08",
+        "name": "Amos — Tekoa",
+        "prophet": "Amos",
+        "location": "Tekoa",
+        "verses": "Amos 1:1",
+        "what_ministered": "Herdsman/sycamore dresser from Tekoa in Judah called to confront Israel.",
+        "sources": "Amos 1:1; OpenBible Tekoa (Khirbet Teku'a). Coord: OpenBible.info atlas (Tekoa).",
+        "notes": "Hometown pin.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Tekoa",
+        "strongs_id": "H8620",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h8620/kjv/wlc/0-1/",
+        "strongs_lemma": "תְּקוֹעַ",
+        "lat": 31.63247,
+        "lon": 35.21048,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Amos Tekoa — West Bank; PA/complex jurisdiction. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.241389,
+          31.922778
+        ]
+      },
+      "properties": {
+        "id": "PR-09",
+        "name": "Amos — Bethel / Israel preaching axis",
+        "prophet": "Amos",
+        "location": "Bethel / Israel preaching axis",
+        "verses": "Amos 7:10-17",
+        "what_ministered": "Confronted Amaziah at Bethel's royal sanctuary; sent back toward Judah.",
+        "sources": "Amos 7; OpenBible Bethel; no dedicated Bethel dig pin in current OT layer. Coord: OpenBible.info atlas (Bethel 1).",
+        "notes": "Bethel site identity is discussed; OpenBible Bethel 1 used — unconfirmed vs alternatives.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "lat": 31.922778,
+        "lon": 35.241389,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Amos Bethel preaching axis — West Bank Beitin area; complex jurisdiction. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.753039,
+          32.054481
+        ]
+      },
+      "properties": {
+        "id": "PR-10",
+        "name": "Jonah — Joppa",
+        "prophet": "Jonah",
+        "location": "Joppa",
+        "verses": "Jonah 1:3",
+        "what_ministered": "Fled toward Tarshish from Joppa rather than go to Nineveh.",
+        "sources": "Jonah 1:3; OpenBible Joppa (Jaffa). Coord: OpenBible.info atlas (Joppa).",
+        "notes": "Port of departure in the narrative.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Joppa",
+        "strongs_id": "H3305",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h3305/kjv/wlc/0-1/",
+        "strongs_lemma": "יָפוֹ",
+        "lat": 32.054481,
+        "lon": 34.753039,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Jonah Joppa — IAA / Tel Aviv-Jaffa antiquities. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.152731,
+          36.35934
+        ]
+      },
+      "properties": {
+        "id": "PR-11",
+        "name": "Jonah — Nineveh",
+        "prophet": "Jonah",
+        "location": "Nineveh",
+        "verses": "Jonah 3:1-10; Matthew 12:41",
+        "what_ministered": "Preached repentance in Nineveh; NT cites the sign of Jonah.",
+        "sources": "Jonah 3; OT dig Nineveh (Kuyunjik/Nebi Yunus). Coord: ot/nt dig pin.",
+        "notes": "Assyrian capital dig pin.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Nineveh",
+        "strongs_id": "H5210",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5210/kjv/wlc/0-1/",
+        "strongs_lemma": "נִינְוֵה",
+        "creation_ministry": {
+          "blurb": "AiG’s Assyria archaeology pieces treat imperial finds as corroborating biblical Assyria–Judah narratives (Nineveh sphere). Site-adjacent ministry coverage; no CM/Ark Nineveh exhibit URL verified.",
+          "panel_blurb": "AiG’s Assyria archaeology pieces treat imperial finds as corroborating biblical Assyria–Judah narratives (Nineveh sphere). Site-adjacent ministry coverage; no CM/Ark Nineveh exhibit URL verified.",
+          "coverage": "site_specific",
+          "aig": [
+            {
+              "title": "Recent Archaeological Finds in Assyria Corroborate Scripture",
+              "url": "https://answersingenesis.org/archaeology/recent-archaeological-finds-assyria-corroborate-scripture/",
+              "summary": "AiG on Assyrian imperial finds corroborating biblical Assyria/Judah interactions (Nineveh sphere).",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 36.35934,
+        "lon": 43.152731,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "State Board of Antiquities and Heritage (SBAH), Iraq",
+          "type": "national_antiquities",
+          "role": "National board licensing excavations and protecting heritage sites in Iraq.",
+          "contact_name": null,
+          "contact_title": "Relations Department",
+          "contact_email": "relations@sbah.gov.iq",
+          "contact_phone": null,
+          "contact_url": "https://sbah.gov.iq/",
+          "notes": "Jonah Nineveh — SBAH Iraq. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://sbah.gov.iq/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://sbah.gov.iq/",
+        "official_website_label": "State Board of Antiquities and Heritage (SBAH), Iraq",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.916611,
+          31.633361
+        ]
+      },
+      "properties": {
+        "id": "PR-12",
+        "name": "Micah — Moresheth-gath",
+        "prophet": "Micah",
+        "location": "Moresheth-gath",
+        "verses": "Micah 1:1; Micah 1:14",
+        "what_ministered": "Prophet of Moresheth; Judah social-justice and messianic oracles.",
+        "sources": "Micah 1:1; OpenBible Moresheth-gath (Tel Goded). Coord: OpenBible.info atlas (Moresheth-gath).",
+        "notes": "Hometown identification via atlas.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Moresheth-gath",
+        "strongs_id": "H4182",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4182/kjv/wlc/0-1/",
+        "strongs_lemma": "מוֹרֶשֶׁת גַּת",
+        "lat": 31.633361,
+        "lon": 34.916611,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Micah Moresheth-gath — IAA Shephelah. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority (Tell es-Safi / Gath)",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-13",
+        "name": "Micah — Jerusalem (oracle focus)",
+        "prophet": "Micah",
+        "location": "Jerusalem (oracle focus)",
+        "verses": "Micah 3:12; Micah 4:1-2; Micah 5:2",
+        "what_ministered": "Announced Zion's judgment and hope; Bethlehem oracle.",
+        "sources": "Micah 3-5; OT Jerusalem dig. Coord: ot/nt dig pin.",
+        "notes": "Oracle focus on Zion/Jerusalem.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Micah Jerusalem oracle focus — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.152731,
+          36.35934
+        ]
+      },
+      "properties": {
+        "id": "PR-14",
+        "name": "Nahum — Nineveh (oracle target)",
+        "prophet": "Nahum",
+        "location": "Nineveh (oracle target)",
+        "verses": "Nahum 1:1; Nahum 3:1-7",
+        "what_ministered": "Oracle concerning Nineveh — Assyria's fall proclaimed.",
+        "sources": "Nahum 1:1; OT dig Nineveh. Coord: ot/nt dig pin.",
+        "notes": "Target city pin (Elkosh hometown uncertain — not pinned).",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Nineveh",
+        "strongs_id": "H5210",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5210/kjv/wlc/0-1/",
+        "strongs_lemma": "נִינְוֵה",
+        "creation_ministry": {
+          "blurb": "AiG’s Assyria archaeology pieces treat imperial finds as corroborating biblical Assyria–Judah narratives (Nineveh sphere). Site-adjacent ministry coverage; no CM/Ark Nineveh exhibit URL verified.",
+          "panel_blurb": "AiG’s Assyria archaeology pieces treat imperial finds as corroborating biblical Assyria–Judah narratives (Nineveh sphere). Site-adjacent ministry coverage; no CM/Ark Nineveh exhibit URL verified.",
+          "coverage": "site_specific",
+          "aig": [
+            {
+              "title": "Recent Archaeological Finds in Assyria Corroborate Scripture",
+              "url": "https://answersingenesis.org/archaeology/recent-archaeological-finds-assyria-corroborate-scripture/",
+              "summary": "AiG on Assyrian imperial finds corroborating biblical Assyria/Judah interactions (Nineveh sphere).",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 36.35934,
+        "lon": 43.152731,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "State Board of Antiquities and Heritage (SBAH), Iraq",
+          "type": "national_antiquities",
+          "role": "National board licensing excavations and protecting heritage sites in Iraq.",
+          "contact_name": null,
+          "contact_title": "Relations Department",
+          "contact_email": "relations@sbah.gov.iq",
+          "contact_phone": null,
+          "contact_url": "https://sbah.gov.iq/",
+          "notes": "Nahum Nineveh target — SBAH Iraq. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://sbah.gov.iq/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://sbah.gov.iq/",
+        "official_website_label": "State Board of Antiquities and Heritage (SBAH), Iraq",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-15",
+        "name": "Habakkuk — Judah / Jerusalem setting",
+        "prophet": "Habakkuk",
+        "location": "Judah / Jerusalem setting",
+        "verses": "Habakkuk 1:1-4; Habakkuk 2:1",
+        "what_ministered": "Dialogue with Yahweh about injustice and the Chaldean rise; watchpost imagery.",
+        "sources": "Habakkuk text; OT Jerusalem dig as Judah capital stand-in. Personal town unknown. Coord: ot/nt dig pin.",
+        "notes": "Book does not name a hometown; pin = Jerusalem as Judah setting (unconfirmed as personal locale).",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Habakkuk Judah/Jerusalem — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-16",
+        "name": "Zephaniah — Jerusalem",
+        "prophet": "Zephaniah",
+        "location": "Jerusalem",
+        "verses": "Zephaniah 1:1-4; Zephaniah 1:10-11",
+        "what_ministered": "Josiah-era prophet; Day of Yahweh oracles centered on Judah and Jerusalem.",
+        "sources": "Zephaniah 1:1; OT Jerusalem dig. Coord: ot/nt dig pin.",
+        "notes": "Text situates ministry in Josiah's Judah with Jerusalem focus.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Zephaniah Jerusalem — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-17",
+        "name": "Haggai — Jerusalem (Second Temple rebuild)",
+        "prophet": "Haggai",
+        "location": "Jerusalem (Second Temple rebuild)",
+        "verses": "Haggai 1:1-8; Haggai 2:1-9",
+        "what_ministered": "Stirred Zerubbabel and Joshua to rebuild Yahweh's house after exile.",
+        "sources": "Haggai 1-2; OT Jerusalem dig. Coord: ot/nt dig pin.",
+        "notes": "Post-exilic temple project setting.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Haggai Jerusalem Second Temple — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-18",
+        "name": "Zechariah — Jerusalem (night visions)",
+        "prophet": "Zechariah",
+        "location": "Jerusalem (night visions)",
+        "verses": "Zechariah 1:1; Zechariah 1:16-17; Zechariah 8:3",
+        "what_ministered": "Night visions and restoration oracles for post-exilic Judah centered on Jerusalem.",
+        "sources": "Zechariah 1-8; OT Jerusalem dig. Coord: ot/nt dig pin.",
+        "notes": "Companion to Haggai's rebuild era.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Zechariah Jerusalem — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-19",
+        "name": "Malachi — Judah / Jerusalem worship setting",
+        "prophet": "Malachi",
+        "location": "Judah / Jerusalem worship setting",
+        "verses": "Malachi 1:1; Malachi 1:6-8; Malachi 3:1",
+        "what_ministered": "Confronted corrupt offerings and covenant unfaithfulness in post-exilic worship.",
+        "sources": "Malachi; OT Jerusalem dig as cult-center stand-in. Coord: ot/nt dig pin.",
+        "notes": "Addresses Judah's priests/people; exact town unstated — Jerusalem pin unconfirmed as residence.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Malachi Judah/Jerusalem — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.023333,
+          32.6725
+        ]
+      },
+      "properties": {
+        "id": "PR-20",
+        "name": "Elijah — Mount Carmel",
+        "prophet": "Elijah",
+        "location": "Mount Carmel",
+        "verses": "1 Kings 18:19-40",
+        "what_ministered": "Contest with Baal's prophets; fire from Yahweh on the sacrifice.",
+        "sources": "1 Kings 18; OpenBible Mount Carmel. Coord: OpenBible.info atlas (Mount Carmel).",
+        "notes": "Event locale on Carmel ridge; exact altar spot is tradition, not a single agreed dig.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Carmel",
+        "strongs_id": "H3760",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h3760/kjv/wlc/0-1/",
+        "strongs_lemma": "כַּרְמֶל",
+        "lat": 32.6725,
+        "lon": 35.023333,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Elijah Mount Carmel — IAA / INPA Carmel parks context. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.591389,
+          32.394722
+        ]
+      },
+      "properties": {
+        "id": "PR-21",
+        "name": "Elijah — Brook Cherith",
+        "prophet": "Elijah",
+        "location": "Brook Cherith",
+        "verses": "1 Kings 17:2-7",
+        "what_ministered": "Hid by the brook Cherith; ravens fed him during drought.",
+        "sources": "1 Kings 17; OpenBible Cherith (Wadi al Yabis candidate). Coord: OpenBible.info atlas (Cherith).",
+        "notes": "Cherith identification debated — OpenBible candidate marked unconfirmed.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "lat": 32.394722,
+        "lon": 35.591389,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Elijah Brook Cherith — traditional Transjordan; DoA Jordan if east of Jordan. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.295136,
+          33.464227
+        ]
+      },
+      "properties": {
+        "id": "PR-22",
+        "name": "Elijah — Zarephath",
+        "prophet": "Elijah",
+        "location": "Zarephath",
+        "verses": "1 Kings 17:8-24",
+        "what_ministered": "Stayed with the widow of Zarephath; flour/oil provision and child raised.",
+        "sources": "1 Kings 17; OpenBible Zarephath (Sarepta). Between Tyre and Sidon. Coord: OpenBible.info atlas (Zarephath).",
+        "notes": "Coastal Phoenician town pin from atlas.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Zarephath",
+        "strongs_id": "H6886",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6886/kjv/wlc/0-1/",
+        "strongs_lemma": "צָרְפַת",
+        "lat": 33.464227,
+        "lon": 35.295136,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Directorate General of Antiquities (DGA), Lebanon — Ministry of Culture",
+          "type": "national_antiquities",
+          "role": "National DGA under Ministry of Culture oversees archaeological sites in Lebanon.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.culture.gov.lb/",
+          "notes": "Elijah Zarephath (Sarepta) — Lebanese DGA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.culture.gov.lb/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.culture.gov.lb/",
+        "official_website_label": "Directorate General of Antiquities (DGA), Lebanon — Ministry of Culture",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.56089,
+          32.3743
+        ]
+      },
+      "properties": {
+        "id": "PR-23",
+        "name": "Elisha — Abel-meholah / call region",
+        "prophet": "Elisha",
+        "location": "Abel-meholah / call region",
+        "verses": "1 Kings 19:16-21; 2 Kings 2:1-14",
+        "what_ministered": "Called while plowing; received Elijah's mantle; Jordan crossing signs.",
+        "sources": "1 Kings 19; 2 Kings 2; OpenBible Abel-meholah. Coord: OpenBible.info atlas (Abel-meholah).",
+        "notes": "Call associated with Abel-meholah; mantle transfer along Jordan itinerary — schematic pin.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "lat": 32.3743,
+        "lon": 35.56089,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Elisha Abel-meholah call region — Jordan Valley; DoA Jordan / IAA depending on identification. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.189926,
+          32.275961
+        ]
+      },
+      "properties": {
+        "id": "PR-24",
+        "name": "Elisha — Samaria",
+        "prophet": "Elisha",
+        "location": "Samaria",
+        "verses": "2 Kings 6:8-23; 2 Kings 6:24-33",
+        "what_ministered": "Counseled Israel's king; siege of Samaria narratives.",
+        "sources": "2 Kings 6-7; OT dig Samaria. Coord: ot/nt dig pin.",
+        "notes": "Northern capital ministry scenes.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Samaria",
+        "strongs_id": "G4540",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g4540/kjv/tr/0-1/",
+        "strongs_lemma": "Σαμάρεια",
+        "creation_ministry": {
+          "blurb": "NT-period Sebaste/Samaria: no dedicated AiG Herodian-Sebaste dig article verified; nearest is Assyria/OT Samaria theme plus CM Borderland NT Israel context.",
+          "panel_blurb": "NT-period Sebaste/Samaria: no dedicated AiG Herodian-Sebaste dig article verified; nearest is Assyria/OT Samaria theme plus CM Borderland NT Israel context.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Recent Archaeological Finds in Assyria Corroborate Scripture",
+              "url": "https://answersingenesis.org/archaeology/recent-archaeological-finds-assyria-corroborate-scripture/",
+              "summary": "AiG on Assyrian imperial finds corroborating biblical Assyria/Judah interactions (Nineveh sphere).",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": []
+        },
+        "lat": 32.275961,
+        "lon": 35.189926,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Elisha Samaria — Sebaste complex jurisdiction. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.239861,
+          32.413528
+        ]
+      },
+      "properties": {
+        "id": "PR-25",
+        "name": "Elisha — Dothan",
+        "prophet": "Elisha",
+        "location": "Dothan",
+        "verses": "2 Kings 6:13-18",
+        "what_ministered": "Surrounded by Aramean horses/chariots; eyes of servant opened.",
+        "sources": "2 Kings 6; OpenBible Dothan (Tel Dotan). Coord: OpenBible.info atlas (Dothan).",
+        "notes": "Narrative locale.",
+        "confidence": "confirmed",
+        "layer": "prophets",
+        "biblical_name": "Dothan",
+        "strongs_id": "H1886",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1886/kjv/wlc/0-1/",
+        "strongs_lemma": "דֹּתָן",
+        "lat": 32.413528,
+        "lon": 35.239861,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Elisha Dothan — West Bank; complex jurisdiction. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23161,
+          31.85434
+        ]
+      },
+      "properties": {
+        "id": "PR-26",
+        "name": "Samuel — Ramah",
+        "prophet": "Samuel",
+        "location": "Ramah",
+        "verses": "1 Samuel 7:15-17; 1 Samuel 8:4; 1 Samuel 25:1",
+        "what_ministered": "Judged Israel from Ramah; anointed Saul and David; burial tradition at Ramah.",
+        "sources": "1 Samuel; OpenBible Ramah (Al Ram / Benjamin candidate). Coord: OpenBible.info atlas (Ramah 1).",
+        "notes": "Primary base. Identification among Benjamin Ramahs discussed — atlas pick.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Ramah",
+        "strongs_id": "H7414",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7414/kjv/wlc/0-1/",
+        "strongs_lemma": "רָמָה",
+        "lat": 31.85434,
+        "lon": 35.23161,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Samuel Ramah — West Bank candidate sites; complex. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.973333,
+          28.539722
+        ]
+      },
+      "properties": {
+        "id": "PR-27",
+        "name": "Moses — Mount Sinai / Horeb region",
+        "prophet": "Moses",
+        "location": "Mount Sinai / Horeb region",
+        "verses": "Deuteronomy 18:15-18; Deuteronomy 34:10; Exodus 19:1-6",
+        "what_ministered": "Yahweh's prophet par excellence; covenant mediation at the mountain.",
+        "sources": "Deuteronomy 18:15-18; 34:10; OpenBible Mount Sinai (Jebel Musa traditional). Coord: OpenBible.info atlas (Mount Sinai).",
+        "notes": "Sinai/Horeb location has competing proposals; pin = traditional Jebel Musa atlas point, unconfirmed.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "lat": 28.539722,
+        "lon": 33.973333,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "National ministry overseeing museums, monuments, and excavation permits in Egypt.",
+          "contact_name": null,
+          "contact_title": "Ministry portal inquiries",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Moses Sinai/Horeb region — Egypt MoTA (South Sinai). Competing traditional peaks; not a single dig. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "eras": [
+          "Exodus / Wilderness",
+          "Bronze Age"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.603919,
+          30.745843
+        ]
+      },
+      "properties": {
+        "id": "PR-28",
+        "name": "Obadiah — Edom / Bozrah region (oracle)",
+        "prophet": "Obadiah",
+        "location": "Edom / Bozrah region (oracle)",
+        "verses": "Obadiah 1:1-4",
+        "what_ministered": "Vision concerning Edom; pride of the rocky heights.",
+        "sources": "Obadiah; OpenBible Bozrah (Buseira) as Edomite center stand-in. Coord: OpenBible.info atlas (Bozrah 1).",
+        "notes": "Oracle target region — prophet's personal hometown unknown.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "lat": 30.745843,
+        "lon": 35.603919,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "National authority licensing excavations and protecting archaeological sites in Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA general contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Obadiah Edom/Bozrah — DoA Jordan (southern Jordan Edom). Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.235487,
+          31.775794
+        ]
+      },
+      "properties": {
+        "id": "PR-29",
+        "name": "Joel — Jerusalem / Zion",
+        "prophet": "Joel",
+        "location": "Jerusalem / Zion",
+        "verses": "Joel 1:1; Joel 2:1; Joel 3:16-17",
+        "what_ministered": "Locust/Day of Yahweh preaching oriented to Zion and the land of Judah.",
+        "sources": "Joel; OT Jerusalem dig. Coord: ot/nt dig pin.",
+        "notes": "Dating debated; geographic focus Zion/Jerusalem.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Jerusalem",
+        "strongs_id": "G2414",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2414/kjv/tr/0-1/",
+        "strongs_lemma": "Ἱεροσόλυμα",
+        "creation_ministry": {
+          "blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "panel_blurb": "No AiG site-specific Southern Temple Mount / Robinson’s Arch article verified. Ark Encounter Jerusalem replica + CM Borderland = theme_only NT Jerusalem ministry context.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.775794,
+        "lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Joel Jerusalem/Zion — IAA. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.432955,
+          31.849912
+        ]
+      },
+      "properties": {
+        "id": "PR-30",
+        "name": "John the Baptist — Jordan wilderness / Jericho approach",
+        "prophet": "John the Baptist",
+        "location": "Jordan wilderness / Jericho approach",
+        "verses": "Matthew 3:1-6; John 1:28; John 10:40",
+        "what_ministered": "Forerunner preaching repentance and baptizing in the Jordan wilderness.",
+        "sources": "Gospels; NT digs near Jericho/Jordan. Bethany-beyond-the-Jordan has competing claims. Coord: ot/nt dig pin.",
+        "notes": "Multiple baptism-site candidates; pin near NT Jericho as ministry region — unconfirmed exact ford.",
+        "confidence": "unconfirmed",
+        "layer": "prophets",
+        "biblical_name": "Jericho",
+        "strongs_id": "G2410",
+        "strongs_lang": "G",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/g2410/kjv/tr/0-1/",
+        "strongs_lemma": "Ἰεριχώ",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "panel_blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "lat": 31.849912,
+        "lon": 35.432955,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — prophet narrative/setting pin, not a dedicated modern excavation campaign for this feature. See OT/NT dig pins at overlapping places for excavation status.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA) / Department of Antiquities and Cultural Heritage",
+          "type": "national_antiquities",
+          "role": "Palestinian Authority antiquities administration for sites under PA administration.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "John the Baptist Jordan wilderness / Jericho approach — PA / DoA Jordan river dual context. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
+          "official_website": "https://whc.unesco.org/en/list/1687/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/1687/",
+        "official_website_label": "UNESCO — Ancient Jericho / Tell es-Sultan",
+        "status_kind": "none"
+      }
+    }
+  ]
+}

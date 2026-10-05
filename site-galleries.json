@@ -1,0 +1,106 @@
+{
+  "build": "20261001-i",
+  "generated": "2026-10-01",
+  "caution_hosts": [
+    "cityofdavid.org.il",
+    "magdala.org"
+  ],
+  "site_galleries": [
+    {
+      "pin_id": "MER-01",
+      "gallery_url": "https://egymonuments.gov.eg/en/museums/egyptian-museum/",
+      "gallery_host": "egymonuments.gov.eg",
+      "gallery_cite": "Egypt MoTA — Egyptian Museum",
+      "gallery_note": "Stele displayed in Cairo Egyptian Museum context; findspot is Theban mortuary temple. Use egymonuments.gov.eg (SAFE); egyptianmuseumcairo.eg remains CAUTION.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "DAN-STELE",
+      "gallery_url": "https://www.imj.org.il/en",
+      "gallery_host": "imj.org.il",
+      "gallery_cite": "Israel Museum",
+      "gallery_note": "Original fragments in IMJ; site may show replica/context.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "KET-01",
+      "gallery_url": "https://www.imj.org.il/en",
+      "gallery_host": "imj.org.il",
+      "gallery_cite": "Israel Museum",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "COD-03",
+      "gallery_url": "https://cityofdavid.org.il/en/",
+      "gallery_host": "cityofdavid.org.il",
+      "gallery_cite": "City of David",
+      "gallery_note": "Inscription original in Istanbul; tunnel/site photos via site authority.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "MAG-01,MAG-02",
+      "gallery_url": "https://www.magdala.org/",
+      "gallery_host": "magdala.org",
+      "gallery_cite": "Magdala",
+      "gallery_note": "On-site stone + park imagery.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "DIB-01",
+      "gallery_url": "https://www.louvre.fr/en",
+      "gallery_host": "louvre.fr",
+      "gallery_cite": "Louvre",
+      "gallery_note": "Mesha Stele in Louvre.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CYR-01",
+      "gallery_url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+      "gallery_host": "britishmuseum.org",
+      "gallery_cite": "British Museum",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "QUM-01",
+      "gallery_url": "https://www.imj.org.il/en/wings/shrine-book",
+      "gallery_host": "imj.org.il",
+      "gallery_cite": "Israel Museum — Shrine of the Book",
+      "gallery_note": "Manuscript corpus display; Qumran is find region.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CAES-01,CAES-02",
+      "gallery_url": "https://www.imj.org.il/en",
+      "gallery_host": "imj.org.il",
+      "gallery_cite": "Israel Museum",
+      "gallery_note": "Pilate Stone original in IMJ; replica often at Caesarea.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "LAC-01",
+      "gallery_url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
+      "gallery_host": "britishmuseum.org",
+      "gallery_cite": "British Museum — Lachish Reliefs",
+      "gallery_note": "Reliefs found at Nineveh depicting Lachish — not dug at Tel Lachish.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "NIN-01",
+      "gallery_url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
+      "gallery_host": "britishmuseum.org",
+      "gallery_cite": "British Museum — Lachish Reliefs from Nineveh",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "BEE-01",
+      "gallery_url": "https://www.imj.org.il/en",
+      "gallery_host": "imj.org.il",
+      "gallery_cite": "Israel Museum",
+      "gallery_note": "Horned altar reconstruction/display.",
+      "gallery_label": "Photo gallery"
+    }
+  ]
+}

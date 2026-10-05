@@ -1,0 +1,326 @@
+{
+  "ot_sites": 58,
+  "ot_campaign_rows": 66,
+  "ot_skipped": [],
+  "sodom_sites": 12,
+  "sodom_skipped": [
+    "Feifa (Fifa / Feifeh)",
+    "Khanazir (Khirbat Khanazir)",
+    "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
+    "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
+    "Tall Nimrin / Tall Kafrayn (Kefrein) and Kikkar companions (northern theory cluster)",
+    "Dead Sea region (general) \u2014 volcanic hypothesis",
+    "Tall el-Hammam / Dead Sea region \u2014 ground impact crater claim",
+    "Bab edh-Dhra / Numeira"
+  ],
+  "story_default": "sodom",
+  "nt_sites": 56,
+  "nt_campaign_rows": 59,
+  "nt_skipped": [],
+  "contested_sites": 22,
+  "contested_skipped": [],
+  "contested_source": "bible-guided-hypotheses-contested.xlsx",
+  "ot_confirmed": 57,
+  "ot_unconfirmed": 1,
+  "nt_confirmed": 50,
+  "nt_unconfirmed": 6,
+  "confidence_audit": "confidence-audit.md",
+  "confidence_updated": "2026-09-30",
+  "ot_unconfirmed_sites": [
+    "Heshbon (Tell Hesban)"
+  ],
+  "nt_unconfirmed_sites": [
+    "Kursi (Gergesa tradition) \u2014 E Shore Galilee",
+    "Emmaus candidates \u2014 Emmaus Nicopolis (Imwas / Canada Park area)",
+    "Patmos (Apocalypse cave tradition / early Christian remains)",
+    "Rome \u2014 Vatican Necropolis / St. Peter\u2019s tomb tradition",
+    "Malta \u2014 Acts shipwreck candidate sites (St. Paul\u2019s Bay / traditional)",
+    "Umm Qais (Gadara) \u2014 Decapolis"
+  ],
+  "contested_overlaps_skipped_unconfirmed": [
+    "Ai (et-Tell)",
+    "Bethsaida candidate \u2014 el-Araj (Beit ha-Bek)",
+    "Bethsaida candidate \u2014 et-Tell",
+    "Ebla (Tell Mardikh)",
+    "Herodium (Herodion)",
+    "Jericho (Tell es-Sultan)",
+    "Jerusalem \u2013 City of David",
+    "Jerusalem \u2013 City of David / Gihon",
+    "Khirbet Qeiyafa",
+    "Mount Ararat / Do\u011fubayaz\u0131t region (flood-tradition archaeology caution row)",
+    "Nazareth \u2014 Sisters of Nazareth Convent",
+    "Shechem (Tell Balata)",
+    "Tel Gezer",
+    "Tel Hazor",
+    "Tel Megiddo",
+    "Tel Megiddo (Tell el-Mutesellim)"
+  ],
+  "apostle_martyrdom_sites": 15,
+  "apostle_martyrdom_color": "#2dd4bf",
+  "apostle_martyrdom_source": "apostle-death-burial-sites.xlsx",
+  "apostle_ministries_routes": 9,
+  "apostle_ministries_apostles": [
+    "paul",
+    "peter",
+    "philip",
+    "john"
+  ],
+  "apostle_ministries_source": "apostle-ministries.geojson",
+  "apostle_ministries_colors": {
+    "paul": "#38bdf8",
+    "peter": "#fb923c",
+    "philip": "#c084fc",
+    "john": "#e11d48"
+  },
+  "prototype_updated": "2026-10-04 21:37 CDT",
+  "host_url_file": "app/HOST-URL.txt",
+  "bible_version": "LSB",
+  "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
+  "build": "20261001-r",
+  "gallery_artifacts": {
+    "version": 1,
+    "build": "20261001-i",
+    "artifacts_geojson": "artifacts.geojson",
+    "artifacts_count": 11,
+    "skip_museum_pin": "ART-12 Soleb findspot-only",
+    "site_galleries": "site-galleries.json",
+    "primary_egypt_museum": "egymonuments.gov.eg",
+    "caution_hosts_disclosed": [
+      "cityofdavid.org.il",
+      "magdala.org"
+    ],
+    "layer_default": "off",
+    "check_all": "includes Artifacts; skips sponsors"
+  },
+  "legend_on_layers_only": true,
+  "ui_notes": {
+    "more_layers": "compact Check/Uncheck + select dropdown (build 20261001-k)",
+    "selected_pin": "cyan halo + slight scale on selected marker; clears with story panel",
+    "site_status": "status_kind dig|visitor|none; Dig status vs Open/Closed + optional visitor_hours (build 20261001-l)",
+    "pin_cluster": "Leaflet.markercluster 1.5.3 (vendor); spiderfyOnMaxZoom for stacked/near-duplicate pins; per point-layer MarkerClusterGroup; trade/ministry LineStrings unclustered (build 20261001-m)",
+    "event_path_layers": "Wired 20261001-n from Surveyor event-routes-site-truth-2026-10-01 \u2014 9 routes off-by-default in More layers; Jonah deferred",
+    "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels"
+  },
+  "status_kind_counts": {
+    "totals": {
+      "dig": 208,
+      "visitor": 94,
+      "none": 134,
+      "visitor_open": 31,
+      "visitor_unknown_no_badge": 63
+    },
+    "per_file": {
+      "ot-digs.geojson": {
+        "dig": 103,
+        "visitor": 2,
+        "none": 0
+      },
+      "nt-digs.geojson": {
+        "dig": 71,
+        "visitor": 3,
+        "none": 0
+      },
+      "sodom-gomorrah.geojson": {
+        "dig": 12,
+        "visitor": 0,
+        "none": 0
+      },
+      "contested-hypotheses.geojson": {
+        "dig": 22,
+        "visitor": 0,
+        "none": 0
+      },
+      "apostle-burial.geojson": {
+        "dig": 0,
+        "visitor": 15,
+        "none": 0
+      },
+      "apostle-ministries.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 9
+      },
+      "artifacts.geojson": {
+        "dig": 0,
+        "visitor": 11,
+        "none": 0
+      },
+      "prophets.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 30
+      },
+      "jesus-miracles.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 25
+      },
+      "exodus-wilderness.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 58
+      },
+      "trade-routes.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 12
+      },
+      "sponsors/expedition-bible/sites.geojson": {
+        "dig": 0,
+        "visitor": 10,
+        "none": 0
+      },
+      "sponsors/alberino/sites.geojson": {
+        "dig": 0,
+        "visitor": 2,
+        "none": 0
+      },
+      "sponsors/expedition-snr/sites.geojson": {
+        "dig": 0,
+        "visitor": 50,
+        "none": 0
+      },
+      "sponsors/_schema-example/sites.geojson": {
+        "dig": 0,
+        "visitor": 1,
+        "none": 0
+      },
+      "event-routes.geojson": {
+        "dig": 0,
+        "visitor": 0,
+        "none": 9
+      }
+    }
+  },
+  "marker_cluster": {
+    "library": "leaflet.markercluster@1.5.3",
+    "vendor": [
+      "vendor/leaflet.markercluster.js",
+      "vendor/MarkerCluster.css",
+      "vendor/MarkerCluster.Default.css"
+    ],
+    "clustered_layers": [
+      "ot",
+      "nt",
+      "sg",
+      "ch",
+      "ap",
+      "prophets",
+      "miracles",
+      "wilderness",
+      "artifacts",
+      "sponsor-eb",
+      "sponsor-alb",
+      "sponsor-snr"
+    ],
+    "unclustered": [
+      "trade (LineStrings+hubs)",
+      "apostle-ministries (routes)",
+      "event-routes (LineStrings)"
+    ],
+    "options": {
+      "maxClusterRadius": 34,
+      "spiderfyOnMaxZoom": true,
+      "disableClusteringAtZoom": null,
+      "animate": false,
+      "map_maxZoom": 18,
+      "note": "map.maxZoom required by leaflet.markercluster; clustering kept at maxZoom so stacks spiderfy"
+    }
+  },
+  "event_routes": {
+    "version": 1,
+    "build": "20261001-n",
+    "source_pack": "event-routes-site-truth-2026-10-01.json",
+    "geojson": "event-routes.geojson",
+    "attachments": "event-attachments.json",
+    "route_features": 9,
+    "event_attachments": 20,
+    "layer_default": "off",
+    "clustered": false,
+    "deferred": [
+      "ROUTE-jonah-nineveh"
+    ],
+    "optional_included": [
+      "ROUTE-abraham-migration"
+    ],
+    "layers": [
+      "event_route_exodus_main",
+      "event_route_exodus_branch_aqaba",
+      "event_route_exodus_branch_ne_delta",
+      "event_route_assyrian_deportation",
+      "event_route_babylonian_exile",
+      "event_route_return_from_exile",
+      "event_route_holy_family_egypt",
+      "event_route_passion_week",
+      "event_route_abraham_migration"
+    ],
+    "note": "Schematic story LineStrings/MultiLineStrings; attachments merge into existing pin Events section; no new dig pins; pin-gap waypoints are line vertices only."
+  },
+  "travel_advisory": {
+    "build": "20261001-o",
+    "layer_id": "modern_travel_advisory",
+    "snapshot_date": "2026-10-04",
+    "source_pack": "dos-travel-advisory-overlay-2026-10-04.json",
+    "geometry": "vendor/ne_110m_admin_0_countries.geojson",
+    "fills": "travel-advisory-fills.geojson",
+    "filled_countries": 168,
+    "skipped": 47,
+    "skipped_no_iso": [
+      "Bonaire",
+      "French West Indies",
+      "Gaza",
+      "Saba",
+      "Sint Eustatius",
+      "West Bank"
+    ],
+    "iso_match_notes": [
+      "NO, FR, XK matched via ISO_A2_EH because Natural Earth ISO_A2 is -99",
+      "TW matched via ISO_A2_EH because ISO_A2 is CN-TW (not painted as China)"
+    ],
+    "default": "off",
+    "fill_opacity": 0.35,
+    "separate_from": "empire_snapshots"
+  },
+  "empire_snapshots": {
+    "build": "20261001-p",
+    "source_pack": "empire-snapshots-site-truth-2026-10-04.json",
+    "geojson": "empire-snapshots.geojson",
+    "features": 12,
+    "new_pins": 0,
+    "persia_polygons": 0,
+    "toggles": [
+      "tog-emp-722",
+      "tog-emp-701",
+      "tog-emp-586",
+      "tog-emp-30"
+    ],
+    "default": "off",
+    "paint_note": "~701 reduced Judah draw_rank 2 above Assyria draw_rank 1"
+  },
+  "tribal_allotments": {
+    "build": "20261001-q",
+    "source_pack": "tribal-allotments-site-truth-2026-10-04.json",
+    "geojson": "tribal-allotments.geojson",
+    "layer_id": "tribal_allotments",
+    "toggle": "tog-tribal-allotments",
+    "features": 13,
+    "tribes": 12,
+    "manasseh_polygons": 2,
+    "levi_polygons": 0,
+    "new_pins": 0,
+    "default": "off",
+    "paint_note": "Higher draw_rank on top: Judah 1, most tribes 2, Benjamin 3, Simeon and Dan 4. Simeon inside Judah, not a hole. Dan coastal only.",
+    "separate_from": ["empire_snapshots", "modern_travel_advisory"]
+  },
+  "destruction_horizons": {
+    "build": "20261001-r",
+    "source_pack": "destruction-horizons-site-truth-2026-10-04.json",
+    "attachments": "destruction-horizons.json",
+    "tags": 15,
+    "unique_pins": 13,
+    "new_pins": 0,
+    "chips": ["701", "586", "70"],
+    "default": "off",
+    "note": "Filter chips on existing pins. Not markers. Not polygons. Masada and Jericho are not tagged."
+  }
+}

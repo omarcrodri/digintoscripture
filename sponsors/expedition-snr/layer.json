@@ -1,0 +1,26 @@
+{
+  "sponsor_id": "expedition-snr",
+  "layer_id": "sponsor:expedition-snr",
+  "chip_label": "Expedition: Sergio & Rhoda (sponsor)",
+  "chip_short": "Sergio & Rhoda",
+  "default_on": false,
+  "sponsor_display_name": "Sergio & Rhoda in Israel",
+  "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise Surveyor solidity.",
+  "info_blurb": "Opt-in Sergio & Rhoda Phase 2 — 13 strong + 22 mixed attaches + 15 NEW (incl. Susya with Linguist-safe Yeshua footnote). Ministry travel-video presentation — not dig consensus. Core OT/NT stay free. No merch CTA.",
+  "pin_color": "#2dd4bf",
+  "policebot_hosts": [
+    "snrisrael.com",
+    "patreon.com",
+    "inspire.wetravel.com"
+  ],
+  "geojson": "sites.geojson",
+  "phase": "2",
+  "status": "live_phase2",
+  "counts": {
+    "strong_attach": 13,
+    "mixed_attach": 22,
+    "new": 15,
+    "total": 50,
+    "susya": true
+  }
+}

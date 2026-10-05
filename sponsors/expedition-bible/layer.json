@@ -1,0 +1,19 @@
+{
+  "sponsor_id": "expedition-bible",
+  "layer_id": "sponsor:expedition-bible",
+  "chip_label": "Expedition: Bible (sponsor)",
+  "chip_short": "Expedition Bible",
+  "default_on": false,
+  "sponsor_display_name": "Expedition Bible (Joel Kramer)",
+  "disclosure": "Sponsor expedition layer. Pins and videos are Joel Kramer / Expedition Bible’s field walks and ministry presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales links do not raise Surveyor solidity.",
+  "info_blurb": "Opt-in Joel Kramer / Expedition Bible field sites (Phase 1 strong attaches). Ministry presentation — not dig consensus. Core OT/NT stay free.",
+  "pin_color": "#f97316",
+  "policebot_hosts": [
+    "expeditionbible.com",
+    "wheregodcamedown.com",
+    "amazon.com"
+  ],
+  "geojson": "sites.geojson",
+  "phase": 1,
+  "status": "live_phase1"
+}

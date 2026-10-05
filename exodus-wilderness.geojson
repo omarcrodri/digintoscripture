@@ -1,0 +1,3808 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer": "exodus_wilderness",
+    "title": "Exodus wilderness wanderings",
+    "description": "Named camps and landmarks of Israel’s journey from Egypt to the plains of Moab (Exodus, Numbers 33, Deuteronomy). Coordinates prefer dig pins or OpenBible.info atlas; confidence tags honesty.",
+    "bible_version": "LSB",
+    "no_wikipedia": true,
+    "feature_count": 58,
+    "built": "2026-09-30"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.836094,
+          30.798589
+        ]
+      },
+      "properties": {
+        "name": "Goshen / Rameses exit region",
+        "biblical_name": "Goshen / Rameses",
+        "location": "Eastern Nile Delta (Pi-Ramesses / Qantir area)",
+        "verses": "Genesis 47:11; Exodus 12:37; Numbers 33:3",
+        "wilderness_stage": "departure",
+        "itinerary_order": 1,
+        "what_happened": "Israel departs Egypt from Rameses in the Goshen region on the day after Passover, beginning the wilderness journey toward Canaan.",
+        "sources": "Exodus 12; Numbers 33 (LSB). Coord: OT dig Pi-Ramesses (Qantir). Strong’s H7486. Hoffmeier / Delta archaeology on Pi-Ramesses. AiG Searching for Moses.",
+        "notes": "Pin uses excavated Pi-Ramesses (Qantir) as the Rameses departure marker. Goshen is a region, not a single tell.",
+        "confidence": "confirmed",
+        "strongs_id": "H7486",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7486/kjv/wlc/0-1/",
+        "strongs_lemma": "רַעְמְסֵס",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Moses searches discuss biblical Rameses / Pi-Ramesses in relation to Delta archaeology and Avaris debates. Theme-to-site ministry coverage; no dedicated CM Pi-Ramesses page found.",
+          "panel_blurb": "AiG Exodus/Moses searches discuss biblical Rameses / Pi-Ramesses in relation to Delta archaeology and Avaris debates. Theme-to-site ministry coverage; no dedicated CM Pi-Ramesses page found.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites (Rameses/Avaris debates).",
+              "kind": "article"
+            },
+            {
+              "title": "The Mysterious Hyksos",
+              "url": "https://answersingenesis.org/archaeology/ancient-egypt/the-mysterious-hyksos/",
+              "summary": "AiG on Hyksos/Avaris (Tell el-Dab'a) Asiatic settlement, sometimes linked to Israelite sojourn theories.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "dig_halt": {
+          "status": "active_or_historical",
+          "date": null,
+          "halted_by": null,
+          "summary": "Overlaps OT dig Pi-Ramesses (Qantir) / nearby Avaris (Tell el-Dab’a) campaigns — see PIR-01 / AVA-01 dig pins for excavation status.",
+          "sources": [
+            "OT dig layer PIR-01",
+            "AVA-01"
+          ]
+        },
+        "id": "EW-01",
+        "lat": 30.798589,
+        "lon": 31.836094,
+        "layer": "exodus_wilderness",
+        "eras": [
+          "Bronze Age",
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Egypt Ministry of Tourism and Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.099,
+          30.5527
+        ]
+      },
+      "properties": {
+        "name": "Succoth (Egyptian departure camp)",
+        "biblical_name": "Succoth",
+        "location": "Wadi Tumilat / Tell el-Maskhuta candidate (Egypt)",
+        "verses": "Exodus 12:37; Exodus 13:20; Numbers 33:5-6",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 2,
+        "what_happened": "First camp after leaving Rameses. Egyptian toponym tkw / Succoth is tied to the Wadi Tumilat corridor (Tell el-Maskhuta often cited).",
+        "sources": "Exodus 12–13; Numbers 33 (LSB). OpenBible Succoth 2. Moshier & Hoffmeier on Wadi Tumilat / tkw. Blue Letter Bible H5523.",
+        "notes": "Not Transjordan Succoth (Jabbok). Egyptian Succoth ID remains a scholarly candidate (Tell el-Maskhuta / Wadi Tumilat), not a confirmed Israelite camp excavation.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5523",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5523/kjv/wlc/0-1/",
+        "strongs_lemma": "סֻכּוֹת",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-02",
+        "lat": 30.5527,
+        "lon": 32.099,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.963611,
+          30.5475
+        ]
+      },
+      "properties": {
+        "name": "Etham (edge of the wilderness)",
+        "biblical_name": "Etham",
+        "location": "Eastern Delta / Isthmus edge candidate",
+        "verses": "Exodus 13:20; Numbers 33:6-8",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 3,
+        "what_happened": "Camp at Etham “on the edge of the wilderness” before the turn toward Pi-hahiroth and the sea.",
+        "sources": "Exodus 13; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Etham). BLB H864.",
+        "notes": "Exact Etham unknown; OpenBible atlas best-vote used. Region-level honesty: unconfirmed.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H864",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h864/kjv/wlc/0-1/",
+        "strongs_lemma": "אֵתָם",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-03",
+        "lat": 30.5475,
+        "lon": 31.963611,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.46951,
+          30.22518
+        ]
+      },
+      "properties": {
+        "name": "Pi-hahiroth (by Migdol / Baal-zephon)",
+        "biblical_name": "Pi-hahiroth",
+        "location": "NE Delta frontier / Ballah Lakes corridor candidates",
+        "verses": "Exodus 14:1-9; Numbers 33:7-8",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 4,
+        "what_happened": "YHWH turns Israel to camp before Pi-hahiroth, between Migdol and the sea, opposite Baal-zephon — the staging ground before the sea crossing.",
+        "sources": "Exodus 14; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Pi-hahiroth). ABR / Hoffmeier on Tjaru–Ballah frontier. BLB H6367.",
+        "notes": "Multiple Delta-frontier proposals; pin is a representative atlas candidate, not a proven camp. Paired with Migdol / Baal-zephon landmarks.",
+        "confidence": "debated",
+        "strongs_id": "H6367",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6367/kjv/wlc/0-1/",
+        "strongs_lemma": "פִּי הַחִירֹת",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-04",
+        "lat": 30.22518,
+        "lon": 32.46951,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.171389,
+          30.860556
+        ]
+      },
+      "properties": {
+        "name": "Baal-zephon (landmark opposite the camp)",
+        "biblical_name": "Baal-zephon",
+        "location": "NE Delta / sea-crossing landmark candidates",
+        "verses": "Exodus 14:2; Exodus 14:9; Numbers 33:7",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 4,
+        "what_happened": "Named landmark “opposite” Israel’s camp at Pi-hahiroth — fixes the crossing narrative geographically even while exact sites remain debated.",
+        "sources": "Exodus 14; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Baal-zephon). BLB H1189.",
+        "notes": "Landmark toponym; several proposals along the eastern Delta lakes / Mediterranean frontier.",
+        "confidence": "debated",
+        "strongs_id": "H1189",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1189/kjv/wlc/0-1/",
+        "strongs_lemma": "בַּעַל צְפוֹן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-05",
+        "lat": 30.860556,
+        "lon": 32.171389,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.49286,
+          30.96478
+        ]
+      },
+      "properties": {
+        "name": "Migdol (fortress landmark)",
+        "biblical_name": "Migdol",
+        "location": "NE Delta frontier fortress candidates",
+        "verses": "Exodus 14:2; Numbers 33:7",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 4,
+        "what_happened": "“Migdol” (“tower/fortress”) marks Israel’s camp position with Pi-hahiroth and Baal-zephon before the sea miracle.",
+        "sources": "Exodus 14; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Migdol 2). Egyptian migdol forts on Ways of Horus / frontier. BLB H4024.",
+        "notes": "Several Migdol sites in Egyptian records; Exodus Migdol not securely fixed.",
+        "confidence": "debated",
+        "strongs_id": "H4024",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4024/kjv/wlc/0-1/",
+        "strongs_lemma": "מִגְדֹּל",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-06",
+        "lat": 30.96478,
+        "lon": 32.49286,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.377778,
+          30.338333
+        ]
+      },
+      "properties": {
+        "name": "Yam Suph / Red Sea crossing area (debated)",
+        "biblical_name": "Yam Suph",
+        "location": "Representative NE Delta lakes / Isthmus candidate (debated vs Gulf of Suez / Aqaba)",
+        "verses": "Exodus 14:15-31; Exodus 15:1-21; Numbers 33:8; Hebrews 11:29",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 5,
+        "what_happened": "Israel passes through the sea on dry ground; Pharaoh’s army is overthrown. The Song of the Sea follows. Exact water body (Ballah Lakes / Bitter Lakes / Suez / Aqaba) remains vigorously debated.",
+        "sources": "Exodus 14–15; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Red Sea 1). Hoffmeier Ancient Israel in Sinai; ABR sea-crossing essays; AiG Searching for Sinai (lists crossing options). Contested layer notes Ron Wyatt claims separately.",
+        "notes": "MAJOR DEBATE: Hoffmeier/ABR often favor Ballah Lakes / NE Delta reed-sea; traditional maps often Gulf of Suez; popular Aqaba/Nuweiba theories exist. Pin uses OpenBible Red Sea 1 best-vote as a northern Isthmus/Delta representative — not a claimed proven path.",
+        "confidence": "debated",
+        "strongs_id": "H5488",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5488/kjv/wlc/0-1/",
+        "strongs_lemma": "סוּף",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-07",
+        "lat": 30.338333,
+        "lon": 32.377778,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.94284,
+          29.34604
+        ]
+      },
+      "properties": {
+        "name": "Marah (bitter waters sweetened)",
+        "biblical_name": "Marah",
+        "location": "Traditional Wadi/Ayun Musa–Hawara corridor candidates (W Sinai)",
+        "verses": "Exodus 15:22-26; Numbers 33:8-9",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 6,
+        "what_happened": "Three days into the Wilderness of Shur/Etham, Israel finds bitter water; YHWH shows Moses a tree and the waters become sweet — a statute-and-test moment.",
+        "sources": "Exodus 15; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Marah). Traditional Ain Hawara / Ayun Musa proposals. BLB H4785.",
+        "notes": "Traditional spring candidates on the west Sinai coast road; not archaeologically proven as the biblical Marah.",
+        "confidence": "traditional",
+        "strongs_id": "H4785",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4785/kjv/wlc/0-1/",
+        "strongs_lemma": "מָרָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-08",
+        "lat": 29.34604,
+        "lon": 32.94284,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.915833,
+          29.254722
+        ]
+      },
+      "properties": {
+        "name": "Elim (twelve springs, seventy palms)",
+        "biblical_name": "Elim",
+        "location": "Traditional Wadi Gharandel candidate (W Sinai)",
+        "verses": "Exodus 15:27; Exodus 16:1; Numbers 33:9-10",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 7,
+        "what_happened": "Oasis rest: twelve springs and seventy palm trees — a vivid contrast after Marah’s bitterness.",
+        "sources": "Exodus 15–16; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Elim). Traditional Wadi Gharandel identification. BLB H362.",
+        "notes": "Traditional oasis ID along the Gulf of Suez coast road; confidence traditional.",
+        "confidence": "traditional",
+        "strongs_id": "H362",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h362/kjv/wlc/0-1/",
+        "strongs_lemma": "אֵילִם",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-09",
+        "lat": 29.254722,
+        "lon": 32.915833,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55,
+          29.85
+        ]
+      },
+      "properties": {
+        "name": "Camp by the Yam Suph (after Elim)",
+        "biblical_name": "Yam Suph",
+        "location": "Gulf of Suez coast itinerary (traditional southern route)",
+        "verses": "Numbers 33:10-11",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 8,
+        "what_happened": "Numbers 33 lists a distinct encampment beside the Sea of Reeds after Elim, before entering the Wilderness of Sin.",
+        "sources": "Numbers 33:10-11 (LSB). OpenBible Red Sea atlas. Distinct from the crossing event pin.",
+        "notes": "Separate Num 33 station from the crossing itself. Exact beach unknown; representative coastal placement near traditional west-Sinai route.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5488",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5488/kjv/wlc/0-1/",
+        "strongs_lemma": "סוּף",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-10",
+        "lat": 29.85,
+        "lon": 32.55,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.536667,
+          29.147778
+        ]
+      },
+      "properties": {
+        "name": "Wilderness of Sin (manna and quail)",
+        "biblical_name": "Wilderness of Sin",
+        "location": "Between Elim and Sinai (SW Sinai corridor candidates)",
+        "verses": "Exodus 16:1-36; Numbers 33:11-12",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 9,
+        "what_happened": "In the second month out of Egypt, Israel enters the Wilderness of Sin; YHWH gives manna and quail and teaches Sabbath provision.",
+        "sources": "Exodus 16; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Sin). BLB H5512. Not the Wilderness of Zin (near Kadesh).",
+        "notes": "Region between Elim and Sinai; OpenBible Sin best-vote. Distinct from Zin (Num 33:36).",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5512",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5512/kjv/wlc/0-1/",
+        "strongs_lemma": "סִין",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-11",
+        "lat": 29.147778,
+        "lon": 33.536667,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.459407,
+          29.036733
+        ]
+      },
+      "properties": {
+        "name": "Dophkah",
+        "biblical_name": "Dophkah",
+        "location": "Central/south Sinai mining-route corridor (near Serabit region proposals)",
+        "verses": "Numbers 33:12-13",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 10,
+        "what_happened": "Station between the Wilderness of Sin and Alush on the Numbers 33 itinerary — little narrative beyond the stop itself.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Dophkah). Nearby OT dig Serabit el-Khadim (Egyptian turquoise/mining shrine) illustrates the mining road many southern-route maps use — not a claimed Dophkah excavation.",
+        "notes": "Unconfirmed camp. Serabit dig at 29.0369,33.4593 is a related landscape marker, not equated with Dophkah.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H1850",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1850/kjv/wlc/0-1/",
+        "strongs_lemma": "דׇּפְקָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-12",
+        "lat": 29.036733,
+        "lon": 33.459407,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Bronze Age",
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.767493,
+          28.770311
+        ]
+      },
+      "properties": {
+        "name": "Alush",
+        "biblical_name": "Alush",
+        "location": "South Sinai itinerary (between Dophkah and Rephidim)",
+        "verses": "Numbers 33:13-14",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 11,
+        "what_happened": "Named only in the Numbers 33 station list between Dophkah and Rephidim.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Alush). BLB H442.",
+        "notes": "Location unknown beyond itinerary sequence; atlas candidate only.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H442",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h442/kjv/wlc/0-1/",
+        "strongs_lemma": "אָלוּשׁ",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-13",
+        "lat": 28.770311,
+        "lon": 33.767493,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.880278,
+          28.623056
+        ]
+      },
+      "properties": {
+        "name": "Rephidim (water from the rock; Amalek)",
+        "biblical_name": "Rephidim",
+        "location": "South Sinai traditional candidates (near Horeb)",
+        "verses": "Exodus 17:1-16; Exodus 19:2; Numbers 33:14-15",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 12,
+        "what_happened": "No water — Moses strikes the rock at Horeb (Massah/Meribah). Amalek attacks; Aaron and Hur hold up Moses’ hands while Joshua fights.",
+        "sources": "Exodus 17; Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Rephidim). Traditional Wadi Refayid / south Sinai proposals. BLB H7508.",
+        "notes": "Traditional south-Sinai ID tied to Jebel Musa route maps; alternate Sinai theories move Rephidim accordingly.",
+        "confidence": "traditional",
+        "strongs_id": "H7508",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7508/kjv/wlc/0-1/",
+        "strongs_lemma": "רְפִידִים",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-14",
+        "lat": 28.623056,
+        "lon": 33.880278,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.973333,
+          28.539722
+        ]
+      },
+      "properties": {
+        "name": "Mount Sinai / Horeb (traditional Jebel Musa)",
+        "biblical_name": "Mount Sinai / Horeb",
+        "location": "Jebel Musa / St. Catherine traditional site (S Sinai) — location debated",
+        "verses": "Exodus 3:1; Exodus 19:1-25; Exodus 20:1-21; Numbers 33:15-16; Deuteronomy 1:2; 1 Kings 19:8; Galatians 4:25",
+        "wilderness_stage": "sinai",
+        "itinerary_order": 13,
+        "what_happened": "Covenant mountain: theophany, Ten Words, tabernacle instructions. Israel camps about a year. Elijah later journeys here. Paul calls it “Sinai in Arabia.” Exact peak remains debated.",
+        "sources": "Exodus 19–40; Numbers 10; 33 (LSB). OpenBible.info Bible Geocoding Data (Mount Sinai) = traditional Jebel Musa. Hoffmeier favors southern Sinai; ABR/Bryant Wood favor Hashem el-Tarif; Midianite hypotheses use NW Arabia (Jabal al-Lawz / Hala-l Badr). AiG Searching for Sinai.",
+        "notes": "MAJOR DEBATE: Pin = Byzantine/traditional Jebel Musa (confidence traditional). Alternates: Gebel Khashm et-Tarif (~29.67,34.38), Har Karkom, Jabal al-Lawz (Saudi), Hala-l Badr. Deuteronomy 1:2 (11 days to Kadesh) and Midian proximity drive many proposals.",
+        "confidence": "traditional",
+        "strongs_id": "H5514",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5514/kjv/wlc/0-1/",
+        "strongs_lemma": "סִינַי",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-15",
+        "lat": 28.539722,
+        "lon": 33.973333,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.967222,
+          28.555556
+        ]
+      },
+      "properties": {
+        "name": "Wilderness of Sinai (encampment)",
+        "biblical_name": "Wilderness of Sinai",
+        "location": "Plain/camp associated with Mount Sinai tradition (Er-Rahah plain vicinity)",
+        "verses": "Exodus 19:1-2; Numbers 10:11-12; Numbers 33:15-16",
+        "wilderness_stage": "sinai",
+        "itinerary_order": 13,
+        "what_happened": "Israel encamps in the Wilderness of Sinai opposite the mountain; departure northward begins in the second year (Num 10).",
+        "sources": "Exodus 19; Numbers 10; 33 (LSB). OpenBible Wilderness of Sinai / Mount Sinai tradition.",
+        "notes": "Camp region paired with Sinai pin; same traditional southern identification and same debates.",
+        "confidence": "traditional",
+        "strongs_id": "H5514",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5514/kjv/wlc/0-1/",
+        "strongs_lemma": "סִינַי",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-16",
+        "lat": 28.555556,
+        "lon": 33.967222,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.275439,
+          28.788667
+        ]
+      },
+      "properties": {
+        "name": "Taberah (fire of YHWH)",
+        "biblical_name": "Taberah",
+        "location": "Near Kibroth-hattaavah (post-Sinai march)",
+        "verses": "Numbers 11:1-3; Deuteronomy 9:22",
+        "wilderness_stage": "post_sinai",
+        "itinerary_order": 14,
+        "what_happened": "Complaining kindles YHWH’s fire at the edge of the camp; Moses intercedes. Named Taberah (“burning”).",
+        "sources": "Numbers 11; Deuteronomy 9 (LSB). OpenBible.info Bible Geocoding Data (Taberah). Often paired geographically with Kibroth-hattaavah.",
+        "notes": "Not in Num 33 list; narrative site near the post-Sinai march. Atlas candidate only.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H8404",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h8404/kjv/wlc/0-1/",
+        "strongs_lemma": "תַּבְעֵרָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-17",
+        "lat": 28.788667,
+        "lon": 34.275439,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.275439,
+          28.788667
+        ]
+      },
+      "properties": {
+        "name": "Kibroth-hattaavah (graves of craving)",
+        "biblical_name": "Kibroth-hattaavah",
+        "location": "Post-Sinai northward march candidates",
+        "verses": "Numbers 11:4-35; Numbers 33:16-17; Deuteronomy 9:22",
+        "wilderness_stage": "post_sinai",
+        "itinerary_order": 14,
+        "what_happened": "Craving for meat; quail plague; the place is named “Graves of Craving.” First station after leaving Sinai in Num 33.",
+        "sources": "Numbers 11; 33 (LSB). OpenBible.info Bible Geocoding Data (Kibroth-hattaavah). BLB H6914.",
+        "notes": "Exact site unknown; OpenBible candidate along post-Sinai route.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H6914",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6914/kjv/wlc/0-1/",
+        "strongs_lemma": "קִבְרוֹת הַתַּאֲוָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-18",
+        "lat": 28.788667,
+        "lon": 34.275439,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.421667,
+          28.896944
+        ]
+      },
+      "properties": {
+        "name": "Hazeroth (Miriam and Aaron speak against Moses)",
+        "biblical_name": "Hazeroth",
+        "location": "NE Sinai / post-Sinai itinerary candidates",
+        "verses": "Numbers 11:35; Numbers 12:1-16; Numbers 33:17-18",
+        "wilderness_stage": "post_sinai",
+        "itinerary_order": 15,
+        "what_happened": "Miriam and Aaron challenge Moses; Miriam becomes leprous seven days; the people wait at Hazeroth before moving on.",
+        "sources": "Numbers 11–12; 33 (LSB). OpenBible.info Bible Geocoding Data (Hazeroth). Traditional Ain Hudera proposals. BLB H2698.",
+        "notes": "Traditional Ain Hudera ID often cited; still not proven.",
+        "confidence": "traditional",
+        "strongs_id": "H2698",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2698/kjv/wlc/0-1/",
+        "strongs_lemma": "חֲצֵרוֹת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-19",
+        "lat": 28.896944,
+        "lon": 34.421667,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1255,
+          29.03369
+        ]
+      },
+      "properties": {
+        "name": "Rithmah (Num 33 station)",
+        "biblical_name": "Rithmah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:18-19",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 16,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Rithmah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Rithmah). BLB H7575.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H7575",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7575/kjv/wlc/0-1/",
+        "strongs_lemma": "רִתְמָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-20",
+        "lat": 29.03369,
+        "lon": 34.1255,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.65429,
+          29.54022
+        ]
+      },
+      "properties": {
+        "name": "Rimmon-perez (Num 33 station)",
+        "biblical_name": "Rimmon-perez",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:19-20",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 17,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Rimmon-perez). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Rimmon-perez). BLB H7428.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H7428",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7428/kjv/wlc/0-1/",
+        "strongs_lemma": "רִמּוֹן פָּרֶץ",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-21",
+        "lat": 29.54022,
+        "lon": 34.65429,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.10667,
+          31.23194
+        ]
+      },
+      "properties": {
+        "name": "Libnah (Num 33 station)",
+        "biblical_name": "Libnah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:20-21",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 18,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Libnah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Libnah 2). BLB H3841.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig. Wilderness Libnah (Num 33), not Judah’s Libnah.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H3841",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h3841/kjv/wlc/0-1/",
+        "strongs_lemma": "לִבְנָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-22",
+        "lat": 31.23194,
+        "lon": 34.10667,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.68193,
+          30.00296
+        ]
+      },
+      "properties": {
+        "name": "Rissah (Num 33 station)",
+        "biblical_name": "Rissah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:21-22",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 19,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Rissah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Rissah). BLB H7446.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H7446",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h7446/kjv/wlc/0-1/",
+        "strongs_lemma": "רִסָּה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-23",
+        "lat": 30.00296,
+        "lon": 34.68193,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.421111,
+          30.193056
+        ]
+      },
+      "properties": {
+        "name": "Kehelathah (Num 33 station)",
+        "biblical_name": "Kehelathah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:22-23",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 20,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Kehelathah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Kehelathah). BLB H6954.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H6954",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6954/kjv/wlc/0-1/",
+        "strongs_lemma": "קְהֵלָתָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-24",
+        "lat": 30.193056,
+        "lon": 34.421111,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.30356,
+          30.50662
+        ]
+      },
+      "properties": {
+        "name": "Mount Shepher (Num 33 station)",
+        "biblical_name": "Mount Shepher",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:23-24",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 21,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Mount Shepher). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Mount Shepher). BLB H8234.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H8234",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h8234/kjv/wlc/0-1/",
+        "strongs_lemma": "הַר־שָׁפֶר",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-25",
+        "lat": 30.50662,
+        "lon": 34.30356,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.30356,
+          30.50662
+        ]
+      },
+      "properties": {
+        "name": "Haradah (Num 33 station)",
+        "biblical_name": "Haradah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:24-25",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 22,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Haradah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Haradah). BLB H2732.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H2732",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2732/kjv/wlc/0-1/",
+        "strongs_lemma": "חֲרָדָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-26",
+        "lat": 30.50662,
+        "lon": 34.30356,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.421111,
+          30.193056
+        ]
+      },
+      "properties": {
+        "name": "Makheloth (Num 33 station)",
+        "biblical_name": "Makheloth",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:25-26",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 23,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Makheloth). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Makheloth). BLB H4722.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H4722",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4722/kjv/wlc/0-1/",
+        "strongs_lemma": "מַקְהֵלֹת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-27",
+        "lat": 30.193056,
+        "lon": 34.421111,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.411111,
+          30.640556
+        ]
+      },
+      "properties": {
+        "name": "Tahath (Num 33 station)",
+        "biblical_name": "Tahath",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:26-27",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 24,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Tahath). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Tahath). BLB H8480.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H8480",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h8480/kjv/wlc/0-1/",
+        "strongs_lemma": "תַּחַת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-28",
+        "lat": 30.640556,
+        "lon": 34.411111,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.411111,
+          30.640556
+        ]
+      },
+      "properties": {
+        "name": "Terah (Num 33 station)",
+        "biblical_name": "Terah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:27-28",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 25,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Terah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Terah). BLB H8646.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H8646",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h8646/kjv/wlc/0-1/",
+        "strongs_lemma": "תֶּרַח",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-29",
+        "lat": 30.640556,
+        "lon": 34.411111,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.411111,
+          30.640556
+        ]
+      },
+      "properties": {
+        "name": "Mithkah (Num 33 station)",
+        "biblical_name": "Mithkah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:28-29",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 26,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Mithkah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Mithkah). BLB H4989.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H4989",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4989/kjv/wlc/0-1/",
+        "strongs_lemma": "מִתְקָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-30",
+        "lat": 30.640556,
+        "lon": 34.411111,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9078,
+          31.30992
+        ]
+      },
+      "properties": {
+        "name": "Hashmonah (Num 33 station)",
+        "biblical_name": "Hashmonah",
+        "location": "Wilderness itinerary (precise site unknown)",
+        "verses": "Numbers 33:29-30",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 27,
+        "what_happened": "Encampment named in the Numbers 33 itinerary (Hashmonah). No additional narrative episode is attached beyond the station list.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Hashmonah). BLB H2832.",
+        "notes": "Only Num 33 attestation for most of these stops. OpenBible best-vote is a scholarly/traditional guess, not a dig.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H2832",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2832/kjv/wlc/0-1/",
+        "strongs_lemma": "חַשְׁמֹנָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-31",
+        "lat": 31.30992,
+        "lon": 34.9078,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.056872,
+          30.832057
+        ]
+      },
+      "properties": {
+        "name": "Moseroth",
+        "biblical_name": "Moseroth",
+        "location": "Arabah / southern Negev–Sinai itinerary candidates",
+        "verses": "Numbers 33:30-31; Deuteronomy 10:6",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 28,
+        "what_happened": "Station on the Numbers 33 list (Moseroth). Related to Moserah / Aaron burial traditions in Deut 10 (sequence debates).",
+        "sources": "Numbers 33; Deuteronomy 10 where parallel (LSB). OpenBible.info Bible Geocoding Data (Moseroth). BLB H4149.",
+        "notes": "Unconfirmed atlas placement. Related to Moserah / Aaron burial traditions in Deut 10 (sequence debates).",
+        "confidence": "unconfirmed",
+        "strongs_id": "H4149",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4149/kjv/wlc/0-1/",
+        "strongs_lemma": "מֹסֵרוֹת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-32",
+        "lat": 30.832057,
+        "lon": 35.056872,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.472522,
+          30.791764
+        ]
+      },
+      "properties": {
+        "name": "Bene-jaakan",
+        "biblical_name": "Bene-jaakan",
+        "location": "Arabah / southern Negev–Sinai itinerary candidates",
+        "verses": "Numbers 33:31-32; Deuteronomy 10:6",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 29,
+        "what_happened": "Station on the Numbers 33 list (Bene-jaakan). Beeroth Bene-jaakan in Deut 10.",
+        "sources": "Numbers 33; Deuteronomy 10 where parallel (LSB). OpenBible.info Bible Geocoding Data (Bene-jaakan). BLB H1142.",
+        "notes": "Unconfirmed atlas placement. Beeroth Bene-jaakan in Deut 10.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H1142",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1142/kjv/wlc/0-1/",
+        "strongs_lemma": "בְּנֵי יַעֲקָן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-33",
+        "lat": 30.791764,
+        "lon": 34.472522,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.71154,
+          30.11424
+        ]
+      },
+      "properties": {
+        "name": "Hor-haggidgad",
+        "biblical_name": "Hor-haggidgad",
+        "location": "Arabah / southern Negev–Sinai itinerary candidates",
+        "verses": "Numbers 33:32-33; Deuteronomy 10:7",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 30,
+        "what_happened": "Station on the Numbers 33 list (Hor-haggidgad). Gudgodah in Deut 10:7.",
+        "sources": "Numbers 33; Deuteronomy 10 where parallel (LSB). OpenBible.info Bible Geocoding Data (Hor-haggidgad). BLB H2735.",
+        "notes": "Unconfirmed atlas placement. Gudgodah in Deut 10:7.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H2735",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2735/kjv/wlc/0-1/",
+        "strongs_lemma": "חֹר הַגִּדְגָּד",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-34",
+        "lat": 30.11424,
+        "lon": 34.71154,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.896882,
+          29.492468
+        ]
+      },
+      "properties": {
+        "name": "Jotbathah",
+        "biblical_name": "Jotbathah",
+        "location": "Arabah / southern Negev–Sinai itinerary candidates",
+        "verses": "Numbers 33:33-34; Deuteronomy 10:7",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 31,
+        "what_happened": "Station on the Numbers 33 list (Jotbathah). Described as a land of brooks of water (Deut 10:7).",
+        "sources": "Numbers 33; Deuteronomy 10 where parallel (LSB). OpenBible.info Bible Geocoding Data (Jotbathah). BLB H3193.",
+        "notes": "Unconfirmed atlas placement. Described as a land of brooks of water (Deut 10:7).",
+        "confidence": "unconfirmed",
+        "strongs_id": "H3193",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h3193/kjv/wlc/0-1/",
+        "strongs_lemma": "יׇטְבָתָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-35",
+        "lat": 29.492468,
+        "lon": 34.896882,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.013917,
+          29.672913
+        ]
+      },
+      "properties": {
+        "name": "Abronah",
+        "biblical_name": "Abronah",
+        "location": "Arabah / southern Negev–Sinai itinerary candidates",
+        "verses": "Numbers 33:34-35",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 32,
+        "what_happened": "Station on the Numbers 33 list (Abronah).",
+        "sources": "Numbers 33; Deuteronomy 10 where parallel (LSB). OpenBible.info Bible Geocoding Data (Abronah). BLB H5684.",
+        "notes": "Unconfirmed atlas placement. ",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5684",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5684/kjv/wlc/0-1/",
+        "strongs_lemma": "עַבְרֹנָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-36",
+        "lat": 29.672913,
+        "lon": 35.013917,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.980258,
+          29.547181
+        ]
+      },
+      "properties": {
+        "name": "Ezion-geber",
+        "biblical_name": "Ezion-geber",
+        "location": "Northern Gulf of Aqaba / Tell el-Kheleifeh–Elath corridor",
+        "verses": "Numbers 33:35-36; Deuteronomy 2:8; 1 Kings 9:26",
+        "wilderness_stage": "wandering",
+        "itinerary_order": 33,
+        "what_happened": "Southern port/camp near Elath on the Red Sea (Aqaba). Later Solomonic shipping base. On Num 33 just before Kadesh.",
+        "sources": "Numbers 33; Deuteronomy 2; 1 Kings 9 (LSB). OpenBible.info Bible Geocoding Data (Ezion-geber). Tell el-Kheleifeh often discussed (Glueck; later reassessments). BLB H6100.",
+        "notes": "Tell el-Kheleifeh / modern Aqaba–Eilat area is the leading traditional candidate; Iron Age vs Exodus-period correlation debated.",
+        "confidence": "traditional",
+        "strongs_id": "H6100",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6100/kjv/wlc/0-1/",
+        "strongs_lemma": "עֶצְיוֹן גֶּבֶר",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-37",
+        "lat": 29.547181,
+        "lon": 34.980258,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.422222,
+          30.648333
+        ]
+      },
+      "properties": {
+        "name": "Kadesh-barnea (Wilderness of Zin)",
+        "biblical_name": "Kadesh-barnea",
+        "location": "Tell el-Qudeirat candidate (NE Sinai / Negev border)",
+        "verses": "Numbers 13:26; Numbers 20:1-13; Numbers 20:14-22; Numbers 33:36-37; Deuteronomy 1:2; Deuteronomy 1:19; Deuteronomy 2:14",
+        "wilderness_stage": "kadesh",
+        "itinerary_order": 34,
+        "what_happened": "Spy mission returns; wilderness judgment. Later: Miriam dies; Meribah waters; Edom refuses passage. Israel spends many years in this region (Deut 2:14).",
+        "sources": "Numbers 13–14; 20; 33; Deuteronomy 1–2 (LSB). OpenBible.info Bible Geocoding Data (Kadesh-barnea) ≈ Tell el-Qudeirat. Rudolph Cohen excavations at Qudeirat. BLB H6947.",
+        "notes": "MAJOR ID: Tell el-Qudeirat is the leading scholarly/traditional candidate for Kadesh-barnea; Iron Age fortress well excavated, but LB/Exodus-period match remains debated. Alternate nearby springs proposed historically.",
+        "confidence": "traditional",
+        "strongs_id": "H6947",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6947/kjv/wlc/0-1/",
+        "strongs_lemma": "קָדֵשׁ בַּרְנֵעַ",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-38",
+        "lat": 30.648333,
+        "lon": 34.422222,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.422222,
+          30.648333
+        ]
+      },
+      "properties": {
+        "name": "Meribah at Kadesh (water from the rock)",
+        "biblical_name": "Meribah",
+        "location": "At/near Kadesh-barnea",
+        "verses": "Numbers 20:2-13; Numbers 27:14; Deuteronomy 32:51; Psalm 106:32-33",
+        "wilderness_stage": "kadesh",
+        "itinerary_order": 34,
+        "what_happened": "Second water crisis: Moses strikes the rock and is barred from entering Canaan for failing to uphold YHWH as holy before Israel.",
+        "sources": "Numbers 20; Deuteronomy 32 (LSB). OpenBible.info Bible Geocoding Data (Meribah 1). Distinct from Massah/Meribah at Rephidim (Exodus 17).",
+        "notes": "Tied to Kadesh; pin near Qudeirat candidate. Not the Rephidim Meribah.",
+        "confidence": "traditional",
+        "strongs_id": "H4809",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4809/kjv/wlc/0-1/",
+        "strongs_lemma": "מְרִיבָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-39",
+        "lat": 30.648333,
+        "lon": 34.422222,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.776667,
+          30.303218
+        ]
+      },
+      "properties": {
+        "name": "Wilderness of Paran",
+        "biblical_name": "Wilderness of Paran",
+        "location": "Central/north Sinai–Negev wilderness region",
+        "verses": "Numbers 10:12; Numbers 12:16; Numbers 13:3; Numbers 13:26; Deuteronomy 1:1",
+        "wilderness_stage": "wandering",
+        "itinerary_order": null,
+        "what_happened": "Major wilderness region after Sinai: base for the spy mission; Ishmael’s earlier dwelling place (Gen 21). Broad regional label.",
+        "sources": "Numbers 10–13; Genesis 21 (LSB). OpenBible.info Bible Geocoding Data (Paran). Regional polygon approximated by a point.",
+        "notes": "Region, not a point site — representative OpenBible Paran coordinate.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H6290",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6290/kjv/wlc/0-1/",
+        "strongs_lemma": "פָּארָן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-40",
+        "lat": 30.303218,
+        "lon": 34.776667,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.958277,
+          31.212285
+        ]
+      },
+      "properties": {
+        "name": "Hormah (failed assault; later victory)",
+        "biblical_name": "Hormah",
+        "location": "NE Negev candidates (near Arad region)",
+        "verses": "Numbers 14:39-45; Numbers 21:1-3; Deuteronomy 1:44; Judges 1:17",
+        "wilderness_stage": "kadesh",
+        "itinerary_order": null,
+        "what_happened": "After the spy rebellion, Israel presumptuously attacks and is beaten down to Hormah. Later the place-name is tied to a vowed destruction of Canaanite cities.",
+        "sources": "Numbers 14; 21; Deuteronomy 1 (LSB). OpenBible.info Bible Geocoding Data (Hormah). Near Tel Arad / Negev proposals. BLB H2767.",
+        "notes": "Several Negev candidates; not securely fixed. Nearby Tel Arad is a related landscape dig, not equated here.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H2767",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2767/kjv/wlc/0-1/",
+        "strongs_lemma": "חׇרְמָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Israel Antiquities Authority (IAA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Israel.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "mokediaa@israntique.org.il",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.iaa.org.il/en/page/contact-us",
+          "notes": "Exodus wilderness narrative pin — IAA for Negev / Israel-side placements.",
+          "official_website": "https://www.iaa.org.il/en"
+        },
+        "id": "EW-41",
+        "lat": 31.212285,
+        "lon": 34.958277,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.iaa.org.il/en",
+        "official_website_label": "Israel Antiquities Authority",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.056872,
+          30.832057
+        ]
+      },
+      "properties": {
+        "name": "Mount Hor (Aaron’s death)",
+        "biblical_name": "Mount Hor",
+        "location": "Traditional Jebel Haroun near Petra (Edom border) — debated",
+        "verses": "Numbers 20:22-29; Numbers 33:37-39; Deuteronomy 32:50",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": 35,
+        "what_happened": "On the border of Edom, Aaron dies on Mount Hor; Eleazar receives the priesthood. Israel mourns thirty days.",
+        "sources": "Numbers 20; 33 (LSB). OpenBible.info Bible Geocoding Data (Mount Hor 1) ≈ Jebel Haroun tradition. Alternate northern Sinai / Zin border proposals exist. BLB H2023.",
+        "notes": "Traditional Islamic/Christian Jebel Haroun (near Petra) is the dominant memoria; some scholars place Hor nearer Kadesh/Zin. Confidence traditional.",
+        "confidence": "traditional",
+        "strongs_id": "H2023",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2023/kjv/wlc/0-1/",
+        "strongs_lemma": "הֹר הָהָר",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-42",
+        "lat": 30.832057,
+        "lon": 35.056872,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.603919,
+          30.745843
+        ]
+      },
+      "properties": {
+        "name": "Edom (bypass / refused passage)",
+        "biblical_name": "Edom",
+        "location": "Seir / Edom highlands (S Jordan)",
+        "verses": "Numbers 20:14-21; Numbers 21:4; Deuteronomy 2:1-8",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": null,
+        "what_happened": "Edom refuses Israel transit on the King’s Highway; Israel turns away and skirts the land of Seir rather than fight “brother” Esau’s descendants.",
+        "sources": "Numbers 20–21; Deuteronomy 2 (LSB). OpenBible.info Bible Geocoding Data (Edom). Regional pin (Bozrah/Seir landscape).",
+        "notes": "Kingdom/region pin — not a single camp. Representative OpenBible Edom coordinate.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H123",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h123/kjv/wlc/0-1/",
+        "strongs_lemma": "אֱדוֹם",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-43",
+        "lat": 30.745843,
+        "lon": 35.603919,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.37339,
+          30.81217
+        ]
+      },
+      "properties": {
+        "name": "Zalmonah",
+        "biblical_name": "Zalmonah",
+        "location": "Edom/Moab approach (Arabah–Transjordan)",
+        "verses": "Numbers 33:41-42",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": 36,
+        "what_happened": "Station after Mount Hor on the march toward the Arabah/Moab approach.",
+        "sources": "Numbers 21; 33 (LSB). OpenBible.info Bible Geocoding Data (Zalmonah). BLB H6758.",
+        "notes": "Atlas candidate; not excavated as an Israelite camp.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H6758",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6758/kjv/wlc/0-1/",
+        "strongs_lemma": "צַלְמֹנָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-44",
+        "lat": 30.81217,
+        "lon": 35.37339,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.493647,
+          30.62775
+        ]
+      },
+      "properties": {
+        "name": "Punon (Faynan copper district)",
+        "biblical_name": "Punon",
+        "location": "Edom/Moab approach (Arabah–Transjordan)",
+        "verses": "Numbers 33:42-43",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": 37,
+        "what_happened": "Copper-district station often linked to Faynan (Punon) in the Arabah — a rare case where a Num 33 name matches a known industrial landscape.",
+        "sources": "Numbers 21; 33 (LSB). OpenBible.info Bible Geocoding Data (Punon). BLB H6325.",
+        "notes": "Khirbat Faynan is the leading Punon candidate (copper mining).",
+        "confidence": "traditional",
+        "strongs_id": "H6325",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6325/kjv/wlc/0-1/",
+        "strongs_lemma": "פּוּנֹן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-45",
+        "lat": 30.62775,
+        "lon": 35.493647,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19,
+          30.616667
+        ]
+      },
+      "properties": {
+        "name": "Oboth",
+        "biblical_name": "Oboth",
+        "location": "Edom/Moab approach (Arabah–Transjordan)",
+        "verses": "Numbers 33:43-44; Numbers 21:10-11",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": 38,
+        "what_happened": "Camp on the route around Moab/Edom toward the eastern approach.",
+        "sources": "Numbers 21; 33 (LSB). OpenBible.info Bible Geocoding Data (Oboth). BLB H88.",
+        "notes": "Atlas candidate; not excavated as an Israelite camp.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H88",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h88/kjv/wlc/0-1/",
+        "strongs_lemma": "אֹבֹת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-46",
+        "lat": 30.616667,
+        "lon": 35.19,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.77948,
+          30.955999
+        ]
+      },
+      "properties": {
+        "name": "Iye-abarim",
+        "biblical_name": "Iye-abarim",
+        "location": "Edom/Moab approach (Arabah–Transjordan)",
+        "verses": "Numbers 33:44-45; Numbers 21:11",
+        "wilderness_stage": "transjordan_approach",
+        "itinerary_order": 39,
+        "what_happened": "“Ruins of Abarim” in the wilderness facing Moab, east of the Arabah.",
+        "sources": "Numbers 21; 33 (LSB). OpenBible.info Bible Geocoding Data (Iye-abarim). BLB H5863.",
+        "notes": "Atlas candidate; not excavated as an Israelite camp.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5863",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5863/kjv/wlc/0-1/",
+        "strongs_lemma": "עִיֵּי הָעֲבָרִים",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-47",
+        "lat": 30.955999,
+        "lon": 35.77948,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.783281,
+          31.499971
+        ]
+      },
+      "properties": {
+        "name": "Dibon-gad",
+        "biblical_name": "Dibon-gad",
+        "location": "Dhiban / Dibon (Moab)",
+        "verses": "Numbers 33:45-46; Numbers 21:30; Numbers 32:34",
+        "wilderness_stage": "moab",
+        "itinerary_order": 40,
+        "what_happened": "Num 33 station in Moabite territory (Dibon of Gad). Later Gadite building traditions and Mesha Stele fame attach to Dibon.",
+        "sources": "Numbers 33; 32 (LSB). Coord: OT dig Dibon (Dhiban). Mesha Stele context. BLB H1769.",
+        "notes": "Uses excavated Dhiban as the Dibon-gad pin. Direct Exodus-camp proof is not claimed — place continuity with Moabite Dibon.",
+        "confidence": "traditional",
+        "strongs_id": "H1769",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1769/kjv/wlc/0-1/",
+        "strongs_lemma": "דִּיבוֹן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_halt": {
+          "status": "active_or_historical",
+          "date": null,
+          "halted_by": null,
+          "summary": "Overlaps OT dig Dibon (Dhiban) — see DIB-01 for excavation status / Mesha context.",
+          "sources": [
+            "OT dig DIB-01"
+          ]
+        },
+        "id": "EW-48",
+        "lat": 31.499971,
+        "lon": 35.783281,
+        "layer": "exodus_wilderness",
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.826578,
+          31.638727
+        ]
+      },
+      "properties": {
+        "name": "Almon-diblathaim",
+        "biblical_name": "Almon-diblathaim",
+        "location": "Moab plateau itinerary",
+        "verses": "Numbers 33:46-47",
+        "wilderness_stage": "moab",
+        "itinerary_order": 41,
+        "what_happened": "Penultimate inland station before the Abarim mountains facing Nebo.",
+        "sources": "Numbers 33 (LSB). OpenBible.info Bible Geocoding Data (Almon-diblathaim). BLB H5963.",
+        "notes": "Unconfirmed; several Moab plateau proposals.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H5963",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5963/kjv/wlc/0-1/",
+        "strongs_lemma": "עַלְמֹן דִּבְלָתָיְמָה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-49",
+        "lat": 31.638727,
+        "lon": 35.826578,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7152,
+          31.7539
+        ]
+      },
+      "properties": {
+        "name": "Mountains of Abarim (facing Nebo)",
+        "biblical_name": "Abarim",
+        "location": "Abarim range, Moab (opposite Jericho)",
+        "verses": "Numbers 33:47-48; Numbers 27:12; Deuteronomy 32:49",
+        "wilderness_stage": "moab",
+        "itinerary_order": 42,
+        "what_happened": "Israel camps in the Abarim mountains facing Nebo — the ridge from which Moses will view the land.",
+        "sources": "Numbers 27; 33; Deuteronomy 32 (LSB). OpenBible.info Bible Geocoding Data (Abarim). BLB H5682.",
+        "notes": "Mountain range pin (representative). Mount Nebo / Pisgah are specific peaks within/near this ridge.",
+        "confidence": "traditional",
+        "strongs_id": "H5682",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5682/kjv/wlc/0-1/",
+        "strongs_lemma": "עֲבָרִים",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-50",
+        "lat": 31.7539,
+        "lon": 35.7152,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.75,
+          31.766667
+        ]
+      },
+      "properties": {
+        "name": "Mount Nebo / Pisgah (Moses views the land)",
+        "biblical_name": "Mount Nebo / Pisgah",
+        "location": "Mount Nebo memorial (Jordan) / Pisgah ridge",
+        "verses": "Deuteronomy 32:48-52; Deuteronomy 34:1-8; Numbers 27:12-14",
+        "wilderness_stage": "moab",
+        "itinerary_order": null,
+        "what_happened": "YHWH shows Moses the whole land from Pisgah/Nebo; Moses dies there and is buried in the valley in Moab — grave unknown.",
+        "sources": "Deuteronomy 32; 34 (LSB). OpenBible.info Bible Geocoding Data (Mount Nebo). Memorial church tradition on Nebo; Pisgah nearby OpenBible. BLB H5015 / H6449.",
+        "notes": "Memorial/traditional peak; exact death/burial valley unknown by design (Deut 34:6).",
+        "confidence": "traditional",
+        "strongs_id": "H5015",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h5015/kjv/wlc/0-1/",
+        "strongs_lemma": "נְבוֹ",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-51",
+        "lat": 31.766667,
+        "lon": 35.75,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan — Mount Nebo area",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.647465,
+          31.811366
+        ]
+      },
+      "properties": {
+        "name": "Plains of Moab (by the Jordan)",
+        "biblical_name": "Plains of Moab",
+        "location": "Lower Jordan Valley E of Jericho (Sweimeh–Shittim corridor)",
+        "verses": "Numbers 22:1; Numbers 33:48-49; Numbers 35:1; Deuteronomy 1:5",
+        "wilderness_stage": "moab",
+        "itinerary_order": 43,
+        "what_happened": "Final staging ground: Balaam oracles, Baal-peor crisis, census, Deuteronomy sermons, Moses’ farewell — opposite Jericho.",
+        "sources": "Numbers 22–36; Deuteronomy 1; 33 (LSB). Midpoint of OpenBible Beth-jeshimoth & Abel-shittim.",
+        "notes": "Regional camp corridor from Beth-jeshimoth to Abel-shittim (Num 33:49), not a single tell.",
+        "confidence": "traditional",
+        "strongs_id": "H4124",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4124/kjv/wlc/0-1/",
+        "strongs_lemma": "מוֹאָב",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-52",
+        "lat": 31.811366,
+        "lon": 35.647465,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.67368,
+          31.84018
+        ]
+      },
+      "properties": {
+        "name": "Shittim / Abel-shittim",
+        "biblical_name": "Abel-shittim",
+        "location": "Plains of Moab (Tell el-Hammam / Shittim candidates)",
+        "verses": "Numbers 25:1; Numbers 33:49; Joshua 2:1; Joshua 3:1; Micah 6:5",
+        "wilderness_stage": "moab",
+        "itinerary_order": 43,
+        "what_happened": "Acacia Grove camp: Baal-peor sin; later Joshua sends spies to Jericho from Shittim and Israel moves to the Jordan.",
+        "sources": "Numbers 25; 33; Joshua 2–3 (LSB). OpenBible.info Bible Geocoding Data (Abel-shittim). Several Jordan-Valley tells proposed (incl. areas near Tell el-Hammam debates). BLB H63.",
+        "notes": "Traditional Abel-shittim in the eastern Jordan Valley; exact tell debated. Do not confuse with contested Sodom hypotheses at nearby tells.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H63",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h63/kjv/wlc/0-1/",
+        "strongs_lemma": "אָבֵל הַשִּׁטִּים",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-53",
+        "lat": 31.84018,
+        "lon": 35.67368,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.62125,
+          31.782551
+        ]
+      },
+      "properties": {
+        "name": "Beth-jeshimoth",
+        "biblical_name": "Beth-jeshimoth",
+        "location": "Plains of Moab, southern end of the Jordan camp line",
+        "verses": "Numbers 33:49; Joshua 12:3; Joshua 13:20; Ezekiel 25:9",
+        "wilderness_stage": "moab",
+        "itinerary_order": 43,
+        "what_happened": "Southern marker of Israel’s plains-of-Moab camp stretch along the Jordan.",
+        "sources": "Numbers 33; Joshua 12–13 (LSB). OpenBible.info Bible Geocoding Data (Beth-jeshimoth). BLB H1020.",
+        "notes": "OpenBible candidate; unconfirmed exact ruin.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H1020",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1020/kjv/wlc/0-1/",
+        "strongs_lemma": "בֵּית הַיְשִׁמוֹת",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "id": "EW-54",
+        "lat": 31.782551,
+        "lon": 35.62125,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459969,
+          31.881883
+        ]
+      },
+      "properties": {
+        "name": "Jordan crossing approach / Gilgal",
+        "biblical_name": "Gilgal",
+        "location": "Jordan Valley W of Jericho (Gilgal candidates)",
+        "verses": "Joshua 3:1-17; Joshua 4:1-24; Joshua 5:1-12",
+        "wilderness_stage": "entry",
+        "itinerary_order": 44,
+        "what_happened": "Israel crosses the Jordan on dry ground; twelve stones at Gilgal; covenant renewal and first Passover in the land — wilderness manna ceases.",
+        "sources": "Joshua 3–5 (LSB). OpenBible.info Bible Geocoding Data (Gilgal 1). Multiple Gilgal candidates east of Jericho. BLB H1537.",
+        "notes": "Closes the wilderness arc. Gilgal ID has several proposals near Jericho; unconfirmed exact site.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H1537",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h1537/kjv/wlc/0-1/",
+        "strongs_lemma": "גִּלְגָּל",
+        "creation_ministry": {
+          "blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "panel_blurb": "No site-specific AiG dig article verified. Creation Museum Borderland + Ark Encounter Jerusalem model provide first-century Jerusalem/Israel ministry theme only.",
+          "coverage": "theme_only",
+          "aig": [],
+          "creation_museum": [
+            {
+              "title": "New Exhibit Now Open at the Creation Museum",
+              "url": "https://creationmuseum.org/blog/2021/07/08/new-exhibit-now-open-creation-museum/",
+              "summary": "Announcement of Borderland: Israel at the Time of Jesus—first-century Israel context exhibit.",
+              "exhibit_or_page": "Borderland: Israel at the Time of Jesus"
+            }
+          ],
+          "ark_encounter": [
+            {
+              "title": "Update on Our Jerusalem Replica Project",
+              "url": "https://arkencounter.com/blog/2023/05/04/update-our-jerusalem-replica-project/",
+              "summary": "Ark Encounter ~2000 sq ft first-century Jerusalem model project for NT historical apologetics.",
+              "exhibit_or_page": "First-century Jerusalem replica model"
+            }
+          ]
+        },
+        "site_authority": {
+          "name": "Palestinian Ministry of Tourism and Antiquities (MOTA)",
+          "type": "national_antiquities",
+          "role": "Antiquities oversight in Palestinian Authority areas (Jericho vicinity complex).",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.travelpalestine.ps/",
+          "notes": "Jordan Valley / Jericho-approach narrative pin — jurisdiction can be complex.",
+          "official_website": "https://www.travelpalestine.ps/"
+        },
+        "id": "EW-55",
+        "lat": 31.881883,
+        "lon": 35.459969,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.travelpalestine.ps/",
+        "official_website_label": "Palestinian Ministry of Tourism and Antiquities (MOTA)",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0122,
+          28.4947
+        ]
+      },
+      "properties": {
+        "name": "Midian (Moses’ sojourn / burning bush context)",
+        "biblical_name": "Midian",
+        "location": "NW Arabia / Midian homeland (regional)",
+        "verses": "Exodus 2:15-22; Exodus 3:1-12; Exodus 18:1-27; Numbers 10:29-32",
+        "wilderness_stage": "pre_exodus",
+        "itinerary_order": null,
+        "what_happened": "Moses flees to Midian, marries Zipporah, and meets YHWH at the mountain of God while pasturing Jethro’s flock — framing later Sinai debates (Midian proximity).",
+        "sources": "Exodus 2–3; 18 (LSB). OpenBible.info Bible Geocoding Data (Midian). Regional Midian in NW Arabia east of Aqaba. AiG Searching for Sinai (Midian criteria).",
+        "notes": "Regional pin for Midian homeland — not a claim that Sinai = Jabal al-Lawz. Supports narrative geography for Sinai debates.",
+        "confidence": "unconfirmed",
+        "strongs_id": "H4080",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4080/kjv/wlc/0-1/",
+        "strongs_lemma": "מִדְיָן",
+        "creation_ministry": {
+          "blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "panel_blurb": "AiG Exodus/Sinai essays survey route and mountain candidates; creation-ministry theme coverage for wilderness itinerary (not site-excavation reports).",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "Searching for Sinai",
+              "url": "https://answersingenesis.org/archaeology/searching-for-sinai/",
+              "summary": "AiG evaluates major Mount Sinai candidates (Jebel Musa, Hashem el-Tarif, Jabal al-Lawz, etc.) against biblical criteria.",
+              "exhibit_or_page": "Searching for Sinai"
+            },
+            {
+              "title": "Searching for Moses",
+              "url": "https://answersingenesis.org/bible-characters/moses/searching-for-moses/",
+              "summary": "AiG Moses/Exodus archaeology survey including Delta sites and wilderness tradition.",
+              "exhibit_or_page": "Searching for Moses"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Heritage Commission (Saudi Arabia) — Ministry of Culture",
+          "type": "national_antiquities",
+          "role": "Oversees heritage sites in the Kingdom of Saudi Arabia.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://heritage.moc.gov.sa/",
+          "notes": "Narrative Midian / NW Arabia pin — Heritage Commission when pin falls in Saudi Arabia.",
+          "official_website": "https://heritage.moc.gov.sa/"
+        },
+        "id": "EW-56",
+        "lat": 28.4947,
+        "lon": 35.0122,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://heritage.moc.gov.sa/",
+        "official_website_label": "Heritage Commission (Saudi Arabia) — Ministry of Culture",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.79995,
+          31.799978
+        ]
+      },
+      "properties": {
+        "name": "Heshbon (Sihon’s city — approach narrative)",
+        "biblical_name": "Heshbon",
+        "location": "Tell Hesban (Moab/Amorite frontier)",
+        "verses": "Numbers 21:21-35; Deuteronomy 2:24-37; Numbers 32:37",
+        "wilderness_stage": "moab",
+        "itinerary_order": null,
+        "what_happened": "Israel requests passage; Sihon refuses and fights; Israel takes Heshbon and the Amorite territory — opening the Transjordan inheritance narrative.",
+        "sources": "Numbers 21; Deuteronomy 2 (LSB). Coord: OT dig Heshbon (Tell Hesban). BLB H2809.",
+        "notes": "Wilderness-layer narrative pin at excavated Tell Hesban. LB/Iron occupational debates noted on dig pin; biblical place continuity traditional.",
+        "confidence": "traditional",
+        "strongs_id": "H2809",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h2809/kjv/wlc/0-1/",
+        "strongs_lemma": "חֶשְׁבּוֹן",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Department of Antiquities of Jordan (DoA)",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities in the Hashemite Kingdom of Jordan.",
+          "contact_name": null,
+          "contact_title": "DoA contact",
+          "contact_email": "info@doa.gov.jo",
+          "contact_phone": "+962-6-4336-464",
+          "contact_url": "https://doa.gov.jo/EN/Pages/Contact_Us",
+          "notes": "Exodus wilderness narrative pin — DoA for Transjordan / Moab / Edom placements.",
+          "official_website": "https://doa.gov.jo/"
+        },
+        "dig_halt": {
+          "status": "active_or_historical",
+          "date": null,
+          "halted_by": null,
+          "summary": "Overlaps OT dig Heshbon (Tell Hesban) — see HES-01.",
+          "sources": [
+            "OT dig HES-01"
+          ]
+        },
+        "id": "EW-57",
+        "lat": 31.799978,
+        "lon": 35.79995,
+        "layer": "exodus_wilderness",
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://doa.gov.jo/",
+        "official_website_label": "Department of Antiquities of Jordan",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.880278,
+          28.623056
+        ]
+      },
+      "properties": {
+        "name": "Massah / Meribah (at Rephidim)",
+        "biblical_name": "Massah",
+        "location": "At Rephidim / Horeb rock tradition",
+        "verses": "Exodus 17:1-7; Deuteronomy 6:16; Deuteronomy 9:22; Psalm 95:8",
+        "wilderness_stage": "exodus_route",
+        "itinerary_order": 12,
+        "what_happened": "Israel tests YHWH over water; the place is named Massah (“testing”) and Meribah (“quarreling”). Distinct from Meribah-Kadesh.",
+        "sources": "Exodus 17; Deuteronomy 6; 9 (LSB). OpenBible.info Bible Geocoding Data (Massah). Paired with Rephidim pin.",
+        "notes": "Same traditional south-Sinai cluster as Rephidim; not Meribah at Kadesh.",
+        "confidence": "traditional",
+        "strongs_id": "H4532",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4532/kjv/wlc/0-1/",
+        "strongs_lemma": "מַסָּה",
+        "creation_ministry": {
+          "blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "panel_blurb": "No AiG / Creation Museum / Ark Encounter site-specific page verified for this wilderness station.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "site_authority": {
+          "name": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+          "type": "national_antiquities",
+          "role": "Licenses excavations and oversees antiquities across Egypt including Sinai.",
+          "contact_name": null,
+          "contact_title": "Portal / hotline",
+          "contact_email": "moa.portal@mota.gov.eg",
+          "contact_phone": "19654",
+          "contact_url": "https://www.mota.gov.eg/ar/",
+          "notes": "Exodus wilderness narrative pin — regional antiquities authority for modern Egypt/Sinai placement.",
+          "official_website": "https://www.mota.gov.eg/ar/"
+        },
+        "id": "EW-58",
+        "lat": 28.623056,
+        "lon": 33.880278,
+        "layer": "exodus_wilderness",
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — Exodus wilderness narrative/itinerary pin, not a dedicated modern excavation campaign for this feature. See OT dig pins (Pi-Ramesses, Serabit, Jericho, Dibon, Heshbon, etc.) where a real dig overlaps.",
+          "sources": []
+        },
+        "eras": [
+          "Exodus / Wilderness"
+        ],
+        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
+        "status_kind": "none"
+      }
+    }
+  ]
+}

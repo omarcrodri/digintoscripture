@@ -1,0 +1,234 @@
+{
+  "version": 1,
+  "build": "20261001-n",
+  "source_pack": "event-routes-site-truth-2026-10-01.json",
+  "count": 20,
+  "attachments": [
+    {
+      "pin_id": "JER-01,JER-02",
+      "event_tag": "conquest_jericho",
+      "beat_text": "Jericho’s fall in Joshua is the entry climax after the wilderness — attach this beat to the existing Tell es-Sultan dig; do not add a second Jericho pin.",
+      "lsb_refs": [
+        "Joshua 2:1–24",
+        "Joshua 6:1–27"
+      ],
+      "solidity": "mixed",
+      "caveats": "Tell es-Sultan is the right tell; dating of the destruction layer relative to a Late Bronze conquest remains debated among archaeologists. Panel should present Scripture claim + dig honesty, not fake consensus."
+    },
+    {
+      "pin_id": "AI-01",
+      "event_tag": "conquest_ai",
+      "beat_text": "Ai narrative (defeat then victory) attaches to existing et-Tell candidate pin — site identification vs Khirbet el-Maqatir alternatives stays in caveats.",
+      "lsb_refs": [
+        "Joshua 7:1–26",
+        "Joshua 8:1–29"
+      ],
+      "solidity": "weak",
+      "caveats": "et-Tell identification is contested; do not treat this pin as settled Ai."
+    },
+    {
+      "pin_id": "SAM-01",
+      "event_tag": "assyrian_deportation_samaria",
+      "beat_text": "Samaria fell and northern Israelites were deported toward Halah, Habor/Gozan, and the cities of the Medes — open the Assyrian deportation route from this pin.",
+      "lsb_refs": [
+        "2 Kings 17:5–6",
+        "2 Kings 17:18–23"
+      ],
+      "solidity": "strong",
+      "caveats": "Capital identification strong; exact deportee roadbeds schematic. Herodian Sebaste is later overlay."
+    },
+    {
+      "pin_id": "LAC-01",
+      "event_tag": "assyrian_siege_701",
+      "beat_text": "Lachish under Sennacherib (701) — siege documented by tell + Assyrian reliefs; connects Judah campaign branch of the deportation/campaign route.",
+      "lsb_refs": [
+        "2 Kings 18:13–17",
+        "Isaiah 36:1–2"
+      ],
+      "solidity": "strong",
+      "caveats": "Strong for 701 siege geography; not identical to later Babylonian operations."
+    },
+    {
+      "pin_id": "NIN-01",
+      "event_tag": "assyrian_heartland",
+      "beat_text": "Nineveh as Assyrian imperial heartland endpoint/origin for campaign and deportation storytelling.",
+      "lsb_refs": [
+        "2 Kings 19:36",
+        "Nahum 1:1",
+        "Jonah 3:1–10"
+      ],
+      "solidity": "strong",
+      "caveats": "City identification strong; Jonah narrative geography is separate (optional/deferred as weak path)."
+    },
+    {
+      "pin_id": "BAB-01",
+      "event_tag": "babylonian_exile_destination",
+      "beat_text": "Babylon as exile destination for 597/586 waves and later return origin — pair with exile/return route layers.",
+      "lsb_refs": [
+        "2 Kings 24:10–17",
+        "2 Kings 25:8–21",
+        "Daniel 1:1–7",
+        "Ezra 1:1–5"
+      ],
+      "solidity": "strong",
+      "caveats": "Site strong; prophet settings are narrative loci on/near the dig, not separate invented towns."
+    },
+    {
+      "pin_id": "COD-01,COD-02,COD-04",
+      "event_tag": "exile_jerusalem_fall",
+      "beat_text": "City of David ridge for Jerusalem under Assyrian threat (701) and Babylonian destruction/exile (586).",
+      "lsb_refs": [
+        "2 Kings 18:17–19:37",
+        "2 Kings 25:1–12",
+        "Jeremiah 39:1–10"
+      ],
+      "solidity": "strong",
+      "caveats": "Distinguish 701 deliverance narrative from 586 destruction — same ridge, different outcomes."
+    },
+    {
+      "pin_id": "MIZ-01",
+      "event_tag": "post_fall_gedaliah",
+      "beat_text": "Mizpah as post-586 administration locale after Jerusalem’s fall.",
+      "lsb_refs": [
+        "2 Kings 25:22–26",
+        "Jeremiah 40:5–12"
+      ],
+      "solidity": "mixed",
+      "caveats": "Tell en-Nasbeh is the leading scholarly candidate for Mizpah of Benjamin."
+    },
+    {
+      "pin_id": "CYR-01",
+      "event_tag": "cyrus_decree_context",
+      "beat_text": "Cyrus Cylinder findspot packaging at Babylon — Persian policy context for the return, not a substitute for Ezra’s decree text.",
+      "lsb_refs": [
+        "Ezra 1:1–4",
+        "Isaiah 44:28",
+        "Isaiah 45:1–13"
+      ],
+      "solidity": "mixed",
+      "caveats": "Extra-biblical artifact illuminates Persian royal ideology; do not claim it is the biblical decree manuscript."
+    },
+    {
+      "pin_id": "BETHL-01",
+      "event_tag": "holy_family_departure",
+      "beat_text": "Bethlehem start for Holy Family flight path (Matthew 2) — path layer, not a new nativity dig.",
+      "lsb_refs": [
+        "Matthew 2:1–15"
+      ],
+      "solidity": "mixed",
+      "caveats": "Church of the Nativity complex is early Christian tradition over the birth narrative locus — dig honesty stays on the existing pin."
+    },
+    {
+      "pin_id": "HEL-01",
+      "event_tag": "holy_family_egypt_sojourn",
+      "beat_text": "Heliopolis/On district as a cautious regional proxy for the Egyptian sojourn on the Holy Family path.",
+      "lsb_refs": [
+        "Matthew 2:13–15",
+        "Hosea 11:1"
+      ],
+      "solidity": "weak",
+      "caveats": "No excavated 'Holy Family house' here; later Christian traditions cluster in Delta/Old Cairo districts. Regional waypoint only."
+    },
+    {
+      "pin_id": "NAZ-01",
+      "event_tag": "holy_family_return_nazareth",
+      "beat_text": "Nazareth return/upbringing endpoint for the Holy Family path.",
+      "lsb_refs": [
+        "Matthew 2:19–23"
+      ],
+      "solidity": "mixed",
+      "caveats": "Existing Nazareth house-tradition digs — do not duplicate pins."
+    },
+    {
+      "pin_id": "JM-GOLGOTHA",
+      "event_tag": "passion_crucifixion_resurrection",
+      "beat_text": "Golgotha crucifixion + traditional burial/resurrection packaging — Passion path endpoint; no separate tomb dig pin on map.",
+      "lsb_refs": [
+        "Matthew 27:33–54",
+        "Matthew 27:57–61",
+        "Matthew 28:1–10",
+        "John 19:17–42",
+        "John 20:1–18"
+      ],
+      "solidity": "mixed",
+      "caveats": "Traditional Calvary/Holy Sepulchre packaging vs alternate proposals (including Garden Tomb) — keep contested; path uses this existing pin."
+    },
+    {
+      "pin_id": "JM-20",
+      "event_tag": "passion_gethsemane_arrest",
+      "beat_text": "Olivet/Gethsemane arrest beat on the Passion path (already a miracle pin for Malchus).",
+      "lsb_refs": [
+        "Matthew 26:36–56",
+        "John 18:1–12"
+      ],
+      "solidity": "mixed",
+      "caveats": "Gethsemane traditional locale on Olivet slopes; exact garden footprint not surveyed as a single dig feature."
+    },
+    {
+      "pin_id": "CAI-01",
+      "event_tag": "passion_caiaphas_context",
+      "beat_text": "Caiaphas family ossuary locus supports the priestly name in the Passion narrative — not a certified trial-house dig.",
+      "lsb_refs": [
+        "Matthew 26:57–68",
+        "John 18:12–24"
+      ],
+      "solidity": "mixed",
+      "caveats": "Historicity of Caiaphas family strong via ossuary; spatial ID of the Gospel trial is separate and unsettled."
+    },
+    {
+      "pin_id": "PIR-01",
+      "event_tag": "exodus_departure_rameses",
+      "beat_text": "Pi-Ramesses dig as the Exodus route start node (with EW-01).",
+      "lsb_refs": [
+        "Exodus 12:37",
+        "Numbers 33:3–5"
+      ],
+      "solidity": "strong",
+      "caveats": "Strong for Rameses/Qantir identification; linking the full wilderness GPS remains mixed/debated downstream."
+    },
+    {
+      "pin_id": "EW-07",
+      "event_tag": "exodus_yam_suph",
+      "beat_text": "Yam Suph crossing debate node — open alternate Exodus branch toggles from here.",
+      "lsb_refs": [
+        "Exodus 14:15–31",
+        "Hebrews 11:29"
+      ],
+      "solidity": "weak",
+      "caveats": "Representative pin only; Ballah / Suez / Aqaba theories remain open."
+    },
+    {
+      "pin_id": "EW-15",
+      "event_tag": "exodus_sinai",
+      "beat_text": "Traditional Sinai (Jebel Musa) on the main Exodus route — alternates documented in branch layers.",
+      "lsb_refs": [
+        "Exodus 19:1–20:21",
+        "Deuteronomy 1:2"
+      ],
+      "solidity": "mixed",
+      "caveats": "Traditional Byzantine identification; ABR/AiG and other candidates exist — use branch layers."
+    },
+    {
+      "pin_id": "UR-01",
+      "event_tag": "abraham_departure_ur",
+      "beat_text": "Ur as Abraham migration start — attach optional patriarchal route.",
+      "lsb_refs": [
+        "Genesis 11:27–32",
+        "Genesis 15:7"
+      ],
+      "solidity": "mixed",
+      "caveats": "Ur dig strong; patriarchal chronology vs strata debate remains."
+    },
+    {
+      "pin_id": "SUS-01",
+      "event_tag": "nehemiah_susa_start",
+      "beat_text": "Susa start for Nehemiah’s return branch.",
+      "lsb_refs": [
+        "Nehemiah 1:1–4",
+        "Nehemiah 2:1–9"
+      ],
+      "solidity": "strong",
+      "caveats": "City identification strong; road to Jerusalem is schematic."
+    }
+  ]
+}

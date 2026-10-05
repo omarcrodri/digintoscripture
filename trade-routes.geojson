@@ -1,0 +1,984 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.253,
+            29.8488
+          ],
+          [
+            31.836094,
+            30.798589
+          ],
+          [
+            34.4644,
+            31.504
+          ],
+          [
+            34.546026,
+            31.669396
+          ],
+          [
+            34.6578,
+            31.7572
+          ],
+          [
+            34.919196,
+            31.859157
+          ],
+          [
+            35.184956,
+            32.585288
+          ],
+          [
+            35.568003,
+            33.016622
+          ],
+          [
+            36.30639,
+            33.511112
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-01",
+        "name": "Via Maris (Coastal / International Highway corridor)",
+        "layer": "trade-routes",
+        "period": "Bronze–Iron Age (schematic)",
+        "goods_ideas": "Grain, timber, metals, messengers, armies — Egypt↔Mesopotamia hinge via Megiddo",
+        "connected_sites": [
+          "Pi-Ramesses",
+          "Ashkelon",
+          "Gezer",
+          "Megiddo",
+          "Hazor",
+          "Damascus"
+        ],
+        "verses": "Isaiah 9:1; Matthew 4:15; 1 Kings 9:15",
+        "sources": "OpenBible.info atlas; OT dig pins Megiddo/Hazor/Gezer/Ashkelon/Pi-Ramesses; Dorsey, Roads and Highways of Ancient Israel (1991) for corridor concept. Schematic LineString — not a surveyed pavement.",
+        "notes": "Schematic corridor along the coastal/Jezreel international route tradition connecting map sites.",
+        "confidence": "confirmed",
+        "lat": 31.7572,
+        "lon": 34.6578,
+        "start_lat": 29.8488,
+        "start_lon": 31.253,
+        "end_lat": 33.511112,
+        "end_lon": 36.30639,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Via Maris coastal corridor: Egypt MoTA → IAA/INPA Israel → Lebanese DGA / Syrian DGAM segments. MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.980258,
+            29.547181
+          ],
+          [
+            35.603919,
+            30.745843
+          ],
+          [
+            35.701389,
+            31.180556
+          ],
+          [
+            35.783281,
+            31.499971
+          ],
+          [
+            35.79995,
+            31.799978
+          ],
+          [
+            35.616639,
+            32.216618
+          ],
+          [
+            35.9343,
+            31.9547
+          ],
+          [
+            36.30639,
+            33.511112
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-02",
+        "name": "King's Highway (Transjordan north–south)",
+        "layer": "trade-routes",
+        "period": "Late Bronze–Iron Age (schematic)",
+        "goods_ideas": "Copper, incense legs, livestock, caravan tolls along Edom–Moab–Ammon",
+        "connected_sites": [
+          "Ezion-geber",
+          "Dibon",
+          "Heshbon",
+          "Damascus"
+        ],
+        "verses": "Numbers 20:17; Numbers 21:22; Deuteronomy 2:27",
+        "sources": "Numbers corridor language; OpenBible Bozrah/Kerak/Amman/Ezion-geber; OT dig Dibon/Heshbon/Deir Alla. Schematic only.",
+        "notes": "Scripture names the King's Highway; line connects published Transjordan sites — not an excavated continuous road.",
+        "confidence": "confirmed",
+        "lat": 31.799978,
+        "lon": 35.79995,
+        "start_lat": 29.547181,
+        "start_lon": 34.980258,
+        "end_lat": 33.511112,
+        "end_lon": 36.30639,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "King’s Highway Transjordan: primarily DoA Jordan (+ Syrian DGAM northern extension historically). MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            37.91667,
+            26.65
+          ],
+          [
+            38.549957,
+            27.629661
+          ],
+          [
+            34.980258,
+            29.547181
+          ],
+          [
+            35.603919,
+            30.745843
+          ],
+          [
+            35.783281,
+            31.499971
+          ],
+          [
+            35.235487,
+            31.775794
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-03",
+        "name": "Incense / Arabia–Levant caravan legs",
+        "layer": "trade-routes",
+        "period": "Iron Age–Persian (schematic)",
+        "goods_ideas": "Frankincense, myrrh, aromatics, gold toward Judah",
+        "connected_sites": [
+          "Tema (Tayma)",
+          "Dedan",
+          "Ezion-geber",
+          "Dibon",
+          "Jerusalem"
+        ],
+        "verses": "Isaiah 60:6; Jeremiah 6:20; Ezekiel 27:22; 1 Kings 10:1-2",
+        "sources": "OT dig Tayma; OpenBible Dedan/Ezion-geber/Bozrah; prophetic trade imagery. Schematic caravan spine.",
+        "notes": "Corridor idea linking Arabia oasis sites to Jerusalem — not a single excavated incense ditch.",
+        "confidence": "confirmed",
+        "lat": 30.745843,
+        "lon": 35.603919,
+        "start_lat": 26.65,
+        "start_lon": 37.91667,
+        "end_lat": 31.775794,
+        "end_lon": 35.235487,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Incense/Arabia–Levant: Saudi Heritage Commission + DoA Jordan + IAA Negev/Judea legs. MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.105259,
+            30.961689
+          ],
+          [
+            44.420746,
+            32.541614
+          ],
+          [
+            35.189616,
+            32.276327
+          ],
+          [
+            38.014975,
+            36.82967
+          ],
+          [
+            39.032778,
+            36.864444
+          ],
+          [
+            36.30639,
+            33.511112
+          ],
+          [
+            35.568003,
+            33.016622
+          ],
+          [
+            35.184956,
+            32.585288
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-04",
+        "name": "Mesopotamia–Levant inland corridor",
+        "layer": "trade-routes",
+        "period": "Bronze–Iron Age (schematic)",
+        "goods_ideas": "Textiles, metals, letters, later Assyrian/Babylonian logistics",
+        "connected_sites": [
+          "Ur",
+          "Babylon",
+          "Mari",
+          "Carchemish",
+          "Haran",
+          "Damascus",
+          "Hazor",
+          "Megiddo"
+        ],
+        "verses": "Genesis 12:4-5; Jeremiah 46:2",
+        "sources": "OT dig Ur/Babylon/Mari/Carchemish/Hazor/Megiddo; OpenBible Haran/Damascus. Schematic Fertile Crescent hinge.",
+        "notes": "Connects excavated Mesopotamian and Levant sites already on the OT layer.",
+        "confidence": "confirmed",
+        "lat": 36.864444,
+        "lon": 39.032778,
+        "start_lat": 30.961689,
+        "start_lon": 46.105259,
+        "end_lat": 32.585288,
+        "end_lon": 35.184956,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Mesopotamia–Levant inland: SBAH Iraq / DGAM Syria / DoA Jordan / IAA. MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.657779,
+            25.718549
+          ],
+          [
+            30.90523,
+            27.645256
+          ],
+          [
+            31.836094,
+            30.798589
+          ],
+          [
+            34.422222,
+            30.648333
+          ],
+          [
+            34.84072,
+            31.24468
+          ],
+          [
+            35.108805,
+            31.524326
+          ],
+          [
+            35.235487,
+            31.775794
+          ],
+          [
+            35.281674,
+            32.213552
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-05",
+        "name": "Egypt–Canaan corridor (Delta–Negev–Hill Country)",
+        "layer": "trade-routes",
+        "period": "Bronze–Iron Age (schematic)",
+        "goods_ideas": "Egyptian prestige goods; Levantine oil/wine; Negev pastoral traffic",
+        "connected_sites": [
+          "Thebes/Karnak",
+          "Amarna",
+          "Pi-Ramesses",
+          "Beersheba",
+          "Hebron",
+          "Jerusalem",
+          "Shechem"
+        ],
+        "verses": "Genesis 12:10; Genesis 46:6; Exodus 13:17; Genesis 16:7",
+        "sources": "OT dig Egyptian and Canaanite sites; OpenBible Kadesh-barnea. Schematic — Shur/Exodus roadbeds debated.",
+        "notes": "Exact Exodus/Shur roadbeds contested; line links published dig/atlas nodes Egypt to Judah hill country.",
+        "confidence": "confirmed",
+        "lat": 31.24468,
+        "lon": 34.84072,
+        "start_lat": 25.718549,
+        "start_lon": 32.657779,
+        "end_lat": 32.213552,
+        "end_lon": 35.281674,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Egypt–Canaan: Egypt MoTA + IAA (Negev/hill country). MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age",
+          "Exodus / Wilderness"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.647188,
+            34.123547
+          ],
+          [
+            35.374306,
+            33.560299
+          ],
+          [
+            35.196076,
+            33.270533
+          ],
+          [
+            35.088333,
+            32.921111
+          ],
+          [
+            34.890982,
+            32.5005
+          ],
+          [
+            34.546026,
+            31.669396
+          ],
+          [
+            34.753039,
+            32.054481
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-06",
+        "name": "Phoenician maritime coastal legs",
+        "layer": "trade-routes",
+        "period": "Iron Age–NT (schematic sea legs)",
+        "goods_ideas": "Cedar, purple dye, glass, Mediterranean freight",
+        "connected_sites": [
+          "Byblos (Gebal)",
+          "Sidon",
+          "Tyre",
+          "Acco",
+          "Caesarea Maritima",
+          "Ashkelon",
+          "Joppa"
+        ],
+        "verses": "1 Kings 5:6-9; Ezekiel 27:1-9; Acts 9:36-43; Acts 21:3,7",
+        "sources": "OT dig Byblos/Sidon/Tyre/Ashkelon; NT dig Caesarea; OpenBible Acco/Joppa. Coastal polyline schematic.",
+        "notes": "Sea trade implied by Tyre oracles and Acts ports; line hugs published coastal pins.",
+        "confidence": "confirmed",
+        "lat": 32.921111,
+        "lon": 35.088333,
+        "start_lat": 34.123547,
+        "start_lon": 35.647188,
+        "end_lat": 32.054481,
+        "end_lon": 34.753039,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Phoenician maritime: Lebanese DGA + Cypriot DoA + Turkish MoC coastal legs + Egypt MoTA. MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Iron Age",
+          "New Testament era",
+          "Roman / Byzantine"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.152731,
+            36.35934
+          ],
+          [
+            43.328587,
+            36.098258
+          ],
+          [
+            38.014975,
+            36.82967
+          ],
+          [
+            36.30639,
+            33.511112
+          ],
+          [
+            35.568003,
+            33.016622
+          ],
+          [
+            35.189926,
+            32.275961
+          ],
+          [
+            35.184956,
+            32.585288
+          ],
+          [
+            34.849096,
+            31.565239
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-07",
+        "name": "Assyrian Levant campaign / logistics corridor",
+        "layer": "trade-routes",
+        "period": "Neo-Assyrian (8th–7th c. BC schematic)",
+        "goods_ideas": "Tribute, deportees, military supply",
+        "connected_sites": [
+          "Nineveh",
+          "Nimrud (Calah)",
+          "Carchemish",
+          "Damascus",
+          "Hazor",
+          "Samaria",
+          "Megiddo",
+          "Lachish"
+        ],
+        "verses": "2 Kings 15:29; 2 Kings 17:5-6; 2 Kings 18:13-17; Isaiah 10:28-32",
+        "sources": "OT dig Nineveh/Nimrud/Carchemish/Hazor/Samaria/Megiddo/Lachish; OpenBible Damascus. Schematic empire hinge.",
+        "notes": "Context for prophets under Assyrian pressure (Isaiah, Hosea, Nahum).",
+        "confidence": "confirmed",
+        "lat": 33.016622,
+        "lon": 35.568003,
+        "start_lat": 36.35934,
+        "start_lon": 43.152731,
+        "end_lat": 31.565239,
+        "end_lon": 34.849096,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Assyrian Levant logistics: SBAH Iraq + DGAM Syria + IAA + DoA Jordan. MULTI-JURISDICTION corridor."
+        },
+        "eras": [
+          "Iron Age"
+        ],
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.235487,
+            31.775794
+          ],
+          [
+            34.849096,
+            31.565239
+          ],
+          [
+            36.30639,
+            33.511112
+          ],
+          [
+            38.014975,
+            36.82967
+          ],
+          [
+            44.420746,
+            32.541614
+          ],
+          [
+            48.25775,
+            32.189157
+          ]
+        ]
+      },
+      "properties": {
+        "id": "TR-08",
+        "name": "Judah–Babylon exile / return corridor",
+        "layer": "trade-routes",
+        "period": "Late 7th–5th c. BC (schematic)",
+        "goods_ideas": "Deportees, tribute, return caravans, imperial administration",
+        "connected_sites": [
+          "Jerusalem",
+          "Lachish",
+          "Damascus",
+          "Carchemish",
+          "Babylon",
+          "Susa"
+        ],
+        "verses": "2 Kings 25:1-12; Ezra 1:1-5; Ezra 7:6-9; Esther 1:2",
+        "sources": "OT dig Jerusalem/Lachish/Carchemish/Babylon/Susa; OpenBible Damascus. Schematic exile/return axis.",
+        "notes": "Connects exile-era places already on the map (Ezekiel, Daniel settings).",
+        "confidence": "confirmed",
+        "lat": 36.82967,
+        "lon": 38.014975,
+        "start_lat": 31.775794,
+        "start_lon": 35.235487,
+        "end_lat": 32.189157,
+        "end_lon": 48.25775,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Multi-jurisdiction corridor (national antiquities authorities along route)",
+          "type": "mixed",
+          "role": "Route spans multiple modern countries; each stop local national antiquities authority or church site office applies.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "Judah–Babylon exile/return: IAA/PA Judea + DoA Jordan desert legs + SBAH Iraq (Babylon). MULTI-JURISDICTION corridor.",
+          "official_website": "https://whc.unesco.org/en/list/278/"
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/278/",
+        "official_website_label": "UNESCO — Babylon",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.184956,
+          32.585288
+        ]
+      },
+      "properties": {
+        "id": "TR-HUB-01",
+        "name": "Hub — Megiddo (Via Maris hinge)",
+        "layer": "trade-routes",
+        "period": "multi-period hub",
+        "goods_ideas": "Crossroads of coastal and Jezreel legs.",
+        "connected_sites": [
+          "Hub — Megiddo (Via Maris hinge)"
+        ],
+        "verses": "",
+        "sources": "ot/nt dig pin; see adjoining route features.",
+        "notes": "Crossroads of coastal and Jezreel legs.",
+        "confidence": "confirmed",
+        "feature_kind": "hub",
+        "biblical_name": "Megiddo",
+        "strongs_id": "H4023",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h4023/kjv/wlc/0-1/",
+        "strongs_lemma": "מְגִדּוֹן",
+        "creation_ministry": {
+          "blurb": "AiG addresses United Monarchy skepticism (including Solomonic building claims) in “False History—Out with David and Solomon!” but no verified site-specific Megiddo dig monograph was found. Theme coverage of Solomonic-gate/stables debates—not dig consensus.",
+          "panel_blurb": "AiG addresses United Monarchy skepticism (including Solomonic building claims) in “False History—Out with David and Solomon!” but no verified site-specific Megiddo dig monograph was found. Theme coverage of Solomonic-gate/stables debates—not dig consensus.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "False History—“Out with David and Solomon!”",
+              "url": "https://answersingenesis.org/archaeology/false-history-out-with-david-and-solomon/",
+              "summary": "AiG critique of minimalist dismissal of United Monarchy; discusses Solomonic building claims.",
+              "kind": "article"
+            },
+            {
+              "title": "Archaeological Evidence for the Kingdom of Judah",
+              "url": "https://answersingenesis.org/archaeology/archaeological-evidence-kingdom-judah/",
+              "summary": "AiG summary of Garfinkel-related work including Lachish Level 5 fortifications and Khirbet Qeiyafa as early Judean evidence—interpreted within a biblical-kingdom framework.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 32.585288,
+        "lon": 35.184956,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Megiddo Expedition + IAA + INPA (Via Maris hub)",
+          "type": "mixed",
+          "role": "Licenses excavations and oversees antiquities across Israel; regional offices handle site permits and finds.",
+          "contact_name": null,
+          "contact_title": "General inquiries (Mokedia)",
+          "contact_email": "dig.megiddo@gmail.com",
+          "contact_phone": "073-3507350",
+          "contact_url": "https://www.themegiddoexpedition.com/",
+          "notes": "Hub Megiddo: Megiddo Expedition + IAA + INPA (see MEG-01).",
+          "official_website": "https://en.parks.org.il/reserve-park/tel-megiddo-armageddon-national-park/"
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age"
+        ],
+        "official_website": "https://en.parks.org.il/reserve-park/tel-megiddo-armageddon-national-park/",
+        "official_website_label": "INPA — Tel Megiddo National Park",
+        "official_video_embed": "https://www.youtube.com/embed/yaKZqmqfr1w",
+        "official_video_source": "https://en.parks.org.il/reserve-park/tel-megiddo-armageddon-national-park/",
+        "official_video_provider": "youtube",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.30639,
+          33.511112
+        ]
+      },
+      "properties": {
+        "id": "TR-HUB-02",
+        "name": "Hub — Damascus (desert–Levant hinge)",
+        "layer": "trade-routes",
+        "period": "multi-period hub",
+        "goods_ideas": "Major caravan node east of northern digs.",
+        "connected_sites": [
+          "Hub — Damascus (desert–Levant hinge)"
+        ],
+        "verses": "",
+        "sources": "OpenBible.info atlas (Damascus); see adjoining route features.",
+        "notes": "Major caravan node east of northern digs.",
+        "confidence": "confirmed",
+        "feature_kind": "hub",
+        "lat": 33.511112,
+        "lon": 36.30639,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Directorate-General of Antiquities and Museums (DGAM), Syria",
+          "type": "national_antiquities",
+          "role": "National directorate for antiquities and museums in Syria.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "http://www.dgam.gov.sy/",
+          "notes": "Hub Damascus: DGAM Syria (authority-only amid conflict).",
+          "official_website": "https://www.dgam.gov.sy/"
+        },
+        "eras": [
+          "Bronze Age",
+          "Iron Age",
+          "Persian / Hellenistic",
+          "Roman / Byzantine"
+        ],
+        "official_website": "https://www.dgam.gov.sy/",
+        "official_website_label": "Directorate-General of Antiquities and Museums (DGAM), Syria",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.196076,
+          33.270533
+        ]
+      },
+      "properties": {
+        "id": "TR-HUB-03",
+        "name": "Hub — Tyre (Phoenician port)",
+        "layer": "trade-routes",
+        "period": "multi-period hub",
+        "goods_ideas": "Maritime commercial capital in Ezekiel 27.",
+        "connected_sites": [
+          "Hub — Tyre (Phoenician port)"
+        ],
+        "verses": "",
+        "sources": "ot/nt dig pin; see adjoining route features.",
+        "notes": "Maritime commercial capital in Ezekiel 27.",
+        "confidence": "confirmed",
+        "feature_kind": "hub",
+        "biblical_name": "Tyre",
+        "strongs_id": "H6865",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h6865/kjv/wlc/0-1/",
+        "strongs_lemma": "צֹר",
+        "creation_ministry": {
+          "blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "panel_blurb": "No site-specific Answers in Genesis, Creation Museum, or Ark Encounter page was verified for this dig in the 2026-09-30 survey. Do not invent AiG claims—label any future hit clearly as ministry interpretation, not dig consensus.",
+          "coverage": "none_found",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 33.270533,
+        "lon": 35.196076,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Directorate General of Antiquities (DGA), Lebanon — Ministry of Culture",
+          "type": "national_antiquities",
+          "role": "National DGA under Ministry of Culture oversees archaeological sites in Lebanon.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.culture.gov.lb/",
+          "notes": "Hub Tyre: Lebanese DGA.",
+          "official_website": "https://whc.unesco.org/en/list/299/"
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic",
+          "Roman / Byzantine",
+          "New Testament era"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/299/",
+        "official_website_label": "UNESCO — Tyre",
+        "status_kind": "none"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.420746,
+          32.541614
+        ]
+      },
+      "properties": {
+        "id": "TR-HUB-04",
+        "name": "Hub — Babylon (Mesopotamian capital)",
+        "layer": "trade-routes",
+        "period": "multi-period hub",
+        "goods_ideas": "Exile-era imperial center.",
+        "connected_sites": [
+          "Hub — Babylon (Mesopotamian capital)"
+        ],
+        "verses": "",
+        "sources": "ot/nt dig pin; see adjoining route features.",
+        "notes": "Exile-era imperial center.",
+        "confidence": "confirmed",
+        "feature_kind": "hub",
+        "biblical_name": "Babel / Babylon",
+        "strongs_id": "H894",
+        "strongs_lang": "H",
+        "strongs_url": "https://www.blueletterbible.org/lexicon/h894/kjv/wlc/0-1/",
+        "strongs_lemma": "בָּבֶל",
+        "creation_ministry": {
+          "blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "panel_blurb": "AiG Babylon/Babel topic pages and Nabonidus Cylinder mentions (Belshazzar) appear in archaeological-finds lists; Cyrus Cylinder findspot lacks a dedicated AiG dig article in this survey. Theme/site-adjacent ministry coverage of Babylonian history.",
+          "coverage": "theme_only",
+          "aig": [
+            {
+              "title": "6. Archaeological Finds",
+              "url": "https://answersingenesis.org/archaeology/6-archaeological-finds/",
+              "summary": "AiG list including Tel Dan Stele (House of David) and Pilate Dedication Stone from Caesarea Maritima.",
+              "kind": "article"
+            },
+            {
+              "title": "Tower of Babel",
+              "url": "https://answersingenesis.org/tower-of-babel/",
+              "summary": "AiG Tower of Babel topic hub: ministry interpretation of dispersion and ziggurat background.",
+              "kind": "article"
+            }
+          ],
+          "creation_museum": [],
+          "ark_encounter": []
+        },
+        "lat": 32.541614,
+        "lon": 44.420746,
+        "dig_halt": {
+          "status": "not_applicable",
+          "date": null,
+          "halted_by": null,
+          "summary": "N/A — route or trade-hub schematic feature, not an excavation site. Dig halt notes belong on overlapping dig pins.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "State Board of Antiquities and Heritage (SBAH), Iraq",
+          "type": "national_antiquities",
+          "role": "National board licensing excavations and protecting heritage sites in Iraq.",
+          "contact_name": null,
+          "contact_title": "Relations Department",
+          "contact_email": "relations@sbah.gov.iq",
+          "contact_phone": null,
+          "contact_url": "https://sbah.gov.iq/",
+          "notes": "Hub Babylon: SBAH Iraq.",
+          "official_website": "https://whc.unesco.org/en/list/278/"
+        },
+        "eras": [
+          "Iron Age",
+          "Persian / Hellenistic"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/278/",
+        "official_website_label": "UNESCO — Babylon",
+        "status_kind": "none"
+      }
+    }
+  ]
+}

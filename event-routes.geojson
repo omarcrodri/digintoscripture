@@ -1,0 +1,1651 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "layer": "event_routes",
+    "build": "20261001-n",
+    "source_pack": "event-routes-site-truth-2026-10-01.json",
+    "note": "Schematic biblical event LineStrings/MultiLineStrings. Unclustered. Off by default. No new dig pins.",
+    "deferred": [
+      "ROUTE-jonah-nineveh"
+    ],
+    "route_count": 9
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.83609,
+            30.79859
+          ],
+          [
+            32.099,
+            30.5527
+          ],
+          [
+            32.37778,
+            30.33833
+          ],
+          [
+            33.53667,
+            29.14778
+          ],
+          [
+            33.88028,
+            28.62306
+          ],
+          [
+            33.97333,
+            28.53972
+          ],
+          [
+            34.42222,
+            30.64833
+          ],
+          [
+            35.75,
+            31.76667
+          ],
+          [
+            35.67368,
+            31.84018
+          ],
+          [
+            35.45997,
+            31.88188
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-exodus-main",
+        "layer": "event_route_exodus_main",
+        "layer_key": "event_route_exodus_main",
+        "name": "Exodus journey — main traditional path (schematic)",
+        "short_blurb": "Ordered path from Rameses exit through Yam Suph debate zone, traditional Sinai, Kadesh, and into the plains of Moab — not every EW-* camp.",
+        "claim": "Represents the biblical Exodus itinerary as a schematic route line linking published map nodes (Pi-Ramesses dig + selected EW wilderness stations + Moab/Jordan approach). It is a reading aid for Numbers 33 / Exodus narrative geography, not a surveyed trail.",
+        "solidity": "mixed",
+        "caveats": "Many wilderness stations are traditional or unconfirmed (see EW layer confidence). Yam Suph crossing and Mount Sinai locations are actively debated — this main line uses the traditional Jebel Musa / southern Sinai packaging already on EW-15 and a representative Yam Suph pin (EW-07), not a proved GPS track. Do not treat intermediate bends as excavated roadbeds. Prefer showing debated alternate branches (Aqaba; NE Delta/Ballah) as separate optional features.",
+        "lsb_refs": [
+          "Exodus 12:37–42",
+          "Exodus 13:17–22",
+          "Exodus 14:15–31",
+          "Exodus 19:1–6",
+          "Numbers 33:1–49",
+          "Deuteronomy 1:19–46",
+          "Deuteronomy 34:1–8",
+          "Joshua 3:1–17"
+        ],
+        "branch_id": "main_traditional_sinai",
+        "branch_label": "Main (traditional southern Sinai / Jebel Musa packaging)",
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Rameses / Goshen exit",
+            "lat": 30.79859,
+            "lng": 31.83609,
+            "pin_id": "PIR-01",
+            "also_pins": [
+              "EW-01",
+              "AVA-01"
+            ],
+            "note": "Pi-Ramesses dig = confirmed exit-region node; EW-01 same locus"
+          },
+          {
+            "seq": 2,
+            "name": "Succoth (Egyptian departure)",
+            "lat": 30.5527,
+            "lng": 32.099,
+            "pin_id": "EW-02",
+            "also_pins": [
+              "MSK-01"
+            ],
+            "note": "Wadi Tumilat corridor; Maskhuta dig nearby candidate — not identical certainty"
+          },
+          {
+            "seq": 3,
+            "name": "Yam Suph crossing area (debated)",
+            "lat": 30.33833,
+            "lng": 32.37778,
+            "pin_id": "EW-07",
+            "note": "Representative OpenBible/EW pin — NOT a claimed proven crossing GPS"
+          },
+          {
+            "seq": 4,
+            "name": "Wilderness of Sin approach",
+            "lat": 29.14778,
+            "lng": 33.53667,
+            "pin_id": "EW-11",
+            "note": "Traditional southern approach packaging"
+          },
+          {
+            "seq": 5,
+            "name": "Rephidim",
+            "lat": 28.62306,
+            "lng": 33.88028,
+            "pin_id": "EW-14",
+            "note": "Traditional; Amalek / water-from-rock narrative stop"
+          },
+          {
+            "seq": 6,
+            "name": "Mount Sinai / Horeb (Jebel Musa traditional)",
+            "lat": 28.53972,
+            "lng": 33.97333,
+            "pin_id": "EW-15",
+            "also_pins": [
+              "PR-27"
+            ],
+            "note": "Byzantine traditional mountain; alternates in other branches"
+          },
+          {
+            "seq": 7,
+            "name": "Kadesh-barnea",
+            "lat": 30.64833,
+            "lng": 34.42222,
+            "pin_id": "EW-38",
+            "note": "Tell el-Qudeirat leading candidate; LB/Exodus match debated"
+          },
+          {
+            "seq": 8,
+            "name": "Mount Nebo / Pisgah",
+            "lat": 31.76667,
+            "lng": 35.75,
+            "pin_id": "EW-51",
+            "note": "Moses views the land"
+          },
+          {
+            "seq": 9,
+            "name": "Plains of Moab / Shittim approach",
+            "lat": 31.84018,
+            "lng": 35.67368,
+            "pin_id": "EW-53",
+            "also_pins": [
+              "EW-52"
+            ],
+            "note": "Jordan crossing staging"
+          },
+          {
+            "seq": 10,
+            "name": "Jordan crossing / Gilgal approach",
+            "lat": 31.88188,
+            "lng": 35.45997,
+            "pin_id": "EW-55",
+            "also_pins": [
+              "JER-01,JER-02"
+            ],
+            "note": "Entry approach; Jericho dig is separate conquest beat — do not re-pin"
+          }
+        ],
+        "sources": [
+          "LSB narrative itinerary — Exodus 12–19; Numbers 33; Deuteronomy 1; 34; Joshua 3",
+          "Existing DigIntoScripture EW wilderness layer + PIR-01 Pi-Ramesses dig (; ot-digs)",
+          "OpenBible.info Bible Geocoding Data (station lon/lat votes used by EW builder)",
+          "Hoffmeier, Israel in Egypt / Ancient Israel in Sinai (NE Delta / Way of Horus context — for caveats, not a single track)",
+          "Dorsey, The Roads and Highways of Ancient Israel (1991) — corridor concept only"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#f59e0b",
+        "dash_array": "10 6",
+        "toggle_id": "tog-ev-exodus-main",
+        "ui_label": "Exodus path (main)",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.83609,
+            30.79859
+          ],
+          [
+            34.98026,
+            29.54718
+          ],
+          [
+            34.6667,
+            29.0369
+          ],
+          [
+            35.0122,
+            28.4947
+          ],
+          [
+            35.3056,
+            28.6542
+          ],
+          [
+            34.42222,
+            30.64833
+          ],
+          [
+            35.45997,
+            31.88188
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-exodus-branch-aqaba",
+        "layer": "event_route_exodus_branch_aqaba",
+        "layer_key": "event_route_exodus_branch_aqaba",
+        "name": "Exodus alternate — Gulf of Aqaba / Midian approach (debated)",
+        "short_blurb": "Optional branch: after Delta exit, toward Gulf of Aqaba crossing theories and Midian/Saudi Sinai candidates.",
+        "claim": "Documents one popular alternate geography for Yam Suph and Sinai (Aqaba / Nuweiba-style crossing theories and Midian-side mountain candidates). Schematic only.",
+        "solidity": "weak",
+        "caveats": "This is a debated minority/popular packaging, not a scholarly consensus track. Nuweiba beach and Jabal al-Lawz lack the same excavated Egyptian fortress-chain context Hoffmeier stresses for the NE Delta. Include only as an honest alternate toggle so users see the debate — never label 'proved.'",
+        "lsb_refs": [
+          "Exodus 14:1–31",
+          "Exodus 19:1–6",
+          "Deuteronomy 1:2",
+          "Galatians 4:25"
+        ],
+        "branch_id": "aqaba_midian",
+        "branch_label": "Alternate: Gulf of Aqaba / Midian-side Sinai candidates",
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Rameses / Goshen exit",
+            "lat": 30.79859,
+            "lng": 31.83609,
+            "pin_id": "PIR-01",
+            "also_pins": [
+              "EW-01"
+            ],
+            "note": "Shared start with main branch"
+          },
+          {
+            "seq": 2,
+            "name": "Ezion-geber / Aqaba gulf head",
+            "lat": 29.54718,
+            "lng": 34.98026,
+            "pin_id": "EW-37",
+            "note": "Gulf head node already on EW layer"
+          },
+          {
+            "seq": 3,
+            "name": "Nuweiba shore (crossing theory — no dig pin)",
+            "lat": 29.0369,
+            "lng": 34.6667,
+            "note": "NO existing dig pin — approximate theory waypoint only; heavy caveat"
+          },
+          {
+            "seq": 4,
+            "name": "Midian region context",
+            "lat": 28.4947,
+            "lng": 35.0122,
+            "pin_id": "EW-56",
+            "note": "Moses Midian sojourn context already on EW"
+          },
+          {
+            "seq": 5,
+            "name": "Jabal al-Lawz region (candidate — no dig pin)",
+            "lat": 28.6542,
+            "lng": 35.3056,
+            "note": "Popular Saudi candidate; not an excavated 'Mount Sinai dig' on our map"
+          },
+          {
+            "seq": 6,
+            "name": "Kadesh-barnea (rejoin traditional)",
+            "lat": 30.64833,
+            "lng": 34.42222,
+            "pin_id": "EW-38",
+            "note": "Rejoins main itinerary geography at Kadesh"
+          },
+          {
+            "seq": 7,
+            "name": "Jordan / Gilgal approach",
+            "lat": 31.88188,
+            "lng": 35.45997,
+            "pin_id": "EW-55",
+            "note": "Shared end approach"
+          }
+        ],
+        "sources": [
+          "LSB Exodus 14; 19; Deuteronomy 1:2 (Horeb–Kadesh distance note fuels debates)",
+          "Existing EW-37 Ezion-geber; EW-56 Midian pins",
+          "Creation-ministry packaging notes (AiG 'Searching for Sinai' survey of candidates) — secondary only; not proof"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "weak",
+        "color": "#fb923c",
+        "dash_array": "4 6",
+        "toggle_id": "tog-ev-exodus-aqaba",
+        "ui_label": "Exodus alt (Aqaba/Midian)",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.83609,
+            30.79859
+          ],
+          [
+            32.099,
+            30.5527
+          ],
+          [
+            32.367,
+            30.935
+          ],
+          [
+            32.41474,
+            30.92302
+          ],
+          [
+            32.37778,
+            30.33833
+          ],
+          [
+            33.97333,
+            28.53972
+          ],
+          [
+            34.42222,
+            30.64833
+          ],
+          [
+            35.45997,
+            31.88188
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-exodus-branch-ne-delta",
+        "layer": "event_route_exodus_branch_ne_delta",
+        "layer_key": "event_route_exodus_branch_ne_delta",
+        "name": "Exodus alternate — NE Delta / Ballah Lakes packaging (debated)",
+        "short_blurb": "Optional branch emphasizing Way of Horus / Ballah Lakes / northern Sinai approaches favored in some Egyptological readings.",
+        "claim": "Schematic alternate stressing NE Delta fortress geography (Tell el-Borg, Tjaru/Sile, Ballah Lakes region) for the Yam Suph episode before joining a Sinai approach.",
+        "solidity": "mixed",
+        "caveats": "Stronger on Egyptian New Kingdom military geography than on proving a single Israelite GPS track. Ballah Lakes water bodies have changed; pin EW-07 remains representative. Sinai mountain still debated after any Delta exit model.",
+        "lsb_refs": [
+          "Exodus 13:17–18",
+          "Exodus 14:1–9",
+          "Exodus 14:15–31",
+          "Numbers 33:5–8"
+        ],
+        "branch_id": "ne_delta_ballah",
+        "branch_label": "Alternate: NE Delta / Way of Horus / Ballah Lakes packaging",
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Rameses / Goshen exit",
+            "lat": 30.79859,
+            "lng": 31.83609,
+            "pin_id": "PIR-01",
+            "also_pins": [
+              "EW-01",
+              "AVA-01"
+            ],
+            "note": "Shared start"
+          },
+          {
+            "seq": 2,
+            "name": "Succoth / Tumilat corridor",
+            "lat": 30.5527,
+            "lng": 32.099,
+            "pin_id": "EW-02",
+            "also_pins": [
+              "MSK-01",
+              "RET-01"
+            ],
+            "note": "Pithom candidates nearby"
+          },
+          {
+            "seq": 3,
+            "name": "Tjaru / Sile fortress (Way of Horus)",
+            "lat": 30.935,
+            "lng": 32.367,
+            "pin_id": "TJR-01",
+            "note": "Egyptian frontier fortress dig — geography context, not 'Israelite camp' claim"
+          },
+          {
+            "seq": 4,
+            "name": "Tell el-Borg fortress district",
+            "lat": 30.92302,
+            "lng": 32.41474,
+            "pin_id": "BRG-01",
+            "also_pins": [
+              "EW-06"
+            ],
+            "note": "Migdol-region fortress archaeology"
+          },
+          {
+            "seq": 5,
+            "name": "Yam Suph / Ballah region (debated)",
+            "lat": 30.33833,
+            "lng": 32.37778,
+            "pin_id": "EW-07",
+            "note": "Same representative crossing pin as main — debate is packaging, not a second invent"
+          },
+          {
+            "seq": 6,
+            "name": "Mount Sinai traditional (rejoin)",
+            "lat": 28.53972,
+            "lng": 33.97333,
+            "pin_id": "EW-15",
+            "note": "Still traditional after northern exit models — mountain ID separate debate"
+          },
+          {
+            "seq": 7,
+            "name": "Kadesh-barnea",
+            "lat": 30.64833,
+            "lng": 34.42222,
+            "pin_id": "EW-38",
+            "note": "Rejoin"
+          },
+          {
+            "seq": 8,
+            "name": "Jordan / Gilgal approach",
+            "lat": 31.88188,
+            "lng": 35.45997,
+            "pin_id": "EW-55",
+            "note": "Shared end"
+          }
+        ],
+        "sources": [
+          "LSB Exodus 13–14; Numbers 33",
+          "OT digs TJR-01 Tell Hebua I; BRG-01 Tell el-Borg; PIR-01",
+          "Hoffmeier / North Sinai survey literature (Way of Horus fortress chain) — cited for corridor honesty"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#eab308",
+        "dash_array": "4 6",
+        "toggle_id": "tog-ev-exodus-nedelta",
+        "ui_label": "Exodus alt (NE Delta)",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              35.18962,
+              32.27633
+            ],
+            [
+              35.568,
+              33.01662
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              36.7578,
+              35.1317
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              39.03278,
+              36.86444
+            ],
+            [
+              40.0394,
+              36.8267
+            ],
+            [
+              43.26144,
+              35.45503
+            ],
+            [
+              43.32859,
+              36.09826
+            ],
+            [
+              43.15273,
+              36.35934
+            ],
+            [
+              48.51983,
+              34.80615
+            ]
+          ],
+          [
+            [
+              43.15273,
+              36.35934
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              35.18496,
+              32.58529
+            ],
+            [
+              34.8491,
+              31.56524
+            ],
+            [
+              35.23638,
+              31.77352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-assyrian-deportation",
+        "layer": "event_route_assyrian_deportation",
+        "layer_key": "event_route_assyrian_deportation",
+        "name": "Assyrian deportation routes (Israel → Assyria; Judah campaign context)",
+        "short_blurb": "Schematic movement paths from northern kingdom fall (~722) and Judah/Sennacherib context toward Assyrian heartland — not a re-tell of Lachish dig alone.",
+        "claim": "Two related LineString segments: (A) Samaria fall deportation toward Halah/Habor/Gozan/Media destinations named in Kings; (B) Judah 701 campaign logistics axis Lachish↔Jerusalem with imperial hinterland toward Nineveh. Paths are corridor sketches, not caravan GPS.",
+        "solidity": "mixed",
+        "caveats": "2 Kings 17 names settlement regions (Halah; Habor/Gozan; cities of the Medes), not a single road with mileposts. Exact Halah location is uncertain. Sennacherib's 701 campaign is strongly documented at Lachish (reliefs + tell) but deportation volumes and routes for Judah differ from the northern exile. Do not merge 'Samaria fell' and 'Jerusalem delivered' into one undifferentiated arrow.",
+        "lsb_refs": [
+          "2 Kings 15:29",
+          "2 Kings 17:5–6",
+          "2 Kings 17:18–23",
+          "2 Kings 18:11–12",
+          "2 Kings 18:13–17",
+          "Isaiah 10:28–32",
+          "Isaiah 36:1–2",
+          "1 Chronicles 5:26"
+        ],
+        "branches": [
+          {
+            "branch_id": "north_israel_722",
+            "branch_label": "Northern kingdom deportation (~722) toward Assyria / Media"
+          },
+          {
+            "branch_id": "judah_701_context",
+            "branch_label": "Judah 701 campaign axis (Lachish → Jerusalem) with Assyrian hinterland"
+          }
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Samaria (capital fall)",
+            "lat": 32.27633,
+            "lng": 35.18962,
+            "pin_id": "SAM-01",
+            "also_pins": [
+              "SAM-02"
+            ],
+            "note": "Northern capital — OT + NT Sebaste overlays",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 2,
+            "name": "Hazor (Galilee campaign context)",
+            "lat": 33.01662,
+            "lng": 35.568,
+            "pin_id": "HAZ-01,HAZ-02",
+            "note": "Earlier Tiglath-pileser Galilee hits (2 Kgs 15:29) — context node",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 3,
+            "name": "Damascus corridor hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "No dedicated Damascus dig pin on map — corridor hinge from trade-routes; PIN GAP",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 4,
+            "name": "Hamath region (approx)",
+            "lat": 35.1317,
+            "lng": 36.7578,
+            "note": "Named in reverse deportations into Samaria; approximate city center — PIN GAP",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 5,
+            "name": "Carchemish (Euphrates crossing district)",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Assyrian frontier node on map",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 6,
+            "name": "Haran / Harran district",
+            "lat": 36.86444,
+            "lng": 39.03278,
+            "note": "OpenBible Harran; no dedicated dig pin — PIN GAP",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 7,
+            "name": "Gozan / Habor region (Tell Halaf approx)",
+            "lat": 36.8267,
+            "lng": 40.0394,
+            "note": "Biblical Habor/Gozan settlement zone approximate — PIN GAP; not a claimed exact camp",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 8,
+            "name": "Assur",
+            "lat": 35.45503,
+            "lng": 43.26144,
+            "pin_id": "ASR-01",
+            "note": "Assyrian heartland node",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 9,
+            "name": "Nimrud (Kalhu)",
+            "lat": 36.09826,
+            "lng": 43.32859,
+            "pin_id": "NIM-01",
+            "note": "Calah",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 10,
+            "name": "Nineveh",
+            "lat": 36.35934,
+            "lng": 43.15273,
+            "pin_id": "NIN-01",
+            "also_pins": [
+              "PR-11",
+              "PR-14"
+            ],
+            "note": "Imperial capital district",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 11,
+            "name": "Toward cities of the Medes (Ecbatana schematic)",
+            "lat": 34.80615,
+            "lng": 48.51983,
+            "pin_id": "ECB-01",
+            "note": "Schematic Media endpoint — not claiming every deportee went to Ecbatana",
+            "branch_id": "north_israel_722"
+          },
+          {
+            "seq": 1,
+            "name": "Nineveh (imperial origin)",
+            "lat": 36.35934,
+            "lng": 43.15273,
+            "pin_id": "NIN-01",
+            "note": "Sennacherib capital context",
+            "branch_id": "judah_701_context"
+          },
+          {
+            "seq": 2,
+            "name": "Carchemish corridor",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Logistics corridor node",
+            "branch_id": "judah_701_context"
+          },
+          {
+            "seq": 3,
+            "name": "Damascus hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "PIN GAP — hinge only",
+            "branch_id": "judah_701_context"
+          },
+          {
+            "seq": 4,
+            "name": "Megiddo (Via Maris hinge)",
+            "lat": 32.58529,
+            "lng": 35.18496,
+            "pin_id": "MEG-01",
+            "note": "International highway hinge",
+            "branch_id": "judah_701_context"
+          },
+          {
+            "seq": 5,
+            "name": "Lachish (siege)",
+            "lat": 31.56524,
+            "lng": 34.8491,
+            "pin_id": "LAC-01",
+            "also_pins": [
+              "LAC-02,LAC-03"
+            ],
+            "note": "Strong archaeological + relief documentation",
+            "branch_id": "judah_701_context"
+          },
+          {
+            "seq": 6,
+            "name": "Jerusalem / City of David",
+            "lat": 31.77352,
+            "lng": 35.23638,
+            "pin_id": "COD-01,COD-02,COD-04",
+            "also_pins": [
+              "WW-01"
+            ],
+            "note": "Threat / deliverance narrative focus — not a claim Jerusalem fell in 701",
+            "branch_id": "judah_701_context"
+          }
+        ],
+        "sources": [
+          "LSB 2 Kings 15:29; 17; 18–19; Isaiah 10; 36–37; 1 Chronicles 5:26",
+          "Existing OT digs SAM-01, LAC-01, NIN-01, NIM-01, ASR-01, CAR-01, MEG-01, COD-*, ECB-01",
+          "Trade-routes TR-07 corridor nodes (schematic precedent in-app)",
+          "OpenBible.info geocoding — Harran",
+          "Sargon II / Sennacherib royal inscription summaries via museum/ASSUR scholarship (deportation numbers — cite carefully, not invent)"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#dc2626",
+        "dash_array": "8 6",
+        "toggle_id": "tog-ev-assyrian",
+        "ui_label": "Assyrian deportation",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              35.23638,
+              31.77352
+            ],
+            [
+              34.8491,
+              31.56524
+            ],
+            [
+              36.5167,
+              34.4667
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              44.42075,
+              32.54161
+            ]
+          ],
+          [
+            [
+              35.23638,
+              31.77352
+            ],
+            [
+              35.2165,
+              31.8854
+            ],
+            [
+              36.5167,
+              34.4667
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              44.42075,
+              32.54161
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-babylonian-exile",
+        "layer": "event_route_babylonian_exile",
+        "layer_key": "event_route_babylonian_exile",
+        "name": "Babylonian exile deportation routes (Judah → Babylon)",
+        "short_blurb": "Schematic Judah→Babylon movement for the 597 and 586 waves — corridor, not caravan GPS.",
+        "claim": "Represents deportation movement from Judah (Jerusalem / Lachish context) along the inland Levant–Euphrates corridor toward Babylon, with labeled segments for the 597 and 586 waves when UI needs them.",
+        "solidity": "mixed",
+        "caveats": "Scripture gives waves and counts (e.g., Jeremiah 52) but not a surveyed path. Riblah appears as a Nebuchadnezzar headquarters locale in the narrative — approximate. Do not invent precise nightly camps. Babylon dig (BAB-01) and Daniel/Ezekiel prophet pins stay as sites; this is the path.",
+        "lsb_refs": [
+          "2 Kings 24:10–17",
+          "2 Kings 25:1–21",
+          "Jeremiah 39:1–10",
+          "Jeremiah 52:28–30",
+          "Ezekiel 1:1–3",
+          "Daniel 1:1–7",
+          "2 Chronicles 36:15–21"
+        ],
+        "branches": [
+          {
+            "branch_id": "wave_597",
+            "branch_label": "597 BCE wave (Jehoiachin / first major deportation)"
+          },
+          {
+            "branch_id": "wave_586",
+            "branch_label": "586 BCE wave (city/temple destruction deportation)"
+          }
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Jerusalem / City of David",
+            "lat": 31.77352,
+            "lng": 35.23638,
+            "pin_id": "COD-01,COD-02,COD-04",
+            "note": "Capital under first major deportation",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 2,
+            "name": "Lachish (Judah fortress context)",
+            "lat": 31.56524,
+            "lng": 34.8491,
+            "pin_id": "LAC-01",
+            "note": "SW fortress context — not claiming 597 siege equals 701",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 3,
+            "name": "Riblah (Nebuchadnezzar HQ — approx)",
+            "lat": 34.4667,
+            "lng": 36.5167,
+            "note": "PIN GAP — narrative HQ; approximate Orontes-area traditional ID",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 4,
+            "name": "Damascus hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "PIN GAP",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 5,
+            "name": "Carchemish",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Euphrates corridor / 605 battle context earlier",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 6,
+            "name": "Babylon",
+            "lat": 32.54161,
+            "lng": 44.42075,
+            "pin_id": "BAB-01",
+            "also_pins": [
+              "PR-04",
+              "PR-05",
+              "CYR-01"
+            ],
+            "note": "Exile destination dig + prophet settings",
+            "branch_id": "wave_597"
+          },
+          {
+            "seq": 1,
+            "name": "Jerusalem / City of David",
+            "lat": 31.77352,
+            "lng": 35.23638,
+            "pin_id": "COD-01,COD-02,COD-04",
+            "also_pins": [
+              "WW-01"
+            ],
+            "note": "Destruction / exile climax",
+            "branch_id": "wave_586"
+          },
+          {
+            "seq": 2,
+            "name": "Mizpah (Gedaliah administration)",
+            "lat": 31.8854,
+            "lng": 35.2165,
+            "pin_id": "MIZ-01",
+            "note": "Post-fall Judah administration locale",
+            "branch_id": "wave_586"
+          },
+          {
+            "seq": 3,
+            "name": "Riblah (judgment narrative — approx)",
+            "lat": 34.4667,
+            "lng": 36.5167,
+            "note": "PIN GAP — Zedekiah judgment narrative locale",
+            "branch_id": "wave_586"
+          },
+          {
+            "seq": 4,
+            "name": "Carchemish corridor",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Inland corridor",
+            "branch_id": "wave_586"
+          },
+          {
+            "seq": 5,
+            "name": "Babylon",
+            "lat": 32.54161,
+            "lng": 44.42075,
+            "pin_id": "BAB-01",
+            "also_pins": [
+              "PR-04",
+              "PR-05"
+            ],
+            "note": "Destination",
+            "branch_id": "wave_586"
+          }
+        ],
+        "sources": [
+          "LSB 2 Kings 24–25; Jeremiah 39; 52; Ezekiel 1; Daniel 1; 2 Chronicles 36",
+          "Existing digs COD-*, LAC-01, MIZ-01, CAR-01, BAB-01; prophets PR-04/PR-05",
+          "Trade-routes TR-08 Judah–Babylon corridor (in-app schematic precedent)",
+          "OpenBible.info / atlas-style Riblah identification (approximate)"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#7c3aed",
+        "dash_array": "8 6",
+        "toggle_id": "tog-ev-babylon",
+        "ui_label": "Babylonian exile",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              44.42075,
+              32.54161
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              35.23549,
+              31.77579
+            ]
+          ],
+          [
+            [
+              44.42075,
+              32.54161
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              35.23549,
+              31.77579
+            ]
+          ],
+          [
+            [
+              48.25775,
+              32.18916
+            ],
+            [
+              44.42075,
+              32.54161
+            ],
+            [
+              38.01497,
+              36.82967
+            ],
+            [
+              36.30639,
+              33.51111
+            ],
+            [
+              35.23549,
+              31.77579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-return-from-exile",
+        "layer": "event_route_return_from_exile",
+        "layer_key": "event_route_return_from_exile",
+        "name": "Return from exile routes (Zerubbabel / Ezra / Nehemiah)",
+        "short_blurb": "Schematic Babylon/Susa → Jerusalem return paths for the main restoration waves — not precise caravan GPS.",
+        "claim": "Three related return features: Zerubbabel/Sheshbazzar wave from Babylon; Ezra's later return; Nehemiah's journey from Susa. Same inland corridor family, different narrative starts.",
+        "solidity": "mixed",
+        "caveats": "Ezra–Nehemiah give months and staging notes (e.g., Ahava) but not dig-verified camps for every day. Ahava canal location is uncertain — omit fake precision. Susa start for Nehemiah is strong as a place (SUS-01) but the road is schematic. Cyrus decree context ties to CYR-01 findspot packaging without claiming the cylinder is 'the biblical scroll.'",
+        "lsb_refs": [
+          "Ezra 1:1–11",
+          "Ezra 2:1–2",
+          "Ezra 7:1–10",
+          "Ezra 8:15–32",
+          "Nehemiah 1:1–4",
+          "Nehemiah 2:1–11",
+          "Haggai 1:1–8",
+          "Zechariah 1:1–6"
+        ],
+        "branches": [
+          {
+            "branch_id": "zerubbabel",
+            "branch_label": "Zerubbabel / Sheshbazzar return (Babylon → Jerusalem)"
+          },
+          {
+            "branch_id": "ezra",
+            "branch_label": "Ezra return (Babylon → Jerusalem)"
+          },
+          {
+            "branch_id": "nehemiah",
+            "branch_label": "Nehemiah journey (Susa → Jerusalem)"
+          }
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Babylon",
+            "lat": 32.54161,
+            "lng": 44.42075,
+            "pin_id": "BAB-01",
+            "also_pins": [
+              "CYR-01"
+            ],
+            "note": "Departure under Persian decree context",
+            "branch_id": "zerubbabel"
+          },
+          {
+            "seq": 2,
+            "name": "Carchemish corridor",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Euphrates–Levant corridor",
+            "branch_id": "zerubbabel"
+          },
+          {
+            "seq": 3,
+            "name": "Damascus hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "PIN GAP",
+            "branch_id": "zerubbabel"
+          },
+          {
+            "seq": 4,
+            "name": "Jerusalem / Temple Mount southern area",
+            "lat": 31.77579,
+            "lng": 35.23549,
+            "pin_id": "WW-01",
+            "also_pins": [
+              "COD-01,COD-02,COD-04",
+              "PR-17",
+              "PR-18"
+            ],
+            "note": "Return / rebuild focus",
+            "branch_id": "zerubbabel"
+          },
+          {
+            "seq": 1,
+            "name": "Babylon",
+            "lat": 32.54161,
+            "lng": 44.42075,
+            "pin_id": "BAB-01",
+            "note": "Ezra's departure region",
+            "branch_id": "ezra"
+          },
+          {
+            "seq": 2,
+            "name": "Carchemish corridor",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Same corridor family; Ahava staging omitted as unlocated",
+            "branch_id": "ezra"
+          },
+          {
+            "seq": 3,
+            "name": "Damascus hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "PIN GAP",
+            "branch_id": "ezra"
+          },
+          {
+            "seq": 4,
+            "name": "Jerusalem",
+            "lat": 31.77579,
+            "lng": 35.23549,
+            "pin_id": "WW-01",
+            "also_pins": [
+              "COD-01,COD-02,COD-04"
+            ],
+            "note": "Law / community restoration focus",
+            "branch_id": "ezra"
+          },
+          {
+            "seq": 1,
+            "name": "Susa (Shushan)",
+            "lat": 32.18916,
+            "lng": 48.25775,
+            "pin_id": "SUS-01",
+            "also_pins": [
+              "PR-06"
+            ],
+            "note": "Persian court setting",
+            "branch_id": "nehemiah"
+          },
+          {
+            "seq": 2,
+            "name": "Babylon region (corridor join)",
+            "lat": 32.54161,
+            "lng": 44.42075,
+            "pin_id": "BAB-01",
+            "note": "Join Mesopotamia–Levant corridor",
+            "branch_id": "nehemiah"
+          },
+          {
+            "seq": 3,
+            "name": "Carchemish",
+            "lat": 36.82967,
+            "lng": 38.01497,
+            "pin_id": "CAR-01",
+            "note": "Corridor",
+            "branch_id": "nehemiah"
+          },
+          {
+            "seq": 4,
+            "name": "Damascus hinge",
+            "lat": 33.51111,
+            "lng": 36.30639,
+            "note": "PIN GAP",
+            "branch_id": "nehemiah"
+          },
+          {
+            "seq": 5,
+            "name": "Jerusalem walls focus",
+            "lat": 31.77579,
+            "lng": 35.23549,
+            "pin_id": "WW-01",
+            "also_pins": [
+              "COD-01,COD-02,COD-04",
+              "JER-NT-03"
+            ],
+            "note": "Wall rebuild narrative — OT ridge / later Western Wall are different eras; keep honesty",
+            "branch_id": "nehemiah"
+          }
+        ],
+        "sources": [
+          "LSB Ezra 1–2; 7–8; Nehemiah 1–2; Haggai 1; Zechariah 1",
+          "Existing digs BAB-01, CYR-01, SUS-01, CAR-01, WW-01, COD-*",
+          "Trade-routes TR-08 reverse corridor precedent"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#059669",
+        "dash_array": "8 6",
+        "toggle_id": "tog-ev-return",
+        "ui_label": "Return from exile",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.20739,
+            31.70395
+          ],
+          [
+            35.1088,
+            31.52433
+          ],
+          [
+            34.84072,
+            31.24468
+          ],
+          [
+            31.30748,
+            30.1294
+          ],
+          [
+            34.84072,
+            31.24468
+          ],
+          [
+            35.29744,
+            32.70196
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-holy-family-egypt",
+        "layer": "event_route_holy_family_egypt",
+        "layer_key": "event_route_holy_family_egypt",
+        "name": "Holy Family early-life path (Bethlehem → Egypt → Nazareth)",
+        "short_blurb": "Event path for Matthew's flight to Egypt and return to Nazareth — endpoints reuse dig pins; no re-pinning Bethlehem/Nazareth.",
+        "claim": "Ordered tradition path: Bethlehem birth setting → Egyptian sojourn region → return to Nazareth, matching Matthew 2 narrative geography at atlas scale.",
+        "solidity": "mixed",
+        "caveats": "Bethlehem and Nazareth have dig/tradition pins; the Egyptian sojourn site is not fixed archaeologically. Later Christian traditions cluster around Nile Delta / Old Cairo / Heliopolis districts — we use HEL-01 (Heliopolis) as a cautious regional waypoint, not a proved 'house of the Holy Family' dig. Do not invent a precise desert GPS track. Skip re-telling nativity dig details; this is the travel path.",
+        "lsb_refs": [
+          "Matthew 2:1–12",
+          "Matthew 2:13–15",
+          "Matthew 2:19–23",
+          "Hosea 11:1"
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Bethlehem",
+            "lat": 31.70395,
+            "lng": 35.20739,
+            "pin_id": "BETHL-01",
+            "note": "Birth setting dig/tradition complex — endpoint only"
+          },
+          {
+            "seq": 2,
+            "name": "Hebron / hill-country south gate (schematic)",
+            "lat": 31.52433,
+            "lng": 35.1088,
+            "pin_id": "HEB-01",
+            "note": "Optional inland southward corridor node toward Egypt road systems"
+          },
+          {
+            "seq": 3,
+            "name": "Beersheba / Negev gate (schematic)",
+            "lat": 31.24468,
+            "lng": 34.84072,
+            "pin_id": "BEE-01",
+            "note": "Classic Egypt–Canaan corridor hinge"
+          },
+          {
+            "seq": 4,
+            "name": "Heliopolis / On district (Egypt sojourn — traditional regional)",
+            "lat": 30.1294,
+            "lng": 31.30748,
+            "pin_id": "HEL-01",
+            "also_pins": [
+              "MEM-01"
+            ],
+            "note": "Regional sojourn proxy — NOT a certified Holy Family house excavation"
+          },
+          {
+            "seq": 5,
+            "name": "Return via Negev gate",
+            "lat": 31.24468,
+            "lng": 34.84072,
+            "pin_id": "BEE-01",
+            "note": "Schematic return along Egypt–Canaan corridor"
+          },
+          {
+            "seq": 6,
+            "name": "Nazareth",
+            "lat": 32.70196,
+            "lng": 35.29744,
+            "pin_id": "NAZ-01",
+            "also_pins": [
+              "NAZ-02"
+            ],
+            "note": "Return / upbringing setting — existing dig pins"
+          }
+        ],
+        "sources": [
+          "LSB Matthew 2; Hosea 11:1 (Matthew's citation)",
+          "Existing digs BETHL-01, HEB-01, BEE-01, HEL-01, MEM-01, NAZ-01/02",
+          "Trade-routes TR-05 Egypt–Canaan corridor precedent",
+          "OpenBible.info / atlas Egypt–Canaan road geography (schematic)"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#0284c7",
+        "dash_array": "10 6",
+        "toggle_id": "tog-ev-holy-family",
+        "ui_label": "Holy Family Egypt path",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.26596,
+            31.76993
+          ],
+          [
+            35.23549,
+            31.77579
+          ],
+          [
+            35.2349,
+            31.77346
+          ],
+          [
+            35.2286,
+            31.7718
+          ],
+          [
+            35.24356,
+            31.77773
+          ],
+          [
+            35.235,
+            31.75
+          ],
+          [
+            35.2345,
+            31.78
+          ],
+          [
+            35.2295,
+            31.7785
+          ],
+          [
+            35.2296,
+            31.7784
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-passion-week",
+        "layer": "event_route_passion_week",
+        "layer_key": "event_route_passion_week",
+        "name": "Passion Week path (Jerusalem sites connected)",
+        "short_blurb": "Ordered event path linking existing Jerusalem/NT pins — upper room tradition through Gethsemane, trial loci, Golgotha — as a path, not new digs.",
+        "claim": "A sequential Passion narrative LineString connecting published map pins (Bethany, Olivet/arrest, Temple approaches, Caiaphas ossuary locus, Golgotha) with honest traditional waypoints where dig pins are missing (upper room; praetorium; tomb packaging).",
+        "solidity": "mixed",
+        "caveats": "Each stop has different certainty: Pool of Siloam / Pilgrimage Road archaeology is strong for Second Temple Jerusalem movement; Golgotha pin is traditional/contested packaging (Holy Sepulchre vs alternatives); Caiaphas pin is family ossuary findspot — not proven 'trial house'; Upper room (Cenacle) and Praetorium lack dedicated dig pins on our map; Garden Tomb vs Holy Sepulchre burial traditions remain debated. Path order follows Gospel sequence at tour scale — not a surveyed Via Dolorosa cadastral claim.",
+        "lsb_refs": [
+          "Matthew 26:17–30",
+          "Matthew 26:36–56",
+          "Matthew 26:57–68",
+          "Matthew 27:1–2",
+          "Matthew 27:27–54",
+          "Matthew 27:57–61",
+          "Matthew 28:1–10",
+          "Mark 14–16",
+          "Luke 22–24",
+          "John 13; 18–20"
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Bethany (arrival / lodging context)",
+            "lat": 31.76993,
+            "lng": 35.26596,
+            "pin_id": "BETH-01",
+            "also_pins": [
+              "JM-08"
+            ],
+            "note": "Existing Bethany pin; Lazarus miracle is separate JM beat"
+          },
+          {
+            "seq": 2,
+            "name": "Temple Mount approach / southern steps area",
+            "lat": 31.77579,
+            "lng": 35.23549,
+            "pin_id": "WW-01",
+            "also_pins": [
+              "JER-NT-03"
+            ],
+            "note": "Teaching / confrontation setting — Second Temple precinct approaches"
+          },
+          {
+            "seq": 3,
+            "name": "Pilgrimage Road / City of David ascent context",
+            "lat": 31.77346,
+            "lng": 35.2349,
+            "pin_id": "JER-NT-02",
+            "also_pins": [
+              "JER-NT-01",
+              "JER-NT-04"
+            ],
+            "note": "Strong archaeology for pilgrim movement; not a named Gospel 'station' invent"
+          },
+          {
+            "seq": 4,
+            "name": "Upper room tradition (Cenacle / Mt Zion) — no dig pin",
+            "lat": 31.7718,
+            "lng": 35.2286,
+            "note": "PIN GAP — traditional Last Supper locus; medieval/Crusader structure; not excavated 'apostolic room'"
+          },
+          {
+            "seq": 5,
+            "name": "Gethsemane / Olivet arrest",
+            "lat": 31.77773,
+            "lng": 35.24356,
+            "pin_id": "JM-20",
+            "also_pins": [
+              "OLIV-01"
+            ],
+            "note": "Arrest / Malchus beat already on miracles; Olivet tombs pin nearby"
+          },
+          {
+            "seq": 6,
+            "name": "Caiaphas family tomb / priestly elite locus",
+            "lat": 31.75,
+            "lng": 35.235,
+            "pin_id": "CAI-01",
+            "note": "Ossuary findspot supports Caiaphas historicity; does NOT prove the Gospel trial house footprint"
+          },
+          {
+            "seq": 7,
+            "name": "Praetorium / Roman trial tradition — no dig pin",
+            "lat": 31.78,
+            "lng": 35.2345,
+            "note": "PIN GAP — Antonia vs Herodian palace debate; approximate traditional zone only"
+          },
+          {
+            "seq": 8,
+            "name": "Golgotha / crucifixion",
+            "lat": 31.7785,
+            "lng": 35.2295,
+            "pin_id": "JM-GOLGOTHA",
+            "note": "Existing miracles pin — traditional Calvary packaging with contested alternatives"
+          },
+          {
+            "seq": 9,
+            "name": "Burial / resurrection locus (traditional — often same complex)",
+            "lat": 31.7784,
+            "lng": 35.2296,
+            "pin_id": "JM-GOLGOTHA",
+            "note": "No separate tomb dig pin; Holy Sepulchre tradition coincides near Golgotha pin — Garden Tomb is alternate (not pinned). Attach resurrection beat to JM-GOLGOTHA rather than inventing a dig."
+          }
+        ],
+        "sources": [
+          "LSB Matthew 26–28; Mark 14–16; Luke 22–24; John 13; 18–20",
+          "Existing NT digs JER-NT-01..05, WW-01, BETH-01, OLIV-01, CAI-01; miracles JM-20, JM-GOLGOTHA",
+          "IAA / City of David publications for Pilgrimage Road & Siloam (movement context)",
+          "Museum/catalog notes on Caiaphas ossuary (Israel Museum context) — historicity of name/family, not trial-house ID"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#be123c",
+        "dash_array": "6 5",
+        "toggle_id": "tog-ev-passion",
+        "ui_label": "Passion Week path",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            46.10526,
+            30.96169
+          ],
+          [
+            40.8881,
+            34.55053
+          ],
+          [
+            39.03278,
+            36.86444
+          ],
+          [
+            35.28167,
+            32.21355
+          ],
+          [
+            35.2383,
+            31.9283
+          ],
+          [
+            35.1088,
+            31.52433
+          ],
+          [
+            31.30748,
+            30.1294
+          ],
+          [
+            34.84072,
+            31.24468
+          ],
+          [
+            35.1088,
+            31.52433
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ROUTE-abraham-migration",
+        "layer": "event_route_abraham_migration",
+        "layer_key": "event_route_abraham_migration",
+        "name": "Abraham migration path (Ur → Haran → Canaan → Egypt sojourn → return)",
+        "short_blurb": "Patriarchal migration schematic using excavated Mesopotamian/Levant nodes — honest mixed rating.",
+        "claim": "Schematic LineString for Genesis 11–13 migration geography: Ur toward Haran, into Canaan (Shechem/Bethel/Hebron regions), Egypt sojourn, return to the Negev/Canaan.",
+        "solidity": "mixed",
+        "caveats": "Ur (UR-01) and many Canaan sites are excavated, but tying Middle Bronze / early second-millennium patriarchal dates to specific strata is debated. Haran has no dig pin on our map (OpenBible Harran coords). Egypt sojourn stop is regional (HEL-01/MEM-01), not a named Abraham house. Include because Scripture narrative + real sites exist — not because the path is 'proved GPS.'",
+        "lsb_refs": [
+          "Genesis 11:27–32",
+          "Genesis 12:1–9",
+          "Genesis 12:10–20",
+          "Genesis 13:1–4",
+          "Genesis 13:14–18",
+          "Hebrews 11:8–10"
+        ],
+        "waypoints": [
+          {
+            "seq": 1,
+            "name": "Ur",
+            "lat": 30.96169,
+            "lng": 46.10526,
+            "pin_id": "UR-01",
+            "note": "Mesopotamian dig endpoint"
+          },
+          {
+            "seq": 2,
+            "name": "Mari corridor (optional inland)",
+            "lat": 34.55053,
+            "lng": 40.8881,
+            "pin_id": "MAR-01",
+            "note": "Euphrates corridor context node"
+          },
+          {
+            "seq": 3,
+            "name": "Haran / Harran",
+            "lat": 36.86444,
+            "lng": 39.03278,
+            "note": "PIN GAP — OpenBible Harran; family sojourn locale"
+          },
+          {
+            "seq": 4,
+            "name": "Shechem",
+            "lat": 32.21355,
+            "lng": 35.28167,
+            "pin_id": "SHE-01",
+            "note": "First Canaan altar narrative region"
+          },
+          {
+            "seq": 5,
+            "name": "Bethel region",
+            "lat": 31.9283,
+            "lng": 35.2383,
+            "pin_id": "BET-01",
+            "note": "Traditional Bethel"
+          },
+          {
+            "seq": 6,
+            "name": "Hebron / Mamre region",
+            "lat": 31.52433,
+            "lng": 35.1088,
+            "pin_id": "HEB-01",
+            "note": "Settlement / altar tradition region"
+          },
+          {
+            "seq": 7,
+            "name": "Egypt sojourn (Heliopolis/Memphis regional)",
+            "lat": 30.1294,
+            "lng": 31.30748,
+            "pin_id": "HEL-01",
+            "also_pins": [
+              "MEM-01"
+            ],
+            "note": "Famine sojourn — regional, not a house dig"
+          },
+          {
+            "seq": 8,
+            "name": "Negev / Beersheba return gate",
+            "lat": 31.24468,
+            "lng": 34.84072,
+            "pin_id": "BEE-01",
+            "note": "Return toward Canaan"
+          },
+          {
+            "seq": 9,
+            "name": "Hebron region (re-settling)",
+            "lat": 31.52433,
+            "lng": 35.1088,
+            "pin_id": "HEB-01",
+            "note": "Return focus"
+          }
+        ],
+        "sources": [
+          "LSB Genesis 11–13; Hebrews 11:8–10",
+          "Existing digs UR-01, MAR-01, SHE-01, BET-01, HEB-01, HEL-01, MEM-01, BEE-01",
+          "OpenBible.info — Harran",
+          "Trade-routes TR-04 Mesopotamia–Levant corridor precedent"
+        ],
+        "status_kind": "none",
+        "feature_kind": "event_route",
+        "confidence": "mixed",
+        "color": "#a16207",
+        "dash_array": "10 6",
+        "toggle_id": "tog-ev-abraham",
+        "ui_label": "Abraham migration",
+        "notes": "Approximate story route — not a surveyed GPS track. See solidity and caveats."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4537105,
+          41.9021569
+        ]
+      },
+      "properties": {
+        "id": "AP-01",
+        "name": "Peter",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Simon Peter; Cephas",
+        "apostle_group": "Twelve",
+        "death_claim": "Circus of Nero / Vatican hill area (traditional martyrdom)",
+        "death_place": "Rome / Vatican; Vatican City / Italy",
+        "burial": "Tomb under high altar of St. Peter’s Basilica (Vatican Necropolis)",
+        "structure": "Papal Basilica of St. Peter (San Pietro in Vaticano)",
+        "address": "Piazza San Pietro, 00120 Città del Vaticano",
+        "mgrs": "33TTG8879142048",
+        "confidence": "traditional_site_identified",
+        "method": "Crucifixion upside-down (head downward) at Rome under Nero — church tradition; Foxe follows this.",
+        "last_statements": "not attested in early sources as a fixed farewell speech; legendary Acts of Peter narrate request to be crucified head-down (late apocryphal).",
+        "foxe": "Foxe (IX. Peter): born Bethsaida; fisherman; 'supposed to have suffered martyrdom at Rome during the reign of the emperor Nero, being crucified with his head downward, at his own request.' Edition note: Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero). Editor footnote doubts whether Peter visited Rome.",
+        "competing": "Skull relics also claimed at Lateran; some Protestant editors (incl. Foxe ed. note) doubt Rome visit.",
+        "notes": "Strong continuous tradition from 2nd–4th c. memorial under Constantinian basilica. 20th-c. Scavi found a 2nd-c. trophy and bones contested as Peter’s. Tradition ≠ excavated name-tag proof.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://www.basilicasanpietro.va/en/ (St Peter's Basilica official; Vatican Necropolis / Confessio); https://www.basilicasanpietro.va/en/san-pietro/the-necropolis (St Peter's Basilica official — Vatican Necropolis); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (IX. Peter); Eusebius Ecclesiastical History 2.25 (citing Gaius/Dionysius on tropaia at Vatican); Tertullian Scorpiace 15; Origen via Eusebius 3.1",
+        "last_statements_sources": "Acts of Peter (apocryphal; 2nd c. tradition) — legendary; no Synoptic/Acts farewell text for Peter’s death",
+        "biblical_or_early_refs": "John 21:18–19 (Jesus foreshadows Peter’s death); Acts; Eusebius HE 2.25; 1 Clement 5",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Peter” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Peter” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Modern investigation or memoria exists (e.g. Vatican necropolis Scavi for Peter; traditional Pauline/James sites), but no verified government/org-ordered excavation halt was found in sources checked for this pin.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Fabbrica di San Pietro (St. Peter’s Basilica / Vatican Necropolis)",
+          "type": "church",
+          "role": "Manages St. Peter’s Basilica, Vatican Necropolis (Scavi), and related papal basilica heritage.",
+          "contact_name": null,
+          "contact_title": "Guided Tours Office (Necropolis / Scavi)",
+          "contact_email": "visiteguidate@fsp.va",
+          "contact_phone": null,
+          "contact_url": "https://visite.basilicasanpietro.va/en/booking/necropolivaticana",
+          "notes": "Vatican Holy See authority for Petrine tomb tradition under papal altar.",
+          "official_website": "https://visite.basilicasanpietro.va/en/booking/necropolivaticana"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://visite.basilicasanpietro.va/en/booking/necropolivaticana",
+        "official_website_label": "Fabbrica di San Pietro — Vatican Necropolis",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.728056,
+          38.2425
+        ]
+      },
+      "properties": {
+        "id": "AP-02",
+        "name": "Andrew",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Andrew the First-Called",
+        "apostle_group": "Twelve",
+        "death_claim": "Patras (primary Greek tradition); Foxe says Edessa",
+        "death_place": "Patras, Achaia / Peloponnese; Greece",
+        "burial": "Cathedral of Saint Andrew, Patras (relics; skull returned from Rome 1964)",
+        "structure": "Cathedral Church of Saint Andrew (Hagios Andreas), Patras",
+        "address": "Agíou Andréou, Patras 262 22, Greece",
+        "mgrs": "34SEH6371032972",
+        "confidence": "competing_traditions",
+        "method": "Crucifixion on an X-shaped (saltire) cross — Foxe places this at Edessa; stronger Greek tradition places martyrdom at Patras (Achaia).",
+        "last_statements": "Acts of Andrew attributes farewell preaching from the cross (legendary apocryphal dialogue).",
+        "foxe": "Foxe (VII. Andrew): brother of Peter; preached in Asia; 'on his arrival at Edessa, he was taken and crucified on a cross, the two ends of which were fixed transversely in the ground' (St Andrew’s Cross). Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Foxe: Edessa crucifixion. Major relic shrine also Amalfi Cathedral (Italy). Prefer Patras as living Orth. pilgrimage burial/memory site.",
+        "notes": "Foxe’s Edessa locale differs from Patras. Relics translated repeatedly (Constantinople, Amalfi, Rome, Patras). Map pin = Patras cathedral shrine today.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://www.agiosandreas.gr/life-of-saint-andrew (Ιερός Ναός Αγίου Ανδρέα, Patras official); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (VII. Andrew); Acts of Andrew (apocryphal); later Patras episcopal tradition; Britannica / Orthodox synaxaria",
+        "last_statements_sources": "Acts of Andrew (apocryphal) — legendary; not NT",
+        "biblical_or_early_refs": "John 1:40–42; Acts; Eusebius HE 3.1 (Andrew to Scythia — different mission tradition)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Andrew” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Andrew” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Holy Metropolis of Patras — Cathedral of Saint Andrew (Greece)",
+          "type": "church",
+          "role": "Orthodox cathedral housing Andrew relics tradition in Patras.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.im-patras.gr/",
+          "notes": "Church diocese/cathedral authority. Email not verified this pass — portal only.",
+          "official_website": "https://www.im-patras.gr/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.im-patras.gr/",
+        "official_website_label": "Holy Metropolis of Patras — Cathedral of Saint Andrew (Greece)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5446277,
+          42.8804004
+        ]
+      },
+      "properties": {
+        "id": "AP-03",
+        "name": "James son of Zebedee",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "James the Great; James Major",
+        "apostle_group": "Twelve",
+        "death_claim": "Jerusalem (execution under Agrippa)",
+        "death_place": "Jerusalem, Judea; Israel / Palestine",
+        "burial": "Traditional translation claim: tomb under Santiago de Compostela Cathedral (Spain)",
+        "structure": "Metropolitan Cathedral Basilica of St. James (Santiago de Compostela)",
+        "address": "Praza do Obradoiro, s/n, 15704 Santiago de Compostela, A Coruña, Spain",
+        "mgrs": "29TNH3718847634",
+        "confidence": "legendary_uncertain",
+        "method": "Beheading by sword under Herod Agrippa I in Judea (Acts 12:1–2) — earliest NT-attested apostolic martyrdom.",
+        "last_statements": "Clement (via Eusebius/Foxe): accuser asked James’s pardon and was beheaded with him — no preserved last words of James beyond that narrative.",
+        "foxe": "Foxe (II. James the Great): son of Zebedee; beheaded with his repentant accuser under Herod Agrippa; events A.D. 44 (Acts). Clemens Alexandrinus anecdote of accuser’s conversion. Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Death in Jerusalem is biblical; Compostela burial is medieval pilgrimage legend (9th-c. rediscovery story). No early Jerusalem tomb archaeology tied to James Major.",
+        "notes": "Map pin marks Compostela cathedral crypt tradition (pilgrimage), NOT excavated proof of James’s bones. Death site Jerusalem is historically stronger than Spanish burial claim.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://catedraldesantiago.es/ (Catedral de Santiago official); https://catedraldesantiago.es/",
+        "method_sources": "Acts 12:1–2; https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (II. James the Great); Eusebius HE 2.9 (citing Clement of Alexandria)",
+        "last_statements_sources": "Eusebius HE 2.9; Foxe summarizing Clement of Alexandria",
+        "biblical_or_early_refs": "Acts 12:1–2; Mark 10:39; Eusebius HE 2.9",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James son of Zebedee” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James son of Zebedee” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Archdiocese of Santiago de Compostela — Cathedral of St. James",
+          "type": "church",
+          "role": "Catholic cathedral managing the Compostela shrine tradition of James.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://catedraldesantiago.es/",
+          "notes": "Spanish cathedral/archdiocese. Death traditionally Jerusalem; burial pin is Compostela translation claim.",
+          "official_website": "https://catedraldesantiago.es/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://catedraldesantiago.es/",
+        "official_website_label": "Cathedral of Santiago de Compostela",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3676226,
+          37.9525405
+        ]
+      },
+      "properties": {
+        "id": "AP-04",
+        "name": "John",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "John son of Zebedee; the Beloved Disciple (traditional ID)",
+        "apostle_group": "Twelve",
+        "death_claim": "Ephesus (traditional natural death ~end of 1st c.)",
+        "death_place": "Ephesus / Selçuk, İzmir; Turkey",
+        "burial": "Tomb under Justinianic Basilica of St. John on Ayasuluk Hill",
+        "structure": "Ruins of Basilica of Saint John the Theologian (Ayasuluk / Selçuk)",
+        "address": "St. Jean Cd., Atatürk Mah., Selçuk 35920, İzmir, Türkiye",
+        "mgrs": "35SNC3229700613",
+        "confidence": "traditional_site_identified",
+        "method": "Foxe: no violent death (natural death after exile). Separate Domitian boiling-oil legend is martyrological, not fatal.",
+        "last_statements": "Late traditions attribute short farewell sayings at Ephesus (e.g. 'Little children, love one another') — reported by Jerome; legendary/homiletic.",
+        "foxe": "Foxe (XVI. John): boiled in oil at Rome (unhurt); banished to Patmos; wrote Revelation; recalled under Nerva; 'the only apostle who escaped a violent death.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Tomb chamber excavated empty; relics claimed elsewhere historically. Patmos = exile, not burial.",
+        "notes": "Basilica marks continuous Christian memory of John’s grave. Empty tomb + late building = tradition marker, not DNA-level ID.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://vici.org/vici/26167/ (Basilica of St John, Ephesus; archaeological gazetteer); https://vici.org/vici/26167/",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (XVI. John); Irenaeus AH 2.22.5 / 3.3.4 (John lived to Trajan); Tertullian De praescriptione 36 (oil legend)",
+        "last_statements_sources": "Jerome Commentary on Galatians 6:10 (anecdote); not in NT as deathbed speech",
+        "biblical_or_early_refs": "John 21:20–24; Revelation 1:9 (Patmos); Irenaeus; Eusebius HE 3.1, 3.23",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “John” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “John” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Turkish MoC (Basilica of St. John, Selçuk / Ayasuluk) + Ephesus Museum directorate",
+          "type": "national_antiquities",
+          "role": "Oversees museums, archaeological sites (örenyerleri), and excavation permits in Türkiye.",
+          "contact_name": null,
+          "contact_title": "General Directorate contact",
+          "contact_email": "kulturvarlikmuze@ktb.gov.tr",
+          "contact_phone": "+90-312-470-6464",
+          "contact_url": "https://kvmgm.ktb.gov.tr/TR-138338/merkez-teskilati-iletisim-bilgileri.html",
+          "notes": "Ruin of Justinianic basilica under Turkish MoC site management.",
+          "official_website": "https://muze.gov.tr/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://muze.gov.tr/",
+        "official_website_label": "Türkiye Museums (MoC)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.130716,
+          37.930748
+        ]
+      },
+      "properties": {
+        "id": "AP-05",
+        "name": "Philip",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Philip the Apostle (distinct from Philip the Evangelist in Acts 6–8)",
+        "apostle_group": "Twelve",
+        "death_claim": "Hierapolis in Phrygia (Foxe: Heliopolis in Phrygia)",
+        "death_place": "Hierapolis / Pamukkale, Denizli; Turkey",
+        "burial": "Martyrium / Church of St. Philip complex on the hill above Hierapolis",
+        "structure": "Ruins of St. Philip Martyrium & nearby early church (Hierapolis archaeological site)",
+        "address": "Hierapolis-Pamukkale archaeological site, Pamukkale, Denizli, Türkiye",
+        "mgrs": "35SPC8725700272",
+        "confidence": "traditional_site_identified",
+        "method": "Foxe: scourging, prison, crucifixion at Heliopolis in Phrygia. Hierapolis (Phrygia) is the site usually meant; archaeology centers on Philip’s martyrium there.",
+        "last_statements": "not attested in early sources (apocryphal Acts of Philip has dialogues — legendary).",
+        "foxe": "Foxe (III. Philip): Bethsaida; labored in Upper Asia; martyred at Heliopolis in Phrygia — scourged, imprisoned, crucified A.D. 54. Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Relics of Philip (with James the Less) claimed in crypt of Santi Apostoli, Rome. Map prefers Hierapolis death/burial memory; Rome = translated relics.",
+        "notes": "2011 announcement of a 1st–5th c. tomb complex near the martyrium is debated as ‘the’ Philip tomb. Tradition is strong locally; identification still scholarly discussion.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://vici.org/vici/24093/; https://whc.unesco.org/en/list/485/ (Hierapolis-Pamukkale UNESCO; Martyrium of St Philip); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (III. Philip); Acts of Philip (apocryphal); Polycrates of Ephesus via Eusebius HE 3.31 (Philip at Hierapolis)",
+        "last_statements_sources": "Acts of Philip — legendary",
+        "biblical_or_early_refs": "John 1:43–46; 6:5–7; 12:21–22; 14:8–9; Eusebius HE 3.31",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Philip” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Philip” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Turkish MoC — Hierapolis-Pamukkale archaeological site (St. Philip Martyrium)",
+          "type": "national_antiquities",
+          "role": "Oversees museums, archaeological sites (örenyerleri), and excavation permits in Türkiye.",
+          "contact_name": null,
+          "contact_title": "General Directorate contact",
+          "contact_email": "kulturvarlikmuze@ktb.gov.tr",
+          "contact_phone": "+90-312-470-6464",
+          "contact_url": "https://kvmgm.ktb.gov.tr/TR-138338/merkez-teskilati-iletisim-bilgileri.html",
+          "notes": "Martyrium within Hierapolis archaeological site / UNESCO WH.",
+          "official_website": "https://muze.gov.tr/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://muze.gov.tr/",
+        "official_website_label": "Türkiye Museums (MoC)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4783508,
+          41.8902716
+        ]
+      },
+      "properties": {
+        "id": "AP-06",
+        "name": "Bartholomew",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Nathanael (traditional identification with John 1:45–51)",
+        "apostle_group": "Twelve",
+        "death_claim": "Traditional: Albanopolis / Armenia (or India per Foxe mission end)",
+        "death_place": "Armenia (dominant Western/Eastern tradition) / India (Foxe); Armenia / historical Caucasian Albania region (contested)",
+        "burial": "Relics enshrined in Basilica of St. Bartholomew on Tiber Island, Rome (translated via Lipari/Benevento)",
+        "structure": "Basilica di San Bartolomeo all’Isola",
+        "address": "Piazza di San Bartolomeo all'Isola, 00186 Roma RM, Italy",
+        "mgrs": "33TTG9079740668",
+        "confidence": "competing_traditions",
+        "method": "Foxe: beaten then crucified. Wider tradition often adds flaying (excoriation) then beheading, esp. in Armenia (Albanopolis) accounts.",
+        "last_statements": "not attested in early sources",
+        "foxe": "Foxe (XII. Bartholomew): preached widely; translated Matthew’s gospel into language of India; 'cruelly beaten and then crucified by the impatient idolaters.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Death locale varies (India vs Armenia). Relic trail: Armenia → Lipari → Benevento → Rome. Armenian St Bartholomew Monastery (Başkale) is another memory site.",
+        "notes": "Rome basilica is a relic shrine after multiple translations, not the original grave. Death place uncertain.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm (GCatholic Apostles churches / relics index); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (XII. Bartholomew); later martyrologies; Armenian tradition summaries (e.g. Britannica Bartholomew)",
+        "last_statements_sources": "n/a",
+        "biblical_or_early_refs": "Mark 3:18; Matt 10:3; Luke 6:14; Acts 1:13; Eusebius HE 5.10 (Pantaenus & Matthew in India tradition)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Bartholomew” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Bartholomew” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Basilica di San Bartolomeo all’Isola (Rome) — Franciscan / church authority",
+          "type": "church",
+          "role": "Basilica on Tiber Island holding Bartholomew relics tradition.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.sanbartolomeo.org/",
+          "notes": "Church shrine; portal used; email not verified.",
+          "official_website": "https://www.sanbartolomeo.org/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.sanbartolomeo.org/",
+        "official_website_label": "Basilica di San Bartolomeo all’Isola (Rome) — Franciscan / church authority",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.27777778,
+          13.03361111
+        ]
+      },
+      "properties": {
+        "id": "AP-07",
+        "name": "Thomas",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Didymus; Doubting Thomas",
+        "apostle_group": "Twelve",
+        "death_claim": "Near Mylapore / St. Thomas Mount, Chennai (traditional)",
+        "death_place": "Chennai (Madras), Tamil Nadu; India",
+        "burial": "San Thome / St. Thomas Cathedral Basilica over traditional tomb, Mylapore",
+        "structure": "St. Thomas Cathedral Basilica (San Thome Basilica)",
+        "address": "Santhome High Rd, Mylapore, Chennai, Tamil Nadu 600004, India",
+        "mgrs": "44PMV2168940963",
+        "confidence": "competing_traditions",
+        "method": "Speared to death (lance) in India — Foxe and Syriac/Indian Thomas tradition (often Mylapore / St Thomas Mount).",
+        "last_statements": "Acts of Thomas gives extended farewell/prayer scenes before death — legendary apocryphal.",
+        "foxe": "Foxe (XIII. Thomas): preached in Parthia and India; 'martyred by being thrust through with a spear' by pagan priests. Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Major translated relics also at Ortona, Italy (Basilica di San Tommaso). Edessa held relics earlier. Map prefers Indian tomb-church tradition matching Foxe’s India death.",
+        "notes": "Portuguese-era basilica over a long-venerated tomb; archaeology does not prove apostolic bones. Dual India/Ortona relic claims are normal for medieval translations.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://santhomechurch.org/ (St. Thomas Cathedral Basilica, Santhome, Chennai official); https://santhomechurch.org/ (Santhome / Thomas tradition; Acts of Thomas apocryphal); Ortona: https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (XIII. Thomas); Acts of Thomas (apocryphal); Indian Christian tradition; https://santhomechurch.org/ (Santhome / Thomas tradition; Acts of Thomas apocryphal)",
+        "last_statements_sources": "Acts of Thomas — legendary",
+        "biblical_or_early_refs": "John 11:16; 14:5; 20:24–29; 21:2; Eusebius HE 3.1 (Thomas to Parthia)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thomas” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thomas” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Archdiocese of Madras-Mylapore — St. Thomas Cathedral Basilica (San Thome)",
+          "type": "church",
+          "role": "Catholic cathedral over traditional Thomas tomb at Mylapore, Chennai.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.archdioceseofmadrasmylapore.org/",
+          "notes": "Church archdiocese authority. Portal used.",
+          "official_website": "https://www.archdioceseofmadrasmylapore.org/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.archdioceseofmadrasmylapore.org/",
+        "official_website_label": "Archdiocese of Madras-Mylapore — St. Thomas Cathedral Basilica (San Thome)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.76027778,
+          40.68
+        ]
+      },
+      "properties": {
+        "id": "AP-08",
+        "name": "Matthew",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Levi; Matthew the Evangelist (traditional)",
+        "apostle_group": "Twelve",
+        "death_claim": "Nadabah, Ethiopia (Foxe; exact ancient town uncertain)",
+        "death_place": "Ethiopia (Foxe) / other traditions: Persia or elsewhere; Ethiopia (traditional per Foxe)",
+        "burial": "Relics traditionally under Salerno Cathedral (Italy)",
+        "structure": "Salerno Cathedral (Cattedrale di Salerno) — Primatial Cathedral Basilica of Our Lady of the Angels, St. Matthew and St. Gregory VII",
+        "address": "Via Duomo, 84121 Salerno SA, Italy",
+        "mgrs": "33TVF7974103262",
+        "confidence": "competing_traditions",
+        "method": "Killed with a halberd (axe-like weapon) at Nadabah in Ethiopia — per Foxe. Other traditions vary (natural death or different locale).",
+        "last_statements": "not attested in early sources",
+        "foxe": "Foxe (IV. Matthew): toll-gatherer; gospel in Hebrew; labors in Parthia and Ethiopia; 'slain with a halberd in the city of Nadabah, A.D. 60.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Death city Nadabah not securely mapped. Salerno holds translated relics from medieval translation claims.",
+        "notes": "Map pin = Salerno relic cathedral, not excavated Ethiopian grave. Foxe’s Nadabah remains city-level legendary.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://www.cattedraledisalerno.it/ (Duomo di Salerno / Cripta San Matteo official); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (IV. Matthew); later martyrologies; https://www.cattedraledisalerno.it/ (Salerno Cathedral crypt tradition for Matthew)",
+        "last_statements_sources": "n/a",
+        "biblical_or_early_refs": "Matt 9:9; 10:3; Mark 2:14; Luke 5:27–28; Acts 1:13; Papias via Eusebius HE 3.39 (Hebrew sayings)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Matthew” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Matthew” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Archdiocese of Salerno-Campagna-Acerno — Salerno Cathedral",
+          "type": "church",
+          "role": "Cathedral traditionally housing Matthew relics.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.diocesisalerno.it/",
+          "notes": "Church archdiocese. Portal only; email not verified.",
+          "official_website": "https://www.diocesisalerno.it/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.diocesisalerno.it/",
+        "official_website_label": "Archdiocese of Salerno-Campagna-Acerno",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4834854,
+          41.8981483
+        ]
+      },
+      "properties": {
+        "id": "AP-09",
+        "name": "James son of Alphaeus",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "James the Less; James Minor (often conflated with James the Just — see AP-14)",
+        "apostle_group": "Twelve",
+        "death_claim": "Jerusalem (Temple area tradition for James the Just / Foxe’s James the Less)",
+        "death_place": "Jerusalem; Israel / Palestine",
+        "burial": "Western relic claim: crypt of Basilica of the Twelve Holy Apostles (with Philip), Rome",
+        "structure": "Basilica dei Santi XII Apostoli (Santi Apostoli)",
+        "address": "Piazza dei Santi Apostoli, 00187 Roma RM, Italy",
+        "mgrs": "33TTG9124841530",
+        "confidence": "competing_traditions",
+        "method": "Per Foxe’s merged account: beaten, stoned, fuller’s club to the head (Josephus/Hegesippus material usually applied to James the Just).",
+        "last_statements": "Hegesippus (via Eusebius): from the Temple pinnacle James prayed 'Father, forgive them…' before being clubbed — attributed to James the Just; legendary-homiletic coloring likely.",
+        "foxe": "Foxe (V. James the Less): some call him brother of the Lord; overseer of Jerusalem churches; author of epistle; at 94 'beat and stoned by the Jews; and finally had his brains dashed out with a fuller’s club.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero). NOTE: Foxe merges James the Less with James the Just tr",
+        "competing": "Foxe conflates James son of Alphaeus with James the Just. Jerusalem Armenian Cathedral of St James claims James the Just’s head/tomb memory (see AP-14). Rome Santi Apostoli = translated relics for ‘James Minor’ with Philip.",
+        "notes": "Honesty: two (or three) James figures are tangled in tradition. This row maps Rome’s Santi Apostoli relic tradition for James the Less; see AP-14 for Jerusalem James the Just.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm; https://gcatholic.org/churches/list/Apostles.htm (GCatholic Apostles churches index)",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (V. James the Less); Hegesippus via Eusebius HE 2.23; Josephus Antiquities 20.9.1 (James brother of Jesus)",
+        "last_statements_sources": "Eusebius HE 2.23 (Hegesippus)",
+        "biblical_or_early_refs": "Mark 3:18; Matt 10:3; Luke 6:15; Acts 1:13; (Just: Gal 1:19; Acts 15; Josephus Ant. 20.9.1)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James son of Alphaeus” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James son of Alphaeus” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Basilica dei Santi XII Apostoli (Rome) — Franciscan Conventual",
+          "type": "church",
+          "role": "Basilica crypt tradition for James son of Alphaeus (with Philip relics claim).",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.santapostoli.it/",
+          "notes": "Church basilica. Portal used.",
+          "official_website": "https://www.santapostoli.it/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.santapostoli.it/",
+        "official_website_label": "Basilica dei Santi XII Apostoli (Rome) — Franciscan Conventual",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.5443813,
+          39.0923665
+        ]
+      },
+      "properties": {
+        "id": "AP-10",
+        "name": "Thaddaeus / Jude",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Jude; Judas son of James; Lebbaeus",
+        "apostle_group": "Twelve",
+        "death_claim": "Edessa (Foxe)",
+        "death_place": "Edessa (Şanlıurfa region); Turkey (modern Şanlıurfa area) / historical Osroene",
+        "burial": "Relics traditionally behind altar of St. Joseph in St. Peter’s Basilica (with Simon); Armenian St. Thaddeus Monastery (Qara Kelisa) is major Eastern memory site",
+        "structure": "Saint Thaddeus Monastery (Qara Kelisa / Kara Kilise) — primary Eastern pilgrimage pin",
+        "address": "Qara Kelisa, Chaldoran County, West Azerbaijan Province, Iran",
+        "mgrs": "38SMJ6059827125",
+        "confidence": "competing_traditions",
+        "method": "Crucifixion at Edessa (Foxe). Other traditions: club/axe in Persia with Simon.",
+        "last_statements": "not attested in early sources",
+        "foxe": "Foxe (XI. Jude): brother of James, commonly called Thaddeus; 'crucified at Edessa, A.D. 72.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Foxe death at Edessa; Rome St Peter’s claims shared relics with Simon; Reims and other Western shrines also claim relics. Pin = UNESCO-listed Armenian monastery of St Thaddeus.",
+        "notes": "No secure early tomb archaeology at Edessa for Jude. Monastery and Roman relic claims are medieval/continuous tradition.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm (GCatholic Apostles churches index); https://whc.unesco.org/en/list/1262/ (UNESCO Armenian Monastic Ensembles of Iran — St Thaddeus); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (XI. Jude); later martyrologies; Armenian Thaddeus traditions",
+        "last_statements_sources": "n/a",
+        "biblical_or_early_refs": "Luke 6:16; John 14:22; Acts 1:13; Epistle of Jude (traditional attribution debated)",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thaddaeus / Jude” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thaddaeus / Jude” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Armenian Apostolic Church — Saint Thaddeus Monastery (Qara Kelisa) + Iranian cultural heritage",
+          "type": "mixed",
+          "role": "UNESCO-listed Armenian monastery; Iranian heritage ministry regulates site fabric; church pilgrimage authority.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": "+98-21-33953000",
+          "contact_url": "https://whc.unesco.org/en/list/1262/",
+          "notes": "Eastern pilgrimage pin. Dual church + Iranian heritage. Also Western relic tradition at St. Peter’s with Simon.",
+          "official_website": "https://whc.unesco.org/en/list/1262/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://whc.unesco.org/en/list/1262/",
+        "official_website_label": "UNESCO — Armenian Monastic Ensembles (St. Thaddeus)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8163244,
+          43.0904689
+        ]
+      },
+      "properties": {
+        "id": "AP-11",
+        "name": "Simon the Zealot",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Simon Zelotes; Simon the Canaanite",
+        "apostle_group": "Twelve",
+        "death_claim": "Britain (Foxe); alternate Persia / Caucasus",
+        "death_place": "Britain (Foxe) / New Athos tradition for Caucasian burial memory; United Kingdom (Foxe death) / Abkhazia (burial church tradition)",
+        "burial": "Church of the Holy Apostle Simon the Canaanite, New Athos (popular Eastern shrine); also relics with Jude in St. Peter’s",
+        "structure": "Church of the Apostle Simon the Canaanite (New Athos)",
+        "address": "New Athos (Akhali Atoni), Gudauta District, Abkhazia",
+        "mgrs": "37TFH4782972462",
+        "confidence": "competing_traditions",
+        "method": "Foxe: crucified in Britain. Competing traditions: sawn asunder or martyred in Persia with Jude; Caucasian tradition of death near Abkhazia.",
+        "last_statements": "not attested in early sources",
+        "foxe": "Foxe (XV. Simon): surnamed Zelotes; preached in Mauritania, Africa, and Britain; 'which latter country he was crucified, A.D. 74.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Foxe Britain crucifixion lacks early corroboration. Map uses New Athos church as a concrete geocoded shrine tied to Simon Canaanite tradition; Rome shares relic claim with Jude.",
+        "notes": "Highly legendary geography. Pin is a named apostle church, not proven grave of the NT Simon.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm (GCatholic Apostles churches index); Nominatim/OSM church at New Athos",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (XV. Simon); Western/Eastern martyrologies; Abkhaz New Athos tradition",
+        "last_statements_sources": "n/a",
+        "biblical_or_early_refs": "Matt 10:4; Mark 3:18; Luke 6:15; Acts 1:13",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Simon the Zealot” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Simon the Zealot” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Church of the Apostle Simon the Canaanite (New Athos) — Abkhazia / contested region",
+          "type": "church",
+          "role": "Eastern shrine tradition at New Athos; political status of Abkhazia is contested (Georgia/Russia).",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": null,
+          "notes": "UNKNOWN clear internationally recognized managing office email. Contested territorial status. Also competing relic tradition at St. Peter’s with Jude."
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63194444,
+          49.73805556
+        ]
+      },
+      "properties": {
+        "id": "AP-12",
+        "name": "Matthias",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Matthias the Apostle (replacement for Judas Iscariot)",
+        "apostle_group": "Twelve",
+        "death_claim": "Jerusalem (Foxe)",
+        "death_place": "Jerusalem; Israel / Palestine",
+        "burial": "Crypt tomb tradition at St. Matthias’ Abbey / Basilica, Trier (translated relics)",
+        "structure": "Benedictine Abbey Basilica of St. Matthias (Trier)",
+        "address": "Matthiasstraße 85, 54290 Trier, Germany",
+        "mgrs": "32ULA2937612198",
+        "confidence": "competing_traditions",
+        "method": "Stoned then beheaded at Jerusalem (Foxe). Other traditions: crucifixion in Colchis/Ethiopia variants.",
+        "last_statements": "not attested in early sources",
+        "foxe": "Foxe (VI. Matthias): elected to fill Judas’s place; 'stoned at Jerusalem and then beheaded.' Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Death in Jerusalem per Foxe; Trier claims apostolic relics uniquely in German-speaking lands. Jerusalem grave not securely identified.",
+        "notes": "Trier crypt is a relic translation shrine. Foxe’s Jerusalem stoning/beheading is martyrological, not archaeologically fixed.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://abteistmatthias.de/ (Benediktinerabtei St. Matthias, Trier official); https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (VI. Matthias); later martyrologies; https://abteistmatthias.de/ (Benediktinerabtei St. Matthias, Trier official)",
+        "last_statements_sources": "n/a",
+        "biblical_or_early_refs": "Acts 1:15–26",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Matthias” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Matthias” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Benedictine Abbey of St. Matthias (Trier, Germany)",
+          "type": "church",
+          "role": "Abbey basilica holding Matthias relics translation tradition.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.abteistmatthias.de/",
+          "notes": "Church abbey. German monument protection also applies. Portal used; email not verified.",
+          "official_website": "https://www.abteistmatthias.de/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.abteistmatthias.de/",
+        "official_website_label": "Abbey of St. Matthias (Trier)",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4767833,
+          41.8586971
+        ]
+      },
+      "properties": {
+        "id": "AP-13",
+        "name": "Paul",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Saul of Tarsus; Apostle to the Gentiles",
+        "apostle_group": "Paul",
+        "death_claim": "Along the Ostian Way (Aquae Salviae / Tre Fontane tradition for beheading)",
+        "death_place": "Rome; Italy",
+        "burial": "Tomb under papal altar of St. Paul Outside the Walls",
+        "structure": "Papal Basilica of St. Paul Outside the Walls (San Paolo fuori le Mura)",
+        "address": "Piazzale San Paolo, 1, 00146 Roma RM, Italy",
+        "mgrs": "33TTG9056337166",
+        "confidence": "traditional_site_identified",
+        "method": "Beheading by sword at Rome under Nero (citizen’s execution). Tertullian compares Paul’s beheading to John the Baptist’s (and Peter’s cross to Jesus’) as the apostolic pattern of matching their Lord’s mode of death by analogy of dignity.",
+        "last_statements": "2 Timothy 4:6–8 commonly read as Paul’s farewell (‘I am already being poured out as a drink offering… I have finished the race’). No separate non-Christian transcript of scaffold words; later Acts of Paul have legendary speeches.",
+        "foxe": "Foxe (X. Paul): Jew of Benjamin, Tarsus; persecutions then prisoner at Rome; released; later Spain/France tradition; returning to Rome 'apprehended by order of Nero, and beheaded.' Also noted under Nero persecution with Peter. Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "Beheading locus often Tre Fontane abbey; burial basilica on Via Ostiense. Both traditional.",
+        "notes": "Sarcophagus under altar documented; inscription tradition PAULO APOSTOLO MART. Remains not forensically proven as Paul, but site continuity from Constantinian memoria is strong for a memorial tomb.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://basilicasanpaolo.org/en/tomb/; https://www.vatican.va/various/basiliche/san_paolo/en/basilica/tomba.htm; https://www.vatican.va/various/basiliche/san_paolo/en/basilica/tomba.htm (Papal Basilica St Paul Outside-the-Walls tomb page)",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm (X. Paul; Nero persecution); Tertullian Scorpiace 15 / Prescription against Heretics 36; Eusebius HE 2.25; 1 Clement 5; Dionysius of Corinth via Eusebius; Vatican: https://basilicasanpaolo.org/en/tomb/",
+        "last_statements_sources": "2 Timothy 4:6–8 (canonical; farewell reading debated as literary); Acts of Paul — legendary; 1 Clement 5 (martyrdom without words)",
+        "biblical_or_early_refs": "Acts 21–28; 2 Tim 4:6–8; 1 Clement 5; Eusebius HE 2.22–25; Tertullian",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Paul” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Paul” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Modern investigation or memoria exists (e.g. Vatican necropolis Scavi for Peter; traditional Pauline/James sites), but no verified government/org-ordered excavation halt was found in sources checked for this pin.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Papal Basilica of St. Paul Outside the Walls (Holy See extraterritorial)",
+          "type": "church",
+          "role": "Papal basilica over traditional Pauline tomb.",
+          "contact_name": null,
+          "contact_title": "Basilica information",
+          "contact_email": "info@basilicasanpaolo.org",
+          "contact_phone": null,
+          "contact_url": "https://basilicasanpaolo.org/contatti/",
+          "notes": "Holy See extraterritorial property in Rome — not ordinary Italian MiC.",
+          "official_website": "https://basilicasanpaolo.org/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://basilicasanpaolo.org/",
+        "official_website_label": "Basilica of St. Paul Outside the Walls",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22888889,
+          31.77444444
+        ]
+      },
+      "properties": {
+        "id": "AP-14",
+        "name": "James the Just",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "James the brother of Jesus; James of Jerusalem",
+        "apostle_group": "Other apostolic",
+        "death_claim": "Jerusalem — Temple Mount vicinity (Hegesippus)",
+        "death_place": "Jerusalem; Israel / Palestine",
+        "burial": "Armenian Cathedral of St. James (Armenian Quarter) — traditional seat/tomb memory of James",
+        "structure": "Cathedral of St. James (Armenian Patriarchate of Jerusalem)",
+        "address": "Armenian Patriarchate Rd, Armenian Quarter, Old City, Jerusalem",
+        "mgrs": "36RYA1106817597",
+        "confidence": "traditional_site_identified",
+        "method": "Thrown/pushed from Temple height, stoned, then struck with fuller’s club (Hegesippus); Josephus: stoned after Sanhedrin condemnation under high priest Ananus (~62 CE).",
+        "last_statements": "Hegesippus: prayed for his killers (‘Lord God, Father, forgive them…’) while being stoned — early but second-hand; honesty: may be stylized.",
+        "foxe": "Covered inside Foxe’s ‘James the Less’ entry (V): Jerusalem leadership; beaten/stoned; fuller’s club. Treated here as separate row because Josephus names James brother of Jesus, and Armenian Jerusalem tradition centers on him. Foxe's Book of Martyrs (Project Gutenberg EBook #22400, compiled/abridged English edition; Ch. I History of Christian Martyrs to Nero).",
+        "competing": "See also AP-09 Rome Santi Apostoli for ‘James Minor’ relics. Kidron ‘Tomb of St James’ is a separate monumental tomb misattribution.",
+        "notes": "Josephus gives non-Christian attestation of James’s death in Jerusalem. Cathedral marks living Armenian tradition; exact grave under church is tradition, not modern forensic proof.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm (St James Cathedral / Armenian Quarter tradition; cf. Josephus Ant. 20.9.1); Josephus Ant. 20.9.1",
+        "method_sources": "Josephus Antiquities 20.9.1; Hegesippus via Eusebius HE 2.23; Foxe V (merged); Josephus Antiquities 20.9.1; Eusebius HE 2.23 (Hegesippus); https://gcatholic.org/churches/list/Apostles.htm",
+        "last_statements_sources": "Eusebius HE 2.23 (Hegesippus)",
+        "biblical_or_early_refs": "Gal 1:19; 2:9; Acts 15; 21:18; Josephus Ant. 20.9.1; Eusebius HE 2.23",
+        "site_variant": "primary",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James the Just” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “James the Just” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "Modern investigation or memoria exists (e.g. Vatican necropolis Scavi for Peter; traditional Pauline/James sites), but no verified government/org-ordered excavation halt was found in sources checked for this pin.",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Armenian Patriarchate of Jerusalem — Cathedral of St. James",
+          "type": "church",
+          "role": "Armenian Patriarchate cathedral; traditional seat/tomb memory of James the Just.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.armenian-patriarchate.com/",
+          "notes": "Church patriarchate authority. Portal used; email not verified this pass.",
+          "official_website": "https://www.armenian-patriarchate.com/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.armenian-patriarchate.com/",
+        "official_website_label": "Armenian Patriarchate of Jerusalem — Cathedral of St. James",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4043901,
+          42.3572057
+        ]
+      },
+      "properties": {
+        "id": "AP-07b",
+        "name": "Thomas",
+        "layer": "apostle_martyrdom",
+        "also_known_as": "Didymus (Ortona relic shrine variant)",
+        "apostle_group": "Twelve",
+        "death_claim": "India (death); relics later Edessa → Ortona",
+        "death_place": "Ortona, Abruzzo (relic site); Italy",
+        "burial": "Basilica Concattedrale di San Tommaso Apostolo, Ortona",
+        "structure": "Co-Cathedral Basilica of St. Thomas the Apostle",
+        "address": "Corso Giacomo Matteotti, Ortona CH, Italy",
+        "mgrs": "33TVG5094989609",
+        "confidence": "competing_traditions",
+        "method": "(see AP-07) Speared in India per Foxe/tradition; Ortona holds translated relics.",
+        "last_statements": "(see AP-07)",
+        "foxe": "Same Foxe spear-martyrdom in India; this row maps the major Western relic basilica at Ortona after medieval translation from Edessa/Chios.",
+        "competing": "Companion to AP-07 Chennai tomb tradition.",
+        "notes": "Relic translation shrine; not original Indian grave.",
+        "sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm",
+        "method_sources": "https://www.gutenberg.org/files/22400/22400-h/22400-h.htm; https://gcatholic.org/churches/list/Apostles.htm",
+        "last_statements_sources": "(see AP-07)",
+        "biblical_or_early_refs": "(see AP-07)",
+        "site_variant": "relic_translation",
+        "coord_source": "Nominatim/OpenStreetMap geocoordinates for named church/ruin (or official site lat/lon when published)",
+        "creation_ministry": {
+          "blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thomas” was found (2026-09-30). Coverage: none_found.",
+          "aig": [],
+          "creation_museum": [],
+          "ark_encounter": [],
+          "coverage": "none_found",
+          "researched_at": "2026-09-30"
+        },
+        "creation_ministry_blurb": "No verified Answers in Genesis / Creation Museum / Ark Encounter page on apostle burial site “Thomas” was found (2026-09-30). Coverage: none_found.",
+        "creation_ministry_coverage": "none_found",
+        "creation_ministry_aig": [],
+        "creation_ministry_museum": [],
+        "creation_ministry_ark": [],
+        "dig_halt": {
+          "status": "no_halt_recorded",
+          "date": null,
+          "halted_by": null,
+          "summary": "No excavation halt recorded (no modern dig campaign documented for this pin / memoria only).",
+          "sources": []
+        },
+        "site_authority": {
+          "name": "Diocese of Ortona / Co-Cathedral Basilica of St. Thomas the Apostle",
+          "type": "church",
+          "role": "Italian co-cathedral holding Thomas relics translation tradition.",
+          "contact_name": null,
+          "contact_title": null,
+          "contact_email": null,
+          "contact_phone": null,
+          "contact_url": "https://www.diocesiortona.it/",
+          "notes": "Church diocese. Email not verified this pass — diocese portal.",
+          "official_website": "https://www.diocesiortona.it/"
+        },
+        "eras": [
+          "New Testament era"
+        ],
+        "official_website": "https://www.diocesiortona.it/",
+        "official_website_label": "Diocese of Ortona / Co-Cathedral Basilica of St. Thomas the Apostle",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    }
+  ]
+}

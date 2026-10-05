@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.44,
+          31.78
+        ]
+      },
+      "properties": {
+        "id": "SPN-example-01",
+        "layer": "sponsor:example-expedition",
+        "name": "Example ridge survey station",
+        "sponsor_id": "example-expedition",
+        "sponsor_label": "Expedition: Example (sponsor)",
+        "found": "Team surface pottery scatter and photogrammetry grid (their report).",
+        "support": "Sponsor field notes — Surveyor unrated until a real pack lands.",
+        "notes": "Placeholder pin for schema only — not loaded in the live map.",
+        "surveyor_solidity": "unrated",
+        "surveyor_caveat": "Sample stub — do not treat as archaeology consensus.",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            "provider": "youtube",
+            "title": "Example field walkthrough (placeholder id)",
+            "source": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "label": "Sponsor video (YouTube embed)",
+            "disclosure": "Sponsor presentation — not DigIntoScripture dig consensus."
+          }
+        ],
+        "sponsor_cta_label": "Their content (paywall)",
+        "sponsor_cta_url": "https://example.com/members/expedition",
+        "sponsor_cta_host": "example.com",
+        "sources": "Sponsor field summary (link-out only; no rehost).",
+        "sponsor_book_cta_label": "Buy their book",
+        "sponsor_book_cta_url": "https://example.com/books/expedition?ref=digintoscripture",
+        "sponsor_book_cta_host": "example.com",
+        "affiliate_disclosed": true,
+        "status_kind": "visitor"
+      }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "version": 1,
+  "build": "20261001-r",
+  "source_pack": "destruction-horizons-site-truth-2026-10-04.json",
+  "count": 15,
+  "unique_pins": 13,
+  "new_pins": 0,
+  "chips": [
+    "701",
+    "586",
+    "70"
+  ],
+  "default": "off",
+  "note": "Tags on existing pins only. Composite ids copied whole. No sources pasted. Masada, Gamla, Qumran, and Jericho are not tagged.",
+  "attachments": [
+    {
+      "pin_id": "LAC-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Lachish Level III is the Assyrian siege of 701 BCE: ramp, burnt city, and Sennacherib’s own reliefs of this tell. This card’s siege ramp belongs to 701, not to the later Babylonian war.",
+      "beat_text": "Lachish Level III is the Assyrian siege of 701 BCE: ramp, burnt city, and Sennacherib’s own reliefs of this tell. This card’s siege ramp belongs to 701, not to the later Babylonian war.",
+      "solidity": "strong",
+      "caveats": "Same tell as LAC-02,LAC-03. Tag this existing card; do not add a second Lachish marker. The Lachish Letters on this card are the later, Babylonian-horizon archive (see the 586 tag), not the ramp.",
+      "lsb_refs": [
+        "2 Kings 18:13–17",
+        "2 Kings 19:8",
+        "Isaiah 36:1–2",
+        "2 Chronicles 32:9"
+      ]
+    },
+    {
+      "pin_id": "LAC-02,LAC-03",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Renewed Lachish dig: Level III is the 701 BCE Assyrian destruction. Level II, on the same card, is the later Babylonian burn and must stay on the 586 chip.",
+      "beat_text": "Renewed Lachish dig: Level III is the 701 BCE Assyrian destruction. Level II, on the same card, is the later Babylonian burn and must stay on the 586 chip.",
+      "solidity": "strong",
+      "caveats": "Composite id. Copy it whole. Do not split LAC-02 from LAC-03 and do not invent a third pin. Ussishkin’s level numbers are the reason the two wars are separable here.",
+      "lsb_refs": [
+        "2 Kings 18:13–17",
+        "2 Chronicles 32:9",
+        "Isaiah 36:1–2"
+      ]
+    },
+    {
+      "pin_id": "AZK-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Azekah has a real late-8th-century destruction on the Judahite fortress. It fits Sennacherib’s 701 campaign, with one open argument: some readers of the Assyrian Azekah text put that siege in Sargon’s Ashdod war instead.",
+      "beat_text": "Azekah has a real late-8th-century destruction on the Judahite fortress. It fits Sennacherib’s 701 campaign, with one open argument: some readers of the Assyrian Azekah text put that siege in Sargon’s Ashdod war instead.",
+      "solidity": "mixed",
+      "caveats": "Do not also chip this pin as 586. Jeremiah 34:7 still names Azekah as standing during the Babylonian siege, which implies a rebuild after the 8th-century burn. This card does not separate a second, 586 fire. The Azekah inscription’s king (Sennacherib vs Sargon II) is the reason this is mixed, not strong.",
+      "lsb_refs": [
+        "2 Chronicles 11:9",
+        "Jeremiah 34:7",
+        "Joshua 10:10–11"
+      ]
+    },
+    {
+      "pin_id": "BSM-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Beth-shemesh’s late Iron II town was burned at the end of the 8th century. The renewed excavation reads that burn as Sennacherib in 701, not as the older mid-8th-century earthquake horizon.",
+      "beat_text": "Beth-shemesh’s late Iron II town was burned at the end of the 8th century. The renewed excavation reads that burn as Sennacherib in 701, not as the older mid-8th-century earthquake horizon.",
+      "solidity": "mixed",
+      "caveats": "This card’s blurb stresses the Bronze Age gate and the Iron Age border town. It does not itself print the year 701. An earlier earthquake destruction is also discussed at the site. Tag only the later campaign burn. No confident 586 chip: the town’s headline destruction is this one.",
+      "lsb_refs": [
+        "2 Kings 18:13",
+        "Joshua 15:10",
+        "1 Samuel 6:9–15"
+      ]
+    },
+    {
+      "pin_id": "TIM-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Timnah (Tel Batash) Stratum III ends in a late-8th-century destruction on the Sorek border. Excavators tie that layer to Sennacherib’s 701 campaign.",
+      "beat_text": "Timnah (Tel Batash) Stratum III ends in a late-8th-century destruction on the Sorek border. Excavators tie that layer to Sennacherib’s 701 campaign.",
+      "solidity": "mixed",
+      "caveats": "The card says Philistine and Judahite levels, not the year. A later Iron II phase (Stratum II) ends in the Babylonian period and is not clean enough to chip as 586. Do not add that second tag.",
+      "lsb_refs": [
+        "2 Kings 18:13",
+        "Joshua 15:10",
+        "Judges 14:1–5"
+      ]
+    },
+    {
+      "pin_id": "TBM-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Tell Beit Mirsim’s last Iron II town (Albright’s Stratum A2) was destroyed at the end of the 8th century. That burn is the classic ceramic peg for 701. The old equation with Debir is not part of this tag.",
+      "beat_text": "Tell Beit Mirsim’s last Iron II town (Albright’s Stratum A2) was destroyed at the end of the 8th century. That burn is the classic ceramic peg for 701. The old equation with Debir is not part of this tag.",
+      "solidity": "mixed",
+      "caveats": "This card already marks the Debir / Kiriath-sepher identification as abandoned. The tag is the destruction horizon only. It is a historical correlation of the stratum, not an Assyrian relief of this mound. No separate 586 chip.",
+      "lsb_refs": [
+        "2 Kings 18:13"
+      ]
+    },
+    {
+      "pin_id": "BEE-01",
+      "horizon": "701",
+      "event_tag": "destruction_701",
+      "claim": "Beersheba Stratum II, the planned Judahite town with the dismantled horned altar, ends in a late-8th-century destruction full of royal storage jars. The usual correlation is Sennacherib in 701.",
+      "beat_text": "Beersheba Stratum II, the planned Judahite town with the dismantled horned altar, ends in a late-8th-century destruction full of royal storage jars. The usual correlation is Sennacherib in 701.",
+      "solidity": "mixed",
+      "caveats": "The card describes the town and the altar. It does not name the burn. The altar was taken apart and the stones reused before the destruction. That is a reform, not the fire. Do not chip Beersheba as 586. The Negev town’s destruction correlate is 701.",
+      "lsb_refs": [
+        "2 Kings 18:13",
+        "2 Kings 23:8",
+        "Amos 5:5"
+      ]
+    },
+    {
+      "pin_id": "LAC-01",
+      "horizon": "586",
+      "event_tag": "destruction_586",
+      "claim": "The Lachish Letters from this card’s gate are the Babylonian-siege archive: Judah’s last fortresses signaling while Jerusalem and Lachish were under Nebuchadnezzar. Do not hang those ostraca on the Assyrian ramp.",
+      "beat_text": "The Lachish Letters from this card’s gate are the Babylonian-siege archive: Judah’s last fortresses signaling while Jerusalem and Lachish were under Nebuchadnezzar. Do not hang those ostraca on the Assyrian ramp.",
+      "solidity": "strong",
+      "caveats": "Two horizons, one card. The ramp and Level III are 701 (already tagged). The letters belong to Level II, the 588/586 war, published in detail on LAC-02,LAC-03. Jeremiah 34:7 names Lachish and Azekah as the fortified cities still holding.",
+      "lsb_refs": [
+        "Jeremiah 34:7",
+        "2 Kings 25:1–10",
+        "Jeremiah 52:4–16"
+      ]
+    },
+    {
+      "pin_id": "LAC-02,LAC-03",
+      "horizon": "586",
+      "event_tag": "destruction_586",
+      "claim": "Lachish Level II is the Babylonian destruction of 588/586 BCE, after the town had been rebuilt from the Assyrian burn. This is the layer that matches Jeremiah’s last-fortress notice.",
+      "beat_text": "Lachish Level II is the Babylonian destruction of 588/586 BCE, after the town had been rebuilt from the Assyrian burn. This is the layer that matches Jeremiah’s last-fortress notice.",
+      "solidity": "strong",
+      "caveats": "Keep Level III on the 701 chip. Composite id stays whole. Azekah is named with Lachish in Jeremiah 34:7 but is not given a 586 tag: that pin’s separated destruction is the 8th-century one.",
+      "lsb_refs": [
+        "Jeremiah 34:7",
+        "2 Kings 25:1–10",
+        "Jeremiah 39:1–8",
+        "2 Chronicles 36:17–20"
+      ]
+    },
+    {
+      "pin_id": "COD-01,COD-02,COD-04",
+      "horizon": "586",
+      "event_tag": "destruction_586",
+      "claim": "Jerusalem’s City of David was burned when the Babylonians took the city in 586 BCE: ash, arrowheads, and the late-monarchy bullae belong to that fire. This is not the 701 siege. In 701 the city was not taken.",
+      "beat_text": "Jerusalem’s City of David was burned when the Babylonians took the city in 586 BCE: ash, arrowheads, and the late-monarchy bullae belong to that fire. This is not the 701 siege. In 701 the city was not taken.",
+      "solidity": "strong",
+      "caveats": "Composite id. Copy it whole. This is Jerusalem, not Jericho (JER-01,JER-02). The card text stresses the stepped-stone structure and the fortification line; the 586 claim is the late-Iron destruction on this same ridge. Do not add a Temple Mount pin. Digging the platform is not how this fire is known. Do not put a 701 destruction chip here. 2 Kings 19 says Jerusalem was delivered. COD-03 is the water system, not this burn.",
+      "lsb_refs": [
+        "2 Kings 25:1–12",
+        "Jeremiah 39:1–10",
+        "Jeremiah 52:4–16",
+        "2 Chronicles 36:17–20"
+      ]
+    },
+    {
+      "pin_id": "RAR-01",
+      "horizon": "586",
+      "event_tag": "destruction_586",
+      "claim": "Ramat Rahel’s Judahite royal estate ends with the Babylonian destruction of the kingdom. A Persian administrative center then reuses the ridge. The tag is the end of the Iron Age estate, not an empty hill forever.",
+      "beat_text": "Ramat Rahel’s Judahite royal estate ends with the Babylonian destruction of the kingdom. A Persian administrative center then reuses the ridge. The tag is the end of the Iron Age estate, not an empty hill forever.",
+      "solidity": "mixed",
+      "caveats": "The card stresses Persian continuity and does not name a 586 fire. Which building phase ended in 701 and which in 586 is still discussed. No biblical town-name is being claimed. Do not chip it as 701.",
+      "lsb_refs": [
+        "2 Kings 25:1–12",
+        "Jeremiah 52:12–16"
+      ]
+    },
+    {
+      "pin_id": "WW-01",
+      "horizon": "70",
+      "event_tag": "destruction_70",
+      "claim": "Fallen Herodian ashlars on the street at Robinson’s Arch are the 70 CE destruction of Jerusalem’s Temple approaches. The huge retaining wall is still standing. The chip is the collapse and the burnt street, not a claim that every stone was thrown down.",
+      "beat_text": "Fallen Herodian ashlars on the street at Robinson’s Arch are the 70 CE destruction of Jerusalem’s Temple approaches. The huge retaining wall is still standing. The chip is the collapse and the burnt street, not a claim that every stone was thrown down.",
+      "solidity": "strong",
+      "caveats": "Gospel lines (Luke 19:41–44; 21:5–6; Mark 13:1–2) are the frame, not the date of this layer. The horizon is 70 CE, First Revolt, not the crucifixion. No excavation on the Temple platform itself. Do not add a Burnt House pin. That house is real and is not in this file.",
+      "lsb_refs": [
+        "Luke 19:41–44",
+        "Luke 21:5–6",
+        "Mark 13:1–2"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-04",
+      "horizon": "70",
+      "event_tag": "destruction_70",
+      "claim": "The Givati / City of David NT card already records 70 CE destruction debris: houses on this ridge burned when Jerusalem fell in the First Revolt. That is a different fire from the 586 burn on the OT City of David card.",
+      "beat_text": "The Givati / City of David NT card already records 70 CE destruction debris: houses on this ridge burned when Jerusalem fell in the First Revolt. That is a different fire from the 586 burn on the OT City of David card.",
+      "solidity": "strong",
+      "caveats": "Do not copy this 70 tag onto COD-01,COD-02,COD-04. That card carries 586. Do not treat Siloam, Bethesda, or the Mount of Olives as 70 destruction sites. They are Gospel places without this burn layer.",
+      "lsb_refs": [
+        "Luke 19:41–44",
+        "Luke 21:20–24"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-03",
+      "horizon": "70",
+      "event_tag": "destruction_70",
+      "claim": "The first-century street and shops along the Western Wall were buried when the Temple Mount’s upper works collapsed in 70 CE. Same event as the Robinson’s Arch fall. The wall itself still stands.",
+      "beat_text": "The first-century street and shops along the Western Wall were buried when the Temple Mount’s upper works collapsed in 70 CE. Same event as the Robinson’s Arch fall. The wall itself still stands.",
+      "solidity": "mixed",
+      "caveats": "This card lists the Herodian ashlars, street, and shops. It does not print the words “70 CE” the way WW-01 does. The tag is that street’s burial under the revolt destruction, not a new pin, and not a claim that the retaining wall was razed.",
+      "lsb_refs": [
+        "Mark 13:1–2",
+        "Luke 21:5–6"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-02",
+      "horizon": "70",
+      "event_tag": "destruction_70",
+      "claim": "The stepped pilgrimage street from Siloam toward the Temple was built in the early first century and ended when Jerusalem fell in 70 CE. People sheltered in the drain under it during the revolt.",
+      "beat_text": "The stepped pilgrimage street from Siloam toward the Temple was built in the early first century and ended when Jerusalem fell in 70 CE. People sheltered in the drain under it during the revolt.",
+      "solidity": "mixed",
+      "caveats": "This card’s headline is the paving date (Pilate / Agrippa coins), not a photographed burn. The 70 tag is the street’s end and the refuge channel, not the crucifixion and not the Pool of Siloam card (JER-NT-01), which is left untagged.",
+      "lsb_refs": [
+        "Luke 19:41–44",
+        "Luke 21:20–24"
+      ]
+    }
+  ]
+}

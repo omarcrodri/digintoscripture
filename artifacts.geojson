@@ -1,0 +1,381 @@
+{
+  "type": "FeatureCollection",
+  "name": "artifacts",
+  "build": "20261001-i",
+  "generated": "2026-10-01",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2336,
+          30.0479
+        ]
+      },
+      "properties": {
+        "id": "ART-01",
+        "name": "Merneptah Stele (Israel Stele)",
+        "layer": "artifacts",
+        "found_at_pin_id": "MER-01",
+        "found_at_name": "Merneptah mortuary temple (West Thebes)",
+        "displayed_at_museum": "Egyptian Museum, Cairo (Tahrir)",
+        "displayed_at_city": "Cairo, Egypt",
+        "displayed_at_lat": 30.0479,
+        "displayed_at_lng": 31.2336,
+        "museum_url": "https://egymonuments.gov.eg/en/museums/egyptian-museum/",
+        "museum_host": "egymonuments.gov.eg",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Stele is real Late Bronze Egyptian victory text naming 'Israel'. Findspot is Merneptah’s Theban mortuary temple area; object lives in Cairo. Do not overclaim every campaign geography from the poetic list. PoliceBot: egyptianmuseumcairo.eg CAUTION — prefer egymonuments.gov.eg once cleared.",
+        "support": "Granite victory stele of Pharaoh Merneptah; includes the earliest widely accepted extra-biblical reference to Israel as a people in Canaan.",
+        "sources": "Cairo Museum collection; Merneptah mortuary temple find context; DigIntoScripture MER-01",
+        "gallery_url": "https://egymonuments.gov.eg/en/museums/egyptian-museum/",
+        "related_scripture": null,
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.204,
+          31.772
+        ]
+      },
+      "properties": {
+        "id": "ART-02",
+        "name": "Tel Dan Stele (House of David)",
+        "layer": "artifacts",
+        "found_at_pin_id": "DAN-STELE",
+        "found_at_name": "Tel Dan",
+        "displayed_at_museum": "Israel Museum",
+        "displayed_at_city": "Jerusalem, Israel",
+        "displayed_at_lat": 31.772,
+        "displayed_at_lng": 35.204,
+        "museum_url": "https://www.imj.org.il/en",
+        "museum_host": "imj.org.il",
+        "replica_on_findspot": true,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Aramaic victory inscription; 'House of David' reading is the mainstream scholarly consensus with ongoing fringe debate — keep Linguist-safe wording if Gospel copy cites the phrase. Fragments found at Tel Dan; displayed at Israel Museum (site may show replica/context).",
+        "support": "9th-century BCE Aramaic stele fragments from Tel Dan that refer to the 'House of David' — key extra-biblical Judah/Davidic dynasty witness.",
+        "sources": "Israel Museum / IAA; Tel Dan excavations; DigIntoScripture DAN-STELE / DAN-01",
+        "gallery_url": "https://www.imj.org.il/en",
+        "related_scripture": null,
+        "also_findspot_pin": "DAN-01,DAN-02",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.204,
+          31.772
+        ]
+      },
+      "properties": {
+        "id": "ART-03",
+        "name": "Ketef Hinnom silver amulets (priestly blessing)",
+        "layer": "artifacts",
+        "found_at_pin_id": "KET-01",
+        "found_at_name": "Ketef Hinnom",
+        "displayed_at_museum": "Israel Museum",
+        "displayed_at_city": "Jerusalem, Israel",
+        "displayed_at_lat": 31.772,
+        "displayed_at_lng": 35.204,
+        "museum_url": "https://www.imj.org.il/en",
+        "museum_host": "imj.org.il",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Tiny rolled silver scrolls with text close to Numbers 6 priestly blessing; paleographic dating has scholarly range (often late Iron Age). Present as early biblical-text witnesses, not as 'the original Torah scroll.'",
+        "support": "Two silver amulets from a Jerusalem burial repository preserving an early form of the priestly blessing.",
+        "sources": "Israel Museum; Ketef Hinnom excavations; DigIntoScripture KET-01",
+        "gallery_url": "https://www.imj.org.il/en",
+        "related_scripture": [
+          "Numbers 6:24–26"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9813,
+          41.0115
+        ]
+      },
+      "properties": {
+        "id": "ART-04",
+        "name": "Siloam Tunnel Inscription",
+        "layer": "artifacts",
+        "found_at_pin_id": "COD-03",
+        "found_at_name": "Jerusalem – City of David / Gihon (Hezekiah’s Tunnel tradition)",
+        "displayed_at_museum": "Istanbul Archaeology Museums",
+        "displayed_at_city": "Istanbul, Türkiye",
+        "displayed_at_lat": 41.0115,
+        "displayed_at_lng": 28.9813,
+        "museum_url": "https://muze.gov.tr/muze-detay?MuseumId=2&SectionId=IAR01",
+        "museum_host": "muze.gov.tr",
+        "replica_on_findspot": true,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Hebrew inscription describing the tunnel breakthrough; removed in the Ottoman period and now in Istanbul. Replica/context at City of David / tunnel visitor area. Tunnel=Hezekiah tradition is strong historically; keep Discover-careful wording on engineering phases.",
+        "support": "Hebrew rock inscription from the Siloam / Hezekiah’s Tunnel water system describing how two crews met.",
+        "sources": "Istanbul Archaeology Museums; City of David / Gihon water system; DigIntoScripture COD-03 / JER-NT-01",
+        "gallery_url": "https://muze.gov.tr/muze-detay?MuseumId=2&SectionId=IAR01",
+        "related_scripture": [
+          "2 Kings 20:20",
+          "2 Chronicles 32:30"
+        ],
+        "also_findspot_pin": "JER-NT-01",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.511,
+          32.8389
+        ]
+      },
+      "properties": {
+        "id": "ART-05",
+        "name": "Magdala Stone",
+        "layer": "artifacts",
+        "found_at_pin_id": "MAG-01,MAG-02",
+        "found_at_name": "Magdala (Migdal)",
+        "displayed_at_museum": "Magdala (on-site archaeological park / museum display)",
+        "displayed_at_city": "Migdal, Israel",
+        "displayed_at_lat": 32.8389,
+        "displayed_at_lng": 35.511,
+        "museum_url": "https://www.magdala.org/",
+        "museum_host": "magdala.org",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "First-century synagogue stone with Temple imagery; displayed at Magdala. Ministry/pilgrimage packaging on site — archaeology is real; keep Gospel Mary Magdalene hometown as tradition packaging separate from the stone’s Temple motifs.",
+        "support": "Carved stone from Magdala’s first-century synagogue showing menorah / Temple-related imagery.",
+        "sources": "Magdala archaeological park; DigIntoScripture MAG-01,MAG-02",
+        "gallery_url": "https://www.magdala.org/",
+        "related_scripture": [
+          "Luke 8:1–3"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3376,
+          48.8606
+        ]
+      },
+      "properties": {
+        "id": "ART-06",
+        "name": "Mesha Stele (Moabite Stone)",
+        "layer": "artifacts",
+        "found_at_pin_id": "DIB-01",
+        "found_at_name": "Dibon (Dhiban)",
+        "displayed_at_museum": "Louvre Museum",
+        "displayed_at_city": "Paris, France",
+        "displayed_at_lat": 48.8606,
+        "displayed_at_lng": 2.3376,
+        "museum_url": "https://www.louvre.fr/en",
+        "museum_host": "louvre.fr",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Moabite victory inscription of King Mesha mentioning Omri/Israel and YHWH; 19th-century find history is messy (squeeze/reconstruction). Object in Louvre. Do not treat every line of historical geography as settled without caveats.",
+        "support": "Basalt stele of Moab’s King Mesha reporting conflict with Israel — major extra-biblical Iron Age witness naming YHWH.",
+        "sources": "Louvre; Dhiban / Dibon context; DigIntoScripture DIB-01",
+        "gallery_url": "https://www.louvre.fr/en",
+        "related_scripture": [
+          "2 Kings 3"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.127,
+          51.5194
+        ]
+      },
+      "properties": {
+        "id": "ART-07",
+        "name": "Cyrus Cylinder",
+        "layer": "artifacts",
+        "found_at_pin_id": "CYR-01",
+        "found_at_name": "Babylon (Cyrus Cylinder findspot)",
+        "displayed_at_museum": "British Museum",
+        "displayed_at_city": "London, United Kingdom",
+        "displayed_at_lat": 51.5194,
+        "displayed_at_lng": -0.127,
+        "museum_url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+        "museum_host": "britishmuseum.org",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Achaemenid royal inscription on Persian policy toward subject peoples/temples. Useful backdrop for Ezra/return themes; do not claim the cylinder quotes Ezra verbatim.",
+        "support": "Clay cylinder of Cyrus the Great from Babylon describing restoration policies after conquering Babylon.",
+        "sources": "British Museum W_1880-0617-1941; DigIntoScripture CYR-01",
+        "gallery_url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+        "related_scripture": [
+          "Ezra 1:1–4"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2025,
+          31.774
+        ]
+      },
+      "properties": {
+        "id": "ART-08",
+        "name": "Dead Sea Scrolls (Qumran corpus — museum display)",
+        "layer": "artifacts",
+        "found_at_pin_id": "QUM-01",
+        "found_at_name": "Qumran (Khirbet Qumran)",
+        "displayed_at_museum": "Israel Museum — Shrine of the Book",
+        "displayed_at_city": "Jerusalem, Israel",
+        "displayed_at_lat": 31.774,
+        "displayed_at_lng": 35.2025,
+        "museum_url": "https://www.imj.org.il/en/wings/shrine-book",
+        "museum_host": "imj.org.il",
+        "replica_on_findspot": true,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Scrolls are a manuscript corpus, not one object. Find context = Judean Desert caves near Qumran; major displays at Shrine of the Book. Keep Holy Bible as canon; scrolls illuminate Second Temple textual world. Also attach QUM-NT-01 as same complex.",
+        "support": "Second Temple Jewish manuscripts from the Judean Desert caves, including biblical books centuries older than medieval codices.",
+        "sources": "Israel Museum Shrine of the Book; Qumran / Judean Desert finds; DigIntoScripture QUM-01 / QUM-NT-01",
+        "gallery_url": "https://www.imj.org.il/en/wings/shrine-book",
+        "related_scripture": null,
+        "also_findspot_pin": "QUM-NT-01",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.204,
+          31.772
+        ]
+      },
+      "properties": {
+        "id": "ART-09",
+        "name": "Pilate Stone (Pontius Pilate inscription)",
+        "layer": "artifacts",
+        "found_at_pin_id": "CAES-01,CAES-02",
+        "found_at_name": "Caesarea Maritima (theater secondary use)",
+        "displayed_at_museum": "Israel Museum",
+        "displayed_at_city": "Jerusalem, Israel",
+        "displayed_at_lat": 31.772,
+        "displayed_at_lng": 35.204,
+        "museum_url": "https://www.imj.org.il/en",
+        "museum_host": "imj.org.il",
+        "replica_on_findspot": true,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Latin dedicatory inscription naming Pontius Pilate, prefect of Judea (IAA 1961-529). Found reused in Caesarea’s theater; original in Israel Museum; replica often on-site. Does not narrate the Gospel trial — it confirms Pilate’s historical office/title.",
+        "support": "Only widely accepted contemporary inscription naming Pontius Pilate as prefect of Judea.",
+        "sources": "Israel Museum / IAA 1961-529; Caesarea Maritima excavations; DigIntoScripture CAES-01,CAES-02",
+        "gallery_url": "https://www.imj.org.il/en",
+        "related_scripture": [
+          "Luke 3:1",
+          "Matthew 27:1–2"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.127,
+          51.5194
+        ]
+      },
+      "properties": {
+        "id": "ART-10",
+        "name": "Lachish Reliefs (Sennacherib’s siege of Lachish)",
+        "layer": "artifacts",
+        "found_at_pin_id": "NIN-01",
+        "found_at_name": "Nineveh (SW Palace) — reliefs found here; scene depicts Lachish",
+        "displayed_at_museum": "British Museum",
+        "displayed_at_city": "London, United Kingdom",
+        "displayed_at_lat": 51.5194,
+        "displayed_at_lng": -0.127,
+        "museum_url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
+        "museum_host": "britishmuseum.org",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "SPECIAL LINK: carved at Nineveh, depicting the Assyrian siege of Lachish (not found at Tel Lachish). Pair museum pin with BOTH NIN-01 (findspot of panels) and LAC-01 (depicted city). Do not say the slabs were dug at Lachish.",
+        "support": "Assyrian palace wall reliefs showing Sennacherib’s capture of Lachish — visual match to the 701 BCE Judah campaign.",
+        "sources": "British Museum Assyrian galleries; Nineveh SW Palace; DigIntoScripture NIN-01 + LAC-01",
+        "gallery_url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
+        "related_scripture": [
+          "2 Kings 18:13–17",
+          "Isaiah 36:1–2"
+        ],
+        "depicts_pin_id": "LAC-01",
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.204,
+          31.772
+        ]
+      },
+      "properties": {
+        "id": "ART-11",
+        "name": "Horned altar from Beersheba",
+        "layer": "artifacts",
+        "found_at_pin_id": "BEE-01",
+        "found_at_name": "Tel Beersheba",
+        "displayed_at_museum": "Israel Museum",
+        "displayed_at_city": "Jerusalem, Israel",
+        "displayed_at_lat": 31.772,
+        "displayed_at_lng": 35.204,
+        "museum_url": "https://www.imj.org.il/en",
+        "museum_host": "imj.org.il",
+        "replica_on_findspot": true,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Dismantled horned altar stones reused in storehouse walls at Tel Beersheba; reconstructed for display. Speaks to cult practice / reform debates — do not force a single sermon point beyond the archaeology.",
+        "support": "Reassembled four-horned ashlar altar from Tel Beersheba, a major Judahite southern administrative center.",
+        "sources": "Israel Museum; Tel Beersheba excavations; DigIntoScripture BEE-01",
+        "gallery_url": "https://www.imj.org.il/en",
+        "related_scripture": null,
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    }
+  ]
+}
