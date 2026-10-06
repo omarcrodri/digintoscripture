@@ -643,6 +643,14 @@ header > p{display:none !important}
 }
 #layers-tray .layers-tray-scroll{flex:1 1 auto; overflow:auto; padding:0 12px 16px; -webkit-overflow-scrolling:touch}
 #layers-tray .toolbar{margin:0}
+/* Layers tray OT / NT / Other sections (build 20261001-af) */
+.layer-sections{display:flex;flex-direction:column;gap:12px;width:100%}
+.layer-section{display:flex;flex-direction:column;gap:6px;padding:8px 8px 10px;border:1px solid #334155;border-radius:12px;background:#0b1220}
+.layer-section-title{margin:0;padding:0 2px 2px;font-size:.78rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#fbbf24}
+.layer-section[data-layer-section="nt"] .layer-section-title{color:#34d399}
+.layer-section[data-layer-section="other"] .layer-section-title{color:#94a3b8}
+.layer-section .layer-chips{display:flex;flex-wrap:wrap;gap:6px;align-items:flex-start}
+
 .legend{
   position:absolute !important; left:10px; right:10px;
   z-index:30; flex:none !important;
@@ -785,7 +793,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ae</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-af</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -863,217 +871,234 @@ header > p{display:none !important}
         </div>
         <span class="bulk-toggle-hint">Check all turns on every layer except sponsors (still opt-in). Uncheck all clears every layer including sponsors.</span>
       </div>
-      <div class="layer-chips" id="layer-chips-primary" role="group" aria-label="All layers">
-        <div class="layer-chip-wrap" data-layer="ot">
+      <div class="layer-sections" id="layer-chips-primary" role="group" aria-label="Layers by testament">
+      <section class="layer-section" data-layer-section="ot" aria-labelledby="layer-sec-ot">
+        <h3 class="layer-section-title" id="layer-sec-ot">OT</h3>
+        <div class="layer-chips" role="group" aria-label="OT layers">
+          <div class="layer-chip-wrap" data-layer="ot">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-ot" class="layer-toggle" checked/> <span class="chip-dot ot" aria-hidden="true"></span><span class="chip-name">OT digs</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ot" title="About OT digs" aria-label="About OT digs">i</button>
           </div>
           <p class="layer-blurb" id="blurb-ot" hidden>Sites tied to Old Testament events and figures</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="nt">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-nt" class="layer-toggle" checked/> <span class="chip-dot nt" aria-hidden="true"></span><span class="chip-name">NT digs</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-nt" title="About NT digs" aria-label="About NT digs">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-nt" hidden>Sites tied to New Testament events and Paul’s journeys</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ch">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ch" class="layer-toggle"/> <span class="chip-dot ch" aria-hidden="true"></span><span class="chip-name">Contested</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ch" title="About Contested" aria-label="About Contested">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ch" hidden>Bible-guided digs where the hypothesis later diverged or was retracted</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="sg">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-sg" class="layer-toggle"/> <span class="chip-dot sg" aria-hidden="true"></span><span class="chip-name">Research claim</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sg" title="About Research claim" aria-label="About Research claim">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-sg" hidden>Sodom/Gomorrah candidates and contested destruction claims</p>
-        </div>
-                <div class="layer-chip-wrap" data-layer="ap">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ap" class="layer-toggle"/> <span class="chip-dot ap" aria-hidden="true"></span><span class="chip-name">Apostle Martyrdom</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ap" title="About Apostle Martyrdom" aria-label="About Apostle Martyrdom">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ap" hidden>Claimed death/burial sites from Foxe + church tradition — not excavated proof</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="trade">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-trade" class="layer-toggle"/> <span class="chip-dot trade" aria-hidden="true"></span><span class="chip-name">Trade routes</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-trade" title="About Trade routes" aria-label="About Trade routes">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-trade" hidden>ANE / biblical-world trade corridors</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="prophets">
+          <div class="layer-chip-wrap" data-layer="prophets">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-prophets" class="layer-toggle"/> <span class="chip-dot prophets" aria-hidden="true"></span><span class="chip-name">Prophets</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-prophets" title="About Prophets" aria-label="About Prophets">i</button>
           </div>
           <p class="layer-blurb" id="blurb-prophets" hidden>OT prophet ministry locations (place tradition, not always a dig)</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="miracles">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-miracles" class="layer-toggle"/> <span class="chip-dot miracles" aria-hidden="true"></span><span class="chip-name">Jesus miracles</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-miracles" title="About Jesus miracles" aria-label="About Jesus miracles">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-miracles" hidden>Gospel miracle places (tradition/geography — not excavated miracle proof)</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="wilderness">
+          <div class="layer-chip-wrap" data-layer="wilderness">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-wilderness" class="layer-toggle"/> <span class="chip-dot wilderness" aria-hidden="true"></span><span class="chip-name">Exodus wilderness</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-wilderness" title="About Exodus wilderness" aria-label="About Exodus wilderness">i</button>
           </div>
           <p class="layer-blurb" id="blurb-wilderness" hidden>Egypt→Canaan camps & landmarks (many tradition/geography pins)</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="artifacts">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-artifacts" class="layer-toggle"/> <span class="chip-dot artifacts" aria-hidden="true"></span><span class="chip-name">Artifacts</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-artifacts" title="About Artifacts" aria-label="About Artifacts">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-artifacts" hidden>Museum display pins for key finds — linked back to dig findspots. Outbound gallery/museum links only (no rehosted photos). Off by default.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ministry-places">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ministry-places" class="layer-toggle"/> <span class="chip-dot ministry-places" aria-hidden="true"></span><span class="chip-name">Ministry places</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ministry-places" title="About Ministry places" aria-label="About Ministry places">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ministry-places" hidden>Ark Encounter, Creation Museum, and HalleluYah Scriptures publisher pin. Ministry attractions / publisher — not digs. Off by default.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="creature-finds">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-creature-finds" class="layer-toggle"/> <span class="chip-dot creature-finds" aria-hidden="true"></span><span class="chip-name">Creature finds</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-creature-finds" title="About Creature finds" aria-label="About Creature finds">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-creature-finds" hidden>Fossil and preserved-remains finds (dig sites, specimens, bone beds, soft-tissue reports). Each drawer opens with Creation Museum / Ark Encounter coverage, then find facts and sources. Private-land sites are pinned at the nearest town. Link-out only. Off by default.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-exodus-main">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-main" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus path (main)</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-main" title="About Exodus path (main)" aria-label="About Exodus path (main)">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-exodus-main" hidden>Schematic Exodus itinerary. Approximate story route — not a GPS trail.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-exodus-aqaba">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-aqaba" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus alt (Aqaba/Midian)</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-aqaba" title="About Exodus alt (Aqaba/Midian)" aria-label="About Exodus alt (Aqaba/Midian)">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-exodus-aqaba" hidden>Debated alternate: Gulf of Aqaba / Midian-side Sinai packaging. Weak solidity — never label proved.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-exodus-nedelta">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-nedelta" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus alt (NE Delta)</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-nedelta" title="About Exodus alt (NE Delta)" aria-label="About Exodus alt (NE Delta)">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-exodus-nedelta" hidden>Debated alternate: NE Delta / Way of Horus / Ballah Lakes packaging. Mixed solidity.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-assyrian">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-assyrian" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Assyrian deportation</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-assyrian" title="About Assyrian deportation" aria-label="About Assyrian deportation">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-assyrian" hidden>Schematic Israel→Assyria deportation + Judah 701 campaign context.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-babylon">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-babylon" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Babylonian exile</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-babylon" title="About Babylonian exile" aria-label="About Babylonian exile">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-babylon" hidden>Schematic Judah→Babylon deportation waves (597 / 586).</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-return">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-return" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Return from exile</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-return" title="About Return from exile" aria-label="About Return from exile">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-return" hidden>Zerubbabel / Ezra / Nehemiah return corridors (schematic).</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-holy-family">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-holy-family" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Holy Family Egypt path</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-holy-family" title="About Holy Family Egypt path" aria-label="About Holy Family Egypt path">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-holy-family" hidden>Bethlehem → Egypt sojourn → Nazareth return (Matthew narrative geography).</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-passion">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-ev-passion" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Passion Week path</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-passion" title="About Passion Week path" aria-label="About Passion Week path">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-ev-passion" hidden>Jerusalem Passion sites connected as a reading aid.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="ev-abraham">
+          <div class="layer-chip-wrap" data-layer="ev-abraham">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-ev-abraham" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Abraham migration</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-abraham" title="About Abraham migration" aria-label="About Abraham migration">i</button>
           </div>
           <p class="layer-blurb" id="blurb-ev-abraham" hidden>Ur → Haran → Canaan → Egypt sojourn → return (schematic).</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="travel-advisory">
+          <div class="layer-chip-wrap" data-layer="ev-assyrian">
           <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-travel-advisory" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Travel advisories (U.S. State)</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-travel-advisory" title="About Travel advisories (U.S. State)" aria-label="About Travel advisories (U.S. State)">i</button>
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-assyrian" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Assyrian deportation</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-assyrian" title="About Assyrian deportation" aria-label="About Assyrian deportation">i</button>
           </div>
-          <p class="layer-blurb" id="blurb-travel-advisory" hidden>Modern country fills from U.S. Department of State public travel advisories. Off by default.</p>
+          <p class="layer-blurb" id="blurb-ev-assyrian" hidden>Schematic Israel→Assyria deportation + Judah 701 campaign context.</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="emp-722">
+          <div class="layer-chip-wrap" data-layer="ev-babylon">
           <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-emp-722" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~722 BCE</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-722" title="About Empire snapshot · ~722 BCE" aria-label="About Empire snapshot · ~722 BCE">i</button>
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-babylon" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Babylonian exile</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-babylon" title="About Babylonian exile" aria-label="About Babylonian exile">i</button>
           </div>
-          <p class="layer-blurb" id="blurb-emp-722" hidden>Schematic Assyria, vassal Judah, and a dashed former-Israel outline around the fall of Samaria.</p>
+          <p class="layer-blurb" id="blurb-ev-babylon" hidden>Schematic Judah→Babylon deportation waves (597 / 586).</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="emp-701">
+          <div class="layer-chip-wrap" data-layer="ev-return">
           <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-emp-701" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~701 BCE</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-701" title="About Empire snapshot · ~701 BCE" aria-label="About Empire snapshot · ~701 BCE">i</button>
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-return" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Return from exile</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-return" title="About Return from exile" aria-label="About Return from exile">i</button>
           </div>
-          <p class="layer-blurb" id="blurb-emp-701" hidden>Assyria’s 701 campaign orbit, with reduced highland Judah painted on top.</p>
+          <p class="layer-blurb" id="blurb-ev-return" hidden>Zerubbabel / Ezra / Nehemiah return corridors (schematic).</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="emp-586">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-emp-586" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~586 BCE</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-586" title="About Empire snapshot · ~586 BCE" aria-label="About Empire snapshot · ~586 BCE">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-emp-586" hidden>Neo-Babylonian orbit with a dashed former-Judah outline on top.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="emp-30">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-emp-30" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~30 CE</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-30" title="About Empire snapshot · ~30 CE" aria-label="About Empire snapshot · ~30 CE">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-emp-30" hidden>Levant under Rome about 30 CE. Not the whole Roman Empire.</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="tribal-allotments">
+          <div class="layer-chip-wrap" data-layer="tribal-allotments">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-tribal-allotments" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Tribal allotments (Joshua sketch)</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-tribal-allotments" title="About Tribal allotments (Joshua sketch)" aria-label="About Tribal allotments (Joshua sketch)">i</button>
           </div>
           <p class="layer-blurb" id="blurb-tribal-allotments" hidden>Joshua-era sketch of tribal land, not a survey and not a modern border.</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="sponsor-eb">
+          <div class="layer-chip-wrap" data-layer="emp-722">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-emp-722" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~722 BCE</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-722" title="About Empire snapshot · ~722 BCE" aria-label="About Empire snapshot · ~722 BCE">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-emp-722" hidden>Schematic Assyria, vassal Judah, and a dashed former-Israel outline around the fall of Samaria.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="emp-701">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-emp-701" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~701 BCE</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-701" title="About Empire snapshot · ~701 BCE" aria-label="About Empire snapshot · ~701 BCE">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-emp-701" hidden>Assyria’s 701 campaign orbit, with reduced highland Judah painted on top.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="emp-586">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-emp-586" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~586 BCE</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-586" title="About Empire snapshot · ~586 BCE" aria-label="About Empire snapshot · ~586 BCE">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-emp-586" hidden>Neo-Babylonian orbit with a dashed former-Judah outline on top.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ev-exodus-main">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-main" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus path (main)</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-main" title="About Exodus path (main)" aria-label="About Exodus path (main)">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ev-exodus-main" hidden>Schematic Exodus itinerary. Approximate story route — not a GPS trail.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ev-exodus-aqaba">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-aqaba" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus alt (Aqaba/Midian)</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-aqaba" title="About Exodus alt (Aqaba/Midian)" aria-label="About Exodus alt (Aqaba/Midian)">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ev-exodus-aqaba" hidden>Debated alternate: Gulf of Aqaba / Midian-side Sinai packaging. Weak solidity — never label proved.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ev-exodus-nedelta">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-exodus-nedelta" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Exodus alt (NE Delta)</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-exodus-nedelta" title="About Exodus alt (NE Delta)" aria-label="About Exodus alt (NE Delta)">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ev-exodus-nedelta" hidden>Debated alternate: NE Delta / Way of Horus / Ballah Lakes packaging. Mixed solidity.</p>
+        </div>
+        </div>
+      </section>
+
+      <section class="layer-section" data-layer-section="nt" aria-labelledby="layer-sec-nt">
+        <h3 class="layer-section-title" id="layer-sec-nt">NT</h3>
+        <div class="layer-chips" role="group" aria-label="NT layers">
+          <div class="layer-chip-wrap" data-layer="nt">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-nt" class="layer-toggle" checked/> <span class="chip-dot nt" aria-hidden="true"></span><span class="chip-name">NT digs</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-nt" title="About NT digs" aria-label="About NT digs">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-nt" hidden>Sites tied to New Testament events and Paul’s journeys</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="miracles">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-miracles" class="layer-toggle"/> <span class="chip-dot miracles" aria-hidden="true"></span><span class="chip-name">Jesus miracles</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-miracles" title="About Jesus miracles" aria-label="About Jesus miracles">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-miracles" hidden>Gospel miracle places (tradition/geography — not excavated miracle proof)</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ev-holy-family">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-holy-family" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Holy Family Egypt path</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-holy-family" title="About Holy Family Egypt path" aria-label="About Holy Family Egypt path">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ev-holy-family" hidden>Bethlehem → Egypt sojourn → Nazareth return (Matthew narrative geography).</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ev-passion">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ev-passion" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Passion Week path</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ev-passion" title="About Passion Week path" aria-label="About Passion Week path">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ev-passion" hidden>Jerusalem Passion sites connected as a reading aid.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ap">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ap" class="layer-toggle"/> <span class="chip-dot ap" aria-hidden="true"></span><span class="chip-name">Apostle Martyrdom</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ap" title="About Apostle Martyrdom" aria-label="About Apostle Martyrdom">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ap" hidden>Claimed death/burial sites from Foxe + church tradition — not excavated proof</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="emp-30">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-emp-30" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Empire snapshot · ~30 CE</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-emp-30" title="About Empire snapshot · ~30 CE" aria-label="About Empire snapshot · ~30 CE">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-emp-30" hidden>Levant under Rome about 30 CE. Not the whole Roman Empire.</p>
+        </div>
+        </div>
+      </section>
+
+      <section class="layer-section" data-layer-section="other" aria-labelledby="layer-sec-other">
+        <h3 class="layer-section-title" id="layer-sec-other">Other</h3>
+        <div class="layer-chips" role="group" aria-label="Other layers">
+          <div class="layer-chip-wrap" data-layer="ch">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ch" class="layer-toggle"/> <span class="chip-dot ch" aria-hidden="true"></span><span class="chip-name">Contested</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ch" title="About Contested" aria-label="About Contested">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ch" hidden>Bible-guided digs where the hypothesis later diverged or was retracted</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="sg">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-sg" class="layer-toggle"/> <span class="chip-dot sg" aria-hidden="true"></span><span class="chip-name">Research claim</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sg" title="About Research claim" aria-label="About Research claim">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-sg" hidden>Sodom/Gomorrah candidates and contested destruction claims</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="trade">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-trade" class="layer-toggle"/> <span class="chip-dot trade" aria-hidden="true"></span><span class="chip-name">Trade routes</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-trade" title="About Trade routes" aria-label="About Trade routes">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-trade" hidden>ANE / biblical-world trade corridors</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="artifacts">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-artifacts" class="layer-toggle"/> <span class="chip-dot artifacts" aria-hidden="true"></span><span class="chip-name">Artifacts</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-artifacts" title="About Artifacts" aria-label="About Artifacts">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-artifacts" hidden>Museum display pins for key finds — linked back to dig findspots. Outbound gallery/museum links only (no rehosted photos). Off by default.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="ministry-places">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-ministry-places" class="layer-toggle"/> <span class="chip-dot ministry-places" aria-hidden="true"></span><span class="chip-name">Ministry places</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ministry-places" title="About Ministry places" aria-label="About Ministry places">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-ministry-places" hidden>Ark Encounter, Creation Museum, and HalleluYah Scriptures publisher pin. Ministry attractions / publisher — not digs. Off by default.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="creature-finds">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-creature-finds" class="layer-toggle"/> <span class="chip-dot creature-finds" aria-hidden="true"></span><span class="chip-name">Creature finds</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-creature-finds" title="About Creature finds" aria-label="About Creature finds">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-creature-finds" hidden>Fossil and preserved-remains finds (dig sites, specimens, bone beds, soft-tissue reports). Each drawer opens with Creation Museum / Ark Encounter coverage, then find facts and sources. Private-land sites are pinned at the nearest town. Link-out only. Off by default.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="travel-advisory">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-travel-advisory" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Travel advisories (U.S. State)</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-travel-advisory" title="About Travel advisories (U.S. State)" aria-label="About Travel advisories (U.S. State)">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-travel-advisory" hidden>Modern country fills from U.S. Department of State public travel advisories. Off by default.</p>
+        </div>
+          <div class="layer-chip-wrap" data-layer="sponsor-eb">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-sponsor-eb" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Expedition: Bible (sponsor)</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sponsor-eb" title="About Expedition: Bible (sponsor)" aria-label="About Expedition: Bible (sponsor)">i</button>
           </div>
           <p class="layer-blurb" id="blurb-sponsor-eb" hidden>Sponsor layer — opt-in.</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="sponsor-alb">
+          <div class="layer-chip-wrap" data-layer="sponsor-alb">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-sponsor-alb" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Expedition: Alberino (sponsor)</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sponsor-alb" title="About Expedition: Alberino (sponsor)" aria-label="About Expedition: Alberino (sponsor)">i</button>
           </div>
           <p class="layer-blurb" id="blurb-sponsor-alb" hidden>Sponsor layer — opt-in.</p>
         </div>
-        <div class="layer-chip-wrap" data-layer="sponsor-snr">
+          <div class="layer-chip-wrap" data-layer="sponsor-snr">
           <div class="layer-chip-row">
             <label class="layer-chip"><input type="checkbox" id="tog-sponsor-snr" class="layer-toggle"/> <span class="chip-dot" style="background:#94a3b8" aria-hidden="true"></span><span class="chip-name">Expedition: Sergio & Rhoda (sponsor)</span></label>
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sponsor-snr" title="About Expedition: Sergio & Rhoda (sponsor)" aria-label="About Expedition: Sergio & Rhoda (sponsor)">i</button>
           </div>
           <p class="layer-blurb" id="blurb-sponsor-snr" hidden>Sponsor layer — opt-in.</p>
         </div>
+        </div>
+      </section>
       </div>
         <div class="era-filter" id="era-filter">
           <div class="era-filter-title-row">
