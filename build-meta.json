@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-r",
+  "build": "20261001-s",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -257,7 +257,7 @@
     "note": "Schematic story LineStrings/MultiLineStrings; attachments merge into existing pin Events section; no new dig pins; pin-gap waypoints are line vertices only."
   },
   "travel_advisory": {
-    "build": "20261001-o",
+    "build": "20261001-s",
     "layer_id": "modern_travel_advisory",
     "snapshot_date": "2026-10-04",
     "source_pack": "dos-travel-advisory-overlay-2026-10-04.json",
@@ -279,7 +279,10 @@
     ],
     "default": "off",
     "fill_opacity": 0.35,
-    "separate_from": "empire_snapshots"
+    "separate_from": "empire_snapshots",
+    "blurbs": true,
+    "panel_order": "level \u2192 blurb \u2192 date \u2192 State link",
+    "bangladesh_level": 2
   },
   "empire_snapshots": {
     "build": "20261001-p",
@@ -310,7 +313,10 @@
     "new_pins": 0,
     "default": "off",
     "paint_note": "Higher draw_rank on top: Judah 1, most tribes 2, Benjamin 3, Simeon and Dan 4. Simeon inside Judah, not a hole. Dan coastal only.",
-    "separate_from": ["empire_snapshots", "modern_travel_advisory"]
+    "separate_from": [
+      "empire_snapshots",
+      "modern_travel_advisory"
+    ]
   },
   "destruction_horizons": {
     "build": "20261001-r",
@@ -319,7 +325,11 @@
     "tags": 15,
     "unique_pins": 13,
     "new_pins": 0,
-    "chips": ["701", "586", "70"],
+    "chips": [
+      "701",
+      "586",
+      "70"
+    ],
     "default": "off",
     "note": "Filter chips on existing pins. Not markers. Not polygons. Masada and Jericho are not tagged."
   }

@@ -267,7 +267,7 @@ header > p{display:none} /* quieter chrome */
 .layers-more .era-filter{margin-top:4px;padding:6px 8px;background:#0b1220;border:1px solid #1e293b;border-radius:10px}
 
 .layers-more .toolbar-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.78rem;color:#cbd5e1}
-/* More-layers compact panel (build 20261001-k); site status dig vs visitor (build 20261001-l); pin cluster/spiderfy (build 20261001-m); event routes (build 20261001-n); travel advisories (build 20261001-o); empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-r) */
+/* More-layers compact panel (build 20261001-k); site status dig vs visitor (build 20261001-l); pin cluster/spiderfy (build 20261001-m); event routes (build 20261001-n); travel advisories (build 20261001-o); empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-s) */
 .more-layers-compact{display:flex;flex-direction:column;gap:8px;padding:2px 0 4px;width:100%}
 .more-layers-compact .bulk-toggle-hint{display:block;margin-top:2px}
 .more-layer-pick-row{display:flex;flex-direction:column;gap:4px;width:100%}
@@ -324,7 +324,7 @@ header{position:relative;z-index:50;isolation:isolate}
 .layers-more.is-open{display:flex !important;visibility:visible !important}
 .layer-blurb.is-open{display:block !important;visibility:visible !important}
 
-/* Discover tours (build 20261001-g) + Directions (build 20261001-h) + Gallery/Artifacts (build 20261001-j) + More-layers compact + selected-pin (build 20261001-k) + cluster (build 20261001-m) + event routes (build 20261001-n) + travel advisories (build 20261001-o) + empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-r) */
+/* Discover tours (build 20261001-g) + Directions (build 20261001-h) + Gallery/Artifacts (build 20261001-j) + More-layers compact + selected-pin (build 20261001-k) + cluster (build 20261001-m) + event routes (build 20261001-n) + travel advisories (build 20261001-o) + empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-s) */
 .discover-top{display:flex;align-items:center;gap:10px;margin:8px 0 4px;flex-wrap:wrap}
 .discover-top-hint{font-size:.72rem;color:#94a3b8}
 #btn-discover{font-size:.78rem;padding:7px 12px;border-radius:999px;border:1px solid #475569;background:#1e293b;color:#e2e8f0;cursor:pointer;font-weight:600}
@@ -430,7 +430,7 @@ body.directions-pick #map{cursor:crosshair}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-r</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-s</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -2827,7 +2827,9 @@ function showTravelAdvisoryStory(p){
   const col = TRAVEL_ADVISORY_COLORS[lv] || '#64748b';
   const label = p.level_label ? esc(p.level_label) : '';
   const name = esc(p.name || 'Country');
-  const notes = p.regional_notes ? `<p class="muted">${esc(p.regional_notes)}</p>` : '';
+  const blurb = p.blurb ? `<p>${esc(p.blurb)}</p>` : '';
+  const dateStr = p.updated || p.snapshot_date || '2026-10-04';
+  const dateLine = `<p class="muted">Advisory updated ${esc(dateStr)} · pack snapshot 2026-10-04</p>`;
   let link = '';
   const url = String(p.url || '');
   if(url.indexOf('https://travel.state.gov/') === 0){
@@ -2838,7 +2840,8 @@ function showTravelAdvisoryStory(p){
     <div class="tag" style="background:#0f172a;border-color:${col};color:#e2e8f0">U.S. Department of State · snapshot 2026-10-04</div>
     <h2>${name}</h2>
     ${levelLine}
-    ${notes}
+    ${blurb}
+    ${dateLine}
     ${link}
     <p class="muted">Public travel advisory snapshot fetched 2026-10-04. Not a live feed. Not an ancient empire layer. Country shape is a Natural Earth admin-0 polygon — not a surveyed border.</p>`;
   openStoryPanel();
