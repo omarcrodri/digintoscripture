@@ -643,7 +643,7 @@ header > p{display:none !important}
 }
 #layers-tray .layers-tray-scroll{flex:1 1 auto; overflow:auto; padding:0 12px 16px; -webkit-overflow-scrolling:touch}
 #layers-tray .toolbar{margin:0}
-/* Layers tray OT / NT / Other sections (build 20261001-af) */
+/* Layers tray OT / NT / Other sections (build 20261001-ag) */
 .layer-sections{display:flex;flex-direction:column;gap:12px;width:100%}
 .layer-section{display:flex;flex-direction:column;gap:6px;padding:8px 8px 10px;border:1px solid #334155;border-radius:12px;background:#0b1220}
 .layer-section-title{margin:0;padding:0 2px 2px;font-size:.78rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#fbbf24}
@@ -793,7 +793,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-af</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ag</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -3526,6 +3526,26 @@ function setStoryDrawerMode(mode){
   }
   setTimeout(function(){ if(window._digMap) window._digMap.invalidateSize(); }, 200);
 }
+function resetStoryScroll(){
+  const story = document.getElementById('story');
+  const body = storyBodyEl();
+  const reset = function(node){
+    if(!node) return;
+    try { node.scrollTop = 0; } catch(e) {}
+    try { if(typeof node.scrollTo === 'function') node.scrollTo(0, 0); } catch(e) {}
+  };
+  reset(body);
+  reset(story);
+  if(body){
+    try {
+      body.querySelectorAll('*').forEach(function(n){
+        if(n && n.scrollTop > 0){
+          try { n.scrollTop = 0; } catch(e) {}
+        }
+      });
+    } catch(e) {}
+  }
+}
 function openStoryPanel(){
   const el = document.getElementById('story');
   const body = storyBodyEl();
@@ -3536,6 +3556,11 @@ function openStoryPanel(){
     const btn = document.getElementById('story-close');
     if(btn) btn.onclick = closeStoryPanel;
   }
+  resetStoryScroll();
+  requestAnimationFrame(function(){
+    resetStoryScroll();
+    setTimeout(resetStoryScroll, 0);
+  });
   try { refreshDirectionsStoryBtn(); } catch(e) {}
 }
 function closeStoryPanel(){
@@ -3561,6 +3586,7 @@ function setStoryHtml(html){
   if(!body) return;
   body.innerHTML = html;
   openStoryPanel();
+  resetStoryScroll();
 }
 (function initLayerChips(){
   /* More/Fewer layers removed — all layer chips always visible in the tray. */
