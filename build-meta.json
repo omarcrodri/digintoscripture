@@ -504,6 +504,8 @@
     ],
     "nested_labels": "Layers tray expand applies OT+NT-only defaults (matches startup lock); startup no longer force-adds sg/ch/ap/trade/prophets/miracles/wilderness",
     "helpful_hints": "Hints ON by default; sequential tour; ? welcome has Helpful hints toggle; persist digintoscripture_hints_off_v1",
-    "discover": "Gold sparkle CSS on #btn-discover (same size); click flies to first creature find + opens story; long-press or welcome Tours opens path sheet"
-  }
+    "discover": "Gold sparkle CSS on #btn-discover (same size); click flies to first creature find + opens story; long-press or welcome Tours opens path sheet",
+    "zoom": "Leaflet +/- zoomControl disabled; gesture/wheel zoom only"
+  },
+  "zoom_control": false
 }

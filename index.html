@@ -1321,7 +1321,7 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'vendor/marker-shadow.png'
 });
 
-const map = L.map('map', { zoomControl: true, maxZoom: 18 }).setView([31.5, 35.2], 7);
+const map = L.map('map', { zoomControl: false, maxZoom: 18 }).setView([31.5, 35.2], 7);
 window._digMap = map;
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
@@ -2151,6 +2151,26 @@ function setAllLayerToggles(checked){
   });
 }
 window.setAllLayerToggles = setAllLayerToggles;
+
+function applyOtNtOnlyLayerDefaults(opts){
+  /* Nested-labels / layers-tray expand + startup lock: only tog-ot and tog-nt on. */
+  opts = opts || {};
+  const keep = { 'tog-ot': true, 'tog-nt': true };
+  document.querySelectorAll('input.layer-toggle').forEach(el => {
+    const want = !!keep[el.id];
+    if(el.checked === want) return;
+    el.checked = want;
+    el.dispatchEvent(new Event('change', { bubbles: true }));
+  });
+  if(opts.syncMap !== false){
+    try {
+      if(typeof otLayer !== 'undefined' && otLayer && typeof map !== 'undefined' && map && !map.hasLayer(otLayer)) otLayer.addTo(map);
+      if(typeof ntLayer !== 'undefined' && ntLayer && typeof map !== 'undefined' && map && !map.hasLayer(ntLayer)) ntLayer.addTo(map);
+    } catch(e){}
+  }
+}
+window.applyOtNtOnlyLayerDefaults = applyOtNtOnlyLayerDefaults;
+
 function setAllEraToggles(checked){
   /* Every era checkbox in the Era filter section. */
   document.querySelectorAll('#era-filter-boxes input.era-toggle, input.era-toggle').forEach(el => {
