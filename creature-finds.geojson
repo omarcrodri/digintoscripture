@@ -1,0 +1,2123 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "layer": "creature_finds",
+  "label": "Creature finds",
+  "default_on": false,
+  "source_pack": "creature-finds-pins-2026-10-06.json",
+  "pins_in_pack": 29,
+  "mapped": 28,
+  "held": [
+   {
+    "pin_id": "CRF-01",
+    "name": "Skull Creek \"Ebenezer\" Allosaurus quarry (CMP 279)",
+    "why": "hold: no published coords"
+   }
+  ],
+  "stripped_urls": [],
+  "note": "Link-out only (no embedded/rehosted museum or AiG images). Not tagged creation vs evolution."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.4445991,
+     40.0228421
+    ]
+   },
+   "properties": {
+    "id": "CRF-02",
+    "name": "Burning Tree Mastodon",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "yes",
+     "venue": "creation_museum",
+     "what": "a full-size cast of this skeleton stands in the Main Hall (since 2009)",
+     "cite_url": "https://creationmuseum.org/blog/2011/06/16/around-the-main-hall-part-1/",
+     "as_of": "2026-10-06",
+     "cite_urls_more": [
+      "https://answersingenesis.org/fossils/fascinating-fossils-glimpse-creation-museum-collection/"
+     ],
+     "note": "Cast, not the original bones.",
+     "drawer_line_1": "Creation Museum / Ark Encounter: Yes — Creation Museum: a full-size cast of this skeleton stands in the Main Hall (since 2009)."
+    },
+    "find_facts": {
+     "creature": "American mastodon (Mammut americanum)",
+     "formation": "Late Pleistocene peat/bog deposit",
+     "year": "December 1989",
+     "discoverer": "Dragline operator digging a golf-course pond; salvage dig by Ohio Historical Society and Licking County Archaeology & Landmarks Society",
+     "held_at": "Original sold in 1993, now in Japan (AiG names Kanagawa Prefectural Museum; not confirmed on a museum page). Casts: Creation Museum; Hanover College (IN).",
+     "scale": "Near-complete skeleton; preserved intestinal contents; bacteria cultured from gut material"
+    },
+    "summary": "In late 1989 workers digging a pond on an Ohio golf course hit huge bones. A quick winter dig recovered one of the most complete mastodon skeletons ever found, plus a mass of plant material identified as the animal's last meals. The original skeleton was sold to a museum in Japan. A cast of it greets visitors in the Creation Museum's Main Hall.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Greeted by a Mastodon (2009)",
+      "url": "https://answersingenesis.org/ministry-news/creation-museum/greeted-by-a-mastodon/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Lepper et al. 1991, Intestinal contents of a late Pleistocene mastodont, Quaternary Research 36:120–125",
+      "url": "https://doi.org/10.1016/0033-5894(91)90020-6",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Hanover College: world's most-complete mastodon cast debuts (2021)",
+      "url": "https://www.hanover.edu/about/news/2021/mastodon-installed-science-center/",
+      "kind": "institution",
+      "host": "hanover.edu"
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Find facts well documented; whether the cultured bacteria were truly ancient gut survivors is debated.",
+    "findspot": {
+     "place": "Heath, Licking County, Ohio (Burning Tree Golf Course)",
+     "coord_status": "locality_centroid",
+     "precision_note": "Heath municipal centroid (OSM relation 182312). Lepper et al. 1991 give latitude 39°58′45″N; the full coordinate was not captured, so the town centroid is used."
+    },
+    "location": "Heath, Licking County, Ohio (Burning Tree Golf Course)",
+    "related_points": [
+     {
+      "ref": "CRM-01",
+      "layer": "ministry_places",
+      "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
+     }
+    ],
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.7632795,
+     41.8592117
+    ]
+   },
+   "properties": {
+    "id": "CRF-03",
+    "name": "Fossil Lake fish slab and giant palm frond (Green River Formation)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "yes",
+     "venue": "ark_encounter",
+     "what": "a slab with five fossil fish species and a 10 ft 7 in palm frond (Sabalites powelli) are displayed in the deck-3 Flood Geology exhibit (opened 2022)",
+     "cite_url": "https://arkencounter.com/blog/2022/08/04/new-green-river-formation-exhibit-open/",
+     "as_of": "2026-10-06",
+     "cite_urls_more": [
+      "https://arkencounter.com/blog/2023/01/19/ark-encounters-flood-geology-exhibit-gets-upgrade/"
+     ],
+     "note": "The Creation Museum also displays a 'fish eating a fish' fossil AiG says is from Wyoming (donated 2005), but AiG does not name its formation, so venue stays ark_encounter.",
+     "drawer_line_1": "Creation Museum / Ark Encounter: Yes — Ark Encounter: a slab with five fossil fish species and a 10 ft 7 in palm frond (Sabalites powelli) are displayed in the deck-3 Flood Geology exhibit (opened 2022)."
+    },
+    "find_facts": {
+     "creature": "Five fossil fish species + fan palm Sabalites powelli",
+     "formation": "Fossil Lake (Fossil Butte) Member, Green River Formation (Eocene)",
+     "year": "not published by AE",
+     "discoverer": "not published by AE",
+     "held_at": "Ark Encounter, Williamstown, KY",
+     "scale": "Two large display slabs"
+    },
+    "summary": "The Ark Encounter's Flood Geology exhibit includes two large fossils from the Fossil Lake part of Wyoming's Green River Formation: a slab holding fish of five species and a palm frond more than ten feet tall. Fossil Lake rocks are famous for finely preserved fish, and part of the area is protected at Fossil Butte National Monument.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "New Fossil Exhibit Opens at the Ark Encounter (Ken Ham blog, 2022-07-31)",
+      "url": "https://answersingenesis.org/blogs/ken-ham/2022/07/31/new-fossil-exhibit-opens-at-ark-encounter/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "Lessons Learned from a Fossil (2007), the CM fish-eating-fish fossil",
+      "url": "https://answersingenesis.org/fossils/how-are-fossils-formed/lessons-learned-from-a-fossil/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org",
+      "note": "Related CM item; locality only 'Wyoming'."
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Fossil Butte National Monument (NPS)",
+      "url": "https://www.nps.gov/fobu/index.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     }
+    ],
+    "solidity": "moderate",
+    "solidity_caveat": "Formation stated by AE; quarry, year and collector not published.",
+    "findspot": {
+     "place": "Fossil Lake deposits, Fossil Basin, Lincoln County, Wyoming",
+     "coord_status": "locality_centroid",
+     "precision_note": "Pin at Fossil Butte National Monument (OSM relation 6004500) as the public anchor for Fossil Lake deposits; AE does not name the quarry."
+    },
+    "location": "Fossil Lake deposits, Fossil Basin, Lincoln County, Wyoming",
+    "related_points": [
+     {
+      "ref": "ARK-ENC-01",
+      "layer": "ministry_places",
+      "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
+     }
+    ],
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.1243468,
+     48.9257201
+    ]
+   },
+   "properties": {
+    "id": "CRF-04",
+    "name": "Horseshoe crab with its final trackway (Schernfeld quarry, Solnhofen area)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "yes",
+     "venue": "creation_museum",
+     "what": "an 8 ft × 5 ft slab with a fossil horseshoe crab at the end of its own trackway is on display",
+     "cite_url": "https://creationmuseum.org/blog/2006/03/01/the-death-march-of-the-horseshoe-crab/",
+     "as_of": "2026-10-06",
+     "cite_urls_more": [
+      "https://answersingenesis.org/fossils/fascinating-fossils-glimpse-creation-museum-collection/"
+     ],
+     "drawer_line_1": "Creation Museum / Ark Encounter: Yes — Creation Museum: an 8 ft × 5 ft slab with a fossil horseshoe crab at the end of its own trackway is on display."
+    },
+    "find_facts": {
+     "creature": "Horseshoe crab (species not stated by CM)",
+     "formation": "Solnhofen-area lithographic limestone (Upper Jurassic)",
+     "year": "not published",
+     "discoverer": "not published",
+     "held_at": "Creation Museum, Petersburg, KY",
+     "scale": "Single slab with body fossil + trackway"
+    },
+    "summary": "This limestone slab shows a horseshoe crab lying at the end of the trail it made across the sea floor. The Creation Museum says it came from the Schernfeld quarry near Solnhofen, Germany, an area known for very finely preserved fossils. No outside scientific description of this particular slab was found.",
+    "solidity": "moderate",
+    "solidity_caveat": "Known only from CM/AiG pages; no catalog number or outside description found. Similar trackway-ending crabs exist elsewhere (e.g., Wyoming Dinosaur Center); do not confuse.",
+    "findspot": {
+     "place": "Schernfeld quarry near Solnhofen, Bavaria, Germany (per CM)",
+     "coord_status": "locality_centroid",
+     "precision_note": "Schernfeld municipal centroid (OSM relation 943541); quarry not specified."
+    },
+    "location": "Schernfeld quarry near Solnhofen, Bavaria, Germany (per CM)",
+    "related_points": [
+     {
+      "ref": "CRM-01",
+      "layer": "ministry_places",
+      "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
+     }
+    ],
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.901947,
+     43.664444
+    ]
+   },
+   "properties": {
+    "id": "CRF-05",
+    "name": "Ukhaa Tolgod Protoceratops (basis for the Creation Museum sculptures)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "yes",
+     "venue": "creation_museum",
+     "what": "two Protoceratops sculptures in the Starting Points room (opened Nov 2024) are modeled on Protoceratops specimens from Ukhaa Tolgod (sculptures, not fossils)",
+     "cite_url": "https://answersingenesis.org/blogs/ken-ham/2024/11/08/new-protoceratops-exhibit-opens-creation-museum/",
+     "as_of": "2026-10-06",
+     "cite_urls_more": [
+      "https://answersingenesis.org/answers/magazine/v19-n4/bringing-bones-life/",
+      "https://creationmuseum.org/blog/2024/05/24/new-dinosaur-exhibit-coming-to-creation-museum/"
+     ],
+     "drawer_line_1": "Creation Museum / Ark Encounter: Yes — Creation Museum: two Protoceratops sculptures in the Starting Points room (opened Nov 2024) are modeled on Protoceratops specimens from Ukhaa Tolgod (sculptures, not fossils)."
+    },
+    "find_facts": {
+     "creature": "Protoceratops andrewsi (ceratopsian dinosaur)",
+     "formation": "Upper Cretaceous red sandstones, Gobi Desert",
+     "year": "locality found 1993",
+     "discoverer": "Mongolian Academy of Sciences–American Museum of Natural History expedition",
+     "held_at": "Mongolian / AMNH collections (no fossil at CM)",
+     "scale": "Rich locality with many articulated skeletons"
+    },
+    "summary": "Ukhaa Tolgod is a fossil-rich area in Mongolia's Gobi Desert found by a joint Mongolian–American team in 1993. Many dinosaurs there, including the sheep-sized Protoceratops, were buried by moving sand. The Creation Museum's newest dinosaur display uses two sculptures based on Protoceratops from this site.",
+    "neutral_sources": [
+     {
+      "title": "Dashzeveg et al. 1995, Extraordinary preservation in a new vertebrate assemblage from the Late Cretaceous of Mongolia, Nature 374:446",
+      "url": "https://doi.org/10.1038/374446a0",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Paleobiology Database collection 37184: Ukhaa Tolgod (AMNH)",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=37184",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Locality facts strong; the CM link is to sculptures based on these specimens.",
+    "findspot": {
+     "place": "Ukhaa Tolgod, Gobi Desert, Mongolia",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 37184 (local-area precision)."
+    },
+    "location": "Ukhaa Tolgod, Gobi Desert, Mongolia",
+    "related_points": [
+     {
+      "ref": "CRM-01",
+      "layer": "ministry_places",
+      "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
+     }
+    ],
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.910461,
+     47.32121
+    ]
+   },
+   "properties": {
+    "id": "CRF-06",
+    "name": "T. rex MOR 1125 (\"B-rex\") soft-tissue report",
+    "layer": "creature_finds",
+    "subtype": "soft_tissue_claim",
+    "aliases": [
+     "soft_mor_1125_trex",
+     "B-rex"
+    ],
+    "also_known_as": "B-rex",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "note": "The Creation Museum lists a general talk, 'Dinosaur Soft Tissue: Biblical and Scientific Relevance' (Dr. Georgia Purdom), but the page does not name this specimen, so it is not counted. No Ark Encounter exhibit found. If cited, call it a 'talk', not an 'exhibit'.",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "cm_ae_related_talk": {
+     "title": "Creation Museum talk: Dinosaur Soft Tissue (general; does not name MOR 1125)",
+     "url": "https://creationmuseum.org/events/presentations/dinosaur-soft-tissue/",
+     "kind": "talk",
+     "host": "creationmuseum.org"
+    },
+    "find_facts": {
+     "creature": "Tyrannosaurus rex, specimen MOR 1125",
+     "formation": "Hell Creek Formation (Maastrichtian)",
+     "year": "excavated 2001–2003 by Museum of the Rockies crews; soft-tissue paper 2005",
+     "discoverer": "Museum of the Rockies field program (Bob Harmon credited in acknowledgments)",
+     "held_at": "Museum of the Rockies, Bozeman, MT",
+     "scale": "Partial skeleton, 220+ elements; tissue from femur fragments"
+    },
+    "summary": "After bones of this Montana T. rex were treated in acid to remove minerals, researchers reported flexible, branching vessel-like structures and cell-like shapes inside. Later studies reported protein fragments. Scientists still debate how such material could survive, and some propose other explanations. The skeleton is held by the Museum of the Rockies.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Ostrich-Osaurus Discovery? (2005)",
+      "url": "https://answersingenesis.org/dinosaurs/bones/ostrich-osaurus-discovery/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "Soft Tissue Found in Dinosaur Sparks New Debate",
+      "url": "https://answersingenesis.org/dinosaurs/bones/soft-tissue-found-dinosaur-sparks-new-debate/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "Dinosaur Tissue (topic hub)",
+      "url": "https://answersingenesis.org/fossils/dinosaur-tissue/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Institute for Creation Research",
+      "title": "Dinosaur Soft Tissues: They're Real! (2009)",
+      "url": "https://www.icr.org/article/dinosaur-soft-tissues-theyre-real",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Schweitzer et al. 2005, Soft-tissue vessels and cellular preservation in Tyrannosaurus rex, Science",
+      "url": "https://doi.org/10.1126/science.1108397",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Ullmann et al. 2021, Taphonomic and Diagenetic Pathways to Protein Preservation, Part I: MOR 1125, Biology (open access)",
+      "url": "https://doi.org/10.3390/biology10111193",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     }
+    ],
+    "solidity": "mixed",
+    "solidity_caveat": "Researchers reported these structures in peer-reviewed papers; other scientists have proposed alternative explanations (e.g., bacterial biofilm, contamination, iron-mediated preservation). Drawer copy should say 'reported'.",
+    "findspot": {
+     "place": "NW of Jordan, Garfield County, Montana; south of Fort Peck Reservoir, Charles M. Russell National Wildlife Refuge",
+     "coord_status": "locality_centroid",
+     "precision_note": "Jordan town centroid (OSM relation 142462); quarry lies NW of town on refuge land; not pinned exactly."
+    },
+    "location": "NW of Jordan, Garfield County, Montana; south of Fort Peck Reservoir, Charles M. Russell National Wildlife Refuge",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.8726879,
+     48.3596948
+    ]
+   },
+   "properties": {
+    "id": "CRF-07",
+    "name": "Brachylophosaurus MOR 2598 collagen report",
+    "layer": "creature_finds",
+    "subtype": "soft_tissue_claim",
+    "aliases": [
+     "soft_mor_2598_brachylophosaurus"
+    ],
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "note": "No specimen-specific Creation Museum or Ark Encounter page found.",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Brachylophosaurus canadensis (duck-billed dinosaur), MOR 2598",
+     "formation": "Judith River Formation (Campanian)",
+     "year": "collected 2006–2007; Science paper 2009",
+     "discoverer": "Museum of the Rockies crews (Bob Harmon, Nels Peterson)",
+     "held_at": "Museum of the Rockies, Bozeman, MT",
+     "scale": "Articulated left hind limb"
+    },
+    "summary": "This duck-billed dinosaur leg was dug up specifically to test for original proteins. In 2009 researchers reported collagen fragments and vessel-like structures from the thigh bone, and later teams reported more peptides. The results are widely cited and also debated.",
+    "other_christian_coverage": [
+     {
+      "source": "Institute for Creation Research",
+      "title": "Hadrosaur Soft Tissues Another Blow to Long-Ages Myth (2009)",
+      "url": "https://www.icr.org/content/hadrosaur-soft-tissues-another-blow-long-ages-myth",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Schweitzer et al. 2009, Biomolecular characterization and protein sequences of the Campanian hadrosaur B. canadensis, Science",
+      "url": "https://doi.org/10.1126/science.1165069",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Ullmann et al. 2022, Protein preservation Part II: MOR 2598, Biology (open access)",
+      "url": "https://doi.org/10.3390/biology11081177",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     }
+    ],
+    "solidity": "mixed",
+    "solidity_caveat": "Researchers reported these structures in peer-reviewed papers; other scientists have proposed alternative explanations (e.g., bacterial biofilm, contamination, iron-mediated preservation). Drawer copy should say 'reported'.",
+    "findspot": {
+     "place": "North of Malta, Phillips County, Montana (state trust land)",
+     "coord_status": "locality_centroid",
+     "precision_note": "Malta town centroid (OSM relation 142457); site is north of town."
+    },
+    "location": "North of Malta, Phillips County, Montana (state trust land)",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.71246,
+     47.10529
+    ]
+   },
+   "properties": {
+    "id": "CRF-08",
+    "name": "Triceratops horn soft-bone report (Armitage & Anderson): provisional/contested",
+    "layer": "creature_finds",
+    "subtype": "soft_tissue_claim",
+    "aliases": [
+     "soft_armitage_triceratops_hell_creek"
+    ],
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "note": "No Creation Museum (KY) or Ark Encounter page found. A different museum, the Creation & Earth History Museum in Santee, CA, advertises pieces of this horn; that is NOT the Creation Museum.",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Triceratops horridus supraorbital horn (field no. HCTH-00)",
+     "formation": "Hell Creek Formation (Maastrichtian)",
+     "year": "collected 12 May 2012; paper 2013",
+     "discoverer": "Mark Armitage (with Kevin Anderson)",
+     "held_at": "Not confirmed in sources checked",
+     "scale": "One horn and related fragments"
+    },
+    "summary": "Researchers reported that a Triceratops horn from a Montana ranch contained soft, sheet-like bone tissue and cell-like structures after lab treatment. The report appeared in a mainstream microscopy journal but comes from one team and has not been widely tested by others, so it is marked provisional.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Triceratops soft tissue",
+      "url": "https://creation.com/en/articles/triceratops-soft-tissue",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     },
+     {
+      "source": "Institute for Creation Research",
+      "title": "Triceratops Horn Soft Tissue Foils 'Biofilm' Explanation",
+      "url": "https://www.icr.org/content/triceratops-horn-soft-tissue-foils-biofilm-explanation",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Armitage & Anderson 2013, Soft sheets of fibrillar bone from a fossil of the supraorbital horn of the dinosaur Triceratops horridus, Acta Histochemica 115:603–608",
+      "url": "https://doi.org/10.1016/j.acthis.2013.01.001",
+      "kind": "peer_reviewed",
+      "host": "doi.org",
+      "note": "Authors are creationists publishing in a mainstream journal."
+     }
+    ],
+    "solidity": "weak",
+    "solidity_caveat": "Provisional/contested: single author group; no independent replication found in this pass. Researchers reported these structures in peer-reviewed papers; other scientists have proposed alternative explanations (e.g., bacterial biofilm, contamination, iron-mediated preservation). Drawer copy should say 'reported'.",
+    "findspot": {
+     "place": "Private ranch near Glendive, Dawson County, Montana",
+     "coord_status": "locality_centroid",
+     "precision_note": "Glendive town centroid (OSM relation 142467). The paper publishes a PLSS section on private land; deliberately not pinned."
+    },
+    "location": "Private ranch near Glendive, Dawson County, Montana",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.374443,
+     56.746944
+    ]
+   },
+   "properties": {
+    "id": "CRF-09",
+    "name": "Borealopelta markmitchelli (armored nodosaur with skin)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Borealopelta markmitchelli (nodosaurid ankylosaur), TMP 2011.033.0001",
+     "formation": "Clearwater Formation (Lower Cretaceous, marine)",
+     "year": "found 2011; named 2017",
+     "discoverer": "Found during oil-sands mining at Suncor's Millennium Mine; recovered by Royal Tyrrell Museum staff",
+     "held_at": "Royal Tyrrell Museum of Palaeontology, Drumheller, AB",
+     "scale": "Front half of animal in 3-D with armor, skin and scales in place"
+    },
+    "summary": "Miners digging oil sands in northern Alberta in 2011 uncovered the front half of an armored dinosaur preserved in three dimensions, with skin and armor still in place. Scientists named it Borealopelta and reported chemical traces they think show a reddish-brown color pattern, though some experts want stronger evidence for the color claim.",
+    "other_christian_coverage": [
+     {
+      "source": "Institute for Creation Research",
+      "title": "Spectacular Dinosaur Has Skin, Horn, Pigments",
+      "url": "https://www.icr.org/article/spectacular-dinosaur-has-skin-horn/",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Brown et al. 2017, An exceptionally preserved three-dimensional armored dinosaur, Current Biology",
+      "url": "https://doi.org/10.1016/j.cub.2017.06.071",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Paleobiology Database collection 194481: Suncor Millennium Mine",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=194481",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Find facts strong; color interpretation relies on indirect chemistry and is debated.",
+    "findspot": {
+     "place": "Suncor Millennium Mine, north of Fort McMurray, Alberta",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 194481 (local area; active mine, no public access)."
+    },
+    "location": "Suncor Millennium Mine, north of Fort McMurray, Alberta",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     9.518056,
+     48.633057
+    ]
+   },
+   "properties": {
+    "id": "CRF-10",
+    "name": "Stenopterygius ichthyosaur MH 432 (skin and blubber report)",
+    "layer": "creature_finds",
+    "subtype": "soft_tissue_claim",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Stenopterygius (ichthyosaur, marine reptile), MH 432",
+     "formation": "Posidonia Shale (Lower Jurassic, Toarcian)",
+     "year": "study published 2018",
+     "discoverer": "Not stated in sources checked",
+     "held_at": "Urweltmuseum Hauff, Holzmaden, Germany",
+     "scale": "Single specimen"
+    },
+    "summary": "A team studying an ichthyosaur from Germany's Holzmaden shale reported layers of skin, a blubber layer beneath it, and pigment cells. They said the remains were partly still flexible but chemically changed over time. The fossil is kept at the Urweltmuseum Hauff in Holzmaden.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Soft tissue preservation in a 'Jurassic' ichthyosaur",
+      "url": "https://creation.com/en/articles/soft-tissue-ichthyosaur",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "180-Million-Year-Old Soft Tissue? (Ken Ham, 2018)",
+      "url": "https://answersingenesis.org/culture/180-million-year-old-soft-tissue/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Lindgren et al. 2018, Soft-tissue evidence for homeothermy and crypsis in a Jurassic ichthyosaur, Nature 564:359–365",
+      "url": "https://doi.org/10.1038/s41586-018-0775-x",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Paleobiology Database collection 91595: Hauff Quarry IX, Holzmaden",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=91595",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "The paper reports still-flexible skin remnants and blubber and also calls the material chemically altered residue; interpretations of what survives differ.",
+    "findspot": {
+     "place": "Holzmaden, Baden-Württemberg, Germany",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB Holzmaden collections (e.g., col 91595); specimen quarry not stated."
+    },
+    "location": "Holzmaden, Baden-Württemberg, Germany",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     120.8722,
+     41.601398
+    ]
+   },
+   "properties": {
+    "id": "CRF-11",
+    "name": "Sinosauropteryx (filament-covered theropod)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "note": "AiG has articles (below). The Ark Encounter lists a general talk, 'Are Birds Feathered Dinosaurs?' (Dr. Gabriela Haynes), whose page does not mention Sinosauropteryx; not counted.",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "cm_ae_related_talk": {
+     "title": "Ark Encounter talk: Are Birds Feathered Dinosaurs? (general)",
+     "url": "https://arkencounter.com/events/presentations/birds-feathered-dinosaurs-gabriela-haynes/",
+     "kind": "talk",
+     "host": "arkencounter.com"
+    },
+    "find_facts": {
+     "creature": "Sinosauropteryx prima (small compsognathid theropod); holotype NIGP 127586, also NIGP 127587 and IVPP V12415",
+     "formation": "Yixian Formation (Lower Cretaceous), Jehol Biota",
+     "year": "first specimens mid-1990s; fully described 1998",
+     "discoverer": "Described by Chen, Dong & Zhen (1998) after earlier Chinese reports",
+     "held_at": "Nanjing Institute of Geology and Palaeontology (NIGP) and IVPP, Beijing",
+     "scale": "Several complete skeletons with body-outline filaments"
+    },
+    "summary": "Sinosauropteryx was a small meat-eating dinosaur from northeastern China whose fossils show a fringe of fine filaments along the body. Most scientists see these as simple feather-like coverings and have used tiny pigment structures to suggest a striped tail. A small group of researchers argued in 2007 that the filaments are broken-down skin fibers instead, and Joel Tay of Creation Ministries International makes a similar case. Other researchers replied in 2017 that the fiber idea came from misread features.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Why Dinosaurs DID NOT Evolve into Birds, video with Joel Tay (chapter 'Dinosaur fossil collagen', ~14:45)",
+      "url": "https://creation.com/en/videos/why-dinosaurs-did-not-evolve-into-birds",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com",
+      "date": "2024-08-14",
+      "note": "Attributed claim (paraphrased): Tay argues the 'proto-feather'/'dinofuzz' filaments match decayed skin collagen fibers, some lying under scales, so they are not feathers."
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "Why Dinosaurs DID NOT Evolve into Birds (YouTube)",
+      "url": "https://www.youtube.com/watch?v=U4xztNBvpLw",
+      "embed": "https://www.youtube.com/embed/U4xztNBvpLw",
+      "disclosure": "young-earth creation ministry",
+      "date": "2024-08-14",
+      "host": "youtube.com",
+      "note": "Embed only; never rehost. Third-party transcripts not used."
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "Birdy-o-saur Under Dispute (2007)",
+      "url": "https://answersingenesis.org/dinosaurs/feathers/birdy-o-saur-under-dispute/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Chen, Dong & Zhen 1998, An exceptionally well-preserved theropod dinosaur from the Yixian Formation of China, Nature",
+      "url": "https://doi.org/10.1038/34356",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Lingham-Soliar, Feduccia & Wang 2007, 'protofeathers' in Sinosauropteryx are degraded collagen fibres, Proc. R. Soc. B 274:1823–1829",
+      "url": "https://doi.org/10.1098/rspb.2007.0352",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Smithwick et al. 2017, On the purported presence of fossilized collagen fibres in an ichthyosaur and a theropod dinosaur, Palaeontology 60:409–422",
+      "url": "https://doi.org/10.1111/pala.12292",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Zhang et al. 2010, Fossilized melanosomes and the colour of Cretaceous dinosaurs and birds, Nature",
+      "url": "https://doi.org/10.1038/nature08740",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Smithwick et al. 2017, Countershading and stripes in Sinosauropteryx, Current Biology",
+      "url": "https://doi.org/10.1016/j.cub.2017.09.032",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Paleobiology Database collection 50469: Sihetun, Yixian bed 6",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=50469",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "moderate",
+    "solidity_caveat": "Specimens and locality strong; what the filaments are is debated (majority: feather-like covering; minority: collagen fibres).",
+    "findspot": {
+     "place": "Sihetun, near Beipiao, Liaoning, China",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 50469 (local-area precision)."
+    },
+    "location": "Sihetun, near Beipiao, Liaoning, China",
+    "views": {
+     "mainstream": "Most paleontologists read the filaments as simple feather-like body covering; pigment-structure (melanosome) studies were used to infer a banded tail and countershading (Zhang et al. 2010; Smithwick et al. 2017).",
+     "collagen_fiber_view_non_creationist": "Lingham-Soliar, Feduccia & Wang (2007, Proc. R. Soc. B) argued the filaments are degraded skin collagen fibres. DOI verified: 10.1098/rspb.2007.0352.",
+     "reply": "Smithwick et al. (2017, Palaeontology) argued the collagen reading came from misidentified features and supported feather homologues.",
+     "ministry_view": "CMI (Joel Tay) presents the collagen reading as evidence the filaments are not feathers (attributed claim only)."
+    },
+    "related_note": "Similar filament finds (e.g., Dilong, Yutyrannus, Beipiaosaurus) are reviewed in Xu & Barrett 2025, Biology Letters (https://doi.org/10.1098/rsbl.2024.0517); not separate pins in this starter pack.",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.961667,
+     48.893055
+    ]
+   },
+   "properties": {
+    "id": "CRF-12",
+    "name": "Archaeopteryx, London specimen (NHMUK PV OR 37001)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Archaeopteryx lithographica (feathered early bird)",
+     "formation": "Solnhofen limestone (Altmühltal Formation, Upper Jurassic)",
+     "year": "1861",
+     "discoverer": "Quarry find near Langenaltheim; sold by Karl Häberlein to the British Museum (1862)",
+     "held_at": "Natural History Museum, London",
+     "scale": "Single skeleton with feather impressions"
+    },
+    "summary": "Found in a Bavarian limestone quarry in 1861, this fossil shows a crow-sized animal with clear feathers and wings but also teeth, claws on its wings, and a long bony tail. It was bought by the British Museum and is now in the Natural History Museum in London.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "If It Looked and Flew Like a Bird, Must It Be a Dinosaur?",
+      "url": "https://answersingenesis.org/dinosaurs/feathers/looked-flew-like-bird-must-be-dinosaur/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Answers in Genesis",
+      "title": "Why Archaeopteryx Isn't as Special as Once Described (Calvin Smith, 2024-03-11; part 3 of a series)",
+      "url": "https://answersingenesis.org/blogs/calvin-smith/2024/03/11/why-archaeopteryx-isnt-special-as-described/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Natural History Museum: Archaeopteryx (Dino Directory)",
+      "url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html",
+      "kind": "museum",
+      "host": "nhm.ac.uk"
+     },
+     {
+      "title": "Paleobiology Database collection 53036: Langenaltheim (London specimen)",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=53036",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Find facts strong; its place in bird ancestry is interpreted differently by different groups.",
+    "findspot": {
+     "place": "Langenaltheim, near Solnhofen, Bavaria, Germany",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 53036 (local area)."
+    },
+    "location": "Langenaltheim, near Solnhofen, Bavaria, Germany",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -102.0395994,
+     45.0226129
+    ]
+   },
+   "properties": {
+    "id": "CRF-13",
+    "name": "SUE the T. rex (FMNH PR 2081)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Tyrannosaurus rex, FMNH PR 2081",
+     "formation": "Hell Creek Formation (Maastrichtian)",
+     "year": "1990",
+     "discoverer": "Sue Hendrickson (Black Hills Institute crew)",
+     "held_at": "Field Museum, Chicago",
+     "scale": "About 90% of the skeleton by bulk"
+    },
+    "summary": "In 1990 fossil hunter Sue Hendrickson spotted bones in a cliff near Faith, South Dakota, leading to one of the most complete T. rex skeletons known. After a legal fight over ownership it was auctioned in 1997 and bought for the Field Museum in Chicago, where it is on display.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Sue the T. rex: another missionary lizard",
+      "url": "https://creation.com/en/articles/sue-the-t-rex-another-missionary-lizard",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     },
+     {
+      "source": "Institute for Creation Research",
+      "title": "Happy Birthday, Sue; How Old Are You?",
+      "url": "https://www.icr.org/article/4025",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Field Museum: SUE the T. rex",
+      "url": "https://www.fieldmuseum.org/blog/sue-t-rex",
+      "kind": "museum",
+      "host": "fieldmuseum.org"
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Well documented; ownership was litigated before the 1997 auction.",
+    "findspot": {
+     "place": "Cheyenne River Sioux Reservation land near Faith, Ziebach County, South Dakota",
+     "coord_status": "locality_centroid",
+     "precision_note": "Faith town centroid; the ranch site is private/trust land and not pinned exactly."
+    },
+    "location": "Cheyenne River Sioux Reservation land near Faith, Ziebach County, South Dakota",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     71.6667,
+     68.6333
+    ]
+   },
+   "properties": {
+    "id": "CRF-14",
+    "name": "Lyuba, baby woolly mammoth",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Woolly mammoth calf (Mammuthus primigenius), ~1 month old",
+     "formation": "Late Pleistocene river-bank sediments, Yuribey River",
+     "year": "2007",
+     "discoverer": "Reindeer herder Yuri Khudi and his sons",
+     "held_at": "Shemanovsky Museum, Salekhard, Russia",
+     "scale": "Nearly complete frozen carcass"
+    },
+    "summary": "In 2007 a reindeer herder found a month-old mammoth calf lying almost intact on a river bank in Russia's Yamal Peninsula. Scans showed mud in her trunk and airways, which researchers think means she suffocated after sinking into soft mud. She is now kept at a museum in Salekhard.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "A Mammoth Discovery (2009)",
+      "url": "https://answersingenesis.org/extinct-animals/ice-age/a-mammoth-discovery/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "Woolly mammoths choked by dust?",
+      "url": "https://creation.com/en/articles/woolly-mammoths-choked-by-dust",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Fisher et al. 2012, Anatomy, death, and preservation of a woolly mammoth calf, Yamal Peninsula, Quaternary International 255",
+      "url": "https://doi.org/10.1016/j.quaint.2011.05.040",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "Assessing metagenomic signals recovered from Lyuba (Genes 9:436, 2018)",
+      "url": "https://doi.org/10.3390/genes9090436",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Find well documented; cause of death (suffocation in mud) is an interpretation.",
+    "findspot": {
+     "place": "Yuribey River, Yamal Peninsula, Russia",
+     "coord_status": "published",
+     "precision_note": "Approximate coordinates for the Yuribey River find area from published descriptions (Fisher et al. 2012); area-level."
+    },
+    "location": "Yuribey River, Yamal Peninsula, Russia",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     155.3093111,
+     67.5710304
+    ]
+   },
+   "properties": {
+    "id": "CRF-15",
+    "name": "Berezovka mammoth",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "aliases": [
+     "Beresovka mammoth (AiG spelling)"
+    ],
+    "also_known_as": "Beresovka mammoth (AiG spelling)",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Woolly mammoth (Mammuthus primigenius), adult male",
+     "formation": "Late Pleistocene permafrost bank",
+     "year": "found 1900; excavated 1901",
+     "discoverer": "Found by a local hunter; excavated by Otto Herz's Imperial Academy expedition with Eugen Pfizenmayer",
+     "held_at": "Zoological Museum, St Petersburg (per standard histories; not confirmed on a museum page this pass). Muscle tissue from the left hind leg has been at the Smithsonian NMNH since 1922",
+     "scale": "Partial carcass in sitting posture with food in mouth and stomach"
+    },
+    "summary": "In 1900 a hunter found a mammoth eroding from a river bank in far-eastern Siberia. A Russian scientific team dug it out the next year and found it partly upright, with grass and other plants in its mouth and stomach. It became one of the most famous frozen mammoths and is held in St Petersburg.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Were Siberian Mammoths Quick Frozen? (Michael Oard, 2004)",
+      "url": "https://answersingenesis.org/extinct-animals/ice-age/were-siberian-mammoths-quick-frozen/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Smithsonian: Berezovka Woolly Mammoth: Flesh in a Jar (Smithsonian Snapshot, 2010)",
+      "url": "https://www.si.edu/collections/snapshot/berezovka-woolly-mammoth-flesh-jar",
+      "kind": "museum",
+      "host": "si.edu",
+      "note": "Link only; the page photo is not embedded. Curl returned 403; content confirmed via search index."
+     },
+     {
+      "title": "Herz, O. 1902. Berichte des Leiters der ... an die Kolyma-Beresowka ausgesandten Expedition (St Petersburg), Internet Archive scan",
+      "url": "https://archive.org/details/herzoberichtedesleitersdervonderkaiserl62",
+      "kind": "primary_source",
+      "host": "archive.org",
+      "note": "Public domain (published 1902). Scan mirrored from the Russian State Public Historical Library (elib.shpl.ru). German text; facts paraphrased only."
+     }
+    ],
+    "solidity": "moderate",
+    "solidity_caveat": "Historic find; many popular retellings exaggerate the 'quick-frozen' details.",
+    "findspot": {
+     "place": "Berezovka River, Kolyma basin, Sakha (Yakutia), Russia",
+     "coord_status": "river_level",
+     "precision_note": "Point on the Berezovka River line (OSM way 146580333); exact bank site not published in sources checked."
+    },
+    "location": "Berezovka River, Kolyma basin, Sakha (Yakutia), Russia",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.7798127,
+     44.5355158
+    ]
+   },
+   "properties": {
+    "id": "CRF-16",
+    "name": "\"Big Al\" Allosaurus (MOR 693)",
+    "layer": "creature_finds",
+    "subtype": "specimen",
+    "aliases": [
+     "Big Al (provisional link to SC-1)"
+    ],
+    "also_known_as": "Big Al (provisional link to SC-1)",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "note": "Target Finder's 'yes' was downgraded: only a Creation Museum press release compares Ebenezer to Big Al; no exhibit or talk about Big Al found.",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Allosaurus (juvenile/subadult), MOR 693",
+     "formation": "Morrison Formation (Upper Jurassic)",
+     "year": "1991",
+     "discoverer": "Swiss team (Kirby Siber's Sauriermuseum Aathal) then Museum of the Rockies/BLM; discovery-team details unverified in this pass",
+     "held_at": "Museum of the Rockies, Bozeman, MT",
+     "scale": "~95% complete skeleton with many injuries"
+    },
+    "summary": "Big Al is one of the most complete Allosaurus skeletons ever found, dug from Morrison Formation rocks near Shell, Wyoming, in 1991. Its bones show many healed and unhealed injuries. It is held by the Museum of the Rockies.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Allosaurus—A Creationist's Best Friend (Snelling; mentions Big Al)",
+      "url": "https://answersingenesis.org/dinosaurs/when-did-dinosaurs-live/allosaurus-creationists-best-friend/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Creation Museum press",
+      "title": "Million-Dollar Dinosaur Exhibit Dedicated Today (compares to Big Al)",
+      "url": "https://creationmuseum.org/press/million-dinosaur-exhibit-dedicated-today/",
+      "disclosure": "young-earth creation ministry",
+      "host": "creationmuseum.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Paleobiology Database collection 46468: Big Al quarry area",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=46468",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Specimen well known; discovery credit details not re-verified here.",
+    "findspot": {
+     "place": "BLM land near Shell, Big Horn County, Wyoming",
+     "coord_status": "locality_centroid",
+     "precision_note": "Shell town centroid; quarry location withheld here."
+    },
+    "location": "BLM land near Shell, Big Horn County, Wyoming",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.300552,
+     40.441387
+    ]
+   },
+   "properties": {
+    "id": "CRF-17",
+    "name": "Carnegie Quarry, Dinosaur National Monument",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "aliases": [
+     "R-1"
+    ],
+    "also_known_as": "R-1",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Mixed Jurassic dinosaurs (Apatosaurus, Diplodocus, Camarasaurus, Stegosaurus, Allosaurus, etc.)",
+     "formation": "Morrison Formation (Upper Jurassic)",
+     "year": "1909",
+     "discoverer": "Earl Douglass (Carnegie Museum)",
+     "held_at": "In place (Quarry Exhibit Hall wall) + Carnegie Museum and others",
+     "scale": "~1,500 bones visible in the wall"
+    },
+    "summary": "In 1909 Earl Douglass found a tilted sandstone layer packed with dinosaur bones in northeastern Utah. Crews removed many skeletons for museums, and about 1,500 bones were left in the rock wall, now inside the Quarry Exhibit Hall at Dinosaur National Monument.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Dinosaur National Monument in Utah",
+      "url": "https://answersingenesis.org/fossils/dinosaur-national-monument-in-utah/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Institute for Creation Research",
+      "title": "Dinosaur National Monument: Fossil Graveyard from the Flood",
+      "url": "https://www.icr.org/content/dinosaur-national-monument-fossil-graveyard-flood",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     },
+     {
+      "source": "Institute for Creation Research",
+      "title": "Dinosaur National Monument: Park or Jurassic Jumble?",
+      "url": "https://www.icr.org/article/dinosaur-national-monument-park-or-jurassic-jumble/1000",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "Dinosaur disarray",
+      "url": "https://creation.com/en/articles/dinosaur-disarray",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "NPS: Carnegie Quarry",
+      "url": "https://www.nps.gov/dino/learn/historyculture/carnegie_quarry.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     },
+     {
+      "title": "NPS: Quarry Exhibit Hall",
+      "url": "https://www.nps.gov/dino/planyourvisit/quarry-exhibit-hall.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     },
+     {
+      "title": "IUGS Geoheritage: Upper Jurassic Carnegie Quarry dinosaur bone site",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/upper-jurassic-carnegie-quarry-dinosaur-bone-site/",
+      "kind": "institution",
+      "host": "iugs-geoheritage.org"
+     },
+     {
+      "title": "Paleobiology Database collection 21852: Carnegie Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=21852",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Deposition (river channel accumulation) is interpreted differently by different groups.",
+    "findspot": {
+     "place": "Quarry Exhibit Hall, Dinosaur National Monument, near Jensen, Utah",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 21852."
+    },
+    "location": "Quarry Exhibit Hall, Dinosaur National Monument, near Jensen, Utah",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.687622,
+     39.32399
+    ]
+   },
+   "properties": {
+    "id": "CRF-18",
+    "name": "Cleveland-Lloyd Dinosaur Quarry (Jurassic Mile / Jurassic National Monument)",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "aliases": [
+     "R-3"
+    ],
+    "also_known_as": "R-3",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Mostly Allosaurus fragilis (46+ individuals) plus other dinosaurs",
+     "formation": "Brushy Basin Member, Morrison Formation",
+     "year": "known since 1920s; major digs 1929 onward (University of Utah from 1960)",
+     "discoverer": "Local ranchers; University of Utah/Princeton crews",
+     "held_at": "Dozens of museums worldwide; on-site visitor center",
+     "scale": "12,000+ bones"
+    },
+    "summary": "This quarry in central Utah holds the densest concentration of Jurassic dinosaur bones known, most from Allosaurus. More than 12,000 bones have been dug since the 1920s and sent to museums worldwide. Scientists still argue about what killed and gathered so many animals in one place.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Allosaurus—A Creationist's Best Friend (Snelling; discusses Cleveland-Lloyd)",
+      "url": "https://answersingenesis.org/dinosaurs/when-did-dinosaurs-live/allosaurus-creationists-best-friend/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "BLM: Jurassic National Monument and Cleveland-Lloyd Dinosaur Quarry",
+      "url": "https://www.blm.gov/programs/national-conservation-lands/utah/jurassic-national-monument",
+      "kind": "agency",
+      "host": "blm.gov"
+     },
+     {
+      "title": "BLM: Cleveland-Lloyd Dinosaur Quarry brochure (PDF; official original of the copy mirrored on npshistory.com)",
+      "url": "https://www.blm.gov/sites/default/files/documents/files/Cleveland%20Lloyd%20Brochure.pdf",
+      "kind": "agency",
+      "host": "blm.gov"
+     },
+     {
+      "title": "NPS: Dinos Large and Small, NNLs Got 'Em All (National Natural Landmarks article)",
+      "url": "https://www.nps.gov/articles/000/nnl-dinosaurs.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     },
+     {
+      "title": "Paleobiology Database collection 46439: Cleveland-Lloyd Dinosaur Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=46439",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Why so many Allosaurus died here (drought, mud trap, flood) is still debated.",
+    "findspot": {
+     "place": "Jurassic National Monument, Emery County, Utah",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 46439."
+    },
+    "location": "Jurassic National Monument, Emery County, Utah",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.224701,
+     38.539501
+    ]
+   },
+   "properties": {
+    "id": "CRF-19",
+    "name": "Felch Quarry 1, Garden Park (Cañon City)",
+    "layer": "creature_finds",
+    "subtype": "dig_site",
+    "aliases": [
+     "R-2"
+    ],
+    "also_known_as": "R-2",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Allosaurus fragilis neotype (USNM 4734), Stegosaurus, Ceratosaurus and others",
+     "formation": "Morrison Formation",
+     "year": "1877 onward (M. P. Felch for O. C. Marsh, 1880s)",
+     "discoverer": "Marshall P. Felch working for O. C. Marsh",
+     "held_at": "Smithsonian NMNH (USNM 4734) and Yale Peabody",
+     "scale": "Classic multi-taxon quarry"
+    },
+    "summary": "Garden Park, just north of Cañon City, Colorado, was one of the first big dinosaur hunting grounds in the American West. In the 1880s Marshall Felch dug skeletons here for Yale's O. C. Marsh, including the Allosaurus now used as the official reference specimen for the species, kept at the Smithsonian.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "Allosaurus—A Creationist's Best Friend (Snelling; Garden Park history)",
+      "url": "https://answersingenesis.org/dinosaurs/when-did-dinosaurs-live/allosaurus-creationists-best-friend/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     },
+     {
+      "source": "Answers Research Journal (AiG)",
+      "title": "Allosaurus fragilis skull (Rush & Storm 2024; cites neotype USNM 4734 from Felch Quarry)",
+      "url": "https://answersresearchjournal.org/fossils/allosaurus-fragilis-skull/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersresearchjournal.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Paleobiology Database collection 28366: Felch Quarry 1",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=28366",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Historic quarry; numbers of specimens vary by source.",
+    "findspot": {
+     "place": "Garden Park Fossil Area, north of Cañon City, Fremont County, Colorado",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 28366."
+    },
+    "location": "Garden Park Fossil Area, north of Cañon City, Fremont County, Colorado",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.7798127,
+     44.5355158
+    ]
+   },
+   "properties": {
+    "id": "CRF-20",
+    "name": "Howe Quarry (Barnum Brown, 1934)",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Mostly sauropods (Barosaurus, Camarasaurus, Apatosaurus) + others",
+     "formation": "Morrison Formation",
+     "year": "1934 (AMNH); reworked 1990s",
+     "discoverer": "Barnum Brown (AMNH), on Barker Howe's ranch",
+     "held_at": "American Museum of Natural History (and Sauriermuseum Aathal for 1990s material)",
+     "scale": "~4,000 bones, some with skin impressions"
+    },
+    "summary": "In 1934 Barnum Brown of the American Museum of Natural History dug a dense tangle of dinosaur bones on a Wyoming ranch, many from long-necked sauropods, with some skin impressions. About 4,000 bones were shipped to New York, though many were never fully studied.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Tschopp et al. 2020, Reconstructing the specimens and history of Howe Quarry, American Museum Novitates 3956 (AMNH Digital Library item)",
+      "url": "https://digitallibrary.amnh.org/items/8c4ff3a4-108e-43a9-b60d-5f458462c2c2",
+      "kind": "peer_reviewed",
+      "host": "digitallibrary.amnh.org"
+     },
+     {
+      "title": "Tschopp et al. 2020, Novitates 3956 (DOI)",
+      "url": "https://doi.org/10.1206/3956.1",
+      "kind": "peer_reviewed",
+      "host": "doi.org"
+     },
+     {
+      "title": "AMNH: Howe Quarry Is a Fossil Treasure (blog)",
+      "url": "https://www.amnh.org/explore/news-blogs/howe-quarry-fossil-site",
+      "kind": "museum",
+      "host": "amnh.org",
+      "note": "Curl/fetch hit a captcha; content confirmed via search index."
+     },
+     {
+      "title": "Paleobiology Database collection 46460: Howe Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=46460",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "moderate",
+    "solidity_caveat": "Much of the 1934 material was never fully described; precise counts vary.",
+    "findspot": {
+     "place": "Private ranch near Shell, Big Horn County, Wyoming",
+     "coord_status": "locality_centroid",
+     "precision_note": "Shell town centroid; private land, not pinned exactly."
+    },
+    "location": "Private ranch near Shell, Big Horn County, Wyoming",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.473099,
+     36.331699
+    ]
+   },
+   "properties": {
+    "id": "CRF-21",
+    "name": "Ghost Ranch Coelophysis Quarry",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Coelophysis bauri (small early theropod), hundreds of individuals",
+     "formation": "Chinle Group (Upper Triassic)",
+     "year": "1947",
+     "discoverer": "George Whitaker and Edwin Colbert (AMNH)",
+     "held_at": "Ruth Hall Museum of Paleontology (Ghost Ranch), NM Museum of Natural History, Carnegie, AMNH",
+     "scale": "Hundreds of skeletons in blocks"
+    },
+    "summary": "In 1947 a museum team found hundreds of small Triassic dinosaurs called Coelophysis piled together at Ghost Ranch, New Mexico. Blocks of the quarry went to museums around the country, and Ghost Ranch now has its own paleontology museum, which is owned by a Presbyterian retreat center.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Ghost Ranch: Museums (Ruth Hall Museum of Paleontology)",
+      "url": "https://www.ghostranch.org/museums/",
+      "kind": "institution",
+      "host": "ghostranch.org",
+      "note": "Current page; the old /explore/museums/ now redirects to /about/."
+     },
+     {
+      "title": "NPS: Dinos Large and Small, NNLs Got 'Em All (Ghost Ranch NNL)",
+      "url": "https://www.nps.gov/articles/000/nnl-dinosaurs.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     },
+     {
+      "title": "Paleobiology Database collection 48422: Ghost Ranch Coelophysis Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=48422",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Cause of mass death (flood, drought) debated.",
+    "findspot": {
+     "place": "Ghost Ranch, Rio Arriba County, New Mexico",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 48422."
+    },
+    "location": "Ghost Ranch, Rio Arriba County, New Mexico",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.0347773,
+     50.4806568
+    ]
+   },
+   "properties": {
+    "id": "CRF-22",
+    "name": "Hilda mega-bonebed (Centrosaurus)",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Centrosaurus (horned dinosaur), possibly thousands of individuals",
+     "formation": "Dinosaur Park Formation (Upper Cretaceous)",
+     "year": "two bonebeds known from 1959 field notes (Wann Langston) and 1964–66 Provincial Museum digs; mega-bonebed (14 bonebeds) confirmed by Royal Tyrrell Museum in 1997",
+     "discoverer": "Wann Langston (first notes); Royal Tyrrell Museum (David Eberth and colleagues) defined the mega-bonebed",
+     "held_at": "Royal Tyrrell Museum",
+     "scale": "At least 14 bonebeds in one horizon over at least 2.3 km²; estimated to hold a few thousand Centrosaurus"
+    },
+    "summary": "Near the hamlet of Hilda in southeastern Alberta, researchers mapped a huge spread of bones from the horned dinosaur Centrosaurus. They suggested a large herd drowned in a coastal flood and their remains were spread across a wide area.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Watery catastrophe deduced from huge ceratopsian dinosaur graveyard",
+      "url": "https://creation.com/en/articles/watery-catastrophe-deduced-from-huge-ceratopsian-dinosaur-graveyard",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "The Canadian Encyclopedia: Alberta Hilda Dinosaur Mega-Bonebed (David A. Eberth, 2011; ed. 2015)",
+      "url": "https://thecanadianencyclopedia.ca/en/article/alberta-hilda-dinosaur-mega-bonebed",
+      "kind": "reference",
+      "host": "thecanadianencyclopedia.ca"
+     }
+    ],
+    "solidity": "moderate",
+    "solidity_caveat": "Interpretation of a coastal flood/storm-surge kill is from the researchers; scale estimates vary.",
+    "findspot": {
+     "place": "Near Hilda, southeastern Alberta",
+     "coord_status": "locality_centroid",
+     "precision_note": "Hilda hamlet centroid (area-level). The bonebeds lie west of Hilda along the South Saskatchewan River (per Canadian Encyclopedia)."
+    },
+    "location": "Near Hilda, southeastern Alberta",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.484657,
+     50.750553
+    ]
+   },
+   "properties": {
+    "id": "CRF-23",
+    "name": "Dinosaur Provincial Park Bonebed 43 (Centrosaurus)",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Centrosaurus apertus",
+     "formation": "Dinosaur Park Formation (Upper Cretaceous)",
+     "year": "excavated from 1980s",
+     "discoverer": "Royal Tyrrell Museum crews",
+     "held_at": "Royal Tyrrell Museum",
+     "scale": "Thousands of bones from many individuals"
+    },
+    "summary": "Bonebed 43 in Alberta's Dinosaur Provincial Park is packed with bones of the horned dinosaur Centrosaurus, mostly broken up and mixed together. Researchers think a herd died in a flood and the bones were later moved by water.",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "Watery catastrophe deduced from huge ceratopsian dinosaur graveyard",
+      "url": "https://creation.com/en/articles/watery-catastrophe-deduced-from-huge-ceratopsian-dinosaur-graveyard",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     },
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "Alberta Parks: Dinosaur Provincial Park",
+      "url": "https://www.albertaparks.ca/parks/south/dinosaur-pp/",
+      "kind": "agency",
+      "host": "albertaparks.ca"
+     },
+     {
+      "title": "IUGS Geoheritage: Dinosaur Provincial Park",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/dinosaur-provincial-park/",
+      "kind": "institution",
+      "host": "iugs-geoheritage.org"
+     },
+     {
+      "title": "Paleobiology Database collection 22659: Bonebed 43",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=22659",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Mass-death mechanism (river flood) is an interpretation.",
+    "findspot": {
+     "place": "Dinosaur Provincial Park, Alberta (UNESCO World Heritage site)",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 22659."
+    },
+    "location": "Dinosaur Provincial Park, Alberta (UNESCO World Heritage site)",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.397202,
+     38.583099
+    ]
+   },
+   "properties": {
+    "id": "CRF-24",
+    "name": "Dry Mesa Dinosaur Quarry",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Supersaurus, Torvosaurus, many other Jurassic dinosaurs",
+     "formation": "Morrison Formation",
+     "year": "1972 onward (main collecting 1972–1982)",
+     "discoverer": "Eddie and Vivian Jones (amateur collectors; it was one of the 'Jones localities') and James Jensen (BYU)",
+     "held_at": "BYU Museum of Paleontology, Provo, UT",
+     "scale": "4,000+ bones, ~23 dinosaur taxa"
+    },
+    "summary": "Dry Mesa in western Colorado is a rich Jurassic bone site first dug in 1972 by Brigham Young University's James Jensen. It produced bones of some of the largest dinosaurs known, including Supersaurus, and is studied by BYU's museum.",
+    "neutral_sources": [
+     {
+      "title": "Jensen 1985, Three new sauropod dinosaurs from the Upper Jurassic of Colorado, Great Basin Naturalist 45(4):697–709 (BYU ScholarsArchive)",
+      "url": "https://scholarsarchive.byu.edu/gbn/vol45/iss4/7/",
+      "kind": "peer_reviewed",
+      "host": "scholarsarchive.byu.edu"
+     },
+     {
+      "title": "BYU Geology: paleontology research",
+      "url": "https://geology.byu.edu/paleontology-research",
+      "kind": "institution",
+      "host": "geology.byu.edu"
+     },
+     {
+      "title": "Paleobiology Database collection 45975: Dry Mesa Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=45975",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "No Christian-source coverage found; included from the AI Tools bonebed list.",
+    "findspot": {
+     "place": "Dry Mesa, Uncompahgre Plateau, Montrose County, Colorado",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 45975 (PBDB lists Montrose County; Jensen 1985 says Mesa County, 35 miles west of Delta; the quarry sits near the county line)."
+    },
+    "location": "Dry Mesa, Uncompahgre Plateau, Montrose County, Colorado",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.852501,
+     29.411388
+    ]
+   },
+   "properties": {
+    "id": "CRF-25",
+    "name": "Dashanpu Dinosaur Quarry (Zigong)",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Shunosaurus, Omeisaurus, Gasosaurus and others",
+     "formation": "Lower Shaximiao Formation (Middle Jurassic)",
+     "year": "1970s–1980s",
+     "discoverer": "Chinese crews during construction work",
+     "held_at": "Zigong Dinosaur Museum (built over the quarry)",
+     "scale": "Thousands of bones, 100+ individuals"
+    },
+    "summary": "Construction work at Dashanpu in Sichuan, China, uncovered a huge bed of Middle Jurassic dinosaur bones in the 1970s. A museum was built right over the quarry so visitors can see the bones still in the ground.",
+    "neutral_sources": [
+     {
+      "title": "IUGS Geoheritage: Dashanpu Middle Jurassic dinosaur fossils site",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/dashanpu-middle-jurassicdinosaur-fossils-site/",
+      "kind": "institution",
+      "host": "iugs-geoheritage.org"
+     },
+     {
+      "title": "Paleobiology Database collection 24883: Dashanpu Quarry",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=24883",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "No Christian-source coverage found.",
+    "findspot": {
+     "place": "Dashanpu, Zigong, Sichuan, China",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 24883."
+    },
+    "location": "Dashanpu, Zigong, Sichuan, China",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     39.25,
+     -9.616667
+    ]
+   },
+   "properties": {
+    "id": "CRF-26",
+    "name": "Tendaguru Hill",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Giraffatitan, Kentrosaurus, Dicraeosaurus and others",
+     "formation": "Tendaguru Formation (Upper Jurassic)",
+     "year": "1906; German expedition 1909–1913",
+     "discoverer": "Bernhard Sattler (first report); Werner Janensch and Edwin Hennig led the dig",
+     "held_at": "Museum für Naturkunde, Berlin; Natural History Museum, London",
+     "scale": "~250 tons of material shipped"
+    },
+    "summary": "Tendaguru Hill in southern Tanzania was dug by German expeditions from 1909 to 1913, using hundreds of local workers. They shipped tons of bones to Berlin, including the huge Giraffatitan skeleton on display at the Museum für Naturkunde.",
+    "neutral_sources": [
+     {
+      "title": "Digital Tendaguru (Museum für Naturkunde Berlin)",
+      "url": "https://digitaltendaguru.museumfuernaturkunde.berlin/",
+      "kind": "museum",
+      "host": "digitaltendaguru.museumfuernaturkunde.berlin"
+     },
+     {
+      "title": "Paleobiology Database collection 34863: Tendaguru",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=34863",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Colonial-era excavation; repatriation discussions ongoing.",
+    "findspot": {
+     "place": "Tendaguru, Lindi Region, Tanzania",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 34863."
+    },
+    "location": "Tendaguru, Lindi Region, Tanzania",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -112.664299,
+     47.8214
+    ]
+   },
+   "properties": {
+    "id": "CRF-27",
+    "name": "Egg Mountain (Maiasaura nesting site)",
+    "layer": "creature_finds",
+    "subtype": "dig_site",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Maiasaura and Troodon eggs, nests and young",
+     "formation": "Two Medicine Formation (Upper Cretaceous)",
+     "year": "1978",
+     "discoverer": "Marion Brandvold; studied by Jack Horner and Bob Makela",
+     "held_at": "Museum of the Rockies",
+     "scale": "Multiple nests and juveniles"
+    },
+    "summary": "In 1978 a rock-shop owner showed paleontologist Jack Horner baby dinosaur bones from a Montana ranch. Digging at the spot, now called Egg Mountain, turned up nests, eggs and young of a duck-billed dinosaur later named Maiasaura, meaning 'good mother lizard.'",
+    "other_christian_coverage": [
+     {
+      "source": "Creation Ministries International",
+      "title": "The extinction of the dinosaurs",
+      "url": "https://creation.com/en/articles/the-extinction-of-the-dinosaurs",
+      "disclosure": "young-earth creation ministry",
+      "host": "creation.com"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "NPS: Egg Mountain (Mesozoic fossils series)",
+      "url": "https://www.nps.gov/articles/mesozoic-egg-mountain-dawson-2014.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     },
+     {
+      "title": "IUGS Geoheritage: Cretaceous dinosaur nesting grounds of the Willow Creek Anticline",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/the-cretaceous-dinosaur-nesting-grounds-of-the-willow-creek-anticline/",
+      "kind": "institution",
+      "host": "iugs-geoheritage.org"
+     },
+     {
+      "title": "Paleobiology Database collection 14453: Egg Mountain",
+      "url": "https://paleobiodb.org/classic/displayCollResults?collection_no=14453",
+      "kind": "database_record",
+      "host": "paleobiodb.org",
+      "note": "PBDB data: CC BY 4.0 (cite PBDB + record). Facts paraphrased; no record text/images copied."
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Parental-care interpretation is widely accepted but debated in details.",
+    "findspot": {
+     "place": "Near Choteau, Teton County, Montana",
+     "coord_status": "pbdb_collection",
+     "precision_note": "PBDB col 14453."
+    },
+    "location": "Near Choteau, Teton County, Montana",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.1751729,
+     31.6044533
+    ]
+   },
+   "properties": {
+    "id": "CRF-28",
+    "name": "Waco Mammoth National Monument",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Columbian mammoths (nursery herd) + camel and others",
+     "formation": "Late Pleistocene river deposits (Bosque River)",
+     "year": "1978",
+     "discoverer": "Paul Barron and Eddie Bufkin",
+     "held_at": "In place at the monument dig shelter; Baylor University",
+     "scale": "At least 24 mammoths"
+    },
+    "summary": "In 1978 two young men looking for arrowheads near Waco, Texas, found a large bone that turned out to belong to a mammoth. Excavations revealed a herd of Columbian mammoths that researchers think were trapped and buried by rising flood water. The site is now a national monument.",
+    "other_christian_coverage": [
+     {
+      "source": "Institute for Creation Research",
+      "title": "Waco Mammoth National Monument",
+      "url": "https://www.icr.org/article/waco-mammoth-national-monument/",
+      "disclosure": "young-earth creation ministry",
+      "host": "icr.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "NPS: Waco Mammoth history",
+      "url": "https://www.nps.gov/waco/learn/historyculture/index.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Flood-burial interpretation is from the site researchers.",
+    "findspot": {
+     "place": "Waco, McLennan County, Texas",
+     "coord_status": "site_centroid",
+     "precision_note": "Monument site (OSM)."
+    },
+    "location": "Waco, McLennan County, Texas",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.7476009,
+     38.882299
+    ]
+   },
+   "properties": {
+    "id": "CRF-29",
+    "name": "Big Bone Lick",
+    "layer": "creature_finds",
+    "subtype": "bone_bed",
+    "also_known_as": "",
+    "cm_ae_evidence": {
+     "status": "no",
+     "venue": null,
+     "what": null,
+     "cite_url": null,
+     "as_of": "2026-10-06",
+     "drawer_line_1": "No Creation Museum or Ark Encounter coverage found (as of 2026-10-06).",
+     "cite_urls_more": []
+    },
+    "find_facts": {
+     "creature": "Mastodons, mammoths, giant ground sloth, bison and more",
+     "formation": "Pleistocene salt-spring (lick) deposits",
+     "year": "1739 (first recorded); collected by Lewis & Clark era expeditions (1807 for Jefferson)",
+     "discoverer": "Charles de Longueuil (1739); William Clark collected for Thomas Jefferson",
+     "held_at": "Many museums; Big Bone Lick State Historic Site",
+     "scale": "Thousands of bones collected since 1739"
+    },
+    "summary": "Big Bone Lick in northern Kentucky is a salty spring area where Ice Age animals came to lick salt and some got stuck in the mud. Explorers began collecting huge bones there in 1739, and Thomas Jefferson sent William Clark to gather fossils in 1807. It is about 20 miles from the Creation Museum.",
+    "other_christian_coverage": [
+     {
+      "source": "Answers in Genesis",
+      "title": "What Mean These Mastodons? (Gary Parker, 2011)",
+      "url": "https://answersingenesis.org/extinct-animals/ice-age/what-mean-these-mastodons/",
+      "disclosure": "young-earth creation ministry",
+      "host": "answersingenesis.org"
+     }
+    ],
+    "neutral_sources": [
+     {
+      "title": "NPS: Big Bone Lick article",
+      "url": "https://www.nps.gov/articles/000/big-bone-lick.htm",
+      "kind": "agency",
+      "host": "nps.gov"
+     }
+    ],
+    "solidity": "strong",
+    "solidity_caveat": "Historic collecting scattered the material widely.",
+    "findspot": {
+     "place": "Big Bone Lick State Historic Site, Boone County, Kentucky",
+     "coord_status": "site_centroid",
+     "precision_note": "State historic site centroid (OSM). ~20 miles from the Creation Museum."
+    },
+    "location": "Big Bone Lick State Historic Site, Boone County, Kentucky",
+    "disclosure": "Christian ministry cites: young-earth creation ministry"
+   }
+  }
+ ]
+}

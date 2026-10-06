@@ -261,7 +261,7 @@ header > p{display:none} /* quieter chrome */
 .chip-dot.line{border-radius:2px;width:12px;height:4px;border:0}
 .chip-dot.ot{background:var(--ot)}.chip-dot.nt{background:var(--nt)}.chip-dot.sg{background:var(--sg)}.chip-dot.ch{background:var(--ch)}
 .chip-dot.ap{background:var(--ap)}.chip-dot.trade{background:var(--trade)}.chip-dot.prophets{background:var(--prophets)}
-.chip-dot.miracles{background:var(--miracles)}.chip-dot.wilderness{background:var(--wilderness)}.chip-dot.ministry-places{background:var(--ministry-places,#a78bfa)}.chip-dot.artifacts{background:var(--artifacts)}
+.chip-dot.miracles{background:var(--miracles)}.chip-dot.wilderness{background:var(--wilderness)}.chip-dot.ministry-places{background:var(--ministry-places,#a78bfa)}.chip-dot.creature-finds{background:#84cc16}.chip-dot.artifacts{background:var(--artifacts)}
 .chip-dot.min{background:linear-gradient(90deg,var(--min-paul),var(--min-peter),var(--min-philip),var(--min-john))}
 .chip-dot.min-paul{background:var(--min-paul)}.chip-dot.min-peter{background:var(--min-peter)}.chip-dot.min-philip{background:var(--min-philip)}.chip-dot.min-john{background:var(--min-john)}
 .chip-dot.sponsor-eb{background:#f97316}
@@ -706,7 +706,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-y</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-z</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -849,6 +849,13 @@ header > p{display:none !important}
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-ministry-places" title="About Ministry places" aria-label="About Ministry places">i</button>
           </div>
           <p class="layer-blurb" id="blurb-ministry-places" hidden>Ark Encounter, Creation Museum, and HalleluYah Scriptures publisher pin. Ministry attractions / publisher — not digs. Off by default.</p>
+        </div>
+        <div class="layer-chip-wrap" data-layer="creature-finds">
+          <div class="layer-chip-row">
+            <label class="layer-chip"><input type="checkbox" id="tog-creature-finds" class="layer-toggle"/> <span class="chip-dot creature-finds" aria-hidden="true"></span><span class="chip-name">Creature finds</span></label>
+            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-creature-finds" title="About Creature finds" aria-label="About Creature finds">i</button>
+          </div>
+          <p class="layer-blurb" id="blurb-creature-finds" hidden>Fossil and preserved-remains finds (dig sites, specimens, bone beds, soft-tissue reports). Each drawer opens with Creation Museum / Ark Encounter coverage, then find facts and sources. Private-land sites are pinned at the nearest town. Link-out only. Off by default.</p>
         </div>
         <div class="layer-chip-wrap" data-layer="ev-exodus-main">
           <div class="layer-chip-row">
@@ -1724,6 +1731,7 @@ const LAYER_COLORS = {
   sponsor_snr: '#2dd4bf',
   artifacts: '#e879f9',
   ministry_places: '#a78bfa',
+  creature_finds: '#84cc16',
   'ev-exodus-main': '#f59e0b',
   'ev-exodus-aqaba': '#fb923c',
   'ev-exodus-nedelta': '#eab308',
@@ -3057,6 +3065,130 @@ function loadMinistryPlacesPack(){
 window.loadMinistryPlacesPack = loadMinistryPlacesPack;
 loadMinistryPlacesPack();
 
+/* ===== creature_finds layer (build 20261001-z; source creature-finds.geojson; off by default; CRF-01 held, no coords) ===== */
+function showCreatureFindStory(p, geom){
+  noteStorySite(p, geom);
+  const el = storyBodyEl();
+  const esc = (s) => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(text || url)}</a>` : esc(text || '');
+  const SUB = { dig_site: 'Dig site', specimen: 'Specimen', soft_tissue_claim: 'Soft-tissue report', bone_bed: 'Bone bed' };
+  const tagLabel = 'Creature find' + (p.subtype ? ' · ' + (SUB[p.subtype] || String(p.subtype).replace(/_/g,' ')) : '');
+  const tagStyle = 'background:#1a2e05;border-color:#84cc16;color:#f7fee7';
+  const cm = p.cm_ae_evidence || {};
+  // 1. CM/AE evidence line (always first)
+  let cmHtml = '';
+  if(cm.drawer_line_1){
+    const cites = [];
+    if(cm.cite_url) cites.push(link(cm.cite_url, 'source'));
+    (cm.cite_urls_more || []).forEach((u, i) => cites.push(link(u, 'more ' + (i+1))));
+    const citeBit = cites.length ? ` <span class="muted">(${cites.join(' · ')}; young-earth creation ministry)</span>` : '';
+    const note = cm.note ? `<p class="muted">${esc(cm.note)}</p>` : '';
+    let talk = '';
+    if(p.cm_ae_related_talk && p.cm_ae_related_talk.title){
+      const t = p.cm_ae_related_talk;
+      talk = `<p class="muted">Related talk (not an exhibit): ${link(t.url, t.title)} — young-earth creation ministry</p>`;
+    }
+    cmHtml = `<div class="story-sec cf-cmae"><p><b>${esc(cm.drawer_line_1)}</b>${citeBit}</p>${note}${talk}</div>`;
+  }
+  // 3. find facts
+  const ff = p.find_facts || {};
+  const FF = [['creature','Creature'],['formation','Formation'],['year','Year'],['discoverer','Discoverer'],['held_at','Held at'],['scale','Scale']];
+  const ffRows = FF.filter(([k]) => ff[k]).map(([k,l]) => `<li><b>${l}:</b> ${esc(ff[k])}</li>`).join('');
+  const ffHtml = ffRows ? `<div class="story-sec"><h3>Find facts</h3><ul>${ffRows}</ul></div>` : '';
+  // 4. summary
+  const sumHtml = p.summary ? `<div class="story-sec"><h3>Summary</h3><p>${esc(p.summary)}</p></div>` : '';
+  let viewsHtml = '';
+  if(p.views && typeof p.views === 'object'){
+    const VL = { mainstream: 'Mainstream reading', collagen_fiber_view_non_creationist: 'Alternative (non-creationist) reading', reply: 'Reply', ministry_view: 'Ministry view (attributed)' };
+    const li = Object.keys(p.views).map(k => `<li><b>${esc(VL[k] || k.replace(/_/g,' '))}:</b> ${esc(p.views[k])}</li>`).join('');
+    if(li) viewsHtml = `<div class="story-sec"><h3>Views</h3><ul>${li}</ul></div>`;
+  }
+  const relNote = p.related_note ? `<p class="muted">${esc(p.related_note)}</p>` : '';
+  // 5. other Christian coverage
+  const srcItem = (s) => {
+    if(!s) return '';
+    const head = s.source ? esc(s.source) + ': ' : '';
+    const title = s.url ? link(s.url, s.title || s.url) : esc(s.title || '');
+    const disc = s.disclosure ? ` <span class="muted">— ${esc(s.disclosure)}</span>` : '';
+    const lab = s.label_note ? ` <span class="muted">(${esc(s.label_note)})</span>` : '';
+    const note = s.note ? `<br><span class="muted">${esc(s.note)}</span>` : '';
+    return `<li>${head}${title}${lab}${disc}${note}</li>`;
+  };
+  const occ = (p.other_christian_coverage || []).map(srcItem).join('');
+  const occHtml = occ ? `<div class="story-sec"><h3>Other Christian coverage</h3><ul>${occ}</ul></div>` : '';
+  // 6. neutral sources
+  const ns = (p.neutral_sources || []).map(s => {
+    const kind = s && s.kind ? ` <span class="muted">(${esc(String(s.kind).replace(/_/g,' '))})</span>` : '';
+    return srcItem(Object.assign({}, s, {source: null, disclosure: null})).replace('</li>', kind + '</li>');
+  }).join('');
+  const nsHtml = ns ? `<div class="story-sec"><h3>Other sources</h3><ul>${ns}</ul></div>` : '';
+  // 7. solidity + caveat
+  const solHtml = (p.solidity || p.solidity_caveat)
+    ? `<div class="story-sec"><h3>Solidity</h3>${p.solidity ? `<p class="honesty-solidity"><b>${esc(p.solidity)}</b></p>` : ''}${p.solidity_caveat ? `<p>${esc(p.solidity_caveat)}</p>` : ''}</div>` : '';
+  // 8. findspot precision
+  const fs = p.findspot || {};
+  const fsHtml = (fs.place || fs.precision_note)
+    ? `<div class="story-sec"><h3>Findspot</h3>${fs.place ? `<p>${esc(fs.place)}</p>` : ''}${fs.precision_note ? `<p class="muted">Map pin: ${esc((fs.coord_status||'').replace(/_/g,' '))}${fs.coord_status ? ' — ' : ''}${esc(fs.precision_note)}</p>` : ''}</div>` : '';
+  // related points (reuse ministry_places CRM-01 / ARK-ENC-01; other creature finds)
+  let relHtml = '';
+  if(Array.isArray(p.related_points) && p.related_points.length){
+    const items = p.related_points.map(r => {
+      if(!r || !r.ref) return '';
+      const hit = (typeof findSiteFeatureById === 'function') ? findSiteFeatureById(r.ref) : null;
+      const label = hit && hit.props && hit.props.name ? hit.props.name : r.ref;
+      const why = r.why ? ` <span class="muted">— ${esc(r.why)}</span>` : '';
+      return `<li><button type="button" class="findspot-btn" onclick="window.openSiteById(${esc(JSON.stringify(r.ref))})">${esc(label)}</button>${why}</li>`;
+    }).filter(Boolean).join('');
+    if(items) relHtml = `<div class="story-sec"><h3>Related pins</h3><ul>${items}</ul></div>`;
+  }
+  el.innerHTML = `
+    <div class="tag" style="${tagStyle}">${tagLabel}</div>
+    ${cmHtml}
+    ${siteTitleHtml(p)}
+    ${coordsRowHtml(geom)}
+    ${ffHtml}
+    ${sumHtml}
+    ${viewsHtml}
+    ${relNote}
+    ${occHtml}
+    ${nsHtml}
+    ${solHtml}
+    ${fsHtml}
+    ${relHtml}
+    <p class="muted">Link-out only; no rehosted images. Christian ministry cites are labeled young-earth creation ministry.</p>`;
+  openStoryPanel();
+}
+window.showCreatureFindStory = showCreatureFindStory;
+const creatureFindsIcon = pinDot(LAYER_COLORS.creature_finds || '#84cc16', {extra: 'box-shadow:0 0 5px rgba(132,204,22,.55)'});
+let CREATURE_FINDS = {type:'FeatureCollection', features:[]};
+window.CREATURE_FINDS = CREATURE_FINDS;
+const creatureFindsLayer = digMakeClusterLayer(CREATURE_FINDS, {
+  pointToLayer: (f, latlng) => L.marker(latlng, {icon: creatureFindsIcon}),
+  onEachFeature: (f, layer) => {
+    layer.on('click', () => showCreatureFindStory(f.properties, f.geometry));
+  }
+});
+window.creatureFindsLayer = creatureFindsLayer;
+function applyCreatureFindsData(fc){
+  if(!fc || !fc.features) return;
+  CREATURE_FINDS.type = 'FeatureCollection';
+  CREATURE_FINDS.features = fc.features.filter(f => f && f.geometry && Array.isArray(f.geometry.coordinates) && f.geometry.coordinates[0] != null && f.geometry.coordinates[1] != null);
+  try {
+    if(creatureFindsLayer._digIsCluster && typeof creatureFindsLayer._digRebuild === 'function') creatureFindsLayer._digRebuild(CREATURE_FINDS);
+    else { creatureFindsLayer.clearLayers(); creatureFindsLayer.addData(CREATURE_FINDS); }
+  } catch(e){}
+  if(typeof window.__digRebuildSiteSearch === 'function') window.__digRebuildSiteSearch();
+}
+function loadCreatureFindsPack(){
+  return fetch('./creature-finds.geojson', { cache: 'no-store' }).then(r => {
+    if(!r.ok) throw new Error('creature-finds '+r.status);
+    return r.json();
+  }).then(fc => { applyCreatureFindsData(fc); return fc; })
+  .catch(err => console.warn('Creature finds pack load failed', err));
+}
+window.loadCreatureFindsPack = loadCreatureFindsPack;
+loadCreatureFindsPack();
+
 
 function applyArtifactsData(fc){
   if(!fc || !fc.features) return;
@@ -3363,6 +3495,7 @@ function setStoryHtml(html){
     wilderness: { label: 'Exodus wilderness', toggle: 'tog-wilderness', layer: () => wildernessLayer },
     artifacts: { label: 'Artifacts', toggle: 'tog-artifacts', layer: () => artifactsLayer },
     'ministry-places': { label: 'Ministry places', toggle: 'tog-ministry-places', layer: () => ministryPlacesLayer },
+    'creature-finds': { label: 'Creature finds', toggle: 'tog-creature-finds', layer: () => creatureFindsLayer },
     'ev-exodus-main': { label: "Exodus path (main)", toggle: 'tog-ev-exodus-main', layer: () => eventRouteLayers["event_route_exodus_main"] },
     'ev-exodus-aqaba': { label: "Exodus alt (Aqaba/Midian)", toggle: 'tog-ev-exodus-aqaba', layer: () => eventRouteLayers["event_route_exodus_branch_aqaba"] },
     'ev-exodus-nedelta': { label: "Exodus alt (NE Delta)", toggle: 'tog-ev-exodus-nedelta', layer: () => eventRouteLayers["event_route_exodus_branch_ne_delta"] },
@@ -3440,6 +3573,7 @@ function setStoryHtml(html){
       'sponsor_label','disclosure','surveyor_caveat','apostle_name','prophet','id',
       'found_at_name','displayed_at_museum','displayed_at_city','museum_host','gallery_url','sources'
     ];
+    if(p.find_facts && typeof p.find_facts === 'object') Object.keys(p.find_facts).forEach(k => { if(p.find_facts[k]) bits.push(String(p.find_facts[k])); });
     strKeys.forEach(k => { if(p[k] != null && p[k] !== '') bits.push(String(p[k])); });
     ['tags','eras','keywords','connected_sites','stops'].forEach(k => {
       const v = p[k];
@@ -3469,6 +3603,7 @@ function setStoryHtml(html){
     });
     if(Array.isArray(p.connected_sites)) bits.push(p.connected_sites.join(' '));
     if(Array.isArray(p.stops)) bits.push(p.stops.join(' '));
+    if(Array.isArray(p.aliases)) p.aliases.forEach(a => { if(a) bits.push(String(a)); });
     return bits;
   }
 
@@ -3549,6 +3684,7 @@ function setStoryHtml(html){
     (SPONSOR_SNR && SPONSOR_SNR.features || []).forEach(f => pushFeature(arr, f, 'sponsor-snr'));
     (ARTIFACTS && ARTIFACTS.features || []).forEach(f => pushFeature(arr, f, 'artifacts'));
     (MINISTRY_PLACES && MINISTRY_PLACES.features || []).forEach(f => pushFeature(arr, f, 'ministry-places'));
+    (CREATURE_FINDS && CREATURE_FINDS.features || []).forEach(f => pushFeature(arr, f, 'creature-finds'));
     return arr;
   }
 
@@ -3690,6 +3826,8 @@ function setStoryHtml(html){
     else if(hit.kind === 'miracles') showMiracleStory(p, g);
     else if(hit.kind === 'wilderness') showWildernessStory(p, g);
     else if(hit.kind === 'artifacts') showArtifactStory(p, g);
+    else if(hit.kind === 'ministry-places') showMinistryPlaceStory(p, g);
+    else if(hit.kind === 'creature-finds') showCreatureFindStory(p, g);
     else if(hit.kind === 'min') showMinistryStory(p, g);
     else if(hit.kind === 'sponsor-eb') showSponsorStory(p, 'Expedition: Bible (sponsor)', g);
     else if(hit.kind === 'sponsor-alb') showSponsorStory(p, 'Expedition: Alberino (sponsor)', g);
@@ -4199,6 +4337,7 @@ bindToggle('tog-miracles', (e)=>{ if(e.target.checked) miraclesLayer.addTo(map);
 bindToggle('tog-wilderness', (e)=>{ if(e.target.checked) wildernessLayer.addTo(map); else map.removeLayer(wildernessLayer); });
 bindToggle('tog-artifacts', (e)=>{ if(e.target.checked) artifactsLayer.addTo(map); else map.removeLayer(artifactsLayer); });
 bindToggle('tog-ministry-places', (e)=>{ if(e.target.checked) ministryPlacesLayer.addTo(map); else map.removeLayer(ministryPlacesLayer); });
+bindToggle('tog-creature-finds', (e)=>{ if(e.target.checked) creatureFindsLayer.addTo(map); else map.removeLayer(creatureFindsLayer); });
 bindToggle('tog-travel-advisory', ()=>{ syncTravelAdvisory(); });
 Object.keys(EMPIRE_LAYER_META).forEach(function(lk){
   const meta = EMPIRE_LAYER_META[lk];
@@ -4504,6 +4643,8 @@ function findSiteFeatureById(wantId){
     { kind: 'miracles', fc: typeof MIRACLES !== 'undefined' ? MIRACLES : null },
     { kind: 'wilderness', fc: typeof WILDERNESS !== 'undefined' ? WILDERNESS : null },
     { kind: 'artifacts', fc: typeof ARTIFACTS !== 'undefined' ? ARTIFACTS : null },
+    { kind: 'ministry-places', fc: typeof MINISTRY_PLACES !== 'undefined' ? MINISTRY_PLACES : null },
+    { kind: 'creature-finds', fc: typeof CREATURE_FINDS !== 'undefined' ? CREATURE_FINDS : null },
     { kind: 'min', fc: typeof MIN !== 'undefined' ? MIN : null }
   ];
   let fallback = null;
@@ -4533,9 +4674,10 @@ function discoverEnsureLayerOn(kind, props){
     wilderness: { toggle: 'tog-wilderness' },
     artifacts: { toggle: 'tog-artifacts' },
     'ministry-places': { toggle: 'tog-ministry-places' },
+    'creature-finds': { toggle: 'tog-creature-finds' },
     min: { toggle: 'tog-min' }
   };
-  if((kind === 'artifacts' || kind === 'ministry-places') && typeof window.__digSetMoreOpen === 'function') window.__digSetMoreOpen(true);
+  if((kind === 'artifacts' || kind === 'ministry-places' || kind === 'creature-finds') && typeof window.__digSetMoreOpen === 'function') window.__digSetMoreOpen(true);
   const meta = LAYER_META[kind];
   if(!meta) return;
   const tog = document.getElementById(meta.toggle);
@@ -4567,6 +4709,7 @@ function discoverOpenStoryForHit(hit){
   else if(hit.kind === 'wilderness') showWildernessStory(p, g);
   else if(hit.kind === 'artifacts') showArtifactStory(p, g);
   else if(hit.kind === 'ministry-places') showMinistryPlaceStory(p, g);
+  else if(hit.kind === 'creature-finds') showCreatureFindStory(p, g);
   else if(hit.kind === 'min') showMinistryStory(p, g);
   else openStoryPanel();
 }
