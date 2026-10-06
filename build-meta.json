@@ -9,8 +9,8 @@
     "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
     "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
     "Tall Nimrin / Tall Kafrayn (Kefrein) and Kikkar companions (northern theory cluster)",
-    "Dead Sea region (general) — volcanic hypothesis",
-    "Tall el-Hammam / Dead Sea region — ground impact crater claim",
+    "Dead Sea region (general) \u2014 volcanic hypothesis",
+    "Tall el-Hammam / Dead Sea region \u2014 ground impact crater claim",
     "Bab edh-Dhra / Numeira"
   ],
   "story_default": "sodom",
@@ -30,25 +30,25 @@
     "Heshbon (Tell Hesban)"
   ],
   "nt_unconfirmed_sites": [
-    "Kursi (Gergesa tradition) — E Shore Galilee",
-    "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
+    "Kursi (Gergesa tradition) \u2014 E Shore Galilee",
+    "Emmaus candidates \u2014 Emmaus Nicopolis (Imwas / Canada Park area)",
     "Patmos (Apocalypse cave tradition / early Christian remains)",
-    "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
-    "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
-    "Umm Qais (Gadara) — Decapolis"
+    "Rome \u2014 Vatican Necropolis / St. Peter\u2019s tomb tradition",
+    "Malta \u2014 Acts shipwreck candidate sites (St. Paul\u2019s Bay / traditional)",
+    "Umm Qais (Gadara) \u2014 Decapolis"
   ],
   "contested_overlaps_skipped_unconfirmed": [
     "Ai (et-Tell)",
-    "Bethsaida candidate — el-Araj (Beit ha-Bek)",
-    "Bethsaida candidate — et-Tell",
+    "Bethsaida candidate \u2014 el-Araj (Beit ha-Bek)",
+    "Bethsaida candidate \u2014 et-Tell",
     "Ebla (Tell Mardikh)",
     "Herodium (Herodion)",
     "Jericho (Tell es-Sultan)",
-    "Jerusalem – City of David",
-    "Jerusalem – City of David / Gihon",
+    "Jerusalem \u2013 City of David",
+    "Jerusalem \u2013 City of David / Gihon",
     "Khirbet Qeiyafa",
-    "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
-    "Nazareth — Sisters of Nazareth Convent",
+    "Mount Ararat / Do\u011fubayaz\u0131t region (flood-tradition archaeology caution row)",
+    "Nazareth \u2014 Sisters of Nazareth Convent",
     "Shechem (Tell Balata)",
     "Tel Gezer",
     "Tel Hazor",
@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-ab",
+  "build": "20261001-ac",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -98,14 +98,14 @@
     "selected_pin": "cyan halo + slight scale on selected marker; clears with story panel",
     "site_status": "status_kind dig|visitor|none; Dig status vs Open/Closed + optional visitor_hours (build 20261001-l)",
     "pin_cluster": "Leaflet.markercluster 1.5.3 (vendor); spiderfyOnMaxZoom for stacked/near-duplicate pins; per point-layer MarkerClusterGroup; trade/ministry LineStrings unclustered (build 20261001-m)",
-    "event_path_layers": "Wired 20261001-n from Surveyor event-routes-site-truth-2026-10-01 — 9 routes off-by-default in More layers; Jonah deferred",
+    "event_path_layers": "Wired 20261001-n from Surveyor event-routes-site-truth-2026-10-01 \u2014 9 routes off-by-default in More layers; Jonah deferred",
     "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels",
     "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full",
     "search_aliases": "build 20261001-u: Surveyor ancient/modern alt names in top search",
     "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status",
     "layers_tray_w": "All layers listed in Layers drawer; More/Fewer removed; Check/Uncheck bound on document (was header-only bug)",
     "startup_layers_x": "Startup defaults: only OT digs (tog-ot) and NT digs (tog-nt) checked; all other layer toggles off (including contested, research claims, ministries/disciple paths, trade, prophets, miracles, wilderness, artifacts, event routes, empires, tribal, travel advisory, sponsors, ministry-places). Creature finds stay off when wired.",
-    "startup_flow_y": "Splash → About description → layers hint arrow (only two layers active…); Don’t show hints again + Got it persist in localStorage; startup layers still OT+NT only"
+    "startup_flow_y": "Splash \u2192 About description \u2192 layers hint arrow (only two layers active\u2026); Don\u2019t show hints again + Got it persist in localStorage; startup layers still OT+NT only"
   },
   "status_kind_counts": {
     "totals": {
@@ -289,7 +289,7 @@
     "fill_opacity": 0.35,
     "separate_from": "empire_snapshots",
     "blurbs": true,
-    "panel_order": "level → blurb → date → State link",
+    "panel_order": "level \u2192 blurb \u2192 date \u2192 State link",
     "bangladesh_level": 2
   },
   "empire_snapshots": {
@@ -400,7 +400,7 @@
     "default": "off",
     "locks": [
       "gallery link-out only",
-      "press /press/ page only — no zip download",
+      "press /press/ page only \u2014 no zip download",
       "no kit photos",
       "no /workspace in Sources"
     ],
@@ -417,7 +417,7 @@
     "font": "vendor/noto-sans-phoenician/NotoSansPhoenician-Regular.ttf",
     "ofl": "vendor/noto-sans-phoenician/OFL.txt",
     "font_source": "notofonts/phoenician release NotoSansPhoenician-v2.001 full/ttf",
-    "footnote_override": "SOL-01 Egyptian yhwꜣ line",
+    "footnote_override": "SOL-01 Egyptian yhw\ua723 line",
     "cbg14_doi_fix": "10.1186/s40494-023-01130-z",
     "policebot_dropped": [
       "halleluyahscripturesfree.com",
@@ -462,7 +462,7 @@
     "pins_in_pack": 29,
     "mapped": 28,
     "held": [
-      "CRF-01 (Skull Creek \"Ebenezer\" Allosaurus quarry) — no published coords; no marker"
+      "CRF-01 (Skull Creek \"Ebenezer\" Allosaurus quarry) \u2014 no published coords; no marker"
     ],
     "cm_ae_yes_mapped": 4,
     "related_points_reuse": [
@@ -484,8 +484,8 @@
     "url_filter": "PoliceBot SAFE hosts only (incl. 16 hosts cleared 2026-10-06 + si.edu); coresci.org never linked (Whitmore & Snelling 2014 JCTS cite-only); no press-kit zips; link-out only",
     "converter": "build_creature_finds_geojson.py",
     "ux": [
-      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
-      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+      "Bone DivIcon: cream \ud83e\uddb4 glyph on lime #84cc16 badge (~26px)",
+      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong\u2019s/Divine Name/Hebrew-Greek",
       "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
       "official_video_embed only when pack already has YouTube (CRF-11)",
       "28 mapped pins; CRF-01 held off-map; layer off by default"
@@ -496,8 +496,8 @@
     "build": "20261001-aa",
     "date": "2026-10-06",
     "creature_finds_ux": [
-      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
-      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+      "Bone DivIcon: cream \ud83e\uddb4 glyph on lime #84cc16 badge (~26px)",
+      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong\u2019s/Divine Name/Hebrew-Greek",
       "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
       "official_video_embed only when pack already has YouTube (CRF-11)",
       "28 mapped pins; CRF-01 held off-map; layer off by default"
@@ -537,8 +537,20 @@
     ],
     "discover_ui": "Category accordion in #discover-sheet; stops 5-12; long-press/Tours + Discover fly-to-first-creature preserved from aa",
     "pin_gaps_noted": [
-      "Eden / Haran / Penuel / exact Moriah peak / Upper room / Damascus dig / Magi homeland / Rahab house / baptism ford — narrated without invented pin IDs",
+      "Eden / Haran / Penuel / exact Moriah peak / Upper room / Damascus dig / Magi homeland / Rahab house / baptism ford \u2014 narrated without invented pin IDs",
       "Haman excluded from gentiles category (Naaman is correct)"
     ]
+  },
+  "ac_notes": {
+    "build": "20261001-ac",
+    "date": "2026-10-06",
+    "helpful_hints": [
+      "Discover step teaches short-tap (Creature fly+story) vs long-press/Tours (category sheet)",
+      "Four categories named: Creation \u00b7 Humanity's Redemption \u00b7 Jesus Old-to-New \u00b7 Gentiles Who Followed Yahweh",
+      "Optional Story tours step opens #discover-sheet (digOpenDiscoverTours) and closes on leave/end",
+      "KEY_TOUR_DONE bumped to digintoscripture_hints_tour_done_v2 (KEY_HINTS_OFF unchanged)",
+      "Welcome muted line mentions category Tours sheet (four story categories)"
+    ],
+    "discover": "No Discover wiring change; hints copy + sheet-open tour step only; categories/paths from ab preserved"
   }
 }

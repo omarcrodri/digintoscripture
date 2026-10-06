@@ -746,7 +746,7 @@ header > p{display:none !important}
 }
 #btn-discover.active::after,#btn-discover[aria-expanded="true"]::after{animation:none;opacity:.2}
 
-/* Helpful hints tour (build 20261001-ab) */
+/* Helpful hints tour (build 20261001-ac) */
 #helpful-hints{position:fixed;inset:0;z-index:9600;pointer-events:none}
 #helpful-hints[hidden]{display:none !important}
 #helpful-hints .hh-scrim{position:absolute;inset:0;background:rgba(2,6,23,.45);pointer-events:auto}
@@ -785,7 +785,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ab</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ac</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -818,7 +818,7 @@ header > p{display:none !important}
       <p>On first open, only <strong>Old Testament digs</strong> and <strong>New Testament digs</strong> are turned on. Use Layers (top right) to check off or start more layers. Search finds sites by modern and ancient names.</p>
       <div class="welcome-hints-row">
         <label><input type="checkbox" id="chk-welcome-hints-on" checked/> Helpful hints</label>
-        <p class="muted">Hints are on by default for new visitors. Uncheck to turn them off (you can turn them back on here anytime). Long-press Discover for guided Tours.</p>
+        <p class="muted">Hints are on by default for new visitors. Uncheck to turn them off (you can turn them back on here anytime). Long-press Discover (or Tours) for the category Tours sheet — four story categories of guided walks.</p>
       </div>
       <div class="welcome-actions">
         <button type="button" id="btn-welcome-tours">Tours</button>
@@ -5384,7 +5384,7 @@ window.digOpenDiscoverTours = function(){
   const KEY_WELCOME_LEGACY = 'digintoscripture_welcome_seen_v1';
   const KEY_HINTS_OFF = 'digintoscripture_hints_off_v1';
   const KEY_LAYERS_HINT = 'digintoscripture_layers_hint_seen_v1'; /* legacy; tour supersedes */
-  const KEY_TOUR_DONE = 'digintoscripture_hints_tour_done_v1';
+  const KEY_TOUR_DONE = 'digintoscripture_hints_tour_done_v2';
 
   function lsGet(k){ try { return localStorage.getItem(k) === '1'; } catch(e){ return false; } }
   function lsSet(k){ try { localStorage.setItem(k, '1'); } catch(e){} }
@@ -5434,7 +5434,8 @@ window.digOpenDiscoverTours = function(){
     { id:'search', sel:'#site-search-input', title:'Search', text:'Search finds digs by modern or ancient names. Try a place you know from Scripture.' },
     { id:'layers', sel:'#btn-layers-tray', title:'Layers', text:'Only Old Testament and New Testament digs are on at first — so the map stays clear. Open Layers to check others.' },
     { id:'checkall', sel:'#btn-layers-check-all', title:'Check / Uncheck all', text:'Inside Layers, Check all turns on most layers (sponsors stay opt-in). Uncheck all clears everything. Opening Layers resets to OT + NT only.', openLayers:true },
-    { id:'discover', sel:'#btn-discover', title:'Discover', text:'The gold Discover button flies you to the first Creature find and opens its story. Long-press Discover for guided Tours.' },
+    { id:'discover', sel:'#btn-discover', title:'Discover', text:'Short-tap the gold Discover button to fly to the first Creature find and open its story. Long-press Discover (or Tours under ?) opens a sheet with four story categories — Creation, Humanity\'s Redemption, Jesus Old-to-New, and Gentiles Who Followed Yahweh. Expand a category, pick a tour (~5–12 stops), and walk the map.' },
+    { id:'story-tours', sel:'#discover-sheet', title:'Story tours', text:'Expand a category, pick a guided Scripture tour, then walk its stops on the map (about 5–12 per tour). Close when you are done, or tap Exit on the sheet.', openDiscoverSheet:true },
     { id:'directions', sel:'#btn-directions', title:'Directions', text:'Build an ordered list of stops and open them in Google Maps.' },
     { id:'pin', sel:'#map', title:'Tap a dig pin', text:'Tap any pin on the map to open its details drawer. Peek first, then drag up for the full story — YouTube search, authority, and sources are there.' },
     { id:'creature', sel:'#tog-creature-finds', title:'Creature finds', text:'Creature finds stay off by default (bone markers). Turn the chip on when you want fossils and preserved remains — or use Discover to fly to the first one.', openLayers:true },
@@ -5476,6 +5477,12 @@ window.digOpenDiscoverTours = function(){
       const tray = document.getElementById('layers-tray');
       if(tray && !tray.classList.contains('is-open')) layersBtn.click();
     }
+    if(step.openDiscoverSheet){
+      if(typeof window.digOpenDiscoverTours === 'function') window.digOpenDiscoverTours();
+      else if(typeof setDiscoverSheetOpen === 'function') setDiscoverSheetOpen(true);
+    } else if(typeof setDiscoverSheetOpen === 'function'){
+      setDiscoverSheetOpen(false);
+    }
     const titleEl = document.getElementById('hh-title');
     const textEl = document.getElementById('hh-text');
     const nextBtn = document.getElementById('btn-hh-next');
@@ -5483,7 +5490,10 @@ window.digOpenDiscoverTours = function(){
     if(textEl) textEl.textContent = step.text;
     if(nextBtn) nextBtn.textContent = (i === HH_STEPS.length - 1) ? 'Got it' : 'Next';
     clearHhPulse();
-    const el = document.querySelector(step.sel);
+    let el = document.querySelector(step.sel);
+    if(step.openDiscoverSheet){
+      el = document.querySelector('.discover-cat-toggle') || document.querySelector('.discover-cat') || el;
+    }
     if(el){ el.classList.add('hh-pulse'); hhPulseEl = el; }
     placeHhCard(el);
     tour.hidden = false;
@@ -5497,6 +5507,7 @@ window.digOpenDiscoverTours = function(){
     /* close legacy layers-hint if somehow open */
     if(hint){ hint.hidden = true; }
     if(layersBtn) layersBtn.classList.remove('hint-pulse');
+    if(typeof setDiscoverSheetOpen === 'function') setDiscoverSheetOpen(false);
   }
   function maybeStartHintsTour(){
     if(hintsAreOff() || lsGet(KEY_TOUR_DONE)) return;
