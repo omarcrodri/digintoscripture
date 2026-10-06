@@ -1,17 +1,596 @@
 {
-  "generated": "2026-10-01",
-  "build": "20261001-e",
+  "generated": "2026-10-06",
+  "build": "20261001-ab",
+  "categories": [
+    {
+      "id": "creation",
+      "label": "Creation",
+      "order": 1
+    },
+    {
+      "id": "human-redemption",
+      "label": "Humanity's Redemption",
+      "order": 2
+    },
+    {
+      "id": "jesus-ot-nt",
+      "label": "Jesus Old-to-New",
+      "order": 3
+    },
+    {
+      "id": "gentiles-yahweh",
+      "label": "Gentiles Who Followed Yahweh",
+      "order": 4
+    }
+  ],
   "product_rules": {
-    "stops_per_path": 5,
-    "target_minutes": 5,
+    "stops_per_path_min": 5,
+    "stops_per_path_max": 12,
+    "target_minutes_note": "Roughly ~1 min per stop; richer arcs run longer",
     "on_screen_bible": "LSB references only",
     "ot_speech": "Yahweh untranslated",
     "ui_flow": "pan pin → open panel → next",
     "audio": "PD later; no LSB audio pack without a deal",
-    "narration_source_judah": "discover-path-assyria-narration.md",
-    "narration_source_lake": "discover-story-paths-examples.md (beats only — full lake script TBD Mission Lead)"
+    "categories_note": "UI categories only — not map layers",
+    "sources": [
+      "discover-creation-redemption-stories-2026-10-06.md",
+      "discover-more-stories-2026-10-06-pass2.md",
+      "discover-gentiles-yahweh-stories-2026-10-06.md",
+      "discover-path-assyria-narration.md",
+      "discover-story-paths-examples.md"
+    ]
   },
   "paths": [
+    {
+      "id": "discover-babel-to-abraham",
+      "title": "From Babel's plain to Abraham's altar",
+      "category": "creation",
+      "era": "OT",
+      "theme": "Early Genesis geography — Babel/Ur into Abraham altar country (no Eden pin)",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "order": 1,
+          "biblical_name": "Babel / Babylon",
+          "primary_pin_id": "BAB-01",
+          "primary_pin_id_raw": "BAB-01",
+          "lsb_on_screen": [
+            "Genesis 11:1–9"
+          ],
+          "panel_truth_line": "Babel — one language becomes many; peoples scatter across the earth.",
+          "caveats": "Babylon dig geography. Beat is Gen 11 scattering, not every brick as the tower.",
+          "solidity": "strong",
+          "narration": "Babel — one language becomes many; peoples scatter across the earth.\n\nNo Eden GPS here—only geography Scripture names next. From scattering, the story narrows to one family Yahweh calls.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-1"
+        },
+        {
+          "order": 2,
+          "biblical_name": "Erech",
+          "primary_pin_id": "URK-01",
+          "primary_pin_id_raw": "URK-01",
+          "lsb_on_screen": [
+            "Genesis 10:10"
+          ],
+          "panel_truth_line": "Erech — named among early cities of the plain in the table of nations.",
+          "caveats": "Gen 10 urban context; do not over-claim every stratum as patriarchal-period proof.",
+          "solidity": "mixed",
+          "narration": "Erech — named among early cities of the plain in the table of nations.\n\nSettled life makes the later call out of Ur a departure from a crowded human story, not emptiness.",
+          "segment": "Table of nations",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-2"
+        },
+        {
+          "order": 3,
+          "biblical_name": "Ur",
+          "primary_pin_id": "UR-01",
+          "primary_pin_id_raw": "UR-01",
+          "lsb_on_screen": [
+            "Genesis 11:27–32",
+            "Genesis 12:1"
+          ],
+          "panel_truth_line": "Ur — Abram's homeland. Yahweh says: Go to the land I will show you.",
+          "caveats": "Major dig; patriarchal chronology debated. Haran: no pin yet—name in narration only.",
+          "solidity": "strong",
+          "narration": "Ur — Abram's homeland. Yahweh says: Go to the land I will show you.\n\nScripture notes the journey via Haran—we name it in words only—then move toward Canaan.",
+          "segment": "Call",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-3"
+        },
+        {
+          "order": 4,
+          "biblical_name": "Shechem",
+          "primary_pin_id": "SHE-01",
+          "primary_pin_id_raw": "SHE-01",
+          "lsb_on_screen": [
+            "Genesis 12:6–7"
+          ],
+          "panel_truth_line": "Shechem — Abram's first altar in the land after Yahweh promises it to his offspring.",
+          "caveats": "Tell Balata locus; altar itself is not excavated as Abram's stones.",
+          "solidity": "strong",
+          "narration": "Shechem — Abram's first altar in the land after Yahweh promises it to his offspring.\n\nThe Maker of the world is also the Promise-Maker: worship answers word in a real place.",
+          "segment": "First altar",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-4"
+        },
+        {
+          "order": 5,
+          "biblical_name": "Bethel",
+          "primary_pin_id": "BET-01",
+          "primary_pin_id_raw": "BET-01",
+          "lsb_on_screen": [
+            "Genesis 12:8",
+            "Genesis 13:3–4"
+          ],
+          "panel_truth_line": "Bethel — tent and altar; a return point in Abram's walk.",
+          "caveats": "Traditional dig site; patriarchal sojourn geography.",
+          "solidity": "strong",
+          "narration": "Bethel — tent and altar; a return point in Abram's walk.\n\nPromise is repeated worship in ordinary camps, not only a final destination.",
+          "segment": "Altar life",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-5"
+        },
+        {
+          "order": 6,
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Genesis 13:18",
+            "Genesis 23:1–20"
+          ],
+          "panel_truth_line": "Hebron — Mamre sojourn; later Machpelah burial geography.",
+          "caveats": "Mamre has no separate pin; Hebron carries sojourn/burial tradition.",
+          "solidity": "strong",
+          "narration": "Hebron — Mamre sojourn; later Machpelah burial geography.\n\nPromise includes a people laid to rest believing Yahweh's word still stands.",
+          "segment": "Sojourn",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-6"
+        },
+        {
+          "order": 7,
+          "biblical_name": "Beersheba",
+          "primary_pin_id": "BEE-01",
+          "primary_pin_id_raw": "BEE-01",
+          "lsb_on_screen": [
+            "Genesis 21:22–34",
+            "Genesis 26:23–25"
+          ],
+          "panel_truth_line": "Beersheba — covenant well and southern edge of the patriarchal walk.",
+          "caveats": "Tel Beersheba is Iron Age famous; patriarchal well traditions mapped with that caveat.",
+          "solidity": "mixed",
+          "narration": "Beersheba — covenant well and southern edge of the patriarchal walk.\n\nFrom Babel's scatter to a southern well: Yahweh orders nations, calls one man, plants worship in a named land. Eden stays textual.",
+          "segment": "Closing",
+          "layer": "ot-digs",
+          "id": "discover-babel-to-abraham-stop-7"
+        }
+      ]
+    },
+    {
+      "id": "discover-flood-memory",
+      "title": "Flood memory — warning, waters, mountains of Ararat",
+      "category": "creation",
+      "era": "OT",
+      "theme": "Genesis Flood with honest Ararat/Durupınar caveats + ministry teaching sites",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "order": 1,
+          "biblical_name": "Nineveh",
+          "primary_pin_id": "NIN-01",
+          "primary_pin_id_raw": "NIN-01",
+          "lsb_on_screen": [
+            "Genesis 6:5–8",
+            "Genesis 7:11–24"
+          ],
+          "panel_truth_line": "Nineveh — Ashurbanipal library world; flood-tablet culture (tablet now in BM).",
+          "caveats": "Context only. Flood Tablet is parallel literature, not Scripture or Genesis GPS.",
+          "solidity": "mixed",
+          "narration": "Nineveh — Ashurbanipal library world; flood-tablet culture (tablet now in BM).\n\nGenesis stands alone: Yahweh sees wickedness, warns, judges by water, and preserves Noah's household.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-flood-memory-stop-1"
+        },
+        {
+          "order": 2,
+          "biblical_name": "Babel / Babylon",
+          "primary_pin_id": "BAB-01",
+          "primary_pin_id_raw": "BAB-01",
+          "lsb_on_screen": [
+            "Genesis 6:11–22",
+            "Genesis 8:20–22"
+          ],
+          "panel_truth_line": "Babylon's plain — Mesopotamian world that remembered catastrophic floods.",
+          "caveats": "Cultural context; not Noah's landing.",
+          "solidity": "mixed",
+          "narration": "Babylon's plain — Mesopotamian world that remembered catastrophic floods.\n\nMesopotamia remembers floods; Genesis proclaims Yahweh's judgment and promise.",
+          "segment": "World",
+          "layer": "ot-digs",
+          "id": "discover-flood-memory-stop-2"
+        },
+        {
+          "order": 3,
+          "biblical_name": "Mount Ararat region",
+          "primary_pin_id": "ARAR-01",
+          "primary_pin_id_raw": "ARAR-01",
+          "lsb_on_screen": [
+            "Genesis 8:4",
+            "Hebrews 11:7"
+          ],
+          "panel_truth_line": "Ararat region — Gen 8:4 reception geography. Strong caveats.",
+          "caveats": "Tradition for \"mountains of Ararat,\" not a verified wreck.",
+          "solidity": "mixed",
+          "narration": "Ararat region — Gen 8:4 reception geography. Strong caveats.\n\nHold Gen 8:4 without tourist fake certainty. Hebrews remembers Noah as an heir of righteousness by faith.",
+          "segment": "Resting",
+          "layer": "nt-digs",
+          "id": "discover-flood-memory-stop-3"
+        },
+        {
+          "order": 4,
+          "biblical_name": "Durupınar / ark claims",
+          "primary_pin_id": "CBG-07",
+          "primary_pin_id_raw": "CBG-07",
+          "lsb_on_screen": [
+            "Genesis 8:4",
+            "2 Peter 2:5"
+          ],
+          "panel_truth_line": "Contested Durupınar and popular ark claims — caution, not endorsement.",
+          "caveats": "REQUIRED contested-hypotheses stop. Do not endorse ark-found claims.",
+          "solidity": "weak",
+          "narration": "Contested Durupınar and popular ark claims — caution, not endorsement.\n\nScripture's Flood stands; some map claims do not.",
+          "segment": "Caution",
+          "layer": "contested-hypotheses",
+          "id": "discover-flood-memory-stop-4"
+        },
+        {
+          "order": 5,
+          "biblical_name": "Ark Encounter",
+          "primary_pin_id": "ARK-ENC-01",
+          "primary_pin_id_raw": "ARK-ENC-01",
+          "lsb_on_screen": [
+            "Genesis 6:14–22",
+            "Matthew 24:37–39"
+          ],
+          "panel_truth_line": "Ark Encounter — ministry reconstruction of Gen 6–9. Attraction, not dig.",
+          "caveats": "Ministry attraction status.",
+          "solidity": "mixed",
+          "narration": "Ark Encounter — ministry reconstruction of Gen 6–9. Attraction, not dig.\n\nNot a dig; not a found wreck. Jesus compares Noah's days to the coming of the Son of Man.",
+          "segment": "Ministry teaching",
+          "layer": "ministry-places",
+          "id": "discover-flood-memory-stop-5"
+        },
+        {
+          "order": 6,
+          "biblical_name": "Creation Museum",
+          "primary_pin_id": "CRM-01",
+          "primary_pin_id_raw": "CRM-01",
+          "lsb_on_screen": [
+            "Genesis 1:1–31",
+            "Genesis 7:1–5",
+            "1 Peter 3:20"
+          ],
+          "panel_truth_line": "Creation Museum — Eden-to-Flood teaching. Attraction, not dig.",
+          "caveats": "Ministry attraction.",
+          "solidity": "mixed",
+          "narration": "Creation Museum — Eden-to-Flood teaching. Attraction, not dig.\n\nLast word: Yahweh's holiness and patience—not a fake hull on a ridge.",
+          "segment": "Closing",
+          "layer": "ministry-places",
+          "id": "discover-flood-memory-stop-6"
+        }
+      ]
+    },
+    {
+      "id": "discover-fossil-witness",
+      "title": "Fossil witness — soft tissue, feathers, and careful claims",
+      "category": "creation",
+      "era": "OT",
+      "theme": "Creature-find pins with Surveyor-honest soft-tissue caveats",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "order": 1,
+          "biblical_name": "Archaeopteryx (London)",
+          "primary_pin_id": "CRF-12",
+          "primary_pin_id_raw": "CRF-12",
+          "lsb_on_screen": [
+            "Genesis 1:20–23"
+          ],
+          "panel_truth_line": "London Archaeopteryx — feathered fossil inviting wonder at created kinds.",
+          "caveats": "Use pin sources only. Wonder + honesty, not invented proofs.",
+          "solidity": "strong",
+          "narration": "London Archaeopteryx — feathered fossil inviting wonder at created kinds.\n\nWonder at a preserved animal—do not invent lab results the pin does not carry.",
+          "segment": "Opening",
+          "layer": "creature-finds",
+          "id": "discover-fossil-witness-stop-1"
+        },
+        {
+          "order": 2,
+          "biblical_name": "T. rex MOR 1125 (B-rex)",
+          "primary_pin_id": "CRF-06",
+          "primary_pin_id_raw": "CRF-06",
+          "lsb_on_screen": [
+            "Genesis 1:24–25",
+            "Job 12:7–10"
+          ],
+          "panel_truth_line": "B-rex soft-tissue report — provisional framing required.",
+          "caveats": "Soft-tissue interpretation contested. Keep provisional language from creature pack.",
+          "solidity": "mixed",
+          "narration": "B-rex soft-tissue report — provisional framing required.\n\nPublished claims, not a closed courtroom. Job says ask the beasts—and they teach humility.",
+          "segment": "Report",
+          "layer": "creature-finds",
+          "id": "discover-fossil-witness-stop-2"
+        },
+        {
+          "order": 3,
+          "biblical_name": "Brachylophosaurus MOR 2598",
+          "primary_pin_id": "CRF-07",
+          "primary_pin_id_raw": "CRF-07",
+          "lsb_on_screen": [
+            "Genesis 1:31"
+          ],
+          "panel_truth_line": "Brachylophosaurus collagen-report conversation — careful claims only.",
+          "caveats": "Same honesty rule as CRF-06.",
+          "solidity": "mixed",
+          "narration": "Brachylophosaurus collagen-report conversation — careful claims only.\n\nPreservation surprises deepen reverence only if we refuse hype.",
+          "segment": "Report",
+          "layer": "creature-finds",
+          "id": "discover-fossil-witness-stop-3"
+        },
+        {
+          "order": 4,
+          "biblical_name": "SUE the T. rex",
+          "primary_pin_id": "CRF-13",
+          "primary_pin_id_raw": "CRF-13",
+          "lsb_on_screen": [
+            "Genesis 1:24–25"
+          ],
+          "panel_truth_line": "SUE — well-documented T. rex that draws careful looking.",
+          "caveats": "Museum specimen per pin; not a proof object by itself.",
+          "solidity": "strong",
+          "narration": "SUE — well-documented T. rex that draws careful looking.\n\nLooking carefully is honesty. Creation care refuses both sneer and superstition.",
+          "segment": "Witness",
+          "layer": "creature-finds",
+          "id": "discover-fossil-witness-stop-4"
+        },
+        {
+          "order": 5,
+          "biblical_name": "Creation Museum",
+          "primary_pin_id": "CRM-01",
+          "primary_pin_id_raw": "CRM-01",
+          "lsb_on_screen": [
+            "Genesis 1:20–31",
+            "Psalm 104:24"
+          ],
+          "panel_truth_line": "Creation Museum — ministry framing of creature exhibits.",
+          "caveats": "Attraction, not dig.",
+          "solidity": "mixed",
+          "narration": "Creation Museum — ministry framing of creature exhibits.\n\nHold Scripture's Creator and Surveyor-honest limits on what any fossil report proves.",
+          "segment": "Closing",
+          "layer": "ministry-places",
+          "id": "discover-fossil-witness-stop-5"
+        }
+      ]
+    },
+    {
+      "id": "discover-earliest-sacred-places",
+      "title": "Earliest sacred places — wonder without a fake Eden",
+      "category": "creation",
+      "era": "OT",
+      "theme": "Early sacred/urban places + ministry teaching; no Eden GPS",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Göbekli Tepe",
+          "primary_pin_id": "GOBEKLI-01",
+          "primary_pin_id_raw": "GOBEKLI-01",
+          "lsb_on_screen": [
+            "Genesis 1:1–2:3"
+          ],
+          "panel_truth_line": "Göbekli Tepe — early monumental ritual architecture; not Eden or Noah's altar.",
+          "caveats": "Do NOT claim Göbekli proves Genesis chronology or is Eden.",
+          "solidity": "mixed",
+          "narration": "Göbekli Tepe — early monumental ritual architecture; not Eden or Noah's altar.\n\nWonder at early sacred building without inventing a Genesis 2 coordinate.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-earliest-sacred-places-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Eridu",
+          "primary_pin_id": "ERI-01",
+          "primary_pin_id_raw": "ERI-01",
+          "lsb_on_screen": [
+            "Genesis 1:1–31",
+            "Genesis 11:1–9"
+          ],
+          "panel_truth_line": "Eridu — early southern Mesopotamian urban/sacred tradition.",
+          "caveats": "Iraqi dig frame; not a patriarchal GPS proof.",
+          "solidity": "mixed",
+          "narration": "Eridu — early southern Mesopotamian urban/sacred tradition.\n\nEarly cities remind us Scripture's world is historical earth—not a mythic nowhere.",
+          "segment": "Urban world",
+          "layer": "ot-digs",
+          "id": "discover-earliest-sacred-places-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Babel / Babylon",
+          "primary_pin_id": "BAB-01",
+          "primary_pin_id_raw": "BAB-01",
+          "lsb_on_screen": [
+            "Genesis 11:1–9"
+          ],
+          "panel_truth_line": "Babel / Babylon — Gen 11 scattering geography that is pinned.",
+          "caveats": "Dig geography for Gen 11 beat.",
+          "solidity": "strong",
+          "narration": "Babel / Babylon — Gen 11 scattering geography that is pinned.\n\nEden stays textual; Babel is on the map.",
+          "segment": "Scattering",
+          "layer": "ot-digs",
+          "id": "discover-earliest-sacred-places-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Creation Museum",
+          "primary_pin_id": "CRM-01",
+          "primary_pin_id_raw": "CRM-01",
+          "lsb_on_screen": [
+            "Genesis 1:1–2:3",
+            "Genesis 2:8–15"
+          ],
+          "panel_truth_line": "Creation Museum — attraction teaching Gen 1–3 (label as attraction).",
+          "caveats": "Ministry attraction, not dig. Textual Eden—no pin.",
+          "solidity": "mixed",
+          "narration": "Creation Museum — attraction teaching Gen 1–3 (label as attraction).\n\nTeaching helps imagination; it does not invent Eden GPS.",
+          "segment": "Teaching",
+          "layer": "ministry-places",
+          "id": "discover-earliest-sacred-places-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Ark Encounter",
+          "primary_pin_id": "ARK-ENC-01",
+          "primary_pin_id_raw": "ARK-ENC-01",
+          "lsb_on_screen": [
+            "Genesis 6:9–22",
+            "Genesis 1:31"
+          ],
+          "panel_truth_line": "Ark Encounter — optional close on Flood teaching (attraction, not dig).",
+          "caveats": "Ministry attraction.",
+          "solidity": "mixed",
+          "narration": "Ark Encounter — optional close on Flood teaching (attraction, not dig).\n\nCreation week \"Sabbath geography\" is pin-thin—this path is the honest substitute.",
+          "segment": "Closing",
+          "layer": "ministry-places",
+          "id": "discover-earliest-sacred-places-stop-5",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "discover-isaac-jacob-wells",
+      "title": "Isaac's wells and Jacob's ladder",
+      "category": "creation",
+      "era": "OT",
+      "theme": "Patriarchal promise geography: wells, Bethel dream, Jacob's well",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Beersheba",
+          "primary_pin_id": "BEE-01",
+          "primary_pin_id_raw": "BEE-01",
+          "lsb_on_screen": [
+            "Genesis 26:23–33"
+          ],
+          "panel_truth_line": "Beersheba — covenant well / Isaac's southern life.",
+          "caveats": "Iron Age tel; patriarchal well traditions with caveat.",
+          "solidity": "mixed",
+          "narration": "Beersheba — covenant well / Isaac's southern life.\n\nIsaac re-digs wells and calls on Yahweh's name in the south.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-isaac-jacob-wells-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Gerar candidate",
+          "primary_pin_id": "HAR-01",
+          "primary_pin_id_raw": "HAR-01",
+          "lsb_on_screen": [
+            "Genesis 26:1–6",
+            "Genesis 26:17–22"
+          ],
+          "panel_truth_line": "Tel Haror — Gerar candidate (**candidate caveat**).",
+          "caveats": "REQUIRED: Gerar identification is candidate, not settled.",
+          "solidity": "mixed",
+          "narration": "Tel Haror — Gerar candidate (**candidate caveat**).\n\nIsaac sojourns in Gerar country. Hold the dig ID humbly.",
+          "segment": "Candidate",
+          "layer": "ot-digs",
+          "id": "discover-isaac-jacob-wells-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Bethel",
+          "primary_pin_id": "BET-01",
+          "primary_pin_id_raw": "BET-01",
+          "lsb_on_screen": [
+            "Genesis 28:10–22"
+          ],
+          "panel_truth_line": "Bethel — Jacob's ladder dream.",
+          "caveats": "Traditional Bethel locus.",
+          "solidity": "strong",
+          "narration": "Bethel — Jacob's ladder dream.\n\nYahweh stands above the stairway and renews the promise. Penuel: no pin—narrate Gen 32 between stops in words only.",
+          "segment": "Ladder",
+          "layer": "ot-digs",
+          "id": "discover-isaac-jacob-wells-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Shechem",
+          "primary_pin_id": "SHE-01",
+          "primary_pin_id_raw": "SHE-01",
+          "lsb_on_screen": [
+            "Genesis 33:18–20",
+            "Genesis 35:1–7"
+          ],
+          "panel_truth_line": "Shechem — Jacob's return / altar geography.",
+          "caveats": "Tell Balata.",
+          "solidity": "strong",
+          "narration": "Shechem — Jacob's return / altar geography.\n\nAfter the night of wrestling (named without a Penuel pin), Jacob returns to altar life in the land.",
+          "segment": "Return",
+          "layer": "ot-digs",
+          "id": "discover-isaac-jacob-wells-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Genesis 35:27–29",
+            "Genesis 49:29–33"
+          ],
+          "panel_truth_line": "Hebron — patriarchal burial country.",
+          "caveats": "Burial tradition geography.",
+          "solidity": "strong",
+          "narration": "Hebron — patriarchal burial country.\n\nPromise includes graves bought in hope.",
+          "segment": "Burial country",
+          "layer": "ot-digs",
+          "id": "discover-isaac-jacob-wells-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Jacob's Well / Sychar",
+          "primary_pin_id": "SYCH-01",
+          "primary_pin_id_raw": "SYCH-01",
+          "lsb_on_screen": [
+            "John 4:5–6",
+            "Genesis 33:18–20"
+          ],
+          "panel_truth_line": "Jacob's Well / Sychar — living memory of Jacob's well into John 4.",
+          "caveats": "Askar/Balata well tradition.",
+          "solidity": "strong",
+          "narration": "Jacob's Well / Sychar — living memory of Jacob's well into John 4.\n\nJohn links the well to Jacob without inventing typology beyond the text's own name.",
+          "segment": "Well memory",
+          "layer": "nt-digs",
+          "id": "discover-isaac-jacob-wells-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Horned altar from Beersheba",
+          "primary_pin_id": "ART-11",
+          "primary_pin_id_raw": "ART-11",
+          "lsb_on_screen": [
+            "Genesis 26:23–25"
+          ],
+          "panel_truth_line": "Horned altar from Beersheba — cultic Beersheba witness (museum object).",
+          "caveats": "Artifact pin; museum object, not a dig stop pretending to be Isaac's stones.",
+          "solidity": "mixed",
+          "narration": "Horned altar from Beersheba — cultic Beersheba witness (museum object).\n\nAn excavated cultic witness from Beersheba country—context for southern worship memory, not a fake patriarchal GPS.",
+          "segment": "Closing",
+          "layer": "artifacts",
+          "id": "discover-isaac-jacob-wells-stop-7",
+          "order": 7
+        }
+      ]
+    },
     {
       "id": "discover-yahweh-shook-judah",
       "title": "When Yahweh shook Judah",
@@ -106,6 +685,1116 @@
           "segment": "Closing",
           "layer": "ot-digs"
         }
+      ],
+      "category": "human-redemption"
+    },
+    {
+      "id": "discover-out-of-slavery",
+      "title": "Out of slavery — a people Yahweh redeems",
+      "category": "human-redemption",
+      "era": "OT",
+      "theme": "Exodus liberation: Goshen → sea → Sinai → Nebo → Gilgal",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Goshen / Rameses",
+          "primary_pin_id": "EW-01",
+          "primary_pin_id_raw": "EW-01",
+          "lsb_on_screen": [
+            "Exodus 1:8–14",
+            "Exodus 12:1–13"
+          ],
+          "panel_truth_line": "Goshen / Rameses — Israel in bondage; Passover instituted before departure.",
+          "caveats": "Exodus-wilderness schematic geography.",
+          "solidity": "mixed",
+          "narration": "Goshen / Rameses — Israel in bondage; Passover instituted before departure.\n\nYahweh hears groans and sends Moses. A lamb's blood marks doors. Human redemption begins as liberation from slavery into belonging to Yahweh.",
+          "segment": "Bondage",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Succoth",
+          "primary_pin_id": "EW-02",
+          "primary_pin_id_raw": "EW-02",
+          "lsb_on_screen": [
+            "Exodus 12:37–42",
+            "Numbers 33:5"
+          ],
+          "panel_truth_line": "Succoth — first camp after departure from Rameses.",
+          "caveats": "Itinerary geography; not every camp excavated as named.",
+          "solidity": "mixed",
+          "narration": "Succoth — first camp after departure from Rameses.\n\nRedemption is feet moving under Yahweh's command while bread is still unleavened.",
+          "segment": "Departure",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Yam Suph",
+          "primary_pin_id": "EW-07",
+          "primary_pin_id_raw": "EW-07",
+          "lsb_on_screen": [
+            "Exodus 14:15–31",
+            "Exodus 15:1–18"
+          ],
+          "panel_truth_line": "Yam Suph — crossing tradition geography. Keep contested chariot-claim pins out.",
+          "caveats": "Crossing location debated. Do NOT use Wyatt CBG-16.",
+          "solidity": "mixed",
+          "narration": "Yam Suph — crossing tradition geography. Keep contested chariot-claim pins out.\n\nYahweh opens a way; the people walk through; the pursuers fall. Moses sings. A people redeemed by Yahweh's power.",
+          "segment": "Deliverance",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Marah",
+          "primary_pin_id": "EW-08",
+          "primary_pin_id_raw": "EW-08",
+          "lsb_on_screen": [
+            "Exodus 15:22–26"
+          ],
+          "panel_truth_line": "Marah — bitter water made sweet; early wilderness testing.",
+          "caveats": "Itinerary pin; exact oasis ID traditional/schematic.",
+          "solidity": "mixed",
+          "narration": "Marah — bitter water made sweet; early wilderness testing.\n\nRedeemed people still learn trust one camp at a time.",
+          "segment": "Testing",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Elim",
+          "primary_pin_id": "EW-09",
+          "primary_pin_id_raw": "EW-09",
+          "lsb_on_screen": [
+            "Exodus 15:27"
+          ],
+          "panel_truth_line": "Elim — twelve springs and seventy palms; mercy after bitterness.",
+          "caveats": "Schematic oasis stop.",
+          "solidity": "mixed",
+          "narration": "Elim — twelve springs and seventy palms; mercy after bitterness.\n\nYahweh does not only split seas; He also gives ordinary mercy on the road.",
+          "segment": "Mercy",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Mount Sinai / Horeb",
+          "primary_pin_id": "EW-15",
+          "primary_pin_id_raw": "EW-15",
+          "lsb_on_screen": [
+            "Exodus 19:1–8",
+            "Exodus 20:1–17"
+          ],
+          "panel_truth_line": "Sinai / Horeb — redeemed slaves meet Yahweh and receive covenant word.",
+          "caveats": "Traditional Jebel Musa locus; exact Sinai ID debated.",
+          "solidity": "mixed",
+          "narration": "Sinai / Horeb — redeemed slaves meet Yahweh and receive covenant word.\n\nGrace first, then obedience—still the pattern later readers see fulfilled more deeply in Christ.",
+          "segment": "Covenant",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Mount Nebo / Pisgah",
+          "primary_pin_id": "EW-51",
+          "primary_pin_id_raw": "EW-51",
+          "lsb_on_screen": [
+            "Deuteronomy 34:1–8"
+          ],
+          "panel_truth_line": "Nebo / Pisgah — Moses sees the land he will not enter.",
+          "caveats": "Traditional Nebo viewpoint geography.",
+          "solidity": "strong",
+          "narration": "Nebo / Pisgah — Moses sees the land he will not enter.\n\nA servant finishes looking toward promise. Yahweh's word stands; the people will go on.",
+          "segment": "Overlook",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Gilgal",
+          "primary_pin_id": "EW-55",
+          "primary_pin_id_raw": "EW-55",
+          "lsb_on_screen": [
+            "Joshua 4:19–24",
+            "Joshua 5:10–12"
+          ],
+          "panel_truth_line": "Gilgal — Jordan crossing memory; entry beat into the land.",
+          "caveats": "Gilgal ID has scholarly debate; wilderness-pack entry geography.",
+          "solidity": "mixed",
+          "narration": "Gilgal — Jordan crossing memory; entry beat into the land.\n\nStones become a memorial. A redeemed people camps in the land—pointing beyond itself to a greater deliverance.",
+          "segment": "Closing",
+          "layer": "exodus-wilderness",
+          "id": "discover-out-of-slavery-stop-8",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "discover-week-that-changed-world",
+      "title": "The week that changed the world",
+      "category": "human-redemption",
+      "era": "NT",
+      "theme": "Passion → empty-tomb geography → Emmaus",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Bethany",
+          "primary_pin_id": "BETH-01",
+          "primary_pin_id_raw": "BETH-01",
+          "lsb_on_screen": [
+            "John 11:1–44",
+            "John 12:1–8"
+          ],
+          "panel_truth_line": "Bethany — friends, perfume, and Lazarus near Passion week.",
+          "caveats": "Lazarus tomb traditions are reception history.",
+          "solidity": "strong",
+          "narration": "Bethany — friends, perfume, and Lazarus near Passion week.\n\nHuman redemption climaxes among people who ate with Him and buried their dead.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Luke 19:28–44",
+            "Matthew 26:30–46"
+          ],
+          "panel_truth_line": "Olivet — approach, teaching, Gethsemane prayer geography.",
+          "caveats": "Broad Olivet/Gethsemane tradition; multiple commemorations exist.",
+          "solidity": "strong",
+          "narration": "Olivet — approach, teaching, Gethsemane prayer geography.\n\nThe Redeemer's obedience is sweat and surrender before the arrest.",
+          "segment": "Approach",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Caiaphas tradition",
+          "primary_pin_id": "CAI-01",
+          "primary_pin_id_raw": "CAI-01",
+          "lsb_on_screen": [
+            "Matthew 26:57–68",
+            "John 18:12–24"
+          ],
+          "panel_truth_line": "Caiaphas tradition — trial geography; keep ossuary/house caveats.",
+          "caveats": "Ossuary/house traditions contested in detail.",
+          "solidity": "mixed",
+          "narration": "Caiaphas tradition — trial geography; keep ossuary/house caveats.\n\nHuman courts think they are judging Him; the Gospels show the Judge standing silent for sinners.",
+          "segment": "Trial",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Luke 19:45–48",
+            "Mark 11:15–18"
+          ],
+          "panel_truth_line": "Temple approaches — the house He cleansed and taught near in His last days.",
+          "caveats": "Herodian western-wall / Robinson's Arch dig tourism geography.",
+          "solidity": "strong",
+          "narration": "Temple approaches — the house He cleansed and taught near in His last days.\n\nRedemption week runs through real streets and courts.",
+          "segment": "Temple",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Pilgrimage Road",
+          "primary_pin_id": "JER-NT-02",
+          "primary_pin_id_raw": "JER-NT-02",
+          "lsb_on_screen": [
+            "Luke 22:7–13",
+            "John 18:28"
+          ],
+          "panel_truth_line": "Pilgrimage Road — City of David ascent toward the Temple.",
+          "caveats": "Excavated stepped street; Passion connections are geographic context.",
+          "solidity": "strong",
+          "narration": "Pilgrimage Road — City of David ascent toward the Temple.\n\nThe Lamb of God moves through a feast city toward the cross.",
+          "segment": "City",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Bethesda",
+          "primary_pin_id": "JER-NT-05",
+          "primary_pin_id_raw": "JER-NT-05",
+          "lsb_on_screen": [
+            "John 5:1–9",
+            "John 19:16–18"
+          ],
+          "panel_truth_line": "Bethesda — healing pools in the Passion-week city.",
+          "caveats": "Pool complex identified with John 5 tradition.",
+          "solidity": "strong",
+          "narration": "Bethesda — healing pools in the Passion-week city.\n\nThe same city that will crucify Him had already seen His mercy.",
+          "segment": "Mercy in the city",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "Matthew 27:33–54",
+            "John 19:16–30"
+          ],
+          "panel_truth_line": "Golgotha — crucifixion of Jesus. Human redemption's center.",
+          "caveats": "No separate Holy Sepulchre pin; empty-tomb narrated here and at Emmaus.",
+          "solidity": "strong",
+          "narration": "Golgotha — crucifixion of Jesus. Human redemption's center.\n\nGod redeems people by the blood of His Son. The centurion confesses; the curtain tears.",
+          "segment": "Cross",
+          "layer": "jesus-miracles",
+          "id": "discover-week-that-changed-world-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Emmaus",
+          "primary_pin_id": "EMM-01",
+          "primary_pin_id_raw": "EMM-01",
+          "lsb_on_screen": [
+            "Luke 24:13–35",
+            "Matthew 28:1–10"
+          ],
+          "panel_truth_line": "Emmaus — risen Lord opens Moses and the Prophets. Debated village ID.",
+          "caveats": "REQUIRED: multiple Emmaus candidates; this pin uses Nicopolis tradition area.",
+          "solidity": "mixed",
+          "narration": "Emmaus — risen Lord opens Moses and the Prophets. Debated village ID.\n\nVillage ID is debated; the Gospel meeting is not. Human redemption ends in an empty tomb and a living Lord.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-week-that-changed-world-stop-8",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "discover-born-under-promise",
+      "title": "Born under promise — Bethlehem to the Temple",
+      "category": "human-redemption",
+      "era": "NT",
+      "theme": "Incarnation geography: Bethlehem → Nazareth → Temple pilgrimage",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "Micah 5:2",
+            "Luke 2:1–20",
+            "Matthew 2:1–6"
+          ],
+          "panel_truth_line": "Bethlehem — David's town; the child promised by Micah is born.",
+          "caveats": "Avoid contested \"Jesus house\" CBG-06.",
+          "solidity": "strong",
+          "narration": "Bethlehem — David's town; the child promised by Micah is born.\n\nThe Redeemer enters history as a real baby in a real town under promise.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Nazareth",
+          "primary_pin_id": "NAZ-01",
+          "primary_pin_id_raw": "NAZ-01",
+          "lsb_on_screen": [
+            "Luke 2:39–52",
+            "Matthew 2:23"
+          ],
+          "panel_truth_line": "Nazareth — upbringing town; He grows in wisdom and stature.",
+          "caveats": "First-century Nazareth is archaeologically modest.",
+          "solidity": "mixed",
+          "narration": "Nazareth — upbringing town; He grows in wisdom and stature.\n\nThe incarnation includes years of ordinary life before public ministry.",
+          "segment": "Upbringing",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Luke 2:22–38"
+          ],
+          "panel_truth_line": "Temple approaches — presentation geography in His Father's house.",
+          "caveats": "Herodian west; presentation narrated from Temple approaches.",
+          "solidity": "strong",
+          "narration": "Temple approaches — presentation geography in His Father's house.\n\nSimeon and Anna recognize hope in their arms.",
+          "segment": "Presentation",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Pilgrimage Road",
+          "primary_pin_id": "JER-NT-02",
+          "primary_pin_id_raw": "JER-NT-02",
+          "lsb_on_screen": [
+            "Luke 2:41–50"
+          ],
+          "panel_truth_line": "Pilgrimage Road — Passover pilgrimage feel for the boy Jesus.",
+          "caveats": "Stepped street as pilgrimage geography context for Luke 2.",
+          "solidity": "strong",
+          "narration": "Pilgrimage Road — Passover pilgrimage feel for the boy Jesus.\n\n\"Did you not know that I must be in My Father's house?\"",
+          "segment": "Pilgrimage",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Pool of Siloam",
+          "primary_pin_id": "JER-NT-01",
+          "primary_pin_id_raw": "JER-NT-01",
+          "lsb_on_screen": [
+            "Luke 2:41–49",
+            "John 9:1–11"
+          ],
+          "panel_truth_line": "Siloam / City of David water — pilgrim world of Jerusalem.",
+          "caveats": "Siloam pool excavations as pilgrim-city geography.",
+          "solidity": "strong",
+          "narration": "Siloam / City of David water — pilgrim world of Jerusalem.\n\nIncarnation means He truly shared our places.",
+          "segment": "City water",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Matthew 4:13",
+            "Luke 4:31"
+          ],
+          "panel_truth_line": "Capernaum — He settles here as ministry base after the childhood/promise arc.",
+          "caveats": "Synagogue visible today is later rebuild — say teaching base carefully.",
+          "solidity": "strong",
+          "narration": "Capernaum — He settles here as ministry base after the childhood/promise arc.\n\nCross-link the lake tour for teaching days; this path's beat was birth and belonging.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-born-under-promise-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-good-news-nations",
+      "title": "Good news for the nations",
+      "category": "human-redemption",
+      "era": "NT",
+      "theme": "Acts: Joppa/Caesarea through Greece to Rome — humanity invited",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Joppa",
+          "primary_pin_id": "JOP-01",
+          "primary_pin_id_raw": "JOP-01",
+          "lsb_on_screen": [
+            "Acts 10:9–23"
+          ],
+          "panel_truth_line": "Joppa — Peter's vision doorway; clean/unclean wall begins to fall.",
+          "caveats": "Port geography for Acts 10.",
+          "solidity": "strong",
+          "narration": "Joppa — Peter's vision doorway; clean/unclean wall begins to fall.\n\nThe risen Lord is sending good news beyond Judea's boundary habits.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Caesarea Maritima",
+          "primary_pin_id": "CAES-01",
+          "primary_pin_id_raw": "CAES-01,CAES-02",
+          "lsb_on_screen": [
+            "Acts 10:24–48"
+          ],
+          "panel_truth_line": "Caesarea — Cornelius's household hears and receives the Spirit.",
+          "caveats": "Governor's port city; dig is Herodian/Roman.",
+          "solidity": "strong",
+          "narration": "Caesarea — Cornelius's household hears and receives the Spirit.\n\nGod shows no partiality. Human redemption opens publicly to the nations.",
+          "segment": "Inclusion",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Antioch",
+          "primary_pin_id": "ANT-01",
+          "primary_pin_id_raw": "ANT-01",
+          "lsb_on_screen": [
+            "Acts 11:19–26",
+            "Acts 13:1–3"
+          ],
+          "panel_truth_line": "Antioch — disciples called Christians; a sending church for the nations.",
+          "caveats": "Antioch on the Orontes locus.",
+          "solidity": "strong",
+          "narration": "Antioch — disciples called Christians; a sending church for the nations.\n\nRedemption creates a people from many peoples.",
+          "segment": "Sending",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Philippi",
+          "primary_pin_id": "PHIL-01",
+          "primary_pin_id_raw": "PHIL-01",
+          "lsb_on_screen": [
+            "Acts 16:11–34"
+          ],
+          "panel_truth_line": "Philippi — Lydia's heart opens; a jailer believes; Europe hears.",
+          "caveats": "Roman colony dig geography.",
+          "solidity": "strong",
+          "narration": "Philippi — Lydia's heart opens; a jailer believes; Europe hears.\n\nDifferent stories, one Lord. The gospel plants in Macedonian soil.",
+          "segment": "Macedonia",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Thessalonica",
+          "primary_pin_id": "THES-01",
+          "primary_pin_id_raw": "THES-01",
+          "lsb_on_screen": [
+            "Acts 17:1–9"
+          ],
+          "panel_truth_line": "Thessalonica — synagogue proclamation and civic upset.",
+          "caveats": "Roman forum / agora locus.",
+          "solidity": "strong",
+          "narration": "Thessalonica — synagogue proclamation and civic upset.\n\nPaul reasons from the Scriptures that the Messiah suffered and rose.",
+          "segment": "Proclamation",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Berea",
+          "primary_pin_id": "BER-01",
+          "primary_pin_id_raw": "BER-01",
+          "lsb_on_screen": [
+            "Acts 17:10–12"
+          ],
+          "panel_truth_line": "Berea — noble listeners examine the Scriptures daily.",
+          "caveats": "Berea pin locus in app.",
+          "solidity": "strong",
+          "narration": "Berea — noble listeners examine the Scriptures daily.\n\nEager reception checked by open Bibles. Faith is not fear of the text.",
+          "segment": "Examination",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Athens",
+          "primary_pin_id": "ATH-01",
+          "primary_pin_id_raw": "ATH-01",
+          "lsb_on_screen": [
+            "Acts 17:16–34"
+          ],
+          "panel_truth_line": "Athens — Areopagus sermon; Creator and Judge who raised Jesus.",
+          "caveats": "Ancient Agora pin; Areopagus narrated from Athens geography.",
+          "solidity": "strong",
+          "narration": "Athens — Areopagus sermon; Creator and Judge who raised Jesus.\n\nSome sneer; some believe. Nations are addressed as accountable to the risen Lord.",
+          "segment": "Areopagus",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Corinth",
+          "primary_pin_id": "COR-01",
+          "primary_pin_id_raw": "COR-01",
+          "lsb_on_screen": [
+            "Acts 18:1–11"
+          ],
+          "panel_truth_line": "Corinth — port city church in a famously tangled culture.",
+          "caveats": "Roman Corinth digs.",
+          "solidity": "strong",
+          "narration": "Corinth — port city church in a famously tangled culture.\n\nRedemption plants holiness in a noisy port.",
+          "segment": "Port church",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-8",
+          "order": 8
+        },
+        {
+          "biblical_name": "Rome",
+          "primary_pin_id": "ROME-01",
+          "primary_pin_id_raw": "ROME-01",
+          "lsb_on_screen": [
+            "Acts 28:11–31",
+            "Romans 1:14–16"
+          ],
+          "panel_truth_line": "Rome — Paul arrives; the gospel is not ashamed in the empire's heart.",
+          "caveats": "Catacombs pin as Rome locus; Pauline Rome traditions span multiple pins.",
+          "solidity": "mixed",
+          "narration": "Rome — Paul arrives; the gospel is not ashamed in the empire's heart.\n\nFrom a Joppa rooftop to the empire's capital. Paul is under guard; the word is not bound.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-good-news-nations-stop-9",
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": "discover-joseph-saving-many",
+      "title": "Joseph — rejected, exalted, saving many",
+      "category": "human-redemption",
+      "era": "OT",
+      "theme": "Genesis 37–50: betrayal, Egypt, preservation, reconciliation",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Genesis 37:14"
+          ],
+          "panel_truth_line": "Hebron — family base before the sale.",
+          "caveats": "Patriarchal sojourn geography.",
+          "solidity": "strong",
+          "narration": "Hebron — family base before the sale.\n\nA father sends a favored son toward brothers who will sell him.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Dothan",
+          "primary_pin_id": "PR-25",
+          "primary_pin_id_raw": "PR-25",
+          "lsb_on_screen": [
+            "Genesis 37:17"
+          ],
+          "panel_truth_line": "Dothan — Joseph finds his brothers near Dothan.",
+          "caveats": "Pin is Elisha-labeled (2 Kgs 6); use as place geography, not Elisha event.",
+          "solidity": "mixed",
+          "narration": "Dothan — Joseph finds his brothers near Dothan.\n\nGeography serves Genesis here; the Elisha story is another chapter on the same map.",
+          "segment": "Betrayal place",
+          "layer": "prophets",
+          "id": "discover-joseph-saving-many-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Shechem",
+          "primary_pin_id": "SHE-01",
+          "primary_pin_id_raw": "SHE-01",
+          "lsb_on_screen": [
+            "Genesis 37:12–14"
+          ],
+          "panel_truth_line": "Shechem — brothers first pastured toward Shechem.",
+          "caveats": "Tell Balata.",
+          "solidity": "strong",
+          "narration": "Shechem — brothers first pastured toward Shechem.\n\nThe road of envy begins in ordinary pasture country.",
+          "segment": "Pasture road",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Avaris",
+          "primary_pin_id": "AVA-01",
+          "primary_pin_id_raw": "AVA-01",
+          "lsb_on_screen": [
+            "Genesis 39:1–6",
+            "Genesis 41:39–45"
+          ],
+          "panel_truth_line": "Avaris — Nile Delta / Hyksos-period capital zone for Joseph-in-Egypt backdrop.",
+          "caveats": "Do NOT claim \"Joseph's house found.\" Backdrop only.",
+          "solidity": "mixed",
+          "narration": "Avaris — Nile Delta / Hyksos-period capital zone for Joseph-in-Egypt backdrop.\n\nSold into Egypt, Joseph serves and suffers. Yahweh is with him in a real Delta world.",
+          "segment": "Egypt",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Heliopolis / On",
+          "primary_pin_id": "HEL-01",
+          "primary_pin_id_raw": "HEL-01",
+          "lsb_on_screen": [
+            "Genesis 41:45",
+            "Genesis 41:50–52"
+          ],
+          "panel_truth_line": "On / Heliopolis — Asenath daughter of Potiphera priest of On.",
+          "caveats": "Matariya / Iunu locus.",
+          "solidity": "mixed",
+          "narration": "On / Heliopolis — Asenath daughter of Potiphera priest of On.\n\nIn exile geography a family line continues. Promise is not canceled by a slave market.",
+          "segment": "Household",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Pi-Ramesses / Qantir",
+          "primary_pin_id": "PIR-01",
+          "primary_pin_id_raw": "PIR-01",
+          "lsb_on_screen": [
+            "Genesis 47:11",
+            "Exodus 1:11"
+          ],
+          "panel_truth_line": "Pi-Ramesses / Qantir — later Ramesside overlay of Goshen memory geography.",
+          "caveats": "Later capital overlay; Goshen memory geography with caveat.",
+          "solidity": "mixed",
+          "narration": "Pi-Ramesses / Qantir — later Ramesside overlay of Goshen memory geography.\n\nLater names sit on the same Delta story-world Israel will one day leave.",
+          "segment": "Goshen memory",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Memphis",
+          "primary_pin_id": "MEM-01",
+          "primary_pin_id_raw": "MEM-01",
+          "lsb_on_screen": [
+            "Genesis 41:46",
+            "Genesis 42:1–3"
+          ],
+          "panel_truth_line": "Memphis — major Egyptian urban backdrop (context stop).",
+          "caveats": "Context stop for Egyptian power geography.",
+          "solidity": "mixed",
+          "narration": "Memphis — major Egyptian urban backdrop (context stop).\n\nFamine drives brothers south into the empire's shadow.",
+          "segment": "Empire backdrop",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Beersheba",
+          "primary_pin_id": "BEE-01",
+          "primary_pin_id_raw": "BEE-01",
+          "lsb_on_screen": [
+            "Genesis 46:1–4",
+            "Genesis 50:20"
+          ],
+          "panel_truth_line": "Beersheba — Jacob offers sacrifices on the way to Egypt.",
+          "caveats": "Southern hinge before Egypt.",
+          "solidity": "mixed",
+          "narration": "Beersheba — Jacob offers sacrifices on the way to Egypt.\n\nYou meant evil; God meant it for good, to preserve life. Keep Christ-pattern readings for Jesus category if desired—this path stays Genesis-human.",
+          "segment": "Closing",
+          "layer": "ot-digs",
+          "id": "discover-joseph-saving-many-stop-8",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "discover-susa-to-zion",
+      "title": "From Susa to Zion — exile, decree, return",
+      "category": "human-redemption",
+      "era": "OT",
+      "theme": "Exile, Esther's Susa, Cyrus decree, Haggai rebuild",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Babylon",
+          "primary_pin_id": "BAB-01",
+          "primary_pin_id_raw": "BAB-01",
+          "lsb_on_screen": [
+            "2 Kings 25:8–12",
+            "Psalm 137:1–6"
+          ],
+          "panel_truth_line": "Babylon — exile capital.",
+          "caveats": "Babylon dig geography.",
+          "solidity": "strong",
+          "narration": "Babylon — exile capital.\n\nJudgment is real because covenant was real. Tears by foreign rivers.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Cyrus Cylinder findspot",
+          "primary_pin_id": "CYR-01",
+          "primary_pin_id_raw": "CYR-01",
+          "lsb_on_screen": [
+            "Ezra 1:1–4"
+          ],
+          "panel_truth_line": "Babylon — Cyrus Cylinder findspot; Persian decree culture.",
+          "caveats": "Cylinder in BM; pin is findspot. Do not claim cylinder quotes Ezra verbatim.",
+          "solidity": "mixed",
+          "narration": "Babylon — Cyrus Cylinder findspot; Persian decree culture.\n\nYahweh stirs a Persian king for His Name's sake.",
+          "segment": "Findspot",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Cyrus Cylinder",
+          "primary_pin_id": "ART-07",
+          "primary_pin_id_raw": "ART-07",
+          "lsb_on_screen": [
+            "Ezra 1:1–4",
+            "Isaiah 44:28–45:1"
+          ],
+          "panel_truth_line": "Cyrus Cylinder — Persian policy backdrop for Ezra 1.",
+          "caveats": "Artifact pin; parallel/context object, not a verse of Scripture.",
+          "solidity": "mixed",
+          "narration": "Cyrus Cylinder — Persian policy backdrop for Ezra 1.\n\nIsaiah named Cyrus. Ezra records the return. Empires are tools in Yahweh's hand.",
+          "segment": "Artifact",
+          "layer": "artifacts",
+          "id": "discover-susa-to-zion-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Susa",
+          "primary_pin_id": "SUS-01",
+          "primary_pin_id_raw": "SUS-01",
+          "lsb_on_screen": [
+            "Esther 1:1–5",
+            "Esther 4:13–16"
+          ],
+          "panel_truth_line": "Susa — Esther / imperial court geography.",
+          "caveats": "Esther is Jewish fidelity under threat—not Gentile conversion.",
+          "solidity": "strong",
+          "narration": "Susa — Esther / imperial court geography.\n\nA Jewish woman risks everything so her people may live. Redemption as preservation under empire.",
+          "segment": "Court",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Pasargadae",
+          "primary_pin_id": "PAS-01",
+          "primary_pin_id_raw": "PAS-01",
+          "lsb_on_screen": [
+            "Ezra 1:1–4"
+          ],
+          "panel_truth_line": "Pasargadae — Cyrus's Persian heartland (UNESCO).",
+          "caveats": "Empire context geography.",
+          "solidity": "mixed",
+          "narration": "Pasargadae — Cyrus's Persian heartland (UNESCO).\n\nThe decree comes from a real Persian world, not a fairy court.",
+          "segment": "Persian heartland",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Persepolis",
+          "primary_pin_id": "PER-01",
+          "primary_pin_id_raw": "PER-01",
+          "lsb_on_screen": [
+            "Ezra 1:1–4",
+            "Esther 1:1–3"
+          ],
+          "panel_truth_line": "Persepolis — later Achaemenid ceremonial capital (empire context).",
+          "caveats": "Empire context; not Esther's exact hall claim.",
+          "solidity": "mixed",
+          "narration": "Persepolis — later Achaemenid ceremonial capital (empire context).\n\nImperial ceremony frames the world of return and of Susa's danger.",
+          "segment": "Empire",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "City of David / Jerusalem",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "Ezra 3:8–13"
+          ],
+          "panel_truth_line": "City of David — returnees' city.",
+          "caveats": "Avoid CBG-22 palace overclaim.",
+          "solidity": "strong",
+          "narration": "City of David — returnees' city.\n\nHomecoming mixes weeping and joy at foundations.",
+          "segment": "Return",
+          "layer": "ot-digs",
+          "id": "discover-susa-to-zion-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Haggai — Jerusalem",
+          "primary_pin_id": "PR-17",
+          "primary_pin_id_raw": "PR-17",
+          "lsb_on_screen": [
+            "Haggai 1:1–8",
+            "Haggai 2:1–9"
+          ],
+          "panel_truth_line": "Haggai — rebuild preaching in Jerusalem.",
+          "caveats": "Prophets-layer locale.",
+          "solidity": "strong",
+          "narration": "Haggai — rebuild preaching in Jerusalem.\n\nBuild the house. Restored people are called back to worship, not only walls.",
+          "segment": "Rebuild word",
+          "layer": "prophets",
+          "id": "discover-susa-to-zion-stop-8",
+          "order": 8
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Haggai 2:6–9",
+            "Zechariah 8:3"
+          ],
+          "panel_truth_line": "Temple approaches — Second Temple precinct memory (restored worship geography).",
+          "caveats": "Herodian fabric is later; use as Temple approach geography for return worship memory.",
+          "solidity": "mixed",
+          "narration": "Temple approaches — Second Temple precinct memory (restored worship geography).\n\nYahweh returns to Zion in promise. Human redemption includes unfinished holiness waiting for greater glory.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-susa-to-zion-stop-9",
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": "discover-house-of-yahweh",
+      "title": "When the house of Yahweh stood again",
+      "category": "human-redemption",
+      "era": "OT",
+      "theme": "Shiloh → Zion → post-exile rebuild → Second Temple approaches",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Shiloh",
+          "primary_pin_id": "SHI-01",
+          "primary_pin_id_raw": "SHI-01",
+          "lsb_on_screen": [
+            "1 Samuel 1:3",
+            "1 Samuel 4:3–11"
+          ],
+          "panel_truth_line": "Shiloh — early sanctuary where Yahweh's name dwelt.",
+          "caveats": "Early sanctuary dig geography.",
+          "solidity": "strong",
+          "narration": "Shiloh — early sanctuary where Yahweh's name dwelt.\n\nBefore Jerusalem's temple, Shiloh taught Israel what it meant for God to dwell among them.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-house-of-yahweh-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "2 Samuel 6:12–17"
+          ],
+          "panel_truth_line": "City of David — David brings the ark up.",
+          "caveats": "Avoid palace-of-David overclaim.",
+          "solidity": "strong",
+          "narration": "City of David — David brings the ark up.\n\nThe ark rises to Zion with shouting and fear.",
+          "segment": "Ark up",
+          "layer": "ot-digs",
+          "id": "discover-house-of-yahweh-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Gihon",
+          "primary_pin_id": "COD-03",
+          "primary_pin_id_raw": "COD-03",
+          "lsb_on_screen": [
+            "1 Kings 1:33–40",
+            "Psalm 46:4"
+          ],
+          "panel_truth_line": "Gihon — royal/water geography near temple mount tradition.",
+          "caveats": "Spring geography.",
+          "solidity": "strong",
+          "narration": "Gihon — royal/water geography near temple mount tradition.\n\nWater and kingship memory sit under the mountain of meeting.",
+          "segment": "Water",
+          "layer": "ot-digs",
+          "id": "discover-house-of-yahweh-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Tel Motza temple",
+          "primary_pin_id": "MOT-01",
+          "primary_pin_id_raw": "MOT-01",
+          "lsb_on_screen": [
+            "1 Kings 8:10–11"
+          ],
+          "panel_truth_line": "Tel Motza — Iron Age temple near Jerusalem (context/contrast).",
+          "caveats": "NOT \"Solomon's temple found.\" Nearby Iron Age temple only.",
+          "solidity": "mixed",
+          "narration": "Tel Motza — Iron Age temple near Jerusalem (context/contrast).\n\nA neighboring temple reminds us: Yahweh's house claim is unique—and Motza is not that footprint.",
+          "segment": "Contrast",
+          "layer": "ot-digs",
+          "id": "discover-house-of-yahweh-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Haggai",
+          "primary_pin_id": "PR-17",
+          "primary_pin_id_raw": "PR-17",
+          "lsb_on_screen": [
+            "Haggai 1:1–8",
+            "Haggai 2:1–9"
+          ],
+          "panel_truth_line": "Haggai — \"build the house.\"",
+          "caveats": "Prophets pin.",
+          "solidity": "strong",
+          "narration": "Haggai — \"build the house.\"\n\nReturned people need a prophet's push toward worship.",
+          "segment": "Rebuild",
+          "layer": "prophets",
+          "id": "discover-house-of-yahweh-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Zechariah",
+          "primary_pin_id": "PR-18",
+          "primary_pin_id_raw": "PR-18",
+          "lsb_on_screen": [
+            "Zechariah 1:16",
+            "Zechariah 8:3"
+          ],
+          "panel_truth_line": "Zechariah — Zion comfort / temple visions.",
+          "caveats": "Prophets pin.",
+          "solidity": "strong",
+          "narration": "Zechariah — Zion comfort / temple visions.\n\nComfort and cleansing visions hang over the rebuild.",
+          "segment": "Comfort",
+          "layer": "prophets",
+          "id": "discover-house-of-yahweh-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Malachi 3:1",
+            "Ezra 3:10–13"
+          ],
+          "panel_truth_line": "Southern Temple Mount — Herodian/Second Temple approaches.",
+          "caveats": "Later fabric; worship geography close.",
+          "solidity": "strong",
+          "narration": "Southern Temple Mount — Herodian/Second Temple approaches.\n\nThe house stands again in history—and still waits for the Lord who will suddenly come to His temple.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-house-of-yahweh-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-spirit-poured-out",
+      "title": "From the upper room memory to a people filled",
+      "category": "human-redemption",
+      "era": "NT",
+      "theme": "Acts 1–2 Spirit outpouring geography; Cenacle gap honest",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Acts 1:9–12"
+          ],
+          "panel_truth_line": "Olivet — ascension geography.",
+          "caveats": "Ascension tradition geography.",
+          "solidity": "strong",
+          "narration": "Olivet — ascension geography.\n\nHe is taken up. Witnesses return to Jerusalem to wait. Upper room/Cenacle: no dig pin—narrate the wait without inventing an ID.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Acts 2:46",
+            "Acts 3:1"
+          ],
+          "panel_truth_line": "Temple approaches — daily temple gatherings after Pentecost.",
+          "caveats": "Herodian west.",
+          "solidity": "strong",
+          "narration": "Temple approaches — daily temple gatherings after Pentecost.\n\nA Spirit-filled people still go up to the house to pray.",
+          "segment": "Temple life",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Pilgrimage Road",
+          "primary_pin_id": "JER-NT-02",
+          "primary_pin_id_raw": "JER-NT-02",
+          "lsb_on_screen": [
+            "Acts 2:1–41"
+          ],
+          "panel_truth_line": "Pilgrimage Road — pilgrim movement archaeology in the Spirit's city.",
+          "caveats": "Stepped street; Pentecost narrated in Jerusalem geography.",
+          "solidity": "strong",
+          "narration": "Pilgrimage Road — pilgrim movement archaeology in the Spirit's city.\n\nFeast crowds hear many tongues proclaiming God's mighty works.",
+          "segment": "Pilgrim city",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Pool of Siloam",
+          "primary_pin_id": "JER-NT-01",
+          "primary_pin_id_raw": "JER-NT-01",
+          "lsb_on_screen": [
+            "Acts 2:42–47"
+          ],
+          "panel_truth_line": "Siloam — City of David water / festival world.",
+          "caveats": "Pool excavations.",
+          "solidity": "strong",
+          "narration": "Siloam — City of David water / festival world.\n\nOrdinary water geography belongs to the same city where the Spirit falls.",
+          "segment": "City water",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Bethesda",
+          "primary_pin_id": "JER-NT-05",
+          "primary_pin_id_raw": "JER-NT-05",
+          "lsb_on_screen": [
+            "Acts 2:43–47"
+          ],
+          "panel_truth_line": "Bethesda — Jerusalem pool geography in the same city.",
+          "caveats": "John 5 pool complex in Acts' city setting.",
+          "solidity": "strong",
+          "narration": "Bethesda — Jerusalem pool geography in the same city.\n\nMercy places and mission places share one map.",
+          "segment": "Pools",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Joppa",
+          "primary_pin_id": "JOP-01",
+          "primary_pin_id_raw": "JOP-01",
+          "lsb_on_screen": [
+            "Acts 10:9–23"
+          ],
+          "panel_truth_line": "Joppa — doorway toward Gentile inclusion (bridge beat).",
+          "caveats": "Differentiate from Cornelius path: spine here is Jerusalem Spirit outpouring.",
+          "solidity": "strong",
+          "narration": "Joppa — doorway toward Gentile inclusion (bridge beat).\n\nThe same Spirit will soon fall on a Roman household.",
+          "segment": "Bridge",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Caesarea Maritima",
+          "primary_pin_id": "CAES-01",
+          "primary_pin_id_raw": "CAES-01,CAES-02",
+          "lsb_on_screen": [
+            "Acts 10:44–48"
+          ],
+          "panel_truth_line": "Caesarea — Spirit on the nations teaser (Cornelius household).",
+          "caveats": "Full Cornelius tour is under Gentiles category.",
+          "solidity": "strong",
+          "narration": "Caesarea — Spirit on the nations teaser (Cornelius household).\n\nHuman redemption as a people made alive by God's Spirit—from Jerusalem outward.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-spirit-poured-out-stop-7",
+          "order": 7
+        }
       ]
     },
     {
@@ -197,6 +1886,2067 @@
           "narration": "Close at Chorazin, named in Jesus' woes over towns that saw works and would not turn. Privilege without repentance is empty. The standing basalt synagogue is later fabric on the town site—fine as the named locus, not 'the building He entered.' End on the hard word that love tells the truth.",
           "segment": "Closing",
           "layer": "nt-digs"
+        }
+      ],
+      "category": "jesus-ot-nt"
+    },
+    {
+      "id": "discover-passover-lamb",
+      "title": "Passover lamb to the Lamb of God",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Exodus Passover geography into John's Lamb and the cross",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Goshen / Rameses",
+          "primary_pin_id": "EW-01",
+          "primary_pin_id_raw": "EW-01",
+          "lsb_on_screen": [
+            "Exodus 12:1–13"
+          ],
+          "panel_truth_line": "Goshen / Rameses — Passover instituted; a lamb's blood marks doors.",
+          "caveats": "Wilderness-pack exit geography.",
+          "solidity": "mixed",
+          "narration": "Goshen / Rameses — Passover instituted; a lamb's blood marks doors.\n\nDeliverance begins with blood and a meal in haste—Scripture's own Passover pattern.",
+          "segment": "Opening",
+          "layer": "exodus-wilderness",
+          "id": "discover-passover-lamb-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Yam Suph",
+          "primary_pin_id": "EW-07",
+          "primary_pin_id_raw": "EW-07",
+          "lsb_on_screen": [
+            "Exodus 12:46",
+            "Exodus 14:15–31"
+          ],
+          "panel_truth_line": "Yam Suph — a delivered people walks free.",
+          "caveats": "Keep Wyatt chariot claims out.",
+          "solidity": "mixed",
+          "narration": "Yam Suph — a delivered people walks free.\n\nThe redeemed people stand on the far side singing. Passover leads to passage.",
+          "segment": "Deliverance",
+          "layer": "exodus-wilderness",
+          "id": "discover-passover-lamb-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Mount Sinai / Horeb",
+          "primary_pin_id": "EW-15",
+          "primary_pin_id_raw": "EW-15",
+          "lsb_on_screen": [
+            "Exodus 19:1–6",
+            "Exodus 24:3–8"
+          ],
+          "panel_truth_line": "Sinai — redeemed people meet Yahweh in covenant.",
+          "caveats": "Traditional Sinai locus; ID debated.",
+          "solidity": "mixed",
+          "narration": "Sinai — redeemed people meet Yahweh in covenant.\n\nBlood of the covenant seals a people for God—language the NT will deepen in Christ.",
+          "segment": "Covenant",
+          "layer": "exodus-wilderness",
+          "id": "discover-passover-lamb-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "John 1:29",
+            "Luke 2:1–20"
+          ],
+          "panel_truth_line": "Bethlehem — the Lamb enters history as a child.",
+          "caveats": "Birth geography; \"Lamb\" title is John's later proclamation.",
+          "solidity": "strong",
+          "narration": "Bethlehem — the Lamb enters history as a child.\n\nJohn will point to Jesus as the Lamb of God. The story first gives Him a town and a manger.",
+          "segment": "Incarnation",
+          "layer": "nt-digs",
+          "id": "discover-passover-lamb-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "John 2:13–17",
+            "Luke 22:7–13"
+          ],
+          "panel_truth_line": "Temple approaches — sacrifice world of Second Temple Jerusalem.",
+          "caveats": "Herodian west.",
+          "solidity": "strong",
+          "narration": "Temple approaches — sacrifice world of Second Temple Jerusalem.\n\nPassover lambs and Temple courts form the world Jesus enters in His last week.",
+          "segment": "Temple",
+          "layer": "nt-digs",
+          "id": "discover-passover-lamb-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "John 19:31–36",
+            "1 Corinthians 5:7"
+          ],
+          "panel_truth_line": "Golgotha — Christ our Passover is sacrificed.",
+          "caveats": "Crucifixion pin; empty tomb narrated without separate sepulchre ID.",
+          "solidity": "strong",
+          "narration": "Golgotha — Christ our Passover is sacrificed.\n\nPaul says Christ our Passover has been sacrificed. Scripture itself forges the link—this tour does not invent it.",
+          "segment": "Cross",
+          "layer": "jesus-miracles",
+          "id": "discover-passover-lamb-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Emmaus",
+          "primary_pin_id": "EMM-01",
+          "primary_pin_id_raw": "EMM-01",
+          "lsb_on_screen": [
+            "Luke 24:25–27",
+            "Luke 24:13–35"
+          ],
+          "panel_truth_line": "Emmaus — risen Lord opens Moses and the Prophets.",
+          "caveats": "Debated village ID; Nicopolis tradition area.",
+          "solidity": "mixed",
+          "narration": "Emmaus — risen Lord opens Moses and the Prophets.\n\nBeginning with Moses, He interprets the things concerning Himself. Passover finds its yes in a living Lord.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-passover-lamb-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-yahweh-will-provide",
+      "title": "\"Yahweh will provide\" — Isaac's mount to Golgotha",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Abraham/Isaac path to Golgotha (Hebrews' own typology)",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Ur",
+          "primary_pin_id": "UR-01",
+          "primary_pin_id_raw": "UR-01",
+          "lsb_on_screen": [
+            "Genesis 22:1–2",
+            "Genesis 11:31"
+          ],
+          "panel_truth_line": "Ur — family origin before the call and the later test.",
+          "caveats": "Patriarchal chronology debated; beat is family origin.",
+          "solidity": "strong",
+          "narration": "Ur — family origin before the call and the later test.\n\nThe story of a son given begins in a household Yahweh called out of Ur.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-yahweh-will-provide-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Bethel",
+          "primary_pin_id": "BET-01",
+          "primary_pin_id_raw": "BET-01",
+          "lsb_on_screen": [
+            "Genesis 12:8",
+            "Genesis 22:1–19"
+          ],
+          "panel_truth_line": "Bethel — Abraham's altar life before Moriah.",
+          "caveats": "Altar sojourn geography.",
+          "solidity": "strong",
+          "narration": "Bethel — Abraham's altar life before Moriah.\n\nA life of altars prepares a man for a harder obedience.",
+          "segment": "Altar life",
+          "layer": "ot-digs",
+          "id": "discover-yahweh-will-provide-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Beersheba",
+          "primary_pin_id": "BEE-01",
+          "primary_pin_id_raw": "BEE-01",
+          "lsb_on_screen": [
+            "Genesis 22:19"
+          ],
+          "panel_truth_line": "Beersheba — Gen 22 departure/return tradition geography.",
+          "caveats": "Abraham returned to Beersheba (Gen 22:19).",
+          "solidity": "mixed",
+          "narration": "Beersheba — Gen 22 departure/return tradition geography.\n\nThe text ties the aftermath to Beersheba. Exact Moriah peak: no pin—we use Jerusalem Temple tradition next with caveats.",
+          "segment": "Departure",
+          "layer": "ot-digs",
+          "id": "discover-yahweh-will-provide-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Genesis 13:18",
+            "Genesis 22:2"
+          ],
+          "panel_truth_line": "Hebron — patriarchal sojourn country on the way toward Moriah's land.",
+          "caveats": "Sojourn geography; not the altar peak.",
+          "solidity": "strong",
+          "narration": "Hebron — patriarchal sojourn country on the way toward Moriah's land.\n\nAbraham walks with Isaac toward a mountain in the land of Moriah. God will provide.",
+          "segment": "Sojourn",
+          "layer": "ot-digs",
+          "id": "discover-yahweh-will-provide-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "City of David / Jerusalem",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "Genesis 22:1–14",
+            "2 Chronicles 3:1"
+          ],
+          "panel_truth_line": "Jerusalem — Zion geography; 2 Chr 3:1 links Moriah to Temple mount tradition.",
+          "caveats": "Narrate as tradition, not GPS of Gen 22 altar. Exact Moriah peak: no pin.",
+          "solidity": "mixed",
+          "narration": "Jerusalem — Zion geography; 2 Chr 3:1 links Moriah to Temple mount tradition.\n\nChronicles ties Moriah language to the Temple mount. Hold it as reception tradition, not a surveyed Gen 22 coordinate.",
+          "segment": "Tradition",
+          "layer": "ot-digs",
+          "id": "discover-yahweh-will-provide-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Hebrews 11:17–19",
+            "John 3:16"
+          ],
+          "panel_truth_line": "Temple west — where sacrifice language lived in Jesus' day.",
+          "caveats": "Herodian approaches.",
+          "solidity": "strong",
+          "narration": "Temple west — where sacrifice language lived in Jesus' day.\n\nHebrews says Abraham reasoned God could raise the dead. The NT author's own typology points forward.",
+          "segment": "Priestly world",
+          "layer": "nt-digs",
+          "id": "discover-yahweh-will-provide-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "Romans 8:32",
+            "John 3:16"
+          ],
+          "panel_truth_line": "Golgotha — the Son given; the Father who did not spare His own Son.",
+          "caveats": "Crucifixion geography.",
+          "solidity": "strong",
+          "narration": "Golgotha — the Son given; the Father who did not spare His own Son.\n\nChristians have long read Genesis 22 toward this hill—because Hebrews and the Gospels already teach a Father who provides by giving the Son.",
+          "segment": "Closing",
+          "layer": "jesus-miracles",
+          "id": "discover-yahweh-will-provide-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-sign-of-jonah",
+      "title": "The sign of Jonah",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Joppa → Nineveh → Passion/third-day geography Jesus named",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Joppa",
+          "primary_pin_id": "JOP-01",
+          "primary_pin_id_raw": "JOP-01",
+          "lsb_on_screen": [
+            "Jonah 1:1–3"
+          ],
+          "panel_truth_line": "Joppa — Jonah flees from Yahweh's face.",
+          "caveats": "Port geography; sea/fish has no pin—narrate between stops.",
+          "solidity": "strong",
+          "narration": "Joppa — Jonah flees from Yahweh's face.\n\nA prophet runs. The sea will teach him; Nineveh will hear him.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-sign-of-jonah-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Nineveh",
+          "primary_pin_id": "NIN-01",
+          "primary_pin_id_raw": "NIN-01",
+          "lsb_on_screen": [
+            "Jonah 3:1–10"
+          ],
+          "panel_truth_line": "Nineveh — repentance at preaching.",
+          "caveats": "Assyrian capital dig; repentance beat is Scripture.",
+          "solidity": "strong",
+          "narration": "Nineveh — repentance at preaching.\n\nA great city turns. Jesus will later call this the sign generation needs.",
+          "segment": "Repentance",
+          "layer": "ot-digs",
+          "id": "discover-sign-of-jonah-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Matthew 12:38–41",
+            "Matthew 16:4"
+          ],
+          "panel_truth_line": "Olivet — Jesus teaches and approaches Passion; He names Jonah's sign.",
+          "caveats": "Olivet/Passion approach geography.",
+          "solidity": "strong",
+          "narration": "Olivet — Jesus teaches and approaches Passion; He names Jonah's sign.\n\nNo sign except the sign of Jonah—three days and three nights.",
+          "segment": "Teaching",
+          "layer": "nt-digs",
+          "id": "discover-sign-of-jonah-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "Matthew 12:40",
+            "Matthew 27:33–50"
+          ],
+          "panel_truth_line": "Golgotha — \"heart of the earth\" begins at the cross.",
+          "caveats": "Crucifixion pin.",
+          "solidity": "strong",
+          "narration": "Golgotha — \"heart of the earth\" begins at the cross.\n\nJesus authorizes the typology Himself. Burial follows; the third day is coming.",
+          "segment": "Cross",
+          "layer": "jesus-miracles",
+          "id": "discover-sign-of-jonah-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Emmaus",
+          "primary_pin_id": "EMM-01",
+          "primary_pin_id_raw": "EMM-01",
+          "lsb_on_screen": [
+            "Matthew 28:1–10",
+            "Luke 24:13–35"
+          ],
+          "panel_truth_line": "Emmaus — third-day appearance tradition.",
+          "caveats": "Debated village ID.",
+          "solidity": "mixed",
+          "narration": "Emmaus — third-day appearance tradition.\n\nThe sign is not a fish story for curiosity—it is a risen Lord.",
+          "segment": "Third day",
+          "layer": "nt-digs",
+          "id": "discover-sign-of-jonah-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Matthew 12:41",
+            "Luke 11:29–32"
+          ],
+          "panel_truth_line": "Capernaum — Galilee base where \"greater than Jonah\" teaching landed.",
+          "caveats": "Ministry base; optional Judea close could be WW-01.",
+          "solidity": "strong",
+          "narration": "Capernaum — Galilee base where \"greater than Jonah\" teaching landed.\n\nSomething greater than Jonah is here. The Galilee towns heard it first.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-sign-of-jonah-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-son-of-david",
+      "title": "Son of David — Bethlehem's shepherd-king to Zion's Son",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Bethlehem/David's rise to Zion, then Jesus Son of David",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "1 Samuel 16:1–13",
+            "Micah 5:2",
+            "Matthew 2:1–6"
+          ],
+          "panel_truth_line": "Bethlehem — David's town and Jesus' birth.",
+          "caveats": "Nativity/David geography.",
+          "solidity": "strong",
+          "narration": "Bethlehem — David's town and Jesus' birth.\n\nA shepherd boy is anointed; prophets promise a greater Son from the same town.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-son-of-david-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Gath",
+          "primary_pin_id": "GAT-01",
+          "primary_pin_id_raw": "GAT-01",
+          "lsb_on_screen": [
+            "1 Samuel 17:1–50"
+          ],
+          "panel_truth_line": "Gath — Philistine frontier (David/Goliath geography).",
+          "caveats": "Keep CBG-21 media-overclaim caution in panel, not as stop.",
+          "solidity": "strong",
+          "narration": "Gath — Philistine frontier (David/Goliath geography).\n\nThe valley story makes David famous; the frontier stays contested in later dig hype—stay with Scripture's beat.",
+          "segment": "Frontier",
+          "layer": "ot-digs",
+          "id": "discover-son-of-david-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "2 Samuel 2:1–4",
+            "2 Samuel 5:1–5"
+          ],
+          "panel_truth_line": "Hebron — David reigns first over Judah.",
+          "caveats": "Judah capital geography before Jerusalem.",
+          "solidity": "strong",
+          "narration": "Hebron — David reigns first over Judah.\n\nKingship begins in stages. Hebron first; Zion next.",
+          "segment": "First reign",
+          "layer": "ot-digs",
+          "id": "discover-son-of-david-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "2 Samuel 5:6–10",
+            "Isaiah 9:6–7"
+          ],
+          "panel_truth_line": "City of David — Zion; avoid treating CBG-22 \"palace of David\" as settled.",
+          "caveats": "Do not treat palace-of-David claims as settled.",
+          "solidity": "strong",
+          "narration": "City of David — Zion; avoid treating CBG-22 \"palace of David\" as settled.\n\nDavid takes Zion. Prophets promise an everlasting throne.",
+          "segment": "Zion",
+          "layer": "ot-digs",
+          "id": "discover-son-of-david-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Gihon",
+          "primary_pin_id": "COD-03",
+          "primary_pin_id_raw": "COD-03",
+          "lsb_on_screen": [
+            "1 Kings 1:32–40",
+            "2 Samuel 5:2"
+          ],
+          "panel_truth_line": "Gihon — royal/anointing water geography memory.",
+          "caveats": "Spring geography; anointing traditions nearby.",
+          "solidity": "strong",
+          "narration": "Gihon — royal/anointing water geography memory.\n\nRoyal water memory belongs to the shepherd-king's city.",
+          "segment": "Royal water",
+          "layer": "ot-digs",
+          "id": "discover-son-of-david-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Nazareth",
+          "primary_pin_id": "NAZ-01",
+          "primary_pin_id_raw": "NAZ-01",
+          "lsb_on_screen": [
+            "Matthew 1:1",
+            "Matthew 2:23",
+            "Luke 1:32–33"
+          ],
+          "panel_truth_line": "Nazareth — \"He will be called a Nazarene\" upbringing.",
+          "caveats": "Modest archaeology; hometown of the Son of David.",
+          "solidity": "mixed",
+          "narration": "Nazareth — \"He will be called a Nazarene\" upbringing.\n\nMatthew opens with Jesus Christ, son of David. The child grows up away from Bethlehem's fields.",
+          "segment": "Upbringing",
+          "layer": "nt-digs",
+          "id": "discover-son-of-david-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Matthew 21:9",
+            "Matthew 21:12–16"
+          ],
+          "panel_truth_line": "Temple approaches — Son of David enters and teaches.",
+          "caveats": "Herodian west.",
+          "solidity": "strong",
+          "narration": "Temple approaches — Son of David enters and teaches.\n\nHosanna to the Son of David. The city hears the title David's Lord claims.",
+          "segment": "Entry",
+          "layer": "nt-digs",
+          "id": "discover-son-of-david-stop-7",
+          "order": 7
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Matthew 21:1–11",
+            "Luke 19:37–44"
+          ],
+          "panel_truth_line": "Olivet — triumphal approach / teaching facing Zion.",
+          "caveats": "Olivet approach geography.",
+          "solidity": "strong",
+          "narration": "Olivet — triumphal approach / teaching facing Zion.\n\nFrom Olivet He faces Zion as Son of David—and as the One who will be rejected and raised.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-son-of-david-stop-8",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "discover-bronze-serpent",
+      "title": "Lifted up — bronze serpent to the cross",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Numbers 21 → John 3:14 typology Jesus authorizes",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Mount Sinai / Horeb",
+          "primary_pin_id": "EW-15",
+          "primary_pin_id_raw": "EW-15",
+          "lsb_on_screen": [
+            "Numbers 21:4–9",
+            "Exodus 20:1–3"
+          ],
+          "panel_truth_line": "Sinai / Horeb — covenant people formed before the wilderness judgment story.",
+          "caveats": "Traditional Sinai locus.",
+          "solidity": "mixed",
+          "narration": "Sinai / Horeb — covenant people formed before the wilderness judgment story.\n\nA covenant people still learns through failure on the road.",
+          "segment": "Opening",
+          "layer": "exodus-wilderness",
+          "id": "discover-bronze-serpent-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Kadesh-barnea",
+          "primary_pin_id": "EW-38",
+          "primary_pin_id_raw": "EW-38",
+          "lsb_on_screen": [
+            "Numbers 13:26",
+            "Numbers 20:1–13"
+          ],
+          "panel_truth_line": "Kadesh-barnea — wilderness failure/memory.",
+          "caveats": "Wilderness station geography.",
+          "solidity": "mixed",
+          "narration": "Kadesh-barnea — wilderness failure/memory.\n\nMemory of unbelief sits behind the serpent episode.",
+          "segment": "Wilderness memory",
+          "layer": "exodus-wilderness",
+          "id": "discover-bronze-serpent-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Punon (Faynan copper)",
+          "primary_pin_id": "EW-45",
+          "primary_pin_id_raw": "EW-45",
+          "lsb_on_screen": [
+            "Numbers 21:4–9",
+            "Numbers 33:42–43"
+          ],
+          "panel_truth_line": "Punon — Num 33 station in copper district; classic association zone for bronze-serpent narrative geography.",
+          "caveats": "Num 21 locale not GPS-certain — narrate honestly. Not \"the pole found.\"",
+          "solidity": "mixed",
+          "narration": "Punon — Num 33 station in copper district; classic association zone for bronze-serpent narrative geography.\n\nLook and live. Copper country is context, not a relic claim.",
+          "segment": "Copper country",
+          "layer": "exodus-wilderness",
+          "id": "discover-bronze-serpent-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Timna Valley copper",
+          "primary_pin_id": "TIMV-01",
+          "primary_pin_id_raw": "TIMV-01",
+          "lsb_on_screen": [
+            "Numbers 21:8–9"
+          ],
+          "panel_truth_line": "Timna Valley — regional copper-working context (supporting).",
+          "caveats": "Supporting copper context, not the serpent pole dig.",
+          "solidity": "mixed",
+          "narration": "Timna Valley — regional copper-working context (supporting).\n\nRegional craft explains bronze as material culture—not a Wyatt-style find.",
+          "segment": "Copper context",
+          "layer": "ot-digs",
+          "id": "discover-bronze-serpent-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Mount Nebo / Pisgah",
+          "primary_pin_id": "EW-51",
+          "primary_pin_id_raw": "EW-51",
+          "lsb_on_screen": [
+            "Numbers 21:4–9",
+            "Deuteronomy 34:1–4"
+          ],
+          "panel_truth_line": "Nebo approach — edge of the land before entry.",
+          "caveats": "Traditional Nebo viewpoint.",
+          "solidity": "strong",
+          "narration": "Nebo approach — edge of the land before entry.\n\nThe wilderness road ends looking toward promise.",
+          "segment": "Edge of the land",
+          "layer": "exodus-wilderness",
+          "id": "discover-bronze-serpent-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "John 3:1–16"
+          ],
+          "panel_truth_line": "Temple approaches — Nicodemus's Jerusalem world (John 3).",
+          "caveats": "Herodian west.",
+          "solidity": "strong",
+          "narration": "Temple approaches — Nicodemus's Jerusalem world (John 3).\n\nJesus tells Nicodemus the Son of Man must be lifted up as Moses lifted the serpent.",
+          "segment": "Nicodemus",
+          "layer": "nt-digs",
+          "id": "discover-bronze-serpent-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "John 3:14–16",
+            "John 12:32–33"
+          ],
+          "panel_truth_line": "Golgotha — the Son lifted up.",
+          "caveats": "Crucifixion pin.",
+          "solidity": "strong",
+          "narration": "Golgotha — the Son lifted up.\n\nTypology Jesus Himself authorizes ends here: look to the lifted Son and live.",
+          "segment": "Closing",
+          "layer": "jesus-miracles",
+          "id": "discover-bronze-serpent-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-priest-king-salem",
+      "title": "Priest-king of Salem — Melchizedek to our great High Priest",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "Genesis 14; Psalm 110; Hebrews 7 — Salem/Jerusalem geography",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Genesis 14:13–16"
+          ],
+          "panel_truth_line": "Hebron — Abraham's sojourn country (Gen 14 war context nearby).",
+          "caveats": "Sojourn geography.",
+          "solidity": "strong",
+          "narration": "Hebron — Abraham's sojourn country (Gen 14 war context nearby).\n\nAbraham returns from battle toward a meeting Scripture places with Melchizedek. Exact meeting spot: no pin.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-priest-king-salem-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "Genesis 14:18–20",
+            "Psalm 76:2"
+          ],
+          "panel_truth_line": "City of David — Salem / Zion geography (tradition).",
+          "caveats": "Salem/Jerusalem tradition pins + caveat; no Melchizedek dig.",
+          "solidity": "mixed",
+          "narration": "City of David — Salem / Zion geography (tradition).\n\nKing of Salem, priest of God Most High, brings bread and wine and blesses Abram.",
+          "segment": "Salem",
+          "layer": "ot-digs",
+          "id": "discover-priest-king-salem-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Gihon",
+          "primary_pin_id": "COD-03",
+          "primary_pin_id_raw": "COD-03",
+          "lsb_on_screen": [
+            "Psalm 110:4"
+          ],
+          "panel_truth_line": "Gihon — ancient Jerusalem water heart.",
+          "caveats": "Spring geography under Zion.",
+          "solidity": "strong",
+          "narration": "Gihon — ancient Jerusalem water heart.\n\nZion's ancient water sits under the priesthood language of Scripture.",
+          "segment": "Water heart",
+          "layer": "ot-digs",
+          "id": "discover-priest-king-salem-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Hebrews 5:5–10",
+            "Hebrews 7:1–3"
+          ],
+          "panel_truth_line": "Temple west — Second Temple priesthood world.",
+          "caveats": "Herodian approaches.",
+          "solidity": "strong",
+          "narration": "Temple west — Second Temple priesthood world.\n\nHebrews reads a forever priest after Melchizedek's order—fulfilled in Jesus.",
+          "segment": "Priesthood",
+          "layer": "nt-digs",
+          "id": "discover-priest-king-salem-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Western Wall Tunnels",
+          "primary_pin_id": "JER-NT-03",
+          "primary_pin_id_raw": "JER-NT-03",
+          "lsb_on_screen": [
+            "Hebrews 6:19–20",
+            "Hebrews 7:23–28"
+          ],
+          "panel_truth_line": "Western Wall Tunnels — temple mount western approaches.",
+          "caveats": "Tunnel / western wall approaches.",
+          "solidity": "strong",
+          "narration": "Western Wall Tunnels — temple mount western approaches.\n\nEarthly priests were many because they died; Jesus holds priesthood permanently.",
+          "segment": "Approaches",
+          "layer": "nt-digs",
+          "id": "discover-priest-king-salem-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Hebrews 7:26–28",
+            "Acts 1:9–11"
+          ],
+          "panel_truth_line": "Olivet — priest-king who suffers then is exalted.",
+          "caveats": "Passion/Ascension geography.",
+          "solidity": "strong",
+          "narration": "Olivet — priest-king who suffers then is exalted.\n\nOur great High Priest is not a mythic abstraction—He walked these ridges and was exalted.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-priest-king-salem-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-good-shepherd",
+      "title": "The Good Shepherd — from Bethlehem's fields to the door of the sheep",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "David shepherd → Ezek 34 → John 10 → cross",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "1 Samuel 16:11–13",
+            "John 10:11"
+          ],
+          "panel_truth_line": "Bethlehem — David's town & Messiah's birth.",
+          "caveats": "Birth/David geography.",
+          "solidity": "strong",
+          "narration": "Bethlehem — David's town & Messiah's birth.\n\nA shepherd is anointed; a greater Shepherd will be born here.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-good-shepherd-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Tel Dan Stele (House of David)",
+          "primary_pin_id": "ART-02",
+          "primary_pin_id_raw": "ART-02",
+          "lsb_on_screen": [
+            "2 Samuel 5:2"
+          ],
+          "panel_truth_line": "Tel Dan Stele — extrabiblical \"House of David\" witness (museum object).",
+          "caveats": "Linguist-safe wording on House of David consensus; museum object.",
+          "solidity": "strong",
+          "narration": "Tel Dan Stele — extrabiblical \"House of David\" witness (museum object).\n\nEven enemies' stone remembers David's house. Scripture's shepherd-king is not a late fiction.",
+          "segment": "Witness",
+          "layer": "artifacts",
+          "id": "discover-good-shepherd-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "2 Samuel 5:2",
+            "Ezekiel 34:11–16"
+          ],
+          "panel_truth_line": "City of David — shepherd-king's Zion.",
+          "caveats": "Avoid palace overclaim.",
+          "solidity": "strong",
+          "narration": "City of David — shepherd-king's Zion.\n\nProphets promise Yahweh Himself will shepherd the flock.",
+          "segment": "Zion",
+          "layer": "ot-digs",
+          "id": "discover-good-shepherd-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "John 10:1–18",
+            "Matthew 4:13"
+          ],
+          "panel_truth_line": "Capernaum — Jesus' ministry base where shepherd teaching lands in Galilee life.",
+          "caveats": "Teaching base.",
+          "solidity": "strong",
+          "narration": "Capernaum — Jesus' ministry base where shepherd teaching lands in Galilee life.\n\nI am the good shepherd. The sheep hear His voice in ordinary lakeshore days.",
+          "segment": "Galilee",
+          "layer": "nt-digs",
+          "id": "discover-good-shepherd-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Bethany — Lazarus",
+          "primary_pin_id": "JM-08",
+          "primary_pin_id_raw": "JM-08",
+          "lsb_on_screen": [
+            "John 11:1–44",
+            "John 10:11"
+          ],
+          "panel_truth_line": "Bethany — the shepherd who raises the dead (Lazarus).",
+          "caveats": "Miracle pin at Bethany.",
+          "solidity": "strong",
+          "narration": "Bethany — the shepherd who raises the dead (Lazarus).\n\nThe shepherd calls a dead man by name.",
+          "segment": "Life",
+          "layer": "jesus-miracles",
+          "id": "discover-good-shepherd-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Zechariah 13:7",
+            "Mark 14:27"
+          ],
+          "panel_truth_line": "Olivet — shepherd struck / flock scattered night.",
+          "caveats": "Gethsemane/Olivet geography.",
+          "solidity": "strong",
+          "narration": "Olivet — shepherd struck / flock scattered night.\n\nStrike the shepherd, and the sheep scatter—then He gathers them again.",
+          "segment": "Struck",
+          "layer": "nt-digs",
+          "id": "discover-good-shepherd-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Golgotha / Calvary",
+          "primary_pin_id": "JM-GOLGOTHA",
+          "primary_pin_id_raw": "JM-GOLGOTHA",
+          "lsb_on_screen": [
+            "John 10:11",
+            "Hebrews 13:20"
+          ],
+          "panel_truth_line": "Golgotha — lays down His life for the sheep.",
+          "caveats": "Crucifixion pin.",
+          "solidity": "strong",
+          "narration": "Golgotha — lays down His life for the sheep.\n\nThe good shepherd lays down His life—and takes it up again.",
+          "segment": "Closing",
+          "layer": "jesus-miracles",
+          "id": "discover-good-shepherd-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-glory-in-the-house",
+      "title": "Glory in the house — dedication memory to Jesus' temple confrontations",
+      "category": "jesus-ot-nt",
+      "era": "Both",
+      "theme": "1 Kgs 8 glory → Jesus cleanses His Father's house",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Shiloh",
+          "primary_pin_id": "SHI-01",
+          "primary_pin_id_raw": "SHI-01",
+          "lsb_on_screen": [
+            "1 Samuel 1:3",
+            "Jeremiah 7:12–14"
+          ],
+          "panel_truth_line": "Shiloh — earlier dwelling of Yahweh's name.",
+          "caveats": "Early sanctuary.",
+          "solidity": "strong",
+          "narration": "Shiloh — earlier dwelling of Yahweh's name.\n\nWhen the house is treated as a charm, Shiloh becomes a warning.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-glory-in-the-house-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "2 Samuel 6:12–17",
+            "1 Kings 8:1–11"
+          ],
+          "panel_truth_line": "City of David — ark/temple approach history.",
+          "caveats": "Avoid palace overclaim.",
+          "solidity": "strong",
+          "narration": "City of David — ark/temple approach history.\n\nGlory's path into Jerusalem runs through David's city.",
+          "segment": "Ark path",
+          "layer": "ot-digs",
+          "id": "discover-glory-in-the-house-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "1 Kings 8:10–13",
+            "John 2:13–22"
+          ],
+          "panel_truth_line": "Southern Temple Mount — dedication / teaching / confrontation geography.",
+          "caveats": "Herodian west as Second Temple approaches.",
+          "solidity": "strong",
+          "narration": "Southern Temple Mount — dedication / teaching / confrontation geography.\n\nGlory filled the house at dedication; Jesus later speaks of His body as temple.",
+          "segment": "House",
+          "layer": "nt-digs",
+          "id": "discover-glory-in-the-house-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Pilgrimage Road",
+          "primary_pin_id": "JER-NT-02",
+          "primary_pin_id_raw": "JER-NT-02",
+          "lsb_on_screen": [
+            "Mark 11:15–18",
+            "Matthew 21:12–13"
+          ],
+          "panel_truth_line": "Pilgrimage Road — pilgrim ascent to the house He cleanses.",
+          "caveats": "Stepped street.",
+          "solidity": "strong",
+          "narration": "Pilgrimage Road — pilgrim ascent to the house He cleanses.\n\nZeal for His Father's house consumes Him.",
+          "segment": "Ascent",
+          "layer": "nt-digs",
+          "id": "discover-glory-in-the-house-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Pool of Siloam",
+          "primary_pin_id": "JER-NT-01",
+          "primary_pin_id_raw": "JER-NT-01",
+          "lsb_on_screen": [
+            "John 7:37–38",
+            "John 9:1–11"
+          ],
+          "panel_truth_line": "Siloam — water/festival context tied to the temple city.",
+          "caveats": "Pool excavations.",
+          "solidity": "strong",
+          "narration": "Siloam — water/festival context tied to the temple city.\n\nLiving water language belongs to feast and temple city together.",
+          "segment": "Festival water",
+          "layer": "nt-digs",
+          "id": "discover-glory-in-the-house-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Bethesda",
+          "primary_pin_id": "JER-NT-05",
+          "primary_pin_id_raw": "JER-NT-05",
+          "lsb_on_screen": [
+            "John 5:1–9"
+          ],
+          "panel_truth_line": "Bethesda — Sheep Gate pools near temple north.",
+          "caveats": "Pool complex.",
+          "solidity": "strong",
+          "narration": "Bethesda — Sheep Gate pools near temple north.\n\nMercy at the pools sits beside judgment at the courts.",
+          "segment": "Sheep Gate",
+          "layer": "nt-digs",
+          "id": "discover-glory-in-the-house-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Mount of Olives",
+          "primary_pin_id": "OLIV-01",
+          "primary_pin_id_raw": "OLIV-01",
+          "lsb_on_screen": [
+            "Luke 19:41–44",
+            "Mark 13:1–2"
+          ],
+          "panel_truth_line": "Olivet — Jesus weeps over the city / speaks temple judgment.",
+          "caveats": "Olivet judgment teaching geography.",
+          "solidity": "strong",
+          "narration": "Olivet — Jesus weeps over the city / speaks temple judgment.\n\nGreater than the house is here—and He weeps when the city will not know the time of visitation.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-glory-in-the-house-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-naaman-syrian",
+      "title": "Naaman the Syrian — wash and worship",
+      "category": "gentiles-yahweh",
+      "era": "OT",
+      "theme": "2 Kings 5 — Gentile commander healed; confesses Yahweh (NOT Haman)",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Hub — Damascus",
+          "primary_pin_id": "TR-HUB-02",
+          "primary_pin_id_raw": "TR-HUB-02",
+          "lsb_on_screen": [
+            "2 Kings 5:1–5"
+          ],
+          "panel_truth_line": "Damascus hub — Naaman's Aram/Damascus world (trade hub marker, not a dig).",
+          "caveats": "Trade hub, not a dig. No Damascus dig pin. DGAM Syria authority-only caveat. Abana/Pharpar: narrate only, no pins.",
+          "solidity": "mixed",
+          "narration": "Damascus hub — Naaman's Aram/Damascus world (trade hub marker, not a dig).\n\nA Syrian commander hears of Israel's prophet. Pride will meet Jordan water.",
+          "segment": "Opening",
+          "layer": "trade-routes",
+          "id": "discover-naaman-syrian-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Samaria",
+          "primary_pin_id": "SAM-01",
+          "primary_pin_id_raw": "SAM-01",
+          "lsb_on_screen": [
+            "2 Kings 5:5–8"
+          ],
+          "panel_truth_line": "Samaria — letter to the king; prophet's city (2 Kgs 5).",
+          "caveats": "OT Samaria dig; Elisha city geography.",
+          "solidity": "strong",
+          "narration": "Samaria — letter to the king; prophet's city (2 Kgs 5).\n\nThe king tears his clothes; Elisha says: let him come to me.",
+          "segment": "King's city",
+          "layer": "nt-digs",
+          "id": "discover-naaman-syrian-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Elisha — Abel-meholah",
+          "primary_pin_id": "PR-23",
+          "primary_pin_id_raw": "PR-23",
+          "lsb_on_screen": [
+            "2 Kings 5:8–10",
+            "1 Kings 19:16–21"
+          ],
+          "panel_truth_line": "Elisha — Abel-meholah / Jordan-valley call geography (context).",
+          "caveats": "Prophet's Jordan-valley call geography as context.",
+          "solidity": "mixed",
+          "narration": "Elisha — Abel-meholah / Jordan-valley call geography (context).\n\nA prophet's word, not palace gold, will heal.",
+          "segment": "Prophet",
+          "layer": "prophets",
+          "id": "discover-naaman-syrian-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Jordan / Gilgal approach",
+          "primary_pin_id": "EW-55",
+          "primary_pin_id_raw": "EW-55",
+          "lsb_on_screen": [
+            "2 Kings 5:10–14"
+          ],
+          "panel_truth_line": "Jordan crossing approach / Gilgal — Jordan wash geography (seven dips).",
+          "caveats": "Exact ford unconfirmed — narrate as river approach. NOT Haman.",
+          "solidity": "mixed",
+          "narration": "Jordan crossing approach / Gilgal — Jordan wash geography (seven dips).\n\nNaaman washes and his flesh is restored like a child's. Jesus later names Naaman as a sign of mercy beyond Israel (Luke 4:27).",
+          "segment": "Wash",
+          "layer": "exodus-wilderness",
+          "id": "discover-naaman-syrian-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Jericho",
+          "primary_pin_id": "JER-01",
+          "primary_pin_id_raw": "JER-01,JER-02",
+          "lsb_on_screen": [
+            "2 Kings 5:14–15"
+          ],
+          "panel_truth_line": "Jericho — Jordan Valley city near river approach (supporting geography).",
+          "caveats": "Supporting geography near the river approach.",
+          "solidity": "strong",
+          "narration": "Jericho — Jordan Valley city near river approach (supporting geography).\n\nHealing sends him back toward the prophet with a new confession.",
+          "segment": "Valley",
+          "layer": "ot-digs",
+          "id": "discover-naaman-syrian-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Elisha — Samaria",
+          "primary_pin_id": "PR-24",
+          "primary_pin_id_raw": "PR-24",
+          "lsb_on_screen": [
+            "2 Kings 5:15–19",
+            "Luke 4:27"
+          ],
+          "panel_truth_line": "Elisha Samaria — return / confession: no God in all the earth except in Israel.",
+          "caveats": "Confession beat; earth for Yahweh request. Naaman—not Haman.",
+          "solidity": "strong",
+          "narration": "Elisha Samaria — return / confession: no God in all the earth except in Israel.\n\nA Gentile finds healing and Yahweh. Flagship path for this category.",
+          "segment": "Closing",
+          "layer": "prophets",
+          "id": "discover-naaman-syrian-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-ruth-moabitess",
+      "title": "Ruth the Moabitess — under Yahweh's wings",
+      "category": "gentiles-yahweh",
+      "era": "OT",
+      "theme": "Ruth 1–4 — Moabite widow clings to Yahweh; enters Messiah's line",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Plains of Moab",
+          "primary_pin_id": "EW-52",
+          "primary_pin_id_raw": "EW-52",
+          "lsb_on_screen": [
+            "Ruth 1:1–5"
+          ],
+          "panel_truth_line": "Plains of Moab — Moab geography east of the Jordan.",
+          "caveats": "Wilderness-pack Moab plains.",
+          "solidity": "mixed",
+          "narration": "Plains of Moab — Moab geography east of the Jordan.\n\nA Judean family sojourns in Moab and tastes death.",
+          "segment": "Opening",
+          "layer": "exodus-wilderness",
+          "id": "discover-ruth-moabitess-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Dibon",
+          "primary_pin_id": "DIB-01",
+          "primary_pin_id_raw": "DIB-01",
+          "lsb_on_screen": [
+            "Ruth 1:1–7"
+          ],
+          "panel_truth_line": "Dibon — Moabite city (Mesha findspot region).",
+          "caveats": "Moabite city geography.",
+          "solidity": "mixed",
+          "narration": "Dibon — Moabite city (Mesha findspot region).\n\nMoab is a real people with real towns—Ruth is not a parable without a map.",
+          "segment": "Moab",
+          "layer": "ot-digs",
+          "id": "discover-ruth-moabitess-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Mesha Stele",
+          "primary_pin_id": "ART-06",
+          "primary_pin_id_raw": "ART-06",
+          "lsb_on_screen": [
+            "Ruth 1:16–17"
+          ],
+          "panel_truth_line": "Mesha Stele — Moabite inscription naming YHWH/Israel (Louvre object).",
+          "caveats": "2 Kgs 3 backdrop—not Ruth's century claim. Museum object.",
+          "solidity": "mixed",
+          "narration": "Mesha Stele — Moabite inscription naming YHWH/Israel (Louvre object).\n\nEven Moabite stone remembers conflict with Israel and the name of YHWH.",
+          "segment": "Inscription",
+          "layer": "artifacts",
+          "id": "discover-ruth-moabitess-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "Ruth 1:16–17",
+            "Ruth 2:12",
+            "Ruth 4:13–22"
+          ],
+          "panel_truth_line": "Bethlehem — fields / gleaning / marriage geography (Ruth 1–4).",
+          "caveats": "No Boaz-house pin—city pin carries the beat.",
+          "solidity": "strong",
+          "narration": "Bethlehem — fields / gleaning / marriage geography (Ruth 1–4).\n\nYour people shall be my people, and your God my God. She takes refuge under Yahweh's wings.",
+          "segment": "Refuge",
+          "layer": "nt-digs",
+          "id": "discover-ruth-moabitess-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Hebron",
+          "primary_pin_id": "HEB-01",
+          "primary_pin_id_raw": "HEB-01",
+          "lsb_on_screen": [
+            "Ruth 4:18–22"
+          ],
+          "panel_truth_line": "Hebron — Judah hill-country context (David-line bridge).",
+          "caveats": "Optional David-line bridge geography.",
+          "solidity": "strong",
+          "narration": "Hebron — Judah hill-country context (David-line bridge).\n\nJudah's hills will carry the line forward.",
+          "segment": "Judah",
+          "layer": "ot-digs",
+          "id": "discover-ruth-moabitess-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "Ruth 4:18–22",
+            "Matthew 1:5"
+          ],
+          "panel_truth_line": "City of David — where Ruth's great-grandson reigns.",
+          "caveats": "Genealogy close into David's city.",
+          "solidity": "strong",
+          "narration": "City of David — where Ruth's great-grandson reigns.\n\nMatthew names Ruth in Jesus' line. Outsider faith woven into Israel's redemption story.",
+          "segment": "Closing",
+          "layer": "ot-digs",
+          "id": "discover-ruth-moabitess-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-rahab-jericho",
+      "title": "Rahab of Jericho — faith on the wall",
+      "category": "gentiles-yahweh",
+      "era": "OT",
+      "theme": "Joshua 2 & 6 — Canaanite woman confesses Yahweh; spared by faith",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Shittim / Abel-shittim",
+          "primary_pin_id": "EW-53",
+          "primary_pin_id_raw": "EW-53",
+          "lsb_on_screen": [
+            "Joshua 2:1"
+          ],
+          "panel_truth_line": "Shittim — camp east of Jordan before spies sent.",
+          "caveats": "Wilderness station.",
+          "solidity": "mixed",
+          "narration": "Shittim — camp east of Jordan before spies sent.\n\nSpies go out. A Canaanite woman will hide them.",
+          "segment": "Opening",
+          "layer": "exodus-wilderness",
+          "id": "discover-rahab-jericho-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Jordan / Gilgal",
+          "primary_pin_id": "EW-55",
+          "primary_pin_id_raw": "EW-55",
+          "lsb_on_screen": [
+            "Joshua 3:1",
+            "Joshua 6:22–25"
+          ],
+          "panel_truth_line": "Jordan crossing / Gilgal — entry after the spy mission.",
+          "caveats": "Entry geography.",
+          "solidity": "mixed",
+          "narration": "Jordan crossing / Gilgal — entry after the spy mission.\n\nYahweh brings the people over; Rahab's scarlet cord will matter when walls fall.",
+          "segment": "Entry",
+          "layer": "exodus-wilderness",
+          "id": "discover-rahab-jericho-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Jericho",
+          "primary_pin_id": "JER-01",
+          "primary_pin_id_raw": "JER-01,JER-02",
+          "lsb_on_screen": [
+            "Joshua 2:8–21",
+            "Joshua 6:22–25"
+          ],
+          "panel_truth_line": "Jericho — Rahab's city (Tell es-Sultan); no house footprint pin.",
+          "caveats": "Rahab's house = narration on city pin. Contested dating (CBG-02) not required stop.",
+          "solidity": "strong",
+          "narration": "Jericho — Rahab's city (Tell es-Sultan); no house footprint pin.\n\nShe confesses Yahweh as God in heaven above and on earth below. Hebrews and James praise her faith.",
+          "segment": "Faith",
+          "layer": "ot-digs",
+          "id": "discover-rahab-jericho-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Ai",
+          "primary_pin_id": "AI-01",
+          "primary_pin_id_raw": "AI-01",
+          "lsb_on_screen": [
+            "Joshua 7:1–5",
+            "Joshua 8:1–29"
+          ],
+          "panel_truth_line": "Ai — next conquest geography after Jericho.",
+          "caveats": "Conquest sequence context.",
+          "solidity": "mixed",
+          "narration": "Ai — next conquest geography after Jericho.\n\nThe campaign continues; grace to Rahab does not cancel holiness in the camp.",
+          "segment": "Next city",
+          "layer": "ot-digs",
+          "id": "discover-rahab-jericho-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Shechem",
+          "primary_pin_id": "SHE-01",
+          "primary_pin_id_raw": "SHE-01",
+          "lsb_on_screen": [
+            "Joshua 24:14–25",
+            "Hebrews 11:31"
+          ],
+          "panel_truth_line": "Shechem — covenant renewal in the land.",
+          "caveats": "Covenant ceremony geography.",
+          "solidity": "strong",
+          "narration": "Shechem — covenant renewal in the land.\n\nChoose this day whom you will serve. A rescued outsider's people's God is confessed in the land.",
+          "segment": "Covenant",
+          "layer": "ot-digs",
+          "id": "discover-rahab-jericho-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "Matthew 1:5"
+          ],
+          "panel_truth_line": "Bethlehem — genealogy close (Matt 1:5 Rahab → Boaz line).",
+          "caveats": "Optional genealogy close.",
+          "solidity": "strong",
+          "narration": "Bethlehem — genealogy close (Matt 1:5 Rahab → Boaz line).\n\nMatthew will not let the church forget her name in Messiah's line.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-rahab-jericho-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-widow-zarephath",
+      "title": "Widow of Zarephath — flour, oil, and the living God",
+      "category": "gentiles-yahweh",
+      "era": "OT",
+      "theme": "1 Kings 17 — Sidonian widow trusts Yahweh; Jesus cites her (Luke 4)",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Brook Cherith",
+          "primary_pin_id": "PR-21",
+          "primary_pin_id_raw": "PR-21",
+          "lsb_on_screen": [
+            "1 Kings 17:2–7"
+          ],
+          "panel_truth_line": "Brook Cherith — Elijah hid before Sidon.",
+          "caveats": "Prophets pin; brook locality traditional.",
+          "solidity": "mixed",
+          "narration": "Brook Cherith — Elijah hid before Sidon.\n\nYahweh feeds His prophet, then sends him to a Gentile widow.",
+          "segment": "Opening",
+          "layer": "prophets",
+          "id": "discover-widow-zarephath-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Sidon",
+          "primary_pin_id": "SID-01",
+          "primary_pin_id_raw": "SID-01",
+          "lsb_on_screen": [
+            "1 Kings 17:8–9",
+            "Luke 4:25–26"
+          ],
+          "panel_truth_line": "Sidon — Phoenician coast; Zarephath is in Sidon's district.",
+          "caveats": "Zarephath village ID traditional/district.",
+          "solidity": "strong",
+          "narration": "Sidon — Phoenician coast; Zarephath is in Sidon's district.\n\nJesus later holds her up as mercy beyond Israel's borders.",
+          "segment": "Coast",
+          "layer": "ot-digs",
+          "id": "discover-widow-zarephath-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Elijah — Zarephath",
+          "primary_pin_id": "PR-22",
+          "primary_pin_id_raw": "PR-22",
+          "lsb_on_screen": [
+            "1 Kings 17:8–24"
+          ],
+          "panel_truth_line": "Elijah — Zarephath — widow's house narrative locale.",
+          "caveats": "PR-22 already carries district honesty.",
+          "solidity": "mixed",
+          "narration": "Elijah — Zarephath — widow's house narrative locale.\n\nLast meal shared; flour and oil do not fail; a son is raised. She confesses the word of Yahweh in Elijah's mouth is truth.",
+          "segment": "Mercy",
+          "layer": "prophets",
+          "id": "discover-widow-zarephath-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Tyre",
+          "primary_pin_id": "TYR-01",
+          "primary_pin_id_raw": "TYR-01",
+          "lsb_on_screen": [
+            "1 Kings 17:9"
+          ],
+          "panel_truth_line": "Tyre — Phoenician sister port (regional Gentile coast).",
+          "caveats": "Regional supporting geography.",
+          "solidity": "strong",
+          "narration": "Tyre — Phoenician sister port (regional Gentile coast).\n\nGentile coast receives a prophet Israel's king is fighting.",
+          "segment": "Sister port",
+          "layer": "ot-digs",
+          "id": "discover-widow-zarephath-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Mount Carmel",
+          "primary_pin_id": "PR-20",
+          "primary_pin_id_raw": "PR-20",
+          "lsb_on_screen": [
+            "1 Kings 18:20–39"
+          ],
+          "panel_truth_line": "Mount Carmel — later showdown; Yahweh vs Baal after Zarephath mercy.",
+          "caveats": "Carmel tradition pin.",
+          "solidity": "strong",
+          "narration": "Mount Carmel — later showdown; Yahweh vs Baal after Zarephath mercy.\n\nThe living God who fed a Sidonian widow answers by fire.",
+          "segment": "Closing",
+          "layer": "prophets",
+          "id": "discover-widow-zarephath-stop-5",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "discover-nineveh-repents",
+      "title": "Nineveh repents — a great city turns",
+      "category": "gentiles-yahweh",
+      "era": "OT",
+      "theme": "Jonah 3 city repentance (distinct from Passion typology path)",
+      "yahweh_rule": "Narration says Yahweh untranslated; on-screen verses stay LSB wording",
+      "stops": [
+        {
+          "biblical_name": "Joppa",
+          "primary_pin_id": "JOP-01",
+          "primary_pin_id_raw": "JOP-01",
+          "lsb_on_screen": [
+            "Jonah 1:1–3"
+          ],
+          "panel_truth_line": "Joppa — flight port.",
+          "caveats": "Sea/fish: no pin—narrate between Joppa and Nineveh.",
+          "solidity": "strong",
+          "narration": "Joppa — flight port.\n\nA prophet flees; a city still waits to hear.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-nineveh-repents-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Jonah — Joppa",
+          "primary_pin_id": "PR-10",
+          "primary_pin_id_raw": "PR-10",
+          "lsb_on_screen": [
+            "Jonah 1:3"
+          ],
+          "panel_truth_line": "Jonah — Joppa — prophet locale pin at the flight port.",
+          "caveats": "Prophets overlay on port geography.",
+          "solidity": "mixed",
+          "narration": "Jonah — Joppa — prophet locale pin at the flight port.\n\nDisobedience has a dock.",
+          "segment": "Flight",
+          "layer": "prophets",
+          "id": "discover-nineveh-repents-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Nineveh",
+          "primary_pin_id": "NIN-01",
+          "primary_pin_id_raw": "NIN-01",
+          "lsb_on_screen": [
+            "Jonah 3:1–10"
+          ],
+          "panel_truth_line": "Nineveh — preaching and repentance.",
+          "caveats": "City faith beat—not Passion typology (see Sign of Jonah path).",
+          "solidity": "strong",
+          "narration": "Nineveh — preaching and repentance.\n\nFrom the greatest to the least, they turn from evil. God relents.",
+          "segment": "City turns",
+          "layer": "ot-digs",
+          "id": "discover-nineveh-repents-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Jonah — Nineveh",
+          "primary_pin_id": "PR-11",
+          "primary_pin_id_raw": "PR-11",
+          "lsb_on_screen": [
+            "Jonah 3:4–10",
+            "Matthew 12:41"
+          ],
+          "panel_truth_line": "Jonah — Nineveh — prophetic locale of the warning.",
+          "caveats": "Prophets pin.",
+          "solidity": "mixed",
+          "narration": "Jonah — Nineveh — prophetic locale of the warning.\n\nA pagan metropolis becomes a map of Gentile repentance.",
+          "segment": "Warning",
+          "layer": "prophets",
+          "id": "discover-nineveh-repents-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Lachish Reliefs",
+          "primary_pin_id": "ART-10",
+          "primary_pin_id_raw": "ART-10",
+          "lsb_on_screen": [
+            "Jonah 3:3",
+            "Nahum 3:1"
+          ],
+          "panel_truth_line": "Lachish Reliefs — Assyrian power visual (Nineveh palace reliefs; museum object).",
+          "caveats": "Museum object; empire that later menaced Judah.",
+          "solidity": "mixed",
+          "narration": "Lachish Reliefs — Assyrian power visual (Nineveh palace reliefs; museum object).\n\nThe empire that can carve conquest in stone also once sat in sackcloth at a prophet's word.",
+          "segment": "Empire",
+          "layer": "artifacts",
+          "id": "discover-nineveh-repents-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Matthew 12:41",
+            "Luke 11:32"
+          ],
+          "panel_truth_line": "Capernaum — Jesus says Nineveh will rise in judgment with this generation.",
+          "caveats": "Galilee teaching base close.",
+          "solidity": "strong",
+          "narration": "Capernaum — Jesus says Nineveh will rise in judgment with this generation.\n\nSomething greater than Jonah is here—yet Nineveh's turning still condemns hard hearts.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-nineveh-repents-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-magi-from-east",
+      "title": "Magi from the east — seeking the newborn King",
+      "category": "gentiles-yahweh",
+      "era": "NT",
+      "theme": "Matthew 2 — Gentile seekers worship; Herod plots",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Bethlehem",
+          "primary_pin_id": "BETHL-01",
+          "primary_pin_id_raw": "BETHL-01",
+          "lsb_on_screen": [
+            "Matthew 2:1–12",
+            "Micah 5:2"
+          ],
+          "panel_truth_line": "Bethlehem — where they find and worship the child.",
+          "caveats": "Exact Magi origin city: no pin — keep textual \"from the east.\"",
+          "solidity": "strong",
+          "narration": "Bethlehem — where they find and worship the child.\n\nGentile seekers bow while a troubled court plots.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-magi-from-east-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Herodium",
+          "primary_pin_id": "HEROD-01",
+          "primary_pin_id_raw": "HEROD-01",
+          "lsb_on_screen": [
+            "Matthew 2:1–8",
+            "Matthew 2:13–18"
+          ],
+          "panel_truth_line": "Herodium — Herod the Great's fortress-palace near Bethlehem.",
+          "caveats": "Herod context; tomb attribution debated. Not Magi lodging.",
+          "solidity": "mixed",
+          "narration": "Herodium — Herod the Great's fortress-palace near Bethlehem.\n\nHerod's power casts a shadow over the child's town.",
+          "segment": "Herod",
+          "layer": "nt-digs",
+          "id": "discover-magi-from-east-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Matthew 2:4–6"
+          ],
+          "panel_truth_line": "Temple approaches — chief priests/scribes consulted in Jerusalem.",
+          "caveats": "Herodian west.",
+          "solidity": "strong",
+          "narration": "Temple approaches — chief priests/scribes consulted in Jerusalem.\n\nScripture is opened in the capital; the Magi keep moving toward worship.",
+          "segment": "Inquiry",
+          "layer": "nt-digs",
+          "id": "discover-magi-from-east-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "City of David",
+          "primary_pin_id": "COD-01",
+          "primary_pin_id_raw": "COD-01,COD-02,COD-04",
+          "lsb_on_screen": [
+            "Matthew 2:1–6"
+          ],
+          "panel_truth_line": "City of David — Jerusalem inquiry geography.",
+          "caveats": "Jerusalem geography for the Magi's question.",
+          "solidity": "strong",
+          "narration": "City of David — Jerusalem inquiry geography.\n\nWhere is He born King of the Jews?",
+          "segment": "Jerusalem",
+          "layer": "ot-digs",
+          "id": "discover-magi-from-east-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Nazareth",
+          "primary_pin_id": "NAZ-01",
+          "primary_pin_id_raw": "NAZ-01",
+          "lsb_on_screen": [
+            "Matthew 2:19–23"
+          ],
+          "panel_truth_line": "Nazareth — holy family's later home after Egypt sojourn.",
+          "caveats": "Egypt sojourn narrated without inventing new stop IDs.",
+          "solidity": "mixed",
+          "narration": "Nazareth — holy family's later home after Egypt sojourn.\n\nGod draws the nations to His Son—and protects the child on the road home.",
+          "segment": "Home",
+          "layer": "nt-digs",
+          "id": "discover-magi-from-east-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Babylon",
+          "primary_pin_id": "BAB-01",
+          "primary_pin_id_raw": "BAB-01",
+          "lsb_on_screen": [
+            "Matthew 2:1–2"
+          ],
+          "panel_truth_line": "Babylon — optional \"from the east\" cultural horizon (not claimed Magi hometown GPS).",
+          "caveats": "NOT claimed Magi hometown. Cultural horizon only.",
+          "solidity": "mixed",
+          "narration": "Babylon — optional \"from the east\" cultural horizon (not claimed Magi hometown GPS).\n\nFrom the east they came. We refuse fake hometown pins.",
+          "segment": "Closing",
+          "layer": "ot-digs",
+          "id": "discover-magi-from-east-stop-6",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "id": "discover-capernaum-centurion",
+      "title": "Capernaum's centurion — great faith under a Gentile roof",
+      "category": "gentiles-yahweh",
+      "era": "NT",
+      "theme": "Matthew 8 / Luke 7 — Roman centurion's faith marvels Jesus",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Matthew 8:5–13",
+            "Luke 7:1–10"
+          ],
+          "panel_truth_line": "Capernaum — town of the centurion.",
+          "caveats": "Avoid contested House of Peter CBG-05 as required stop.",
+          "solidity": "strong",
+          "narration": "Capernaum — town of the centurion.\n\nA Roman officer believes Jesus can heal with a word.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-capernaum-centurion-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Centurion's servant",
+          "primary_pin_id": "JM-04",
+          "primary_pin_id_raw": "JM-04",
+          "lsb_on_screen": [
+            "Matthew 8:5–13",
+            "Luke 7:1–10"
+          ],
+          "panel_truth_line": "Capernaum — centurion's servant miracle pin.",
+          "caveats": "Miracle narrative pin.",
+          "solidity": "strong",
+          "narration": "Capernaum — centurion's servant miracle pin.\n\nOnly say the word. Jesus marvels: such faith not found in Israel.",
+          "segment": "Faith",
+          "layer": "jesus-miracles",
+          "id": "discover-capernaum-centurion-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Capernaum base healings",
+          "primary_pin_id": "JM-02",
+          "primary_pin_id_raw": "JM-02",
+          "lsb_on_screen": [
+            "Matthew 8:14–17",
+            "Mark 1:29–34"
+          ],
+          "panel_truth_line": "Capernaum — Jesus' authority in the same town.",
+          "caveats": "Base healings pin.",
+          "solidity": "strong",
+          "narration": "Capernaum — Jesus' authority in the same town.\n\nAuthority that unsettles the town also welcomes Gentile trust.",
+          "segment": "Authority",
+          "layer": "jesus-miracles",
+          "id": "discover-capernaum-centurion-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Cana — official's son",
+          "primary_pin_id": "JM-21",
+          "primary_pin_id_raw": "JM-21",
+          "lsb_on_screen": [
+            "John 4:46–54"
+          ],
+          "panel_truth_line": "Cana — related heal-at-a-distance sign (humble on official's identity).",
+          "caveats": "Official may be Herodian/Gentile-adjacent — keep humble.",
+          "solidity": "mixed",
+          "narration": "Cana — related heal-at-a-distance sign (humble on official's identity).\n\nDistance is no barrier when the word is trusted.",
+          "segment": "Parallel",
+          "layer": "jesus-miracles",
+          "id": "discover-capernaum-centurion-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Pilate Stone",
+          "primary_pin_id": "ART-09",
+          "primary_pin_id_raw": "ART-09",
+          "lsb_on_screen": [
+            "Luke 3:1",
+            "Matthew 27:2"
+          ],
+          "panel_truth_line": "Pilate Stone — Roman prefect inscription from Caesarea (Roman authority world).",
+          "caveats": "Museum/findspot context for Roman Gospel world.",
+          "solidity": "strong",
+          "narration": "Pilate Stone — Roman prefect inscription from Caesarea (Roman authority world).\n\nGentile faith under a Gentile roof sits inside a real Roman empire.",
+          "segment": "Closing",
+          "layer": "artifacts",
+          "id": "discover-capernaum-centurion-stop-5",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "discover-syrophoenician-mother",
+      "title": "Syrophoenician mother — crumbs of mercy",
+      "category": "gentiles-yahweh",
+      "era": "NT",
+      "theme": "Matthew 15 / Mark 7 — Canaanite / Syrophoenician mother's faith",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Tyre",
+          "primary_pin_id": "TYR-01",
+          "primary_pin_id_raw": "TYR-01",
+          "lsb_on_screen": [
+            "Matthew 15:21–28",
+            "Mark 7:24"
+          ],
+          "panel_truth_line": "Tyre — Phoenician port region of the encounter.",
+          "caveats": "Regional pin honesty.",
+          "solidity": "strong",
+          "narration": "Tyre — Phoenician port region of the encounter.\n\nJesus enters Gentile coast country.",
+          "segment": "Opening",
+          "layer": "ot-digs",
+          "id": "discover-syrophoenician-mother-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Canaanite woman's daughter",
+          "primary_pin_id": "JM-17",
+          "primary_pin_id_raw": "JM-17",
+          "lsb_on_screen": [
+            "Matthew 15:21–28",
+            "Mark 7:24–30"
+          ],
+          "panel_truth_line": "Tyre/Sidon region — Canaanite woman's daughter miracle pin.",
+          "caveats": "District, not house address.",
+          "solidity": "strong",
+          "narration": "Tyre/Sidon region — Canaanite woman's daughter miracle pin.\n\nShe accepts the crumbs; Jesus praises her faith; the daughter is healed.",
+          "segment": "Faith",
+          "layer": "jesus-miracles",
+          "id": "discover-syrophoenician-mother-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Sidon",
+          "primary_pin_id": "SID-01",
+          "primary_pin_id_raw": "SID-01",
+          "lsb_on_screen": [
+            "Mark 7:24–30"
+          ],
+          "panel_truth_line": "Sidon — Mark's \"Syrophoenician\" coast.",
+          "caveats": "Lebanese coast dig.",
+          "solidity": "strong",
+          "narration": "Sidon — Mark's \"Syrophoenician\" coast.\n\nGentile persistence welcomed at the Redeemer's feet.",
+          "segment": "Coast",
+          "layer": "ot-digs",
+          "id": "discover-syrophoenician-mother-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Hub — Tyre",
+          "primary_pin_id": "TR-HUB-03",
+          "primary_pin_id_raw": "TR-HUB-03",
+          "lsb_on_screen": [
+            "Ezekiel 27:1–9",
+            "Matthew 15:21"
+          ],
+          "panel_truth_line": "Hub — Tyre — Phoenician maritime hinge (supporting).",
+          "caveats": "Trade hub marker supporting regional geography.",
+          "solidity": "mixed",
+          "narration": "Hub — Tyre — Phoenician maritime hinge (supporting).\n\nA commercial coast becomes a mercy coast.",
+          "segment": "Hub",
+          "layer": "trade-routes",
+          "id": "discover-syrophoenician-mother-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Capernaum",
+          "primary_pin_id": "CAP-01",
+          "primary_pin_id_raw": "CAP-01,CAP-02",
+          "lsb_on_screen": [
+            "Matthew 15:29"
+          ],
+          "panel_truth_line": "Capernaum — return to Galilee ministry base after the district trip.",
+          "caveats": "Return geography.",
+          "solidity": "strong",
+          "narration": "Capernaum — return to Galilee ministry base after the district trip.\n\nCrumbs for the nations do not empty the table of promise—they preview its wideness.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-syrophoenician-mother-stop-5",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "discover-ethiopian-gaza-road",
+      "title": "Ethiopian on the Gaza road — Isaiah open, Jesus named",
+      "category": "gentiles-yahweh",
+      "era": "NT",
+      "theme": "Acts 8 — Ethiopian official believes and is baptized",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Robinson's Arch / Temple west",
+          "primary_pin_id": "WW-01",
+          "primary_pin_id_raw": "WW-01",
+          "lsb_on_screen": [
+            "Acts 8:27"
+          ],
+          "panel_truth_line": "Temple approaches — he had come to Jerusalem to worship.",
+          "caveats": "Exact baptism water spot: no pin.",
+          "solidity": "strong",
+          "narration": "Temple approaches — he had come to Jerusalem to worship.\n\nA Gentile court official comes to worship; he leaves reading Isaiah.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-ethiopian-gaza-road-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Samaria / Sebaste",
+          "primary_pin_id": "SAM-01",
+          "primary_pin_id_raw": "SAM-01",
+          "lsb_on_screen": [
+            "Acts 8:5–25"
+          ],
+          "panel_truth_line": "Samaria — Philip's prior preaching.",
+          "caveats": "NT/OT Samaria geography.",
+          "solidity": "mixed",
+          "narration": "Samaria — Philip's prior preaching.\n\nPhilip is already preaching Christ when the Spirit redirects him to a desert road.",
+          "segment": "Philip",
+          "layer": "nt-digs",
+          "id": "discover-ethiopian-gaza-road-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Philip route",
+          "primary_pin_id": "MIN-PHILIP-ACTS8",
+          "primary_pin_id_raw": "MIN-PHILIP-ACTS8",
+          "lsb_on_screen": [
+            "Acts 8:26–40"
+          ],
+          "panel_truth_line": "Philip route — Samaria → Gaza road → Azotus → Caesarea.",
+          "caveats": "Apostle-ministries route feature.",
+          "solidity": "mixed",
+          "narration": "Philip route — Samaria → Gaza road → Azotus → Caesarea.\n\nThe road itself becomes a Discover spine—without inventing a baptism GPS.",
+          "segment": "Road",
+          "layer": "apostle-ministries",
+          "id": "discover-ethiopian-gaza-road-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Gaza approach",
+          "primary_pin_id": "AJJ-01",
+          "primary_pin_id_raw": "AJJ-01",
+          "lsb_on_screen": [
+            "Acts 8:26–39"
+          ],
+          "panel_truth_line": "Tell el-ʿAjjul / Gaza — Gaza approach geography (road region, not baptism GPS).",
+          "caveats": "Sharuhen candidate; road region only.",
+          "solidity": "mixed",
+          "narration": "Tell el-ʿAjjul / Gaza — Gaza approach geography (road region, not baptism GPS).\n\nIsaiah's Suffering Servant is explained; Jesus is named; water is found.",
+          "segment": "Desert road",
+          "layer": "ot-digs",
+          "id": "discover-ethiopian-gaza-road-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Ashdod (Azotus)",
+          "primary_pin_id": "ASD-01",
+          "primary_pin_id_raw": "ASD-01",
+          "lsb_on_screen": [
+            "Acts 8:40"
+          ],
+          "panel_truth_line": "Ashdod (Azotus) — Philip appears there preaching.",
+          "caveats": "OT dig as Azotus geography.",
+          "solidity": "strong",
+          "narration": "Ashdod (Azotus) — Philip appears there preaching.\n\nThe evangelist keeps moving; the Ethiopian goes home rejoicing.",
+          "segment": "Azotus",
+          "layer": "ot-digs",
+          "id": "discover-ethiopian-gaza-road-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Ashkelon",
+          "primary_pin_id": "ASH-01",
+          "primary_pin_id_raw": "ASH-01",
+          "lsb_on_screen": [
+            "Acts 8:40"
+          ],
+          "panel_truth_line": "Ashkelon — coastal Philistine plain context (optional).",
+          "caveats": "Coastal context.",
+          "solidity": "mixed",
+          "narration": "Ashkelon — coastal Philistine plain context (optional).\n\nCoastal plain geography frames Philip's preaching path.",
+          "segment": "Coast",
+          "layer": "ot-digs",
+          "id": "discover-ethiopian-gaza-road-stop-6",
+          "order": 6
+        },
+        {
+          "biblical_name": "Caesarea Maritima",
+          "primary_pin_id": "CAES-01",
+          "primary_pin_id_raw": "CAES-01,CAES-02",
+          "lsb_on_screen": [
+            "Acts 8:40",
+            "Acts 21:8"
+          ],
+          "panel_truth_line": "Caesarea — Philip later settles.",
+          "caveats": "Philip's later home.",
+          "solidity": "strong",
+          "narration": "Caesarea — Philip later settles.\n\nA Gentile from the ends of the earth went home rejoicing—and the preacher lands in Caesarea.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-ethiopian-gaza-road-stop-7",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "discover-cornelius-caesarea",
+      "title": "Cornelius of Caesarea — Spirit on the nations",
+      "category": "gentiles-yahweh",
+      "era": "NT",
+      "theme": "Acts 10–11 — Roman centurion household receives the Spirit",
+      "yahweh_rule": "NT path — Jesus named normally; no forced Yahweh in NT speech",
+      "stops": [
+        {
+          "biblical_name": "Joppa",
+          "primary_pin_id": "JOP-01",
+          "primary_pin_id_raw": "JOP-01",
+          "lsb_on_screen": [
+            "Acts 10:9–23"
+          ],
+          "panel_truth_line": "Joppa — Peter's vision of clean/unclean.",
+          "caveats": "Distinct from Paul-Greece \"Good news for the nations\" spine.",
+          "solidity": "strong",
+          "narration": "Joppa — Peter's vision of clean/unclean.\n\nA rooftop vision reorders table fellowship for the gospel.",
+          "segment": "Opening",
+          "layer": "nt-digs",
+          "id": "discover-cornelius-caesarea-stop-1",
+          "order": 1
+        },
+        {
+          "biblical_name": "Lydda",
+          "primary_pin_id": "LYD-01",
+          "primary_pin_id_raw": "LYD-01",
+          "lsb_on_screen": [
+            "Acts 9:32–35"
+          ],
+          "panel_truth_line": "Lydda — Peter's prior Judea ministry stop (approach to Joppa).",
+          "caveats": "Acts 9 geography.",
+          "solidity": "strong",
+          "narration": "Lydda — Peter's prior Judea ministry stop (approach to Joppa).\n\nPeter is already on the move when messengers from Caesarea arrive.",
+          "segment": "Approach",
+          "layer": "nt-digs",
+          "id": "discover-cornelius-caesarea-stop-2",
+          "order": 2
+        },
+        {
+          "biblical_name": "Caesarea Maritima",
+          "primary_pin_id": "CAES-01",
+          "primary_pin_id_raw": "CAES-01,CAES-02",
+          "lsb_on_screen": [
+            "Acts 10:1–48"
+          ],
+          "panel_truth_line": "Caesarea — Cornelius's city.",
+          "caveats": "Roman/Herodian port.",
+          "solidity": "strong",
+          "narration": "Caesarea — Cornelius's city.\n\nA devout Gentile household hears the word about Jesus; the Spirit falls. God shows no partiality.",
+          "segment": "Household",
+          "layer": "nt-digs",
+          "id": "discover-cornelius-caesarea-stop-3",
+          "order": 3
+        },
+        {
+          "biblical_name": "Pilate Stone",
+          "primary_pin_id": "ART-09",
+          "primary_pin_id_raw": "ART-09",
+          "lsb_on_screen": [
+            "Acts 10:1",
+            "Luke 3:1"
+          ],
+          "panel_truth_line": "Pilate Stone — Roman prefecture inscription from Caesarea.",
+          "caveats": "Roman world artifact context.",
+          "solidity": "strong",
+          "narration": "Pilate Stone — Roman prefecture inscription from Caesarea.\n\nCornelius serves inside the same Roman machinery the Gospels know by name.",
+          "segment": "Roman world",
+          "layer": "artifacts",
+          "id": "discover-cornelius-caesarea-stop-4",
+          "order": 4
+        },
+        {
+          "biblical_name": "Peter Acts route",
+          "primary_pin_id": "MIN-PETER-ACTS",
+          "primary_pin_id_raw": "MIN-PETER-ACTS",
+          "lsb_on_screen": [
+            "Acts 10:1–48",
+            "Acts 11:1–18"
+          ],
+          "panel_truth_line": "Peter Acts route — Judea / Samaria / Caesarea ministry path.",
+          "caveats": "Apostle-ministries route.",
+          "solidity": "mixed",
+          "narration": "Peter Acts route — Judea / Samaria / Caesarea ministry path.\n\nJerusalem hears the report: to the Gentiles also God has granted repentance that leads to life.",
+          "segment": "Report",
+          "layer": "apostle-ministries",
+          "id": "discover-cornelius-caesarea-stop-5",
+          "order": 5
+        },
+        {
+          "biblical_name": "Antioch",
+          "primary_pin_id": "ANT-01",
+          "primary_pin_id_raw": "ANT-01",
+          "lsb_on_screen": [
+            "Acts 11:19–26",
+            "Acts 15:7–11"
+          ],
+          "panel_truth_line": "Antioch — mixed church where Gentiles and Jews are called Christians.",
+          "caveats": "Optional close beyond Caesarea.",
+          "solidity": "strong",
+          "narration": "Antioch — mixed church where Gentiles and Jews are called Christians.\n\nNations welcomed into the Redeemer's people get a name in Antioch.",
+          "segment": "Closing",
+          "layer": "nt-digs",
+          "id": "discover-cornelius-caesarea-stop-6",
+          "order": 6
         }
       ]
     }
