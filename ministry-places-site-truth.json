@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "timezone_note": "America/Chicago (CT)",
+  "product": "DigIntoScripture ministry_places pins (Ark Encounter, Creation Museum, HalleluYah Scriptures)",
+  "layer": {
+    "id": "ministry_places",
+    "geojson_hint": "ministry-places.geojson (AI Tools to create; do not invent in this pack)",
+    "default_on": false,
+    "rename_note": "Layer id is ministry_places (not creation_attractions) so it can hold AiG attractions plus a publisher pin. Stays OFF by default under the standing lock."
+  },
+  "locks": {
+    "no_app_edits": true,
+    "no_wikipedia": true,
+    "no_wikimedia": true,
+    "no_embedded_photos": true,
+    "gallery_is_link_out_only": true,
+    "paraphrase_only": true,
+    "off_by_default": true
+  },
+  "wire": {
+    "layer_default": "OFF. Add layer ministry_places; do not turn it on by default.",
+    "join_key": "pin_id + layer (ministry_places).",
+    "drawer_order_attraction": [
+      "name / what_it_is",
+      "opened + operator",
+      "verses (LSB link-outs)",
+      "ark_specs (ARK-ENC-01 only)",
+      "top_exhibits",
+      "visitor_info (as_of + Check before you go)",
+      "accessibility_note",
+      "Travel advisory (existing pipeline if wired for US pins)",
+      "gallery_links (link-outs only — never hotlink or embed images)",
+      "press_kit (/press/ page link + terms summary only; no download button, no kit photos in the app)",
+      "official_video_embed (ministry YouTube/Vimeo only)",
+      "related_pins",
+      "related_shelf",
+      "solidity + caveat"
+    ],
+    "drawer_order_publisher": [
+      "name / what_it_is",
+      "editions_and_materials (paraphrased)",
+      "location_precision note (city-centroid; no street)",
+      "official_website",
+      "official_video_embed if present",
+      "related_packs (tetragrammaton)",
+      "solidity + caveat"
+    ],
+    "photos": "Use gallery_links as outbound links to official press/photo pages. Do NOT embed, download, or hotlink image files. No Wikimedia / Wikipedia.",
+    "press_kit": "Show /press/ page_url + short terms_summary only. No download button; no kit photos in the app (kits grant no reuse).",
+    "coords": "GeoJSON Point is [lon, lat]. HYS-01 is city-centroid only.",
+    "status_kind": "attraction | publisher",
+    "solidity": "For attractions use literal string 'n/a: attraction'. For publisher use 'n/a: publisher'."
+  },
+  "counts": {
+    "pins": 3,
+    "attractions": 2,
+    "publishers": 1,
+    "skipped_street_pins": 0,
+    "city_centroid_pins": 1
+  },
+  "pins": [
+    {
+      "id": "ARK-ENC-01",
+      "name": "Ark Encounter",
+      "layer": "ministry_places",
+      "status_kind": "attraction",
+      "location": "United States / Kentucky / Williamstown (Grant County)",
+      "address": "1 Ark Encounter Drive, Williamstown, KY 41097",
+      "address_alt": "220 KY Highway 36 West, Williamstown, KY 41097 (alternate listed on official directions)",
+      "lat": 38.6230279,
+      "lon": -84.5894615,
+      "coord_source": "OpenStreetMap Nominatim match for official street address / Ark Encounter theme-park way (osm way 614633599), fetched 2026-10-05",
+      "coord_precision": "attraction_grounds",
+      "verses": "Genesis 6–9",
+      "official_website": "https://arkencounter.com/",
+      "official_video_embed": "https://www.youtube.com/embed/P20ClidpVFg",
+      "official_video_provider": "youtube",
+      "official_video_source": "Ark Encounter official channel (@arkencounter) — “You Won’t Believe How Big Noah’s Ark Really Was!”",
+      "official_video_alt_live": "https://www.youtube.com/embed/63AYQES0iXA",
+      "solidity": "n/a: attraction",
+      "caveat": "Ministry attraction, not an archaeological dig. Exhibits present a young-earth creation view; mainstream scientific dating of earth history differs. Keep framing respectful and short — no debate in the drawer.",
+      "what_it_is": "A full-size timber Noah’s Ark attraction in Williamstown, Kentucky, built to the Genesis 6 dimensions as Answers in Genesis understands them. Guests walk three decks of exhibits about the Flood account, animal care aboard the Ark, and related teaching. It is a themed ministry attraction for families, not a floating ship or an excavation site.",
+      "opened": "2016-07-07",
+      "opened_label": "July 7, 2016",
+      "operator": "Answers in Genesis (Ark Encounter operated through AiG subsidiary Crosswater Canyon, per AiG press materials)",
+      "ark_specs": {
+        "attribution": "per Ark Encounter / Answers in Genesis",
+        "biblical_dims_stated": "300 × 50 × 30 cubits (Genesis 6)",
+        "cubit_used": "royal / long cubit (as stated by Ark Encounter)",
+        "dimensions_ft": {
+          "length": 510,
+          "width": 85,
+          "height": 51
+        },
+        "structure_claims_paraphrased": [
+          "Presented as a full-size model of Noah’s Ark on a foundation (not a sealed floating vessel; multiple guest entrances for safety and code).",
+          "Described by the ministry as the largest freestanding timber-frame structure in the world.",
+          "Press fact sheet cites about 3.3 million board feet of timber in the Ark structure (exhibits inside not counted)."
+        ]
+      },
+      "top_exhibits": [
+        "Three interior decks with teaching exhibits on Ark construction, animal kinds, and spacing",
+        "Pre-Flood world displays and the Door of the Ark photo stop",
+        "Noah’s family living-quarters walkthrough",
+        "Flood geology / post-Flood teaching exhibits (ministry presentation)",
+        "“Why the Bible Is True” / Doors of the Bible gospel walkthrough",
+        "Ararat Ridge Zoo and children’s animal areas",
+        "Answers Center (lectures, conferences, concerts)",
+        "Emzara’s Buffet restaurant",
+        "Zip lines (separate ticket / seasonal; https://www.arkencounterzip.com/)",
+        "Truth Traveler virtual-reality experience (add-on)"
+      ],
+      "visitor_info": {
+        "as_of": "2026-10-05",
+        "check_before_you_go": true,
+        "address": "1 Ark Encounter Drive, Williamstown, KY 41097 (I-75 exit 154 / KY-36)",
+        "typical_hours_et": {
+          "current_window": "2026-09-13 to 2026-10-24: Mon–Sat 9:00 a.m.–5:30 p.m.; Sunday closed",
+          "next_window": "2026-10-25 to 2027-01-02: Mon–Sat 10:00 a.m.–5:00 p.m.; Sunday closed (also closed Thanksgiving Day 2026-11-26 and Christmas Eve/Day 2026-12-24–25)",
+          "note": "Seasonal schedule; parking booths open 30 minutes before park; gates for incoming traffic close 30 minutes before closing. All times Eastern."
+        },
+        "ticket_price_range_usd": {
+          "one_day_adult_online_from": 54.99,
+          "one_day_adult_gate_up_to": 69.99,
+          "one_day_senior_online_from": 44.99,
+          "one_day_senior_gate_up_to": 59.99,
+          "combo_adult_online_from": 89.99,
+          "kids_4_and_under": "free",
+          "note": "Online prices vary by date; gate prices higher. Combo covers Ark Encounter + Creation Museum (multi-day bounce options available)."
+        },
+        "parking_usd": {
+          "standard": 15,
+          "oversized": 20,
+          "note": "Paid at entry; some passes include free parking."
+        },
+        "distance_to_sister": {
+          "sister_pin_id": "CRM-01",
+          "stated_by_ministry": "about 40–45 miles / about 45 minutes apart (Ark Encounter press room: 40 miles; ticket pages: 45 minutes)"
+        },
+        "guest_services_phone": "(888) 582-4253"
+      },
+      "accessibility_note": "Ark Encounter states the attraction is fully wheelchair- and stroller-accessible, with service animals admitted, captioning on most exhibit videos, optional ASL on select program days, and tactile experiences by signup. Rentals (strollers, wheelchairs, ECVs) are available for a fee. Check https://arkencounter.com/accessibility/ before you go.",
+      "gallery_links": [
+        {
+          "label": "Ark Encounter Press Room — promotional photos",
+          "url": "https://arkencounter.com/press/"
+        },
+        {
+          "label": "Answers in Genesis Press Room (parent ministry)",
+          "url": "https://answersingenesis.org/about/press/"
+        },
+        {
+          "label": "Photo-spot tips (official Ark blog)",
+          "url": "https://arkencounter.com/blog/2021/09/23/capture-your-ark-encounter-trip-5-favorite-photo-spots/"
+        }
+      ],
+      "press_kit": {
+        "page_url": "https://arkencounter.com/press/",
+        "terms_summary": "Press room offers a downloadable media kit (facts, bios, high-resolution photos) for credentialed media and Ark Encounter supporters. Site asks visitors not to copy or save lower-resolution images from web pages and to use the kit for high-res assets. Further press questions: press@answersingenesis.org. This is not recorded here as a blanket public redistribution license — follow the kit/page terms and AiG content policy.",
+        "as_of": "2026-10-05",
+        "download": "none: link page_url only (PoliceBot CAUTION on 236/116 MB zips); no kit photos in app"
+      },
+      "related_pins": [
+        {
+          "pin_id": "CRM-01",
+          "layer": "ministry_places",
+          "relation": "sister_attraction"
+        },
+        {
+          "pin_id": "ARAR-01",
+          "layer": "nt-digs",
+          "relation": "biblical_flood_landing_tradition_region"
+        },
+        {
+          "pin_id": "CBG-07",
+          "layer": "contested-hypotheses",
+          "relation": "Durupınar / Ararat ark-claim caution row — AiG does not endorse Durupınar as the Ark"
+        }
+      ],
+      "related_shelf": [
+        {
+          "path": "/workspace/bible-archaeology/ark-site-dig-ken-ham-2026-09-30.md",
+          "note": "Ken Ham caution on Durupınar / Noah’s Ark Scans; closes with Ark Encounter CTA"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/",
+          "note": "Local knowledge archive (sitemaps, page extracts, press-kit text, notes)"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/README.md",
+          "note": "Archive scope and copyright caveats"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/STATUS.md",
+          "note": "Counts and gaps as of 2026-09-16"
+        }
+      ],
+      "sources": [
+        "https://arkencounter.com/about/",
+        "https://arkencounter.com/hours/",
+        "https://arkencounter.com/tickets/",
+        "https://arkencounter.com/tickets/discounts/",
+        "https://arkencounter.com/tips/",
+        "https://arkencounter.com/directions/",
+        "https://arkencounter.com/accessibility/",
+        "https://arkencounter.com/press/",
+        "https://answersingenesis.org/about/press/",
+        "/workspace/ark-creation-museums-archive/published/press-docs/ark/fact-sheet-ark-encounter.txt",
+        "/workspace/ark-creation-museums-archive/STATUS.md"
+      ]
+    },
+    {
+      "id": "CRM-01",
+      "name": "Creation Museum",
+      "layer": "ministry_places",
+      "status_kind": "attraction",
+      "location": "United States / Kentucky / Petersburg (Boone County)",
+      "address": "2800 Bullittsburg Church Road, Petersburg, KY 41080",
+      "lat": 39.0853283,
+      "lon": -84.7818938,
+      "coord_source": "OpenStreetMap Nominatim match for official street address / Creation Museum theme-park way (osm way 119948956), fetched 2026-10-05",
+      "coord_precision": "attraction_grounds",
+      "verses": "Genesis 1–3",
+      "official_website": "https://creationmuseum.org/",
+      "official_video_embed": "https://www.youtube.com/embed/69L25lOlm_Y",
+      "official_video_provider": "youtube",
+      "official_video_source": "Creation Museum official channel (@creationmuseum) — “What to Expect When Visiting the Creation Museum!”",
+      "solidity": "n/a: attraction",
+      "caveat": "Ministry attraction, not an archaeological dig. Exhibits present a young-earth creation view; mainstream scientific dating of earth history differs. Keep framing respectful and short — no debate in the drawer.",
+      "what_it_is": "A large Answers in Genesis museum and outdoor campus in Petersburg, Kentucky, west of the Cincinnati airport. Guests walk a biblical-history sequence from Eden through the Flood and Babel to Christ, plus gardens, a zoo, planetarium, and other family attractions. It is a ministry teaching museum, not a dig site.",
+      "opened": "2007-05",
+      "opened_label": "May 2007 (AiG press bios; day-of-month not pinned in sources checked)",
+      "operator": "Answers in Genesis",
+      "facility_specs": {
+        "attribution": "per Creation Museum / Answers in Genesis press materials",
+        "interior_sq_ft_stated": 75000,
+        "campus_acres_stated": 70,
+        "exhibits_count_stated_press": "nearly 150 exhibits (press room)"
+      },
+      "top_exhibits": [
+        "Walk through biblical history (Eden, Fall, Flood, Babel, Christ / Cross / Consummation)",
+        "Dinosaur and dragon exhibits (including Allosaurus “Ebenezer” and related teaching)",
+        "Stargazer Planetarium (ministry astronomy shows; dome variously described as ~30-foot — archive notes a 30-ft vs 30-m wording conflict on older pages)",
+        "Special-effects 4D theater",
+        "Botanical gardens and lake boardwalk",
+        "Plants of the Bible conservatory",
+        "Creation Zoo (including Wallaby Walkabout and related animal areas)",
+        "Insectarium (Dr. Crawley collection)",
+        "Fearfully & Wonderfully Made / identity exhibits",
+        "Zip lines (separate; https://www.screamingraptorziplines.com/)"
+      ],
+      "visitor_info": {
+        "as_of": "2026-10-05",
+        "check_before_you_go": true,
+        "address": "2800 Bullittsburg Church Road, Petersburg, KY 41080 (about seven miles west of Cincinnati/Northern Kentucky Airport)",
+        "mailing_address": "PO Box 510, Hebron, KY 41048 (mailing only — not the pin)",
+        "typical_hours_et": {
+          "current_window": "2026-09-13 to 2026-10-24: Mon–Sat 9:30 a.m.–5:00 p.m.; Sunday closed",
+          "next_window": "2026-10-25 to 2027-01-02: Mon–Sat 10:00 a.m.–5:00 p.m.; Sunday closed (also closed Thanksgiving Day 2026-11-26 and Christmas Eve/Day 2026-12-24–25)",
+          "note": "Last admission one hour before closing. Seasonal schedule; parking booths open 30 minutes before. All times Eastern."
+        },
+        "ticket_price_range_usd": {
+          "one_day_adult_online_from": 44.99,
+          "one_day_adult_gate_up_to": 59.99,
+          "one_day_senior_online_from": 39.99,
+          "one_day_senior_gate_up_to": 54.99,
+          "combo_adult_online_from": 89.99,
+          "kids_4_and_under": "free",
+          "note": "Online prices vary by date; gate prices higher. Combo covers Creation Museum + Ark Encounter."
+        },
+        "parking_usd": {
+          "standard": 15,
+          "oversized": 20,
+          "note": "Paid at entry; some memberships/passes include free parking."
+        },
+        "distance_to_sister": {
+          "sister_pin_id": "ARK-ENC-01",
+          "stated_by_ministry": "about 40–45 miles / about 45 minutes south to the Ark Encounter"
+        },
+        "guest_services_phone": "(888) 582-4253"
+      },
+      "accessibility_note": "Creation Museum states ramps at entrances, paved garden/zoo paths (with noted exceptions), service animals admitted, captioning available for planetarium/4D on request, optional ASL on select days, and tactile experiences by signup. Check https://creationmuseum.org/accessibility/ before you go.",
+      "gallery_links": [
+        {
+          "label": "Creation Museum Press Room — promotional photos",
+          "url": "https://creationmuseum.org/press/"
+        },
+        {
+          "label": "Answers in Genesis Press Room (parent ministry)",
+          "url": "https://answersingenesis.org/about/press/"
+        }
+      ],
+      "press_kit": {
+        "page_url": "https://creationmuseum.org/press/",
+        "terms_summary": "Press room offers a downloadable media kit (facts, bios, high-resolution photos) for credentialed media and Creation Museum supporters. Site asks visitors not to copy or save lower-resolution images from web pages and to use the kit for high-res assets. Further press questions: press@answersingenesis.org. Not recorded here as a blanket public redistribution license — follow the kit/page terms and AiG content policy.",
+        "as_of": "2026-10-05",
+        "download": "none: link page_url only (PoliceBot CAUTION on 236/116 MB zips); no kit photos in app"
+      },
+      "related_pins": [
+        {
+          "pin_id": "ARK-ENC-01",
+          "layer": "ministry_places",
+          "relation": "sister_attraction"
+        },
+        {
+          "pin_id": "ARAR-01",
+          "layer": "nt-digs",
+          "relation": "flood_tradition_geography_context"
+        },
+        {
+          "pin_id": "CBG-07",
+          "layer": "contested-hypotheses",
+          "relation": "Durupınar ark-claim caution — ministry rejects Durupınar as the Ark"
+        }
+      ],
+      "related_shelf": [
+        {
+          "path": "/workspace/bible-archaeology/ark-site-dig-ken-ham-2026-09-30.md",
+          "note": "Ken Ham / AiG stance on Durupınar claims"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/",
+          "note": "Local knowledge archive"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/pages/museum/",
+          "note": "Museum page extracts"
+        },
+        {
+          "path": "/workspace/ark-creation-museums-archive/STATUS.md",
+          "note": "Archive status / gaps"
+        }
+      ],
+      "sources": [
+        "https://creationmuseum.org/about/",
+        "https://creationmuseum.org/hours/",
+        "https://creationmuseum.org/tickets/",
+        "https://creationmuseum.org/tickets/discounts/",
+        "https://creationmuseum.org/tips/",
+        "https://creationmuseum.org/directions/",
+        "https://creationmuseum.org/accessibility/",
+        "https://creationmuseum.org/press/",
+        "https://answersingenesis.org/about/press/",
+        "/workspace/ark-creation-museums-archive/published/press-docs/museum/fact-sheet-creation-museum.txt",
+        "/workspace/ark-creation-museums-archive/published/press-docs/museum/ken-ham-bio.txt",
+        "/workspace/ark-creation-museums-archive/STATUS.md"
+      ]
+    },
+    {
+      "id": "HYS-01",
+      "name": "HalleluYah Scriptures",
+      "layer": "ministry_places",
+      "status_kind": "publisher",
+      "location": "United States / Texas / Mount Vernon (city-level only)",
+      "address": null,
+      "mailing_address_public": "HalleluYah Scriptures, P.O. Box 1132, Mount Vernon, TX 75457, United States",
+      "lat": 33.1890841,
+      "lon": -95.2214564,
+      "coord_source": "OpenStreetMap Nominatim city centroid for Mount Vernon, Franklin County, Texas (relation 6603645), fetched 2026-10-05",
+      "coord_precision": "city_centroid",
+      "location_privacy_note": "Official site publishes only a PO Box mailing address in Mount Vernon, TX, and states location as 'in the USA.' No public street / visitor address found. Pin is city-centroid only — not a street point, home, or fulfillment warehouse.",
+      "verses": "Exodus 3:14–15; Exodus 20:7; Psalm 83:18",
+      "official_website": "https://www.halleluyahscriptures.com/",
+      "official_video_embed": "https://www.youtube.com/embed/H7cAfhMAsL4",
+      "official_video_provider": "youtube",
+      "official_video_source": "HalleluYah Scriptures official channel — “The Complete Catalog - 2024”",
+      "solidity": "n/a: publisher",
+      "caveat": "Publisher / translation ministry, not a dig or tourist attraction. Drawer describes what they publish; DigIntoScripture verse links stay LSB. No HalleluYah text is pasted into the app.",
+      "what_it_is": "HalleluYah Scriptures is a Bible translation and publishing project that restores the divine Name and prints it with Paleo-Hebrew letter forms (and related Name forms for the Son), alongside an English text that aims for a more literal rendering and Hebraic name spellings. It is sold and often given freely through their website; DigIntoScripture does not reproduce their copyrighted wording.",
+      "editions_and_materials": [
+        "Complete edition (standard print)",
+        "Large-print complete edition (including PU/artificial leather and genuine cowhide options listed on site)",
+        "English–Hebrew Paleo / pictographic edition",
+        "Spanish edition",
+        "Parallel Hebrew/English project pages",
+        "Digital downloads",
+        "Audio project",
+        "Children’s books and family journal",
+        "Torah of YHWH and other companion booklets listed on the site",
+        "Bulk / free-copy programs (prisoners, those who cannot afford, overseas outreach) — details on their order and FAQ pages"
+      ],
+      "visitor_info": {
+        "as_of": "2026-10-05",
+        "check_before_you_go": true,
+        "note": "Not a walk-in visitor site. Orders and contact are online / by mail to the published PO Box. FAQ: located in the USA; mailing address for donations/orders/prisoner requests as above."
+      },
+      "gallery_links": [
+        {
+          "label": "HalleluYah Scriptures home",
+          "url": "https://www.halleluyahscriptures.com/"
+        },
+        {
+          "label": "Translation overview (official)",
+          "url": "https://www.halleluyahscriptures.com/halleluyah-scriptures-translation/"
+        },
+        {
+          "label": "Complete edition order page (official)",
+          "url": "https://www.halleluyahscriptures.com/halleluyah-scriptures-complete-edition/"
+        }
+      ],
+      "press_kit": null,
+      "related_pins": [
+        {
+          "pin_id": "ARK-ENC-01",
+          "layer": "ministry_places",
+          "relation": "same_ministry_places_layer_only"
+        },
+        {
+          "pin_id": "CRM-01",
+          "layer": "ministry_places",
+          "relation": "same_ministry_places_layer_only"
+        }
+      ],
+      "related_packs": [
+        {
+          "path": "/workspace/bible-archaeology/tetragrammaton-site-truth-2026-10-05.json",
+          "status": "in_progress",
+          "note": "Tetragrammaton display pack (modern יהוה / Paleo 𐤉𐤄𐤅𐤄) — still being built; wire Name display from that pack, not from pasted HYS glossary text"
+        }
+      ],
+      "related_shelf": [],
+      "sources": [
+        "https://www.halleluyahscriptures.com/",
+        "https://www.halleluyahscriptures.com/halleluyah-scriptures-mailing-address/",
+        "https://www.halleluyahscriptures.com/frequently-asked-questions/",
+        "https://www.halleluyahscriptures.com/halleluyah-scriptures-translation/",
+        "https://www.halleluyahscriptures.com/contact-hs/",
+        "https://www.halleluyahscriptures.com/halleluyah-scriptures-complete-edition/",
+        "https://www.halleluyahscriptures.com/english-hebrew-paleo-pictographic-edition/",
+        "https://www.halleluyahscriptures.com/halleluyah-scriptures-spanish-edition/"
+      ]
+    }
+  ],
+  "unverified_or_open": [
+    "Creation Museum exact opening calendar day within May 2007 not confirmed beyond 'May 2007' in AiG bios.",
+    "Planetarium dome: older site wording conflict (30-foot vs 30-meter) noted in archive STATUS — not resolved here; omit precise dome diameter in UI or say 'about 30-foot dome (ministry pages)'.",
+    "No separate public street address for HalleluYah Scriptures beyond PO Box Mount Vernon, TX.",
+    "tetragrammaton-site-truth-2026-10-05.json not present yet on disk when this pack was written — related_packs marks in_progress.",
+    "Flex combo / bounce parking dollar amounts change; drawer should prefer 'Check before you go' over stale add-on parking figures.",
+    "Neither Ark Encounter nor Creation Museum existed as DigIntoScripture pins before this pack (only creation_ministry_* fields on dig pins)."
+  ]
+}

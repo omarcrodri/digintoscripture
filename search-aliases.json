@@ -1,0 +1,5665 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "timezone_note": "America/Chicago (CT)",
+  "product": "DigIntoScripture search aliases",
+  "locks": {
+    "no_new_pins": true,
+    "no_app_edits": true,
+    "no_wikipedia": true,
+    "composite_ids_whole": true,
+    "canonical_layers": [
+      "ot-digs.geojson",
+      "nt-digs.geojson"
+    ],
+    "pin_id_gotchas": [
+      "JER-01,JER-02 is Jericho (Tell es-Sultan), not Jerusalem.",
+      "Jerusalem OT dig cards: COD-01,COD-02,COD-04 (City of David), COD-03 (Gihon).",
+      "Jerusalem NT cards include JER-NT-01…05 and WW-01; do not merge with Jericho.",
+      "SAM-01 exists on both ot-digs and nt-digs (same Sebaste/Samaria place). Use layer when disambiguating cards."
+    ]
+  },
+  "wire": {
+    "attach_as": "Alias index for the floating top search bar. Match against display_name and every aliases[].name.",
+    "matching": {
+      "case_insensitive": true,
+      "accent_insensitive": true,
+      "prefix_variants": [
+        "Tell",
+        "Tel",
+        "Tall",
+        "Khirbet",
+        "Khirbat",
+        "Horvat"
+      ],
+      "examples": [
+        "Türkiye ≈ Turkiye (fold accents)",
+        "Tell es-Sultan ≈ Tel es-Sultan ≈ Tall es-Sultan",
+        "Şanlıurfa ≈ Sanliurfa"
+      ]
+    },
+    "results_hint": "When the hit matched an alias (not the display_name), show a secondary line: also called {matched_alias}.",
+    "disputed": "If row.disputed_identification is true, keep the alias searchable but show the pin's existing confidence/caveat chrome; do not promote a contested ID as settled.",
+    "lsb_refs": "Included only when already present on the pin (verses field). Do not add new refs from this pack."
+  },
+  "counts": {
+    "pins_total": 179,
+    "pins_with_at_least_one_alias": 179,
+    "pins_with_zero_aliases": 0,
+    "aliases_total": 650,
+    "disputed_identification_pins": 16,
+    "unresolved_cross_pin_collisions": 0,
+    "same_place_shared_aliases": 35,
+    "aliases_removed_to_resolve_collisions": 2,
+    "by_layer": {
+      "ot-digs.geojson": 105,
+      "nt-digs.geojson": 74
+    },
+    "by_type": {
+      "ancient-other": 66,
+      "biblical": 170,
+      "modern-arabic": 51,
+      "modern-english": 109,
+      "modern-hebrew": 33,
+      "modern-turkish": 13,
+      "spelling-variant": 147,
+      "tell-name": 61
+    }
+  },
+  "sites": [
+    {
+      "pin_id": "DAN-01,DAN-02",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Dan (Tell el-Qadi)",
+      "aliases": [
+        {
+          "name": "Dan",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Qadi",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Dan",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Laish",
+          "type": "biblical",
+          "note": "earlier biblical name before Dan (Judges 18)"
+        },
+        {
+          "name": "Leshem",
+          "type": "biblical",
+          "note": "alternate earlier name (Joshua 19:47)"
+        },
+        {
+          "name": "Tell Dan",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Dan",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel el-Qadi",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Qadi",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Judges 18:27–29",
+        "1 Kings 12:28–30",
+        "2 Kings 15:29",
+        "Genesis 14:14"
+      ]
+    },
+    {
+      "pin_id": "MEG-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Megiddo (Tell el-Mutesellim)",
+      "aliases": [
+        {
+          "name": "Megiddo",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Mutesellim",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Megiddo",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Armageddon",
+          "type": "biblical",
+          "note": "NT Greek form of Har Megiddo (Revelation 16:16)"
+        },
+        {
+          "name": "Har Megiddo",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Megiddo",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Megiddo",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel el-Mutesellim",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Mutesellim",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 12:21",
+        "1 Kings 9:15",
+        "2 Kings 23:29–30"
+      ]
+    },
+    {
+      "pin_id": "MEG-02,MEG-03",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Megiddo",
+      "aliases": [
+        {
+          "name": "Megiddo",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Mutesellim",
+          "type": "tell-name"
+        },
+        {
+          "name": "Armageddon",
+          "type": "biblical",
+          "note": "NT Greek form of Har Megiddo"
+        },
+        {
+          "name": "Tell Megiddo",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Megiddo",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 9:15",
+        "Joshua 17:11"
+      ]
+    },
+    {
+      "pin_id": "HAZ-01,HAZ-02",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Hazor",
+      "aliases": [
+        {
+          "name": "Hazor",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Qedah",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Waqqas",
+          "type": "tell-name",
+          "note": "alternate Arabic name for the Hazor tell"
+        },
+        {
+          "name": "Tell Hazor",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Hazor",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 11:10–13",
+        "Judges 4:2",
+        "1 Kings 9:15"
+      ]
+    },
+    {
+      "pin_id": "LAC-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Lachish (Tell ed-Duweir)",
+      "aliases": [
+        {
+          "name": "Lachish",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell ed-Duweir",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Lachish",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tell Lachish",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Lachish",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel ed-Duweir",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall ed-Duweir",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 10:31–32",
+        "2 Kings 18:13–17",
+        "Isaiah 36:1–2",
+        "Jeremiah 34:7"
+      ]
+    },
+    {
+      "pin_id": "LAC-02,LAC-03",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Lachish",
+      "aliases": [
+        {
+          "name": "Lachish",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell ed-Duweir",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Lachish",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Lachish",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "2 Kings 18:13–17",
+        "2 Chronicles 32:9",
+        "Jeremiah 34:7"
+      ]
+    },
+    {
+      "pin_id": "JER-01,JER-02",
+      "layer": "ot-digs.geojson",
+      "display_name": "Jericho (Tell es-Sultan)",
+      "aliases": [
+        {
+          "name": "Jericho",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell es-Sultan",
+          "type": "tell-name"
+        },
+        {
+          "name": "Ancient Jericho",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ariha",
+          "type": "modern-arabic",
+          "note": "modern town name near the tell"
+        },
+        {
+          "name": "Tel es-Sultan",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall es-Sultan",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 6:1–27",
+        "Deuteronomy 34:1–3"
+      ]
+    },
+    {
+      "pin_id": "QUM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Qumran (Khirbet Qumran)",
+      "aliases": [
+        {
+          "name": "Khirbet Qumran",
+          "type": "tell-name"
+        },
+        {
+          "name": "Qumran Caves",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 40:3 (community self-understanding)",
+        "Deuteronomy",
+        "Psalms",
+        "many OT books among scrolls"
+      ]
+    },
+    {
+      "pin_id": "COD-01,COD-02,COD-04",
+      "layer": "ot-digs.geojson",
+      "display_name": "Jerusalem – City of David",
+      "aliases": [
+        {
+          "name": "Jerusalem",
+          "type": "biblical"
+        },
+        {
+          "name": "City of David",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ir David",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Ophel",
+          "type": "biblical",
+          "note": "adjacent ridge / biblical term often linked to this area"
+        },
+        {
+          "name": "Silwan",
+          "type": "modern-arabic",
+          "note": "modern village on/near the ridge"
+        },
+        {
+          "name": "Zion",
+          "type": "biblical",
+          "note": "biblical Zion sometimes localized to this ridge in older usage"
+        }
+      ],
+      "lsb_refs": [
+        "2 Samuel 5:6–9",
+        "1 Kings 1–2",
+        "Nehemiah 3"
+      ]
+    },
+    {
+      "pin_id": "COD-03",
+      "layer": "ot-digs.geojson",
+      "display_name": "Jerusalem – City of David / Gihon",
+      "aliases": [
+        {
+          "name": "Gihon",
+          "type": "biblical"
+        },
+        {
+          "name": "Gihon Spring",
+          "type": "biblical"
+        },
+        {
+          "name": "Siloam Tunnel",
+          "type": "modern-english",
+          "note": "Hezekiah's tunnel outlet context"
+        },
+        {
+          "name": "Ain Umm el-Daraj",
+          "type": "modern-arabic",
+          "note": "Arabic name for Gihon Spring"
+        },
+        {
+          "name": "City of David",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "2 Samuel 5:8",
+        "1 Kings 1:33–45",
+        "2 Kings 20:20",
+        "2 Chronicles 32:30"
+      ]
+    },
+    {
+      "pin_id": "GEZ-01,GEZ-02",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Gezer",
+      "aliases": [
+        {
+          "name": "Gezer",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Jezer",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Gezer",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Gezer",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 10:33",
+        "1 Kings 9:15–17",
+        "Judges 1:29"
+      ]
+    },
+    {
+      "pin_id": "BEE-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Beersheba",
+      "aliases": [
+        {
+          "name": "Beersheba",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Be'er Sheva",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Beer-sheba",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Beersheba",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Beersheba",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 21:31–33",
+        "Genesis 26:23–33",
+        "1 Kings 19:3",
+        "Amos 5:5",
+        "2 Kings 23:8"
+      ]
+    },
+    {
+      "pin_id": "GIB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Gibeon (el-Jib)",
+      "aliases": [
+        {
+          "name": "Gibeon",
+          "type": "biblical"
+        },
+        {
+          "name": "el-Jib",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 9:3–27",
+        "Joshua 10:2",
+        "2 Samuel 2:12–17",
+        "Jeremiah 41:12"
+      ]
+    },
+    {
+      "pin_id": "SAM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Samaria (Sebaste / Shomron)",
+      "aliases": [
+        {
+          "name": "Samaria",
+          "type": "biblical"
+        },
+        {
+          "name": "Sebaste",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Shomron",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Sebastia",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 16:24",
+        "1 Kings 16:29–33",
+        "2 Kings 17:5–6",
+        "Amos 3:9–15"
+      ]
+    },
+    {
+      "pin_id": "SAM-02",
+      "layer": "ot-digs.geojson",
+      "display_name": "Samaria (Sebaste)",
+      "aliases": [
+        {
+          "name": "Samaria",
+          "type": "biblical"
+        },
+        {
+          "name": "Sebaste",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Sebastia",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Shomron",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 16:24",
+        "1 Kings 22:39",
+        "Amos 6:1–6"
+      ]
+    },
+    {
+      "pin_id": "SHE-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Shechem (Tell Balata)",
+      "aliases": [
+        {
+          "name": "Shechem",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Balata",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Balata",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Nablus",
+          "type": "modern-arabic",
+          "note": "modern city beside the tell"
+        },
+        {
+          "name": "Tall Balata",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 12:6",
+        "Genesis 33:18–20",
+        "Joshua 24:1–25",
+        "Judges 9",
+        "1 Kings 12:1"
+      ]
+    },
+    {
+      "pin_id": "BSH-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Beth Shean (Tel Bet She’an / Scythopolis)",
+      "aliases": [
+        {
+          "name": "Beth-shean",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Bet She’an",
+          "type": "tell-name"
+        },
+        {
+          "name": "Scythopolis",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tel Bet She'an",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tel Beth Shean",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Beisan",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Beth Shan",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Bet",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Bet",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 17:11–16",
+        "1 Samuel 31:10–12",
+        "1 Kings 4:12"
+      ]
+    },
+    {
+      "pin_id": "ARA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Arad",
+      "aliases": [
+        {
+          "name": "Arad",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Arad",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Arad",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 21:1–3",
+        "Joshua 12:14",
+        "Judean fortress context for Kings/Chronicles border forts"
+      ]
+    },
+    {
+      "pin_id": "MAS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Masada",
+      "aliases": [
+        {
+          "name": "Metzada",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "1 Samuel 22:4–5",
+        "1 Samuel 23:14 (desert strongholds motif)",
+        "Hebrew Bible scrolls among refuge texts"
+      ]
+    },
+    {
+      "pin_id": "ASH-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ashkelon",
+      "aliases": [
+        {
+          "name": "Ashqelon",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Ascalon",
+          "type": "ancient-other",
+          "note": "classical form"
+        },
+        {
+          "name": "Tel Ashkelon",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Judges 14:19",
+        "1 Samuel 6:17",
+        "Jeremiah 25:20",
+        "Zephaniah 2:4",
+        "Amos 1:8"
+      ]
+    },
+    {
+      "pin_id": "EKR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Miqne-Ekron",
+      "aliases": [
+        {
+          "name": "Ekron",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Miqne",
+          "type": "tell-name"
+        },
+        {
+          "name": "Khirbet el-Muqanna",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Miqne-Ekron",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Miqne-Ekron",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 13:3",
+        "1 Samuel 5:10",
+        "1 Samuel 17:52",
+        "Jeremiah 25:20",
+        "Amos 1:8"
+      ]
+    },
+    {
+      "pin_id": "QEI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Khirbet Qeiyafa",
+      "aliases": [
+        {
+          "name": "Shaaraim",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Elah Fortress",
+          "type": "modern-english"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "1 Samuel 17:1–3",
+        "1 Samuel 17:52",
+        "Joshua 15:36 (possible Shaaraim)"
+      ]
+    },
+    {
+      "pin_id": "REH-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Rehov",
+      "aliases": [
+        {
+          "name": "Tell es-Sarem",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Rehov",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Rehov",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 4:12 (nearby district towns)",
+        "1 Kings 19 (regional Omride landscape)"
+      ]
+    },
+    {
+      "pin_id": "SHI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Shiloh (Khirbet Seilun)",
+      "aliases": [
+        {
+          "name": "Shiloh",
+          "type": "biblical"
+        },
+        {
+          "name": "Khirbet Seilun",
+          "type": "tell-name"
+        },
+        {
+          "name": "Khirbet Sailun",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Shilo",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 18:1",
+        "1 Samuel 1–4",
+        "Jeremiah 7:12–14",
+        "Psalm 78:60"
+      ]
+    },
+    {
+      "pin_id": "AI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ai (et-Tell)",
+      "aliases": [
+        {
+          "name": "Ai",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "et-Tell",
+          "type": "tell-name",
+          "note": "disputed identification"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Joshua 7–8",
+        "Genesis 12:8"
+      ]
+    },
+    {
+      "pin_id": "TIM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Timnah (Tel Batash)",
+      "aliases": [
+        {
+          "name": "Timnah",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Batash",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Batash",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Batash",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Judges 14:1–5",
+        "Joshua 15:10",
+        "Joshua 19:43"
+      ]
+    },
+    {
+      "pin_id": "JEZ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Jezreel",
+      "aliases": [
+        {
+          "name": "Jezreel",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Yizre'el",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tell Jezreel",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Jezreel",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 21",
+        "2 Kings 8:29",
+        "2 Kings 9:15–37",
+        "2 Kings 10:11"
+      ]
+    },
+    {
+      "pin_id": "KAJ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Kuntillet Ajrud (Horvat Teman)",
+      "aliases": [
+        {
+          "name": "Horvat Teman",
+          "type": "tell-name"
+        },
+        {
+          "name": "Kuntillet Ajrud",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 34:6 (YHWH formulas)",
+        "Hosea 8:2",
+        "Deuteronomy 6:4 (context of Yahwism)"
+      ]
+    },
+    {
+      "pin_id": "HEB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Hebron (Tel Rumeida)",
+      "aliases": [
+        {
+          "name": "Hebron",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Rumeida",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Rumeideh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "al-Khalil",
+          "type": "modern-arabic",
+          "note": "Arabic name of Hebron"
+        },
+        {
+          "name": "Tell Rumeida",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Rumeida",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 23",
+        "Genesis 13:18",
+        "Numbers 13:22",
+        "2 Samuel 2:1–4",
+        "2 Samuel 5:1–5"
+      ]
+    },
+    {
+      "pin_id": "DIB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Dibon (Dhiban)",
+      "aliases": [
+        {
+          "name": "Dibon",
+          "type": "biblical"
+        },
+        {
+          "name": "Dhiban",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 21:30",
+        "Numbers 32:3",
+        "Isaiah 15:2",
+        "Jeremiah 48:18–22",
+        "2 Kings 3:4–5"
+      ]
+    },
+    {
+      "pin_id": "DEA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell Deir Alla",
+      "aliases": [
+        {
+          "name": "Deir Alla",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Tel Deir",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Deir",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 22–24",
+        "Numbers 31:8",
+        "Micah 6:5"
+      ]
+    },
+    {
+      "pin_id": "HES-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Heshbon (Tell Hesban)",
+      "aliases": [
+        {
+          "name": "Heshbon",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Hesban",
+          "type": "tell-name"
+        },
+        {
+          "name": "Hisban",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Tel Hesban",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Hesban",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 21:25–30",
+        "Deuteronomy 2:24",
+        "Joshua 13:10",
+        "Isaiah 15:4",
+        "Jeremiah 48:2"
+      ]
+    },
+    {
+      "pin_id": "ATA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Khirbat Ataruz (Ataroth)",
+      "aliases": [
+        {
+          "name": "Ataroth",
+          "type": "biblical"
+        },
+        {
+          "name": "Khirbat Ataruz",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 32:3",
+        "Numbers 32:34",
+        "Mesha Stele parallels",
+        "Isaiah 15–16 (Moab oracles)"
+      ]
+    },
+    {
+      "pin_id": "UGA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ugarit (Ras Shamra)",
+      "aliases": [
+        {
+          "name": "Ras Shamra",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Ugarit",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Psalm 29 (storm-god imagery parallels)",
+        "Exodus 15",
+        "Deuteronomy 32",
+        "Isaiah 27:1 (Lotan/Leviathan parallels)"
+      ]
+    },
+    {
+      "pin_id": "EBL-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ebla (Tell Mardikh)",
+      "aliases": [
+        {
+          "name": "Tell Mardikh",
+          "type": "tell-name"
+        },
+        {
+          "name": "Ebla",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tel Mardikh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Mardikh",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 14 (era geography debates)",
+        "Genesis name-study context only"
+      ]
+    },
+    {
+      "pin_id": "BYB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Byblos (Gubla / Jbeil)",
+      "aliases": [
+        {
+          "name": "Gebal",
+          "type": "biblical"
+        },
+        {
+          "name": "Gubla",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Jbeil",
+          "type": "modern-english"
+        },
+        {
+          "name": "Byblos",
+          "type": "ancient-other",
+          "note": "Greek name"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 5:1–12 (Hiram of Tyre / cedar trade network)",
+        "Ezekiel 27:9",
+        "Joshua 13:5 (Gebal)"
+      ]
+    },
+    {
+      "pin_id": "TYR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tyre (Ṣur)",
+      "aliases": [
+        {
+          "name": "Tyre",
+          "type": "biblical"
+        },
+        {
+          "name": "Ṣur",
+          "type": "modern-english"
+        },
+        {
+          "name": "Tyrus",
+          "type": "ancient-other",
+          "note": "Latin form"
+        }
+      ],
+      "lsb_refs": [
+        "2 Samuel 5:11",
+        "1 Kings 5:1–12",
+        "1 Kings 9:10–14",
+        "Ezekiel 26–28",
+        "Isaiah 23",
+        "Amos 1:9–10"
+      ]
+    },
+    {
+      "pin_id": "AMA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Amarna (Akhetaten)",
+      "aliases": [
+        {
+          "name": "Akhetaten",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tell el-Amarna",
+          "type": "tell-name"
+        },
+        {
+          "name": "el-Amarna",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus context debates",
+        "Joshua 10 (Canaan under Egypt)",
+        "Judges period geopolitics"
+      ]
+    },
+    {
+      "pin_id": "KAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Karnak / Thebes",
+      "aliases": [
+        {
+          "name": "Thebes",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Waset",
+          "type": "ancient-other",
+          "note": "Egyptian name"
+        },
+        {
+          "name": "Luxor",
+          "type": "modern-english"
+        },
+        {
+          "name": "No-Amon",
+          "type": "biblical",
+          "note": "biblical name for Thebes"
+        }
+      ],
+      "lsb_refs": [
+        "1 Kings 14:25–26",
+        "2 Chronicles 12:2–9"
+      ]
+    },
+    {
+      "pin_id": "PIR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Pi-Ramesses (Qantir)",
+      "aliases": [
+        {
+          "name": "Rameses",
+          "type": "biblical"
+        },
+        {
+          "name": "Qantir",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Pi-Ramesses",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Raamses",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 1:11",
+        "Genesis 47:11",
+        "Exodus 12:37"
+      ]
+    },
+    {
+      "pin_id": "AVA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Avaris (Tell el-Dab’a)",
+      "aliases": [
+        {
+          "name": "Tell el-Dab’a",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell el-Dab'a",
+          "type": "tell-name"
+        },
+        {
+          "name": "Avaris",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Hut-waret",
+          "type": "ancient-other",
+          "note": "Egyptian name"
+        },
+        {
+          "name": "Tel el-Dab’a",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Dab’a",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 41–47",
+        "Exodus 1:8–11 (background)",
+        "Genesis 15:13"
+      ]
+    },
+    {
+      "pin_id": "SER-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Serabit el-Khadim",
+      "aliases": [
+        {
+          "name": "Serabit al-Khadim",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 19–20 (Sinai setting debates)",
+        "Exodus 31:18 (writing motifs)"
+      ]
+    },
+    {
+      "pin_id": "NIN-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Nineveh (Kuyunjik / Nebi Yunus)",
+      "aliases": [
+        {
+          "name": "Nineveh",
+          "type": "biblical"
+        },
+        {
+          "name": "Kuyunjik",
+          "type": "modern-english"
+        },
+        {
+          "name": "Nebi Yunus",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ninua",
+          "type": "ancient-other",
+          "note": "Akkadian"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:11",
+        "2 Kings 19:36",
+        "Isaiah 37:37",
+        "Jonah 1:2",
+        "Nahum 1–3",
+        "Zephaniah 2:13"
+      ]
+    },
+    {
+      "pin_id": "NIM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Nimrud (Kalhu)",
+      "aliases": [
+        {
+          "name": "Calah",
+          "type": "biblical"
+        },
+        {
+          "name": "Kalhu",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Nimrud",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:11–12 (Calah)",
+        "Isaiah 10:5–19",
+        "2 Kings 15–19 (Assyrian period)"
+      ]
+    },
+    {
+      "pin_id": "KHO-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Khorsabad (Dur-Sharrukin)",
+      "aliases": [
+        {
+          "name": "Dur-Sharrukin",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Khorsabad",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 20:1 (Sargon)",
+        "2 Kings 17:6",
+        "Isaiah 10"
+      ]
+    },
+    {
+      "pin_id": "BAB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Babylon",
+      "aliases": [
+        {
+          "name": "Babel",
+          "type": "biblical"
+        },
+        {
+          "name": "Babil",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "2 Kings 24–25",
+        "Jeremiah 39",
+        "Daniel 1–5",
+        "Psalm 137",
+        "Isaiah 13–14",
+        "Genesis 11:1–9 (tradition)"
+      ]
+    },
+    {
+      "pin_id": "UR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ur (Tell el-Muqayyar)",
+      "aliases": [
+        {
+          "name": "Ur",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Muqayyar",
+          "type": "tell-name"
+        },
+        {
+          "name": "Ur of the Chaldees",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel el-Muqayyar",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Muqayyar",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 11:28–31",
+        "Genesis 15:7",
+        "Nehemiah 9:7"
+      ]
+    },
+    {
+      "pin_id": "MAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Mari (Tell Hariri)",
+      "aliases": [
+        {
+          "name": "Tell Hariri",
+          "type": "tell-name"
+        },
+        {
+          "name": "Mari",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tel Hariri",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Hariri",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 11–12 (patriarchal routes)",
+        "Genesis 31 (family law parallels debated)"
+      ]
+    },
+    {
+      "pin_id": "NIP-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Nippur",
+      "aliases": [
+        {
+          "name": "Nuffar",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 1–11 comparative",
+        "Ezekiel (exilic literacy background)"
+      ]
+    },
+    {
+      "pin_id": "HAT-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Hattusa (Boğazköy / Boğazkale)",
+      "aliases": [
+        {
+          "name": "Boğazköy",
+          "type": "modern-english"
+        },
+        {
+          "name": "Boğazkale",
+          "type": "modern-english"
+        },
+        {
+          "name": "Hattusa",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Hattusha",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 23:3–20",
+        "Genesis 26:34",
+        "2 Samuel 11:3",
+        "1 Kings 10:29",
+        "2 Kings 7:6"
+      ]
+    },
+    {
+      "pin_id": "CAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Carchemish",
+      "aliases": [
+        {
+          "name": "Jerablus",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Karkamis",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 10:9",
+        "Jeremiah 46:2",
+        "2 Chronicles 35:20"
+      ]
+    },
+    {
+      "pin_id": "SUS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Susa (Shushan)",
+      "aliases": [
+        {
+          "name": "Shushan",
+          "type": "biblical"
+        },
+        {
+          "name": "Shush",
+          "type": "modern-english"
+        },
+        {
+          "name": "Susa",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Esther 1:2",
+        "Nehemiah 1:1",
+        "Daniel 8:2",
+        "Ezra 4–6 (Persian court context)"
+      ]
+    },
+    {
+      "pin_id": "CYR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Babylon (Cyrus Cylinder findspot)",
+      "aliases": [
+        {
+          "name": "Babel",
+          "type": "biblical"
+        },
+        {
+          "name": "Babylon",
+          "type": "biblical"
+        },
+        {
+          "name": "Cyrus Cylinder",
+          "type": "modern-english"
+        },
+        {
+          "name": "Esagila",
+          "type": "ancient-other",
+          "note": "temple precinct find context"
+        }
+      ],
+      "lsb_refs": [
+        "Ezra 1:1–4",
+        "Isaiah 44:28",
+        "Isaiah 45:1",
+        "2 Chronicles 36:22–23"
+      ]
+    },
+    {
+      "pin_id": "PER-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Persepolis (Takht-e Jamshid)",
+      "aliases": [
+        {
+          "name": "Takht-e Jamshid",
+          "type": "modern-english"
+        },
+        {
+          "name": "Parsa",
+          "type": "ancient-other",
+          "note": "Old Persian name"
+        }
+      ],
+      "lsb_refs": [
+        "Ezra 1–6",
+        "Esther 1:3–7",
+        "Esther 8:9 (Achaemenid court culture)",
+        "Isaiah 45"
+      ]
+    },
+    {
+      "pin_id": "PAS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Pasargadae",
+      "aliases": [
+        {
+          "name": "Pasargad",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Parsagadae",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 44:28",
+        "Isaiah 45:1",
+        "Ezra 1:1"
+      ]
+    },
+    {
+      "pin_id": "TAY-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tayma (Tema)",
+      "aliases": [
+        {
+          "name": "Tema",
+          "type": "biblical"
+        },
+        {
+          "name": "Tayma",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 21:14",
+        "Jeremiah 25:23",
+        "Job 6:19",
+        "Genesis 25:15"
+      ]
+    },
+    {
+      "pin_id": "SID-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Sidon (Saida)",
+      "aliases": [
+        {
+          "name": "Sidon",
+          "type": "biblical"
+        },
+        {
+          "name": "Saida",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Zidon",
+          "type": "spelling-variant",
+          "note": "KJV-style spelling"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:15",
+        "Judges 1:31",
+        "1 Kings 17:9",
+        "Isaiah 23",
+        "Ezekiel 28:20–23"
+      ]
+    },
+    {
+      "pin_id": "DAN-STELE",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Dan",
+      "aliases": [
+        {
+          "name": "Dan",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Qadi",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Dan",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Dan",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "2 Samuel 3:1",
+        "1 Kings 12:19",
+        "2 Kings 8–9 (Aramean-Israel conflicts)"
+      ]
+    },
+    {
+      "pin_id": "GOBEKLI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Göbekli Tepe (Gobeklitepe)",
+      "aliases": [
+        {
+          "name": "Gobeklitepe",
+          "type": "modern-english"
+        },
+        {
+          "name": "Gobekli Tepe",
+          "type": "spelling-variant"
+        }
+      ]
+    },
+    {
+      "pin_id": "GAT-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell es-Safi / Gath (Tel Zafit)",
+      "aliases": [
+        {
+          "name": "Gath",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Zafit",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell es-Safi",
+          "type": "tell-name"
+        },
+        {
+          "name": "Gath of the Philistines",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel es-Safi",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall es-Safi",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Zafit",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Zafit",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 11:22",
+        "1 Samuel 5:8",
+        "1 Samuel 17:4",
+        "1 Samuel 27:2–4",
+        "2 Kings 12:17",
+        "Amos 6:2",
+        "Micah 1:10"
+      ]
+    },
+    {
+      "pin_id": "ASD-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Ashdod (Isdud)",
+      "aliases": [
+        {
+          "name": "Ashdod",
+          "type": "biblical"
+        },
+        {
+          "name": "Isdud",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Tel Ashdod",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Azotus",
+          "type": "ancient-other",
+          "note": "NT Greek form (Acts 8:40)"
+        },
+        {
+          "name": "Tell Ashdod",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Ashdod",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 11:22",
+        "1 Samuel 5:1–7",
+        "1 Samuel 6:17",
+        "Amos 1:8",
+        "Zephaniah 2:4",
+        "Zechariah 9:6",
+        "Acts 8:40 (Azotus)"
+      ]
+    },
+    {
+      "pin_id": "APK-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Aphek-Antipatris (Tel Afeq)",
+      "aliases": [
+        {
+          "name": "Aphek",
+          "type": "biblical"
+        },
+        {
+          "name": "Tel Afeq",
+          "type": "tell-name"
+        },
+        {
+          "name": "Antipatris",
+          "type": "ancient-other",
+          "note": "Herodian rename (Acts 23:31)"
+        },
+        {
+          "name": "Tell Aphek-Antipatris",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Aphek-Antipatris",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Afeq",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Afeq",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 12:18",
+        "1 Samuel 4:1",
+        "1 Samuel 29:1",
+        "1 Kings 20:26–30"
+      ]
+    },
+    {
+      "pin_id": "ABM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Abel Beth Maacah (Abil el-Qameh / Tel Avel Bet Ma‘akha)",
+      "aliases": [
+        {
+          "name": "Abel Beth-maacah",
+          "type": "biblical"
+        },
+        {
+          "name": "Abil el-Qameh",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Tel Avel Bet Ma‘akha",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Avel Bet Maakha",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Abel of Beth-maacah",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Abel",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Abel",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Avel",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Avel",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "2 Samuel 20:14–22",
+        "1 Kings 15:20",
+        "2 Kings 15:29",
+        "Joshua 13:11"
+      ]
+    },
+    {
+      "pin_id": "AZK-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Azekah (Tell Zakariya)",
+      "aliases": [
+        {
+          "name": "Azekah",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Zakariya",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Azekah",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tell Azekah",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Azekah",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel Zakariya",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Zakariya",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 10:10–11",
+        "1 Samuel 17:1",
+        "2 Chronicles 11:9",
+        "Jeremiah 34:7",
+        "Nehemiah 11:30"
+      ]
+    },
+    {
+      "pin_id": "BSM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Beth-Shemesh",
+      "aliases": [
+        {
+          "name": "Beth-shemesh",
+          "type": "biblical"
+        },
+        {
+          "name": "Ain Shems",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Tell Beth-Shemesh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Beth-Shemesh",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 15:10",
+        "Joshua 21:16",
+        "1 Samuel 6:9–15",
+        "1 Kings 4:9",
+        "2 Kings 14:11–13"
+      ]
+    },
+    {
+      "pin_id": "HAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Haror (Tell Abu Hureira) — Gerar candidate",
+      "aliases": [
+        {
+          "name": "Gerar",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tell Abu Hureira",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tel Haror",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tell Haror",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Haror",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Genesis 20:1–2",
+        "Genesis 26:1–6",
+        "Genesis 26:17–23",
+        "2 Chronicles 14:13–14"
+      ]
+    },
+    {
+      "pin_id": "TIR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-Farʿah North (Tirzah)",
+      "aliases": [
+        {
+          "name": "Tirzah",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell el-Farah North",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel el-Farʿah",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Farʿah",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 12:24",
+        "1 Kings 14:17",
+        "1 Kings 15:21",
+        "1 Kings 15:33",
+        "1 Kings 16:8–24",
+        "Song of Songs 6:4"
+      ]
+    },
+    {
+      "pin_id": "BET-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Bethel — Beitin (traditional)",
+      "aliases": [
+        {
+          "name": "Bethel",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Beitin",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Luz",
+          "type": "biblical",
+          "note": "earlier name in some biblical texts; disputed identification"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Genesis 12:8",
+        "Genesis 28:10–22",
+        "Genesis 35:1–7",
+        "Joshua 8:9–17",
+        "Judges 1:22–26",
+        "1 Kings 12:28–33",
+        "Amos 7:10–13"
+      ]
+    },
+    {
+      "pin_id": "AJJ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-ʿAjjul (Gaza) — Sharuhen candidate",
+      "aliases": [
+        {
+          "name": "Sharuhen",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tell el-Ajjul",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tel el-ʿAjjul",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-ʿAjjul",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Joshua 19:6"
+      ]
+    },
+    {
+      "pin_id": "TBM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell Beit Mirsim — Debir/Kiriath-sepher candidate (historical)",
+      "aliases": [
+        {
+          "name": "Debir",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tell Beit Mirsim",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Kiriath-sepher",
+          "type": "biblical",
+          "note": "historical candidate; disputed identification"
+        },
+        {
+          "name": "Kiriath-sannah",
+          "type": "biblical",
+          "note": "related biblical name; disputed identification"
+        },
+        {
+          "name": "Tel Beit",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Beit",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Joshua 10:38–39",
+        "Joshua 15:15–17",
+        "Judges 1:11–15"
+      ]
+    },
+    {
+      "pin_id": "DOR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Dor (Khirbet el-Burj)",
+      "aliases": [
+        {
+          "name": "Dor",
+          "type": "biblical"
+        },
+        {
+          "name": "Khirbet el-Burj",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Dor",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Tell Dor",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Dor",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 11:2",
+        "Joshua 12:23",
+        "Joshua 17:11",
+        "Judges 1:27",
+        "1 Kings 4:11"
+      ]
+    },
+    {
+      "pin_id": "PEL-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Pella (Tabaqat Fahl) — Bronze Age temple precinct",
+      "aliases": [
+        {
+          "name": "Tabaqat Fahl",
+          "type": "modern-english"
+        },
+        {
+          "name": "Pella",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Judges 12:1–6 (regional Gilead context)",
+        "Matthew 4:25",
+        "Mark 5:20",
+        "Mark 7:31 (Decapolis)",
+        "early-Christian Pella flight tradition (Eusebius—tag carefully)"
+      ]
+    },
+    {
+      "pin_id": "ALA-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Alalakh (Tell Atchana)",
+      "aliases": [
+        {
+          "name": "Tell Atchana",
+          "type": "tell-name"
+        },
+        {
+          "name": "Alalakh",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tel Atchana",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Atchana",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:18",
+        "Genesis 15:19–21 (regional Canaanite/Amorite peoples context—ANE archive parallel, not a named biblical city)"
+      ]
+    },
+    {
+      "pin_id": "TIMV-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Timna Valley — Egyptian / Midianite copper district",
+      "aliases": [
+        {
+          "name": "Timna",
+          "type": "modern-english"
+        },
+        {
+          "name": "Timna Valley",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 36:31–39 (Edomite kings/copper regions context)",
+        "Numbers 21:4–9 (Arabah route context)",
+        "Deuteronomy 8:9"
+      ]
+    },
+    {
+      "pin_id": "SOL-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Soleb Temple — Shasu of Yhwȝ inscription",
+      "aliases": [
+        {
+          "name": "Soleb",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 3:15",
+        "Exodus 6:3",
+        "Psalm 83:18 (divine name YHWH — epigraphic parallel, not a dig “proving” Exodus route)"
+      ]
+    },
+    {
+      "pin_id": "HES2-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-Hesi",
+      "aliases": [
+        {
+          "name": "Tel el-Hesi",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Hesi",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 10:3–5",
+        "Joshua 12:7–16 (Shephelah conquest geography context—site itself not securely named in a verse)"
+      ]
+    },
+    {
+      "pin_id": "MIZ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell en-Nasbeh (Mizpah of Benjamin)",
+      "aliases": [
+        {
+          "name": "Mizpah",
+          "type": "biblical"
+        },
+        {
+          "name": "Mizpah of Benjamin",
+          "type": "modern-english"
+        },
+        {
+          "name": "Tell en-Nasbeh",
+          "type": "tell-name"
+        },
+        {
+          "name": "Mizpeh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel en-Nasbeh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall en-Nasbeh",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Joshua 18:26",
+        "Judges 20:1–3",
+        "1 Samuel 7:5–16",
+        "1 Kings 15:22",
+        "2 Kings 25:23–25",
+        "Jeremiah 40:6–41:18",
+        "Nehemiah 3:7"
+      ]
+    },
+    {
+      "pin_id": "MOT-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tel Motza (Moẓa) — Iron Age temple",
+      "aliases": [
+        {
+          "name": "Mozah",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Moẓa",
+          "type": "modern-english"
+        },
+        {
+          "name": "Motza",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Motza",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Motza",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Joshua 18:26 (Mozah)",
+        "temple theology parallels 1 Kings 12 / Deuteronomy centralization debates"
+      ]
+    },
+    {
+      "pin_id": "RAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ramat Raḥel",
+      "aliases": [
+        {
+          "name": "Ramat Rachel",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Jeremiah 22:13–19",
+        "Nehemiah 3 (royal/administrative Judah context)",
+        "2 Kings 23–25 (late Judah administration)"
+      ]
+    },
+    {
+      "pin_id": "BUS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Busayra (Bozrah of Edom candidate)",
+      "aliases": [
+        {
+          "name": "Bozrah",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Bozrah of Edom",
+          "type": "modern-english"
+        },
+        {
+          "name": "Busayra",
+          "type": "modern-arabic"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Genesis 36:33",
+        "Isaiah 34:6",
+        "Isaiah 63:1",
+        "Jeremiah 49:13–22",
+        "Amos 1:12"
+      ]
+    },
+    {
+      "pin_id": "ZIN-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Zincirli (Samʾal / Ancient Zincirli)",
+      "aliases": [
+        {
+          "name": "Samʾal",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ancient Zincirli",
+          "type": "modern-english"
+        },
+        {
+          "name": "Sam'al",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Zincirli Hoyuk",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:18",
+        "2 Kings 16:9",
+        "Isaiah 7:1–9 (Aramean/Neo-Hittite neighbor geography)",
+        "2 Chronicles 8:3–4 (Hamath/Zobah regional)"
+      ]
+    },
+    {
+      "pin_id": "KET-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ketef Hinnom — silver amulets findspot",
+      "aliases": [
+        {
+          "name": "Hinnom",
+          "type": "biblical"
+        },
+        {
+          "name": "Ketef Hinnom",
+          "type": "modern-english"
+        },
+        {
+          "name": "Hinnom Valley",
+          "type": "biblical"
+        },
+        {
+          "name": "Valley of Hinnom",
+          "type": "biblical"
+        },
+        {
+          "name": "Gehenna",
+          "type": "ancient-other",
+          "note": "later Greek form of Hinnom"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 6:24–26",
+        "Deuteronomy 7:9",
+        "2 Kings 23:10",
+        "Jeremiah 7:31–32 (Hinnom Valley context)"
+      ]
+    },
+    {
+      "pin_id": "MEM-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Memphis — Mit Rahina (Temple of Ptah precinct)",
+      "aliases": [
+        {
+          "name": "Noph",
+          "type": "biblical"
+        },
+        {
+          "name": "Temple of Ptah precinct",
+          "type": "modern-english"
+        },
+        {
+          "name": "Mit Rahina",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Men-nefer",
+          "type": "ancient-other",
+          "note": "Egyptian"
+        },
+        {
+          "name": "Memphis",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 19:13",
+        "Jeremiah 2:16",
+        "Jeremiah 46:14, 19",
+        "Ezekiel 30:13, 16",
+        "Hosea 9:6"
+      ]
+    },
+    {
+      "pin_id": "HEL-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Heliopolis — Iunu / On (Matariya)",
+      "aliases": [
+        {
+          "name": "On",
+          "type": "biblical"
+        },
+        {
+          "name": "Matariya",
+          "type": "modern-english"
+        },
+        {
+          "name": "Iunu",
+          "type": "ancient-other",
+          "note": "Egyptian"
+        },
+        {
+          "name": "Ain Shams",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Heliopolis",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 41:45, 50",
+        "Genesis 46:20",
+        "Ezekiel 30:17 (Aven)",
+        "Jeremiah 43:13"
+      ]
+    },
+    {
+      "pin_id": "BUB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Bubastis — Tell Basta (Per-Bastet / Pi-Beseth)",
+      "aliases": [
+        {
+          "name": "Pi-Beseth",
+          "type": "biblical"
+        },
+        {
+          "name": "Per-Bastet",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tell Basta",
+          "type": "tell-name"
+        },
+        {
+          "name": "Bubastis",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tel Basta",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Basta",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Ezekiel 30:17"
+      ]
+    },
+    {
+      "pin_id": "RET-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-Retaba (Wadi Tumilat) — Pithom candidate",
+      "aliases": [
+        {
+          "name": "Tell el-Retaba",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tel el-Retaba",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Retaba",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Pithom",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Wadi Tumilat",
+          "type": "modern-english"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Exodus 1:11",
+        "Genesis 47:11 (Goshen/Rameses region context)"
+      ]
+    },
+    {
+      "pin_id": "MSK-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-Maskhuta (Wadi Tumilat) — Pithom / Succoth candidate",
+      "aliases": [
+        {
+          "name": "Pithom",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Succoth",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Wadi Tumilat",
+          "type": "modern-english"
+        },
+        {
+          "name": "Tell el-Maskhuta",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Tel el-Maskhuta",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Maskhuta",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Exodus 1:11",
+        "Exodus 12:37",
+        "Exodus 13:20",
+        "Genesis 33:17 (Succoth name-parallel caution)"
+      ]
+    },
+    {
+      "pin_id": "BRG-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell el-Borg (North Sinai) — New Kingdom fortress",
+      "aliases": [
+        {
+          "name": "Ways of Horus fortress",
+          "type": "biblical"
+        },
+        {
+          "name": "North Sinai",
+          "type": "modern-english"
+        },
+        {
+          "name": "Tell el-Borg",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel el-Borg",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall el-Borg",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 13:17",
+        "Exodus 14:2 (Migdol-region geography caution)"
+      ]
+    },
+    {
+      "pin_id": "NUZ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Nuzi — Yorghan Tepe",
+      "aliases": [
+        {
+          "name": "Nuzi",
+          "type": "biblical"
+        },
+        {
+          "name": "Yorghan Tepe",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 15–31 (patriarchal customs comparative",
+        "not a named biblical town)"
+      ]
+    },
+    {
+      "pin_id": "ERI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Eridu — Tell Abu Shahrain",
+      "aliases": [
+        {
+          "name": "Eridu",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Abu Shahrain",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 1–11 (ANE creation/flood cultural backdrop)",
+        "Genesis 10 Table of Nations Mesopotamian setting"
+      ]
+    },
+    {
+      "pin_id": "URK-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Uruk — Warka (Erech)",
+      "aliases": [
+        {
+          "name": "Erech",
+          "type": "biblical"
+        },
+        {
+          "name": "Warka",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Uruk",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:10"
+      ]
+    },
+    {
+      "pin_id": "GIR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Girsu — Tello (Lagash state)",
+      "aliases": [
+        {
+          "name": "Girsu",
+          "type": "biblical"
+        },
+        {
+          "name": "Lagash",
+          "type": "biblical"
+        },
+        {
+          "name": "Lagash state",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Tello",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10–11 (Sumerian urban backdrop)",
+        "Genesis 14 (Elam–Mesopotamia war geography backdrop)"
+      ]
+    },
+    {
+      "pin_id": "LAR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Larsa — Tell Senkereh",
+      "aliases": [
+        {
+          "name": "Larsa",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Senkereh",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Senkereh",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Senkereh",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10–14 (southern Mesopotamian city-state geography backdrop)"
+      ]
+    },
+    {
+      "pin_id": "SIP-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Sippar — Tell Abu Habbah",
+      "aliases": [
+        {
+          "name": "Sippar",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Abu Habbah",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "2 Kings 17:24, 31 (Babylonian resettlement geography)",
+        "Ezekiel 1:1–3 (Chebar/Babylonian exile setting)"
+      ]
+    },
+    {
+      "pin_id": "KSH-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Kish — Tell Uhaimir / Tell Ingharra",
+      "aliases": [
+        {
+          "name": "Kish",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Uhaimir",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tell Ingharra",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Uhaimir",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Uhaimir",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tel Ingharra",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Ingharra",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:8–10 (Nimrod/kingdom geography)",
+        "Genesis 11 (early Mesopotamian urban setting)"
+      ]
+    },
+    {
+      "pin_id": "DKZ-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Dur-Kurigalzu — Aqar Quf",
+      "aliases": [
+        {
+          "name": "Dur-Kurigalzu",
+          "type": "biblical"
+        },
+        {
+          "name": "Aqar Quf",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10",
+        "2 Kings 24–25",
+        "Daniel 1 (Babylonian imperial setting of Kassite→Neo-Babylonian succession)"
+      ]
+    },
+    {
+      "pin_id": "ANS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Anshan — Tal-e Malyan",
+      "aliases": [
+        {
+          "name": "Anshan",
+          "type": "biblical"
+        },
+        {
+          "name": "Tal-e Malyan",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 14:1, 9 (Elam)",
+        "Isaiah 21:2",
+        "Jeremiah 49:34–39",
+        "Ezra 4:9 (Elamites)",
+        "Cyrus ‘Anshan’ royal title in Babylonian sources"
+      ]
+    },
+    {
+      "pin_id": "CHO-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Chogha Zanbil — Dur-Untash (Elamite ziggurat)",
+      "aliases": [
+        {
+          "name": "Elam",
+          "type": "biblical"
+        },
+        {
+          "name": "Elamite ziggurat",
+          "type": "modern-english"
+        },
+        {
+          "name": "Dur-Untash",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Chogha Zanbil",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 10:22",
+        "Genesis 14:1, 9",
+        "Isaiah 11:11",
+        "Jeremiah 49:34–39",
+        "Acts 2:9 (Elamites)"
+      ]
+    },
+    {
+      "pin_id": "TAN-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tanis — San el-Hagar (Zoan)",
+      "aliases": [
+        {
+          "name": "Zoan",
+          "type": "biblical"
+        },
+        {
+          "name": "San el-Hagar",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Djanet",
+          "type": "ancient-other",
+          "note": "Egyptian"
+        },
+        {
+          "name": "Tanis",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Numbers 13:22",
+        "Psalm 78:12, 43",
+        "Isaiah 19:11, 13",
+        "Isaiah 30:4",
+        "Ezekiel 30:14"
+      ]
+    },
+    {
+      "pin_id": "SAI-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Sais — Sa el-Hagar",
+      "aliases": [
+        {
+          "name": "Sais",
+          "type": "biblical"
+        },
+        {
+          "name": "Sa el-Hagar",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Isaiah 19",
+        "Jeremiah 43–44",
+        "Ezekiel 30 (Saite-period Egypt of the exile oracles)"
+      ]
+    },
+    {
+      "pin_id": "ECB-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Ecbatana — Hegmataneh (Hamadan)",
+      "aliases": [
+        {
+          "name": "Ecbatana",
+          "type": "biblical"
+        },
+        {
+          "name": "Hamadan",
+          "type": "modern-english"
+        },
+        {
+          "name": "Hegmataneh",
+          "type": "modern-english"
+        },
+        {
+          "name": "Achmetha",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Ezra 6:2",
+        "Judith 1:1–4 (deuterocanonical)",
+        "Daniel Median/Persian court geography"
+      ]
+    },
+    {
+      "pin_id": "BIS-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Bisotun — Behistun inscription of Darius I",
+      "aliases": [
+        {
+          "name": "Behistun",
+          "type": "biblical"
+        },
+        {
+          "name": "Bisutun",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Bisotun",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Ezra 4–6",
+        "Daniel 6",
+        "Esther (Achaemenid imperial setting under Darius I)"
+      ]
+    },
+    {
+      "pin_id": "TJR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Tell Hebua I (Tjaru / Sile) — Way of Horus fortress",
+      "aliases": [
+        {
+          "name": "Tjaru",
+          "type": "biblical"
+        },
+        {
+          "name": "Sile",
+          "type": "biblical"
+        },
+        {
+          "name": "Tell Hebua",
+          "type": "tell-name"
+        },
+        {
+          "name": "Tel Hebua",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tall Hebua",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 13:17 (Way of the Philistines / coastal road avoidance context)",
+        "Ezekiel 29:10",
+        "Ezekiel 30:6 (Syene-to-Migdol span)"
+      ]
+    },
+    {
+      "pin_id": "ASR-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Assur — Qalʿat Sherqat",
+      "aliases": [
+        {
+          "name": "Asshur",
+          "type": "biblical"
+        },
+        {
+          "name": "Qal'at Sherqat",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Ashur",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Assur",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Genesis 2:14",
+        "Genesis 10:11–12, 22",
+        "Numbers 24:22, 24",
+        "Ezekiel 27:23",
+        "Hosea 14:3",
+        "Nahum (Assyria context)"
+      ]
+    },
+    {
+      "pin_id": "MER-01",
+      "layer": "ot-digs.geojson",
+      "display_name": "Merneptah Stele findspot — Merneptah mortuary temple (West Thebes)",
+      "aliases": [
+        {
+          "name": "West Thebes",
+          "type": "modern-english"
+        },
+        {
+          "name": "Qurna",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Merneptah Temple",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Exodus 1:1–14",
+        "Joshua 1–12 (Israel already in the land as people-group backdrop — not a verse-for-verse match)"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — Pool of Siloam (Birkat el-Hamra)",
+      "aliases": [
+        {
+          "name": "Siloam",
+          "type": "biblical"
+        },
+        {
+          "name": "Birkat el-Hamra",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Pool of Siloam",
+          "type": "biblical"
+        },
+        {
+          "name": "Shiloah",
+          "type": "biblical",
+          "note": "Isaiah form"
+        }
+      ],
+      "lsb_refs": [
+        "John 9:7–11",
+        "Luke 13:4 (Tower of Siloam tradition nearby)",
+        "Nehemiah 3:15 (OT pool name continuity)"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — Pilgrimage Road (Stepped Street)",
+      "aliases": [
+        {
+          "name": "Jerusalem",
+          "type": "biblical"
+        },
+        {
+          "name": "Stepped Street",
+          "type": "modern-english"
+        },
+        {
+          "name": "Pilgrimage Road",
+          "type": "modern-english"
+        },
+        {
+          "name": "City of David",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "John 9:7",
+        "Luke 2:41–42",
+        "Acts 3:1–2 (Temple approach context)",
+        "Mark 11:15–17"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-03",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+      "aliases": [
+        {
+          "name": "Jerusalem",
+          "type": "biblical"
+        },
+        {
+          "name": "Western Wall",
+          "type": "modern-english"
+        },
+        {
+          "name": "Kotel",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Wailing Wall",
+          "type": "modern-english"
+        },
+        {
+          "name": "Western Wall Tunnels",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Mark 13:1–2",
+        "Luke 21:5–6",
+        "John 2:20",
+        "Acts 3:1–11"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-04",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — City of David (Givati Parking Lot / Area G NT layers)",
+      "aliases": [
+        {
+          "name": "Jerusalem",
+          "type": "biblical"
+        },
+        {
+          "name": "Givati Parking Lot",
+          "type": "modern-english"
+        },
+        {
+          "name": "City of David",
+          "type": "modern-english"
+        },
+        {
+          "name": "Area G",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Luke 19:41–44",
+        "Acts 1–2 (Jerusalem gathering context)",
+        "John 5:2 (Bethesda nearby tradition)"
+      ]
+    },
+    {
+      "pin_id": "JER-NT-05",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — Bethesda / Sheep Gate Pools (St. Anne)",
+      "aliases": [
+        {
+          "name": "Bethesda",
+          "type": "biblical"
+        },
+        {
+          "name": "St. Anne",
+          "type": "modern-english"
+        },
+        {
+          "name": "Bethzatha",
+          "type": "spelling-variant",
+          "note": "textual variant"
+        },
+        {
+          "name": "Sheep Gate",
+          "type": "biblical"
+        },
+        {
+          "name": "Pools of Bethesda",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "John 5:1–9"
+      ]
+    },
+    {
+      "pin_id": "BETH-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Bethany (al-Eizariya / Bethany beyond the Mount of Olives)",
+      "aliases": [
+        {
+          "name": "Bethany",
+          "type": "biblical"
+        },
+        {
+          "name": "al-Eizariya",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Bethany beyond the Mount of Olives",
+          "type": "modern-english"
+        },
+        {
+          "name": "El Azariya",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "John 11:1–44",
+        "John 12:1–8",
+        "Mark 11:1–2",
+        "Luke 10:38–42"
+      ]
+    },
+    {
+      "pin_id": "OLIV-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Mount of Olives — Tombs and Dominus Flevit",
+      "aliases": [
+        {
+          "name": "Olivet",
+          "type": "biblical"
+        },
+        {
+          "name": "Mount of Olives",
+          "type": "biblical"
+        },
+        {
+          "name": "Jebel ez-Zeitun",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Dominus Flevit",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 26:30",
+        "Mark 14:26",
+        "Luke 19:37–44",
+        "John 18:1",
+        "Acts 1:9–12"
+      ]
+    },
+    {
+      "pin_id": "HEROD-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Herodium (Herodion)",
+      "aliases": [
+        {
+          "name": "Herodion",
+          "type": "modern-english"
+        },
+        {
+          "name": "Herodium",
+          "type": "modern-english"
+        },
+        {
+          "name": "Jebel el-Fureidis",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 2:1–19 (Herod the Great context)",
+        "Luke 1:5"
+      ]
+    },
+    {
+      "pin_id": "MAS-NT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Masada",
+      "aliases": [
+        {
+          "name": "Metzada",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "(No direct NT narrative)",
+        "Josephus Jewish War 7",
+        "Luke 3:1 (Herodian tetrarchy context)",
+        "Acts 21–26 (Roman Judea background)"
+      ]
+    },
+    {
+      "pin_id": "BETHL-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Bethlehem — Church of the Nativity / early Christian complex",
+      "aliases": [
+        {
+          "name": "Bethlehem",
+          "type": "biblical"
+        },
+        {
+          "name": "Beit Lahm",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Church of the Nativity",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ephrathah",
+          "type": "biblical",
+          "note": "biblical associate name"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 2:1–18",
+        "Luke 2:1–20",
+        "John 7:42"
+      ]
+    },
+    {
+      "pin_id": "CAP-01,CAP-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Capernaum (Kefar Nahum)",
+      "aliases": [
+        {
+          "name": "Capernaum",
+          "type": "biblical"
+        },
+        {
+          "name": "Kefar Nahum",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Kfar Nahum",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Tell Hum",
+          "type": "tell-name",
+          "note": "older Arabic name for Capernaum ruins"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 4:13",
+        "Mark 1:21–34",
+        "Luke 4:31–41",
+        "John 6:24–59"
+      ]
+    },
+    {
+      "pin_id": "CAP-03",
+      "layer": "nt-digs.geojson",
+      "display_name": "Capernaum — Greek Orthodox property (eastern)",
+      "aliases": [
+        {
+          "name": "Capernaum",
+          "type": "biblical"
+        },
+        {
+          "name": "Kefar Nahum",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 4:13",
+        "Mark 2:1",
+        "Luke 7:1–10"
+      ]
+    },
+    {
+      "pin_id": "MAG-01,MAG-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Magdala (Migdal)",
+      "aliases": [
+        {
+          "name": "Magdala",
+          "type": "biblical"
+        },
+        {
+          "name": "Migdal",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Taricheae",
+          "type": "ancient-other",
+          "note": "possible classical equate for Magdala area"
+        }
+      ],
+      "lsb_refs": [
+        "Luke 8:2",
+        "Mark 15:40",
+        "Matthew 15:39 (Dalmanutha/Magadan variants)",
+        "Mark 8:10"
+      ]
+    },
+    {
+      "pin_id": "SEP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Sepphoris (Zippori / Diocaesarea)",
+      "aliases": [
+        {
+          "name": "Zippori",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Diocaesarea",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Sepphoris",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "(Not named in NT)",
+        "Matthew 13:55 / Mark 6:3 (tekton context often linked)",
+        "John 2:1 (Cana region)"
+      ]
+    },
+    {
+      "pin_id": "BETHS-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Bethsaida candidate — et-Tell",
+      "aliases": [
+        {
+          "name": "Bethsaida",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "et-Tell (Bethsaida)",
+          "type": "tell-name",
+          "note": "disputed identification"
+        },
+        {
+          "name": "et-Tell Bethsaida",
+          "type": "tell-name",
+          "note": "disputed identification"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Mark 8:22–26",
+        "Luke 9:10–17",
+        "John 1:44",
+        "John 12:21",
+        "Matthew 11:21"
+      ]
+    },
+    {
+      "pin_id": "BETHS-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Bethsaida candidate — el-Araj (Beit ha-Bek)",
+      "aliases": [
+        {
+          "name": "Bethsaida",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Beit ha-Bek",
+          "type": "modern-english"
+        },
+        {
+          "name": "el-Araj",
+          "type": "tell-name",
+          "note": "disputed identification"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Mark 8:22–26",
+        "Luke 9:10",
+        "John 1:44",
+        "Matthew 11:21"
+      ]
+    },
+    {
+      "pin_id": "CHOR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Chorazin (Korazim)",
+      "aliases": [
+        {
+          "name": "Chorazin",
+          "type": "biblical"
+        },
+        {
+          "name": "Korazim",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Korazin",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 11:20–24",
+        "Luke 10:13–15"
+      ]
+    },
+    {
+      "pin_id": "HIPP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Hippos / Sussita (Decapolis)",
+      "aliases": [
+        {
+          "name": "Decapolis",
+          "type": "biblical"
+        },
+        {
+          "name": "Sussita",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Susita",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Hippos",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Mark 5:1–20",
+        "Mark 7:31",
+        "Matthew 4:25",
+        "Luke 8:26–39 (Decapolis / Gerasa-Gadara region debates)"
+      ]
+    },
+    {
+      "pin_id": "TIB-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Tiberias",
+      "aliases": [
+        {
+          "name": "Teveriya",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "John 6:1, 23",
+        "John 21:1",
+        "Luke 3:1 (Herod Antipas)"
+      ]
+    },
+    {
+      "pin_id": "NAZ-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Nazareth — International Marian Center house",
+      "aliases": [
+        {
+          "name": "Nazareth",
+          "type": "biblical"
+        },
+        {
+          "name": "Natzrat",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "Luke 1:26–38",
+        "Luke 2:39–52",
+        "Matthew 2:23",
+        "John 1:45–46"
+      ]
+    },
+    {
+      "pin_id": "NAZ-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Nazareth — Sisters of Nazareth Convent",
+      "aliases": [
+        {
+          "name": "Nazareth",
+          "type": "biblical"
+        },
+        {
+          "name": "Sisters of Nazareth",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Luke 4:16–30",
+        "Matthew 13:54–58"
+      ]
+    },
+    {
+      "pin_id": "BAN-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Caesarea Philippi / Banias (Paneas)",
+      "aliases": [
+        {
+          "name": "Paneas",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Banias",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Caesarea Philippi",
+          "type": "biblical"
+        },
+        {
+          "name": "Caesarea Paneas",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 16:13–20",
+        "Mark 8:27–30"
+      ]
+    },
+    {
+      "pin_id": "KURSI-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Kursi (Gergesa tradition) — E Shore Galilee",
+      "aliases": [
+        {
+          "name": "Gergesa",
+          "type": "modern-english"
+        },
+        {
+          "name": "Kursi",
+          "type": "modern-hebrew"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Mark 5:1–20",
+        "Luke 8:26–39"
+      ]
+    },
+    {
+      "pin_id": "JERNT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jericho — Herodian / NT-era Tulul Abu el-Alayiq & related",
+      "aliases": [
+        {
+          "name": "Jericho",
+          "type": "biblical"
+        },
+        {
+          "name": "Tulul Abu el-Alayiq",
+          "type": "tell-name"
+        },
+        {
+          "name": "Herodian Jericho",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Luke 19:1–10",
+        "Mark 10:46–52",
+        "Matthew 20:29–34",
+        "Luke 10:30"
+      ]
+    },
+    {
+      "pin_id": "QUM-NT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Qumran",
+      "aliases": [
+        {
+          "name": "Khirbet Qumran",
+          "type": "tell-name"
+        }
+      ],
+      "lsb_refs": [
+        "(Indirect): Luke 1–3 wilderness/Baptist milieu",
+        "Matthew 3",
+        "John 1:19–28",
+        "Acts 5:34–39 (Jewish sects background)"
+      ]
+    },
+    {
+      "pin_id": "EMM-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
+      "aliases": [
+        {
+          "name": "Emmaus",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Imwas",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Emmaus Nicopolis",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Amwas",
+          "type": "spelling-variant"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Luke 24:13–35"
+      ]
+    },
+    {
+      "pin_id": "CAES-01,CAES-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Caesarea Maritima",
+      "aliases": [
+        {
+          "name": "Caesarea Maritima",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Caesarea Palaestina",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Qisarya",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Strato's Tower",
+          "type": "ancient-other",
+          "note": "pre-Herodian name"
+        },
+        {
+          "name": "Caesarea",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 27:2, 11–26",
+        "Mark 15:1–15",
+        "Luke 3:1",
+        "Luke 23:1–25",
+        "Acts 10",
+        "Acts 23–26"
+      ]
+    },
+    {
+      "pin_id": "ANT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Antioch on the Orontes (Antakya)",
+      "aliases": [
+        {
+          "name": "Antioch",
+          "type": "biblical"
+        },
+        {
+          "name": "Antakya",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Antioch on the Orontes",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 11:19–30",
+        "Acts 13:1–3",
+        "Acts 14:26–28",
+        "Galatians 2:11–14"
+      ]
+    },
+    {
+      "pin_id": "CYP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Paphos (Nea Paphos), Cyprus",
+      "aliases": [
+        {
+          "name": "Paphos",
+          "type": "biblical"
+        },
+        {
+          "name": "Nea Paphos",
+          "type": "modern-english"
+        },
+        {
+          "name": "Kato Paphos",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 13:4–12"
+      ]
+    },
+    {
+      "pin_id": "EPH-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Ephesus (Efes)",
+      "aliases": [
+        {
+          "name": "Ephesus",
+          "type": "biblical"
+        },
+        {
+          "name": "Efes",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Selcuk",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 19:1–41",
+        "Acts 20:16–38",
+        "Ephesians 1:1",
+        "1 Corinthians 15:32",
+        "1 Timothy 1:3",
+        "Revelation 2:1–7"
+      ]
+    },
+    {
+      "pin_id": "PERG-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Pergamon (Pergamum / Bergama)",
+      "aliases": [
+        {
+          "name": "Pergamos",
+          "type": "biblical"
+        },
+        {
+          "name": "Pergamum",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Bergama",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Pergamon",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 2:12–17"
+      ]
+    },
+    {
+      "pin_id": "SMYR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Smyrna (Izmir — Agora and Bayraklı core)",
+      "aliases": [
+        {
+          "name": "Smyrna",
+          "type": "biblical"
+        },
+        {
+          "name": "Izmir",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Bayrakli",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 2:8–11"
+      ]
+    },
+    {
+      "pin_id": "TROAS-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Alexandria Troas",
+      "aliases": [
+        {
+          "name": "Troas",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 16:8–11",
+        "Acts 20:5–12",
+        "2 Corinthians 2:12",
+        "2 Timothy 4:13"
+      ]
+    },
+    {
+      "pin_id": "ICON-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Iconium / Lystra / Derbe region (Konya plain sites)",
+      "aliases": [
+        {
+          "name": "Iconium",
+          "type": "biblical"
+        },
+        {
+          "name": "Konya plain sites",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Konya",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Lystra",
+          "type": "biblical"
+        },
+        {
+          "name": "Derbe",
+          "type": "biblical"
+        },
+        {
+          "name": "Lycaonia",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 13:51–14:23",
+        "Acts 16:1–3",
+        "2 Timothy 3:11"
+      ]
+    },
+    {
+      "pin_id": "PAT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Patmos (Apocalypse cave tradition / early Christian remains)",
+      "aliases": [
+        {
+          "name": "Patmos",
+          "type": "biblical"
+        },
+        {
+          "name": "Apocalypse cave",
+          "type": "modern-english"
+        },
+        {
+          "name": "early Christian remains",
+          "type": "modern-english"
+        },
+        {
+          "name": "Cave of the Apocalypse",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 1:9–11"
+      ]
+    },
+    {
+      "pin_id": "LAOD-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Laodicea on the Lycus",
+      "aliases": [
+        {
+          "name": "Laodicea",
+          "type": "biblical"
+        },
+        {
+          "name": "Laodikeia",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Denizli",
+          "type": "modern-turkish",
+          "note": "nearby modern city"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 3:14–22",
+        "Colossians 2:1",
+        "Colossians 4:13–16"
+      ]
+    },
+    {
+      "pin_id": "HIER-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Hierapolis (Pamukkale)",
+      "aliases": [
+        {
+          "name": "Hierapolis",
+          "type": "biblical"
+        },
+        {
+          "name": "Pamukkale",
+          "type": "modern-turkish"
+        }
+      ],
+      "lsb_refs": [
+        "Colossians 4:13",
+        "(region of Rev 3 Laodicea)"
+      ]
+    },
+    {
+      "pin_id": "COR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Corinth (Ancient Corinth)",
+      "aliases": [
+        {
+          "name": "Corinth",
+          "type": "biblical"
+        },
+        {
+          "name": "Ancient Corinth",
+          "type": "modern-english"
+        },
+        {
+          "name": "Korinthos",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 18:1–18",
+        "1 Corinthians 1–16",
+        "2 Corinthians 1:1",
+        "Romans 16:23"
+      ]
+    },
+    {
+      "pin_id": "COR-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Cenchreae (Kenchreai)",
+      "aliases": [
+        {
+          "name": "Cenchrea",
+          "type": "biblical"
+        },
+        {
+          "name": "Kenchreai",
+          "type": "modern-english"
+        },
+        {
+          "name": "Cenchreae",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 18:18",
+        "Romans 16:1–2"
+      ]
+    },
+    {
+      "pin_id": "PHIL-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Philippi",
+      "aliases": [
+        {
+          "name": "Krinides",
+          "type": "modern-english"
+        },
+        {
+          "name": "Filippoi",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 16:12–40",
+        "Philippians 1:1",
+        "1 Thessalonians 2:2"
+      ]
+    },
+    {
+      "pin_id": "THES-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Thessalonica (Thessaloniki — Roman forum / agora)",
+      "aliases": [
+        {
+          "name": "Thessalonica",
+          "type": "biblical"
+        },
+        {
+          "name": "Thessaloniki",
+          "type": "modern-english"
+        },
+        {
+          "name": "agora",
+          "type": "modern-english"
+        },
+        {
+          "name": "Salonika",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 17:1–9",
+        "1 Thessalonians 1:1",
+        "2 Thessalonians 1:1",
+        "Philippians 4:16"
+      ]
+    },
+    {
+      "pin_id": "BER-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Berea (Veria)",
+      "aliases": [
+        {
+          "name": "Berea",
+          "type": "biblical"
+        },
+        {
+          "name": "Veria",
+          "type": "modern-english"
+        },
+        {
+          "name": "Veroia",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Beroea",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 17:10–15",
+        "Acts 20:4"
+      ]
+    },
+    {
+      "pin_id": "ATH-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Athens — Ancient Agora",
+      "aliases": [
+        {
+          "name": "Athens",
+          "type": "biblical"
+        },
+        {
+          "name": "Ancient Agora",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 17:16–34"
+      ]
+    },
+    {
+      "pin_id": "DELPH-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Delphi",
+      "aliases": [
+        {
+          "name": "Pytho",
+          "type": "ancient-other",
+          "note": "older name"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 18:12–17"
+      ]
+    },
+    {
+      "pin_id": "ROME-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Rome — Catacombs (Callixtus, Sebastiano, Priscilla, et al.)",
+      "aliases": [
+        {
+          "name": "Rome",
+          "type": "biblical"
+        },
+        {
+          "name": "Callixtus, Sebastiano, Priscilla, et al.",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Catacombs of Rome",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 28:14–31",
+        "Romans 1:7–8",
+        "Romans 16",
+        "2 Timothy 1:16–17"
+      ]
+    },
+    {
+      "pin_id": "ROME-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+      "aliases": [
+        {
+          "name": "Vatican Necropolis",
+          "type": "modern-english"
+        },
+        {
+          "name": "St. Peter's tomb",
+          "type": "modern-english"
+        },
+        {
+          "name": "Rome",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "John 21:18–19",
+        "1 Peter 5:13 (Babylon=Rome tradition)",
+        "Acts 12:1–17 (Peter in Jerusalem earlier)"
+      ]
+    },
+    {
+      "pin_id": "ROME-03",
+      "layer": "nt-digs.geojson",
+      "display_name": "Rome — Ostia Antica (port of Rome) & related Pauline journey context",
+      "aliases": [
+        {
+          "name": "port of Rome",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ostia Antica",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ostia",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Rome",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 28:11–16",
+        "Romans 16"
+      ]
+    },
+    {
+      "pin_id": "POMP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Pompeii & Herculaneum",
+      "aliases": [
+        {
+          "name": "Pompeii",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Herculaneum",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Ercolano",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "(No NT narrative set here)",
+        "Romans / 1–2 Corinthians social parallels",
+        "Acts 28 Italy context"
+      ]
+    },
+    {
+      "pin_id": "PUT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Puteoli (Pozzuoli)",
+      "aliases": [
+        {
+          "name": "Puteoli",
+          "type": "biblical"
+        },
+        {
+          "name": "Pozzuoli",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 28:13–14"
+      ]
+    },
+    {
+      "pin_id": "MALT-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+      "aliases": [
+        {
+          "name": "Melita",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "St. Paul’s Bay",
+          "type": "modern-english"
+        },
+        {
+          "name": "Malta",
+          "type": "modern-english"
+        },
+        {
+          "name": "St. Paul's Bay",
+          "type": "modern-english"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Acts 27:1–28:10"
+      ]
+    },
+    {
+      "pin_id": "ARAR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
+      "aliases": [
+        {
+          "name": "Ararat",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "flood",
+          "type": "modern-english"
+        },
+        {
+          "name": "Agri Dagi",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Mount Ararat",
+          "type": "biblical",
+          "note": "disputed identification"
+        },
+        {
+          "name": "Dogubayazit",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Urartu",
+          "type": "ancient-other",
+          "note": "related highland kingdom name; not the mountain identity claim; disputed identification"
+        }
+      ],
+      "disputed_identification": true,
+      "lsb_refs": [
+        "Genesis 8:4 (OT)",
+        "Matthew 24:37–39",
+        "Luke 17:26–27",
+        "Hebrews 11:7",
+        "1 Peter 3:20",
+        "2 Peter 2:5 (NT flood typology)"
+      ]
+    },
+    {
+      "pin_id": "GAD-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Umm Qais (Gadara) — Decapolis",
+      "aliases": [
+        {
+          "name": "Gadara",
+          "type": "biblical"
+        },
+        {
+          "name": "Umm Qais",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Umm Qays",
+          "type": "spelling-variant"
+        },
+        {
+          "name": "Decapolis",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 8:28–34",
+        "Mark 5:1–20",
+        "Luke 8:26–39 (Gadarenes/Gerasenes textual variants)"
+      ]
+    },
+    {
+      "pin_id": "SAM-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Samaria / Sebaste (NT-period Herodian city)",
+      "aliases": [
+        {
+          "name": "Samaria",
+          "type": "biblical"
+        },
+        {
+          "name": "NT-period Herodian city",
+          "type": "modern-english"
+        },
+        {
+          "name": "Sebaste",
+          "type": "ancient-other",
+          "note": "Herodian / Roman name"
+        },
+        {
+          "name": "Sebastia",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Shomron",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "John 4:4–42 (Sychar/Shechem area nearby)",
+        "Acts 8:5–25",
+        "Luke 9:52–56",
+        "Luke 17:11–19"
+      ]
+    },
+    {
+      "pin_id": "SYCH-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jacob’s Well / Sychar area (Askar / Balata)",
+      "aliases": [
+        {
+          "name": "Sychar",
+          "type": "biblical"
+        },
+        {
+          "name": "Askar",
+          "type": "modern-english"
+        },
+        {
+          "name": "Balata",
+          "type": "modern-english"
+        },
+        {
+          "name": "Jacob's Well",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "John 4:5–42",
+        "Genesis 33:18–20",
+        "Joshua 24:1"
+      ]
+    },
+    {
+      "pin_id": "ALEX-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Alexandria (Egypt) — Kom el-Dikka & early Christian/Jewish urban context",
+      "aliases": [
+        {
+          "name": "Alexandria",
+          "type": "biblical"
+        },
+        {
+          "name": "Kom el-Dikka",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 18:24–28 (Apollos of Alexandria)",
+        "Acts 6:9 (Alexandrian synagogue tradition)",
+        "Matthew 2:13–15 (Holy Family flight tradition)"
+      ]
+    },
+    {
+      "pin_id": "WW-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+      "aliases": [
+        {
+          "name": "Jerusalem",
+          "type": "biblical"
+        },
+        {
+          "name": "Robinson's Arch",
+          "type": "modern-english"
+        },
+        {
+          "name": "Southern Wall",
+          "type": "modern-english"
+        },
+        {
+          "name": "Temple Mount",
+          "type": "modern-english"
+        },
+        {
+          "name": "Haram al-Sharif",
+          "type": "modern-arabic",
+          "note": "Islamic name for the mount enclosure"
+        }
+      ],
+      "lsb_refs": [
+        "Mark 13:1–2",
+        "Luke 21:5",
+        "Acts 3:1–11",
+        "Matthew 21:12–17"
+      ]
+    },
+    {
+      "pin_id": "SAR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Sardis (Sart) — Revelation church city",
+      "aliases": [
+        {
+          "name": "Sardis",
+          "type": "biblical"
+        },
+        {
+          "name": "Sart",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Sardes",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 1:11",
+        "Revelation 3:1–6"
+      ]
+    },
+    {
+      "pin_id": "THY-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Thyatira (Akhisar)",
+      "aliases": [
+        {
+          "name": "Thyatira",
+          "type": "biblical"
+        },
+        {
+          "name": "Akhisar",
+          "type": "modern-turkish"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 16:14",
+        "Revelation 1:11",
+        "Revelation 2:18–29"
+      ]
+    },
+    {
+      "pin_id": "PHI-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Philadelphia (Alaşehir)",
+      "aliases": [
+        {
+          "name": "Philadelphia",
+          "type": "biblical"
+        },
+        {
+          "name": "Alaşehir",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 1:11",
+        "Revelation 3:7–13"
+      ]
+    },
+    {
+      "pin_id": "MIL-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Miletus (Milet)",
+      "aliases": [
+        {
+          "name": "Miletus",
+          "type": "biblical"
+        },
+        {
+          "name": "Milet",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Balat",
+          "type": "modern-turkish"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 20:15–38",
+        "2 Timothy 4:20"
+      ]
+    },
+    {
+      "pin_id": "TAR-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Tarsus — Pauline hometown (Gözlükule & city)",
+      "aliases": [
+        {
+          "name": "Tarsus",
+          "type": "biblical"
+        },
+        {
+          "name": "Gözlükule & city",
+          "type": "modern-english"
+        },
+        {
+          "name": "Gozlukule",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 9:11",
+        "Acts 9:30",
+        "Acts 11:25",
+        "Acts 21:39",
+        "Acts 22:3"
+      ]
+    },
+    {
+      "pin_id": "ANTP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Antioch of Pisidia (Yalvaç)",
+      "aliases": [
+        {
+          "name": "Yalvaç",
+          "type": "modern-english"
+        },
+        {
+          "name": "Pisidian Antioch",
+          "type": "biblical"
+        },
+        {
+          "name": "Antioch of Pisidia",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 13:14–52",
+        "Acts 14:19–21",
+        "2 Timothy 3:11"
+      ]
+    },
+    {
+      "pin_id": "JOP-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Joppa / Jaffa (Yafo) — Acts & Jonah port",
+      "aliases": [
+        {
+          "name": "Joppa",
+          "type": "biblical"
+        },
+        {
+          "name": "Yafo",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Jaffa",
+          "type": "modern-english"
+        },
+        {
+          "name": "Yafa",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Jonah 1:3",
+        "Joshua 19:46",
+        "2 Chronicles 2:16",
+        "Acts 9:36–43",
+        "Acts 10:5–23"
+      ]
+    },
+    {
+      "pin_id": "LYD-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Lydda / Lod (Diospolis)",
+      "aliases": [
+        {
+          "name": "Lydda",
+          "type": "biblical"
+        },
+        {
+          "name": "Diospolis",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Lod",
+          "type": "modern-hebrew"
+        }
+      ],
+      "lsb_refs": [
+        "1 Chronicles 8:12",
+        "Ezra 2:33",
+        "Nehemiah 11:35",
+        "Acts 9:32–35"
+      ]
+    },
+    {
+      "pin_id": "SAL-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Salamis (Cyprus) — Acts 13 start",
+      "aliases": [
+        {
+          "name": "Salamis",
+          "type": "biblical"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 13:4–5"
+      ]
+    },
+    {
+      "pin_id": "GER-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Gerasa / Jerash (Decapolis)",
+      "aliases": [
+        {
+          "name": "Gerasa",
+          "type": "biblical"
+        },
+        {
+          "name": "Jerash",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Decapolis",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 8:28",
+        "Mark 5:1",
+        "Luke 8:26 (Gerasene/Gadarene textual variants—honesty)",
+        "Mark 7:31 (Decapolis)"
+      ]
+    },
+    {
+      "pin_id": "GAM-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Gamla — Second Temple synagogue",
+      "aliases": [
+        {
+          "name": "Gamla",
+          "type": "modern-hebrew"
+        },
+        {
+          "name": "Gamala",
+          "type": "spelling-variant"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 4:23",
+        "Matthew 9:35",
+        "Mark 1:21–28 (synagogue ministry background)",
+        "Josephus Jewish War (Gospel-era Golan context)"
+      ]
+    },
+    {
+      "pin_id": "NAU-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Naukratis — Kom Geif",
+      "aliases": [
+        {
+          "name": "Naukratis",
+          "type": "biblical"
+        },
+        {
+          "name": "Kom Geif",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 18:24",
+        "Acts 2:10 (Egyptian Jewish/Greek diaspora context)",
+        "Isaiah 19:18–25 (later Hellenistic reading caution)"
+      ]
+    },
+    {
+      "pin_id": "SEL-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Seleucia–Ctesiphon (al-Madaʾin / Taq Kasra)",
+      "aliases": [
+        {
+          "name": "Ctesiphon",
+          "type": "biblical"
+        },
+        {
+          "name": "Seleucia",
+          "type": "biblical"
+        },
+        {
+          "name": "al-Madaʾin",
+          "type": "modern-arabic"
+        },
+        {
+          "name": "Taq Kasra",
+          "type": "modern-english"
+        },
+        {
+          "name": "al-Mada'in",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 2:9 (Parthians/Medes/Elamites at Pentecost — Mesopotamian diaspora)",
+        "1 Peter 5:13 (Babylon tradition caution)",
+        "Babylonian Jewish centers of the NT era"
+      ]
+    },
+    {
+      "pin_id": "CAI-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Caiaphas family ossuary / Peace Forest tomb (North Talpiot)",
+      "aliases": [
+        {
+          "name": "Caiaphas",
+          "type": "biblical"
+        },
+        {
+          "name": "North Talpiot",
+          "type": "modern-english"
+        },
+        {
+          "name": "Caiaphas ossuary",
+          "type": "modern-english"
+        },
+        {
+          "name": "Peace Forest tomb",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Matthew 26:3–5, 57–68",
+        "John 18:13–28",
+        "Luke 3:2",
+        "Acts 4:6"
+      ]
+    },
+    {
+      "pin_id": "DURA-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Dura-Europos — Christian building (baptistery)",
+      "aliases": [
+        {
+          "name": "baptistery",
+          "type": "modern-english"
+        },
+        {
+          "name": "Dura-Europos",
+          "type": "ancient-other"
+        },
+        {
+          "name": "Salhiyah",
+          "type": "modern-arabic"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 2:42–47",
+        "Acts 11:26 (early Christian assembly background)",
+        "Gospel scenes in murals (Good Shepherd, healing, walking on water, empty-tomb procession — art, not miracle proof)"
+      ]
+    },
+    {
+      "pin_id": "DURA-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Dura-Europos — synagogue (painted biblical narratives)",
+      "aliases": [
+        {
+          "name": "painted biblical narratives",
+          "type": "modern-english"
+        },
+        {
+          "name": "Dura synagogue",
+          "type": "modern-english"
+        },
+        {
+          "name": "Dura-Europos",
+          "type": "ancient-other"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 13–18 (diaspora synagogue background)",
+        "Hebrew Bible narrative scenes in wall paintings (not NT miracle proof)"
+      ]
+    },
+    {
+      "pin_id": "OSTIA-01",
+      "layer": "nt-digs.geojson",
+      "display_name": "Ostia Antica — synagogue (dedicated diaspora Jewish pin)",
+      "aliases": [
+        {
+          "name": "dedicated diaspora Jewish pin",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ostia Antica",
+          "type": "modern-english"
+        },
+        {
+          "name": "Ostia synagogue",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Acts 28:11–16",
+        "Romans 1:7",
+        "Romans 16 (diaspora Jewish / port-of-Rome background — not a dig of Paul)"
+      ]
+    },
+    {
+      "pin_id": "SAR-02",
+      "layer": "nt-digs.geojson",
+      "display_name": "Sardis — synagogue (dedicated sub-feature)",
+      "aliases": [
+        {
+          "name": "Sardis",
+          "type": "biblical"
+        },
+        {
+          "name": "dedicated sub-feature",
+          "type": "modern-english"
+        },
+        {
+          "name": "Sart",
+          "type": "modern-turkish"
+        },
+        {
+          "name": "Sardis synagogue",
+          "type": "modern-english"
+        }
+      ],
+      "lsb_refs": [
+        "Revelation 1:11",
+        "Revelation 3:1–6 (same city as the church addressed in Revelation",
+        "synagogue illuminates Jewish Sardis continuity)"
+      ]
+    }
+  ],
+  "flagged_same_place_shared_aliases": [
+    {
+      "alias_norm": "armageddon",
+      "alias_examples": [
+        "Armageddon"
+      ],
+      "pins": [
+        {
+          "pin_id": "MEG-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo (Tell el-Mutesellim)"
+        },
+        {
+          "pin_id": "MEG-02,MEG-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo"
+        }
+      ]
+    },
+    {
+      "alias_norm": "babel",
+      "alias_examples": [
+        "Babel"
+      ],
+      "pins": [
+        {
+          "pin_id": "BAB-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Babylon"
+        },
+        {
+          "pin_id": "CYR-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Babylon (Cyrus Cylinder findspot)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "bethsaida",
+      "alias_examples": [
+        "Bethsaida"
+      ],
+      "pins": [
+        {
+          "pin_id": "BETHS-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Bethsaida candidate — et-Tell"
+        },
+        {
+          "pin_id": "BETHS-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Bethsaida candidate — el-Araj (Beit ha-Bek)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "capernaum",
+      "alias_examples": [
+        "Capernaum"
+      ],
+      "pins": [
+        {
+          "pin_id": "CAP-01,CAP-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Capernaum (Kefar Nahum)"
+        },
+        {
+          "pin_id": "CAP-03",
+          "layer": "nt-digs.geojson",
+          "display_name": "Capernaum — Greek Orthodox property (eastern)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "city of david",
+      "alias_examples": [
+        "City of David"
+      ],
+      "pins": [
+        {
+          "pin_id": "COD-01,COD-02,COD-04",
+          "layer": "ot-digs.geojson",
+          "display_name": "Jerusalem – City of David"
+        },
+        {
+          "pin_id": "COD-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Jerusalem – City of David / Gihon"
+        },
+        {
+          "pin_id": "JER-NT-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — Pilgrimage Road (Stepped Street)"
+        },
+        {
+          "pin_id": "JER-NT-04",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — City of David (Givati Parking Lot / Area G NT layers)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "dan",
+      "alias_examples": [
+        "Dan"
+      ],
+      "pins": [
+        {
+          "pin_id": "DAN-01,DAN-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan (Tell el-Qadi)"
+        },
+        {
+          "pin_id": "DAN-STELE",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan"
+        }
+      ]
+    },
+    {
+      "alias_norm": "decapolis",
+      "alias_examples": [
+        "Decapolis"
+      ],
+      "pins": [
+        {
+          "pin_id": "HIPP-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Hippos / Sussita (Decapolis)"
+        },
+        {
+          "pin_id": "GAD-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Umm Qais (Gadara) — Decapolis"
+        },
+        {
+          "pin_id": "GER-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Gerasa / Jerash (Decapolis)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "dura europos",
+      "alias_examples": [
+        "Dura-Europos"
+      ],
+      "pins": [
+        {
+          "pin_id": "DURA-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Dura-Europos — Christian building (baptistery)"
+        },
+        {
+          "pin_id": "DURA-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Dura-Europos — synagogue (painted biblical narratives)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "jericho",
+      "alias_examples": [
+        "Jericho"
+      ],
+      "pins": [
+        {
+          "pin_id": "JER-01,JER-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Jericho (Tell es-Sultan)"
+        },
+        {
+          "pin_id": "JERNT-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jericho — Herodian / NT-era Tulul Abu el-Alayiq & related"
+        }
+      ]
+    },
+    {
+      "alias_norm": "jerusalem",
+      "alias_examples": [
+        "Jerusalem"
+      ],
+      "pins": [
+        {
+          "pin_id": "COD-01,COD-02,COD-04",
+          "layer": "ot-digs.geojson",
+          "display_name": "Jerusalem – City of David"
+        },
+        {
+          "pin_id": "JER-NT-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — Pilgrimage Road (Stepped Street)"
+        },
+        {
+          "pin_id": "JER-NT-03",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall"
+        },
+        {
+          "pin_id": "JER-NT-04",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — City of David (Givati Parking Lot / Area G NT layers)"
+        },
+        {
+          "pin_id": "WW-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area"
+        }
+      ]
+    },
+    {
+      "alias_norm": "kefar nahum",
+      "alias_examples": [
+        "Kefar Nahum"
+      ],
+      "pins": [
+        {
+          "pin_id": "CAP-01,CAP-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Capernaum (Kefar Nahum)"
+        },
+        {
+          "pin_id": "CAP-03",
+          "layer": "nt-digs.geojson",
+          "display_name": "Capernaum — Greek Orthodox property (eastern)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "khirbet qumran",
+      "alias_examples": [
+        "Khirbet Qumran"
+      ],
+      "pins": [
+        {
+          "pin_id": "QUM-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Qumran (Khirbet Qumran)"
+        },
+        {
+          "pin_id": "QUM-NT-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Qumran"
+        }
+      ]
+    },
+    {
+      "alias_norm": "lachish",
+      "alias_examples": [
+        "Lachish"
+      ],
+      "pins": [
+        {
+          "pin_id": "LAC-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish (Tell ed-Duweir)"
+        },
+        {
+          "pin_id": "LAC-02,LAC-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish"
+        }
+      ]
+    },
+    {
+      "alias_norm": "megiddo",
+      "alias_examples": [
+        "Megiddo"
+      ],
+      "pins": [
+        {
+          "pin_id": "MEG-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo (Tell el-Mutesellim)"
+        },
+        {
+          "pin_id": "MEG-02,MEG-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo"
+        }
+      ]
+    },
+    {
+      "alias_norm": "metzada",
+      "alias_examples": [
+        "Metzada"
+      ],
+      "pins": [
+        {
+          "pin_id": "MAS-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Masada"
+        },
+        {
+          "pin_id": "MAS-NT-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Masada"
+        }
+      ]
+    },
+    {
+      "alias_norm": "nazareth",
+      "alias_examples": [
+        "Nazareth"
+      ],
+      "pins": [
+        {
+          "pin_id": "NAZ-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Nazareth — International Marian Center house"
+        },
+        {
+          "pin_id": "NAZ-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Nazareth — Sisters of Nazareth Convent"
+        }
+      ]
+    },
+    {
+      "alias_norm": "ostia antica",
+      "alias_examples": [
+        "Ostia Antica"
+      ],
+      "pins": [
+        {
+          "pin_id": "ROME-03",
+          "layer": "nt-digs.geojson",
+          "display_name": "Rome — Ostia Antica (port of Rome) & related Pauline journey context"
+        },
+        {
+          "pin_id": "OSTIA-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Ostia Antica — synagogue (dedicated diaspora Jewish pin)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "pithom",
+      "alias_examples": [
+        "Pithom"
+      ],
+      "pins": [
+        {
+          "pin_id": "RET-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tell el-Retaba (Wadi Tumilat) — Pithom candidate"
+        },
+        {
+          "pin_id": "MSK-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tell el-Maskhuta (Wadi Tumilat) — Pithom / Succoth candidate"
+        }
+      ]
+    },
+    {
+      "alias_norm": "rome",
+      "alias_examples": [
+        "Rome"
+      ],
+      "pins": [
+        {
+          "pin_id": "ROME-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Rome — Catacombs (Callixtus, Sebastiano, Priscilla, et al.)"
+        },
+        {
+          "pin_id": "ROME-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition"
+        },
+        {
+          "pin_id": "ROME-03",
+          "layer": "nt-digs.geojson",
+          "display_name": "Rome — Ostia Antica (port of Rome) & related Pauline journey context"
+        }
+      ]
+    },
+    {
+      "alias_norm": "samaria",
+      "alias_examples": [
+        "Samaria"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAM-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste / Shomron)"
+        },
+        {
+          "pin_id": "SAM-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste)"
+        },
+        {
+          "pin_id": "SAM-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Samaria / Sebaste (NT-period Herodian city)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "sardis",
+      "alias_examples": [
+        "Sardis"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAR-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Sardis (Sart) — Revelation church city"
+        },
+        {
+          "pin_id": "SAR-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Sardis — synagogue (dedicated sub-feature)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "sart",
+      "alias_examples": [
+        "Sart"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAR-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Sardis (Sart) — Revelation church city"
+        },
+        {
+          "pin_id": "SAR-02",
+          "layer": "nt-digs.geojson",
+          "display_name": "Sardis — synagogue (dedicated sub-feature)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "sebaste",
+      "alias_examples": [
+        "Sebaste"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAM-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste / Shomron)"
+        },
+        {
+          "pin_id": "SAM-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste)"
+        },
+        {
+          "pin_id": "SAM-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Samaria / Sebaste (NT-period Herodian city)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "sebastia",
+      "alias_examples": [
+        "Sebastia"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAM-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste / Shomron)"
+        },
+        {
+          "pin_id": "SAM-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste)"
+        },
+        {
+          "pin_id": "SAM-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Samaria / Sebaste (NT-period Herodian city)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "shomron",
+      "alias_examples": [
+        "Shomron"
+      ],
+      "pins": [
+        {
+          "pin_id": "SAM-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste / Shomron)"
+        },
+        {
+          "pin_id": "SAM-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Samaria (Sebaste)"
+        },
+        {
+          "pin_id": "SAM-01",
+          "layer": "nt-digs.geojson",
+          "display_name": "Samaria / Sebaste (NT-period Herodian city)"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tall dan",
+      "alias_examples": [
+        "Tall Dan"
+      ],
+      "pins": [
+        {
+          "pin_id": "DAN-01,DAN-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan (Tell el-Qadi)"
+        },
+        {
+          "pin_id": "DAN-STELE",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tall lachish",
+      "alias_examples": [
+        "Tall Lachish"
+      ],
+      "pins": [
+        {
+          "pin_id": "LAC-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish (Tell ed-Duweir)"
+        },
+        {
+          "pin_id": "LAC-02,LAC-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tall megiddo",
+      "alias_examples": [
+        "Tall Megiddo"
+      ],
+      "pins": [
+        {
+          "pin_id": "MEG-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo (Tell el-Mutesellim)"
+        },
+        {
+          "pin_id": "MEG-02,MEG-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell dan",
+      "alias_examples": [
+        "Tell Dan"
+      ],
+      "pins": [
+        {
+          "pin_id": "DAN-01,DAN-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan (Tell el-Qadi)"
+        },
+        {
+          "pin_id": "DAN-STELE",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell ed duweir",
+      "alias_examples": [
+        "Tell ed-Duweir"
+      ],
+      "pins": [
+        {
+          "pin_id": "LAC-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish (Tell ed-Duweir)"
+        },
+        {
+          "pin_id": "LAC-02,LAC-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell el mutesellim",
+      "alias_examples": [
+        "Tell el-Mutesellim"
+      ],
+      "pins": [
+        {
+          "pin_id": "MEG-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo (Tell el-Mutesellim)"
+        },
+        {
+          "pin_id": "MEG-02,MEG-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell el qadi",
+      "alias_examples": [
+        "Tell el-Qadi"
+      ],
+      "pins": [
+        {
+          "pin_id": "DAN-01,DAN-02",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan (Tell el-Qadi)"
+        },
+        {
+          "pin_id": "DAN-STELE",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Dan"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell lachish",
+      "alias_examples": [
+        "Tell Lachish"
+      ],
+      "pins": [
+        {
+          "pin_id": "LAC-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish (Tell ed-Duweir)"
+        },
+        {
+          "pin_id": "LAC-02,LAC-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Lachish"
+        }
+      ]
+    },
+    {
+      "alias_norm": "tell megiddo",
+      "alias_examples": [
+        "Tell Megiddo"
+      ],
+      "pins": [
+        {
+          "pin_id": "MEG-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo (Tell el-Mutesellim)"
+        },
+        {
+          "pin_id": "MEG-02,MEG-03",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tel Megiddo"
+        }
+      ]
+    },
+    {
+      "alias_norm": "wadi tumilat",
+      "alias_examples": [
+        "Wadi Tumilat"
+      ],
+      "pins": [
+        {
+          "pin_id": "RET-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tell el-Retaba (Wadi Tumilat) — Pithom candidate"
+        },
+        {
+          "pin_id": "MSK-01",
+          "layer": "ot-digs.geojson",
+          "display_name": "Tell el-Maskhuta (Wadi Tumilat) — Pithom / Succoth candidate"
+        }
+      ]
+    }
+  ],
+  "flagged_unresolved_collisions": [],
+  "aliases_removed_for_collision": [
+    {
+      "alias": "Antioch",
+      "removed_from": "ANTP-01",
+      "layer": "nt-digs.geojson",
+      "kept_on": "ANT-01"
+    },
+    {
+      "alias": "et-Tell",
+      "removed_from": "BETHS-01",
+      "layer": "nt-digs.geojson",
+      "kept_on": "AI-01"
+    }
+  ]
+}

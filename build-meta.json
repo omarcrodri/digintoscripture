@@ -9,8 +9,8 @@
     "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
     "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
     "Tall Nimrin / Tall Kafrayn (Kefrein) and Kikkar companions (northern theory cluster)",
-    "Dead Sea region (general) \u2014 volcanic hypothesis",
-    "Tall el-Hammam / Dead Sea region \u2014 ground impact crater claim",
+    "Dead Sea region (general) — volcanic hypothesis",
+    "Tall el-Hammam / Dead Sea region — ground impact crater claim",
     "Bab edh-Dhra / Numeira"
   ],
   "story_default": "sodom",
@@ -30,25 +30,25 @@
     "Heshbon (Tell Hesban)"
   ],
   "nt_unconfirmed_sites": [
-    "Kursi (Gergesa tradition) \u2014 E Shore Galilee",
-    "Emmaus candidates \u2014 Emmaus Nicopolis (Imwas / Canada Park area)",
+    "Kursi (Gergesa tradition) — E Shore Galilee",
+    "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
     "Patmos (Apocalypse cave tradition / early Christian remains)",
-    "Rome \u2014 Vatican Necropolis / St. Peter\u2019s tomb tradition",
-    "Malta \u2014 Acts shipwreck candidate sites (St. Paul\u2019s Bay / traditional)",
-    "Umm Qais (Gadara) \u2014 Decapolis"
+    "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+    "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+    "Umm Qais (Gadara) — Decapolis"
   ],
   "contested_overlaps_skipped_unconfirmed": [
     "Ai (et-Tell)",
-    "Bethsaida candidate \u2014 el-Araj (Beit ha-Bek)",
-    "Bethsaida candidate \u2014 et-Tell",
+    "Bethsaida candidate — el-Araj (Beit ha-Bek)",
+    "Bethsaida candidate — et-Tell",
     "Ebla (Tell Mardikh)",
     "Herodium (Herodion)",
     "Jericho (Tell es-Sultan)",
-    "Jerusalem \u2013 City of David",
-    "Jerusalem \u2013 City of David / Gihon",
+    "Jerusalem – City of David",
+    "Jerusalem – City of David / Gihon",
     "Khirbet Qeiyafa",
-    "Mount Ararat / Do\u011fubayaz\u0131t region (flood-tradition archaeology caution row)",
-    "Nazareth \u2014 Sisters of Nazareth Convent",
+    "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
+    "Nazareth — Sisters of Nazareth Convent",
     "Shechem (Tell Balata)",
     "Tel Gezer",
     "Tel Hazor",
@@ -72,11 +72,11 @@
     "philip": "#c084fc",
     "john": "#e11d48"
   },
-  "prototype_updated": "2026-10-04 21:37 CDT",
+  "prototype_updated": "2026-10-05 22:55 CDT",
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-t",
+  "build": "20261001-v",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -98,9 +98,11 @@
     "selected_pin": "cyan halo + slight scale on selected marker; clears with story panel",
     "site_status": "status_kind dig|visitor|none; Dig status vs Open/Closed + optional visitor_hours (build 20261001-l)",
     "pin_cluster": "Leaflet.markercluster 1.5.3 (vendor); spiderfyOnMaxZoom for stacked/near-duplicate pins; per point-layer MarkerClusterGroup; trade/ministry LineStrings unclustered (build 20261001-m)",
-    "event_path_layers": "Wired 20261001-n from Surveyor event-routes-site-truth-2026-10-01 \u2014 9 routes off-by-default in More layers; Jonah deferred",
+    "event_path_layers": "Wired 20261001-n from Surveyor event-routes-site-truth-2026-10-01 — 9 routes off-by-default in More layers; Jonah deferred",
     "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels",
-    "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full"
+    "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full",
+    "search_aliases": "build 20261001-u: Surveyor ancient/modern alt names in top search",
+    "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status"
   },
   "status_kind_counts": {
     "totals": {
@@ -212,7 +214,8 @@
       "artifacts",
       "sponsor-eb",
       "sponsor-alb",
-      "sponsor-snr"
+      "sponsor-snr",
+      "ministry-places"
     ],
     "unclustered": [
       "trade (LineStrings+hubs)",
@@ -282,7 +285,7 @@
     "fill_opacity": 0.35,
     "separate_from": "empire_snapshots",
     "blurbs": true,
-    "panel_order": "level \u2192 blurb \u2192 date \u2192 State link",
+    "panel_order": "level → blurb → date → State link",
     "bangladesh_level": 2
   },
   "empire_snapshots": {
@@ -333,5 +336,89 @@
     ],
     "default": "off",
     "note": "Filter chips on existing pins. Not markers. Not polygons. Masada and Jericho are not tagged."
+  },
+  "search_aliases": {
+    "build": "20261001-u",
+    "source_pack": "search-aliases-site-truth-2026-10-05.json",
+    "json": "search-aliases.json",
+    "pins": 179,
+    "aliases": 650,
+    "disputed_identification_pins": 16,
+    "matching": "case+accent insensitive; Tell/Tel/Tall and Khirbet/Khirbat/Horvat interchangeable; also called on alias hits",
+    "no_wikipedia": true,
+    "no_new_pins": true
+  },
+  "legend": {
+    "visible": false,
+    "removed": true,
+    "note": "Removed entirely 2026-10-05 per Marcial"
+  },
+  "threat_level": {
+    "source": "U.S. State travel advisory snapshot 2026-10-04",
+    "placement": "below dig status / Open-Closed badge in details drawer",
+    "lookup": "point-in-polygon on travel-advisory-fills.geojson, then location country name fallback"
+  },
+  "pin_travel_advisory": {
+    "build": "20261001-v",
+    "source_pack": "pin-travel-advisory-map-2026-10-05.json",
+    "json": "pin-travel-advisory.json",
+    "rows": 179,
+    "join": "pin_id + layer",
+    "drawer": "Travel advisory: Level N, label + blurb + State Dept updated + travel.state.gov link",
+    "west_bank_gaza": "State separate rows; Jerusalem = Israel"
+  },
+  "visitor_rules": {
+    "source_pack": "visitor-rules-site-truth-2026-10-05.json",
+    "json": "visitor-rules.json",
+    "rows": 25,
+    "pins": 24,
+    "join": "pin_id + layer",
+    "placement": "under travel advisory; JER-NT-03 two lines in file order",
+    "policebot": "SAFE 2026-10-05"
+  },
+  "welcome": {
+    "control": "? button above Layers",
+    "first_run": "localStorage digintoscripture_welcome_seen_v1",
+    "copy": "Surveyor draft 2026-10-05"
+  },
+  "ministry_places": {
+    "build": "20261001-v",
+    "source_pack": "creation-attractions-pins-2026-10-05.json",
+    "geojson": "ministry-places.geojson",
+    "layer_id": "ministry_places",
+    "toggle": "tog-ministry-places",
+    "pins": 3,
+    "ids": [
+      "ARK-ENC-01",
+      "CRM-01",
+      "HYS-01"
+    ],
+    "default": "off",
+    "locks": [
+      "gallery link-out only",
+      "press /press/ page only — no zip download",
+      "no kit photos",
+      "no /workspace in Sources"
+    ],
+    "drawer": "attraction vs publisher order per Surveyor wire"
+  },
+  "divine_name": {
+    "build": "20261001-v",
+    "source_pack": "tetragrammaton-site-truth-2026-10-05.json",
+    "json": "tetragrammaton-display.json",
+    "display_rows": 137,
+    "footnote_on": 113,
+    "join": "pin_id + layer",
+    "placement": "under Bible (LSB) verse list; contested uses caption-only when footnote off",
+    "font": "vendor/noto-sans-phoenician/NotoSansPhoenician-Regular.ttf",
+    "ofl": "vendor/noto-sans-phoenician/OFL.txt",
+    "font_source": "notofonts/phoenician release NotoSansPhoenician-v2.001 full/ttf",
+    "footnote_override": "SOL-01 Egyptian yhwꜣ line",
+    "cbg14_doi_fix": "10.1186/s40494-023-01130-z",
+    "policebot_dropped": [
+      "halleluyahscripturesfree.com",
+      "emanueltov.info"
+    ],
+    "linguist": "cleared 2026-10-05"
   }
 }

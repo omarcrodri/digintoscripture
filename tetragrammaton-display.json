@@ -1,0 +1,1111 @@
+{
+  "version": "2026-10-05",
+  "product": "DigIntoScripture Divine Name display",
+  "source_pack": "tetragrammaton-site-truth-2026-10-05.json",
+  "display_lock": {
+    "footnote": "Divine Name: יהוה / Paleo 𐤉𐤄𐤅𐤄 (YHWH).",
+    "fallback": "Divine Name: יהוה (YHWH). Paleo font unavailable.",
+    "order": "modern then Paleo",
+    "pointed": false,
+    "paleo_glyph_note": "Unicode Phoenician letters stand in for Paleo-Hebrew; the letter shapes are close but not identical to any one inscription’s hand."
+  },
+  "paleo_glyph_note": "Unicode Phoenician letters stand in for Paleo-Hebrew; the letter shapes are close but not identical to any one inscription’s hand.",
+  "display": [
+    {
+      "pin_id": "KET-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "On these amulets the Name is written YHWH in Old Hebrew (Paleo) letters.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "ART-03",
+      "layer": "artifacts",
+      "show_name_footnote": true,
+      "caption": "On these amulets the Name is written YHWH in Old Hebrew (Paleo) letters.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "DIB-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Moab’s King Mesha carved the Name as YHWH, in letters close to Old Hebrew.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "ART-06",
+      "layer": "artifacts",
+      "show_name_footnote": true,
+      "caption": "Moab’s King Mesha carved the Name as YHWH, in letters close to Old Hebrew.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "LAC-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Officers at Lachish wrote the Name as YHWH in Old Hebrew letters.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "ARA-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Soldiers’ notes from the Arad fort write the Name as YHWH in Old Hebrew letters.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "KAJ-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Travelers here wrote blessings by \"YHWH of Samaria\" and \"YHWH of Teman.\"",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "SOL-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "These are Egyptian hieroglyphs (yhwꜣ), not Hebrew or Paleo letters. Whether it names a place, a tribe, or God is debated.",
+      "footnote_override": "Related form in Egyptian: yhwꜣ (not Hebrew letters).",
+      "solidity": "mixed"
+    },
+    {
+      "pin_id": "QUM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Some scrolls from these caves use Paleo letters for the Name inside square-script text.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "QUM-NT-01",
+      "layer": "nt-digs",
+      "show_name_footnote": true,
+      "caption": "Some scrolls from these caves use Paleo letters for the Name inside square-script text.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "ART-08",
+      "layer": "artifacts",
+      "show_name_footnote": true,
+      "caption": "Some of these scrolls use Paleo letters for the Name inside square-script text.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "SAM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": "Names on these sherds contain the short form YW (yaw), not the full four-letter Name.",
+      "footnote_override": null,
+      "solidity": "strong"
+    },
+    {
+      "pin_id": "CBG-14",
+      "layer": "contested-hypotheses",
+      "show_name_footnote": false,
+      "caption": "Claimed YHW reading; most epigraphers do not accept it.",
+      "footnote_override": null,
+      "solidity": "weak"
+    },
+    {
+      "pin_id": "MEG-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MEG-02,MEG-03",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "HAZ-01,HAZ-02",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "LAC-02,LAC-03",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "JER-01,JER-02",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "COD-01,COD-02,COD-04",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "COD-03",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "GEZ-01,GEZ-02",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BEE-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "GIB-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SHE-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BSH-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ASH-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EKR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "REH-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SHI-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "AI-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "TIM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "JEZ-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "HEB-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "DEA-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ATA-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "UGA-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EBL-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BYB-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "TYR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "AMA-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "KAR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SER-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "NIN-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "NIM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "KHO-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BAB-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "UR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MAR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "NIP-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SUS-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "CYR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PER-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PAS-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SID-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "DAN-STELE",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ASD-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "APK-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ABM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "AZK-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BSM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "HAR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "TIR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BET-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PEL-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "TIMV-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MIZ-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MOT-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "RAR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BUS-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ZIN-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MEM-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "NUZ-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ERI-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "GIR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "LAR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SIP-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "KSH-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "DKZ-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ANS-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "CHO-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "SAI-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "BIS-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "TJR-01",
+      "layer": "ot-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "MER-01",
+      "layer": "ot-digs",
+      "show_name_footnote": false,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "JOP-01",
+      "layer": "nt-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "NAU-01",
+      "layer": "nt-digs",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ART-07",
+      "layer": "artifacts",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "ART-10",
+      "layer": "artifacts",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-04",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-07",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-08",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-11",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-14",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-15",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-17",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-18",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-19",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-38",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-39",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-40",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-41",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-42",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-43",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-50",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-51",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-52",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-53",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-55",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-56",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-57",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "EW-58",
+      "layer": "exodus-wilderness",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-01",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-02",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-03",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-04",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-07",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-09",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-10",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-11",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-12",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-13",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-14",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-15",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-16",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-17",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-18",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-19",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-20",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-21",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-22",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-23",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-24",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-25",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-26",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-27",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-28",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    },
+    {
+      "pin_id": "PR-29",
+      "layer": "prophets",
+      "show_name_footnote": true,
+      "caption": null,
+      "footnote_override": null,
+      "solidity": null
+    }
+  ]
+}

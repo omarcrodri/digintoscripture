@@ -1,0 +1,483 @@
+{
+ "version": "2026-10-05",
+ "product": "DigIntoScripture visitor rules (site truth, sparse)",
+ "join_key": "pin_id + layer ('ot-digs' / 'nt-digs', same as pin-travel-advisory-map; geojson property is ot_digs / nt_digs). Composite ids kept whole. SAM-01 in both layers: no row.",
+ "wire_notes": [
+  "Render 'Visitor rules: <rule_line>' directly under the travel advisory section in the pin drawer.",
+  "No row for a pin = no line, no heading.",
+  "JER-NT-03 has 2 rows (Western Wall, then Temple Mount): render each as its own 'Visitor rules:' line in file order.",
+  "Under the line, small text: 'As of <as_of> · <source link>' using source_url (label from source_name or host).",
+  "Do not render note, solidity, or rule_type; those are for the team.",
+  "rule_line is our own paraphrase except short quoted U.S. government phrasing; do not replace it with source text."
+ ],
+ "rows": [
+  {
+   "pin_id": "JER-NT-03",
+   "layer": "nt-digs",
+   "pin_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+   "rule_line": "Dress modestly and do not bring your own Torah scroll to the Western Wall plaza. On the Sabbath and Jewish holidays, photos and electronic devices are not allowed. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "religious-items",
+    "photography"
+   ],
+   "source_name": "Western Wall Heritage Foundation — Guidelines for Behavior at the Western Wall",
+   "source_url": "https://thekotel.org/en/visitor_information/guidelines-for-behavior-at-the-western-wall/",
+   "source_type": "site-authority",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "WWHF official 'Respectful Conduct' list (dress appropriately; no Torah scrolls brought into the plaza; on Sabbath/holidays no electronic devices or pictures). Main plaza prayer is gender-separated; an egalitarian platform sits south of the Mughrabi Bridge (State 2023 IRF)."
+  },
+  {
+   "pin_id": "JER-NT-03",
+   "layer": "nt-digs",
+   "pin_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+   "rule_line": "Non-Muslims may visit the Temple Mount (Haram al-Sharif) only through the Mughrabi Gate at set hours and may not enter the Dome of the Rock or al-Aqsa Mosque. Non-Muslim prayer is officially barred under the long-standing status quo, and police screen visitors for religious items, but enforcement has shifted in recent years. Check before you go.",
+   "rule_type": [
+    "faith-access",
+    "prayer-rules",
+    "hours-gates",
+    "religious-items"
+   ],
+   "source_name": "U.S. Department of State — 2023 Report on International Religious Freedom: West Bank and Gaza (covers East Jerusalem)",
+   "source_url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/israel-west-bank-and-gaza/west-bank-and-gaza/",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "Second row for this pin: the Mughrabi Gate (only non-Muslim entrance) is reached from the Western Wall plaza. State's 2023 IRF report (latest published; covers calendar 2023): Israel backs the status quo allowing non-Muslim visitors but prohibiting non-Islamic worship; police control the Mughrabi Gate and admit visitors during set hours; the Waqf keeps non-Muslims out of the Dome of the Rock and al-Aqsa; police screen non-Muslims for religious articles; the report also records Jewish prayer on the site and says police generally allowed discreet non-Muslim prayer. Site has also closed to non-Muslims in the last 10 days of Ramadan. Contested: Israeli government, Jordan/Waqf and Temple Mount groups describe the rules differently; wording kept neutral."
+  },
+  {
+   "pin_id": "WW-01",
+   "layer": "nt-digs",
+   "pin_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+   "rule_line": "Non-Muslims may visit the Temple Mount (Haram al-Sharif) only through the Mughrabi Gate at set hours and may not enter the Dome of the Rock or al-Aqsa Mosque. Non-Muslim prayer is officially barred under the long-standing status quo, and police screen visitors for religious items, but enforcement has shifted in recent years. Check before you go.",
+   "rule_type": [
+    "faith-access",
+    "prayer-rules",
+    "hours-gates",
+    "religious-items"
+   ],
+   "source_name": "U.S. Department of State — 2023 Report on International Religious Freedom: West Bank and Gaza (covers East Jerusalem)",
+   "source_url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/israel-west-bank-and-gaza/west-bank-and-gaza/",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "Southern Temple Mount / Robinson's Arch pin sits at the foot of the Mughrabi ramp. State's 2023 IRF report (latest published; covers calendar 2023): Israel backs the status quo allowing non-Muslim visitors but prohibiting non-Islamic worship; police control the Mughrabi Gate and admit visitors during set hours; the Waqf keeps non-Muslims out of the Dome of the Rock and al-Aqsa; police screen non-Muslims for religious articles; the report also records Jewish prayer on the site and says police generally allowed discreet non-Muslim prayer. Site has also closed to non-Muslims in the last 10 days of Ramadan. Contested: Israeli government, Jordan/Waqf and Temple Mount groups describe the rules differently; wording kept neutral."
+  },
+  {
+   "pin_id": "HEB-01",
+   "layer": "ot-digs",
+   "pin_name": "Hebron (Tel Rumeida)",
+   "rule_line": "Hebron is split into a Palestinian Authority zone (H1) and a zone under Israeli military control (H2) that includes the Cave of the Patriarchs (Ibrahimi Mosque). At the Cave, Jews and Muslims pray in separate sections, and the army closes it to each faith on about 10 of the other faith's holidays a year. Check before you go.",
+   "rule_type": [
+    "military-zone",
+    "faith-access",
+    "prayer-rules"
+   ],
+   "source_name": "U.S. Department of State — 2023 Report on International Religious Freedom: West Bank and Gaza (covers East Jerusalem)",
+   "source_url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/israel-west-bank-and-gaza/west-bank-and-gaza/",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "State 2023 IRF: H1/H2 split; IDF controls access to the Ibrahimi Mosque/Tomb of the Patriarchs, restricts Muslim access ~10 days on Jewish holidays and Jewish access ~10 days on Islamic holidays, Muslims use one entry point with metal detectors; physical separation since 1994. Pin is Tel Rumeida, a short walk from the Cave; the source does not name Tel Rumeida, so the line is phrased at city level. Palestinian and Israeli officials dispute control of the site."
+  },
+  {
+   "pin_id": "JER-01,JER-02",
+   "layer": "ot-digs",
+   "pin_name": "Jericho (Tell es-Sultan)",
+   "rule_line": "Israeli citizens, including dual U.S.-Israeli citizens, are generally barred by Israel from entering Area A of the West Bank, which includes Jericho. Check before you go.",
+   "rule_type": [
+    "citizenship-access"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Israel, the West Bank and Gaza",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/IsraeltheWestBankandGaza.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel/WB/Gaza country page (last updated 2025-03-28): Israeli citizens 'are generally prohibited from traveling to parts of the West Bank under PA control (Area A), to include Bethlehem and Jericho'; same page says Israel treats dual U.S.-Israeli citizens as Israeli citizens. State's 2023 IRF report adds that large Israeli road signs warn Israelis entry is illegal, and that some Israeli citizens still visit privately. Applies to Israeli citizens only, not other visitors."
+  },
+  {
+   "pin_id": "BETHL-01",
+   "layer": "nt-digs",
+   "pin_name": "Bethlehem — Church of the Nativity / early Christian complex",
+   "rule_line": "Israeli citizens, including dual U.S.-Israeli citizens, are generally barred by Israel from entering Area A of the West Bank, which includes Bethlehem and the Church of the Nativity. Check before you go.",
+   "rule_type": [
+    "citizenship-access"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Israel, the West Bank and Gaza",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/IsraeltheWestBankandGaza.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel/WB/Gaza country page (last updated 2025-03-28): Israeli citizens 'are generally prohibited from traveling to parts of the West Bank under PA control (Area A), to include Bethlehem and Jericho'; same page says Israel treats dual U.S.-Israeli citizens as Israeli citizens. State's 2023 IRF report adds that large Israeli road signs warn Israelis entry is illegal, and that some Israeli citizens still visit privately. Applies to Israeli citizens only, not other visitors."
+  },
+  {
+   "pin_id": "DAN-01,DAN-02",
+   "layer": "ot-digs",
+   "pin_name": "Tel Dan (Tell el-Qadi)",
+   "rule_line": "Israeli authorities restrict travel north of Routes 85, 90, and 87 because of military activity, and this site lies inside that area. The State Department says not to travel there for any reason. Check before you go.",
+   "rule_type": [
+    "military-zone"
+   ],
+   "source_name": "U.S. Department of State — Israel Travel Advisory",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/israel-west-bank-and-gaza-travel-advisory.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel advisory (feed updated 2026-08-25), Level 4 sub-zone: 'The Israeli authorities restrict travel to areas north of Route 85 to Route 90 (south) to Route 87 due to Israeli Defense Forces presence and activity.' Inside-zone call is ours, from pin coordinates vs. the road line. Pin's advisory line still shows Israel L3; this line adds the closed zone. Tel Dan ~33.25N, at the Lebanon border, far north of Route 85."
+  },
+  {
+   "pin_id": "DAN-STELE",
+   "layer": "ot-digs",
+   "pin_name": "Tel Dan",
+   "rule_line": "Israeli authorities restrict travel north of Routes 85, 90, and 87 because of military activity, and this site lies inside that area. The State Department says not to travel there for any reason. Check before you go.",
+   "rule_type": [
+    "military-zone"
+   ],
+   "source_name": "U.S. Department of State — Israel Travel Advisory",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/israel-west-bank-and-gaza-travel-advisory.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel advisory (feed updated 2026-08-25), Level 4 sub-zone: 'The Israeli authorities restrict travel to areas north of Route 85 to Route 90 (south) to Route 87 due to Israeli Defense Forces presence and activity.' Inside-zone call is ours, from pin coordinates vs. the road line. Pin's advisory line still shows Israel L3; this line adds the closed zone. Same location as Tel Dan."
+  },
+  {
+   "pin_id": "ABM-01",
+   "layer": "ot-digs",
+   "pin_name": "Tel Abel Beth Maacah (Abil el-Qameh / Tel Avel Bet Ma‘akha)",
+   "rule_line": "Israeli authorities restrict travel north of Routes 85, 90, and 87 because of military activity, and this site lies inside that area. The State Department says not to travel there for any reason. Check before you go.",
+   "rule_type": [
+    "military-zone"
+   ],
+   "source_name": "U.S. Department of State — Israel Travel Advisory",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/israel-west-bank-and-gaza-travel-advisory.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel advisory (feed updated 2026-08-25), Level 4 sub-zone: 'The Israeli authorities restrict travel to areas north of Route 85 to Route 90 (south) to Route 87 due to Israeli Defense Forces presence and activity.' Inside-zone call is ours, from pin coordinates vs. the road line. Pin's advisory line still shows Israel L3; this line adds the closed zone. Abel Beth Maacah ~33.25N near Metulla, far north of Route 85."
+  },
+  {
+   "pin_id": "BAN-01",
+   "layer": "nt-digs",
+   "pin_name": "Caesarea Philippi / Banias (Paneas)",
+   "rule_line": "Israeli authorities restrict travel north of Routes 85, 90, and 87 because of military activity, and this site lies inside that area. The State Department says not to travel there for any reason. Check before you go.",
+   "rule_type": [
+    "military-zone"
+   ],
+   "source_name": "U.S. Department of State — Israel Travel Advisory",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/israel-west-bank-and-gaza-travel-advisory.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Israel advisory (feed updated 2026-08-25), Level 4 sub-zone: 'The Israeli authorities restrict travel to areas north of Route 85 to Route 90 (south) to Route 87 due to Israeli Defense Forces presence and activity.' Inside-zone call is ours, from pin coordinates vs. the road line. Pin's advisory line still shows Israel L3; this line adds the closed zone. Banias ~33.25N, Golan foothills, far north of Route 87."
+  },
+  {
+   "pin_id": "HAZ-01,HAZ-02",
+   "layer": "ot-digs",
+   "pin_name": "Tel Hazor",
+   "rule_line": "Israeli authorities restrict travel north of Routes 85, 90, and 87 because of military activity, and this site lies inside that area. The State Department says not to travel there for any reason. Check before you go.",
+   "rule_type": [
+    "military-zone"
+   ],
+   "source_name": "U.S. Department of State — Israel Travel Advisory",
+   "source_url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/israel-west-bank-and-gaza-travel-advisory.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "State Israel advisory (feed updated 2026-08-25), Level 4 sub-zone: 'The Israeli authorities restrict travel to areas north of Route 85 to Route 90 (south) to Route 87 due to Israeli Defense Forces presence and activity.' Inside-zone call is ours, from pin coordinates vs. the road line. Pin's advisory line still shows Israel L3; this line adds the closed zone. Hazor ~33.02N, just east of Route 90 and north of Amiad junction (east end of Route 85); inside by our reading of the road line, but close to it."
+  },
+  {
+   "pin_id": "ROME-02",
+   "layer": "nt-digs",
+   "pin_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+   "rule_line": "Visits to the Vatican Necropolis are by advance booking only, in small guided groups, and children under 10 are not admitted. Shoulders and knees must be covered, and photos and video are not allowed inside. Check before you go.",
+   "rule_type": [
+    "booking-required",
+    "age-limit",
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "Papal Basilica of Saint Peter (Fabbrica di San Pietro) — Vatican Necropolis FAQ",
+   "source_url": "https://www.basilicasanpietro.va/en/help/the-necropolis",
+   "source_type": "site-authority",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "Official Fabbrica di San Pietro FAQ: mandatory advance booking, groups of max 12 with an authorized guide, no children under 10, shoulders and knees covered, no photography/video; closed Sundays and Vatican holidays."
+  },
+  {
+   "pin_id": "ARAR-01",
+   "layer": "nt-digs",
+   "pin_name": "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
+   "rule_line": "Mount Ararat is a special military zone, and you must get access permission from a Turkish embassy or consulate before you arrive in Turkey. Check before you go.",
+   "rule_type": [
+    "military-zone",
+    "permit"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Turkey",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Turkey.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Turkey country page (last updated 2026-06-11): 'Mount Ararat, in Agri province, is a special military zone, and access permission must be obtained before coming to Turkey from a Turkish Embassy or Consulate.'"
+  },
+  {
+   "pin_id": "CAR-01",
+   "layer": "ot-digs",
+   "pin_name": "Carchemish",
+   "rule_line": "Carchemish (Karkamış) sits on the Turkey–Syria border, where Turkish security forces control access. Do not photograph or film military activity or try to enter military sites. Check before you go.",
+   "rule_type": [
+    "military-zone",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Turkey",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Turkey.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "State Turkey page: 'Turkish security forces control access to ... the entire Turkey-Syria border' and 'Do not photograph or video Turkish military operations or attempt to enter military installations anywhere in Turkey.' The site's archaeological park is open; how access works on the day is not stated by an official source we found."
+  },
+  {
+   "pin_id": "KAJ-01",
+   "layer": "ot-digs",
+   "pin_name": "Kuntillet Ajrud (Horvat Teman)",
+   "rule_line": "Egypt requires permission and a set route from Military Intelligence and the Tourist Police to visit areas near the Israel border or off paved roads in Sinai, which likely covers this remote site. Check before you go.",
+   "rule_type": [
+    "military-zone",
+    "permit"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Egypt",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Egypt.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "State Egypt page (last updated 2025-08-11): travelers must get permission and a travel route from Egyptian Military Intelligence and the Tourist Police to access borders with Israel and parts of Sinai off paved roads; all border areas are under military control. Kuntillet Ajrud is a remote NE Sinai site near the Israel border; the page does not name it. North/Middle Sinai is also a State 'avoid' area."
+  },
+  {
+   "pin_id": "TAY-01",
+   "layer": "ot-digs",
+   "pin_name": "Tayma (Tema)",
+   "rule_line": "Saudi rules do not allow the public display of non-Muslim religious items such as crosses or Bibles. Visitors should cover shoulders and knees, and photos of local people, especially women, need clear consent. Check before you go.",
+   "rule_type": [
+    "religious-items",
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Saudi Arabia",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/SaudiArabia.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Saudi Arabia page (last updated 2026-05-21), Local Laws: public display of non-Islamic religious articles such as crosses and Bibles not permitted; tourists expected to cover shoulders and knees; never photograph women without consent; no photos of military/government sites. Nationwide."
+  },
+  {
+   "pin_id": "SUS-01",
+   "layer": "ot-digs",
+   "pin_name": "Susa (Shushan)",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "PER-01",
+   "layer": "ot-digs",
+   "pin_name": "Persepolis (Takht-e Jamshid)",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "PAS-01",
+   "layer": "ot-digs",
+   "pin_name": "Pasargadae",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "ANS-01",
+   "layer": "ot-digs",
+   "pin_name": "Anshan — Tal-e Malyan",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "CHO-01",
+   "layer": "ot-digs",
+   "pin_name": "Chogha Zanbil — Dur-Untash (Elamite ziggurat)",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "ECB-01",
+   "layer": "ot-digs",
+   "pin_name": "Ecbatana — Hegmataneh (Hamadan)",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "BIS-01",
+   "layer": "ot-digs",
+   "pin_name": "Bisotun — Behistun inscription of Darius I",
+   "rule_line": "Iranian law requires a government dress code for all visitors; women must cover their hair, arms, and legs. Taking photos near military or government sites is strictly banned. Check before you go.",
+   "rule_type": [
+    "dress-code",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Iran",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Iran.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Iran country page (last updated 2025-12-11), Local Laws. Nationwide rule, applies at this site. Iran is Level 4 Do Not Travel."
+  },
+  {
+   "pin_id": "SOL-01",
+   "layer": "ot-digs",
+   "pin_name": "Soleb Temple — Shasu of Yhwȝ inscription",
+   "rule_line": "Sudan requires a travel permit from the Ministry of Tourism for trips outside greater Khartoum, and taking photos needs a separate government permit. Check before you go.",
+   "rule_type": [
+    "permit",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Sudan",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Sudan.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "mixed",
+   "note": "State Sudan page (last updated 2025-11-12): permit from the Ministry of Tourism required outside greater Khartoum; photography requires a permit from the External Information Centre. Sudan is Level 4 (armed conflict); whether the permit offices are working is unclear, so mixed."
+  },
+  {
+   "pin_id": "SAL-01",
+   "layer": "nt-digs",
+   "pin_name": "Salamis (Cyprus) — Acts 13 start",
+   "rule_line": "Salamis is in the Turkish Cypriot-administered north, so cross the UN buffer zone only at an official crossing point and show your passport. Never photograph military sites. Check before you go.",
+   "rule_type": [
+    "military-zone",
+    "photography"
+   ],
+   "source_name": "U.S. Department of State — Country Information: Cyprus",
+   "source_url": "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Cyprus.html",
+   "source_type": "us-gov",
+   "as_of": "2026-10-05",
+   "solidity": "strong",
+   "note": "State Cyprus page (last updated 2026-08-13): do not enter the UN buffer zone except at designated crossing points; cross with a valid U.S. passport at recognized checkpoints; never photograph military installations; police on both sides enforce this."
+  }
+ ],
+ "skipped": [
+  {
+   "candidate": "AJJ-01 (Gaza, Tell el-Ajjul)",
+   "reason": "Closed; State Gaza Do Not Travel already covers it; no separate site rule found."
+  },
+  {
+   "candidate": "Church of the Holy Sepulchre",
+   "reason": "Not a pin in either file."
+  },
+  {
+   "candidate": "Rachel's Tomb",
+   "reason": "Not a pin (State IRF has rules: Israeli-controlled, closed Saturdays)."
+  },
+  {
+   "candidate": "Göbekli Tepe (GOBEKLI-01)",
+   "reason": "No official dress-code or access rule found on Türkiye MoC pages; ~50 km from the Syria border, so the border-control line does not apply."
+  },
+  {
+   "candidate": "Ephesus (EPH-01)",
+   "reason": "No official dress code found; open archaeological site."
+  },
+  {
+   "candidate": "Patmos (PAT-01)",
+   "reason": "Monastery dress norms not confirmed on an official/site-authority page."
+  },
+  {
+   "candidate": "Rome catacombs (ROME-01)",
+   "reason": "Guided-tour-only format is a ticketing detail, not an access restriction; kept out for sparseness."
+  },
+  {
+   "candidate": "Shechem / Tell Balata (SHE-01), Jacob's Well (SYCH-01)",
+   "reason": "Likely in Nablus Area A, but no official source names them; follow-up."
+  },
+  {
+   "candidate": "Jericho Herodian palaces (JERNT-01)",
+   "reason": "Wadi Qelt palace area may fall partly outside Area A; not confirmed."
+  },
+  {
+   "candidate": "Chorazin (CHOR-01), Bethsaida et-Tell (BETHS-01), Capernaum (CAP-01,CAP-02 / CAP-03), el-Araj (BETHS-02), Gamla, Hippos, Kursi",
+   "reason": "Sit on or near Route 87 / Golan edge of the Israeli closed zone; inside/outside not confirmable from road names. Advisory review flags stay."
+  },
+  {
+   "candidate": "Ashkelon (ASH-01)",
+   "reason": "~12 km from Gaza, just outside the 11.3 km Do Not Travel zone; no site rule."
+  },
+  {
+   "candidate": "Tell el-Borg (BRG-01), Tell Hebua (TJR-01), Serabit el-Khadim (SER-01)",
+   "reason": "Sinai sites; could not confirm they are off paved roads or in a border zone needing a military permit."
+  },
+  {
+   "candidate": "Iraq pins (Nineveh, Babylon, Ur, etc.)",
+   "reason": "State Iraq page has no site-level permit/photo rule; Level 4 advisory covers risk."
+  },
+  {
+   "candidate": "Syria and Lebanon pins",
+   "reason": "Only general photo cautions and advisory \"avoid\" areas; no confirmed site rule."
+  },
+  {
+   "candidate": "Alalakh (ALA-01), Zincirli (ZIN-01), Antioch (ANT-01)",
+   "reason": "Border provinces but not on the border itself; no site rule."
+  },
+  {
+   "candidate": "Greece, Italy, Malta, Jordan, Egypt Nile sites",
+   "reason": "Only general laws (do not remove antiquities, no photos of police/military); not site access rules."
+  }
+ ]
+}
