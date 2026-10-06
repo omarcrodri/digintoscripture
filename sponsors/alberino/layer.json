@@ -4,9 +4,9 @@
   "chip_label": "Expedition: Alberino (sponsor)",
   "chip_short": "Alberino",
   "default_on": false,
-  "sponsor_display_name": "Timothy Alberino — Alberino Analysis / Nephcon",
-  "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity.",
-  "info_blurb": "Opt-in Alberino Analysis / Nephcon — thin Qumran attach only (Giants + Enoch). Contested Nephilim/Watchers framing; not dig consensus. Core OT/NT stay free.",
+  "sponsor_display_name": "Timothy Alberino \u2014 Alberino Analysis / Nephcon",
+  "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation \u2014 not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise Surveyor solidity.",
+  "info_blurb": "Opt-in Alberino Analysis / Nephcon expedition layer \u2014 Qumran attaches plus worldwide on-site pins (Andean megaliths, Paracas, Amazon, Bolivia Tiwanaku/Puma Punku, Montana Sage Wall, US conferences, Sardinia tombs, Costa Rica). Contested Nephilim/Watchers/catastrophe framing; not dig consensus. Core OT/NT stay free.",
   "pin_color": "#a78bfa",
   "policebot_hosts": [
     "timothyalberino.com",
@@ -16,6 +16,6 @@
     "birthrightconference.com"
   ],
   "geojson": "sites.geojson",
-  "phase": "thin",
-  "status": "live_thin"
+  "phase": "expanded",
+  "status": "live"
 }

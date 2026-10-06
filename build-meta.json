@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-ag",
+  "build": "20261001-ah",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -178,7 +178,7 @@
       },
       "sponsors/alberino/sites.geojson": {
         "dig": 0,
-        "visitor": 2,
+        "visitor": 31,
         "none": 0
       },
       "sponsors/expedition-snr/sites.geojson": {
@@ -642,5 +642,32 @@
       "Covers digs, creature finds, sponsors, Discover, and other show* story paths that call openStoryPanel",
       "Layers OT/NT/Other grouping unchanged"
     ]
+  },
+  "ah_notes": {
+    "build": "20261001-ah",
+    "date": "2026-10-06",
+    "alberino_expansion": {
+      "prior": 2,
+      "new_pins": 29,
+      "total": 31,
+      "phase": "expanded",
+      "status": "live",
+      "regions": {
+        "South America": 22,
+        "United States": 4,
+        "other": 3
+      },
+      "preserved": [
+        "SPN-alberino-01",
+        "SPN-alberino-02"
+      ],
+      "sources": [
+        "timothy-alberino-archive (all-videos.tsv + notes)",
+        "timothyalberino.com/pics captions",
+        "existing sponsor-alberino-pack-2026-09-30 off-map list"
+      ],
+      "note": "On-site / expedition / conference pins only; desk-only Giza/Hermon/Markawasi skipped. Contested framing disclosure retained."
+    },
+    "prior_ag_ux": "Details drawer scroll reset retained from 20261001-ag"
   }
 }
