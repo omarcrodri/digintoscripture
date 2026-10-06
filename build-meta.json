@@ -72,11 +72,11 @@
     "philip": "#c084fc",
     "john": "#e11d48"
   },
-  "prototype_updated": "2026-10-06 17:15 CDT",
+  "prototype_updated": "2026-10-06 17:20 CDT",
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-ai",
+  "build": "20261001-aj",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -776,5 +776,64 @@
       "note": "Surveyor narrative merged onto live ids by place/coords; pack ids not reused for appends. Hermon/Giza added as teaching-locus (visit_confirmed=false). No existing live pins removed."
     },
     "prior_ah": "Alberino expansion 31 pins (20261001-ah)"
+  },
+  "aj_notes": {
+    "build": "20261001-aj",
+    "date": "2026-10-06",
+    "alberino_bot_name_scrub": {
+      "pins_text_changed": 38,
+      "pin_ids": [
+        "SPN-alberino-01",
+        "SPN-alberino-02",
+        "SPN-alberino-03",
+        "SPN-alberino-04",
+        "SPN-alberino-05",
+        "SPN-alberino-06",
+        "SPN-alberino-07",
+        "SPN-alberino-08",
+        "SPN-alberino-09",
+        "SPN-alberino-10",
+        "SPN-alberino-11",
+        "SPN-alberino-12",
+        "SPN-alberino-13",
+        "SPN-alberino-14",
+        "SPN-alberino-15",
+        "SPN-alberino-16",
+        "SPN-alberino-17",
+        "SPN-alberino-18",
+        "SPN-alberino-19",
+        "SPN-alberino-20",
+        "SPN-alberino-21",
+        "SPN-alberino-22",
+        "SPN-alberino-23",
+        "SPN-alberino-24",
+        "SPN-alberino-25",
+        "SPN-alberino-26",
+        "SPN-alberino-27",
+        "SPN-alberino-28",
+        "SPN-alberino-29",
+        "SPN-alberino-30",
+        "SPN-alberino-31",
+        "SPN-alberino-32",
+        "SPN-alberino-33",
+        "SPN-alberino-34",
+        "SPN-alberino-35",
+        "SPN-alberino-36",
+        "SPN-alberino-37",
+        "SPN-alberino-38"
+      ],
+      "ui_label": "sponsorCtaHtml: Surveyor solidity → Confidence",
+      "replacements": [
+        "do not raise Surveyor solidity → dig-consensus confidence",
+        "outbound host for PoliceBot → outbound visitor-site host"
+      ],
+      "keys_kept": [
+        "surveyor_solidity",
+        "surveyor_caveat",
+        "policebot_hosts"
+      ],
+      "note": "User-visible Alberino detail strings scrubbed of bot teammate names; contested framing retained."
+    },
+    "prior_ai": "Alberino Surveyor merge 38 pins (20261001-ai)"
   }
 }
