@@ -1,6 +1,6 @@
 {
-  "build": "20261001-i",
-  "generated": "2026-10-01",
+  "build": "20261001-ad",
+  "generated": "2026-10-06",
   "caution_hosts": [
     "cityofdavid.org.il",
     "magdala.org"
@@ -101,6 +101,172 @@
       "gallery_cite": "Israel Museum",
       "gallery_note": "Horned altar reconstruction/display.",
       "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-02",
+      "gallery_url": "https://creationmuseum.org/blog/2011/06/16/around-the-main-hall-part-1/",
+      "gallery_host": "creationmuseum.org",
+      "gallery_cite": "Creation Museum",
+      "gallery_note": "Creation Museum ministry blog about a main-hall display; outbound link only.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-03",
+      "gallery_url": "https://arkencounter.com/blog/2022/08/04/new-green-river-formation-exhibit-open/",
+      "gallery_host": "arkencounter.com",
+      "gallery_cite": "Ark Encounter",
+      "gallery_note": "Ark Encounter ministry blog about the Green River Formation exhibit.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-04",
+      "gallery_url": "https://creationmuseum.org/blog/2006/03/01/the-death-march-of-the-horseshoe-crab/",
+      "gallery_host": "creationmuseum.org",
+      "gallery_cite": "Creation Museum",
+      "gallery_note": "Creation Museum ministry blog about the horseshoe crab display.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-05",
+      "gallery_url": "https://creationmuseum.org/blog/2024/05/24/new-dinosaur-exhibit-coming-to-creation-museum/",
+      "gallery_host": "creationmuseum.org",
+      "gallery_cite": "Creation Museum",
+      "gallery_note": "Creation Museum ministry blog about dinosaur exhibit sculptures (not the Mongolian fossil itself).",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-12",
+      "gallery_url": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html",
+      "gallery_host": "nhm.ac.uk",
+      "gallery_cite": "Natural History Museum",
+      "gallery_note": "Natural History Museum specimen / Dino Directory page.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-13",
+      "gallery_url": "https://www.fieldmuseum.org/blog/sue-t-rex",
+      "gallery_host": "fieldmuseum.org",
+      "gallery_cite": "Field Museum",
+      "gallery_note": "Field Museum blog about SUE.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-15",
+      "gallery_url": "https://www.si.edu/collections/snapshot/berezovka-woolly-mammoth-flesh-jar",
+      "gallery_host": "si.edu",
+      "gallery_cite": "Smithsonian",
+      "gallery_note": "Smithsonian collections snapshot page.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-16",
+      "gallery_url": "https://creationmuseum.org/press/million-dinosaur-exhibit-dedicated-today/",
+      "gallery_host": "creationmuseum.org",
+      "gallery_cite": "Creation Museum",
+      "gallery_note": "Creation Museum press page; specimen also associated with Museum of the Rockies.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-17",
+      "gallery_url": "https://www.nps.gov/dino/learn/historyculture/carnegie_quarry.htm",
+      "gallery_host": "nps.gov",
+      "gallery_cite": "NPS — Dinosaur National Monument",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-18",
+      "gallery_url": "https://www.blm.gov/sites/default/files/documents/files/Cleveland%20Lloyd%20Brochure.pdf",
+      "gallery_host": "blm.gov",
+      "gallery_cite": "BLM",
+      "gallery_note": "BLM brochure PDF for the quarry (not a photo-gallery page).",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-20",
+      "gallery_url": "https://www.amnh.org/explore/news-blogs/howe-quarry-fossil-site",
+      "gallery_host": "amnh.org",
+      "gallery_cite": "AMNH",
+      "gallery_note": "AMNH news/blog about Howe Quarry.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-21",
+      "gallery_url": "https://www.nps.gov/articles/000/nnl-dinosaurs.htm",
+      "gallery_host": "nps.gov",
+      "gallery_cite": "NPS — Dinosaur National Natural Landmark",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-22",
+      "gallery_url": "https://thecanadianencyclopedia.ca/en/article/alberta-hilda-dinosaur-mega-bonebed",
+      "gallery_host": "thecanadianencyclopedia.ca",
+      "gallery_cite": "Canadian Encyclopedia",
+      "gallery_note": "Canadian Encyclopedia article (not a museum photo gallery).",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-23",
+      "gallery_url": "https://www.albertaparks.ca/parks/south/dinosaur-pp/",
+      "gallery_host": "albertaparks.ca",
+      "gallery_cite": "Alberta Parks — Dinosaur Provincial Park",
+      "gallery_note": "Alberta Parks page for Dinosaur Provincial Park.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-24",
+      "gallery_url": "https://scholarsarchive.byu.edu/gbn/vol45/iss4/7/",
+      "gallery_host": "scholarsarchive.byu.edu",
+      "gallery_cite": "BYU ScholarsArchive",
+      "gallery_note": "BYU ScholarsArchive article page (not a photo gallery).",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-25",
+      "gallery_url": "https://iugs-geoheritage.org/geoheritage_sites/dashanpu-middle-jurassicdinosaur-fossils-site/",
+      "gallery_host": "iugs-geoheritage.org",
+      "gallery_cite": "IUGS Geoheritage",
+      "gallery_note": "IUGS geoheritage site page for Dashanpu.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-26",
+      "gallery_url": "https://digitaltendaguru.museumfuernaturkunde.berlin/",
+      "gallery_host": "digitaltendaguru.museumfuernaturkunde.berlin",
+      "gallery_cite": "Museum für Naturkunde — Digital Tendaguru",
+      "gallery_note": "Museum für Naturkunde Digital Tendaguru collection portal.",
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-27",
+      "gallery_url": "https://www.nps.gov/articles/mesozoic-egg-mountain-dawson-2014.htm",
+      "gallery_host": "nps.gov",
+      "gallery_cite": "NPS — Egg Mountain",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-28",
+      "gallery_url": "https://www.nps.gov/waco/learn/historyculture/index.htm",
+      "gallery_host": "nps.gov",
+      "gallery_cite": "NPS — Waco Mammoth",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
+    },
+    {
+      "pin_id": "CRF-29",
+      "gallery_url": "https://www.nps.gov/articles/000/big-bone-lick.htm",
+      "gallery_host": "nps.gov",
+      "gallery_cite": "NPS — Big Bone Lick",
+      "gallery_note": null,
+      "gallery_label": "Photo gallery"
     }
-  ]
+  ],
+  "creature_find_galleries": {
+    "build": "20261001-ad",
+    "count": 20,
+    "source": "creature-finds.geojson official_website only (no invented URLs)",
+    "note": "Outbound gallery-btn links for Creature Find drawers via digPhotoGalleryHtml"
+  }
 }

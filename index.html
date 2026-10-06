@@ -785,7 +785,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ac</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ad</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -2830,7 +2830,21 @@ function cautionNoteHtml(host, extraNote){
 
 function digPhotoGalleryHtml(p){
   if(!p || !p.id) return '';
-  const matches = matchSiteGalleriesForPin(p.id);
+  let matches = matchSiteGalleriesForPin(p.id).slice();
+  /* Optional inline outbound gallery on the feature (no invented URLs; link-out only) */
+  if(!matches.length){
+    const inlineUrl = p.gallery_url || (p.photo_gallery && p.photo_gallery.url) || null;
+    if(inlineUrl){
+      matches = [{
+        pin_id: p.id,
+        gallery_url: inlineUrl,
+        gallery_host: p.gallery_host || (p.photo_gallery && p.photo_gallery.host) || hostFromUrl(inlineUrl),
+        gallery_label: p.gallery_label || (p.photo_gallery && p.photo_gallery.label) || 'Photo gallery',
+        gallery_cite: p.gallery_cite || (p.photo_gallery && p.photo_gallery.cite) || null,
+        gallery_note: p.gallery_note || (p.photo_gallery && p.photo_gallery.note) || null
+      }];
+    }
+  }
   if(!matches.length) return '';
   const esc = (s) => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
   const blocks = matches.map(g => {
@@ -3275,6 +3289,7 @@ function showCreatureFindStory(p, geom){
       authority: formatSiteAuthority(p),
       digHalt: null
     })}
+    ${digPhotoGalleryHtml(p)}
     ${relHtml}
     <p class="muted">Link-out only; no rehosted images. Christian ministry cites are labeled young-earth creation ministry. No creation-vs-evolution tags.</p>`;
   openStoryPanel();
