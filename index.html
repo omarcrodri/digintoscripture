@@ -441,7 +441,7 @@ body.directions-pick #map{cursor:crosshair}
 
 
 
-/* Welcome / help (build 20261001-x) */
+/* Welcome / help (build 20261001-y) */
 #btn-app-help{
   position:absolute; top:10px; right:12px; z-index:46;
   width:40px; height:40px; border-radius:12px;
@@ -472,6 +472,55 @@ body.directions-pick #map{cursor:crosshair}
   background:#0f172a; color:#e2e8f0; padding:8px 14px; font-weight:600; cursor:pointer;
 }
 #app-welcome .welcome-actions button.primary{ background:#0369a1; border-color:#0284c7; }
+
+/* ===== Startup splash + layers hint (build 20261001-y) ===== */
+#app-splash{
+  position:absolute; inset:0; z-index:90; display:flex; align-items:center; justify-content:center;
+  background:radial-gradient(ellipse at 50% 40%, #0c4a6e 0%, #020617 70%);
+  pointer-events:auto; cursor:pointer;
+}
+#app-splash[hidden]{ display:none !important; }
+#app-splash .splash-inner{ text-align:center; padding:24px; }
+#app-splash .splash-logo{
+  width:96px; height:96px; border-radius:22px;
+  box-shadow:0 12px 40px rgba(0,0,0,.45); margin-bottom:16px;
+}
+#app-splash .splash-title{ margin:0 0 8px; font-size:1.55rem; color:#f8fafc; letter-spacing:.02em; }
+#app-splash .splash-tag{ margin:0; font-size:.88rem; color:#94a3b8; }
+
+#layers-hint{
+  position:absolute; inset:0; z-index:85; pointer-events:none;
+}
+#layers-hint[hidden]{ display:none !important; }
+#layers-hint .layers-hint-scrim{
+  position:absolute; inset:0; background:rgba(2,6,23,.35); pointer-events:auto;
+}
+#layers-hint .layers-hint-card{
+  position:absolute; top:108px; right:12px; width:min(280px, calc(100vw - 24px));
+  background:rgba(15,23,42,.96); border:1px solid rgba(56,189,248,.55);
+  border-radius:14px; padding:14px 14px 12px; color:#e2e8f0;
+  box-shadow:0 12px 36px rgba(0,0,0,.5); pointer-events:auto;
+}
+#layers-hint .layers-hint-arrow{
+  position:absolute; top:-10px; right:18px; width:0; height:0;
+  border-left:9px solid transparent; border-right:9px solid transparent;
+  border-bottom:10px solid rgba(56,189,248,.85);
+}
+#layers-hint .layers-hint-text{ margin:0 0 10px; font-size:.88rem; line-height:1.4; color:#e2e8f0; }
+#layers-hint .layers-hint-opt{
+  display:flex; align-items:flex-start; gap:8px; margin:0 0 10px;
+  font-size:.78rem; color:#94a3b8; cursor:pointer;
+}
+#layers-hint .layers-hint-opt input{ margin-top:2px; }
+#layers-hint .layers-hint-actions{ display:flex; justify-content:flex-end; }
+#layers-hint .layers-hint-actions button{
+  opacity:.85; border-radius:10px; border:1px solid #0284c7;
+  background:#0369a1; color:#e2e8f0; padding:8px 14px; font-weight:600; cursor:pointer;
+}
+#btn-layers-tray.hint-pulse{
+  box-shadow:0 0 0 3px rgba(56,189,248,.55), 0 4px 14px rgba(0,0,0,.35) !important;
+  opacity:1 !important;
+}
 /* ===== Chrome polish (build 20261001-x) ===== */
 #map-legend{display:none !important}
 button,
@@ -657,7 +706,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-x</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-y</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -675,13 +724,33 @@ header > p{display:none !important}
     
   </header>
     <div id="map"></div>
+  <div id="app-splash" role="dialog" aria-modal="true" aria-label="DigIntoScripture" hidden>
+    <div class="splash-inner">
+      <img class="splash-logo" src="brand/logo-app.png" width="96" height="96" alt=""/>
+      <h1 class="splash-title">DigIntoScripture</h1>
+      <p class="splash-tag">Bible places · archaeology · Scripture</p>
+    </div>
+  </div>
+
   <div id="app-welcome" role="dialog" aria-modal="true" aria-labelledby="app-welcome-title" hidden>
     <div class="welcome-card">
-      <h2 id="app-welcome-title">DigIntoScripture</h2>
+      <h2 id="app-welcome-title">About DigIntoScripture</h2>
       <p>DigIntoScripture maps the places of the Bible and what archaeology has found there. Tap a pin to see the dig, the finds, and the Scripture it connects to. Each pin shows how strong the evidence is (strong, mixed, or weak), and travel and visitor notes come with a reminder to check before you go.</p>
-      <p class="muted" style="font-size:.78rem;color:#94a3b8;margin:0">Use Layers (top right) to turn map layers on or off. Search finds sites by modern and ancient names.</p>
+      <p>On first open, only <strong>Old Testament digs</strong> and <strong>New Testament digs</strong> are turned on. Use Layers (top right) to check off or start more layers. Search finds sites by modern and ancient names.</p>
       <div class="welcome-actions">
-        <button type="button" class="primary" id="btn-welcome-close">Got it</button>
+        <button type="button" class="primary" id="btn-welcome-close">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="layers-hint" hidden>
+    <div class="layers-hint-scrim" aria-hidden="true"></div>
+    <div class="layers-hint-card" role="dialog" aria-modal="true" aria-labelledby="layers-hint-title">
+      <div class="layers-hint-arrow" aria-hidden="true"></div>
+      <p id="layers-hint-title" class="layers-hint-text">Only two layers are active — click here to check off or start more layers.</p>
+      <label class="layers-hint-opt"><input type="checkbox" id="chk-hints-off"/> Don't show hints again</label>
+      <div class="layers-hint-actions">
+        <button type="button" class="primary" id="btn-layers-hint-ok">Got it</button>
       </div>
     </div>
   </div>
@@ -5085,32 +5154,98 @@ function openDirectionsInGoogleMaps(){
 </script>
 <script>
 
-(function initAppWelcome(){
+(function initAppOnboarding(){
+  const splash = document.getElementById('app-splash');
   const overlay = document.getElementById('app-welcome');
+  const hint = document.getElementById('layers-hint');
   const helpBtn = document.getElementById('btn-app-help');
   const closeBtn = document.getElementById('btn-welcome-close');
+  const hintOk = document.getElementById('btn-layers-hint-ok');
+  const hintsOffChk = document.getElementById('chk-hints-off');
+  const layersBtn = document.getElementById('btn-layers-tray');
   if(!overlay || !helpBtn) return;
-  const KEY = 'digintoscripture_welcome_seen_v1';
+
+  const KEY_ONBOARD = 'digintoscripture_onboarding_seen_v2';
+  const KEY_WELCOME_LEGACY = 'digintoscripture_welcome_seen_v1';
+  const KEY_HINTS_OFF = 'digintoscripture_hints_off_v1';
+  const KEY_LAYERS_HINT = 'digintoscripture_layers_hint_seen_v1';
+
+  function lsGet(k){ try { return localStorage.getItem(k) === '1'; } catch(e){ return false; } }
+  function lsSet(k){ try { localStorage.setItem(k, '1'); } catch(e){} }
+
   function openWelcome(){
+    if(splash) splash.hidden = true;
     overlay.hidden = false;
     helpBtn.setAttribute('aria-expanded', 'true');
   }
-  function closeWelcome(){
+  function closeWelcome(fromOnboarding){
     overlay.hidden = true;
     helpBtn.setAttribute('aria-expanded', 'false');
-    try { localStorage.setItem(KEY, '1'); } catch(e){}
+    lsSet(KEY_ONBOARD);
+    lsSet(KEY_WELCOME_LEGACY);
+    if(fromOnboarding) maybeShowLayersHint();
   }
+  function openSplash(){
+    if(!splash){ openWelcome(); return; }
+    splash.hidden = false;
+  }
+  function finishSplash(){
+    if(!splash || splash.hidden) return;
+    splash.hidden = true;
+    openWelcome();
+  }
+  function hintsDisabled(){
+    return lsGet(KEY_HINTS_OFF) || lsGet(KEY_LAYERS_HINT);
+  }
+  function maybeShowLayersHint(){
+    if(!hint || hintsDisabled()) return;
+    hint.hidden = false;
+    if(layersBtn) layersBtn.classList.add('hint-pulse');
+  }
+  function closeLayersHint(){
+    if(!hint) return;
+    hint.hidden = true;
+    if(layersBtn) layersBtn.classList.remove('hint-pulse');
+    lsSet(KEY_LAYERS_HINT);
+    if(hintsOffChk && hintsOffChk.checked) lsSet(KEY_HINTS_OFF);
+  }
+
   helpBtn.addEventListener('click', () => {
-    if(overlay.hidden) openWelcome(); else closeWelcome();
+    if(hint && !hint.hidden) closeLayersHint();
+    if(overlay.hidden) openWelcome(); else closeWelcome(false);
   });
-  if(closeBtn) closeBtn.addEventListener('click', closeWelcome);
-  overlay.addEventListener('click', (e) => { if(e.target === overlay) closeWelcome(); });
+  if(closeBtn) closeBtn.addEventListener('click', () => closeWelcome(true));
+  overlay.addEventListener('click', (e) => { if(e.target === overlay) closeWelcome(true); });
+  if(splash){
+    splash.addEventListener('click', finishSplash);
+    splash.addEventListener('keydown', (e) => { if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); finishSplash(); } });
+  }
+  if(hintOk) hintOk.addEventListener('click', closeLayersHint);
+  if(hint){
+    hint.addEventListener('click', (e) => {
+      if(e.target.classList && e.target.classList.contains('layers-hint-scrim')) closeLayersHint();
+    });
+  }
+  if(layersBtn){
+    layersBtn.addEventListener('click', () => {
+      if(hint && !hint.hidden) closeLayersHint();
+    }, true);
+  }
   document.addEventListener('keydown', (e) => {
-    if(e.key === 'Escape' && !overlay.hidden) closeWelcome();
+    if(e.key !== 'Escape') return;
+    if(hint && !hint.hidden){ closeLayersHint(); return; }
+    if(!overlay.hidden) closeWelcome(true);
+    if(splash && !splash.hidden) finishSplash();
   });
-  let seen = false;
-  try { seen = localStorage.getItem(KEY) === '1'; } catch(e){}
-  if(!seen) openWelcome();
+
+  const onboarded = lsGet(KEY_ONBOARD) || lsGet(KEY_WELCOME_LEGACY);
+  if(!onboarded){
+    openSplash();
+    setTimeout(finishSplash, 1600);
+  } else {
+    // Prior visitors: mark new onboarding key; do not re-show splash/hint unless they clear storage
+    lsSet(KEY_ONBOARD);
+  }
 })();
 
 </script>
