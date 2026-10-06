@@ -72,11 +72,11 @@
     "philip": "#c084fc",
     "john": "#e11d48"
   },
-  "prototype_updated": "2026-10-05 22:55 CDT",
+  "prototype_updated": "2026-10-06 06:10 CDT",
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-v",
+  "build": "20261001-w",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -102,7 +102,8 @@
     "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels",
     "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full",
     "search_aliases": "build 20261001-u: Surveyor ancient/modern alt names in top search",
-    "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status"
+    "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status",
+    "layers_tray_w": "All layers listed in Layers drawer; More/Fewer removed; Check/Uncheck bound on document (was header-only bug)"
   },
   "status_kind_counts": {
     "totals": {
