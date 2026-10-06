@@ -785,7 +785,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ad</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-ae</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -793,7 +793,7 @@ header > p{display:none !important}
       <button type="button" id="btn-directions" aria-expanded="false" aria-controls="directions-sheet" title="Build ordered stops and open Google Maps">Directions</button>
       <span class="discover-top-hint">Guided tours · Google Maps stops</span>
     </div>
-    <p>OT + NT + Research claim + Contested digs + Apostle Martyrdom + Ministries + Trade + Prophets + Miracles + optional PEF 1880 · no invented coordinates</p>
+    <p>OT + NT + Research claim + Contested digs + Apostle Martyrdom + Trade + Prophets + Miracles + optional PEF 1880 · no invented coordinates</p>
     <div class="site-search" id="site-search">
       <label class="site-search-label" for="site-search-input">Search sites</label>
       <input type="search" id="site-search-input" placeholder="Search sites…" autocomplete="off" enterkeyhint="search" aria-autocomplete="list" aria-controls="site-search-results" aria-expanded="false" />
@@ -891,13 +891,6 @@ header > p{display:none !important}
             <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-sg" title="About Research claim" aria-label="About Research claim">i</button>
           </div>
           <p class="layer-blurb" id="blurb-sg" hidden>Sodom/Gomorrah candidates and contested destruction claims</p>
-        </div>
-        <div class="layer-chip-wrap" data-layer="min">
-          <div class="layer-chip-row">
-            <label class="layer-chip"><input type="checkbox" id="tog-min" class="layer-toggle"/> <span class="chip-dot min" aria-hidden="true"></span><span class="chip-name">Ministries</span></label>
-            <button type="button" class="layer-info-btn" aria-expanded="false" aria-controls="blurb-min" title="About Ministries" aria-label="About Ministries">i</button>
-          </div>
-          <p class="layer-blurb" id="blurb-min" hidden>Painted Acts/tradition travel routes (straight connectors — not excavated roads)</p>
         </div>
                 <div class="layer-chip-wrap" data-layer="ap">
           <div class="layer-chip-row">
@@ -1082,12 +1075,6 @@ header > p{display:none !important}
           <p class="layer-blurb" id="blurb-sponsor-snr" hidden>Sponsor layer — opt-in.</p>
         </div>
       </div>
-        <div class="min-children" id="min-children">
-          <label class="layer-chip"><input type="checkbox" id="tog-min-paul"/> <span class="line-swatch" style="background:#38bdf8"></span>Paul</label>
-          <label class="layer-chip"><input type="checkbox" id="tog-min-peter"/> <span class="line-swatch" style="background:#fb923c"></span>Peter</label>
-          <label class="layer-chip"><input type="checkbox" id="tog-min-philip"/> <span class="line-swatch" style="background:#c084fc"></span>Philip</label>
-          <label class="layer-chip"><input type="checkbox" id="tog-min-john"/> <span class="line-swatch" style="background:#e11d48"></span>John</label>
-        </div>
         <div class="era-filter" id="era-filter">
           <div class="era-filter-title-row">
             <div class="era-filter-title">Era filter</div>
@@ -2116,39 +2103,7 @@ function refillEraLayer(layer, data){
   layer.addData(data);
 }
 function refillMinLayersForEra(){
-  /* minLayers are LayerGroups (line geoJSON + endpoint markers), not GeoJSON layers. */
-  if(typeof minLayers === 'undefined' || !minLayers) return;
-  ['paul','peter','philip','john'].forEach(aid => {
-    const group = minLayers[aid];
-    if(!group || typeof group.clearLayers !== 'function') return;
-    const wasOn = !!(typeof map !== 'undefined' && map && map.hasLayer(group));
-    if(wasOn) map.removeLayer(group);
-    group.clearLayers();
-    const feats = {type:'FeatureCollection', features: (MIN && MIN.features || []).filter(f => f.properties && f.properties.apostle_id===aid)};
-    const lines = L.geoJSON(feats, {
-      filter: featureMatchesEra,
-      style: (f) => {
-        const trad = (f.properties.source_basis==='tradition');
-        return {
-          color: (MIN_COLORS && MIN_COLORS[aid]) || '#38bdf8',
-          weight: trad ? 3 : 4,
-          opacity: 0.85,
-          dashArray: trad ? '8 6' : null
-        };
-      },
-      onEachFeature: (f, layer) => {
-        const p = f.properties;
-        layer.on('click', () => showMinistryStory(p, f.geometry));
-        ministryEndpointLatLngs(f.geometry).forEach(ll => {
-          L.marker(ll, {icon: minPinIcons[aid], keyboard: false})
-            .on('click', () => showMinistryStory(p, f.geometry))
-            .addTo(group);
-        });
-      }
-    });
-    lines.addTo(group);
-    if(wasOn) group.addTo(map);
-  });
+  /* no-op build 20261001-ae — Ministries path layers not painted */
 }
 function setAllLayerToggles(checked){
   /* Check all skips sponsors (opt-in); Uncheck all clears sponsors too. */
@@ -2360,6 +2315,8 @@ const apLayer = digMakeClusterLayer(AP, {
 
 
 const MIN_COLORS = {paul: LAYER_COLORS.paul, peter: LAYER_COLORS.peter, philip: LAYER_COLORS.philip, john: LAYER_COLORS.john};
+/* Ministries path layers removed from Layers tray / map (build 20261001-ae).
+   MIN FeatureCollection stays loaded for Discover / findSiteFeatureById (e.g. MIN-PHILIP-ACTS8). */
 const minLayers = {};
 function ministryEndpointLatLngs(geom){
   if(!geom) return [];
@@ -2379,43 +2336,9 @@ function ministryEndpointLatLngs(geom){
   }
   return [];
 }
-['paul','peter','philip','john'].forEach(aid => {
-  const feats = {type:'FeatureCollection', features: MIN.features.filter(f => f.properties.apostle_id===aid)};
-  const group = L.layerGroup();
-  const lines = L.geoJSON(feats, {
-    filter: featureMatchesEra,
-    style: (f) => {
-      const trad = (f.properties.source_basis==='tradition');
-      return {
-        color: MIN_COLORS[aid] || '#38bdf8',
-        weight: trad ? 3 : 4,
-        opacity: 0.85,
-        dashArray: trad ? '8 6' : null
-      };
-    },
-    onEachFeature: (f, layer) => {
-      const p = f.properties;
-      layer.on('click', () => showMinistryStory(p, f.geometry));
-      ministryEndpointLatLngs(f.geometry).forEach(ll => {
-        L.marker(ll, {icon: minPinIcons[aid], keyboard: false})
-          .on('click', () => showMinistryStory(p, f.geometry))
-          .addTo(group);
-      });
-    }
-  });
-  lines.addTo(group);
-  minLayers[aid] = group;
-});
 function syncMinLayers(){
-  const parentOn = document.getElementById('tog-min')?.checked;
-  ['paul','peter','philip','john'].forEach(aid => {
-    const childOn = document.getElementById('tog-min-'+aid)?.checked;
-    const lyr = minLayers[aid];
-    if(!lyr) return;
-    if(parentOn && childOn){ if(!map.hasLayer(lyr)) lyr.addTo(map); }
-    else { if(map.hasLayer(lyr)) map.removeLayer(lyr); }
-  });
-  syncLegend();
+  /* no-op: Paul/Peter/Philip/John path toggles removed; never paint MIN routes */
+  if(typeof syncLegend === 'function') syncLegend();
 }
 function showMinistryStory(p, geom){
   noteStorySite(p, geom);
@@ -3651,7 +3574,7 @@ function setStoryHtml(html){
     'emp-701': { label: 'Empire snapshot · ~701 BCE', toggle: 'tog-emp-701', layer: () => empireLayers.empire_snapshot_701 },
     'emp-586': { label: 'Empire snapshot · ~586 BCE', toggle: 'tog-emp-586', layer: () => empireLayers.empire_snapshot_586 },
     'emp-30': { label: 'Empire snapshot · ~30 CE', toggle: 'tog-emp-30', layer: () => empireLayers.empire_snapshot_30 },
-    min: { label: 'Ministries', toggle: 'tog-min', layer: null },
+    min: { label: 'Apostle ministry route', toggle: null, layer: null },
     'sponsor-eb': { label: 'Expedition: Bible (sponsor)', toggle: 'tog-sponsor-eb', layer: () => sponsorEbLayer },
     'sponsor-alb': { label: 'Expedition: Alberino (sponsor)', toggle: 'tog-sponsor-alb', layer: () => sponsorAlbLayer },
     'sponsor-snr': { label: 'Expedition: Sergio & Rhoda (sponsor)', toggle: 'tog-sponsor-snr', layer: () => sponsorSnrLayer }
@@ -3927,10 +3850,12 @@ function setStoryHtml(html){
     if((String(kind).indexOf('sponsor-') === 0 || kind === 'artifacts') && typeof window.__digSetMoreOpen === 'function'){
       window.__digSetMoreOpen(true);
     }
-    const tog = document.getElementById(meta.toggle);
-    if(tog){
-      tog.checked = true;
-      tog.dispatchEvent(new Event('change', { bubbles: true }));
+    if(meta.toggle){
+      const tog = document.getElementById(meta.toggle);
+      if(tog){
+        tog.checked = true;
+        tog.dispatchEvent(new Event('change', { bubbles: true }));
+      }
     }
     if(meta.layer){
       try{
@@ -3938,13 +3863,7 @@ function setStoryHtml(html){
         if(lyr && window._digMap && !window._digMap.hasLayer(lyr)) lyr.addTo(window._digMap);
       }catch(err){}
     }
-    if(kind === 'min' && props && props.apostle_id){
-      const parent = document.getElementById('tog-min');
-      if(parent){ parent.checked = true; parent.dispatchEvent(new Event('change', { bubbles: true })); }
-      const child = document.getElementById('tog-min-' + props.apostle_id);
-      if(child){ child.checked = true; child.dispatchEvent(new Event('change', { bubbles: true })); }
-      if(typeof syncMinLayers === 'function') syncMinLayers();
-    }
+    /* min path toggles removed — Discover/search still open showMinistryStory */
   }
 
   function openHit(hit){
@@ -4456,8 +4375,7 @@ function legendKeyOn(key){
   if(key === 'sponsor-alb') return !!document.getElementById('tog-sponsor-alb')?.checked;
   if(key === 'sponsor-snr') return !!document.getElementById('tog-sponsor-snr')?.checked;
   if(key.indexOf('min-') === 0){
-    const aid = key.slice(4);
-    return !!(document.getElementById('tog-min')?.checked && document.getElementById('tog-min-'+aid)?.checked);
+    return false; /* Ministries path toggles removed build 20261001-ae */
   }
   return true;
 }
@@ -4493,11 +4411,7 @@ bindToggle('tog-sponsor-eb', (e)=>{ if(e.target.checked) sponsorEbLayer.addTo(ma
 bindToggle('tog-sponsor-alb', (e)=>{ if(e.target.checked) sponsorAlbLayer.addTo(map); else map.removeLayer(sponsorAlbLayer); });
 bindToggle('tog-sponsor-snr', (e)=>{ if(e.target.checked) sponsorSnrLayer.addTo(map); else map.removeLayer(sponsorSnrLayer); });
 
-bindToggle('tog-min', ()=> syncMinLayers());
-['paul','peter','philip','john'].forEach(aid=>{
-  const el=document.getElementById('tog-min-'+aid);
-  if(el) el.addEventListener('change', ()=> syncMinLayers());
-});
+/* tog-min / Paul·Peter·Philip·John path toggles removed build 20261001-ae */
 syncLegend();
 
 const histToggle = document.getElementById('tog-hist');
@@ -4612,8 +4526,8 @@ function discoverEnsureLayerOn(kind, props){
     wilderness: { toggle: 'tog-wilderness' },
     artifacts: { toggle: 'tog-artifacts' },
     'ministry-places': { toggle: 'tog-ministry-places' },
-    'creature-finds': { toggle: 'tog-creature-finds' },
-    min: { toggle: 'tog-min' }
+    'creature-finds': { toggle: 'tog-creature-finds' }
+    /* min path layer toggles removed build ae; MIN data still in findSiteFeatureById */
   };
   if((kind === 'artifacts' || kind === 'ministry-places' || kind === 'creature-finds') && typeof window.__digSetMoreOpen === 'function') window.__digSetMoreOpen(true);
   const meta = LAYER_META[kind];
@@ -4623,13 +4537,7 @@ function discoverEnsureLayerOn(kind, props){
     tog.checked = true;
     tog.dispatchEvent(new Event('change'));
   }
-  if(kind === 'min' && props && props.apostle_id){
-    const parent = document.getElementById('tog-min');
-    if(parent && !parent.checked){ parent.checked = true; parent.dispatchEvent(new Event('change')); }
-    const child = document.getElementById('tog-min-' + props.apostle_id);
-    if(child && !child.checked){ child.checked = true; child.dispatchEvent(new Event('change')); }
-    if(typeof syncMinLayers === 'function') syncMinLayers();
-  }
+  /* min path toggles removed — openSiteById still resolves MIN-* via findSiteFeatureById */
 }
 
 function discoverOpenStoryForHit(hit){
