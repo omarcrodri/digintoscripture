@@ -283,7 +283,7 @@ header > p{display:none} /* quieter chrome */
 .layers-more .era-filter{margin-top:4px;padding:6px 8px;background:#0b1220;border:1px solid #1e293b;border-radius:10px}
 
 .layers-more .toolbar-tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.78rem;color:#cbd5e1}
-/* More-layers compact panel (build 20261001-k); site status dig vs visitor (build 20261001-l); pin cluster/spiderfy (build 20261001-m); event routes (build 20261001-n); travel advisories (build 20261001-o); empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-t) */
+/* More-layers compact panel (build 20261001-aa); site status dig vs visitor (build 20261001-aa); pin cluster/spiderfy (build 20261001-aa); event routes (build 20261001-aa); travel advisories (build 20261001-aa); empire snapshots (build 20261001-p); tribal allotments (build 20261001-q); destruction horizons (build 20261001-t) */
 .more-layers-compact{display:flex;flex-direction:column;gap:8px;padding:2px 0 4px;width:100%}
 .more-layers-compact .bulk-toggle-hint{display:block;margin-top:2px}
 .more-layer-pick-row{display:flex;flex-direction:column;gap:4px;width:100%}
@@ -695,6 +695,75 @@ header > p{display:none !important}
 .dn-paleo{ font-family: "Noto Sans Phoenician", sans-serif; unicode-bidi: isolate; }
 .dn-caption{ margin:.1rem 0 .35rem; font-size:.82em; color:#94a3b8; line-height:1.35; }
 .dn-glyph-note{ margin:.1rem 0 .35rem; font-size:.75em; color:#64748b; }
+
+/* creature finds bone DivIcon (build 20261001-aa) */
+.creature-bone-pin{
+  width:26px;height:26px;border-radius:8px;background:#84cc16;
+  border:2px solid #0f172a;box-shadow:0 0 6px rgba(132,204,22,.55);
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;line-height:1;user-select:none;
+}
+.creature-bone-pin .bone-glyph{filter:drop-shadow(0 0 1px #1a2e05);color:#fef3c7}
+.chip-dot.creature-finds{background:#84cc16 !important}
+
+/* Discover gold sparkle — same size, continuous shimmer (build 20261001-aa) */
+#btn-discover{
+  position:relative;overflow:hidden;
+  background:linear-gradient(110deg,#78350f 0%,#a16207 25%,#fbbf24 50%,#a16207 75%,#78350f 100%);
+  background-size:220% 100%;
+  color:#fffbeb !important;border-color:#f59e0b !important;
+  text-shadow:0 1px 1px rgba(0,0,0,.35);
+  animation:discoverGoldShimmer 3.2s linear infinite;
+}
+#btn-discover::after{
+  content:"";position:absolute;inset:-40% -20%;
+  background:linear-gradient(115deg,transparent 30%,rgba(255,251,235,.45) 48%,transparent 62%);
+  transform:translateX(-60%);
+  animation:discoverSparkleSweep 2.4s ease-in-out infinite;
+  pointer-events:none;
+}
+@keyframes discoverGoldShimmer{
+  0%{background-position:0% 50%}
+  100%{background-position:220% 50%}
+}
+@keyframes discoverSparkleSweep{
+  0%{transform:translateX(-70%) rotate(12deg)}
+  100%{transform:translateX(70%) rotate(12deg)}
+}
+#btn-discover.active,#btn-discover[aria-expanded="true"]{
+  border-color:#fde68a !important;box-shadow:0 0 0 2px rgba(251,191,36,.45);
+  background:#92400e;animation:none;
+}
+#btn-discover.active::after,#btn-discover[aria-expanded="true"]::after{animation:none;opacity:.2}
+
+/* Helpful hints tour (build 20261001-aa) */
+#helpful-hints{position:fixed;inset:0;z-index:9600;pointer-events:none}
+#helpful-hints[hidden]{display:none !important}
+#helpful-hints .hh-scrim{position:absolute;inset:0;background:rgba(2,6,23,.45);pointer-events:auto}
+#helpful-hints .hh-card{
+  position:absolute;z-index:2;max-width:min(340px,92vw);pointer-events:auto;
+  background:#0f172a;border:1px solid #334155;border-radius:12px;padding:12px 14px;
+  box-shadow:0 12px 40px rgba(0,0,0,.45);color:#e2e8f0;
+}
+#helpful-hints .hh-card h3{margin:0 0 6px;font-size:.95rem;color:#f8fafc}
+#helpful-hints .hh-card p{margin:0 0 10px;font-size:.84rem;line-height:1.4;color:#cbd5e1}
+#helpful-hints .hh-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;align-items:center}
+#helpful-hints .hh-actions button{
+  appearance:none;border:1px solid #475569;background:#1e293b;color:#e2e8f0;
+  border-radius:999px;padding:6px 12px;font-size:.8rem;font-weight:600;cursor:pointer;min-height:32px
+}
+#helpful-hints .hh-actions button.primary{background:#0369a1;border-color:#0284c7}
+#helpful-hints .hh-opt{display:flex;align-items:center;gap:6px;font-size:.72rem;color:#94a3b8;margin-right:auto}
+.hh-pulse{box-shadow:0 0 0 0 rgba(56,189,248,.7) !important;animation:hhPulse 1.4s ease-out infinite !important;position:relative;z-index:9700 !important}
+@keyframes hhPulse{
+  0%{box-shadow:0 0 0 0 rgba(56,189,248,.65)}
+  70%{box-shadow:0 0 0 12px rgba(56,189,248,0)}
+  100%{box-shadow:0 0 0 0 rgba(56,189,248,0)}
+}
+.welcome-hints-row{margin:10px 0 4px;padding:8px 10px;border:1px solid #334155;border-radius:10px;background:#0b1220}
+.welcome-hints-row label{display:flex;align-items:center;gap:8px;font-size:.86rem;color:#e2e8f0;cursor:pointer}
+.welcome-hints-row .muted{font-size:.72rem;color:#94a3b8;margin:6px 0 0 0}
+
 </style>
 </head>
 <body>
@@ -706,7 +775,7 @@ header > p{display:none !important}
       <img class="brand-mark" src="brand/logo-app.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-z</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-aa</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -737,8 +806,27 @@ header > p{display:none !important}
       <h2 id="app-welcome-title">About DigIntoScripture</h2>
       <p>DigIntoScripture maps the places of the Bible and what archaeology has found there. Tap a pin to see the dig, the finds, and the Scripture it connects to. Each pin shows how strong the evidence is (strong, mixed, or weak), and travel and visitor notes come with a reminder to check before you go.</p>
       <p>On first open, only <strong>Old Testament digs</strong> and <strong>New Testament digs</strong> are turned on. Use Layers (top right) to check off or start more layers. Search finds sites by modern and ancient names.</p>
+      <div class="welcome-hints-row">
+        <label><input type="checkbox" id="chk-welcome-hints-on" checked/> Helpful hints</label>
+        <p class="muted">Hints are on by default for new visitors. Uncheck to turn them off (you can turn them back on here anytime). Long-press Discover for guided Tours.</p>
+      </div>
       <div class="welcome-actions">
+        <button type="button" id="btn-welcome-tours">Tours</button>
         <button type="button" class="primary" id="btn-welcome-close">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="helpful-hints" hidden>
+    <div class="hh-scrim" aria-hidden="true"></div>
+    <div class="hh-card" role="dialog" aria-modal="true" aria-labelledby="hh-title">
+      <h3 id="hh-title">Hint</h3>
+      <p id="hh-text"></p>
+      <div class="hh-actions">
+        <label class="hh-opt"><input type="checkbox" id="chk-hh-off"/> Don't show hints again</label>
+        <button type="button" id="btn-hh-skip">Skip</button>
+        <button type="button" class="primary" id="btn-hh-next">Next</button>
       </div>
     </div>
   </div>
@@ -3065,9 +3153,10 @@ function loadMinistryPlacesPack(){
 window.loadMinistryPlacesPack = loadMinistryPlacesPack;
 loadMinistryPlacesPack();
 
-/* ===== creature_finds layer (build 20261001-z; source creature-finds.geojson; off by default; CRF-01 held, no coords) ===== */
+/* ===== creature_finds layer (build 20261001-aa; source creature-finds.geojson; off by default; CRF-01 held, no coords) ===== */
 function showCreatureFindStory(p, geom){
   noteStorySite(p, geom);
+  window._digStoryLayerHint = 'creature-finds';
   const el = storyBodyEl();
   const esc = (s) => String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
   const link = (url, text) => url ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(text || url)}</a>` : esc(text || '');
@@ -3075,8 +3164,8 @@ function showCreatureFindStory(p, geom){
   const tagLabel = 'Creature find' + (p.subtype ? ' · ' + (SUB[p.subtype] || String(p.subtype).replace(/_/g,' ')) : '');
   const tagStyle = 'background:#1a2e05;border-color:#84cc16;color:#f7fee7';
   const cm = p.cm_ae_evidence || {};
-  // 1. CM/AE evidence line (always first)
-  let cmHtml = '';
+  // CM/AE evidence lead (creation ministries section body)
+  let cmBody = '';
   if(cm.drawer_line_1){
     const cites = [];
     if(cm.cite_url) cites.push(link(cm.cite_url, 'source'));
@@ -3088,23 +3177,8 @@ function showCreatureFindStory(p, geom){
       const t = p.cm_ae_related_talk;
       talk = `<p class="muted">Related talk (not an exhibit): ${link(t.url, t.title)} — young-earth creation ministry</p>`;
     }
-    cmHtml = `<div class="story-sec cf-cmae"><p><b>${esc(cm.drawer_line_1)}</b>${citeBit}</p>${note}${talk}</div>`;
+    cmBody = `<p><b>${esc(cm.drawer_line_1)}</b>${citeBit}</p>${note}${talk}`;
   }
-  // 3. find facts
-  const ff = p.find_facts || {};
-  const FF = [['creature','Creature'],['formation','Formation'],['year','Year'],['discoverer','Discoverer'],['held_at','Held at'],['scale','Scale']];
-  const ffRows = FF.filter(([k]) => ff[k]).map(([k,l]) => `<li><b>${l}:</b> ${esc(ff[k])}</li>`).join('');
-  const ffHtml = ffRows ? `<div class="story-sec"><h3>Find facts</h3><ul>${ffRows}</ul></div>` : '';
-  // 4. summary
-  const sumHtml = p.summary ? `<div class="story-sec"><h3>Summary</h3><p>${esc(p.summary)}</p></div>` : '';
-  let viewsHtml = '';
-  if(p.views && typeof p.views === 'object'){
-    const VL = { mainstream: 'Mainstream reading', collagen_fiber_view_non_creationist: 'Alternative (non-creationist) reading', reply: 'Reply', ministry_view: 'Ministry view (attributed)' };
-    const li = Object.keys(p.views).map(k => `<li><b>${esc(VL[k] || k.replace(/_/g,' '))}:</b> ${esc(p.views[k])}</li>`).join('');
-    if(li) viewsHtml = `<div class="story-sec"><h3>Views</h3><ul>${li}</ul></div>`;
-  }
-  const relNote = p.related_note ? `<p class="muted">${esc(p.related_note)}</p>` : '';
-  // 5. other Christian coverage
   const srcItem = (s) => {
     if(!s) return '';
     const head = s.source ? esc(s.source) + ': ' : '';
@@ -3115,21 +3189,33 @@ function showCreatureFindStory(p, geom){
     return `<li>${head}${title}${lab}${disc}${note}</li>`;
   };
   const occ = (p.other_christian_coverage || []).map(srcItem).join('');
-  const occHtml = occ ? `<div class="story-sec"><h3>Other Christian coverage</h3><ul>${occ}</ul></div>` : '';
-  // 6. neutral sources
+  if(occ) cmBody += (cmBody ? '' : '') + `<p><b>Other Christian coverage</b></p><ul>${occ}</ul>`;
+  // Find facts → Source material / finds
+  const ff = p.find_facts || {};
+  const FF = [['creature','Creature'],['formation','Formation'],['year','Year'],['discoverer','Discoverer'],['held_at','Held at'],['scale','Scale']];
+  const ffRows = FF.filter(([k]) => ff[k]).map(([k,l]) => `<li><b>${l}:</b> ${esc(ff[k])}</li>`).join('');
+  let findsBody = ffRows ? `<ul>${ffRows}</ul>` : '';
+  if(p.research_history) findsBody += `<p class="muted">${esc(p.research_history)}</p>`;
+  // Description = summary + views + related note
+  let desc = p.summary ? esc(p.summary) : '';
+  if(p.views && typeof p.views === 'object'){
+    const VL = { mainstream: 'Mainstream reading', collagen_fiber_view_non_creationist: 'Alternative (non-creationist) reading', reply: 'Reply', ministry_view: 'Ministry view (attributed)' };
+    const li = Object.keys(p.views).map(k => `<li><b>${esc(VL[k] || k.replace(/_/g,' '))}:</b> ${esc(p.views[k])}</li>`).join('');
+    if(li) desc += (desc ? '<br><br>' : '') + `<b>Views</b><ul>${li}</ul>`;
+  }
+  if(p.related_note) desc += (desc ? '<br>' : '') + `<span class="muted">${esc(p.related_note)}</span>`;
+  // Present / findspot + neutral sources
+  const fs = p.findspot || {};
+  let present = '';
+  if(fs.place) present += `<p>${esc(fs.place)}</p>`;
+  if(fs.precision_note) present += `<p class="muted">Map pin: ${esc((fs.coord_status||'').replace(/_/g,' '))}${fs.coord_status ? ' — ' : ''}${esc(fs.precision_note)}</p>`;
   const ns = (p.neutral_sources || []).map(s => {
     const kind = s && s.kind ? ` <span class="muted">(${esc(String(s.kind).replace(/_/g,' '))})</span>` : '';
     return srcItem(Object.assign({}, s, {source: null, disclosure: null})).replace('</li>', kind + '</li>');
   }).join('');
-  const nsHtml = ns ? `<div class="story-sec"><h3>Other sources</h3><ul>${ns}</ul></div>` : '';
-  // 7. solidity + caveat
-  const solHtml = (p.solidity || p.solidity_caveat)
-    ? `<div class="story-sec"><h3>Solidity</h3>${p.solidity ? `<p class="honesty-solidity"><b>${esc(p.solidity)}</b></p>` : ''}${p.solidity_caveat ? `<p>${esc(p.solidity_caveat)}</p>` : ''}</div>` : '';
-  // 8. findspot precision
-  const fs = p.findspot || {};
-  const fsHtml = (fs.place || fs.precision_note)
-    ? `<div class="story-sec"><h3>Findspot</h3>${fs.place ? `<p>${esc(fs.place)}</p>` : ''}${fs.precision_note ? `<p class="muted">Map pin: ${esc((fs.coord_status||'').replace(/_/g,' '))}${fs.coord_status ? ' — ' : ''}${esc(fs.precision_note)}</p>` : ''}</div>` : '';
-  // related points (reuse ministry_places CRM-01 / ARK-ENC-01; other creature finds)
+  if(ns) present += `<p><b>Other sources</b></p><ul>${ns}</ul>`;
+  if(p.solidity_caveat) present += `<p class="muted"><b>Caveat:</b> ${esc(p.solidity_caveat)}</p>`;
+  // Related pins after storySections
   let relHtml = '';
   if(Array.isArray(p.related_points) && p.related_points.length){
     const items = p.related_points.map(r => {
@@ -3141,25 +3227,35 @@ function showCreatureFindStory(p, geom){
     }).filter(Boolean).join('');
     if(items) relHtml = `<div class="story-sec"><h3>Related pins</h3><ul>${items}</ul></div>`;
   }
+  // Dig-style chrome: NO strongsLine / divineNameHtml / Hebrew-Greek
   el.innerHTML = `
     <div class="tag" style="${tagStyle}">${tagLabel}</div>
-    ${cmHtml}
+    ${honestySolidityHtml(p)}
     ${siteTitleHtml(p)}
     ${coordsRowHtml(geom)}
-    ${ffHtml}
-    ${sumHtml}
-    ${viewsHtml}
-    ${relNote}
-    ${occHtml}
-    ${nsHtml}
-    ${solHtml}
-    ${fsHtml}
+    ${siteActionsHtml(p)}
+    ${storySections({
+      props: p,
+      desc: desc || null,
+      images: null,
+      finds: findsBody || null,
+      authors: null,
+      present: present || null,
+      creationMinistry: cmBody || null,
+      authority: formatSiteAuthority(p),
+      digHalt: null
+    })}
     ${relHtml}
-    <p class="muted">Link-out only; no rehosted images. Christian ministry cites are labeled young-earth creation ministry.</p>`;
+    <p class="muted">Link-out only; no rehosted images. Christian ministry cites are labeled young-earth creation ministry. No creation-vs-evolution tags.</p>`;
   openStoryPanel();
 }
 window.showCreatureFindStory = showCreatureFindStory;
-const creatureFindsIcon = pinDot(LAYER_COLORS.creature_finds || '#84cc16', {extra: 'box-shadow:0 0 5px rgba(132,204,22,.55)'});
+const creatureFindsIcon = L.divIcon({
+  className: 'dig-pin',
+  iconSize: [26, 26],
+  iconAnchor: [13, 13],
+  html: `<div class="creature-bone-pin" title="Creature find"><span class="bone-glyph" aria-hidden="true">🦴</span></div>`
+});
 let CREATURE_FINDS = {type:'FeatureCollection', features:[]};
 window.CREATURE_FINDS = CREATURE_FINDS;
 const creatureFindsLayer = digMakeClusterLayer(CREATURE_FINDS, {
@@ -3304,9 +3400,9 @@ loadVisitorRulesPack();
 
 
 
-otLayer.addTo(map); ntLayer.addTo(map); sgLayer.addTo(map);
-chLayer.addTo(map); apLayer.addTo(map);
-tradeLayer.addTo(map); prophetsLayer.addTo(map); miraclesLayer.addTo(map); wildernessLayer.addTo(map);
+/* Startup lock (build 20261001-aa): OT + NT only — do not flood map with other layers */
+otLayer.addTo(map); ntLayer.addTo(map);
+if(typeof window.applyOtNtOnlyLayerDefaults === 'function') window.applyOtNtOnlyLayerDefaults({skipIfUserTouched:false, syncMap:false});
 syncMinLayers();
 initEraFilterUI();
 (function initDestructionFilterUI(){
@@ -5199,6 +5295,84 @@ function openDirectionsInGoogleMaps(){
 })();
 
 
+
+/* Discover primary action (build 20261001-aa): fly to first creature find; long-press / Tours for path sheet */
+function digFirstCreatureFindFeature(){
+  const fc = window.CREATURE_FINDS;
+  const feats = (fc && fc.features) ? fc.features : [];
+  for(let i=0;i<feats.length;i++){
+    const f = feats[i];
+    const c = f && f.geometry && f.geometry.coordinates;
+    if(c && c[0]!=null && c[1]!=null && f.properties && f.properties.id !== 'CRF-01') return f;
+  }
+  return null;
+}
+function digEnableCreatureFindsLayer(){
+  const tog = document.getElementById('tog-creature-finds');
+  if(tog && !tog.checked){
+    tog.checked = true;
+    tog.dispatchEvent(new Event('change', { bubbles: true }));
+  } else if(typeof creatureFindsLayer !== 'undefined' && creatureFindsLayer && typeof map !== 'undefined' && map && !map.hasLayer(creatureFindsLayer)){
+    try { creatureFindsLayer.addTo(map); } catch(e){}
+  }
+}
+function digFlyToFirstCreatureFind(){
+  const openSheet = () => {
+    try {
+      renderDiscoverPathList();
+      setDiscoverSheetOpen(true);
+    } catch(e){}
+  };
+  const tryFly = () => {
+    const f = digFirstCreatureFindFeature();
+    if(!f){
+      // Fallback: first OT/NT dig pin currently on map
+      let fallback = null;
+      try {
+        const layers = [];
+        if(typeof otLayer !== 'undefined' && map.hasLayer(otLayer)) layers.push(otLayer);
+        if(typeof ntLayer !== 'undefined' && map.hasLayer(ntLayer)) layers.push(ntLayer);
+        layers.forEach(ly => {
+          if(fallback) return;
+          ly.eachLayer && ly.eachLayer(m => {
+            if(fallback) return;
+            if(m && m.getLatLng) fallback = m;
+          });
+        });
+      } catch(e){}
+      if(fallback){
+        const ll = fallback.getLatLng();
+        map.flyTo(ll, Math.max(map.getZoom(), 8), { duration: 1.6 });
+        return true;
+      }
+      return false;
+    }
+    digEnableCreatureFindsLayer();
+    const lon = f.geometry.coordinates[0], lat = f.geometry.coordinates[1];
+    const targetZoom = Math.max(map.getZoom(), 7);
+    map.once('moveend', function(){
+      try { showCreatureFindStory(f.properties, f.geometry); } catch(e){ console.warn('open creature story', e); }
+    });
+    map.flyTo([lat, lon], targetZoom, { duration: 1.8, easeLinearity: 0.22 });
+    return true;
+  };
+  if(tryFly()) return;
+  // Pack may still be loading — wait briefly
+  let tries = 0;
+  const t = setInterval(function(){
+    tries++;
+    if(tryFly() || tries >= 8){
+      clearInterval(t);
+      if(tries >= 8 && !digFirstCreatureFindFeature()) openSheet();
+    }
+  }, 280);
+}
+window.digFlyToFirstCreatureFind = digFlyToFirstCreatureFind;
+window.digOpenDiscoverTours = function(){
+  try { renderDiscoverPathList(); setDiscoverSheetOpen(true); } catch(e){}
+};
+
+
 (function initDiscover(){
   const btn = document.getElementById('btn-discover');
   const sheetClose = document.getElementById('discover-sheet-close');
@@ -5209,14 +5383,28 @@ function openDirectionsInGoogleMaps(){
   renderDiscoverPathList();
   loadDiscoverPaths().then(() => renderDiscoverPathList());
 
-  btn.addEventListener('click', () => {
+  /* Primary: gold Discover → fly to first creature find and stop. Long-press opens Tours sheet. */
+  let _discLongPress = false;
+  let _discTimer = null;
+  btn.addEventListener('pointerdown', (e) => {
+    _discLongPress = false;
+    _discTimer = setTimeout(() => {
+      _discLongPress = true;
+      if(typeof window.digOpenDiscoverTours === 'function') window.digOpenDiscoverTours();
+    }, 550);
+  });
+  const clearDiscTimer = () => { if(_discTimer){ clearTimeout(_discTimer); _discTimer = null; } };
+  btn.addEventListener('pointerup', clearDiscTimer);
+  btn.addEventListener('pointerleave', clearDiscTimer);
+  btn.addEventListener('pointercancel', clearDiscTimer);
+  btn.addEventListener('click', (e) => {
+    if(_discLongPress){ e.preventDefault(); e.stopPropagation(); _discLongPress = false; return; }
     const sheet = document.getElementById('discover-sheet');
-    const open = sheet && sheet.classList.contains('is-open');
-    if(open) setDiscoverSheetOpen(false);
-    else {
-      renderDiscoverPathList();
-      setDiscoverSheetOpen(true);
+    if(sheet && sheet.classList.contains('is-open')){
+      setDiscoverSheetOpen(false);
+      return;
     }
+    if(typeof window.digFlyToFirstCreatureFind === 'function') window.digFlyToFirstCreatureFind();
   });
   if(sheetClose) sheetClose.addEventListener('click', () => {
     if(window._discoverState.active) exitDiscoverTour();
@@ -5252,10 +5440,15 @@ function openDirectionsInGoogleMaps(){
   const app = document.getElementById('app');
   function setTray(open){
     if(!tray || !trayBtn) return;
+    const wasOpen = tray.classList.contains('is-open');
     tray.classList.toggle('is-open', !!open);
     tray.setAttribute('aria-hidden', open ? 'false' : 'true');
     trayBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
     if(app) app.classList.toggle('layers-open', !!open);
+    /* Nested labels expand: match startup lock — OT + NT only (prevent map flood) */
+    if(open && !wasOpen && typeof window.applyOtNtOnlyLayerDefaults === 'function'){
+      window.applyOtNtOnlyLayerDefaults({syncMap:true});
+    }
   }
   if(trayBtn && tray){
     trayBtn.addEventListener('click', function(e){
@@ -5300,33 +5493,55 @@ function openDirectionsInGoogleMaps(){
 (function initAppOnboarding(){
   const splash = document.getElementById('app-splash');
   const overlay = document.getElementById('app-welcome');
-  const hint = document.getElementById('layers-hint');
+  const hint = document.getElementById('layers-hint'); /* legacy single hint kept hidden; tour uses #helpful-hints */
+  const tour = document.getElementById('helpful-hints');
   const helpBtn = document.getElementById('btn-app-help');
   const closeBtn = document.getElementById('btn-welcome-close');
+  const toursBtn = document.getElementById('btn-welcome-tours');
   const hintOk = document.getElementById('btn-layers-hint-ok');
   const hintsOffChk = document.getElementById('chk-hints-off');
+  const welcomeHintsChk = document.getElementById('chk-welcome-hints-on');
   const layersBtn = document.getElementById('btn-layers-tray');
   if(!overlay || !helpBtn) return;
 
   const KEY_ONBOARD = 'digintoscripture_onboarding_seen_v2';
   const KEY_WELCOME_LEGACY = 'digintoscripture_welcome_seen_v1';
   const KEY_HINTS_OFF = 'digintoscripture_hints_off_v1';
-  const KEY_LAYERS_HINT = 'digintoscripture_layers_hint_seen_v1';
+  const KEY_LAYERS_HINT = 'digintoscripture_layers_hint_seen_v1'; /* legacy; tour supersedes */
+  const KEY_TOUR_DONE = 'digintoscripture_hints_tour_done_v1';
 
   function lsGet(k){ try { return localStorage.getItem(k) === '1'; } catch(e){ return false; } }
   function lsSet(k){ try { localStorage.setItem(k, '1'); } catch(e){} }
+  function lsClear(k){ try { localStorage.removeItem(k); } catch(e){} }
+
+  function hintsAreOff(){
+    return lsGet(KEY_HINTS_OFF);
+  }
+  function setHintsOff(off){
+    if(off){ lsSet(KEY_HINTS_OFF); lsSet(KEY_TOUR_DONE); }
+    else { lsClear(KEY_HINTS_OFF); lsClear(KEY_TOUR_DONE); lsClear(KEY_LAYERS_HINT); }
+    if(welcomeHintsChk) welcomeHintsChk.checked = !off;
+  }
+
+  function syncWelcomeHintsChk(){
+    if(welcomeHintsChk) welcomeHintsChk.checked = !hintsAreOff();
+  }
 
   function openWelcome(){
     if(splash) splash.hidden = true;
     overlay.hidden = false;
     helpBtn.setAttribute('aria-expanded', 'true');
+    syncWelcomeHintsChk();
   }
   function closeWelcome(fromOnboarding){
     overlay.hidden = true;
     helpBtn.setAttribute('aria-expanded', 'false');
     lsSet(KEY_ONBOARD);
     lsSet(KEY_WELCOME_LEGACY);
-    if(fromOnboarding) maybeShowLayersHint();
+    if(welcomeHintsChk){
+      setHintsOff(!welcomeHintsChk.checked);
+    }
+    if(fromOnboarding) maybeStartHintsTour();
   }
   function openSplash(){
     if(!splash){ openWelcome(); return; }
@@ -5337,27 +5552,106 @@ function openDirectionsInGoogleMaps(){
     splash.hidden = true;
     openWelcome();
   }
-  function hintsDisabled(){
-    return lsGet(KEY_HINTS_OFF) || lsGet(KEY_LAYERS_HINT);
+
+  /* ---- sequential helpful hints ---- */
+  const HH_STEPS = [
+    { id:'search', sel:'#site-search-input', title:'Search', text:'Search finds digs by modern or ancient names. Try a place you know from Scripture.' },
+    { id:'layers', sel:'#btn-layers-tray', title:'Layers', text:'Only Old Testament and New Testament digs are on at first — so the map stays clear. Open Layers to check others.' },
+    { id:'checkall', sel:'#btn-layers-check-all', title:'Check / Uncheck all', text:'Inside Layers, Check all turns on most layers (sponsors stay opt-in). Uncheck all clears everything. Opening Layers resets to OT + NT only.', openLayers:true },
+    { id:'discover', sel:'#btn-discover', title:'Discover', text:'The gold Discover button flies you to the first Creature find and opens its story. Long-press Discover for guided Tours.' },
+    { id:'directions', sel:'#btn-directions', title:'Directions', text:'Build an ordered list of stops and open them in Google Maps.' },
+    { id:'pin', sel:'#map', title:'Tap a dig pin', text:'Tap any pin on the map to open its details drawer. Peek first, then drag up for the full story — YouTube search, authority, and sources are there.' },
+    { id:'creature', sel:'#tog-creature-finds', title:'Creature finds', text:'Creature finds stay off by default (bone markers). Turn the chip on when you want fossils and preserved remains — or use Discover to fly to the first one.', openLayers:true },
+    { id:'help', sel:'#btn-app-help', title:'Help & hints', text:'Tap ? anytime for About DigIntoScripture. Use the Helpful hints checkbox there to turn this tour off or back on.' }
+  ];
+  let hhIndex = 0;
+  let hhPulseEl = null;
+
+  function clearHhPulse(){
+    if(hhPulseEl){ hhPulseEl.classList.remove('hh-pulse'); hhPulseEl = null; }
   }
-  function maybeShowLayersHint(){
-    if(!hint || hintsDisabled()) return;
-    hint.hidden = false;
-    if(layersBtn) layersBtn.classList.add('hint-pulse');
+  function placeHhCard(target){
+    const card = tour && tour.querySelector('.hh-card');
+    if(!card) return;
+    const pad = 12;
+    let top = 72, left = pad;
+    if(target && target.getBoundingClientRect){
+      const r = target.getBoundingClientRect();
+      const cardW = Math.min(340, window.innerWidth - 2*pad);
+      left = Math.max(pad, Math.min(window.innerWidth - cardW - pad, r.left));
+      top = r.bottom + 10;
+      if(top + 180 > window.innerHeight){
+        top = Math.max(pad, r.top - 190);
+      }
+    }
+    card.style.left = left + 'px';
+    card.style.top = top + 'px';
+    card.style.right = 'auto';
   }
+  function showHhStep(i){
+    if(!tour) return;
+    if(i < 0 || i >= HH_STEPS.length){ endHhTour(true); return; }
+    hhIndex = i;
+    const step = HH_STEPS[i];
+    if(step.openLayers && layersBtn && typeof window.__digSetLayersTray === 'function'){
+      /* open tray via button click if closed */
+    }
+    if(step.openLayers && layersBtn){
+      const tray = document.getElementById('layers-tray');
+      if(tray && !tray.classList.contains('is-open')) layersBtn.click();
+    }
+    const titleEl = document.getElementById('hh-title');
+    const textEl = document.getElementById('hh-text');
+    const nextBtn = document.getElementById('btn-hh-next');
+    if(titleEl) titleEl.textContent = step.title;
+    if(textEl) textEl.textContent = step.text;
+    if(nextBtn) nextBtn.textContent = (i === HH_STEPS.length - 1) ? 'Got it' : 'Next';
+    clearHhPulse();
+    const el = document.querySelector(step.sel);
+    if(el){ el.classList.add('hh-pulse'); hhPulseEl = el; }
+    placeHhCard(el);
+    tour.hidden = false;
+  }
+  function endHhTour(completed){
+    if(tour) tour.hidden = true;
+    clearHhPulse();
+    const offChk = document.getElementById('chk-hh-off');
+    if(offChk && offChk.checked) setHintsOff(true);
+    if(completed) lsSet(KEY_TOUR_DONE);
+    /* close legacy layers-hint if somehow open */
+    if(hint){ hint.hidden = true; }
+    if(layersBtn) layersBtn.classList.remove('hint-pulse');
+  }
+  function maybeStartHintsTour(){
+    if(hintsAreOff() || lsGet(KEY_TOUR_DONE)) return;
+    /* Hints ON by default for first open */
+    setTimeout(() => showHhStep(0), 350);
+  }
+
+  /* legacy layers-hint path — route into tour instead of standalone */
+  function maybeShowLayersHint(){ maybeStartHintsTour(); }
   function closeLayersHint(){
-    if(!hint) return;
-    hint.hidden = true;
+    if(hint) hint.hidden = true;
     if(layersBtn) layersBtn.classList.remove('hint-pulse');
     lsSet(KEY_LAYERS_HINT);
-    if(hintsOffChk && hintsOffChk.checked) lsSet(KEY_HINTS_OFF);
+    if(hintsOffChk && hintsOffChk.checked) setHintsOff(true);
   }
 
   helpBtn.addEventListener('click', () => {
+    if(tour && !tour.hidden) endHhTour(false);
     if(hint && !hint.hidden) closeLayersHint();
     if(overlay.hidden) openWelcome(); else closeWelcome(false);
   });
   if(closeBtn) closeBtn.addEventListener('click', () => closeWelcome(true));
+  if(toursBtn) toursBtn.addEventListener('click', () => {
+    closeWelcome(false);
+    if(typeof window.digOpenDiscoverTours === 'function') window.digOpenDiscoverTours();
+  });
+  if(welcomeHintsChk){
+    welcomeHintsChk.addEventListener('change', () => {
+      setHintsOff(!welcomeHintsChk.checked);
+    });
+  }
   overlay.addEventListener('click', (e) => { if(e.target === overlay) closeWelcome(true); });
   if(splash){
     splash.addEventListener('click', finishSplash);
@@ -5369,6 +5663,22 @@ function openDirectionsInGoogleMaps(){
       if(e.target.classList && e.target.classList.contains('layers-hint-scrim')) closeLayersHint();
     });
   }
+  const hhNext = document.getElementById('btn-hh-next');
+  const hhSkip = document.getElementById('btn-hh-skip');
+  if(hhNext) hhNext.addEventListener('click', () => showHhStep(hhIndex + 1));
+  if(hhSkip) hhSkip.addEventListener('click', () => {
+    const offChk = document.getElementById('chk-hh-off');
+    if(offChk) offChk.checked = true;
+    endHhTour(true);
+    setHintsOff(true);
+  });
+  if(tour){
+    tour.addEventListener('click', (e) => {
+      if(e.target.classList && e.target.classList.contains('hh-scrim')){
+        endHhTour(false);
+      }
+    });
+  }
   if(layersBtn){
     layersBtn.addEventListener('click', () => {
       if(hint && !hint.hidden) closeLayersHint();
@@ -5376,20 +5686,29 @@ function openDirectionsInGoogleMaps(){
   }
   document.addEventListener('keydown', (e) => {
     if(e.key !== 'Escape') return;
+    if(tour && !tour.hidden){ endHhTour(false); return; }
     if(hint && !hint.hidden){ closeLayersHint(); return; }
     if(!overlay.hidden) closeWelcome(true);
     if(splash && !splash.hidden) finishSplash();
   });
 
+  syncWelcomeHintsChk();
   const onboarded = lsGet(KEY_ONBOARD) || lsGet(KEY_WELCOME_LEGACY);
   if(!onboarded){
     openSplash();
     setTimeout(finishSplash, 1600);
   } else {
-    // Prior visitors: mark new onboarding key; do not re-show splash/hint unless they clear storage
     lsSet(KEY_ONBOARD);
+    /* Returning visitors: do not auto-restart tour if they opted out or finished */
+    if(!hintsAreOff() && !lsGet(KEY_TOUR_DONE)){
+      /* First time after upgrade with hints still default-on: offer tour once */
+      setTimeout(() => maybeStartHintsTour(), 600);
+    }
   }
+  window.__digStartHintsTour = function(){ if(!hintsAreOff()) showHhStep(0); };
+  window.__digSetHintsOff = setHintsOff;
 })();
+
 
 </script>
 </body>

@@ -15,7 +15,7 @@
    }
   ],
   "stripped_urls": [],
-  "note": "Link-out only (no embedded/rehosted museum or AiG images). Not tagged creation vs evolution."
+  "note": "Link-out only (no embedded/rehosted museum or AiG images). Not tagged creation vs evolution. Authority from held_at; video only when pack already has YouTube."
  },
  "features": [
   {
@@ -92,7 +92,14 @@
       "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
      }
     ],
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Original sold in 1993, now in Japan",
+     "type": "museum",
+     "official_website": "https://creationmuseum.org/blog/2011/06/16/around-the-main-hall-part-1/"
+    },
+    "official_website": "https://creationmuseum.org/blog/2011/06/16/around-the-main-hall-part-1/",
+    "official_website_label": "Original sold in 1993"
    }
   },
   {
@@ -171,7 +178,14 @@
       "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
      }
     ],
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Ark Encounter, Williamstown, KY",
+     "type": "museum",
+     "official_website": "https://arkencounter.com/blog/2022/08/04/new-green-river-formation-exhibit-open/"
+    },
+    "official_website": "https://arkencounter.com/blog/2022/08/04/new-green-river-formation-exhibit-open/",
+    "official_website_label": "Ark Encounter"
    }
   },
   {
@@ -224,7 +238,14 @@
       "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
      }
     ],
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Creation Museum, Petersburg, KY",
+     "type": "museum",
+     "official_website": "https://creationmuseum.org/blog/2006/03/01/the-death-march-of-the-horseshoe-crab/"
+    },
+    "official_website": "https://creationmuseum.org/blog/2006/03/01/the-death-march-of-the-horseshoe-crab/",
+    "official_website_label": "Creation Museum"
    }
   },
   {
@@ -293,7 +314,14 @@
       "why": "Venue cited in Creation Museum / Ark Encounter evidence (existing pin)"
      }
     ],
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Mongolian / AMNH collections (no fossil at CM)",
+     "type": "museum",
+     "official_website": "https://creationmuseum.org/blog/2024/05/24/new-dinosaur-exhibit-coming-to-creation-museum/"
+    },
+    "official_website": "https://creationmuseum.org/blog/2024/05/24/new-dinosaur-exhibit-coming-to-creation-museum/",
+    "official_website_label": "Mongolian / AMNH collections (no fossil at CM)"
    }
   },
   {
@@ -392,7 +420,11 @@
      "precision_note": "Jordan town centroid (OSM relation 142462); quarry lies NW of town on refuge land; not pinned exactly."
     },
     "location": "NW of Jordan, Garfield County, Montana; south of Fort Peck Reservoir, Charles M. Russell National Wildlife Refuge",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Museum of the Rockies, Bozeman, MT",
+     "type": "museum"
+    }
    }
   },
   {
@@ -463,7 +495,11 @@
      "precision_note": "Malta town centroid (OSM relation 142457); site is north of town."
     },
     "location": "North of Malta, Phillips County, Montana (state trust land)",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Museum of the Rockies, Bozeman, MT",
+     "type": "museum"
+    }
    }
   },
   {
@@ -536,7 +572,11 @@
      "precision_note": "Glendive town centroid (OSM relation 142467). The paper publishes a PLSS section on private land; deliberately not pinned."
     },
     "location": "Private ranch near Glendive, Dawson County, Montana",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Not confirmed in sources checked",
+     "type": "unknown"
+    }
    }
   },
   {
@@ -604,7 +644,11 @@
      "precision_note": "PBDB col 194481 (local area; active mine, no public access)."
     },
     "location": "Suncor Millennium Mine, north of Fort McMurray, Alberta",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Royal Tyrrell Museum of Palaeontology, Drumheller, AB",
+     "type": "museum"
+    }
    }
   },
   {
@@ -679,7 +723,11 @@
      "precision_note": "PBDB Holzmaden collections (e.g., col 91595); specimen quarry not stated."
     },
     "location": "Holzmaden, Baden-Württemberg, Germany",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Urweltmuseum Hauff, Holzmaden, Germany",
+     "type": "museum"
+    }
    }
   },
   {
@@ -804,7 +852,14 @@
      "ministry_view": "CMI (Joel Tay) presents the collagen reading as evidence the filaments are not feathers (attributed claim only)."
     },
     "related_note": "Similar filament finds (e.g., Dilong, Yutyrannus, Beipiaosaurus) are reviewed in Xu & Barrett 2025, Biology Letters (https://doi.org/10.1098/rsbl.2024.0517); not separate pins in this starter pack.",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Nanjing Institute of Geology and Palaeontology (NIGP) and IVPP, Beijing",
+     "type": "museum"
+    },
+    "official_video_embed": "https://www.youtube-nocookie.com/embed/U4xztNBvpLw",
+    "official_video_provider": "youtube",
+    "official_video_source": "https://www.youtube.com/watch?v=U4xztNBvpLw"
    }
   },
   {
@@ -879,7 +934,14 @@
      "precision_note": "PBDB col 53036 (local area)."
     },
     "location": "Langenaltheim, near Solnhofen, Bavaria, Germany",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Natural History Museum, London",
+     "type": "museum",
+     "official_website": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html"
+    },
+    "official_website": "https://www.nhm.ac.uk/discover/dino-directory/archaeopteryx.html",
+    "official_website_label": "Natural History Museum"
    }
   },
   {
@@ -947,7 +1009,14 @@
      "precision_note": "Faith town centroid; the ranch site is private/trust land and not pinned exactly."
     },
     "location": "Cheyenne River Sioux Reservation land near Faith, Ziebach County, South Dakota",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Field Museum, Chicago",
+     "type": "museum",
+     "official_website": "https://www.fieldmuseum.org/blog/sue-t-rex"
+    },
+    "official_website": "https://www.fieldmuseum.org/blog/sue-t-rex",
+    "official_website_label": "Field Museum"
    }
   },
   {
@@ -1021,7 +1090,11 @@
      "precision_note": "Approximate coordinates for the Yuribey River find area from published descriptions (Fisher et al. 2012); area-level."
     },
     "location": "Yuribey River, Yamal Peninsula, Russia",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Shemanovsky Museum, Salekhard, Russia",
+     "type": "museum"
+    }
    }
   },
   {
@@ -1093,7 +1166,14 @@
      "precision_note": "Point on the Berezovka River line (OSM way 146580333); exact bank site not published in sources checked."
     },
     "location": "Berezovka River, Kolyma basin, Sakha (Yakutia), Russia",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Zoological Museum, St Petersburg",
+     "type": "museum",
+     "official_website": "https://www.si.edu/collections/snapshot/berezovka-woolly-mammoth-flesh-jar"
+    },
+    "official_website": "https://www.si.edu/collections/snapshot/berezovka-woolly-mammoth-flesh-jar",
+    "official_website_label": "Zoological Museum"
    }
   },
   {
@@ -1166,7 +1246,14 @@
      "precision_note": "Shell town centroid; quarry location withheld here."
     },
     "location": "BLM land near Shell, Big Horn County, Wyoming",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Museum of the Rockies, Bozeman, MT",
+     "type": "museum",
+     "official_website": "https://creationmuseum.org/press/million-dinosaur-exhibit-dedicated-today/"
+    },
+    "official_website": "https://creationmuseum.org/press/million-dinosaur-exhibit-dedicated-today/",
+    "official_website_label": "Museum of the Rockies"
    }
   },
   {
@@ -1277,7 +1364,14 @@
      "precision_note": "PBDB col 21852."
     },
     "location": "Quarry Exhibit Hall, Dinosaur National Monument, near Jensen, Utah",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "In place (Quarry Exhibit Hall wall) + Carnegie Museum and others",
+     "type": "museum",
+     "official_website": "https://www.nps.gov/dino/learn/historyculture/carnegie_quarry.htm"
+    },
+    "official_website": "https://www.nps.gov/dino/learn/historyculture/carnegie_quarry.htm",
+    "official_website_label": "In place (Quarry Exhibit Hall wall) + Carnegie Museum and…"
    }
   },
   {
@@ -1367,7 +1461,14 @@
      "precision_note": "PBDB col 46439."
     },
     "location": "Jurassic National Monument, Emery County, Utah",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Dozens of museums worldwide; on-site visitor center",
+     "type": "museum",
+     "official_website": "https://www.blm.gov/sites/default/files/documents/files/Cleveland%20Lloyd%20Brochure.pdf"
+    },
+    "official_website": "https://www.blm.gov/sites/default/files/documents/files/Cleveland%20Lloyd%20Brochure.pdf",
+    "official_website_label": "Dozens of museums worldwide"
    }
   },
   {
@@ -1439,7 +1540,11 @@
      "precision_note": "PBDB col 28366."
     },
     "location": "Garden Park Fossil Area, north of Cañon City, Fremont County, Colorado",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Smithsonian NMNH (USNM 4734) and Yale Peabody",
+     "type": "museum"
+    }
    }
   },
   {
@@ -1520,7 +1625,14 @@
      "precision_note": "Shell town centroid; private land, not pinned exactly."
     },
     "location": "Private ranch near Shell, Big Horn County, Wyoming",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "American Museum of Natural History (and Sauriermuseum Aathal for 1990s material)",
+     "type": "museum",
+     "official_website": "https://www.amnh.org/explore/news-blogs/howe-quarry-fossil-site"
+    },
+    "official_website": "https://www.amnh.org/explore/news-blogs/howe-quarry-fossil-site",
+    "official_website_label": "American Museum of Natural History (and Sauriermuseum Aat…"
    }
   },
   {
@@ -1595,7 +1707,14 @@
      "precision_note": "PBDB col 48422."
     },
     "location": "Ghost Ranch, Rio Arriba County, New Mexico",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Ruth Hall Museum of Paleontology (Ghost Ranch), NM Museum of Natural History, Carnegie, AMNH",
+     "type": "museum",
+     "official_website": "https://www.nps.gov/articles/000/nnl-dinosaurs.htm"
+    },
+    "official_website": "https://www.nps.gov/articles/000/nnl-dinosaurs.htm",
+    "official_website_label": "Ruth Hall Museum of Paleontology (Ghost Ranch)"
    }
   },
   {
@@ -1656,7 +1775,14 @@
      "precision_note": "Hilda hamlet centroid (area-level). The bonebeds lie west of Hilda along the South Saskatchewan River (per Canadian Encyclopedia)."
     },
     "location": "Near Hilda, southeastern Alberta",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Royal Tyrrell Museum",
+     "type": "museum",
+     "official_website": "https://thecanadianencyclopedia.ca/en/article/alberta-hilda-dinosaur-mega-bonebed"
+    },
+    "official_website": "https://thecanadianencyclopedia.ca/en/article/alberta-hilda-dinosaur-mega-bonebed",
+    "official_website_label": "Royal Tyrrell Museum"
    }
   },
   {
@@ -1737,7 +1863,14 @@
      "precision_note": "PBDB col 22659."
     },
     "location": "Dinosaur Provincial Park, Alberta (UNESCO World Heritage site)",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Royal Tyrrell Museum",
+     "type": "museum",
+     "official_website": "https://www.albertaparks.ca/parks/south/dinosaur-pp/"
+    },
+    "official_website": "https://www.albertaparks.ca/parks/south/dinosaur-pp/",
+    "official_website_label": "Royal Tyrrell Museum"
    }
   },
   {
@@ -1802,7 +1935,14 @@
      "precision_note": "PBDB col 45975 (PBDB lists Montrose County; Jensen 1985 says Mesa County, 35 miles west of Delta; the quarry sits near the county line)."
     },
     "location": "Dry Mesa, Uncompahgre Plateau, Montrose County, Colorado",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "BYU Museum of Paleontology, Provo, UT",
+     "type": "museum",
+     "official_website": "https://scholarsarchive.byu.edu/gbn/vol45/iss4/7/"
+    },
+    "official_website": "https://scholarsarchive.byu.edu/gbn/vol45/iss4/7/",
+    "official_website_label": "BYU Museum of Paleontology"
    }
   },
   {
@@ -1861,7 +2001,14 @@
      "precision_note": "PBDB col 24883."
     },
     "location": "Dashanpu, Zigong, Sichuan, China",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Zigong Dinosaur Museum (built over the quarry)",
+     "type": "museum",
+     "official_website": "https://iugs-geoheritage.org/geoheritage_sites/dashanpu-middle-jurassicdinosaur-fossils-site/"
+    },
+    "official_website": "https://iugs-geoheritage.org/geoheritage_sites/dashanpu-middle-jurassicdinosaur-fossils-site/",
+    "official_website_label": "Zigong Dinosaur Museum (built over the quarry)"
    }
   },
   {
@@ -1920,7 +2067,14 @@
      "precision_note": "PBDB col 34863."
     },
     "location": "Tendaguru, Lindi Region, Tanzania",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Museum für Naturkunde, Berlin; Natural History Museum, London",
+     "type": "museum",
+     "official_website": "https://digitaltendaguru.museumfuernaturkunde.berlin/"
+    },
+    "official_website": "https://digitaltendaguru.museumfuernaturkunde.berlin/",
+    "official_website_label": "Museum für Naturkunde"
    }
   },
   {
@@ -1994,7 +2148,14 @@
      "precision_note": "PBDB col 14453."
     },
     "location": "Near Choteau, Teton County, Montana",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Museum of the Rockies",
+     "type": "museum",
+     "official_website": "https://www.nps.gov/articles/mesozoic-egg-mountain-dawson-2014.htm"
+    },
+    "official_website": "https://www.nps.gov/articles/mesozoic-egg-mountain-dawson-2014.htm",
+    "official_website_label": "Museum of the Rockies"
    }
   },
   {
@@ -2055,7 +2216,14 @@
      "precision_note": "Monument site (OSM)."
     },
     "location": "Waco, McLennan County, Texas",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "In place at the monument dig shelter; Baylor University",
+     "type": "monument",
+     "official_website": "https://www.nps.gov/waco/learn/historyculture/index.htm"
+    },
+    "official_website": "https://www.nps.gov/waco/learn/historyculture/index.htm",
+    "official_website_label": "In place at the monument dig shelter"
    }
   },
   {
@@ -2116,7 +2284,14 @@
      "precision_note": "State historic site centroid (OSM). ~20 miles from the Creation Museum."
     },
     "location": "Big Bone Lick State Historic Site, Boone County, Kentucky",
-    "disclosure": "Christian ministry cites: young-earth creation ministry"
+    "disclosure": "Christian ministry cites: young-earth creation ministry",
+    "site_authority": {
+     "name": "Many museums; Big Bone Lick State Historic Site",
+     "type": "museum",
+     "official_website": "https://www.nps.gov/articles/000/big-bone-lick.htm"
+    },
+    "official_website": "https://www.nps.gov/articles/000/big-bone-lick.htm",
+    "official_website_label": "Many museums"
    }
   }
  ]

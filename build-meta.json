@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-z",
+  "build": "20261001-aa",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -452,7 +452,7 @@
     ]
   },
   "creature_finds": {
-    "build": "20261001-z",
+    "build": "20261001-aa",
     "source_pack": "creature-finds-pins-2026-10-06.json",
     "geojson": "creature-finds.geojson",
     "layer_id": "creature_finds",
@@ -482,6 +482,28 @@
       "findspot.precision_note"
     ],
     "url_filter": "PoliceBot SAFE hosts only (incl. 16 hosts cleared 2026-10-06 + si.edu); coresci.org never linked (Whitmore & Snelling 2014 JCTS cite-only); no press-kit zips; link-out only",
-    "converter": "build_creature_finds_geojson.py"
+    "converter": "build_creature_finds_geojson.py",
+    "ux": [
+      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
+      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+      "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
+      "official_video_embed only when pack already has YouTube (CRF-11)",
+      "28 mapped pins; CRF-01 held off-map; layer off by default"
+    ]
+  },
+  "published": "2026-10-06",
+  "aa_notes": {
+    "build": "20261001-aa",
+    "date": "2026-10-06",
+    "creature_finds_ux": [
+      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
+      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+      "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
+      "official_video_embed only when pack already has YouTube (CRF-11)",
+      "28 mapped pins; CRF-01 held off-map; layer off by default"
+    ],
+    "nested_labels": "Layers tray expand applies OT+NT-only defaults (matches startup lock); startup no longer force-adds sg/ch/ap/trade/prophets/miracles/wilderness",
+    "helpful_hints": "Hints ON by default; sequential tour; ? welcome has Helpful hints toggle; persist digintoscripture_hints_off_v1",
+    "discover": "Gold sparkle CSS on #btn-discover (same size); click flies to first creature find + opens story; long-press or welcome Tours opens path sheet"
   }
 }
