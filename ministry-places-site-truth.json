@@ -5,7 +5,7 @@
   "product": "DigIntoScripture ministry_places pins (Ark Encounter, Creation Museum, HalleluYah Scriptures)",
   "layer": {
     "id": "ministry_places",
-    "geojson_hint": "ministry-places.geojson (AI Tools to create; do not invent in this pack)",
+    "geojson_hint": "ministry-places.geojson (to be created; do not invent in this pack)",
     "default_on": false,
     "rename_note": "Layer id is ministry_places (not creation_attractions) so it can hold AiG attractions plus a publisher pin. Stays OFF by default under the standing lock."
   },
@@ -159,7 +159,7 @@
         "page_url": "https://arkencounter.com/press/",
         "terms_summary": "Press room offers a downloadable media kit (facts, bios, high-resolution photos) for credentialed media and Ark Encounter supporters. Site asks visitors not to copy or save lower-resolution images from web pages and to use the kit for high-res assets. Further press questions: press@answersingenesis.org. This is not recorded here as a blanket public redistribution license — follow the kit/page terms and AiG content policy.",
         "as_of": "2026-10-05",
-        "download": "none: link page_url only (PoliceBot CAUTION on 236/116 MB zips); no kit photos in app"
+        "download": "none: link page_url only (host caution on 236/116 MB zips); no kit photos in app"
       },
       "related_pins": [
         {
@@ -295,7 +295,7 @@
         "page_url": "https://creationmuseum.org/press/",
         "terms_summary": "Press room offers a downloadable media kit (facts, bios, high-resolution photos) for credentialed media and Creation Museum supporters. Site asks visitors not to copy or save lower-resolution images from web pages and to use the kit for high-res assets. Further press questions: press@answersingenesis.org. Not recorded here as a blanket public redistribution license — follow the kit/page terms and AiG content policy.",
         "as_of": "2026-10-05",
-        "download": "none: link page_url only (PoliceBot CAUTION on 236/116 MB zips); no kit photos in app"
+        "download": "none: link page_url only (host caution on 236/116 MB zips); no kit photos in app"
       },
       "related_pins": [
         {

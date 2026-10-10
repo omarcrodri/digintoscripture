@@ -1928,7 +1928,7 @@
      }
     ],
     "solidity": "strong",
-    "solidity_caveat": "No Christian-source coverage found; included from the AI Tools bonebed list.",
+    "solidity_caveat": "No Christian-source coverage found; included from a compiled bonebed list.",
     "findspot": {
      "place": "Dry Mesa, Uncompahgre Plateau, Montrose County, Colorado",
      "coord_status": "pbdb_collection",

@@ -17,7 +17,7 @@
         "sponsor_id": "example-expedition",
         "sponsor_label": "Expedition: Example (sponsor)",
         "found": "Team surface pottery scatter and photogrammetry grid (their report).",
-        "support": "Sponsor field notes — Surveyor unrated until a real pack lands.",
+        "support": "Sponsor field notes — not yet rated until a real pack lands.",
         "notes": "Placeholder pin for schema only — not loaded in the live map.",
         "surveyor_solidity": "unrated",
         "surveyor_caveat": "Sample stub — do not treat as archaeology consensus.",
