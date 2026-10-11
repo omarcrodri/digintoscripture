@@ -1,0 +1,372 @@
+{
+ "type": "FeatureCollection",
+ "pack": "21st-century breakout pastors",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.5764,
+     37.1318
+    ]
+   },
+   "properties": {
+    "id": "BRK-01",
+    "name": "Paul Washer — HeartCry Missionary Society",
+    "found": "Paul Washer: founder and Executive Director of HeartCry Missionary Society; known widely from the 2002 \"Shocking Youth Message\". Lives in Radford, VA (HeartCry bio).",
+    "support": "Official channel: HeartCry Missionary Society (https://www.youtube.com/channel/UCm6u_sCZttC70GyRh6uCurQ).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Local church UNCONFIRMED: no official source names his membership. Christ Church Radford (christchur.ch) says it works with HeartCry, but only forum posts say Washer is a member. HeartCry lists only a mailing address (PO Box 7372, Roanoke VA 24019), so the pin is approximate at Radford, VA.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/t1BWSOVNm4A",
+      "provider": "youtube",
+      "title": "The Gospel | Paul Washer",
+      "source": "https://www.youtube.com/watch?v=t1BWSOVNm4A",
+      "label": "HeartCry Missionary Society"
+     }
+    ],
+    "sources": [
+     "https://heartcrymissionary.com/people/paul-david-washer/",
+     "https://www.youtube.com/@Heartcrymissionary",
+     "https://christchur.ch/tuesday-takeaway/overview/"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors",
+    "approximate": "Approximate location — church not confirmed by an official source"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.42212,
+     34.22107
+    ]
+   },
+   "properties": {
+    "id": "BRK-02",
+    "name": "John MacArthur — Grace Community Church, Sun Valley CA",
+    "found": "John MacArthur: pastor-teacher of Grace Community Church for 56 years; Grace to You. Died July 14, 2025, aged 86 (Grace Community Church elders' statement; Grace to You memorial).",
+    "support": "Official channel: Grace to You (https://www.youtube.com/channel/UCneKpMu9SFGlt2usTdAI75A).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Church address 13248 Roscoe Blvd, Sun Valley, CA 91352 (gracechurch.org). Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/jSo-EwbwUF4",
+      "provider": "youtube",
+      "title": "Getting the Gospel Right",
+      "source": "https://www.youtube.com/watch?v=jSo-EwbwUF4",
+      "label": "Grace to You"
+     }
+    ],
+    "sources": [
+     "https://www.gracechurch.org/about",
+     "https://www.gty.org/memorial",
+     "https://www.masters.edu/master_tmu_news/dr-john-macarthur-1939-2025/",
+     "https://www.youtube.com/@gracetoyou"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors",
+    "died": "Died July 14, 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.25512,
+     44.96916
+    ]
+   },
+   "properties": {
+    "id": "BRK-03",
+    "name": "John Piper — Bethlehem Baptist Church, Minneapolis MN",
+    "found": "John Piper: pastor of Bethlehem Baptist 1980-2013 (now retired from that role); founder of Desiring God.",
+    "support": "Official channel: Desiring God (https://www.youtube.com/channel/UCnrFlpro0xfYjz6s5Xa8WWw).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Historic church, not a current pastorate. Bethlehem Baptist Downtown campus, 720 13th Ave S, Minneapolis, MN 55415 (bethlehem.church). Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/JaFRMaqHAdY",
+      "provider": "youtube",
+      "title": "The Gospel in 6 Minutes -- John Piper",
+      "source": "https://www.youtube.com/watch?v=JaFRMaqHAdY",
+      "label": "Desiring God"
+     }
+    ],
+    "sources": [
+     "https://bethlehem.church/location/downtown-campus",
+     "https://www.youtube.com/@desiringGod"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.97569,
+     40.78511
+    ]
+   },
+   "properties": {
+    "id": "BRK-04",
+    "name": "Timothy Keller — Redeemer Presbyterian Church, New York NY",
+    "found": "Timothy Keller: founding pastor of Redeemer Presbyterian (d. 2023).",
+    "support": "Official channel: Gospel in Life (https://www.youtube.com/channel/UCQmUmqrMGfnesNpdL7T282Q).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Historic church (Keller died 2023). Redeemer West Side, 150 W 83rd St, New York, NY 10024 (redeemerws.com). Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/p8i0Y8qoi44",
+      "provider": "youtube",
+      "title": "The Centrality of the Gospel – Timothy Keller",
+      "source": "https://www.youtube.com/watch?v=p8i0Y8qoi44",
+      "label": "Gospel in Life"
+     }
+    ],
+    "sources": [
+     "https://redeemerws.com/worship-with-us/",
+     "https://www.youtube.com/@gospelinlife"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.25559,
+     38.94035
+    ]
+   },
+   "properties": {
+    "id": "BRK-05",
+    "name": "David Platt — McLean Bible Church, Vienna VA",
+    "found": "David Platt: lead pastor at McLean Bible Church (Tysons); author of Radical.",
+    "support": "Official channel: David Platt (https://www.youtube.com/channel/UCEGRwJYo2DS6O_20i1eQSQg).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "McLean Bible Church Tysons, 8925 Leesburg Pike, Vienna, VA 22182 (mcleanbible.org). Geocoded 2026-10-10 by church name via OpenStreetMap Nominatim (no street-number match).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/lPBxEm_q1XE",
+      "provider": "youtube",
+      "title": "The Gospel Demands Radical Sacrifice",
+      "source": "https://www.youtube.com/watch?v=lPBxEm_q1XE",
+      "label": "David Platt"
+     }
+    ],
+    "sources": [
+     "https://mcleanbible.org/tysons/",
+     "https://mcleanbible.org/leadpastors/",
+     "https://www.youtube.com/@PlattDavid"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -97.06035,
+     33.0705
+    ]
+   },
+   "properties": {
+    "id": "BRK-06",
+    "name": "Matt Chandler — The Village Church, Flower Mound TX",
+    "found": "Matt Chandler: lead pastor of The Village Church; former Acts 29 president.",
+    "support": "Official channel: The Village Church - Flower Mound (https://www.youtube.com/channel/UC5tzTmPEue1OMqkT9CIAP0g).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "The Village Church, 2101 Justin Rd, Flower Mound, TX 75028 (thevillagechurch.net). Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/opw-s1vRk7E",
+      "provider": "youtube",
+      "title": "The Gospel in the Air – This Is the Gospel",
+      "source": "https://www.youtube.com/watch?v=opw-s1vRk7E",
+      "label": "The Village Church - Flower Mound"
+     }
+    ],
+    "sources": [
+     "https://www.thevillagechurch.net/",
+     "https://www.thevillagechurch.net/staff-and-elders",
+     "https://www.youtube.com/@thevillagechurch"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.4342,
+     41.35845
+    ]
+   },
+   "properties": {
+    "id": "BRK-07",
+    "name": "Alistair Begg — Parkside Church, Chagrin Falls OH",
+    "found": "Alistair Begg: senior pastor of Parkside Church; Truth For Life broadcast.",
+    "support": "Official channel: Alistair Begg / Truth For Life (https://www.youtube.com/channel/UCsCyJ7xl8rQ10Cyz-fwJ5Xg).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Parkside Church, 7100 Pettibone Rd, Chagrin Falls, OH (parksidechurch.com). Coords are APPROXIMATE: OpenStreetMap matched only Pettibone Road (street level), not the building.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/C455ZfOE7_A",
+      "provider": "youtube",
+      "title": "The Beginning of the Gospel (Part 1 of 2)",
+      "source": "https://www.youtube.com/watch?v=C455ZfOE7_A",
+      "label": "Alistair Begg / Truth For Life"
+     }
+    ],
+    "sources": [
+     "https://www.parksidechurch.com/visit/service-times-directions/",
+     "https://www.youtube.com/@truthforlife1"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -76.99886,
+     38.89064
+    ]
+   },
+   "properties": {
+    "id": "BRK-08",
+    "name": "Mark Dever — Capitol Hill Baptist Church, Washington DC",
+    "found": "Mark Dever: senior pastor of Capitol Hill Baptist; founder of 9Marks.",
+    "support": "Official channel: 9Marks (https://www.youtube.com/channel/UCQqwN1Pf4qJTU2IZHZmWLuw).",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Capitol Hill Baptist Church, 525 A St NE, Washington, DC 20002 (capitolhillbaptist.org). Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp).",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/7GFzKOTfGcg",
+      "provider": "youtube",
+      "title": "The Gospel — Mark Dever | 9Marks Conference",
+      "source": "https://www.youtube.com/watch?v=7GFzKOTfGcg",
+      "label": "9Marks"
+     }
+    ],
+    "sources": [
+     "https://www.capitolhillbaptist.org/about-us/",
+     "https://www.9marks.org/mark-dever/",
+     "https://www.youtube.com/@IXMarks"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     28.28823,
+     -15.42574
+    ]
+   },
+   "properties": {
+    "id": "BRK-09",
+    "name": "Conrad Mbewe — Kabwata Baptist Church, Lusaka, Zambia",
+    "found": "Conrad Mbewe: pastor of Kabwata Baptist; dubbed \"the Spurgeon of Africa\".",
+    "support": "Church official channel: Biblical Christianity (https://www.youtube.com/@BiblicalChristianity), linked from kabwatabaptistchurch.com/media.",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Kabwata Baptist Church, Plot CH 20422, Chilimbulu Road, Libala, Lusaka. Coords APPROXIMATE: OpenStreetMap matched only Chilimbulu Road.",
+    "related_videos": [],
+    "sources": [
+     "https://kabwatabaptistchurch.com/",
+     "https://kabwatabaptistchurch.com/media/",
+     "https://www.youtube.com/@BiblicalChristianity"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors",
+    "approximate": "Approximate location (street level)",
+    "channel_link": [
+     "Biblical Christianity (official church channel)",
+     "https://www.youtube.com/@BiblicalChristianity"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.43714,
+     30.07446
+    ]
+   },
+   "properties": {
+    "id": "BRK-10",
+    "name": "Voddie Baucham — Grace Family Baptist Church, Spring TX",
+    "found": "Voddie Baucham: former pastor of Grace Family Baptist (Spring, TX); later dean at African Christian University, Lusaka; president of Founders Seminary. Died September 25, 2025, aged 56 (Founders Ministries; Baptist Press).",
+    "support": "Official channel: Voddie Baucham Ministries (https://www.youtube.com/@voddiebauchamministries), linked from voddiebaucham.org.",
+    "notes": "Curated list of widely influential 21st-century pastors/preachers — not a ranking or endorsement of every position.",
+    "confidence": "n/a (curated)",
+    "caveat": "Address UNCONFIRMED: 8765 Spring Cypress Rd Ste L, Spring, TX 77379 comes from directory listings only, with no official church site found; coords are street level.",
+    "related_videos": [],
+    "sources": [
+     "https://founders.org/articles/the-death-of-voddie-baucham/",
+     "https://www.baptistpress.com/resource-library/news/well-known-speaker-theologian-voddie-baucham-dies-at-56-after-medical-emergency/",
+     "https://voddiebaucham.org/",
+     "https://www.youtube.com/@voddiebauchamministries"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "layer": "breakout_pastors",
+    "died": "Died September 25, 2025",
+    "approximate": "Approximate location — church not confirmed by an official source",
+    "channel_link": [
+     "Voddie Baucham Ministries (official channel)",
+     "https://www.youtube.com/@voddiebauchamministries"
+    ]
+   }
+  }
+ ]
+}

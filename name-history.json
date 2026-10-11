@@ -1,0 +1,1077 @@
+{
+ "schema_version": 1,
+ "source_pack": "site-etymology-conquest-2026-10-10 (language-reviewed)",
+ "pins": {
+  "DAN-01,DAN-02": {
+   "etymology": {
+    "original_form": "דָּן",
+    "lang_code": "he",
+    "transliteration": "Dan; earlier לַיִשׁ Laish",
+    "meaning": "'Judge'; Laish may mean 'lion'",
+    "later_names": [
+     "Laish/Leshem (pre-Israelite)",
+     "Tell el-Qadi (Arabic, 'mound of the judge')"
+    ],
+    "caveat": "Confidence: high for 'judge'; medium for Laish"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/dan/"
+   ]
+  },
+  "MEG-01": {
+   "etymology": {
+    "later_names": [
+     "Tell el-Mutesellim (Arabic)",
+     "Armageddon (Revelation 16:16 name tradition)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "609 BC",
+     "power": "Necho II (battle)",
+     "event": "King Josiah killed at Megiddo (2 Kings 23:29) (text; solid)",
+     "source": "https://www.britannica.com/place/Megiddo"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Megiddo",
+    "https://www.bibleplaces.com/megiddo/"
+   ]
+  },
+  "MEG-02,MEG-03": {
+   "etymology": {
+    "later_names": [
+     "Tell el-Mutesellim (Arabic)",
+     "Armageddon (Revelation 16:16 name tradition)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "609 BC",
+     "power": "Necho II (battle)",
+     "event": "King Josiah killed at Megiddo (2 Kings 23:29) (text; solid)",
+     "source": "https://www.britannica.com/place/Megiddo"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Megiddo",
+    "https://www.bibleplaces.com/megiddo/"
+   ]
+  },
+  "HAZ-01,HAZ-02": {
+   "etymology": {
+    "original_form": "חָצוֹר",
+    "lang_code": "he",
+    "transliteration": "Hatsor; Akkadian Ḫaṣura",
+    "meaning": "Likely 'enclosure/settlement'",
+    "later_names": [
+     "Tell el-Qedah (Arabic)"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "conquest_timeline": [
+    {
+     "date": "732 BC",
+     "power": "Tiglath-pileser III",
+     "event": "City destroyed (2 Kings 15:29) (both; solid)",
+     "source": "https://www.britannica.com/place/Hazor"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Hazor",
+    "https://www.bibleplaces.com/hazor/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "LAC-01": {
+   "etymology": {
+    "later_names": [
+     "Tell ed-Duweir (Arabic)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "701 BC",
+     "power": "Sennacherib of Assyria",
+     "event": "Siege shown on Nineveh palace reliefs; siege ramp on site (both; very solid)",
+     "source": "https://www.britannica.com/place/Lachish"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Lachish",
+    "https://www.bibleplaces.com/lachish/"
+   ]
+  },
+  "LAC-02,LAC-03": {
+   "etymology": {
+    "later_names": [
+     "Tell ed-Duweir (Arabic)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "701 BC",
+     "power": "Sennacherib of Assyria",
+     "event": "Siege shown on Nineveh palace reliefs; siege ramp on site (both; very solid)",
+     "source": "https://www.britannica.com/place/Lachish"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Lachish",
+    "https://www.bibleplaces.com/lachish/"
+   ]
+  },
+  "JER-01,JER-02": {
+   "etymology": {
+    "later_names": [
+     "Tell es-Sultan (Arabic)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jericho-West-Bank",
+    "https://www.bibleplaces.com/jericho/"
+   ]
+  },
+  "QUM-01": {
+   "etymology": {
+    "later_names": [
+     "Khirbet Qumran"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Qumran",
+    "https://www.bibleplaces.com/qumran/"
+   ]
+  },
+  "COD-01,COD-02,COD-04": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "COD-03": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "GEZ-01,GEZ-02": {
+   "etymology": {
+    "original_form": "גֶּזֶר",
+    "lang_code": "he",
+    "transliteration": "Gezer; Amarna Gazru",
+    "meaning": "Possibly 'portion/cut-off place'",
+    "later_names": [
+     "Tell Jezer / Tell Abu Shusha (Arabic)"
+    ],
+    "caveat": "Confidence: low"
+   },
+   "conquest_timeline": [
+    {
+     "date": "c. 10th c. BC",
+     "power": "Pharaoh (unnamed)",
+     "event": "Burns Gezer, gives it to Solomon (1 Kings 9:16) (text; debated)",
+     "source": "https://www.britannica.com/place/Gezer"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Gezer",
+    "https://www.bibleplaces.com/gezer/"
+   ]
+  },
+  "BEE-01": {
+   "etymology": {
+    "original_form": "בְּאֵר שֶׁבַע",
+    "lang_code": "he",
+    "transliteration": "Be'er Sheva",
+    "meaning": "'Well of seven' and 'well of the oath' (Genesis 21:31; 26:33). The text intentionally plays on sheva 'seven' and nishba 'swear', so both senses belong.",
+    "later_names": [
+     "Bir es-Seba (Arabic)"
+    ],
+    "caveat": "Confidence: high (both senses intended in the text)"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Beersheba",
+    "https://www.bibleplaces.com/beersheba/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "SAM-01": {
+   "etymology": {
+    "original_form": "שֹׁמְרוֹן",
+    "lang_code": "he",
+    "transliteration": "Shomron",
+    "meaning": "'Watch place'; Bible ties it to owner Shemer (1 Kings 16:24)",
+    "later_names": [
+     "Sebaste (Herod, Greek for Augustus)",
+     "Sebastia (Arabic)"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "conquest_timeline": [
+    {
+     "date": "27 BC",
+     "power": "Herod the Great",
+     "event": "Rebuilt as Sebaste (both; solid)",
+     "source": "https://www.bibleplaces.com/samaria/"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/samaria/"
+   ]
+  },
+  "SAM-02": {
+   "etymology": {
+    "original_form": "שֹׁמְרוֹן",
+    "lang_code": "he",
+    "transliteration": "Shomron",
+    "meaning": "'Watch place'; Bible ties it to owner Shemer (1 Kings 16:24)",
+    "later_names": [
+     "Sebaste (Herod, Greek for Augustus)",
+     "Sebastia (Arabic)"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "conquest_timeline": [
+    {
+     "date": "27 BC",
+     "power": "Herod the Great",
+     "event": "Rebuilt as Sebaste (both; solid)",
+     "source": "https://www.bibleplaces.com/samaria/"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/samaria/"
+   ]
+  },
+  "SHE-01": {
+   "etymology": {
+    "later_names": [
+     "Neapolis (Roman, AD 72)",
+     "Nablus (Arabic form of Neapolis)",
+     "Tell Balata (Arabic site name)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Shechem",
+    "https://www.bibleplaces.com/shechem/"
+   ]
+  },
+  "BSH-01": {
+   "etymology": {
+    "original_form": "בֵּית שְׁאָן",
+    "lang_code": "he",
+    "transliteration": "Beit She'an",
+    "meaning": "'House of quiet' or 'house of (god) Shan'",
+    "later_names": [
+     "Scythopolis (Greek)",
+     "Beisan (Arabic)"
+    ],
+    "caveat": "Confidence: low"
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 749",
+     "power": "Earthquake (not a conquest)",
+     "event": "Roman-Byzantine city ruined (archaeology; very solid)",
+     "source": "https://www.britannica.com/place/Bet-Shean"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Bet-Shean",
+    "https://www.bibleplaces.com/bethshean/"
+   ]
+  },
+  "ARA-01": {
+   "etymology": {
+    "later_names": [
+     "Tell Arad"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Arad-Israel",
+    "https://www.bibleplaces.com/arad/"
+   ]
+  },
+  "MAS-01": {
+   "etymology": {
+    "original_form": "מְצָדָה",
+    "lang_code": "he",
+    "transliteration": "Metzada",
+    "meaning": "'Fortress'",
+    "later_names": [
+     "Masada (Greek form via Josephus)",
+     "es-Sebbeh (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 73/74",
+     "power": "Roman Tenth Legion under Flavius Silva",
+     "event": "Siege ramp; fall of last rebels (both; very solid (death details debated))",
+     "source": "https://www.britannica.com/place/Masada"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Masada",
+    "https://www.bibleplaces.com/masada/"
+   ]
+  },
+  "ASH-01": {
+   "etymology": {
+    "later_names": [
+     "Ascalon (Greek/Latin)",
+     "Asqalan (Arabic)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ashkelon",
+    "https://www.bibleplaces.com/ashkelon/"
+   ]
+  },
+  "UGA-01": {
+   "etymology": {
+    "later_names": [
+     "Ras Shamra (Arabic, 'fennel cape')"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ugarit"
+   ]
+  },
+  "EBL-01": {
+   "etymology": {
+    "transliteration": "Ebla (Eblaite/Akkadian)",
+    "meaning": "Possibly 'white rock' — debated",
+    "later_names": [
+     "Tell Mardikh"
+    ],
+    "caveat": "Confidence: low"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ebla"
+   ]
+  },
+  "BYB-01": {
+   "etymology": {
+    "later_names": [
+     "Gebal (Ezekiel 27:9)",
+     "Byblos (Greek)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Byblos"
+   ]
+  },
+  "TYR-01": {
+   "etymology": {
+    "later_names": [
+     "Tyrus (Latin)",
+     "Sour/Sur (Arabic)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "332 BC",
+     "power": "Alexander the Great",
+     "event": "Causeway built; island city taken (both; very solid)",
+     "source": "https://www.britannica.com/place/Tyre"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Tyre"
+   ]
+  },
+  "BAB-01": {
+   "etymology": {
+    "original_form": "בָּבֶל",
+    "lang_code": "he",
+    "transliteration": "Hebrew Bavel; Akkadian Bāb-ili(m)",
+    "meaning": "'Gate of god' (Akkadian bāb + ilim), possibly a reanalysis of an older non-Semitic name. Genesis 11:9 plays on Hebrew balal (בלל) 'to confuse': a wordplay, not the origin.",
+    "later_names": [
+     "Babel"
+    ],
+    "caveat": "Confidence: medium. Other views: Genesis 11:9 wordplay with balal 'confuse' — a pun, not the origin"
+   },
+   "conquest_timeline": [
+    {
+     "date": "c. 1595 BC",
+     "power": "Hittite king Mursili I",
+     "event": "Sack (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "689 BC",
+     "power": "Sennacherib",
+     "event": "City destroyed (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "539 BC",
+     "power": "Cyrus the Great of Persia",
+     "event": "Taken without major battle (Cyrus Cylinder) (both; very solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "331 BC",
+     "power": "Alexander the Great",
+     "event": "Enters city (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "UR-01": {
+   "etymology": {
+    "later_names": [
+     "Tell el-Muqayyar (Arabic, 'mound of pitch')"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ur"
+   ]
+  },
+  "CAR-01": {
+   "conquest_timeline": [
+    {
+     "date": "717 BC",
+     "power": "Sargon II",
+     "event": "Annexed (text; solid)",
+     "source": "https://www.britannica.com/place/Carchemish"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Carchemish"
+   ]
+  },
+  "CYR-01": {
+   "etymology": {
+    "original_form": "בָּבֶל",
+    "lang_code": "he",
+    "transliteration": "Hebrew Bavel; Akkadian Bāb-ili(m)",
+    "meaning": "'Gate of god' (Akkadian bāb + ilim), possibly a reanalysis of an older non-Semitic name. Genesis 11:9 plays on Hebrew balal (בלל) 'to confuse': a wordplay, not the origin.",
+    "later_names": [
+     "Babel"
+    ],
+    "caveat": "Confidence: medium. Other views: Genesis 11:9 wordplay with balal 'confuse' — a pun, not the origin"
+   },
+   "conquest_timeline": [
+    {
+     "date": "c. 1595 BC",
+     "power": "Hittite king Mursili I",
+     "event": "Sack (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "689 BC",
+     "power": "Sennacherib",
+     "event": "City destroyed (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "539 BC",
+     "power": "Cyrus the Great of Persia",
+     "event": "Taken without major battle (Cyrus Cylinder) (both; very solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    },
+    {
+     "date": "331 BC",
+     "power": "Alexander the Great",
+     "event": "Enters city (text; solid)",
+     "source": "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Babylon-ancient-city-Mesopotamia-Asia"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "PER-01": {
+   "etymology": {
+    "transliteration": "Old Persian Pārsa; Greek Persepolis",
+    "meaning": "Pārsa = 'Persia / the Persians'; Greek Persepolis = 'city of the Persians'",
+    "later_names": [
+     "Takht-e Jamshid ('throne of Jamshid', Persian folk name)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "330 BC",
+     "power": "Alexander the Great",
+     "event": "Palace burned (both; very solid)",
+     "source": "https://www.britannica.com/place/Persepolis"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Persepolis"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "SID-01": {
+   "etymology": {
+    "original_form": "צִידוֹן",
+    "lang_code": "he",
+    "transliteration": "Tsidon",
+    "meaning": "Often 'fishing place'",
+    "later_names": [
+     "Saida (Arabic)"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Sidon"
+   ]
+  },
+  "DAN-STELE": {
+   "etymology": {
+    "original_form": "דָּן",
+    "lang_code": "he",
+    "transliteration": "Dan; earlier לַיִשׁ Laish",
+    "meaning": "'Judge'; Laish may mean 'lion'",
+    "later_names": [
+     "Laish/Leshem (pre-Israelite)",
+     "Tell el-Qadi (Arabic, 'mound of the judge')"
+    ],
+    "caveat": "Confidence: high for 'judge'; medium for Laish"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/dan/"
+   ]
+  },
+  "GAT-01": {
+   "etymology": {
+    "original_form": "גַּת",
+    "lang_code": "he",
+    "transliteration": "Gat",
+    "meaning": "'Winepress'",
+    "later_names": [
+     "Tell es-Safi (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Gath-ancient-city",
+    "https://www.bibleplaces.com/gath/"
+   ]
+  },
+  "ASD-01": {
+   "etymology": {
+    "original_form": "אַשְׁדּוֹד",
+    "lang_code": "he",
+    "transliteration": "Ashdod",
+    "meaning": "Possibly 'stronghold'",
+    "later_names": [
+     "Azotus (Greek, Acts 8:40)"
+    ],
+    "caveat": "Confidence: low"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ashdod"
+   ]
+  },
+  "DOR-01": {
+   "etymology": {
+    "original_form": "דּוֹר",
+    "lang_code": "he",
+    "transliteration": "Dor",
+    "meaning": "Possibly 'dwelling/generation'",
+    "later_names": [
+     "Dora (Greek)"
+    ],
+    "caveat": "Confidence: low"
+   },
+   "conquest_timeline": [
+    {
+     "date": "732 BC",
+     "power": "Tiglath-pileser III",
+     "event": "Becomes province center Du'ru (text; solid)",
+     "source": "https://www.britannica.com/place/Dor"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Dor"
+   ]
+  },
+  "MIZ-01": {
+   "etymology": {
+    "original_form": "מִצְפָּה",
+    "lang_code": "he",
+    "transliteration": "Mitspah",
+    "meaning": "'Watchtower'",
+    "later_names": [
+     "Tell en-Nasbeh"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/mizpah/"
+   ]
+  },
+  "MEM-01": {
+   "etymology": {
+    "original_form": "נֹף",
+    "lang_code": "he",
+    "transliteration": "Egyptian Mn-nfr (Men-nefer); Hebrew נֹף Noph / מֹף Moph",
+    "meaning": "'Enduring and beautiful' (Mn-nfr, from the name of Pepi I's pyramid town)",
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "525 BC",
+     "power": "Cambyses II",
+     "event": "Captured (text; solid)",
+     "source": "https://www.britannica.com/place/Memphis-ancient-city-Egypt"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Memphis-ancient-city-Egypt"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "HEL-01": {
+   "etymology": {
+    "original_form": "אוֹן",
+    "lang_code": "he",
+    "transliteration": "Egyptian Iwnw (Iunu); Hebrew אוֹן On (also אָוֶן Aven, Ezekiel 30:17)",
+    "meaning": "'Pillar(s)' (Egyptian iwn 'pillar')",
+    "later_names": [
+     "Heliopolis (Greek 'sun city')"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Heliopolis-ancient-city-Egypt"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "TAN-01": {
+   "etymology": {
+    "later_names": [
+     "Tanis (Greek)",
+     "San el-Hagar (Arabic)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Tanis"
+   ]
+  },
+  "ECB-01": {
+   "etymology": {
+    "original_form": "אַחְמְתָא",
+    "lang_code": "arc",
+    "transliteration": "Old Persian Hagmatāna; Aramaic אַחְמְתָא Achmetha (Ezra 6:2)",
+    "meaning": "'Place of assembly'",
+    "later_names": [
+     "Hamadan"
+    ],
+    "caveat": "Confidence: medium"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Hamadan"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JER-NT-01": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JER-NT-02": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JER-NT-03": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JER-NT-04": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JER-NT-05": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "HEROD-01": {
+   "etymology": {
+    "original_form": "Ἡρώδειον",
+    "lang_code": "el",
+    "transliteration": "Hērōdeion (Greek)",
+    "meaning": "'Herod's place'",
+    "later_names": [
+     "Jebel Fureidis (Arabic 'little paradise')"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/herodium/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "MAS-NT-01": {
+   "etymology": {
+    "original_form": "מְצָדָה",
+    "lang_code": "he",
+    "transliteration": "Metzada",
+    "meaning": "'Fortress'",
+    "later_names": [
+     "Masada (Greek form via Josephus)",
+     "es-Sebbeh (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 73/74",
+     "power": "Roman Tenth Legion under Flavius Silva",
+     "event": "Siege ramp; fall of last rebels (both; very solid (death details debated))",
+     "source": "https://www.britannica.com/place/Masada"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Masada",
+    "https://www.bibleplaces.com/masada/"
+   ]
+  },
+  "CAP-01,CAP-02": {
+   "etymology": {
+    "original_form": "כְּפַר נַחוּם",
+    "lang_code": "he",
+    "transliteration": "Kefar Naḥum",
+    "meaning": "'Village of Nahum'",
+    "later_names": [
+     "Tell Hum (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/capernaum/"
+   ]
+  },
+  "CAP-03": {
+   "etymology": {
+    "original_form": "כְּפַר נַחוּם",
+    "lang_code": "he",
+    "transliteration": "Kefar Naḥum",
+    "meaning": "'Village of Nahum'",
+    "later_names": [
+     "Tell Hum (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/capernaum/"
+   ]
+  },
+  "MAG-01,MAG-02": {
+   "etymology": {
+    "original_form": "מִגְדָּל",
+    "lang_code": "he",
+    "transliteration": "Migdal; Greek Tarichaeae",
+    "meaning": "'Tower'; Tarichaeae = 'fish-salting'",
+    "later_names": [
+     "Majdal (Arabic)"
+    ],
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 67",
+     "power": "Vespasian/Titus",
+     "event": "Captured in Jewish revolt (text; solid)",
+     "source": "https://www.bibleplaces.com/magdala/"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/magdala/"
+   ]
+  },
+  "SEP-01": {
+   "etymology": {
+    "later_names": [
+     "Diocaesarea (Roman)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/sepphoris/"
+   ]
+  },
+  "QUM-NT-01": {
+   "etymology": {
+    "later_names": [
+     "Khirbet Qumran"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Qumran",
+    "https://www.bibleplaces.com/qumran/"
+   ]
+  },
+  "CAES-01,CAES-02": {
+   "etymology": {
+    "original_form": "Καισάρεια",
+    "lang_code": "el",
+    "transliteration": "Kaisareia (Greek)",
+    "meaning": "'Of Caesar' (Augustus); earlier Straton's Tower",
+    "caveat": "Confidence: high"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/caesarea/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "EPH-01": {
+   "etymology": {
+    "later_names": [
+     "Selçuk/Efes (Turkish)"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 262",
+     "power": "Goths",
+     "event": "Temple of Artemis damaged (text; solid)",
+     "source": "https://www.britannica.com/place/Ephesus"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Ephesus"
+   ]
+  },
+  "THES-01": {
+   "etymology": {
+    "later_names": [
+     "Salonica"
+    ]
+   },
+   "conquest_timeline": [
+    {
+     "date": "1430",
+     "power": "Ottoman Murad II",
+     "event": "Captured (text; solid)",
+     "source": "https://www.britannica.com/place/Thessaloniki"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Thessaloniki"
+   ]
+  },
+  "POMP-01": {
+   "conquest_timeline": [
+    {
+     "date": "AD 79",
+     "power": "Eruption of Vesuvius (not a conquest)",
+     "event": "Buried (both; very solid)",
+     "source": "https://www.britannica.com/place/Pompeii"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Pompeii"
+   ]
+  },
+  "WW-01": {
+   "etymology": {
+    "original_form": "יְרוּשָׁלַיִם",
+    "lang_code": "he",
+    "transliteration": "Yerushalayim (written ירושלם in most Hebrew Bible text, read with -ayim); Amarna Akkadian Urusalim; Egyptian Execration Texts rwšꜣlmm",
+    "meaning": "Most likely 'foundation of (the god) Shalem' (yrw 'to found' + Šalem). 'City of peace' (shalom) is a later popular reading, not the original sense.",
+    "later_names": [
+     "Zion/City of David",
+     "al-Quds (Arabic, 'the holy')"
+    ],
+    "caveat": "Confidence: medium. Other views: folk: 'city of peace' (shalom) — popular, not the original sense"
+   },
+   "verified": true,
+   "sources": [
+    "https://www.britannica.com/place/Jerusalem",
+    "https://www.bibleplaces.com/jerusalem/"
+   ],
+   "language_check": "language check 2026-10-10"
+  },
+  "JOP-01": {
+   "etymology": {
+    "later_names": [
+     "Joppa (Greek)",
+     "Jaffa/Yafa (Arabic)"
+    ]
+   },
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/joppa/"
+   ]
+  },
+  "GAM-01": {
+   "etymology": {
+    "original_form": "גַּמְלָא",
+    "lang_code": "he",
+    "transliteration": "Gamla",
+    "meaning": "'Camel' (hump-shaped ridge)",
+    "caveat": "Confidence: high"
+   },
+   "conquest_timeline": [
+    {
+     "date": "AD 67",
+     "power": "Vespasian",
+     "event": "Siege and fall (Josephus) (both; very solid)",
+     "source": "https://www.bibleplaces.com/gamla/"
+    }
+   ],
+   "verified": true,
+   "sources": [
+    "https://www.bibleplaces.com/gamla/"
+   ]
+  }
+ }
+}

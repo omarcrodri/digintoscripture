@@ -1,0 +1,258 @@
+{
+ "type": "FeatureCollection",
+ "layer_note": "Places mentioned in videos on Ken Ham's channel (Answers in Genesis). AiG promotes a young-earth creation view that most scientists reject; pins report what was said, without endorsement.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     44.2347,
+     39.4406
+    ]
+   },
+   "properties": {
+    "id": "KH-01",
+    "name": "Durupınar formation, near Doğubayazıt, Ağrı Province, Turkey",
+    "layer": "ken_ham",
+    "found": "A boat-shaped landform about 30 km south of Mount Ararat, near the Iran border. A private group said in 2025 that soil and radar scans hint at old wood. Geologists, including creationist ones at Answers in Genesis, say it is a natural fold in the rock. No dig has been allowed.",
+    "notes": "Mentions (paraphrased): ~0:02: Responds to 2025 news from Turkey claiming Noah's Ark was found; says the Durupınar site is a natural rock formation, not the ark.",
+    "related_videos": [
+     {
+      "title": "Responds to 2025 news from Turkey claiming Noah's Ark was found; says the Durupınar site is a natural rock formation, not the ark.",
+      "label": "Ken Ham (Answers in Genesis) · ~0:02",
+      "embed": "https://www.youtube.com/embed/51HIx2hNWyk?start=2",
+      "source": "https://www.youtube.com/watch?v=51HIx2hNWyk&t=2s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Ark claims are disputed. AiG rejects this site but holds a young-earth view of a global flood that most scientists do not share. Pin marks the formation, not a confirmed ark.",
+    "confidence": "region",
+    "sources": [
+     "https://answersingenesis.org/blogs/ken-ham/2025/06/01/has-noahs-ark-been-found-for-real/",
+     "https://www.foxnews.com/travel/researchers-find-compelling-evidence-possible-noahs-ark-remains-country"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -99.1403,
+     30.0474
+    ]
+   },
+   "properties": {
+    "id": "KH-02",
+    "name": "Guadalupe River, Kerrville area, Kerr County, Texas",
+    "layer": "ken_ham",
+    "found": "On July 4, 2025, heavy rain made the Guadalupe River rise about 36 feet. Kerr County officials later listed about 119 people killed there, including 27 campers and counselors at Camp Mystic.",
+    "notes": "Mentions (paraphrased): ~0:00: Broadcast from the Texas Hill Country above the Guadalupe River after the July 2025 floods; talks about where God is in tragedy.",
+    "related_videos": [
+     {
+      "title": "Broadcast from the Texas Hill Country above the Guadalupe River after the July 2025 floods; talks about where God is in tragedy.",
+      "label": "Ken Ham (Answers in Genesis) · ~0:00",
+      "embed": "https://www.youtube.com/embed/kI6li0tBzpM",
+      "source": "https://www.youtube.com/watch?v=kI6li0tBzpM&t=0s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Exact filming spot not stated; pin set at Kerrville. Death counts changed as reports were updated.",
+    "confidence": "region",
+    "sources": [
+     "https://www.texastribune.org/2025/08/08/texas-hill-country-floods-victims-names/",
+     "https://www.ksat.com/news/local/2025/08/08/117-kerr-county-flood-victims-identified-by-local-officials/"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -82.3631,
+     34.8722
+    ]
+   },
+   "properties": {
+    "id": "KH-03",
+    "name": "Bob Jones University, Greenville, South Carolina",
+    "layer": "ken_ham",
+    "found": "A private Christian university in Greenville, SC, that hosted a STAND education conference with AiG speakers.",
+    "notes": "Mentions (paraphrased): ~0:05: Says he is at Bob Jones University for the STAND education conference. | ~3:51: Points out a Bob Jones University booth at the Creation College Expo.",
+    "related_videos": [
+     {
+      "title": "Says he is at Bob Jones University for the STAND education conference.",
+      "label": "Ken Ham (Answers in Genesis) · ~0:05",
+      "embed": "https://www.youtube.com/embed/296h_WNrxr0?start=5",
+      "source": "https://www.youtube.com/watch?v=296h_WNrxr0&t=5s"
+     },
+     {
+      "title": "Points out a Bob Jones University booth at the Creation College Expo.",
+      "label": "Ken Ham (Answers in Genesis) · ~3:51",
+      "embed": "https://www.youtube.com/embed/8A5x4lbzUzg?start=231",
+      "source": "https://www.youtube.com/watch?v=8A5x4lbzUzg&t=231s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Event date not stated in captions; upload date only.",
+    "confidence": "exact venue",
+    "sources": [
+     "https://www.bju.edu/"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.5069,
+     39.1117
+    ]
+   },
+   "properties": {
+    "id": "KH-04",
+    "name": "God's Bible School and College, Cincinnati, Ohio",
+    "layer": "ken_ham",
+    "found": "A small Christian college in Cincinnati's Mount Auburn area. It took part in AiG's college expo.",
+    "notes": "Mentions (paraphrased): ~6:40: Mentions this Cincinnati Bible college at the 2019 Creation College Expo and a Christmas program it planned at the Ark.",
+    "related_videos": [
+     {
+      "title": "Mentions this Cincinnati Bible college at the 2019 Creation College Expo and a Christmas program it planned at the Ark.",
+      "label": "Ken Ham (Answers in Genesis) · ~6:40",
+      "embed": "https://www.youtube.com/embed/8A5x4lbzUzg?start=400",
+      "source": "https://www.youtube.com/watch?v=8A5x4lbzUzg&t=400s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Passing mention as an exhibitor.",
+    "confidence": "exact venue",
+    "sources": [
+     "https://www.gbs.edu/"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.7624,
+     43.4799
+    ]
+   },
+   "properties": {
+    "id": "KH-05",
+    "name": "Jackson Hole Bible College, Jackson, Wyoming",
+    "layer": "ken_ham",
+    "found": "A small Bible college in the Jackson Hole area that exhibited at AiG's college expo.",
+    "notes": "Mentions (paraphrased): ~7:02: Names this Wyoming Bible college as a school that takes a stand on Genesis.",
+    "related_videos": [
+     {
+      "title": "Names this Wyoming Bible college as a school that takes a stand on Genesis.",
+      "label": "Ken Ham (Answers in Genesis) · ~7:02",
+      "embed": "https://www.youtube.com/embed/8A5x4lbzUzg?start=422",
+      "source": "https://www.youtube.com/watch?v=8A5x4lbzUzg&t=422s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Pinned at city level; campus address not checked.",
+    "confidence": "city",
+    "sources": [
+     "https://www.jhbc.edu/"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     153.0251,
+     -27.4698
+    ]
+   },
+   "properties": {
+    "id": "KH-06",
+    "name": "Brisbane, Queensland, Australia",
+    "layer": "ken_ham",
+    "found": "Ken Ham grew up in Queensland, Australia, and began creation ministry there before moving to the United States in 1987.",
+    "notes": "Mentions (paraphrased): ~16:30: Calls Brisbane his hometown when greeting a viewer from Perth. | ~9:18: Mentions speaking events in Brisbane, his home city, and other Australian cities.",
+    "related_videos": [
+     {
+      "title": "Calls Brisbane his hometown when greeting a viewer from Perth.",
+      "label": "Ken Ham (Answers in Genesis) · ~16:30",
+      "embed": "https://www.youtube.com/embed/44-nIY9rgI0?start=990",
+      "source": "https://www.youtube.com/watch?v=44-nIY9rgI0&t=990s"
+     },
+     {
+      "title": "Mentions speaking events in Brisbane, his home city, and other Australian cities.",
+      "label": "Ken Ham (Answers in Genesis) · ~9:18",
+      "embed": "https://www.youtube.com/embed/MbjPUyx4hdI?start=558",
+      "source": "https://www.youtube.com/watch?v=MbjPUyx4hdI&t=558s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Hometown pin, not a single venue.",
+    "confidence": "city",
+    "sources": [
+     "https://answersingenesis.org/bios/ken-ham/"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.1977,
+     31.7767
+    ]
+   },
+   "properties": {
+    "id": "KH-07",
+    "name": "Israel Antiquities Authority, Jerusalem",
+    "layer": "ken_ham",
+    "found": "Israel's government agency for archaeology. It lends some objects to museums abroad.",
+    "notes": "Mentions (paraphrased): ~6:19: Says some artifacts shown at the Ark Encounter are rented from the Israel Antiquities Authority.",
+    "related_videos": [
+     {
+      "title": "Says some artifacts shown at the Ark Encounter are rented from the Israel Antiquities Authority.",
+      "label": "Ken Ham (Answers in Genesis) · ~6:19",
+      "embed": "https://www.youtube.com/embed/ZaYXq9HQ99w?start=379",
+      "source": "https://www.youtube.com/watch?v=ZaYXq9HQ99w&t=379s"
+     }
+    ],
+    "channel_link": [
+     "Ken Ham on YouTube",
+     "https://www.youtube.com/@aigkenham"
+    ],
+    "caveat": "Pinned at Jerusalem city level; the loan itself is stated by AiG only.",
+    "confidence": "city",
+    "sources": [
+     "https://www.iaa.org.il/"
+    ]
+   }
+  }
+ ]
+}

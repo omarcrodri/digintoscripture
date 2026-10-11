@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-al",
+  "build": "20261001-ao",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -843,5 +843,37 @@
     "discover": "nested category bodies no longer separate scrollers; single outer finger-scroll list; dvh max-height",
     "details_scroll": "MutationObserver on #story-body + momentum kill; fixed recursive storyBodyEl fallback",
     "layers": "ghost-tap guard 500ms after tray opens; open never toggles"
+  },
+  "oct10_packs": {
+    "build": "20261001-am",
+    "published": false,
+    "layers": {
+      "charlie_kirk": 13,
+      "jesus_death_sources": 12,
+      "sponsor_rhb": 1,
+      "breakout_pastors": 10,
+      "oriental_findings": 10
+    },
+    "cctv_enabled_pins": 61
+  },
+  "ken_ham": {
+    "build": "20261001-an",
+    "published": false,
+    "layer": "ken_ham",
+    "pins": 7,
+    "mentions_attached": {
+      "ARK-ENC-01": 7,
+      "CRM-01": 4
+    },
+    "held_off_map": 8,
+    "channel": "https://www.youtube.com/@aigkenham"
+  },
+  "drawer_discover_ao": {
+    "build": "20261001-ao",
+    "published": false,
+    "drawer": "title-first, sectioned (Location and status; Story / What was found; Name & History; Evidence & caveats; Videos & gallery; Webcam; Sources and links; Sponsor)",
+    "name_history_file": "app/name-history.json (optional)",
+    "schema_doc": "NAME-HISTORY-SCHEMA.md",
+    "discover": "outer sheet scroll + per-category nested scroll"
   }
 }

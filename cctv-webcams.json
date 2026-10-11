@@ -1,0 +1,813 @@
+{
+ "filter_label": "CCTV enabled",
+ "note": "Public tourism webcams, link-out only. Live view may be unavailable; camera spots are approximate.",
+ "pins": [
+  {
+   "pin_id": "COD-01,COD-02,COD-04",
+   "pin_name": "Jerusalem – City of David",
+   "layer_file": "ot-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.4
+    }
+   ]
+  },
+  {
+   "pin_id": "COD-03",
+   "pin_name": "Jerusalem – City of David / Gihon",
+   "layer_file": "ot-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.4
+    }
+   ]
+  },
+  {
+   "pin_id": "RAR-01",
+   "pin_name": "Ramat Raḥel",
+   "layer_file": "ot-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 4.37
+    }
+   ]
+  },
+  {
+   "pin_id": "KET-01",
+   "pin_name": "Ketef Hinnom — silver amulets findspot",
+   "layer_file": "ot-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 1.4
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-01",
+   "pin_name": "Isaiah — Jerusalem",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-02",
+   "pin_name": "Jeremiah — Anathoth",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 4.06
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-03",
+   "pin_name": "Jeremiah — Jerusalem",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-13",
+   "pin_name": "Micah — Jerusalem (oracle focus)",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-15",
+   "pin_name": "Habakkuk — Judah / Jerusalem setting",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-16",
+   "pin_name": "Zephaniah — Jerusalem",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-17",
+   "pin_name": "Haggai — Jerusalem (Second Temple rebuild)",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-18",
+   "pin_name": "Zechariah — Jerusalem (night visions)",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-19",
+   "pin_name": "Malachi — Judah / Jerusalem worship setting",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "PR-29",
+   "pin_name": "Joel — Jerusalem / Zion",
+   "layer_file": "prophets.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "JER-NT-01",
+   "pin_name": "Jerusalem — Pool of Siloam (Birkat el-Hamra)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.7
+    }
+   ]
+  },
+  {
+   "pin_id": "JER-NT-02",
+   "pin_name": "Jerusalem — Pilgrimage Road (Stepped Street)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.36
+    }
+   ]
+  },
+  {
+   "pin_id": "JER-NT-03",
+   "pin_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.01
+    }
+   ]
+  },
+  {
+   "pin_id": "JER-NT-04",
+   "pin_name": "Jerusalem — City of David (Givati Parking Lot / Area G NT layers)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.24
+    }
+   ]
+  },
+  {
+   "pin_id": "JER-NT-05",
+   "pin_name": "Jerusalem — Bethesda / Sheep Gate Pools (St. Anne)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.47
+    }
+   ]
+  },
+  {
+   "pin_id": "BETH-01",
+   "pin_name": "Bethany (al-Eizariya / Bethany beyond the Mount of Olives)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 3.07
+    }
+   ]
+  },
+  {
+   "pin_id": "OLIV-01",
+   "pin_name": "Mount of Olives — Tombs and Dominus Flevit",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.86
+    }
+   ]
+  },
+  {
+   "pin_id": "THES-01",
+   "pin_name": "Thessalonica (Thessaloniki — Roman forum / agora)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Thessaloniki - Aristotelous Square",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/thessaloniki/plateia-aristotelous.html",
+     "km": 0.86
+    }
+   ]
+  },
+  {
+   "pin_id": "BER-01",
+   "pin_name": "Berea (Veria)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Veria (Berea) - Clock Square",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/veria/clock-square.html",
+     "km": 0.17
+    }
+   ]
+  },
+  {
+   "pin_id": "ATH-01",
+   "pin_name": "Athens — Ancient Agora",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Acropolis of Athens",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/atiki/athina/acropolis-athens.html",
+     "km": 0.47
+    },
+    {
+     "name": "Acropolis - Parthenon",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/atiki/athina/acropolis-parthenon.html",
+     "km": 0.53
+    }
+   ]
+  },
+  {
+   "pin_id": "ROME-01",
+   "pin_name": "Rome — Catacombs (Callixtus, Sebastiano, Priscilla, et al.)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Colosseum",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
+     "km": 3.66
+    },
+    {
+     "name": "Rome - Santa Maria Maggiore",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/basilica-papale-santa-maria-maggiore.html",
+     "km": 4.35
+    },
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 4.71
+    }
+   ]
+  },
+  {
+   "pin_id": "ROME-02",
+   "pin_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Castel Sant'Angelo",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/castel-santangelo.html",
+     "km": 1.09
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 1.68
+    },
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 2.09
+    }
+   ]
+  },
+  {
+   "pin_id": "MALT-01",
+   "pin_name": "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Malta - St Paul's Bay",
+     "url": "https://www.skylinewebcams.com/en/webcam/malta/malta/bugibba/st-pauls-bay.html",
+     "km": 0.1
+    }
+   ]
+  },
+  {
+   "pin_id": "WW-01",
+   "pin_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "CAI-01",
+   "pin_name": "Caiaphas family ossuary / Peace Forest tomb (North Talpiot)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.97
+    }
+   ]
+  },
+  {
+   "pin_id": "JM-05",
+   "pin_name": "Bethesda — lame man healed",
+   "layer_file": "jesus-miracles.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.47
+    }
+   ]
+  },
+  {
+   "pin_id": "JM-06",
+   "pin_name": "Siloam — man born blind",
+   "layer_file": "jesus-miracles.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.7
+    }
+   ]
+  },
+  {
+   "pin_id": "JM-08",
+   "pin_name": "Bethany — Lazarus raised",
+   "layer_file": "jesus-miracles.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 3.07
+    }
+   ]
+  },
+  {
+   "pin_id": "JM-20",
+   "pin_name": "Olivet / arrest — Malchus's ear restored",
+   "layer_file": "jesus-miracles.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.86
+    }
+   ]
+  },
+  {
+   "pin_id": "JM-GOLGOTHA",
+   "pin_name": "Golgotha / Calvary — crucifixion of Jesus",
+   "layer_file": "jesus-miracles.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.51
+    }
+   ]
+  },
+  {
+   "pin_id": "CBG-17",
+   "pin_name": "Talpiot 'Jesus Family Tomb'",
+   "layer_file": "contested-hypotheses.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.87
+    }
+   ]
+  },
+  {
+   "pin_id": "CBG-22",
+   "pin_name": "Jerusalem — City of David 'palace of David' (Large Stone Structure)",
+   "layer_file": "contested-hypotheses.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.3
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-02",
+   "pin_name": "Tel Dan Stele (House of David)",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.93
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-03",
+   "pin_name": "Ketef Hinnom silver amulets (priestly blessing)",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.93
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-04",
+   "pin_name": "Siloam Tunnel Inscription",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Istanbul - Golden Horn",
+     "url": "https://www.skylinewebcams.com/en/webcam/turkey/marmara/istanbul/golden-horn.html",
+     "km": 1.78
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-08",
+   "pin_name": "Dead Sea Scrolls (Qumran corpus — museum display)",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 3.04
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-09",
+   "pin_name": "Pilate Stone (Pontius Pilate inscription)",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.93
+    }
+   ]
+  },
+  {
+   "pin_id": "ART-11",
+   "pin_name": "Horned altar from Beersheba",
+   "layer_file": "artifacts.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 2.93
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-01",
+   "pin_name": "Peter",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Castel Sant'Angelo",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/castel-santangelo.html",
+     "km": 1.05
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 1.64
+    },
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 2.05
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-06",
+   "pin_name": "Bartholomew",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 0.58
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 1.08
+    },
+    {
+     "name": "Rome - Colosseum",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
+     "km": 1.15
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-09",
+   "pin_name": "James son of Alphaeus",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 0.63
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 0.87
+    },
+    {
+     "name": "Rome - Colosseum",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
+     "km": 1.14
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-13",
+   "pin_name": "Paul",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Colosseum",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
+     "km": 3.73
+    },
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 4.08
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 4.51
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-14",
+   "pin_name": "James the Just",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.59
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-03",
+   "pin_name": "Jerusalem – City of David",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.4
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-04",
+   "pin_name": "Jerusalem — Pool of Siloam (Birkat el-Hamra)",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.7
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-05",
+   "pin_name": "Jerusalem — Bethesda / Sheep Gate Pools (St. Anne)",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.47
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-26",
+   "pin_name": "Golgotha / Calvary — crucifixion of Jesus",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.51
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-27",
+   "pin_name": "Jerusalem — Western Wall Tunnels / Temple Mount Western Wall",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.01
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-28",
+   "pin_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-35",
+   "pin_name": "Jerusalem – City of David / Gihon",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.4
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-akeldama",
+   "pin_name": "Akeldama (Field of Blood tradition)",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.9
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-snr-gethsemane",
+   "pin_name": "Gethsemane Garden (Mount of Olives west slope)",
+   "layer_file": "sponsors/expedition-snr/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.61
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-expedition-bible-03",
+   "pin_name": "Ketef Hinnom — silver amulets findspot",
+   "layer_file": "sponsors/expedition-bible/sites.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 1.4
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-03",
+   "pin_name": "Sacsayhuamán (Cusco)",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Cusco - Plaza Mayor",
+     "url": "https://www.skylinewebcams.com/en/webcam/peru/cusco/cusco/plaza-mayor.html",
+     "km": 0.88
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-04",
+   "pin_name": "Cusco — Plaza de Armas",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Cusco - Plaza Mayor",
+     "url": "https://www.skylinewebcams.com/en/webcam/peru/cusco/cusco/plaza-mayor.html",
+     "km": 0.01
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-05",
+   "pin_name": "Coricancha / Qorikancha (Cusco)",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Cusco - Plaza Mayor",
+     "url": "https://www.skylinewebcams.com/en/webcam/peru/cusco/cusco/plaza-mayor.html",
+     "km": 0.55
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-37",
+   "pin_name": "Rome (True Legends Episode 2 shoot)",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Castel Sant'Angelo",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/castel-santangelo.html",
+     "km": 1.03
+    },
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 1.62
+    },
+    {
+     "name": "Rome - Largo di Torre Argentina",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-largo-di-torre-argentina.html",
+     "km": 2.04
+    }
+   ]
+  }
+ ]
+}

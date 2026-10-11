@@ -1,0 +1,487 @@
+{
+ "type": "FeatureCollection",
+ "pack": "Oriental findings",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.953,
+     34.2593
+    ]
+   },
+   "properties": {
+    "id": "ORI-01",
+    "name": "Forest of Stone Steles Museum — Nestorian (Daqin) Stele, Xi'an",
+    "found": "Channel claims a 781 CE imperial-era monument records Christianity's arrival in China in 635 under Emperor Taizong (monk Alopen / Aluoben).",
+    "support": "Stele title: 大秦景教流行中國碑 (\"Stele of the Spread of the Luminous Religion of Daqin [the Roman East] in China\"); full heading adds 頌 (eulogy) and 并序 (with preface). Chinese + Syriac text. Held at the Beilin (Stele Forest) Museum.",
+    "notes": "Rating: SUPPORTED. The stele is genuine and well studied. Nuance: it was erected by the Church of the East community (monk Jingjing / Adam), not an imperial commission, though it quotes the 638 imperial edict.",
+    "confidence": "high",
+    "caveat": "The \"official imperial monument\" framing in the video overstates; the content itself is authentic.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/zN440ypK_Kc",
+      "provider": "youtube",
+      "title": "China Accidentally Proved Jesus 5 Times",
+      "source": "https://www.youtube.com/watch?v=zN440ypK_Kc",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     },
+     {
+      "embed": "https://www.youtube.com/embed/9-YHtY_AC38",
+      "provider": "youtube",
+      "title": "China Rewrote Jesus Into Buddhism",
+      "source": "https://www.youtube.com/watch?v=9-YHtY_AC38",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "NAME:Beilin (Stele Forest) Museum, Xi'an"
+    ],
+    "eras": [
+     "Medieval"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "supported",
+    "caveats": [
+     "The stone is genuine, set up in 781 CE in Chang'an (Xi'an).",
+     "It was set up by the Church of the East community, not ordered by the emperor, though it quotes a 638 edict.",
+     "It shows Christians in China from 635 CE; it is not a record of Jesus' own life."
+    ],
+    "verified_sources": [
+     "NAME:Beilin (Stele Forest) Museum, Xi'an",
+     "Print: M. Nicolini-Zani, The Luminous Way to the East (Oxford UP, 2022)"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.809,
+     40.0419
+    ]
+   },
+   "properties": {
+    "id": "ORI-02",
+    "name": "Mogao Caves, Library Cave 17 — Dunhuang",
+    "found": "Channel claims sealed Cave 17 (opened 1900 by Wang Yuanlu) held Chinese Christian \"Jesus Sutras\" describing the life and death of Jesus.",
+    "support": "Texts include 序聽迷詩所經 (Xuting Mishisuo jing, \"Jesus Messiah Sutra\") and 一神論 (Discourse on the One God). Xuting text (wording): 為今世眾生布施代命受死 … 即木上縛著 — he gave his life to die in place of the living beings of this world … and they bound him on wood (a tree/pole); darkness and an earthquake follow. Paraphrase: the Messiah gave himself to die for people and was bound on wood. The text says 'bound on wood', not the word 'cross'.",
+    "notes": "Rating: LARGELY SUPPORTED. Church of the East texts did come from the Dunhuang hoard. Caveats: some items (e.g. the Kojima manuscripts) are forgeries; authenticity of the Xuting/Yishen texts (held privately in Japan) is debated.",
+    "confidence": "medium",
+    "caveat": "Video simplifies the provenance; \"eight manuscripts\" count is approximate.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/9-YHtY_AC38",
+      "provider": "youtube",
+      "title": "China Rewrote Jesus Into Buddhism",
+      "source": "https://www.youtube.com/watch?v=9-YHtY_AC38",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://www.dha.ac.cn/",
+     "https://idp.bl.uk/"
+    ],
+    "eras": [
+     "Medieval"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "contested",
+    "caveats": [
+     "Church of the East texts really were in the Dunhuang cave hoard (sealed c. 1000 CE, opened 1900).",
+     "The two 'Jesus Sutras' held in Japan came through dealers; some scholars doubt they are genuine.",
+     "Some other 'Christian' Dunhuang texts (the Kojima items) are known fakes.",
+     "These are 7th-8th c. church texts, not eyewitness records of Jesus."
+    ],
+    "verified_sources": [
+     "https://www.dha.ac.cn/",
+     "https://idp.bl.uk/"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1277,
+     51.5299
+    ]
+   },
+   "properties": {
+    "id": "ORI-03",
+    "name": "British Library — Stein Dunhuang collection, London",
+    "found": "Channel says Aurel Stein removed Dunhuang manuscripts (1907) now in the British Library, including Chinese Christian material.",
+    "support": "Stein removed many Dunhuang items in 1907 (now British Library and British Museum). The well-known Christian hymn (P.3847) is in Paris, not London. The Christian figure painting (Stein painting 48) is held by the British Museum.",
+    "notes": "Rating: PARTLY SUPPORTED. Stein's removal is fact; which Christian items sit in London vs. Paris is muddled in the video.",
+    "confidence": "medium",
+    "caveat": "Confirm item numbers via IDP before wiring.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/9-YHtY_AC38",
+      "provider": "youtube",
+      "title": "China Rewrote Jesus Into Buddhism",
+      "source": "https://www.youtube.com/watch?v=9-YHtY_AC38",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://idp.bl.uk/",
+     "https://www.britishmuseum.org/collection/object/A_1919-0101-0-48"
+    ],
+    "eras": [
+     "Medieval",
+     "Modern"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "contested",
+    "caveats": [
+     "Stein did remove thousands of Dunhuang items in 1907.",
+     "The famous Chinese Christian hymn is in Paris (Pelliot 3847), not London.",
+     "The Christian figure painting (Stein painting 48) is in the British Museum, not the British Library.",
+     "Exact London Christian items must be checked by item number before use."
+    ],
+    "verified_sources": [
+     "https://idp.bl.uk/",
+     "https://www.britishmuseum.org/collection/object/A_1919-0101-0-48"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.3758,
+     48.8338
+    ]
+   },
+   "properties": {
+    "id": "ORI-04",
+    "name": "Bibliothèque nationale de France — Pelliot collection, Paris",
+    "found": "Channel says Paul Pelliot bought ~10,000 Dunhuang items cheaply (c. 90 GBP equivalent) now in Paris.",
+    "support": "Pelliot chinois 3847: 景教三威蒙度讚 (Gloria in excelsis–style hymn) and a list of translated Christian books. Opening line: 无上諸天深敬歎 — the highest heavens deeply revere and praise. English title: 'Hymn of the Luminous Teaching in Praise of the Three Majesties' (a Chinese counterpart of the Gloria in excelsis).",
+    "notes": "Rating: SUPPORTED on core facts (Pelliot acquisition, P.3847 in BnF). Price claims vary in sources.",
+    "confidence": "high",
+    "caveat": "The payment figure is unverified.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/9-YHtY_AC38",
+      "provider": "youtube",
+      "title": "China Rewrote Jesus Into Buddhism",
+      "source": "https://www.youtube.com/watch?v=9-YHtY_AC38",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://gallica.bnf.fr/",
+     "https://idp.bl.uk/"
+    ],
+    "eras": [
+     "Medieval",
+     "Modern"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "supported",
+    "caveats": [
+     "Pelliot's 1908 purchase and the hymn P.3847 in Paris are well recorded.",
+     "The price the channel gives is not confirmed."
+    ],
+    "verified_sources": [
+     "https://gallica.bnf.fr/",
+     "https://idp.bl.uk/"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.8656,
+     34.3026
+    ]
+   },
+   "properties": {
+    "id": "ORI-05",
+    "name": "Hanshu comet of 5 BC — Han court at Chang'an",
+    "found": "Channel claims the Hanshu records a \"broom star\" in the east in 5 BC that stood ~70 days and matches the Star of Bethlehem, citing a Dec 2025 JBAA paper by NASA's Mark Matney.",
+    "support": "Hanshu, Treatise on Astronomy (天文志, ch. 26), Emperor Ai, Jianping 2nd year (5 BC): 二年二月，彗星出牽牛七十餘日 — in the 2nd month of the 2nd year a broom-star (comet) appeared at Qianniu (the Ox lodging, in Capricornus) for more than seventy days. The record itself reads it as a sign of political change, not a birth.",
+    "notes": "Rating: PLAUSIBLE BUT SPECULATIVE. The record is real (and long discussed, e.g. Humphreys 1991). Linking it to Matthew 2 is a hypothesis, not proof; Matney paper not verified here.",
+    "confidence": "low-medium",
+    "caveat": "Pin is at Han Chang'an (where court astronomers worked), approximate.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/zN440ypK_Kc",
+      "provider": "youtube",
+      "title": "China Accidentally Proved Jesus 5 Times",
+      "source": "https://www.youtube.com/watch?v=zN440ypK_Kc",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://ctext.org/han-shu"
+    ],
+    "eras": [
+     "Roman / Byzantine"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "weak",
+    "caveats": [
+     "A real Chinese record of a 'broom star' in 5 BC exists.",
+     "Linking it to the Star of Bethlehem is a guess that scholars have argued about since the 1990s.",
+     "The NASA-scientist 2025 journal paper the channel cites was not checked here; treat as unverified."
+    ],
+    "verified_sources": [
+     "https://ctext.org/han-shu"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.62,
+     34.73
+    ]
+   },
+   "properties": {
+    "id": "ORI-06",
+    "name": "Hou Hanshu eclipse of 31 CE — Luoyang court",
+    "found": "Channel claims Later Han annals record an \"impossible\" eclipse, the phrase \"man from heaven died\", and the emperor taking the people's sins on himself, around the crucifixion (dated by the video to 3 April 33).",
+    "support": "Hou Hanshu, Guangwu annals, Jianwu 7 (31 CE): 三月癸亥晦，日有食之 — on the last day (guihai) of the 3rd month the sun was eclipsed. On the eclipse day the emperor left the main hall and issued a self-blame edict (吾德薄致災 — my thin virtue brought this disaster). A later edict (summer, 4th month, renwu day) says: 比陰陽錯謬，日月薄食。百姓有過，在予一人 — lately yin and yang have gone wrong and the sun and moon have been eclipsed; if the people have faults, the blame is on me, the one man. It then grants a general amnesty. The Chinese date (last day of the 3rd month) matches the annular solar eclipse of 10 May 31 CE — not a Passover date and not the crucifixion darkness.",
+    "notes": "Rating: MISLEADING. The eclipse (a real solar eclipse, 10 May 31 CE) and the edict exist, but the date is 31 not 33; \"the people's faults rest on me\" is a stock formula of Chinese royal self-blame (from the Analects 20.1 堯曰 and the Shangshu), not atonement theology; the \"man from heaven died\" line was not found in the annals.",
+    "confidence": "low",
+    "caveat": "Verify full annal text on ctext before wiring; \"rainbow halo\" claim not checked.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/w4Utjo2Wju0",
+      "provider": "youtube",
+      "title": "I Found Something in China's Imperial Records That Shouldn't Be There",
+      "source": "https://www.youtube.com/watch?v=w4Utjo2Wju0",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://ctext.org/hou-han-shu",
+     "https://eclipse.gsfc.nasa.gov/"
+    ],
+    "eras": [
+     "Roman / Byzantine"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "weak",
+    "caveats": [
+     "The eclipse and the emperor's edict are real, but they are dated 31 CE, not 33 CE.",
+     "'The people's faults rest on me' is a standard Chinese ruler's phrase of self-blame, not a Christian idea.",
+     "The line 'man from heaven died' was not found in the records; treat as unverifiable.",
+     "No Chinese record mentions Jesus."
+    ],
+    "verified_sources": [
+     "https://ctext.org/hou-han-shu",
+     "https://eclipse.gsfc.nasa.gov/"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     116.4066,
+     39.8822
+    ]
+   },
+   "properties": {
+    "id": "ORI-07",
+    "name": "Temple of Heaven — Shangdi border sacrifice, Beijing",
+    "found": "Channel claims ancient Chinese worship of Shangdi (上帝) with unblemished bull sacrifice parallels Old Testament worship and that Chinese characters encode Genesis (boat 船 = vessel + eight + mouth).",
+    "support": "Shangdi appears in Shang oracle bones and the Shijing; the Ming/Qing border sacrifice at the Temple of Heaven was to 皇天上帝.",
+    "notes": "Rating: Shangdi/sacrifice facts SUPPORTED; \"characters encode Genesis\" (C. H. Kang & Ethel Nelson) REJECTED by mainstream philology — 船 is a phonetic compound.",
+    "confidence": "low",
+    "caveat": "Theological parallel is interpretation, not archive evidence of Jesus.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/zN440ypK_Kc",
+      "provider": "youtube",
+      "title": "China Accidentally Proved Jesus 5 Times",
+      "source": "https://www.youtube.com/watch?v=zN440ypK_Kc",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     },
+     {
+      "embed": "https://www.youtube.com/embed/voahpn8NAoQ",
+      "provider": "youtube",
+      "title": "My Language Accidentally Contains The Entire Gospel",
+      "source": "https://www.youtube.com/watch?v=voahpn8NAoQ",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     },
+     {
+      "embed": "https://www.youtube.com/embed/bxS3_t8T4NY",
+      "provider": "youtube",
+      "title": "Nobody Told Me China Wrote This Before Moses",
+      "source": "https://www.youtube.com/watch?v=bxS3_t8T4NY",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://whc.unesco.org/en/list/881/"
+    ],
+    "eras": [
+     "Modern"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "weak",
+    "caveats": [
+     "Shangdi worship and the Temple of Heaven sacrifices are real history.",
+     "The idea that Chinese characters hide the Genesis story comes from 1979 Christian books and is rejected by language experts.",
+     "This is a comparison, not archive evidence about Jesus."
+    ],
+    "verified_sources": [
+     "https://whc.unesco.org/en/list/881/"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     80.2779,
+     13.033
+    ]
+   },
+   "properties": {
+    "id": "ORI-08",
+    "name": "St Thomas Mount & San Thome Basilica, Chennai",
+    "found": "Channel claims apostle Thomas reached India (c. 52 CE), converted families in Kerala, and was martyred near Chennai (72 CE); Cosmas Indicopleustes (6th c.) attests Christians in Malabar.",
+    "support": "Acts of Thomas (Syriac, 3rd c.) names King Gudnaphar; Cosmas, Christian Topography (Greek) reports a church in \"Male\" with a bishop from Persia.",
+    "notes": "Rating: TRADITION, PARTLY SUPPORTED. Early Syriac Christianity in India is certain by the 6th c.; Thomas's personal mission is ancient tradition but unprovable. Gondophares is historically real (coins).",
+    "confidence": "medium",
+    "caveat": "Pin at San Thome (burial tradition); St Thomas Mount ~10 km SW.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/PVXf2Ke1KQI",
+      "provider": "youtube",
+      "title": "India Had Jesus Before Europe Did",
+      "source": "https://www.youtube.com/watch?v=PVXf2Ke1KQI",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [
+     "https://www.tertullian.org/fathers/cosmas_00_intro.htm"
+    ],
+    "eras": [
+     "Roman / Byzantine"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "contested",
+    "caveats": [
+     "Christians in India by the 500s CE are well attested (Cosmas).",
+     "Thomas going to India is an old church tradition but cannot be proven.",
+     "King Gondophares in the Acts of Thomas was a real king (coins)."
+    ],
+    "verified_sources": [
+     "https://www.tertullian.org/fathers/cosmas_00_intro.htm",
+     "Print: S. Neill, A History of Christianity in India (Cambridge UP, 1984)"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.2087,
+     10.1554
+    ]
+   },
+   "properties": {
+    "id": "ORI-09",
+    "name": "Pattanam (ancient Muziris), Kerala",
+    "found": "Channel cites Pattanam excavations (since 2007) showing 1st-c. Roman trade with Kerala as making a Thomas voyage feasible.",
+    "support": "Muziris Papyrus (Vienna, 2nd c.) and Roman amphorae from Pattanam excavations.",
+    "notes": "Rating: SUPPORTED as context (trade route real); does not itself evidence Thomas.",
+    "confidence": "high (trade) / n/a (Thomas)",
+    "caveat": "Identification of Pattanam with Muziris is likely but debated.",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/PVXf2Ke1KQI",
+      "provider": "youtube",
+      "title": "India Had Jesus Before Europe Did",
+      "source": "https://www.youtube.com/watch?v=PVXf2Ke1KQI",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [],
+    "eras": [
+     "Roman / Byzantine"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "supported",
+    "caveats": [
+     "Roman trade with Kerala in the 1st century is proven (Muziris Papyrus, Vienna; Pattanam finds).",
+     "That Pattanam is ancient Muziris is likely, not certain.",
+     "It shows a trip was possible; it is not evidence Thomas came."
+    ],
+    "verified_sources": [
+     "Print: P. Vindob. G 40822 (Muziris Papyrus), Austrian National Library",
+     "Print: P. J. Cherian et al., Pattanam excavation reports, KCHR"
+    ],
+    "layer": "oriental_findings"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     76.259,
+     9.958
+    ]
+   },
+   "properties": {
+    "id": "ORI-10",
+    "name": "Koonan Kurishu (Coonan Cross) — Mattancherry, Kochi",
+    "found": "Channel claims Thomas Christians swore the 1653 Coonan Cross Oath against Portuguese latinization; Syriac books were burned.",
+    "support": "Synod of Diamper (1599) ordered Syriac books corrected or burned; 1653 oath at Our Lady of Life church, Mattancherry.",
+    "notes": "Rating: SUPPORTED (historical). \"Only 400 stayed\" figure unverified.",
+    "confidence": "high",
+    "caveat": "—",
+    "related_videos": [
+     {
+      "embed": "https://www.youtube.com/embed/PVXf2Ke1KQI",
+      "provider": "youtube",
+      "title": "India Had Jesus Before Europe Did",
+      "source": "https://www.youtube.com/watch?v=PVXf2Ke1KQI",
+      "label": "japhetsworld (creator channel — claims assessed below)"
+     }
+    ],
+    "sources": [],
+    "eras": [
+     "Modern"
+    ],
+    "attribution": "Claim as presented by the YouTube channel @japhetsworld (youtube.com/@japhetsworld)",
+    "solidity": "supported",
+    "caveats": [
+     "The Synod of Diamper (1599) and the Coonan Cross Oath (3 Jan 1653, Mattancherry) are documented history.",
+     "The 'only 400 stayed' number is not confirmed."
+    ],
+    "verified_sources": [
+     "Print: S. Neill, A History of Christianity in India (Cambridge UP, 1984)"
+    ],
+    "layer": "oriental_findings"
+   }
+  }
+ ]
+}
