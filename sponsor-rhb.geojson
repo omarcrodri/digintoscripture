@@ -1,55 +1,48 @@
 {
- "type": "FeatureCollection",
- "pack": "Reformation Heritage Books sponsor",
- "features": [
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -85.5909,
-     42.91039
-    ]
-   },
-   "properties": {
-    "id": "SPN-rhb-01",
-    "name": "Reformation Heritage Books (Grand Rapids, MI)",
-    "found": "Grand Rapids publisher of Puritan and Reformed literature, founded by Joel Beeke; publishes Paul Washer titles (e.g. The Gospel's Power and Message, The Gospel Call and True Conversion, Gospel Assurance and Warnings — the \"Recovering the Gospel\" series) and co-produced interviews with HeartCry.",
-    "support": "RHB official YouTube hosts \"The Gospel's Power & Message | Paul Washer\"; joint RHB/HeartCry interviews with Joel and Mary Beeke.",
-    "notes": "Publisher address (confirmed on official site FAQ and donate pages, 2026-10-10): 3070 29th St SE, Grand Rapids (Kentwood), MI 49512. Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp). Paul Washer is founder and Executive Director of HeartCry Missionary Society (official HeartCry bio). Gospel presentation embed from HeartCry's official channel.",
-    "confidence": "high (address, channel and video ownership verified 2026-10-10)",
-    "caveat": "Sponsor layer; commercial links do not imply endorsement beyond the publisher relationship.",
-    "related_videos": [
-     {
-      "embed": "https://www.youtube.com/embed/oCOnHjckzt4",
-      "provider": "youtube",
-      "title": "The Gospel's Power & Message | Paul Washer",
-      "source": "https://www.youtube.com/watch?v=oCOnHjckzt4",
-      "label": "Reformation Heritage Books (official)"
-     },
-     {
-      "embed": "https://www.youtube.com/embed/t1BWSOVNm4A",
-      "provider": "youtube",
-      "title": "The Gospel | Paul Washer",
-      "source": "https://www.youtube.com/watch?v=t1BWSOVNm4A",
-      "label": "HeartCry Missionary Society (official)"
-     }
-    ],
-    "sources": [
-     "https://heritagebooks.org/faq/",
-     "https://heritagebooks.org/pages/mission",
-     "https://www.youtube.com/@ReformationHeritageBooks",
-     "https://heartcrymissionary.com/people/paul-david-washer/",
-     "https://www.youtube.com/@Heartcrymissionary"
-    ],
-    "eras": [
-     "Modern"
-    ],
-    "sponsor_cta_url": "https://heritagebooks.org/",
-    "sponsor_label": "Reformation Heritage Books (sponsor)",
-    "layer": "sponsor_rhb",
-    "official_website": "https://heritagebooks.org/"
-   }
-  }
- ]
+  "type": "FeatureCollection",
+  "pack": "Reformation Heritage Books sponsor",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5909,
+          42.91039
+        ]
+      },
+      "properties": {
+        "id": "SPN-rhb-01",
+        "name": "Reformation Heritage Books (Grand Rapids, MI)",
+        "found": "Grand Rapids publisher of Puritan and Reformed literature, founded by Joel Beeke; publishes Paul Washer titles (e.g. The Gospel's Power and Message, The Gospel Call and True Conversion, Gospel Assurance and Warnings — the \"Recovering the Gospel\" series) and co-produced interviews with HeartCry.",
+        "support": "RHB official YouTube hosts \"The Gospel's Power & Message | Paul Washer\"; joint RHB/HeartCry interviews with Joel and Mary Beeke.",
+        "notes": "Publisher address (confirmed on official site FAQ and donate pages, 2026-10-10): 3070 29th St SE, Grand Rapids (Kentwood), MI 49512. Geocoded 2026-10-10 from official street address via OpenStreetMap Nominatim (rounded 5 dp). Paul Washer is founder and Executive Director of HeartCry Missionary Society (official HeartCry bio). Gospel presentation embed from HeartCry's official channel.",
+        "confidence": "high (address, channel and video ownership verified 2026-10-10)",
+        "caveat": "Sponsor layer; commercial links do not imply endorsement beyond the publisher relationship.",
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/oCOnHjckzt4",
+            "provider": "youtube",
+            "title": "The Gospel's Power & Message | Paul Washer",
+            "source": "https://www.youtube.com/watch?v=oCOnHjckzt4",
+            "label": "Reformation Heritage Books (official)"
+          }
+        ],
+        "sources": [
+          "https://heritagebooks.org/faq/",
+          "https://heritagebooks.org/pages/mission",
+          "https://www.youtube.com/@ReformationHeritageBooks",
+          "https://heartcrymissionary.com/people/paul-david-washer/",
+          "https://www.youtube.com/@Heartcrymissionary"
+        ],
+        "eras": [
+          "Modern"
+        ],
+        "sponsor_cta_url": "https://heritagebooks.org/",
+        "sponsor_label": "Reformation Heritage Books (sponsor)",
+        "layer": "sponsor_rhb",
+        "official_website": "https://heritagebooks.org/"
+      }
+    }
+  ]
 }

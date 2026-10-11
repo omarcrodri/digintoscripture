@@ -409,7 +409,7 @@
           "contact_title": null,
           "contact_email": null,
           "contact_phone": "+98-21-33953000",
-          "contact_url": "https://www.mcth.ir/",
+          "contact_url": null,
           "notes": "Daniel Susa vision setting — Iranian cultural heritage (Susa). Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
           "official_website": "https://whc.unesco.org/en/list/1455/"
         },
@@ -513,7 +513,7 @@
         "location": "Tekoa",
         "verses": "Amos 1:1",
         "what_ministered": "Herdsman/sycamore dresser from Tekoa in Judah called to confront Israel.",
-        "sources": "Amos 1:1; OpenBible Tekoa (Khirbet Teku'a). Coord: OpenBible.info atlas (Tekoa).",
+        "sources": "Amos 1:1; OpenBible Tekoa (Khirbet Teku'a). Coord: OpenBible.info atlas (Tekoa). ; https://www.bibleplaces.com/tekoa/",
         "notes": "Hometown pin.",
         "confidence": "confirmed",
         "layer": "prophets",
@@ -616,7 +616,7 @@
         "location": "Joppa",
         "verses": "Jonah 1:3",
         "what_ministered": "Fled toward Tarshish from Joppa rather than go to Nineveh.",
-        "sources": "Jonah 1:3; OpenBible Joppa (Jaffa). Coord: OpenBible.info atlas (Joppa).",
+        "sources": "Jonah 1:3; OpenBible Joppa (Jaffa). Coord: OpenBible.info atlas (Joppa). ; https://www.bibleplaces.com/joppa/",
         "notes": "Port of departure in the narrative.",
         "confidence": "confirmed",
         "layer": "prophets",
@@ -1318,7 +1318,7 @@
         "location": "Mount Carmel",
         "verses": "1 Kings 18:19-40",
         "what_ministered": "Contest with Baal's prophets; fire from Yahweh on the sacrifice.",
-        "sources": "1 Kings 18; OpenBible Mount Carmel. Coord: OpenBible.info atlas (Mount Carmel).",
+        "sources": "1 Kings 18; OpenBible Mount Carmel. Coord: OpenBible.info atlas (Mount Carmel). ; https://www.bibleplaces.com/mtcarmel/",
         "notes": "Event locale on Carmel ridge; exact altar spot is tradition, not a single agreed dig.",
         "confidence": "unconfirmed",
         "layer": "prophets",
@@ -1421,7 +1421,7 @@
         "location": "Zarephath",
         "verses": "1 Kings 17:8-24",
         "what_ministered": "Stayed with the widow of Zarephath; flour/oil provision and child raised.",
-        "sources": "1 Kings 17; OpenBible Zarephath (Sarepta). Between Tyre and Sidon. Coord: OpenBible.info atlas (Zarephath).",
+        "sources": "1 Kings 17; OpenBible Zarephath (Sarepta). Between Tyre and Sidon. Coord: OpenBible.info atlas (Zarephath). ; https://www.bibleplaces.com/zarephath/",
         "notes": "Coastal Phoenician town pin from atlas.",
         "confidence": "confirmed",
         "layer": "prophets",
@@ -1600,7 +1600,7 @@
         "location": "Dothan",
         "verses": "2 Kings 6:13-18",
         "what_ministered": "Surrounded by Aramean horses/chariots; eyes of servant opened.",
-        "sources": "2 Kings 6; OpenBible Dothan (Tel Dotan). Coord: OpenBible.info atlas (Dothan).",
+        "sources": "2 Kings 6; OpenBible Dothan (Tel Dotan). Coord: OpenBible.info atlas (Dothan). ; https://www.bibleplaces.com/dothan/",
         "notes": "Narrative locale.",
         "confidence": "confirmed",
         "layer": "prophets",
@@ -1729,15 +1729,15 @@
           "contact_title": "Ministry portal inquiries",
           "contact_email": "moa.portal@mota.gov.eg",
           "contact_phone": "19654",
-          "contact_url": "https://www.mota.gov.eg/ar/",
+          "contact_url": "https://egymonuments.gov.eg/",
           "notes": "Moses Sinai/Horeb region — Egypt MoTA (South Sinai). Competing traditional peaks; not a single dig. Prophet/literary geography pin — national antiquities authority for the modern region, not a prophet 'excavation office'.",
-          "official_website": "https://www.mota.gov.eg/ar/"
+          "official_website": "https://egymonuments.gov.eg/"
         },
         "eras": [
           "Exodus / Wilderness",
           "Bronze Age"
         ],
-        "official_website": "https://www.mota.gov.eg/ar/",
+        "official_website": "https://egymonuments.gov.eg/",
         "official_website_label": "Ministry of Tourism and Antiquities (Egypt) / Supreme Council of Antiquities",
         "status_kind": "none"
       }

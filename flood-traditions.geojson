@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "name": "Flood traditions",
+  "build": "20261001-au",
+  "layer_note": "Flood stories from cultures around the world, as presented by their sources. These are traditions, not excavated finds.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2,
+          -22.9
+        ]
+      },
+      "properties": {
+        "id": "FLD-01",
+        "name": "Tupinambá flood tradition — coastal Brazil",
+        "layer": "flood_traditions",
+        "solidity": "low",
+        "approximate": "Approximate region pin",
+        "found": "The channel presents a Tupinambá story of a flood covering mountains, written down by three Europeans in the 1550s, and links it to the Genesis flood.",
+        "notes": "Pin marks the general Rio de Janeiro coast region where the 1550s accounts were recorded.",
+        "caveats": [
+          "The link to the Genesis flood is the channel’s interpretation.",
+          "The Europeans who wrote the story down may have framed it in biblical terms.",
+          "Not an archaeological dig."
+        ],
+        "related_scripture": [
+          "Genesis 6–9"
+        ],
+        "sources": [
+          "https://www.youtube.com/watch?v=liU7gmZ6RGw"
+        ],
+        "related_videos": [
+          {
+            "embed": "https://www.youtube.com/embed/liU7gmZ6RGw",
+            "provider": "youtube",
+            "title": "A Flood Story from the New World!",
+            "source": "https://www.youtube.com/watch?v=liU7gmZ6RGw",
+            "label": "Expedition Bible"
+          }
+        ],
+        "eras": [
+          "Modern"
+        ]
+      }
+    }
+  ]
+}

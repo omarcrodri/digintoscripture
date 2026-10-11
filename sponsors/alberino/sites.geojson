@@ -19,7 +19,7 @@
         "attached_map_pin_id": "QUM-01",
         "attached_primary_id": "QUM-01",
         "found": "Channel presents the 1947 Judean-desert cliff-cave discovery and treats the Book of Giants (and related Watchers/Nephilim narrative) as Dead Sea Scrolls material from the Qumran/Judean desert caves.",
-        "support": "Archive notes + transcript for zEW1k0qU8Sg (Book of Giants) and Er507MsGp0M (Book of Enoch) name DSS/Qumran cave discovery; both video ids verified in timothy-alberino-archive all-videos.tsv. Core OT pin QUM-01 already embeds both videos with contested-framing disclosure.",
+        "support": "Archive notes + transcript for zEW1k0qU8Sg (Book of Giants) name DSS/Qumran cave discovery; video id verified in timothy-alberino-archive all-videos.tsv. Sponsor layer owns this channel embed (unique-video rule); Book of Enoch video lives on SPN-alberino-02.",
         "notes": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
@@ -31,15 +31,7 @@
             "title": "The Alberino Analysis - The Book of Giants",
             "source": "https://www.youtube.com/watch?v=zEW1k0qU8Sg",
             "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/Er507MsGp0M",
-            "provider": "youtube",
-            "title": "The Alberino Analysis - The Book of Enoch",
-            "source": "https://www.youtube.com/watch?v=Er507MsGp0M",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate. Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -80,28 +72,20 @@
         "sponsor_label": "Expedition: Alberino (sponsor)",
         "attached_map_pin_id": "QUM-NT-01",
         "attached_primary_id": "QUM-NT-01",
-        "found": "Same DSS cave-discovery / Book of Giants + Book of Enoch manuscript angle attached to the NT-context Qumran pointer (same complex as QUM-01).",
-        "support": "Same verified videos zEW1k0qU8Sg and Er507MsGp0M; core NT pin QUM-NT-01 already embeds both with contested-framing disclosure.",
+        "found": "Book of Enoch manuscript / Watchers framing attached to the NT-context Qumran pointer (same complex as QUM-01); Enoch is cited in Jude (NT).",
+        "support": "Verified video Er507MsGp0M (Book of Enoch) on the official Timothy Alberino channel; sponsor layer owns this channel embed (unique-video rule). Book of Giants video lives on SPN-alberino-01.",
         "notes": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing of Dead Sea Scrolls and related texts (Book of Giants, 1 Enoch) is contested versus mainstream archaeology and Second Temple scholarship. DSS discovery locus and presence of Giants/Enoch fragments among the Judean desert finds are channel-presented against a real manuscript background, but interpretive packaging is not dig consensus. Embed as sponsor/channel presentation only. Core QUM pins already carry these embeds with contested-framing disclosure — sponsor chip LINKS those finds; does not pretend excavation consensus. Holy Bible remains canon.",
         "gospel_hook": "",
         "related_videos": [
           {
-            "embed": "https://www.youtube.com/embed/zEW1k0qU8Sg",
-            "provider": "youtube",
-            "title": "The Alberino Analysis - The Book of Giants",
-            "source": "https://www.youtube.com/watch?v=zEW1k0qU8Sg",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
             "embed": "https://www.youtube.com/embed/Er507MsGp0M",
             "provider": "youtube",
             "title": "The Alberino Analysis - The Book of Enoch",
             "source": "https://www.youtube.com/watch?v=Er507MsGp0M",
             "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
+            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate. Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -154,30 +138,6 @@
             "source": "https://www.youtube.com/watch?v=hfpu18_q9Rk",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/wiaFRAWlnQ8",
-            "provider": "youtube",
-            "title": "Chinkana: The Secret World Beneath the Andes Mountains | Fade to Black with Jimmy Church",
-            "source": "https://www.youtube.com/watch?v=wiaFRAWlnQ8",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/kS03eU3riOs",
-            "provider": "youtube",
-            "title": "The Days of Noah, Megaliths, and the Interdimensional Hypothesis | Mystery Bible On Podcast",
-            "source": "https://www.youtube.com/watch?v=kS03eU3riOs",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/YKHfr5_TeYU",
-            "provider": "youtube",
-            "title": "Montana Megaliths | Investigating Sage Wall With L.A. Marzulli",
-            "source": "https://www.youtube.com/watch?v=YKHfr5_TeYU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -228,24 +188,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Andean / megalithic stonework at this locus is a real visitor-visible ruin; Alberino’s pre-flood Nephilim-builder / catastrophe / cyclopean-lost-civilization framing is contested versus mainstream Andean archaeology. Embed as sponsor/channel on-site presentation only — not dig consensus. Holy Bible remains canon.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/hfpu18_q9Rk",
-            "provider": "youtube",
-            "title": "Cusco Expedition & Seminar, June 13, 2017",
-            "source": "https://www.youtube.com/watch?v=hfpu18_q9Rk",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/wiaFRAWlnQ8",
-            "provider": "youtube",
-            "title": "Chinkana: The Secret World Beneath the Andes Mountains | Fade to Black with Jimmy Church",
-            "source": "https://www.youtube.com/watch?v=wiaFRAWlnQ8",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -291,34 +233,10 @@
         "gospel_hook": "",
         "related_videos": [
           {
-            "embed": "https://www.youtube.com/embed/hfpu18_q9Rk",
-            "provider": "youtube",
-            "title": "Cusco Expedition & Seminar, June 13, 2017",
-            "source": "https://www.youtube.com/watch?v=hfpu18_q9Rk",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
             "embed": "https://www.youtube.com/embed/wiaFRAWlnQ8",
             "provider": "youtube",
             "title": "Chinkana: The Secret World Beneath the Andes Mountains | Fade to Black with Jimmy Church",
             "source": "https://www.youtube.com/watch?v=wiaFRAWlnQ8",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
@@ -379,22 +297,6 @@
             "source": "https://www.youtube.com/watch?v=6Ae3DJ6ybJY",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -444,16 +346,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Visitor/staging town for Machu Picchu visits — not an excavation claim. Cyclopean framing belongs to the citadel pin.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/6Ae3DJ6ybJY",
-            "provider": "youtube",
-            "title": "Cusco Expedition & Seminar, June 15, 2017",
-            "source": "https://www.youtube.com/watch?v=6Ae3DJ6ybJY",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -569,24 +461,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Andean / megalithic stonework at this locus is a real visitor-visible ruin; Alberino’s pre-flood Nephilim-builder / catastrophe / cyclopean-lost-civilization framing is contested versus mainstream Andean archaeology. Embed as sponsor/channel on-site presentation only — not dig consensus. Holy Bible remains canon. Exact interpretive claims about Ñaupa Iglesia vary widely; pin marks on-site visit evidence from pics captions.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/Z4QIGFu6d9A",
-            "provider": "youtube",
-            "title": "Cusco Expedition & Seminar, June 17, 2017",
-            "source": "https://www.youtube.com/watch?v=Z4QIGFu6d9A",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/JgomdsVZZM4",
-            "provider": "youtube",
-            "title": "Timothy Alberino with L.A. Marzulli at Ollantaytambo, Peru",
-            "source": "https://www.youtube.com/watch?v=JgomdsVZZM4",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -711,24 +585,6 @@
         "surveyor_solidity": "weak",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Uncertain exact coordinates. Contested Nephilim framing; not dig consensus.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/ZjF0snXa-BM",
-            "provider": "youtube",
-            "title": "Amazing Discoveries in Paracas, Peru | Mondo Gonzales",
-            "source": "https://www.youtube.com/watch?v=ZjF0snXa-BM",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/zW-f_4lWn0c",
-            "provider": "youtube",
-            "title": "Paracas Skulls DNA, Nephilim, and Phoenicians | Timothy Alberino talks with L.A. Marzulli",
-            "source": "https://www.youtube.com/watch?v=zW-f_4lWn0c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -776,16 +632,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Geoglyph itself is a real, visitor-known coastal landmark; Alberino’s treasure/lost-civilization packaging around Paracas fieldwork is contested versus mainstream interpretations.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/ZjF0snXa-BM",
-            "provider": "youtube",
-            "title": "Amazing Discoveries in Paracas, Peru | Mondo Gonzales",
-            "source": "https://www.youtube.com/watch?v=ZjF0snXa-BM",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -829,16 +675,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Wildlife/filming stop tied to Paracas expedition — not an excavation dig. Included as documented on-water expedition locus.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/ZjF0snXa-BM",
-            "provider": "youtube",
-            "title": "Amazing Discoveries in Paracas, Peru | Mondo Gonzales",
-            "source": "https://www.youtube.com/watch?v=ZjF0snXa-BM",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -881,24 +717,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Paracas culture, necropolis remains, and coastal geoglyphs are real Andean archaeology; elongated-skull Nephilim/hybrid / non-indigenous DNA framing is contested versus mainstream bioarchaeology (cranial modification). Embed as sponsor/channel fieldwork presentation only. Exact Lima collection address not published; coordinates approximate to Miraflores/Larco museum district.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/93SmUuKAdcw",
-            "provider": "youtube",
-            "title": "The Alberino Analysis - Elongated Skulls: Episode I",
-            "source": "https://www.youtube.com/watch?v=93SmUuKAdcw",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/zW-f_4lWn0c",
-            "provider": "youtube",
-            "title": "Paracas Skulls DNA, Nephilim, and Phoenicians | Timothy Alberino talks with L.A. Marzulli",
-            "source": "https://www.youtube.com/watch?v=zW-f_4lWn0c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -944,34 +762,10 @@
         "gospel_hook": "",
         "related_videos": [
           {
-            "embed": "https://www.youtube.com/embed/ZjF0snXa-BM",
-            "provider": "youtube",
-            "title": "Amazing Discoveries in Paracas, Peru | Mondo Gonzales",
-            "source": "https://www.youtube.com/watch?v=ZjF0snXa-BM",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/G_HEPYHO55o",
-            "provider": "youtube",
-            "title": "Megaliths Discovered in the Amazon Jungle | A Lost City of Giants?",
-            "source": "https://www.youtube.com/watch?v=G_HEPYHO55o",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
             "embed": "https://www.youtube.com/embed/haNBttoDpGU",
             "provider": "youtube",
             "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
             "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/9_m0JMAy2I0",
-            "provider": "youtube",
-            "title": "Are the Nazca Tridactyl \"Alien\" Mummies Real?",
-            "source": "https://www.youtube.com/watch?v=9_m0JMAy2I0",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
@@ -1075,24 +869,6 @@
         "surveyor_solidity": "weak",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Biographical town pin, not archaeology.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/G_HEPYHO55o",
-            "provider": "youtube",
-            "title": "Megaliths Discovered in the Amazon Jungle | A Lost City of Giants?",
-            "source": "https://www.youtube.com/watch?v=G_HEPYHO55o",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/tEX75mhio9c",
-            "provider": "youtube",
-            "title": "High Strangeness in the Cloud Forest of Peru",
-            "source": "https://www.youtube.com/watch?v=tEX75mhio9c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1139,16 +915,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Private-property / river-crossing logistics pin — approximate corridor coordinates. Not a dig site.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/tEX75mhio9c",
-            "provider": "youtube",
-            "title": "High Strangeness in the Cloud Forest of Peru",
-            "source": "https://www.youtube.com/watch?v=tEX75mhio9c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1191,24 +957,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Private-property wall coords not published here. Contested giants/lost-city framing.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/G_HEPYHO55o",
-            "provider": "youtube",
-            "title": "Megaliths Discovered in the Amazon Jungle | A Lost City of Giants?",
-            "source": "https://www.youtube.com/watch?v=G_HEPYHO55o",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/Ox3p3uwjBNg",
-            "provider": "youtube",
-            "title": "Who is Hiding the Bones of Giants and Why? | The Common Sense Show",
-            "source": "https://www.youtube.com/watch?v=Ox3p3uwjBNg",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1336,40 +1084,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Base-town pin. Contested alien/high-strangeness framing on linked Amazon stories.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/G_HEPYHO55o",
-            "provider": "youtube",
-            "title": "Megaliths Discovered in the Amazon Jungle | A Lost City of Giants?",
-            "source": "https://www.youtube.com/watch?v=G_HEPYHO55o",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/mpCxDqvT7lg",
-            "provider": "youtube",
-            "title": "Peru Alien Attack Expedition Report",
-            "source": "https://www.youtube.com/watch?v=mpCxDqvT7lg",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/tEX75mhio9c",
-            "provider": "youtube",
-            "title": "High Strangeness in the Cloud Forest of Peru",
-            "source": "https://www.youtube.com/watch?v=tEX75mhio9c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/haNBttoDpGU",
-            "provider": "youtube",
-            "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
-            "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1416,24 +1130,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Cathedral/GPR and lost-city staging are channel expedition claims — not published peer dig consensus. Exact ‘Tauri Punku’ ruin coords unpublished; pin marks Huánuco city staging locus.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/wiaFRAWlnQ8",
-            "provider": "youtube",
-            "title": "Chinkana: The Secret World Beneath the Andes Mountains | Fade to Black with Jimmy Church",
-            "source": "https://www.youtube.com/watch?v=wiaFRAWlnQ8",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1478,30 +1174,6 @@
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Real site; Nephilim/pre-flood builder claims contested vs mainstream Andean archaeology.",
         "gospel_hook": "",
         "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/lQSEdLUi3DI",
-            "provider": "youtube",
-            "title": "True Legends \"Technology of the Fallen\" trailer",
-            "source": "https://www.youtube.com/watch?v=lQSEdLUi3DI",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/8YJorJ7qMsY",
-            "provider": "youtube",
-            "title": "The Alberino Analysis - Elongated Skulls: Episode 2",
-            "source": "https://www.youtube.com/watch?v=8YJorJ7qMsY",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
           {
             "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
             "provider": "youtube",
@@ -1558,32 +1230,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Real megalithic architecture; Nephilim/ancient-astronaut-style builder claims contested.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/lQSEdLUi3DI",
-            "provider": "youtube",
-            "title": "True Legends \"Technology of the Fallen\" trailer",
-            "source": "https://www.youtube.com/watch?v=lQSEdLUi3DI",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -1645,22 +1291,6 @@
             "provider": "youtube",
             "title": "Montana Megaliths | Investigating Sage Wall With L.A. Marzulli",
             "source": "https://www.youtube.com/watch?v=YKHfr5_TeYU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/haNBttoDpGU",
-            "provider": "youtube",
-            "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
-            "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oWapEkV7jzY",
-            "provider": "youtube",
-            "title": "NephCon 2025",
-            "source": "https://www.youtube.com/watch?v=oWapEkV7jzY",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
@@ -1726,14 +1356,6 @@
             "provider": "youtube",
             "title": "NephCon 2025 #nephilim #transhumanism #ww3 #endtimes",
             "source": "https://www.youtube.com/watch?v=Yp28K_z6hLM",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/haNBttoDpGU",
-            "provider": "youtube",
-            "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
-            "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
@@ -1977,32 +1599,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. Museum visit confirmed in archive narration. Contested Nephilim packaging of Nuragic culture.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/ZixJlNicMWY",
-            "provider": "youtube",
-            "title": "The Tombs of the Giants",
-            "source": "https://www.youtube.com/watch?v=ZixJlNicMWY",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/GnlaLPTX_ZQ",
-            "provider": "youtube",
-            "title": "True Legends - Episode 3: Holocaust of Giants Official Trailer",
-            "source": "https://www.youtube.com/watch?v=GnlaLPTX_ZQ",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/_x__HMZNUK0",
-            "provider": "youtube",
-            "title": "Sardinia Tombs of the Giants | A View From the Bunker Podcast",
-            "source": "https://www.youtube.com/watch?v=_x__HMZNUK0",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://thealberinoanalysis.com/",
         "sponsor_cta_host": "thealberinoanalysis.com",
@@ -2133,14 +1729,6 @@
             "source": "https://www.youtube.com/watch?v=Ox3p3uwjBNg",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/haNBttoDpGU",
-            "provider": "youtube",
-            "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
-            "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sources": "Alberino Analysis YouTube embeds (Megaliths Discovered in the Amazon Jungle; Common Sense Show giants/Amazon walls; Quite Frankly). Official site timothyalberino.com.",
@@ -2201,22 +1789,6 @@
             "source": "https://www.youtube.com/watch?v=lQSEdLUi3DI",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sources": "GenSix True Legends Episode 1 synopsis (www.gensix.com); Alberino Analysis YouTube embeds (Technology of the Fallen trailer; Andes interviews). Official site timothyalberino.com. GenSix is a commercial/advocacy store — synopsis paraphrased; link only, no rehost.",
@@ -2271,26 +1843,10 @@
         "gospel_hook": "",
         "related_videos": [
           {
-            "embed": "https://www.youtube.com/embed/lQSEdLUi3DI",
-            "provider": "youtube",
-            "title": "True Legends \"Technology of the Fallen\" trailer",
-            "source": "https://www.youtube.com/watch?v=lQSEdLUi3DI",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
             "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
             "provider": "youtube",
             "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
             "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
@@ -2369,14 +1925,6 @@
             "source": "https://www.youtube.com/watch?v=3___S7S4LVs",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/oiInK7P0fXc",
-            "provider": "youtube",
-            "title": "Fallen Angels Under the Andes? | Blurry Creatures Podcast",
-            "source": "https://www.youtube.com/watch?v=oiInK7P0fXc",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }
         ],
         "sources": "Alberino Analysis YouTube embeds (Hunter’s Quest Enoch/Megaliths/Watchers; Birthright Parts 7–8; Andes interview Hermon aside). Official site timothyalberino.com. Book of Enoch commentary on Amazon (outbound).",
@@ -2430,22 +1978,6 @@
         "surveyor_caveat": "Teaching locus / not on-site visit confirmed. Alberino’s Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and dig consensus. Channel / expedition presentation only — not DigIntoScripture dig consensus. Holy Bible remains canon. visit_confirmed=false. Under-pyramid claims contested vs mainstream Egyptology. Do not force-attach to MEM-01.",
         "gospel_hook": "",
         "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/haNBttoDpGU",
-            "provider": "youtube",
-            "title": "Alien Mummies, Megaliths in the Amazon, & Secrets Beneath the Pyramids of Giza | Quite Frankly",
-            "source": "https://www.youtube.com/watch?v=haNBttoDpGU",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/NvHaB1yYwYs",
-            "provider": "youtube",
-            "title": "Did the Nephilim Build the Megaliths? | Angelegend",
-            "source": "https://www.youtube.com/watch?v=NvHaB1yYwYs",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
           {
             "embed": "https://www.youtube.com/embed/VZ5x77emhu4",
             "provider": "youtube",
@@ -2578,22 +2110,6 @@
             "provider": "youtube",
             "title": "High Strangeness in the Cloud Forest of Peru",
             "source": "https://www.youtube.com/watch?v=tEX75mhio9c",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/G_HEPYHO55o",
-            "provider": "youtube",
-            "title": "Megaliths Discovered in the Amazon Jungle | A Lost City of Giants?",
-            "source": "https://www.youtube.com/watch?v=G_HEPYHO55o",
-            "label": "Sponsor video (Alberino Analysis)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/mpCxDqvT7lg",
-            "provider": "youtube",
-            "title": "Peru Alien Attack Expedition Report",
-            "source": "https://www.youtube.com/watch?v=mpCxDqvT7lg",
             "label": "Sponsor video (Alberino Analysis)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Timothy Alberino / Alberino Analysis / Nephcon presentation — not DigIntoScripture dig consensus. Nephilim/Watchers/catastrophe framing is contested versus mainstream archaeology and Second Temple scholarship. Core OT/NT layers stay free and separate (Qumran already carries Alberino embeds with contested-framing disclosure). Sales / book / members / conference links do not raise dig-consensus confidence."
           }

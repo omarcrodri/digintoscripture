@@ -32,14 +32,6 @@
             "source": "https://www.youtube.com/watch?v=ifTro5uRaT8",
             "label": "Sponsor video (Sergio & Rhoda)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/RZwYwyVrRxY",
-            "provider": "youtube",
-            "title": "Walking from Capernaum to Chorazin: In the Footsteps of Jesus",
-            "source": "https://www.youtube.com/watch?v=RZwYwyVrRxY",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -836,14 +828,6 @@
         "gospel_hook": "",
         "related_videos": [
           {
-            "embed": "https://www.youtube.com/embed/9LKnQgirrvU",
-            "provider": "youtube",
-            "title": "The True Location Of Bethsaida",
-            "source": "https://www.youtube.com/watch?v=9LKnQgirrvU",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
             "embed": "https://www.youtube.com/embed/l2mg-8ugrgc",
             "provider": "youtube",
             "title": "Church of the Apostles, el-Araj",
@@ -919,14 +903,6 @@
             "provider": "youtube",
             "title": "The True Location Of Bethsaida",
             "source": "https://www.youtube.com/watch?v=9LKnQgirrvU",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/l2mg-8ugrgc",
-            "provider": "youtube",
-            "title": "Church of the Apostles, el-Araj",
-            "source": "https://www.youtube.com/watch?v=l2mg-8ugrgc",
             "label": "Sponsor video (Sergio & Rhoda)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
           }
@@ -1109,24 +1085,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Same Nazareth package; CBG-06 'Jesus house' remains contested — do not treat SNR village film as proving it.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/CyDyIyn-yRE",
-            "provider": "youtube",
-            "title": "1st Century Nazareth Village Comes to Life",
-            "source": "https://www.youtube.com/watch?v=CyDyIyn-yRE",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/bB59Byju_5c",
-            "provider": "youtube",
-            "title": "Archaeologists Find a Stone Quarry from the Time of Jesus in Nazareth",
-            "source": "https://www.youtube.com/watch?v=bB59Byju_5c",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://www.patreon.com/snrisrael",
         "sponsor_cta_host": "patreon.com",
@@ -1172,16 +1130,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "'City of 5 Giants / Goliath hometown' title is sensational; Gath excavations are real — Goliath media overreach flagged on CBG-21.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/r2k0AQJZCIc",
-            "provider": "youtube",
-            "title": "City of 5 Giants - Goliath's Hometown Found! (Gath / Tell es-Safi)",
-            "source": "https://www.youtube.com/watch?v=r2k0AQJZCIc",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://www.patreon.com/snrisrael",
         "sponsor_cta_host": "patreon.com",
@@ -1802,24 +1750,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Jericho→Jerusalem Wadi Qelt / Good Samaritan trail videos — landscape pilgrimage, not Tell es-Sultan dig season reports.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/F-m0hr0nQIk",
-            "provider": "youtube",
-            "title": "From Jericho to Jerusalem in Two Days [Unseen Footage]",
-            "source": "https://www.youtube.com/watch?v=F-m0hr0nQIk",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/q6Uz9gIdm68",
-            "provider": "youtube",
-            "title": "Jericho to Jerusalem, walking the ancient trail of the Good Samaritan",
-            "source": "https://www.youtube.com/watch?v=q6Uz9gIdm68",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://www.patreon.com/snrisrael",
         "sponsor_cta_host": "patreon.com",
@@ -2061,24 +1991,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Same Galilee landscape package.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/pjGMXPcGp3Y",
-            "provider": "youtube",
-            "title": "Monster Storm at the Sea of Galilee where Jesus Walked",
-            "source": "https://www.youtube.com/watch?v=pjGMXPcGp3Y",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          },
-          {
-            "embed": "https://www.youtube.com/embed/ftayxaeMm4Q",
-            "provider": "youtube",
-            "title": "Sea of Galilee and Mount Beatitudes",
-            "source": "https://www.youtube.com/watch?v=ftayxaeMm4Q",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://www.patreon.com/snrisrael",
         "sponsor_cta_host": "patreon.com",
@@ -2123,16 +2035,6 @@
         "surveyor_solidity": "mixed",
         "surveyor_caveat": "Covered primarily via City of David + Hezekiah’s Tunnel strong attach; Gihon adjacency.",
         "gospel_hook": "",
-        "related_videos": [
-          {
-            "embed": "https://www.youtube.com/embed/10AEQJqMWrw",
-            "provider": "youtube",
-            "title": "City of David and Hezekiah's Tunnel",
-            "source": "https://www.youtube.com/watch?v=10AEQJqMWrw",
-            "label": "Sponsor video (Sergio & Rhoda)",
-            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
-          }
-        ],
         "sponsor_cta_label": "Their content (paywall)",
         "sponsor_cta_url": "https://www.patreon.com/snrisrael",
         "sponsor_cta_host": "patreon.com",

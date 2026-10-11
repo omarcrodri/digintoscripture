@@ -76,12 +76,12 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-ao",
+  "build": "20261001-au",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
     "artifacts_geojson": "artifacts.geojson",
-    "artifacts_count": 11,
+    "artifacts_count": 14,
     "skip_museum_pin": "ART-12 Soleb findspot-only",
     "site_galleries": "site-galleries.json",
     "primary_egypt_museum": "egymonuments.gov.eg",
@@ -875,5 +875,220 @@
     "name_history_file": "app/name-history.json (optional)",
     "schema_doc": "NAME-HISTORY-SCHEMA.md",
     "discover": "outer sheet scroll + per-category nested scroll"
+  },
+  "ap_notes": {
+    "build": "20261001-ap",
+    "date": "2026-10-11",
+    "published": false,
+    "cctv": "deduped 61 pins/76 camera links -> 11 pins/11 links (7 unique cameras); kept only pins each camera shows",
+    "base_maps": "Base Maps tab in Layers drawer: OSM, OpenTopoMap, CARTO Positron, CARTO Dark Matter, DARE Imperium Romanum (radio) + CARTO labels and PEF 1880 overlays; Esri World Imagery skipped (key/account terms). Tiles list: packs/basemap-tiles-2026-10-11.md",
+    "layers": "collapsible categories; Era filter and Destruction horizons filter removed (era shown in drawer, destruction tags in Name & History)",
+    "drawer": "Scripture (LSB) section first; YouTube search inside Videos & gallery; repeated lines removed",
+    "audit": "packs/audit-2026-10-11.{json,md} (applied)",
+    "audit_fixes": {
+      "sam_nt_rename": "SAM-01 (nt-digs) -> SAM-NT-01; stops naaman-syrian-2, ethiopian-gaza-road-2",
+      "drawer_reset": "drawer cleared on every pin open",
+      "discover_first_para_dropped": 205,
+      "dig_halt_boilerplate_shortened_pins": 160,
+      "video_refs_removed": 51,
+      "video_ids_now_single_pin": 19,
+      "wrong_place_text_removed": 0
+    },
+    "updates_2026_10_11": {
+      "updated": [
+        "WW-01 (Ophel purification complex)",
+        "RAR-01 (Lower Aqueduct)",
+        "BETHS-02 (season 10)",
+        "SHI-01 (wall; low-medium)"
+      ],
+      "added": [
+        "CGAT-01 Carmei Gat (nt_digs)"
+      ],
+      "skipped": [
+        "Tupinamba flood tradition: no existing layer fits"
+      ]
+    }
+  },
+  "notes_aq": "Discover zoom-out/pause/zoom-in tour animation; APA 7 Sources with Copy all + per-citation copy",
+  "ar_notes": {
+    "build": "20261001-ar",
+    "date": "2026-10-11",
+    "published": false,
+    "relics_layer": {
+      "file": "relics.geojson",
+      "toggle": "tog-pack-rel",
+      "category": "Other",
+      "default": "off",
+      "pins": [
+        "REL-01"
+      ]
+    },
+    "artifacts_added": [
+      "ART-12 Taylor Prism (NIN-01)",
+      "ART-13 Black Obelisk (NIM-01)",
+      "ART-14 Code of Hammurabi (SUS-01, background)"
+    ],
+    "sources_added_to_reassessed_pins": 37,
+    "host_rename": "oi.uchicago.edu -> isac.uchicago.edu",
+    "apa": {
+      "refs_inline": 286,
+      "hidden_not_loading": 66,
+      "url_cites": 421,
+      "apa_applied": 355
+    },
+    "skipped": [
+      "Lirey 1350s provenance sentence (no cited source)",
+      "JM-GOLGOTHA optional cross-link to REL-01",
+      "British Museum object URLs for ART-12/13 (not confirmed; museum home page used)"
+    ]
+  },
+  "as_notes": {
+    "build": "20261001-as",
+    "date": "2026-10-11",
+    "published": false,
+    "source": "packs/policebot-host-verdicts-2026-10-11.md",
+    "rehost": {
+      "mota.gov.eg": "https://egymonuments.gov.eg/",
+      "israelmuseum.org.il": "https://www.imj.org.il/",
+      "dainst.org": "https://www.dainst.blog/ (homepage; deep path not mapped)"
+    },
+    "removed": [
+      "qantir.de"
+    ],
+    "links_hidden_cite_text_kept": [
+      "ascsa.edu.gr",
+      "oracc.museum.upenn.edu",
+      "expeditiondeadseaplain.org",
+      "cfeetk.cnrs.fr",
+      "izmirmuzeleri.gov.tr",
+      "qeiyafa.huji.ac.il",
+      "rehov.org",
+      "agathe.gr",
+      "mcth.ir",
+      "oracc.org"
+    ],
+    "kept": "moa.portal@mota.gov.eg contact emails (not links)"
+  },
+  "at_notes": {
+    "build": "20261001-at",
+    "date": "2026-10-11",
+    "published": false,
+    "source": [
+      "packs/bibleplaces-sweep-2026-10-11.json",
+      "packs/grok-share-2-sources-2026-10-11.json"
+    ],
+    "pins_added": {
+      "oriental-findings": 12,
+      "ot-digs": 19,
+      "nt-digs": 42,
+      "flood-traditions": 1
+    },
+    "pins_enriched": {
+      "nt-digs": 48,
+      "ot-digs": 40,
+      "exodus-wilderness": 4,
+      "sodom-gomorrah": 2,
+      "jesus-miracles": 2,
+      "prophets": 5,
+      "contested-hypotheses": 2,
+      "apostle-burial": 2,
+      "shi/jer": 2
+    },
+    "folded_into_existing": [
+      "BP-CHURCH_OF_ST_PAUL -> AP-13",
+      "BP-JEBELMUSA -> EW-15",
+      "BP-KARNAK -> KAR-01",
+      "BP-PERSEPOLIS -> PER-01",
+      "BP-VATICAN -> AP-01"
+    ],
+    "skipped": [
+      "NT-CARMEI-GAT (Carmei Gat already CGAT-01)"
+    ],
+    "missing_match_ids": [],
+    "apa_refs_added": 177,
+    "flood_layer": {
+      "file": "flood-traditions.geojson",
+      "toggle": "tog-pack-fld",
+      "category": "Other",
+      "default": "off",
+      "pins": [
+        "FLD-01"
+      ]
+    },
+    "link_only": "BiblePlaces.com links + APA; no copied photos or text",
+    "cctv": {
+      "added_cameras": 5,
+      "pins": 15,
+      "source": "packs/webcams-more-2026-10-11.json"
+    }
+  },
+  "au_notes": {
+    "build": "20261001-au",
+    "date": "2026-10-11",
+    "published": false,
+    "cctv": {
+      "rule": "each camera URL on exactly one pin",
+      "western_wall": {
+        "keep": "WW-01",
+        "removed_from": [
+          "JER-NT-03",
+          "SPN-snr-27",
+          "SPN-snr-28"
+        ]
+      },
+      "castel_santangelo": {
+        "keep": "ROME-02",
+        "removed_from": [
+          "AP-01"
+        ]
+      },
+      "pins_after": 11
+    },
+    "sodom_gomorrah": {
+      "unique_ids": true,
+      "renames": [
+        {
+          "index": 1,
+          "from": "tall-el-hammam-teh-tell-el-hammam-",
+          "to": "tall-el-hammam-teh-tell-el-hammam-2"
+        },
+        {
+          "index": 2,
+          "from": "tall-el-hammam-teh-tell-el-hammam-",
+          "to": "tall-el-hammam-teh-tell-el-hammam-3"
+        },
+        {
+          "index": 3,
+          "from": "tall-el-hammam-teh-tell-el-hammam-",
+          "to": "tall-el-hammam-teh-tell-el-hammam-4"
+        },
+        {
+          "index": 5,
+          "from": "bab-edh-dhra-bab-adh-dhra-",
+          "to": "bab-edh-dhra-bab-adh-dhra-2"
+        },
+        {
+          "index": 6,
+          "from": "bab-edh-dhra-bab-adh-dhra-",
+          "to": "bab-edh-dhra-bab-adh-dhra-3"
+        },
+        {
+          "index": 7,
+          "from": "bab-edh-dhra-bab-adh-dhra-",
+          "to": "bab-edh-dhra-bab-adh-dhra-4"
+        },
+        {
+          "index": 9,
+          "from": "numeira-numayra-an-numayra-",
+          "to": "numeira-numayra-an-numayra-2"
+        },
+        {
+          "index": 10,
+          "from": "numeira-numayra-an-numayra-",
+          "to": "numeira-numayra-an-numayra-3"
+        }
+      ]
+    },
+    "local_only": true
   }
 }

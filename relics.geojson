@@ -1,0 +1,50 @@
+{
+ "type": "FeatureCollection",
+ "name": "relics",
+ "build": "20261001-ar",
+ "layer_note": "Church-held objects whose origin is debated. Not excavated finds.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     7.6852,
+     45.0733
+    ]
+   },
+   "properties": {
+    "id": "REL-01",
+    "name": "Shroud of Turin — Turin Cathedral (Chapel of the Holy Shroud)",
+    "layer": "relics",
+    "solidity": "contested",
+    "found": "A linen cloth bearing the faint image of a crucified man, kept by the Catholic Church at Turin Cathedral. It is a church-held relic, not an excavated find.",
+    "notes": "John's 'linen cloths' (othonia) and the other Gospels' 'linen sheet' (sindon) can describe the same burial linens; 'strips' is one translation, not the only one (John 19:40; 20:5–7; Luke 24:12; Matthew 27:59; Mark 15:46; Luke 23:53). Some link the Shroud to the cloth 'folded in four' (tetradiplon) in the Acts of Thaddaeus (about 6th–7th century). This is one proposed reading, a modern hypothesis (Ian Wilson).",
+    "caveats": [
+     "1988 radiocarbon test: three labs dated samples to AD 1260–1390 (Damon et al., 1989).",
+     "Raw-data critique: a 2019 reanalysis of the 1988 raw data questions whether the samples were uniform (Casabianca et al., 2019).",
+     "2022 X-ray study: a wide-angle X-ray scattering study argued for a 1st-century date (De Caro et al., 2022), but it rests on one small sample and has not been independently repeated.",
+     "Even favorable reviewers separate 'an ancient burial cloth' from 'Jesus' own burial cloth'."
+    ],
+    "related_scripture": [
+     "Matthew 27:59",
+     "Mark 15:46",
+     "Luke 23:53",
+     "John 19:40",
+     "John 20:5–7"
+    ],
+    "official_website": "https://www.sindone.org/",
+    "sources": [
+     "https://doi.org/10.1038/337611a0",
+     "https://doi.org/10.1111/arcm.12467",
+     "https://doi.org/10.3390/heritage5020047",
+     "https://biblearchaeology.org/digging-for-truth/videos/the-shroud-of-turin-digging-for-truth-episode-165/",
+     "https://biblearchaeology.org/digging-for-truth/videos/new-evidence-for-the-authenticity-of-the-shroud-of-turin-digging-for-truth-episodes-248-249/",
+     "https://biblearchaeology.org/new-analysis-dates-shroud-of-turin-to-the-first-century/",
+     "https://biblearchaeologyreport.com/2026/03/31/weighing-the-evidence-is-the-shroud-of-turin-authentic/",
+     "https://www.sindone.org/"
+    ]
+   }
+  }
+ ]
+}

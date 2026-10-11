@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "artifacts",
-  "build": "20261001-i",
+  "build": "20261001-ar",
   "generated": "2026-10-01",
   "features": [
     {
@@ -198,7 +198,7 @@
         "surveyor_solidity": "strong",
         "surveyor_caveat": "Moabite victory inscription of King Mesha mentioning Omri/Israel and YHWH; 19th-century find history is messy (squeeze/reconstruction). Object in Louvre. Do not treat every line of historical geography as settled without caveats.",
         "support": "Basalt stele of Moab’s King Mesha reporting conflict with Israel — major extra-biblical Iron Age witness naming YHWH.",
-        "sources": "Louvre; Dhiban / Dibon context; DigIntoScripture DIB-01",
+        "sources": "Louvre; Dhiban / Dibon context; DigIntoScripture DIB-01; https://armstronginstitute.org/712-touring-the-bible-at-the-louvre-museum",
         "gallery_url": "https://www.louvre.fr/en",
         "related_scripture": [
           "2 Kings 3"
@@ -232,7 +232,7 @@
         "surveyor_solidity": "strong",
         "surveyor_caveat": "Achaemenid royal inscription on Persian policy toward subject peoples/temples. Useful backdrop for Ezra/return themes; do not claim the cylinder quotes Ezra verbatim.",
         "support": "Clay cylinder of Cyrus the Great from Babylon describing restoration policies after conquering Babylon.",
-        "sources": "British Museum W_1880-0617-1941; DigIntoScripture CYR-01",
+        "sources": "British Museum W_1880-0617-1941; DigIntoScripture CYR-01; https://armstronginstitute.org/29-touring-the-bible-at-the-british-museum",
         "gallery_url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
         "related_scripture": [
           "Ezra 1:1–4"
@@ -334,7 +334,7 @@
         "surveyor_solidity": "strong",
         "surveyor_caveat": "SPECIAL LINK: carved at Nineveh, depicting the Assyrian siege of Lachish (not found at Tel Lachish). Pair museum pin with BOTH NIN-01 (findspot of panels) and LAC-01 (depicted city). Do not say the slabs were dug at Lachish.",
         "support": "Assyrian palace wall reliefs showing Sennacherib’s capture of Lachish — visual match to the 701 BCE Judah campaign.",
-        "sources": "British Museum Assyrian galleries; Nineveh SW Palace; DigIntoScripture NIN-01 + LAC-01",
+        "sources": "British Museum Assyrian galleries; Nineveh SW Palace; DigIntoScripture NIN-01 + LAC-01; https://armstronginstitute.org/29-touring-the-bible-at-the-british-museum",
         "gallery_url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
         "related_scripture": [
           "2 Kings 18:13–17",
@@ -373,6 +373,108 @@
         "sources": "Israel Museum; Tel Beersheba excavations; DigIntoScripture BEE-01",
         "gallery_url": "https://www.imj.org.il/en",
         "related_scripture": null,
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1268,
+          51.5196
+        ]
+      },
+      "properties": {
+        "id": "ART-12",
+        "name": "Sennacherib (Taylor) Prism",
+        "layer": "artifacts",
+        "found_at_pin_id": "NIN-01",
+        "found_at_name": "Nineveh (Kuyunjik / Nebi Yunus)",
+        "displayed_at_museum": "British Museum (other copies: ISAC, University of Chicago; Israel Museum)",
+        "displayed_at_city": "London, United Kingdom",
+        "displayed_at_lat": 51.5196,
+        "displayed_at_lng": -0.1268,
+        "museum_url": "https://www.britishmuseum.org/",
+        "museum_host": "britishmuseum.org",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "surveyor_caveat": "Sennacherib claims he shut Hezekiah up in Jerusalem 'like a bird in a cage', not that he took the city (2 Kings 18–19; Isaiah 36–37). This is Assyrian royal propaganda: its tribute figures differ from Scripture's, and it is silent on the loss of the army in 2 Kings 19:35.",
+        "support": "Clay prism with the annals of Sennacherib. It describes his campaign against Judah in 701 BC and how he shut Hezekiah up in Jerusalem, without claiming to capture the city.",
+        "sources": "https://armstronginstitute.org/20-inside-the-british-museum; https://armstronginstitute.org/29-touring-the-bible-at-the-british-museum; https://isac.uchicago.edu/",
+        "related_scripture": [
+          "2 Kings 18:13–16",
+          "2 Kings 19:35–36",
+          "Isaiah 36–37"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1272,
+          51.5192
+        ]
+      },
+      "properties": {
+        "id": "ART-13",
+        "name": "Black Obelisk of Shalmaneser III",
+        "layer": "artifacts",
+        "found_at_pin_id": "NIM-01",
+        "found_at_name": "Nimrud (Kalhu)",
+        "displayed_at_museum": "British Museum",
+        "displayed_at_city": "London, United Kingdom",
+        "displayed_at_lat": 51.5192,
+        "displayed_at_lng": -0.1272,
+        "museum_url": "https://www.britishmuseum.org/",
+        "museum_host": "britishmuseum.org",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong",
+        "caption": "Jehu of the house of Omri (Assyrian name for Israel's royal line).",
+        "surveyor_caveat": "Caption: \"Jehu of the house of Omri.\" The Akkadian reads Ia-ú-a mār Ḫu-um-ri-i; 'son' (mār) is Assyrian shorthand for Omri's dynasty (Bit-Ḫumri), not literal descent. Jehu actually ended Omri's line (2 Kings 9–10); a minority reads the name as Joram. Whether the bowing figure is Jehu himself or his envoy is debated.",
+        "support": "Limestone obelisk from Nimrud showing a king of Israel, or his envoy, bowing with tribute before Shalmaneser III. Its caption names \"Jehu of the house of Omri\". It is the only known image of an Israelite king or his envoy.",
+        "sources": "https://armstronginstitute.org/20-inside-the-british-museum",
+        "related_scripture": [
+          "2 Kings 9–10"
+        ],
+        "status_kind": "visitor",
+        "visitor_status": "open"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3376,
+          48.8606
+        ]
+      },
+      "properties": {
+        "id": "ART-14",
+        "name": "Code of Hammurabi stele (background)",
+        "layer": "artifacts",
+        "found_at_pin_id": "SUS-01",
+        "found_at_name": "Susa (Shushan)",
+        "displayed_at_museum": "Musée du Louvre",
+        "displayed_at_city": "Paris, France",
+        "displayed_at_lat": 48.8606,
+        "displayed_at_lng": 2.3376,
+        "museum_url": "https://collections.louvre.fr/en/ark:/53355/cl010174436",
+        "museum_host": "collections.louvre.fr",
+        "replica_on_findspot": false,
+        "surveyor_solidity": "strong (object) / background only",
+        "surveyor_caveat": "Background only. This is not a biblical text and names no biblical person. Its parallels with the Law of Moses are in form and topic, not shared origin.",
+        "support": "Old Babylonian law stele of Hammurabi, found at Susa where it had been carried as war booty. It is background for ancient Near Eastern law.",
+        "sources": "https://collections.louvre.fr/en/ark:/53355/cl010174436; https://armstronginstitute.org/712-touring-the-bible-at-the-louvre-museum",
+        "related_scripture": [
+          "Exodus 21:23–25"
+        ],
         "status_kind": "visitor",
         "visitor_status": "open"
       }
