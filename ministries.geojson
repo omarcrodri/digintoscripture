@@ -1,0 +1,382 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "layer": "ministries",
+  "build": "20261001-av",
+  "source_pack": "packs/ministries-hq-2026-10-11.json",
+  "default_on": false,
+  "link_hold": [],
+  "link_hold_note": "All 7 hosts cleared SAFE 2026-10-11; HOLD list empty."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.7818,
+     32.0853
+    ]
+   },
+   "properties": {
+    "id": "MIN-sobeit-telaviv",
+    "ministry": "So Be It! (Jews for Jesus)",
+    "official_name": "Jews for Jesus (SO BE IT! media channel)",
+    "hq_city": "San Francisco",
+    "hq_country": "USA",
+    "pin_role": "Israel presence (Tel Aviv branch)",
+    "pin_city": "Tel Aviv",
+    "official_website": "https://jewsforjesus.org/",
+    "contact_page_url": "https://jewsforjesus.org/contact",
+    "youtube_channel_url": "https://www.youtube.com/@SOBEIT32AD",
+    "youtube_channel_id": "UCSaN7bio-LGA9FXyEvJlYVw",
+    "sample_video_id": "jbwj2_jZKPE",
+    "sample_video_title": "He Tried to Ignore Jesus...But the Visions Kept Coming",
+    "focus": "Jewish-led evangelism; SO BE IT! is its testimony/video channel, with a staffed Tel Aviv branch.",
+    "tags": [
+     "Evangelism",
+     "Hebrew Media"
+    ],
+    "sources": [
+     "https://jewsforjesus.org/find-locations",
+     "https://jewsforjesus.org/find-locations/tel-aviv",
+     "https://jewsforjesus.org/contact"
+    ],
+    "unconfirmed": [
+     "Whether 'So Be It!' is a separate legal entity: the official site only links it as a JFJ YouTube channel. The main JFJ channel is youtube.com/user/JewsForJesus (UCAq17NCfdQi07qaz70hq14w)."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "So Be It! (Jews for Jesus)",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/jbwj2_jZKPE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.8532,
+     32.3215
+    ]
+   },
+   "properties": {
+    "id": "MIN-oneforisrael-netanya",
+    "ministry": "One for Israel",
+    "official_name": "ONE FOR ISRAEL Ministry (Israel College of the Bible)",
+    "hq_city": "Netanya",
+    "hq_country": "Israel",
+    "pin_role": "HQ",
+    "pin_city": "Netanya",
+    "official_website": "https://www.oneforisrael.org/",
+    "contact_page_url": "https://www.oneforisrael.org/contact-options/",
+    "youtube_channel_url": "https://www.youtube.com/@ONEFORISRAEL",
+    "youtube_channel_id": "UCQDc5idYQE2T6IYKT3bUN7A",
+    "sample_video_id": "gv0FXbRbSBk",
+    "sample_video_title": "Return of the Kingdom, Episode 3 - They Will Look Upon Him",
+    "focus": "Israeli Messianic media evangelism and a Hebrew-language Bible college.",
+    "tags": [
+     "Evangelism",
+     "Hebrew Media",
+     "Teaching and Discipleship"
+    ],
+    "sources": [
+     "https://www.oneforisrael.org/address-phone/",
+     "https://www.oneforisrael.org/college/"
+    ],
+    "unconfirmed": [
+     "City: the official site says only 'central Israel' and withholds the campus location for security reasons. Netanya comes from Wikipedia and ONE FOR ISRAEL's Korean site. Pin is city-level only."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "One for Israel",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/gv0FXbRbSBk"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2137,
+     31.7683
+    ]
+   },
+   "properties": {
+    "id": "MIN-cpm-jerusalem",
+    "ministry": "Chosen People Ministries",
+    "official_name": "Chosen People Ministries (Beit Sar Shalom in Israel)",
+    "hq_city": "New York",
+    "hq_country": "USA",
+    "pin_role": "Israel national office (Jerusalem Messianic Center)",
+    "pin_city": "Jerusalem",
+    "official_website": "https://www.chosenpeople.com/",
+    "contact_page_url": "https://www.chosenpeople.com/contact-us/",
+    "youtube_channel_url": "https://www.youtube.com/user/ChosenPeopleUSA",
+    "youtube_channel_id": "UCqcaudaTeWFmwDnmioElI2g",
+    "sample_video_id": "qyAPLE7VDGY",
+    "sample_video_title": "Hebrew Word of the Week: Netzer",
+    "focus": "Messianic outreach centers in Israel: evangelism, discipleship, and care for Holocaust survivors.",
+    "tags": [
+     "Evangelism",
+     "Teaching and Discipleship",
+     "Humanitarian Aid",
+     "Historic Presence"
+    ],
+    "sources": [
+     "https://chosenpeople.com/location/israel/",
+     "https://archive.chosenpeople.com/messianic-outreach-centers/",
+     "https://chosenpeople.com/presidents-letter/outreach-in-tel-aviv/"
+    ],
+    "unconfirmed": [],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "Chosen People Ministries",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/qyAPLE7VDGY"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     34.8248,
+     32.0684
+    ]
+   },
+   "properties": {
+    "id": "MIN-cpm-telaviv",
+    "ministry": "Chosen People Ministries",
+    "official_name": "Chosen People Ministries – Tel Aviv Messianic Center",
+    "hq_city": "New York",
+    "hq_country": "USA",
+    "pin_role": "Israel center (greater Tel Aviv; the official site places it in Ramat Gan)",
+    "pin_city": "Ramat Gan",
+    "official_website": "https://www.chosenpeople.com/",
+    "contact_page_url": "https://www.chosenpeople.com/contact-us/",
+    "youtube_channel_url": "https://www.youtube.com/user/ChosenPeopleUSA",
+    "youtube_channel_id": "UCqcaudaTeWFmwDnmioElI2g",
+    "sample_video_id": "qyAPLE7VDGY",
+    "sample_video_title": "Hebrew Word of the Week: Netzer",
+    "focus": "Young-adult outreach, concerts, Sabbath dinners and a congregation in greater Tel Aviv.",
+    "tags": [
+     "Evangelism",
+     "Congregations and Worship"
+    ],
+    "sources": [
+     "https://chosenpeople.com/telavivcenter/",
+     "https://chosenpeople.com/presidents-letter/outreach-in-tel-aviv/"
+    ],
+    "unconfirmed": [
+     "Pin city: the 'Tel Aviv center' is in rented space in Ramat Gan, and the new center there is not yet dedicated (target date differs across official pages). It was damaged by missiles in June 2025."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "Chosen People Ministries",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/qyAPLE7VDGY"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2137,
+     31.7683
+    ]
+   },
+   "properties": {
+    "id": "MIN-maoz-jerusalem",
+    "ministry": "Maoz Israel",
+    "official_name": "Maoz Israel Ministries",
+    "hq_city": "Jerusalem",
+    "hq_country": "Israel",
+    "pin_role": "HQ",
+    "pin_city": "Jerusalem",
+    "official_website": "https://maozisrael.org/",
+    "contact_page_url": "https://maozisrael.org/contact",
+    "youtube_channel_url": "https://www.youtube.com/maozisrael",
+    "youtube_channel_id": "UCr_wCdAu12u5Nlu_8um3lpQ",
+    "sample_video_id": "ZLJS8QluNVA",
+    "sample_video_title": "Sunday Verse| Isaiah 41:10",
+    "focus": "Israel-based ministry that supports and connects Israeli Messianic believers and leaders.",
+    "tags": [
+     "Network and Connector",
+     "Teaching and Discipleship",
+     "Humanitarian Aid"
+    ],
+    "sources": [
+     "https://maozisrael.org/contact"
+    ],
+    "unconfirmed": [
+     "HQ is Jerusalem, not Tel Aviv: the contact page says 'Our headquarters are in Jerusalem'. Focus and tags are a summary, not checked line by line against the site."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "Maoz Israel",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/ZLJS8QluNVA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.4936,
+     29.4241
+    ]
+   },
+   "properties": {
+    "id": "MIN-ariel-sanantonio",
+    "ministry": "Ariel Ministries",
+    "official_name": "Ariel Ministries",
+    "hq_city": "San Antonio, Texas",
+    "hq_country": "USA",
+    "pin_role": "HQ (corporate office)",
+    "pin_city": "San Antonio",
+    "official_website": "https://www.ariel.org/",
+    "contact_page_url": null,
+    "youtube_channel_url": null,
+    "youtube_channel_id": null,
+    "sample_video_id": null,
+    "focus": "Messianic Jewish Bible teaching (Arnold Fruchtenbaum, Ariel College), plus Jewish evangelism.",
+    "tags": [
+     "Teaching and Discipleship",
+     "Evangelism"
+    ],
+    "sources": [
+     "https://www.ariel.org/",
+     "https://ariel.org/biblical-study-teaching-resource/"
+    ],
+    "unconfirmed": [
+     "contact_page_url: /contact returns 404, and the corporate office is listed only in the homepage footer.",
+     "youtube_channel_url and sample_video_id: the site mentions a YouTube channel, but the link couldn't be extracted because the site blocks automated fetches. A handle suggested by search returned 404.",
+     "Israel presence pin: the site lists 'Ariel Ministries Israel' with Hebrew and Russian sites but no city, so there is no Israel pin."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "Ariel Ministries",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2137,
+     31.7683
+    ]
+   },
+   "properties": {
+    "id": "MIN-cmj-christchurch",
+    "ministry": "CMJ (Christ Church Jerusalem)",
+    "official_name": "CMJ Israel – Christ Church Jerusalem (Church's Ministry Among Jewish People)",
+    "hq_city": "Jerusalem",
+    "hq_country": "Israel",
+    "pin_role": "CMJ Israel head office and Christ Church (Old City)",
+    "pin_city": "Jerusalem",
+    "official_website": "https://cmj-israel.org/",
+    "contact_page_url": "https://christchurchjerusalem.org/contact/",
+    "youtube_channel_url": "https://www.youtube.com/channel/UCHCQuVPx2qsDLjYx3ugCvOQ",
+    "youtube_channel_id": "UCHCQuVPx2qsDLjYx3ugCvOQ",
+    "sample_video_id": "SzVz0lMhqXk",
+    "sample_video_title": "Chag Pesach Same'ach! A greetings from Bishop Julian Dobbs",
+    "focus": "Anglican mission to Jewish people; Christ Church is the oldest Protestant church in the Middle East.",
+    "tags": [
+     "Historic Presence",
+     "Congregations and Worship",
+     "Teaching and Discipleship"
+    ],
+    "sources": [
+     "https://cmj-israel.org/",
+     "https://cmj-israel.org/congregation/christ-church-jerusalem/",
+     "https://christchurchjerusalem.org/contact/",
+     "https://cmj.org.uk/contact-us/"
+    ],
+    "unconfirmed": [
+     "Organisational HQ: CMJ is a UK-founded society with a UK office in Newark, Nottinghamshire. The pin is CMJ Israel's Jerusalem head office.",
+     "'Oldest Protestant church in the Middle East' is a widely stated claim but wasn't re-checked word for word on the site.",
+     "The latest upload is from 2026-04, so the channel posts infrequently."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "CMJ (Christ Church Jerusalem)",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/SzVz0lMhqXk"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2137,
+     31.7683
+    ]
+   },
+   "properties": {
+    "id": "MIN-firm-jerusalem",
+    "ministry": "FIRM",
+    "official_name": "FIRM (Fellowship of Israel Related Ministries)",
+    "hq_city": "Jerusalem",
+    "hq_country": "Israel",
+    "pin_role": "HQ as listed on official contact page",
+    "pin_city": "Jerusalem",
+    "official_website": "https://firmisrael.org/",
+    "contact_page_url": "https://firmisrael.org/contact/",
+    "youtube_channel_url": "https://www.youtube.com/@FIRMIsrael",
+    "youtube_channel_id": "UCivZdu_wF6tOff07Z09Pa8Q",
+    "sample_video_id": "Yc4j1e5LReo",
+    "sample_video_title": "The Gates of Jerusalem’s Old City",
+    "focus": "Connects Christians worldwide with vetted local Israeli ministries ('local partners').",
+    "tags": [
+     "Network and Connector",
+     "Teaching and Discipleship"
+    ],
+    "sources": [
+     "https://firmisrael.org/contact/",
+     "https://firmisrael.org/local-partners/jews-for-jesus/"
+    ],
+    "unconfirmed": [
+     "US base: the contact page lists only a Jerusalem address but gives a US (813, Tampa-area) phone number. A US office or legal entity wasn't confirmed, so there is no US pin.",
+     "The YouTube channel was confirmed by handle and channel title only. The official homepage blocked automated fetches, so a link from the site wasn't confirmed."
+    ],
+    "verified_on": "2026-10-11",
+    "layer": "ministries",
+    "pin_precision": "city centroid",
+    "name": "FIRM",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "scholarship",
+    "embed_url": "https://www.youtube.com/embed/Yc4j1e5LReo"
+   }
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "layer": "temple-mount",
+  "build": "20261001-ay",
+  "source_pack": "packs/temple-mount-sources-2026-10-11.json"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     35.2137,
+     31.7683
+    ]
+   },
+   "properties": {
+    "id": "TM-01",
+    "name": "Temple Mount — Temple service",
+    "layer": "temple-mount",
+    "pin_city": "Jerusalem",
+    "privacy": "city_only",
+    "last_verified": "2026-10-11",
+    "tier": "tanakh",
+    "graphic": true,
+    "tags": [
+     "Temple Service",
+     "Tanakh",
+     "Daily Offerings",
+     "Yom Kippur"
+    ],
+    "spots": [
+     {
+      "key": "bronze_altar",
+      "title": "Bronze Altar",
+      "tier": "tanakh",
+      "graphic": true,
+      "video_id": "5kgbRusmqjs",
+      "video_title": "Historic Practice Passover Offering",
+      "channel": "The Temple Institute",
+      "refs": [
+       "Exodus 12:5-8"
+      ],
+      "note": ""
+     },
+     {
+      "key": "holy_of_holies",
+      "title": "Holy of Holies",
+      "tier": "tanakh",
+      "video_id": "fssPmwOhRf0",
+      "video_title": "The Day of Atonement or Yom Kippur - Leviticus 16",
+      "channel": "Messages of Christ",
+      "refs": [
+       "Leviticus 16:2-4",
+       "Leviticus 16:12-14"
+      ],
+      "note": "The exact verses narrated in the video are not caption-confirmed; the title cites Leviticus 16.",
+      "contested_sets": [
+       {
+        "id": "YK-INCENSE-01",
+        "tier": "contested",
+        "question": "On the Day of Atonement, where did the high priest put the incense on the coals: before entering the Holy of Holies, or inside it?",
+        "base": {
+         "tier": "tanakh",
+         "refs": [
+          "Leviticus 16:12-13"
+         ],
+         "source": "Leviticus 16:12-13"
+        },
+        "contested": [
+         {
+          "label": "Sadducee / Boethusian view (as reported by the rabbinic sources)",
+          "tier": "oral/contested",
+          "source": "Babylonian Talmud Yoma 53a (Lev 16:2 cited) and 19b; Tosefta Yoma 1:7 (1:8 in Lieberman ed.) — https://www.sefaria.org/Yoma.53a",
+          "text": "This group held that the high priest should put the incense on the coals while still outside, then carry the smoking pan in. They read Leviticus 16:2, \"I will appear in the cloud upon the mercy seat\" (KJV), to mean the cloud should already be there when he enters. Their view survives only in reports written by their opponents."
+         },
+         {
+          "label": "Pharisee / rabbinic view (the Sages)",
+          "tier": "oral",
+          "source": "Mishnah Yoma 5:1 (fire-pan and ladle carried in; incense piled inside); elders' oath: Mishnah Yoma 1:5 (explained at Yoma 19b); Babylonian Talmud Yoma 53a; Tosefta Yoma 1:7 (1:8 in Lieberman ed.) — https://www.sefaria.org/Mishnah_Yoma.5.1",
+          "text": "The Sages taught that the high priest carried the coal pan and the incense separately, and only piled the incense on the coals once he stood inside the Holy of Holies before the Ark. They read Leviticus 16:13, \"he shall put the incense upon the fire before יהוה (YHWH),\" as requiring it to happen in that inner room. The Elders even made the high priest swear an oath not to follow the other practice."
+         }
+        ],
+        "verdict": null,
+        "last_verified": "2026-10-11",
+        "hebrew_terms": "צְדוּקִים (Tseduqim, Sadducees; Talmud form צַדּוּקִין), בַּיְתוֹסִים (Baytosim, Boethusians; Tosefta ביתוסין), קְטֹרֶת (qetoret, incense), מַחְתָּה (maḥtah, fire-pan/censer), כַּף (kaf, ladle; lit. palm of the hand), מַעֲלֵה עָשָׁן (ma'aleh ashan, smoke-raiser herb that sends the smoke straight up; Yoma 53a)",
+        "name_restored": {
+         "display": "And he shall put the incense upon the fire before יהוה (YHWH), that the cloud of the incense may cover the mercy seat that is upon the testimony, that he die not:",
+         "hebrew_phrase": "לִפְנֵי יהוה",
+         "note": "KJV public domain (checked bible-api.com KJV 2026-10-11); only 'the LORD' replaced by the Name; Name unpointed, RTL; fallback YHWH."
+        }
+       }
+      ]
+     },
+     {
+      "key": "golden_altar",
+      "title": "Golden Altar (altar of incense)",
+      "tier": "tanakh",
+      "video_id": "yeGnfEDXcSE",
+      "video_title": "Exodus 30: The Altar of Incense | The Golden Altar | 1 -10 | Visual Bible Animation",
+      "channel": "The Scripture Revival",
+      "refs": [
+       "Exodus 30:1-3",
+       "Exodus 30:7-10"
+      ],
+      "note": ""
+     }
+    ],
+    "messianic": [
+     {
+      "title": "The tabernacle and what it reveals",
+      "channel": "Chosen People Ministries",
+      "video_id": "7K8faUuCD2Y",
+      "video_title": "The Tabernacle and What It Reveals to Us",
+      "confidence": "medium",
+      "tier": "interpretive"
+     },
+     {
+      "title": "The dancing priest",
+      "channel": "ONE FOR ISRAEL",
+      "video_id": null,
+      "confidence": "pending",
+      "tier": "interpretive"
+     }
+    ],
+    "catholic": [
+     {
+      "paragraph": 1090,
+      "url": "https://www.vatican.va/archive/ENG0015/__P2W.HTM",
+      "paraphrase": "Christian worship on earth is described as a foretaste of heavenly worship, where Christ ministers in the true sanctuary.",
+      "tier": "interpretive"
+     },
+     {
+      "paragraph": 1094,
+      "url": "https://www.vatican.va/archive/ENG0015/__P2X.HTM",
+      "paraphrase": "Old Testament figures are read typologically as pointing ahead to Christ and the sacraments.",
+      "tier": "interpretive"
+     }
+    ],
+    "catholic_hebrews": {
+     "refs": [
+      "Hebrews 9:11-12"
+     ],
+     "note": "Hebrews 9 is this app's connection, not a Catechism citation. Paragraph 1090 echoes Hebrews 8:2; Hebrews 9:12 is cited in paragraph 1085."
+    },
+    "claims": [
+     {
+      "id": "TM-C1",
+      "text": "Passover lamb: without blemish, slain, its blood applied.",
+      "tier": "tanakh",
+      "source": "Exodus 12:5-7"
+     },
+     {
+      "id": "TM-C2",
+      "text": "The high priest enters within the veil once a year with incense.",
+      "tier": "tanakh",
+      "source": "Leviticus 16:2, 12-13"
+     },
+     {
+      "id": "TM-C3",
+      "text": "Incense burned on the golden altar morning and evening; yearly atonement on its horns.",
+      "tier": "tanakh",
+      "source": "Exodus 30:7-10"
+     },
+     {
+      "id": "TM-C4",
+      "text": "Where the incense was put on the coals (outside or inside the Holy of Holies) is disputed in the rabbinic sources.",
+      "tier": "contested",
+      "source": "Mishnah Yoma 5:1; Babylonian Talmud Yoma 53a, 19b; Tosefta Yoma 1:7"
+     }
+    ],
+    "sources": [
+     "NAME: Exodus 12; Exodus 30; Leviticus 16 (KJV; LSB by link)",
+     "https://www.vatican.va/archive/ENG0015/__P2W.HTM",
+     "https://www.vatican.va/archive/ENG0015/__P2X.HTM"
+    ]
+   }
+  }
+ ]
+}
