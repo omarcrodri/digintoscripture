@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bc",
+  "build": "20261001-bd",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1090,5 +1090,107 @@
       ]
     },
     "local_only": true
+  },
+  "bd_notes": {
+    "build": "20261001-bd",
+    "date": "2026-10-16",
+    "published": false,
+    "local_only": true,
+    "source": [
+      "packs/updates-2026-10-16.json",
+      "packs/updates-2026-10-16-linguist.json"
+    ],
+    "wired": {
+      "ORI-07": [
+        "recent_update",
+        "sources+1",
+        "video NJ1cBhH803w",
+        "claim:interpretive"
+      ],
+      "KH-01": [
+        "recent_update",
+        "sources+1",
+        "source_status live",
+        "claim:contested"
+      ],
+      "SPN-snr-15": [
+        "recent_update",
+        "sources+3",
+        "video cK9a2t4KbC8",
+        "source_status live",
+        "claim:scholarship"
+      ],
+      "RAR-01": [
+        "recent_update",
+        "sources+3",
+        "source_status live",
+        "claim:scholarship"
+      ],
+      "COD-01,COD-02,COD-04": [
+        "recent_update",
+        "sources+3",
+        "claim:scholarship"
+      ],
+      "HAT-01": [
+        "recent_update",
+        "sources+2",
+        "source_status live",
+        "claim:scholarship"
+      ],
+      "BP-NICOPOLIS": [
+        "recent_update",
+        "sources+3",
+        "source_status live",
+        "C03782 verse-only (Scripture tier)",
+        "claim:scholarship",
+        "claim:scholarship"
+      ],
+      "WW-01": [
+        "recent_update",
+        "sources+3",
+        "claim:scholarship"
+      ],
+      "JER-NT-02": [
+        "recent_update",
+        "sources+2",
+        "claim:scholarship"
+      ],
+      "CBG-07": [
+        "recent_update",
+        "sources+3",
+        "source_status live",
+        "claim:contested",
+        "claim:contested",
+        "contested_set CS-CBG-07-2026 (2 cards, no verdict)"
+      ]
+    },
+    "apa_refs_added": 19,
+    "held_not_wired": [
+      "TM-01",
+      "HIT-KAY-01 Kayalıpınar",
+      "GOL-YEH-01 Yehudiya",
+      "EGY-BEH-01 Behbeit el-Hagar",
+      "MOTB-01 Museum of the Bible"
+    ],
+    "caution_hosts_title_only": {
+      "cityofdavid.org.il": "COD-01,COD-02,COD-04 only, alongside TAU",
+      "noahsarkscans.com.tr": "CBG-07 as claimant only"
+    },
+    "source_checked": "2026-10-16",
+    "last_verified": "unchanged (never invented)",
+    "reruns": [
+      {
+        "date": "2026-10-16",
+        "changes": {
+          "RAR-01": [
+            "recent_update refreshed",
+            "Oct 11 entry 26 km -> 21 km",
+            "sources+1",
+            "claim refreshed C06573"
+          ]
+        },
+        "apa_refs_added": 1
+      }
+    ]
   }
 }

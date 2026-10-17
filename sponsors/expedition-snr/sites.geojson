@@ -850,6 +850,15 @@
             "source": "https://www.youtube.com/watch?v=HhCsmbJ3m9Y",
             "label": "Sponsor video (Sergio & Rhoda)",
             "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
+          },
+          {
+            "embed": "https://www.youtube.com/embed/cK9a2t4KbC8",
+            "provider": "youtube",
+            "title": "A 2,000-Year-Old Street Uncovered at Bethsaida",
+            "source": "https://www.youtube.com/watch?v=cK9a2t4KbC8",
+            "label": "Sponsor video (Sergio & Rhoda)",
+            "solidity": "medium",
+            "disclosure": "Sponsor expedition layer. Pins and videos are Sergio & Rhoda in Israel’s field walks and Christian travel-video presentation — not DigIntoScripture dig consensus. Core OT/NT layers stay free and separate. Sales / Patreon / tour / calendar links do not raise the confidence rating."
           }
         ],
         "sponsor_cta_label": "Their content (paywall)",
@@ -868,10 +877,35 @@
           "New Testament era",
           "Roman / Byzantine"
         ],
-        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.",
+        "sources": "Sergio & Rhoda YouTube (embed); snrisrael.com / Patreon outbound. No merch CTA in Phase 1–2.; https://www.youtube.com/watch?v=cK9a2t4KbC8; https://laniercenterforarchaeology.substack.com/p/bethsaida-julius-excavation-project-c8d; https://www.bethsaida-julias.com/post/season-10-week-1-sum-there-are-a-number-of-folks-posting",
         "pin_recommendation": "ATTACH_EXISTING",
         "phase": "2",
-        "status_kind": "visitor"
+        "status_kind": "visitor",
+        "recent_updates": [
+          {
+            "date": "Sep 26, 2026",
+            "title": "Return visit to el-ʿAraj: Roman street in Area F",
+            "text": "A return visit to el-ʿAraj. Excavators show the new Area F west of the monastery, where Roman-period walls still stand about 3 m high along a street. They also explain a small test square dug under a modern barn, opened because the same landowner built a barn over a known synagogue elsewhere and they suspect a synagogue here too.",
+            "solidity": "Medium",
+            "caveat": "The video calls Willibald, the 8th-century pilgrim, “from Aachen”; he was an Anglo-Saxon from Wessex, not Aachen, and later became bishop of Eichstätt (Willibald of Eichstätt). His travel account, the Hodoeporicon, written down by the nun Hugeburc, mentions a church at Bethsaida on the site of Peter and Andrew’s house. The possible synagogue is only a hypothesis from one test square; nothing has been found yet. Identifying el-ʿAraj (Hebrew בית הבק Beit ha-Bek) with Bethsaida–Julias is still debated; et-Tell is the rival candidate.",
+            "sources": [
+              "https://laniercenterforarchaeology.substack.com/p/bethsaida-julius-excavation-project-c8d",
+              "https://www.bethsaida-julias.com/post/season-10-week-1-sum-there-are-a-number-of-folks-posting"
+            ],
+            "missed_by_last_scan": true
+          }
+        ],
+        "source_status": "live",
+        "source_checked": "2026-10-16",
+        "claims": [
+          {
+            "id": "C06572",
+            "field": "recent_updates",
+            "text": "A return visit to el-ʿAraj. Excavators show the new Area F west of the monastery, where Roman-period walls still stand about 3 m high along a street. They also explain a small test square dug under a modern barn, opened because the same landowner built a barn over a known synagogue elsewhere and they suspect a synagogue here too.",
+            "tier": "scholarship",
+            "source": "https://laniercenterforarchaeology.substack.com/p/bethsaida-julius-excavation-project-c8d"
+          }
+        ]
       }
     },
     {
