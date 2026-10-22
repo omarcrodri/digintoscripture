@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bd",
+  "build": "20261001-bf",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1192,5 +1192,83 @@
         "apa_refs_added": 1
       }
     ]
+  },
+  "be_notes": {
+    "build": "20261001-be",
+    "date": "2026-10-21",
+    "published": false,
+    "local_only": true,
+    "source": [
+      "packs/updates-2026-10-21.json",
+      "packs/updates-2026-10-21-linguist.json"
+    ],
+    "wired": {
+      "DOR-01": [
+        "recent_update added",
+        "sources+3",
+        "claim:scholarship",
+        "source_status live"
+      ],
+      "BP-GIZA": [
+        "recent_update added",
+        "sources+2",
+        "video uCpdIftgYlI (embed only)",
+        "claim:interpretive",
+        "source_status live"
+      ],
+      "CBG-07": [
+        "caveat updated (symposium status); stays Contested, low",
+        "sources+1",
+        "claim:contested"
+      ],
+      "HIT-KAY-01": [
+        "new pin in ot-digs.geojson"
+      ],
+      "GOL-YEH-01": [
+        "new pin in nt-digs.geojson"
+      ],
+      "EGY-BEH-01": [
+        "new pin in oriental-findings.geojson"
+      ],
+      "MOTB-01": [
+        "new pin in ministry-places.geojson"
+      ],
+      "TRD-KEKOVA-01": [
+        "new pin in trade-routes.geojson"
+      ]
+    },
+    "apa_refs_added": 16,
+    "held_not_wired": [
+      "TM-01",
+      "ORI-11 (Qiang)"
+    ],
+    "osm_credit": "TRD-KEKOVA-01 only (coordinates from OpenStreetMap; app makes no OSM calls)",
+    "blocked_host_check": "BLOCK-listed lookalike domain asserted absent",
+    "last_verified": "unchanged/null (never invented)"
+  },
+  "bf_notes": {
+    "build": "20261001-bf",
+    "date": "2026-10-21",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-be (unpublished, kept)",
+    "feature": "Green Mission Work button beside Discover; drawer with month/region/type/org filters; opt-in layer tog-mission-work (off at startup, skipped by Check all); past trips hidden at load by end date",
+    "data": "mission-trips.json from packs/mission-trips-2026-10-21.json",
+    "trips": 60,
+    "by_org": {
+      "CMDA Global Health Outreach": 32,
+      "The Fuller Center for Housing": 3,
+      "Amor Ministries": 1,
+      "e3 Partners": 24
+    },
+    "by_type": {
+      "medical": 36,
+      "building": 4,
+      "teaching-evangelism": 20
+    },
+    "creative_access": 5,
+    "unmapped_region_only": 4,
+    "hosts": "packs/bf-pending-hosts.md",
+    "hint_added": "mission"
   }
 }
