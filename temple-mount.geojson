@@ -11,8 +11,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     35.2137,
-     31.7683
+     35.2352962,
+     31.7780172
     ]
    },
    "properties": {
@@ -21,7 +21,7 @@
     "layer": "temple-mount",
     "pin_city": "Jerusalem",
     "privacy": "city_only",
-    "last_verified": "2026-10-11",
+    "last_verified": "2026-10-27",
     "tier": "tanakh",
     "graphic": true,
     "tags": [
@@ -174,7 +174,10 @@
      "NAME: Exodus 12; Exodus 30; Leviticus 16 (KJV; LSB by link)",
      "https://www.vatican.va/archive/ENG0015/__P2W.HTM",
      "https://www.vatican.va/archive/ENG0015/__P2X.HTM"
-    ]
+    ],
+    "coord_source": "OpenStreetMap Nominatim lookup, Dome of the Rock platform (Haram al-Sharif / Temple Mount)",
+    "coord_credit": "Map coordinates © OpenStreetMap contributors, ODbL.",
+    "coord_note": "Pin sits at the centre of the Temple Mount platform (Dome of the Rock area). Map coordinates © OpenStreetMap contributors, ODbL."
    }
   }
  ]

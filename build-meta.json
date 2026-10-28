@@ -1,1274 +1,1463 @@
 {
-  "ot_sites": 58,
-  "ot_campaign_rows": 66,
-  "ot_skipped": [],
-  "sodom_sites": 12,
-  "sodom_skipped": [
-    "Feifa (Fifa / Feifeh)",
-    "Khanazir (Khirbat Khanazir)",
-    "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
-    "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
-    "Tall Nimrin / Tall Kafrayn (Kefrein) and Kikkar companions (northern theory cluster)",
-    "Dead Sea region (general) — volcanic hypothesis",
-    "Tall el-Hammam / Dead Sea region — ground impact crater claim",
-    "Bab edh-Dhra / Numeira"
+ "ot_sites": 58,
+ "ot_campaign_rows": 66,
+ "ot_skipped": [],
+ "sodom_sites": 12,
+ "sodom_skipped": [
+  "Feifa (Fifa / Feifeh)",
+  "Khanazir (Khirbat Khanazir)",
+  "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
+  "Southern Dead Sea basin / Vale of Siddim (submerged-cities hypothesis)",
+  "Tall Nimrin / Tall Kafrayn (Kefrein) and Kikkar companions (northern theory cluster)",
+  "Dead Sea region (general) — volcanic hypothesis",
+  "Tall el-Hammam / Dead Sea region — ground impact crater claim",
+  "Bab edh-Dhra / Numeira"
+ ],
+ "story_default": "sodom",
+ "nt_sites": 56,
+ "nt_campaign_rows": 59,
+ "nt_skipped": [],
+ "contested_sites": 22,
+ "contested_skipped": [],
+ "contested_source": "bible-guided-hypotheses-contested.xlsx",
+ "ot_confirmed": 57,
+ "ot_unconfirmed": 1,
+ "nt_confirmed": 50,
+ "nt_unconfirmed": 6,
+ "confidence_audit": "confidence-audit.md",
+ "confidence_updated": "2026-09-30",
+ "ot_unconfirmed_sites": [
+  "Heshbon (Tell Hesban)"
+ ],
+ "nt_unconfirmed_sites": [
+  "Kursi (Gergesa tradition) — E Shore Galilee",
+  "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
+  "Patmos (Apocalypse cave tradition / early Christian remains)",
+  "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+  "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+  "Umm Qais (Gadara) — Decapolis"
+ ],
+ "contested_overlaps_skipped_unconfirmed": [
+  "Ai (et-Tell)",
+  "Bethsaida candidate — el-Araj (Beit ha-Bek)",
+  "Bethsaida candidate — et-Tell",
+  "Ebla (Tell Mardikh)",
+  "Herodium (Herodion)",
+  "Jericho (Tell es-Sultan)",
+  "Jerusalem – City of David",
+  "Jerusalem – City of David / Gihon",
+  "Khirbet Qeiyafa",
+  "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
+  "Nazareth — Sisters of Nazareth Convent",
+  "Shechem (Tell Balata)",
+  "Tel Gezer",
+  "Tel Hazor",
+  "Tel Megiddo",
+  "Tel Megiddo (Tell el-Mutesellim)"
+ ],
+ "apostle_martyrdom_sites": 15,
+ "apostle_martyrdom_color": "#2dd4bf",
+ "apostle_martyrdom_source": "apostle-death-burial-sites.xlsx",
+ "apostle_ministries_routes": 9,
+ "apostle_ministries_apostles": [
+  "paul",
+  "peter",
+  "philip",
+  "john"
+ ],
+ "apostle_ministries_source": "apostle-ministries.geojson",
+ "apostle_ministries_colors": {
+  "paul": "#38bdf8",
+  "peter": "#fb923c",
+  "philip": "#c084fc",
+  "john": "#e11d48"
+ },
+ "prototype_updated": "2026-10-06 17:20 CDT",
+ "host_url_file": "app/HOST-URL.txt",
+ "bible_version": "LSB",
+ "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
+ "build": "20261001-bg",
+ "gallery_artifacts": {
+  "version": 1,
+  "build": "20261001-i",
+  "artifacts_geojson": "artifacts.geojson",
+  "artifacts_count": 14,
+  "skip_museum_pin": "ART-12 Soleb findspot-only",
+  "site_galleries": "site-galleries.json",
+  "primary_egypt_museum": "egymonuments.gov.eg",
+  "caution_hosts_disclosed": [
+   "cityofdavid.org.il",
+   "magdala.org"
   ],
-  "story_default": "sodom",
-  "nt_sites": 56,
-  "nt_campaign_rows": 59,
-  "nt_skipped": [],
-  "contested_sites": 22,
-  "contested_skipped": [],
-  "contested_source": "bible-guided-hypotheses-contested.xlsx",
-  "ot_confirmed": 57,
-  "ot_unconfirmed": 1,
-  "nt_confirmed": 50,
-  "nt_unconfirmed": 6,
-  "confidence_audit": "confidence-audit.md",
-  "confidence_updated": "2026-09-30",
-  "ot_unconfirmed_sites": [
-    "Heshbon (Tell Hesban)"
-  ],
-  "nt_unconfirmed_sites": [
-    "Kursi (Gergesa tradition) — E Shore Galilee",
-    "Emmaus candidates — Emmaus Nicopolis (Imwas / Canada Park area)",
-    "Patmos (Apocalypse cave tradition / early Christian remains)",
-    "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
-    "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
-    "Umm Qais (Gadara) — Decapolis"
-  ],
-  "contested_overlaps_skipped_unconfirmed": [
-    "Ai (et-Tell)",
-    "Bethsaida candidate — el-Araj (Beit ha-Bek)",
-    "Bethsaida candidate — et-Tell",
-    "Ebla (Tell Mardikh)",
-    "Herodium (Herodion)",
-    "Jericho (Tell es-Sultan)",
-    "Jerusalem – City of David",
-    "Jerusalem – City of David / Gihon",
-    "Khirbet Qeiyafa",
-    "Mount Ararat / Doğubayazıt region (flood-tradition archaeology caution row)",
-    "Nazareth — Sisters of Nazareth Convent",
-    "Shechem (Tell Balata)",
-    "Tel Gezer",
-    "Tel Hazor",
-    "Tel Megiddo",
-    "Tel Megiddo (Tell el-Mutesellim)"
-  ],
-  "apostle_martyrdom_sites": 15,
-  "apostle_martyrdom_color": "#2dd4bf",
-  "apostle_martyrdom_source": "apostle-death-burial-sites.xlsx",
-  "apostle_ministries_routes": 9,
-  "apostle_ministries_apostles": [
-    "paul",
-    "peter",
-    "philip",
-    "john"
-  ],
-  "apostle_ministries_source": "apostle-ministries.geojson",
-  "apostle_ministries_colors": {
-    "paul": "#38bdf8",
-    "peter": "#fb923c",
-    "philip": "#c084fc",
-    "john": "#e11d48"
+  "layer_default": "off",
+  "check_all": "includes Artifacts; skips sponsors"
+ },
+ "legend_on_layers_only": true,
+ "ui_notes": {
+  "more_layers": "compact Check/Uncheck + select dropdown (build 20261001-k)",
+  "selected_pin": "cyan halo + slight scale on selected marker; clears with story panel",
+  "site_status": "status_kind dig|visitor|none; Dig status vs Open/Closed + optional visitor_hours (build 20261001-l)",
+  "pin_cluster": "Leaflet.markercluster 1.5.3 (vendor); spiderfyOnMaxZoom for stacked/near-duplicate pins; per point-layer MarkerClusterGroup; trade/ministry LineStrings unclustered (build 20261001-m)",
+  "event_path_layers": "Wired 20261001-n from field notes event-routes-site-truth-2026-10-01 — 9 routes off-by-default in More layers; Jonah deferred",
+  "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels",
+  "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full",
+  "search_aliases": "build 20261001-u: ancient/modern alt names in top search",
+  "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status",
+  "layers_tray_w": "All layers listed in Layers drawer; More/Fewer removed; Check/Uncheck bound on document (was header-only bug)",
+  "startup_layers_x": "Startup defaults: only OT digs (tog-ot) and NT digs (tog-nt) checked; all other layer toggles off (including contested, research claims, ministries/disciple paths, trade, prophets, miracles, wilderness, artifacts, event routes, empires, tribal, travel advisory, sponsors, ministry-places). Creature finds stay off when wired.",
+  "startup_flow_y": "Splash → About description → layers hint arrow (only two layers active…); Don’t show hints again + Got it persist in localStorage; startup layers still OT+NT only"
+ },
+ "status_kind_counts": {
+  "totals": {
+   "dig": 208,
+   "visitor": 94,
+   "none": 134,
+   "visitor_open": 31,
+   "visitor_unknown_no_badge": 63
   },
-  "prototype_updated": "2026-10-06 17:20 CDT",
-  "host_url_file": "app/HOST-URL.txt",
-  "bible_version": "LSB",
-  "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bf",
-  "gallery_artifacts": {
-    "version": 1,
-    "build": "20261001-i",
-    "artifacts_geojson": "artifacts.geojson",
-    "artifacts_count": 14,
-    "skip_museum_pin": "ART-12 Soleb findspot-only",
-    "site_galleries": "site-galleries.json",
-    "primary_egypt_museum": "egymonuments.gov.eg",
-    "caution_hosts_disclosed": [
-      "cityofdavid.org.il",
-      "magdala.org"
-    ],
-    "layer_default": "off",
-    "check_all": "includes Artifacts; skips sponsors"
-  },
-  "legend_on_layers_only": true,
-  "ui_notes": {
-    "more_layers": "compact Check/Uncheck + select dropdown (build 20261001-k)",
-    "selected_pin": "cyan halo + slight scale on selected marker; clears with story panel",
-    "site_status": "status_kind dig|visitor|none; Dig status vs Open/Closed + optional visitor_hours (build 20261001-l)",
-    "pin_cluster": "Leaflet.markercluster 1.5.3 (vendor); spiderfyOnMaxZoom for stacked/near-duplicate pins; per point-layer MarkerClusterGroup; trade/ministry LineStrings unclustered (build 20261001-m)",
-    "event_path_layers": "Wired 20261001-n from field notes event-routes-site-truth-2026-10-01 — 9 routes off-by-default in More layers; Jonah deferred",
-    "event_attachments": "20 panel beats merged by pin_id into Events section on dig/wilderness/miracle story panels",
-    "map_first_chrome": "build 20261001-t: full-map; top search; Layers top-right opens bottom sheet; story bottom drawer peek/full",
-    "search_aliases": "build 20261001-u: ancient/modern alt names in top search",
-    "chrome_v": "build 20261001-v: Google-style layers icon only; legend removed from DOM; ~75% opacity; Solidity in drawer; State threat level under dig/Open status",
-    "layers_tray_w": "All layers listed in Layers drawer; More/Fewer removed; Check/Uncheck bound on document (was header-only bug)",
-    "startup_layers_x": "Startup defaults: only OT digs (tog-ot) and NT digs (tog-nt) checked; all other layer toggles off (including contested, research claims, ministries/disciple paths, trade, prophets, miracles, wilderness, artifacts, event routes, empires, tribal, travel advisory, sponsors, ministry-places). Creature finds stay off when wired.",
-    "startup_flow_y": "Splash → About description → layers hint arrow (only two layers active…); Don’t show hints again + Got it persist in localStorage; startup layers still OT+NT only"
-  },
-  "status_kind_counts": {
-    "totals": {
-      "dig": 208,
-      "visitor": 94,
-      "none": 134,
-      "visitor_open": 31,
-      "visitor_unknown_no_badge": 63
-    },
-    "per_file": {
-      "ot-digs.geojson": {
-        "dig": 103,
-        "visitor": 2,
-        "none": 0
-      },
-      "nt-digs.geojson": {
-        "dig": 71,
-        "visitor": 3,
-        "none": 0
-      },
-      "sodom-gomorrah.geojson": {
-        "dig": 12,
-        "visitor": 0,
-        "none": 0
-      },
-      "contested-hypotheses.geojson": {
-        "dig": 22,
-        "visitor": 0,
-        "none": 0
-      },
-      "apostle-burial.geojson": {
-        "dig": 0,
-        "visitor": 15,
-        "none": 0
-      },
-      "apostle-ministries.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 9
-      },
-      "artifacts.geojson": {
-        "dig": 0,
-        "visitor": 11,
-        "none": 0
-      },
-      "prophets.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 30
-      },
-      "jesus-miracles.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 25
-      },
-      "exodus-wilderness.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 58
-      },
-      "trade-routes.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 12
-      },
-      "sponsors/expedition-bible/sites.geojson": {
-        "dig": 0,
-        "visitor": 10,
-        "none": 0
-      },
-      "sponsors/alberino/sites.geojson": {
-        "dig": 0,
-        "visitor": 31,
-        "none": 0
-      },
-      "sponsors/expedition-snr/sites.geojson": {
-        "dig": 0,
-        "visitor": 50,
-        "none": 0
-      },
-      "sponsors/_schema-example/sites.geojson": {
-        "dig": 0,
-        "visitor": 1,
-        "none": 0
-      },
-      "event-routes.geojson": {
-        "dig": 0,
-        "visitor": 0,
-        "none": 9
-      }
-    }
-  },
-  "marker_cluster": {
-    "library": "leaflet.markercluster@1.5.3",
-    "vendor": [
-      "vendor/leaflet.markercluster.js",
-      "vendor/MarkerCluster.css",
-      "vendor/MarkerCluster.Default.css"
-    ],
-    "clustered_layers": [
-      "ot",
-      "nt",
-      "sg",
-      "ch",
-      "ap",
-      "prophets",
-      "miracles",
-      "wilderness",
-      "artifacts",
-      "sponsor-eb",
-      "sponsor-alb",
-      "sponsor-snr",
-      "ministry-places",
-      "creature-finds"
-    ],
-    "unclustered": [
-      "trade (LineStrings+hubs)",
-      "apostle-ministries (routes)",
-      "event-routes (LineStrings)"
-    ],
-    "options": {
-      "maxClusterRadius": 34,
-      "spiderfyOnMaxZoom": true,
-      "disableClusteringAtZoom": null,
-      "animate": false,
-      "map_maxZoom": 18,
-      "note": "map.maxZoom required by leaflet.markercluster; clustering kept at maxZoom so stacks spiderfy"
-    }
-  },
-  "event_routes": {
-    "version": 1,
-    "build": "20261001-n",
-    "source_pack": "event-routes-site-truth-2026-10-01.json",
-    "geojson": "event-routes.geojson",
-    "attachments": "event-attachments.json",
-    "route_features": 9,
-    "event_attachments": 20,
-    "layer_default": "off",
-    "clustered": false,
-    "deferred": [
-      "ROUTE-jonah-nineveh"
-    ],
-    "optional_included": [
-      "ROUTE-abraham-migration"
-    ],
-    "layers": [
-      "event_route_exodus_main",
-      "event_route_exodus_branch_aqaba",
-      "event_route_exodus_branch_ne_delta",
-      "event_route_assyrian_deportation",
-      "event_route_babylonian_exile",
-      "event_route_return_from_exile",
-      "event_route_holy_family_egypt",
-      "event_route_passion_week",
-      "event_route_abraham_migration"
-    ],
-    "note": "Schematic story LineStrings/MultiLineStrings; attachments merge into existing pin Events section; no new dig pins; pin-gap waypoints are line vertices only."
-  },
-  "travel_advisory": {
-    "build": "20261001-s",
-    "layer_id": "modern_travel_advisory",
-    "snapshot_date": "2026-10-04",
-    "source_pack": "dos-travel-advisory-overlay-2026-10-04.json",
-    "geometry": "vendor/ne_110m_admin_0_countries.geojson",
-    "fills": "travel-advisory-fills.geojson",
-    "filled_countries": 168,
-    "skipped": 47,
-    "skipped_no_iso": [
-      "Bonaire",
-      "French West Indies",
-      "Gaza",
-      "Saba",
-      "Sint Eustatius",
-      "West Bank"
-    ],
-    "iso_match_notes": [
-      "NO, FR, XK matched via ISO_A2_EH because Natural Earth ISO_A2 is -99",
-      "TW matched via ISO_A2_EH because ISO_A2 is CN-TW (not painted as China)"
-    ],
-    "default": "off",
-    "fill_opacity": 0.35,
-    "separate_from": "empire_snapshots",
-    "blurbs": true,
-    "panel_order": "level → blurb → date → State link",
-    "bangladesh_level": 2
-  },
-  "empire_snapshots": {
-    "build": "20261001-p",
-    "source_pack": "empire-snapshots-site-truth-2026-10-04.json",
-    "geojson": "empire-snapshots.geojson",
-    "features": 12,
-    "new_pins": 0,
-    "persia_polygons": 0,
-    "toggles": [
-      "tog-emp-722",
-      "tog-emp-701",
-      "tog-emp-586",
-      "tog-emp-30"
-    ],
-    "default": "off",
-    "paint_note": "~701 reduced Judah draw_rank 2 above Assyria draw_rank 1"
-  },
-  "tribal_allotments": {
-    "build": "20261001-q",
-    "source_pack": "tribal-allotments-site-truth-2026-10-04.json",
-    "geojson": "tribal-allotments.geojson",
-    "layer_id": "tribal_allotments",
-    "toggle": "tog-tribal-allotments",
-    "features": 13,
-    "tribes": 12,
-    "manasseh_polygons": 2,
-    "levi_polygons": 0,
-    "new_pins": 0,
-    "default": "off",
-    "paint_note": "Higher draw_rank on top: Judah 1, most tribes 2, Benjamin 3, Simeon and Dan 4. Simeon inside Judah, not a hole. Dan coastal only.",
-    "separate_from": [
-      "empire_snapshots",
-      "modern_travel_advisory"
-    ]
-  },
-  "destruction_horizons": {
-    "build": "20261001-r",
-    "source_pack": "destruction-horizons-site-truth-2026-10-04.json",
-    "attachments": "destruction-horizons.json",
-    "tags": 15,
-    "unique_pins": 13,
-    "new_pins": 0,
-    "chips": [
-      "701",
-      "586",
-      "70"
-    ],
-    "default": "off",
-    "note": "Filter chips on existing pins. Not markers. Not polygons. Masada and Jericho are not tagged."
-  },
-  "search_aliases": {
-    "build": "20261001-u",
-    "source_pack": "search-aliases-site-truth-2026-10-05.json",
-    "json": "search-aliases.json",
-    "pins": 179,
-    "aliases": 650,
-    "disputed_identification_pins": 16,
-    "matching": "case+accent insensitive; Tell/Tel/Tall and Khirbet/Khirbat/Horvat interchangeable; also called on alias hits",
-    "no_wikipedia": true,
-    "no_new_pins": true
-  },
-  "legend": {
-    "visible": false,
-    "removed": true,
-    "note": "Removed entirely 2026-10-05 per Marcial"
-  },
-  "threat_level": {
-    "source": "U.S. State travel advisory snapshot 2026-10-04",
-    "placement": "below dig status / Open-Closed badge in details drawer",
-    "lookup": "point-in-polygon on travel-advisory-fills.geojson, then location country name fallback"
-  },
-  "pin_travel_advisory": {
-    "build": "20261001-v",
-    "source_pack": "pin-travel-advisory-map-2026-10-05.json",
-    "json": "pin-travel-advisory.json",
-    "rows": 179,
-    "join": "pin_id + layer",
-    "drawer": "Travel advisory: Level N, label + blurb + State Dept updated + travel.state.gov link",
-    "west_bank_gaza": "State separate rows; Jerusalem = Israel"
-  },
-  "visitor_rules": {
-    "source_pack": "visitor-rules-site-truth-2026-10-05.json",
-    "json": "visitor-rules.json",
-    "rows": 25,
-    "pins": 24,
-    "join": "pin_id + layer",
-    "placement": "under travel advisory; JER-NT-03 two lines in file order",
-    "host_vetting": "SAFE 2026-10-05"
-  },
-  "welcome": {
-    "control": "? button above Layers",
-    "first_run": "localStorage digintoscripture_welcome_seen_v1",
-    "copy": "Field draft 2026-10-05"
-  },
-  "ministry_places": {
-    "build": "20261001-v",
-    "source_pack": "creation-attractions-pins-2026-10-05.json",
-    "geojson": "ministry-places.geojson",
-    "layer_id": "ministry_places",
-    "toggle": "tog-ministry-places",
-    "pins": 3,
-    "ids": [
-      "ARK-ENC-01",
-      "CRM-01",
-      "HYS-01"
-    ],
-    "default": "off",
-    "locks": [
-      "gallery link-out only",
-      "press /press/ page only — no zip download",
-      "no kit photos",
-      "no /workspace in Sources"
-    ],
-    "drawer": "attraction vs publisher order per field notes"
-  },
-  "divine_name": {
-    "build": "20261001-v",
-    "source_pack": "tetragrammaton-site-truth-2026-10-05.json",
-    "json": "tetragrammaton-display.json",
-    "display_rows": 137,
-    "footnote_on": 113,
-    "join": "pin_id + layer",
-    "placement": "under Bible (LSB) verse list; contested uses caption-only when footnote off",
-    "font": "vendor/noto-sans-phoenician/NotoSansPhoenician-Regular.ttf",
-    "ofl": "vendor/noto-sans-phoenician/OFL.txt",
-    "font_source": "notofonts/phoenician release NotoSansPhoenician-v2.001 full/ttf",
-    "footnote_override": "SOL-01 Egyptian yhwꜣ line",
-    "cbg14_doi_fix": "10.1186/s40494-023-01130-z",
-    "policebot_dropped": [
-      "halleluyahscripturesfree.com",
-      "emanueltov.info"
-    ],
-    "language_review": "cleared 2026-10-05"
-  },
-  "startup_layers": {
-    "build": "20261001-x",
-    "default_on": [
-      "ot",
-      "nt"
-    ],
-    "default_off": "all other layer-toggle chips"
-  },
-  "onboarding": {
-    "build": "20261001-y",
-    "flow": [
-      "splash",
-      "description",
-      "layers_hint"
-    ],
-    "keys": {
-      "onboarding_seen": "digintoscripture_onboarding_seen_v2",
-      "hints_off": "digintoscripture_hints_off_v1",
-      "layers_hint_seen": "digintoscripture_layers_hint_seen_v1",
-      "legacy_welcome": "digintoscripture_welcome_seen_v1"
-    },
-    "startup_layers": [
-      "ot",
-      "nt"
-    ]
-  },
-  "creature_finds": {
-    "build": "20261001-aa",
-    "source_pack": "creature-finds-pins-2026-10-06.json",
-    "geojson": "creature-finds.geojson",
-    "layer_id": "creature_finds",
-    "label": "Creature finds",
-    "toggle": "tog-creature-finds",
-    "default": "off",
-    "pins_in_pack": 29,
-    "mapped": 28,
-    "held": [
-      "CRF-01 (Skull Creek \"Ebenezer\" Allosaurus quarry) — no published coords; no marker"
-    ],
-    "cm_ae_yes_mapped": 4,
-    "related_points_reuse": [
-      "CRM-01",
-      "ARK-ENC-01 (ministry_places; not duplicated)"
-    ],
-    "clustered": true,
-    "search": "name + aliases + find_facts",
-    "drawer_order": [
-      "cm_ae_evidence.drawer_line_1",
-      "name",
-      "find_facts",
-      "summary",
-      "other_christian_coverage",
-      "neutral_sources",
-      "solidity + caveat",
-      "findspot.precision_note"
-    ],
-    "url_filter": "vetted hosts only (incl. 16 hosts cleared 2026-10-06 + si.edu); coresci.org never linked (Whitmore & Snelling 2014 JCTS cite-only); no press-kit zips; link-out only",
-    "converter": "build_creature_finds_geojson.py",
-    "ux": [
-      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
-      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
-      "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
-      "official_video_embed only when pack already has YouTube (CRF-11)",
-      "28 mapped pins; CRF-01 held off-map; layer off by default"
-    ]
-  },
-  "published": "2026-10-06",
-  "aa_notes": {
-    "build": "20261001-aa",
-    "date": "2026-10-06",
-    "creature_finds_ux": [
-      "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
-      "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
-      "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
-      "official_video_embed only when pack already has YouTube (CRF-11)",
-      "28 mapped pins; CRF-01 held off-map; layer off by default"
-    ],
-    "nested_labels": "Layers tray expand applies OT+NT-only defaults (matches startup lock); startup no longer force-adds sg/ch/ap/trade/prophets/miracles/wilderness",
-    "helpful_hints": "Hints ON by default; sequential tour; ? welcome has Helpful hints toggle; persist digintoscripture_hints_off_v1",
-    "discover": "Gold sparkle CSS on #btn-discover (same size); click flies to first creature find + opens story; long-press or welcome Tours opens path sheet",
-    "zoom": "Leaflet +/- zoomControl disabled; gesture/wheel zoom only"
-  },
-  "zoom_control": false,
-  "ab_notes": {
-    "build": "20261001-ab",
-    "date": "2026-10-06",
-    "discover_categories": [
-      {
-        "id": "creation",
-        "label": "Creation"
-      },
-      {
-        "id": "human-redemption",
-        "label": "Humanity's Redemption"
-      },
-      {
-        "id": "jesus-ot-nt",
-        "label": "Jesus Old-to-New"
-      },
-      {
-        "id": "gentiles-yahweh",
-        "label": "Gentiles Who Followed Yahweh"
-      }
-    ],
-    "discover_path_count": 33,
-    "discover_sources": [
-      "discover-creation-redemption-stories-2026-10-06.md",
-      "discover-more-stories-2026-10-06-pass2.md",
-      "discover-gentiles-yahweh-stories-2026-10-06.md"
-    ],
-    "discover_ui": "Category accordion in #discover-sheet; stops 5-12; long-press/Tours + Discover fly-to-first-creature preserved from aa",
-    "pin_gaps_noted": [
-      "Eden / Haran / Penuel / exact Moriah peak / Upper room / Damascus dig / Magi homeland / Rahab house / baptism ford — narrated without invented pin IDs",
-      "Haman excluded from gentiles category (Naaman is correct)"
-    ]
-  },
-  "ac_notes": {
-    "build": "20261001-ac",
-    "date": "2026-10-06",
-    "helpful_hints": [
-      "Discover step teaches short-tap (Creature fly+story) vs long-press/Tours (category sheet)",
-      "Four categories named: Creation · Humanity's Redemption · Jesus Old-to-New · Gentiles Who Followed Yahweh",
-      "Optional Story tours step opens #discover-sheet (digOpenDiscoverTours) and closes on leave/end",
-      "KEY_TOUR_DONE bumped to digintoscripture_hints_tour_done_v2 (KEY_HINTS_OFF unchanged)",
-      "Welcome muted line mentions category Tours sheet (four story categories)"
-    ],
-    "discover": "No Discover wiring change; hints copy + sheet-open tour step only; categories/paths from ab preserved"
-  },
-  "ad_notes": {
-    "build": "20261001-ad",
-    "date": "2026-10-06",
-    "creature_photo_gallery": [
-      "showCreatureFindStory injects digPhotoGalleryHtml(p) after storySections (before related pins)",
-      "20 CRF-* rows added to site-galleries.json from creature-finds.geojson official_website only",
-      "Outbound gallery-btn links; no rehosted images; no invented URLs",
-      "Pins without official_website omit Photo gallery section",
-      "digPhotoGalleryHtml also honors inline gallery_url / photo_gallery if already on feature"
-    ],
-    "site_galleries_count": 32,
-    "creature_gallery_rows": 20
-  },
-  "ae_notes": {
-    "build": "20261001-ae",
-    "date": "2026-10-06",
-    "ministries_paths_ui": "removed",
-    "removed_toggles": [
-      "tog-min",
-      "tog-min-paul",
-      "tog-min-peter",
-      "tog-min-philip",
-      "tog-min-john"
-    ],
-    "kept": [
-      "MIN FeatureCollection in index (and apostle-ministries.geojson on disk) for Discover / findSiteFeatureById",
-      "showMinistryStory for Discover/search open of MIN-* ids",
-      "Apostle Martyrdom tog-ap unchanged"
-    ],
-    "map": "Paul/Peter/Philip/John LineString routes no longer painted; syncMinLayers/refillMinLayersForEra are no-ops"
-  },
-  "af_notes": {
-    "build": "20261001-af",
-    "date": "2026-10-06",
-    "layers_grouping": "OT / NT / Other section headers in Layers tray",
-    "sections": {
-      "OT": [
-        "ot",
-        "prophets",
-        "wilderness",
-        "ev-abraham",
-        "ev-assyrian",
-        "ev-babylon",
-        "ev-return",
-        "tribal-allotments",
-        "emp-722",
-        "emp-701",
-        "emp-586",
-        "ev-exodus-main",
-        "ev-exodus-aqaba",
-        "ev-exodus-nedelta"
-      ],
-      "NT": [
-        "nt",
-        "miracles",
-        "ev-holy-family",
-        "ev-passion",
-        "ap",
-        "emp-30"
-      ],
-      "Other": [
-        "ch",
-        "sg",
-        "trade",
-        "artifacts",
-        "ministry-places",
-        "creature-finds",
-        "travel-advisory",
-        "sponsor-eb",
-        "sponsor-alb",
-        "sponsor-snr"
-      ]
-    },
-    "unchanged": [
-      "Era filter remains a filter (not a layer)",
-      "Destruction horizons remain a filter",
-      "Startup defaults OT digs + NT digs only",
-      "Check/Uncheck all across all layer-toggle inputs",
-      "Ministries path toggles stay removed (ae)"
-    ]
-  },
-  "ag_notes": {
-    "build": "20261001-ag",
-    "date": "2026-10-06",
-    "ux": [
-      "Details drawer (#story-body) resets scrollTop to 0 on every pin open / content swap via openStoryPanel + setStoryHtml",
-      "Covers digs, creature finds, sponsors, Discover, and other show* story paths that call openStoryPanel",
-      "Layers OT/NT/Other grouping unchanged"
-    ]
-  },
-  "ah_notes": {
-    "build": "20261001-ah",
-    "date": "2026-10-06",
-    "alberino_expansion": {
-      "prior": 2,
-      "new_pins": 29,
-      "total": 31,
-      "phase": "expanded",
-      "status": "live",
-      "regions": {
-        "South America": 22,
-        "United States": 4,
-        "other": 3
-      },
-      "preserved": [
-        "SPN-alberino-01",
-        "SPN-alberino-02"
-      ],
-      "sources": [
-        "timothy-alberino-archive (all-videos.tsv + notes)",
-        "timothyalberino.com/pics captions",
-        "existing sponsor-alberino-pack-2026-09-30 off-map list"
-      ],
-      "note": "On-site / expedition / conference pins only; desk-only Giza/Hermon/Markawasi skipped. Contested framing disclosure retained."
-    },
-    "prior_ag_ux": "Details drawer scroll reset retained from 20261001-ag"
-  },
-  "ai_notes": {
-    "build": "20261001-ai",
-    "date": "2026-10-06",
-    "alberino_surveyor_merge": {
-      "source_pack": "packs/alberino-visit-sites-2026-10-06.json + alberino-visit-sites.geojson",
-      "match_rule": "place name + approximate coords (NOT pack id)",
-      "preserved_untouched": [
-        "SPN-alberino-01",
-        "SPN-alberino-02"
-      ],
-      "updated_live_ids": [
-        "SPN-alberino-03",
-        "SPN-alberino-06",
-        "SPN-alberino-08",
-        "SPN-alberino-05",
-        "SPN-alberino-10",
-        "SPN-alberino-11",
-        "SPN-alberino-15",
-        "SPN-alberino-19",
-        "SPN-alberino-20",
-        "SPN-alberino-21",
-        "SPN-alberino-23",
-        "SPN-alberino-24",
-        "SPN-alberino-25",
-        "SPN-alberino-26",
-        "SPN-alberino-29",
-        "SPN-alberino-30",
-        "SPN-alberino-31",
-        "SPN-alberino-17"
-      ],
-      "updated_count": 18,
-      "appended": [
-        {
-          "pack_id": "SPN-alberino-10",
-          "live_id": "SPN-alberino-32",
-          "name": "Capoi megaliths (San Martín high jungle)",
-          "teaching_locus": false
-        },
-        {
-          "pack_id": "SPN-alberino-14",
-          "live_id": "SPN-alberino-33",
-          "name": "Aramu Muru (Hayu Marka doorway)",
-          "teaching_locus": false
-        },
-        {
-          "pack_id": "SPN-alberino-15",
-          "live_id": "SPN-alberino-34",
-          "name": "Puno / Lake Titicaca altiplano",
-          "teaching_locus": false
-        },
-        {
-          "pack_id": "SPN-alberino-22",
-          "live_id": "SPN-alberino-35",
-          "name": "Mount Hermon (Watchers descent locus — Enoch)",
-          "teaching_locus": true
-        },
-        {
-          "pack_id": "SPN-alberino-23",
-          "live_id": "SPN-alberino-36",
-          "name": "Giza plateau (tourist core)",
-          "teaching_locus": true
-        },
-        {
-          "pack_id": "SPN-alberino-25",
-          "live_id": "SPN-alberino-37",
-          "name": "Rome (True Legends Episode 2 shoot)",
-          "teaching_locus": false
-        },
-        {
-          "pack_id": "SPN-alberino-27",
-          "live_id": "SPN-alberino-38",
-          "name": "Peru cloud-forest / high-jungle villages (travelogue)",
-          "teaching_locus": false
-        }
-      ],
-      "appended_count": 7,
-      "teaching_only": [
-        {
-          "id": "SPN-alberino-35",
-          "name": "Mount Hermon (Watchers descent locus — Enoch)"
-        },
-        {
-          "id": "SPN-alberino-36",
-          "name": "Giza plateau (tourist core)"
-        }
-      ],
-      "coords_improved": [
-        "SPN-alberino-25 (Sage Wall)",
-        "SPN-alberino-20 (San Antonio de Pintuyacu)"
-      ],
-      "total_pins": 38,
-      "policebot_hosts_added": [
-        "gensix.com",
-        "www.gensix.com",
-        "sagemountain.org",
-        "www.sagemountain.org",
-        "alberinoapparel.printify.me"
-      ],
-      "policebot_notes": {
-        "gensix.com": "SAFE — disclose commercial/advocacy; paraphrase+link only (no rehost)",
-        "sagemountain.org": "SAFE — check hours/reservations before you go",
-        "alberinoapparel.printify.me": "SAFE — merch CTA"
-      },
-      "note": "Field narrative merged onto live ids by place/coords; pack ids not reused for appends. Hermon/Giza added as teaching-locus (visit_confirmed=false). No existing live pins removed."
-    },
-    "prior_ah": "Alberino expansion 31 pins (20261001-ah)"
-  },
-  "aj_notes": {
-    "build": "20261001-ak",
-    "date": "2026-10-06",
-    "alberino_text_scrub": {
-      "pins_text_changed": 38,
-      "pin_ids": [
-        "SPN-alberino-01",
-        "SPN-alberino-02",
-        "SPN-alberino-03",
-        "SPN-alberino-04",
-        "SPN-alberino-05",
-        "SPN-alberino-06",
-        "SPN-alberino-07",
-        "SPN-alberino-08",
-        "SPN-alberino-09",
-        "SPN-alberino-10",
-        "SPN-alberino-11",
-        "SPN-alberino-12",
-        "SPN-alberino-13",
-        "SPN-alberino-14",
-        "SPN-alberino-15",
-        "SPN-alberino-16",
-        "SPN-alberino-17",
-        "SPN-alberino-18",
-        "SPN-alberino-19",
-        "SPN-alberino-20",
-        "SPN-alberino-21",
-        "SPN-alberino-22",
-        "SPN-alberino-23",
-        "SPN-alberino-24",
-        "SPN-alberino-25",
-        "SPN-alberino-26",
-        "SPN-alberino-27",
-        "SPN-alberino-28",
-        "SPN-alberino-29",
-        "SPN-alberino-30",
-        "SPN-alberino-31",
-        "SPN-alberino-32",
-        "SPN-alberino-33",
-        "SPN-alberino-34",
-        "SPN-alberino-35",
-        "SPN-alberino-36",
-        "SPN-alberino-37",
-        "SPN-alberino-38"
-      ],
-      "ui_label": "sponsorCtaHtml: Confidence → Confidence",
-      "replacements": [
-        "do not raise the confidence rating → dig-consensus confidence",
-        "outbound host for host vetting → outbound visitor-site host"
-      ],
-      "keys_kept": [
-        "surveyor_solidity",
-        "surveyor_caveat",
-        "policebot_hosts"
-      ],
-      "note": "User-visible Alberino detail strings reworded to field-notes voice; contested framing retained."
-    },
-    "prior_ai": "Alberino field-notes merge 38 pins (20261001-ai)"
-  },
-  "al_notes": {
-    "build": "20261001-al",
-    "date": "2026-10-10",
-    "name_scrub": "app-wide editorial-voice scrub; publish guard enforced",
-    "discover": "nested category bodies no longer separate scrollers; single outer finger-scroll list; dvh max-height",
-    "details_scroll": "MutationObserver on #story-body + momentum kill; fixed recursive storyBodyEl fallback",
-    "layers": "ghost-tap guard 500ms after tray opens; open never toggles"
-  },
-  "oct10_packs": {
-    "build": "20261001-am",
-    "published": false,
-    "layers": {
-      "charlie_kirk": 13,
-      "jesus_death_sources": 12,
-      "sponsor_rhb": 1,
-      "breakout_pastors": 10,
-      "oriental_findings": 10
-    },
-    "cctv_enabled_pins": 61
-  },
-  "ken_ham": {
-    "build": "20261001-an",
-    "published": false,
-    "layer": "ken_ham",
-    "pins": 7,
-    "mentions_attached": {
-      "ARK-ENC-01": 7,
-      "CRM-01": 4
-    },
-    "held_off_map": 8,
-    "channel": "https://www.youtube.com/@aigkenham"
-  },
-  "drawer_discover_ao": {
-    "build": "20261001-ao",
-    "published": false,
-    "drawer": "title-first, sectioned (Location and status; Story / What was found; Name & History; Evidence & caveats; Videos & gallery; Webcam; Sources and links; Sponsor)",
-    "name_history_file": "app/name-history.json (optional)",
-    "schema_doc": "NAME-HISTORY-SCHEMA.md",
-    "discover": "outer sheet scroll + per-category nested scroll"
-  },
-  "ap_notes": {
-    "build": "20261001-ap",
-    "date": "2026-10-11",
-    "published": false,
-    "cctv": "deduped 61 pins/76 camera links -> 11 pins/11 links (7 unique cameras); kept only pins each camera shows",
-    "base_maps": "Base Maps tab in Layers drawer: OSM, OpenTopoMap, CARTO Positron, CARTO Dark Matter, DARE Imperium Romanum (radio) + CARTO labels and PEF 1880 overlays; Esri World Imagery skipped (key/account terms). Tiles list: packs/basemap-tiles-2026-10-11.md",
-    "layers": "collapsible categories; Era filter and Destruction horizons filter removed (era shown in drawer, destruction tags in Name & History)",
-    "drawer": "Scripture (LSB) section first; YouTube search inside Videos & gallery; repeated lines removed",
-    "audit": "packs/audit-2026-10-11.{json,md} (applied)",
-    "audit_fixes": {
-      "sam_nt_rename": "SAM-01 (nt-digs) -> SAM-NT-01; stops naaman-syrian-2, ethiopian-gaza-road-2",
-      "drawer_reset": "drawer cleared on every pin open",
-      "discover_first_para_dropped": 205,
-      "dig_halt_boilerplate_shortened_pins": 160,
-      "video_refs_removed": 51,
-      "video_ids_now_single_pin": 19,
-      "wrong_place_text_removed": 0
-    },
-    "updates_2026_10_11": {
-      "updated": [
-        "WW-01 (Ophel purification complex)",
-        "RAR-01 (Lower Aqueduct)",
-        "BETHS-02 (season 10)",
-        "SHI-01 (wall; low-medium)"
-      ],
-      "added": [
-        "CGAT-01 Carmei Gat (nt_digs)"
-      ],
-      "skipped": [
-        "Tupinamba flood tradition: no existing layer fits"
-      ]
-    }
-  },
-  "notes_aq": "Discover zoom-out/pause/zoom-in tour animation; APA 7 Sources with Copy all + per-citation copy",
-  "ar_notes": {
-    "build": "20261001-ar",
-    "date": "2026-10-11",
-    "published": false,
-    "relics_layer": {
-      "file": "relics.geojson",
-      "toggle": "tog-pack-rel",
-      "category": "Other",
-      "default": "off",
-      "pins": [
-        "REL-01"
-      ]
-    },
-    "artifacts_added": [
-      "ART-12 Taylor Prism (NIN-01)",
-      "ART-13 Black Obelisk (NIM-01)",
-      "ART-14 Code of Hammurabi (SUS-01, background)"
-    ],
-    "sources_added_to_reassessed_pins": 37,
-    "host_rename": "oi.uchicago.edu -> isac.uchicago.edu",
-    "apa": {
-      "refs_inline": 286,
-      "hidden_not_loading": 66,
-      "url_cites": 421,
-      "apa_applied": 355
-    },
-    "skipped": [
-      "Lirey 1350s provenance sentence (no cited source)",
-      "JM-GOLGOTHA optional cross-link to REL-01",
-      "British Museum object URLs for ART-12/13 (not confirmed; museum home page used)"
-    ]
-  },
-  "as_notes": {
-    "build": "20261001-as",
-    "date": "2026-10-11",
-    "published": false,
-    "source": "packs/policebot-host-verdicts-2026-10-11.md",
-    "rehost": {
-      "mota.gov.eg": "https://egymonuments.gov.eg/",
-      "israelmuseum.org.il": "https://www.imj.org.il/",
-      "dainst.org": "https://www.dainst.blog/ (homepage; deep path not mapped)"
-    },
-    "removed": [
-      "qantir.de"
-    ],
-    "links_hidden_cite_text_kept": [
-      "ascsa.edu.gr",
-      "oracc.museum.upenn.edu",
-      "expeditiondeadseaplain.org",
-      "cfeetk.cnrs.fr",
-      "izmirmuzeleri.gov.tr",
-      "qeiyafa.huji.ac.il",
-      "rehov.org",
-      "agathe.gr",
-      "mcth.ir",
-      "oracc.org"
-    ],
-    "kept": "moa.portal@mota.gov.eg contact emails (not links)"
-  },
-  "at_notes": {
-    "build": "20261001-at",
-    "date": "2026-10-11",
-    "published": false,
-    "source": [
-      "packs/bibleplaces-sweep-2026-10-11.json",
-      "packs/grok-share-2-sources-2026-10-11.json"
-    ],
-    "pins_added": {
-      "oriental-findings": 12,
-      "ot-digs": 19,
-      "nt-digs": 42,
-      "flood-traditions": 1
-    },
-    "pins_enriched": {
-      "nt-digs": 48,
-      "ot-digs": 40,
-      "exodus-wilderness": 4,
-      "sodom-gomorrah": 2,
-      "jesus-miracles": 2,
-      "prophets": 5,
-      "contested-hypotheses": 2,
-      "apostle-burial": 2,
-      "shi/jer": 2
-    },
-    "folded_into_existing": [
-      "BP-CHURCH_OF_ST_PAUL -> AP-13",
-      "BP-JEBELMUSA -> EW-15",
-      "BP-KARNAK -> KAR-01",
-      "BP-PERSEPOLIS -> PER-01",
-      "BP-VATICAN -> AP-01"
-    ],
-    "skipped": [
-      "NT-CARMEI-GAT (Carmei Gat already CGAT-01)"
-    ],
-    "missing_match_ids": [],
-    "apa_refs_added": 177,
-    "flood_layer": {
-      "file": "flood-traditions.geojson",
-      "toggle": "tog-pack-fld",
-      "category": "Other",
-      "default": "off",
-      "pins": [
-        "FLD-01"
-      ]
-    },
-    "link_only": "BiblePlaces.com links + APA; no copied photos or text",
-    "cctv": {
-      "added_cameras": 5,
-      "pins": 15,
-      "source": "packs/webcams-more-2026-10-11.json"
-    }
-  },
-  "au_notes": {
-    "build": "20261001-au",
-    "date": "2026-10-11",
-    "published": false,
-    "cctv": {
-      "rule": "each camera URL on exactly one pin",
-      "western_wall": {
-        "keep": "WW-01",
-        "removed_from": [
-          "JER-NT-03",
-          "SPN-snr-27",
-          "SPN-snr-28"
-        ]
-      },
-      "castel_santangelo": {
-        "keep": "ROME-02",
-        "removed_from": [
-          "AP-01"
-        ]
-      },
-      "pins_after": 11
-    },
-    "sodom_gomorrah": {
-      "unique_ids": true,
-      "renames": [
-        {
-          "index": 1,
-          "from": "tall-el-hammam-teh-tell-el-hammam-",
-          "to": "tall-el-hammam-teh-tell-el-hammam-2"
-        },
-        {
-          "index": 2,
-          "from": "tall-el-hammam-teh-tell-el-hammam-",
-          "to": "tall-el-hammam-teh-tell-el-hammam-3"
-        },
-        {
-          "index": 3,
-          "from": "tall-el-hammam-teh-tell-el-hammam-",
-          "to": "tall-el-hammam-teh-tell-el-hammam-4"
-        },
-        {
-          "index": 5,
-          "from": "bab-edh-dhra-bab-adh-dhra-",
-          "to": "bab-edh-dhra-bab-adh-dhra-2"
-        },
-        {
-          "index": 6,
-          "from": "bab-edh-dhra-bab-adh-dhra-",
-          "to": "bab-edh-dhra-bab-adh-dhra-3"
-        },
-        {
-          "index": 7,
-          "from": "bab-edh-dhra-bab-adh-dhra-",
-          "to": "bab-edh-dhra-bab-adh-dhra-4"
-        },
-        {
-          "index": 9,
-          "from": "numeira-numayra-an-numayra-",
-          "to": "numeira-numayra-an-numayra-2"
-        },
-        {
-          "index": 10,
-          "from": "numeira-numayra-an-numayra-",
-          "to": "numeira-numayra-an-numayra-3"
-        }
-      ]
-    },
-    "local_only": true
-  },
-  "bd_notes": {
-    "build": "20261001-bd",
-    "date": "2026-10-16",
-    "published": false,
-    "local_only": true,
-    "source": [
-      "packs/updates-2026-10-16.json",
-      "packs/updates-2026-10-16-linguist.json"
-    ],
-    "wired": {
-      "ORI-07": [
-        "recent_update",
-        "sources+1",
-        "video NJ1cBhH803w",
-        "claim:interpretive"
-      ],
-      "KH-01": [
-        "recent_update",
-        "sources+1",
-        "source_status live",
-        "claim:contested"
-      ],
-      "SPN-snr-15": [
-        "recent_update",
-        "sources+3",
-        "video cK9a2t4KbC8",
-        "source_status live",
-        "claim:scholarship"
-      ],
-      "RAR-01": [
-        "recent_update",
-        "sources+3",
-        "source_status live",
-        "claim:scholarship"
-      ],
-      "COD-01,COD-02,COD-04": [
-        "recent_update",
-        "sources+3",
-        "claim:scholarship"
-      ],
-      "HAT-01": [
-        "recent_update",
-        "sources+2",
-        "source_status live",
-        "claim:scholarship"
-      ],
-      "BP-NICOPOLIS": [
-        "recent_update",
-        "sources+3",
-        "source_status live",
-        "C03782 verse-only (Scripture tier)",
-        "claim:scholarship",
-        "claim:scholarship"
-      ],
-      "WW-01": [
-        "recent_update",
-        "sources+3",
-        "claim:scholarship"
-      ],
-      "JER-NT-02": [
-        "recent_update",
-        "sources+2",
-        "claim:scholarship"
-      ],
-      "CBG-07": [
-        "recent_update",
-        "sources+3",
-        "source_status live",
-        "claim:contested",
-        "claim:contested",
-        "contested_set CS-CBG-07-2026 (2 cards, no verdict)"
-      ]
-    },
-    "apa_refs_added": 19,
-    "held_not_wired": [
-      "TM-01",
-      "HIT-KAY-01 Kayalıpınar",
-      "GOL-YEH-01 Yehudiya",
-      "EGY-BEH-01 Behbeit el-Hagar",
-      "MOTB-01 Museum of the Bible"
-    ],
-    "caution_hosts_title_only": {
-      "cityofdavid.org.il": "COD-01,COD-02,COD-04 only, alongside TAU",
-      "noahsarkscans.com.tr": "CBG-07 as claimant only"
-    },
-    "source_checked": "2026-10-16",
-    "last_verified": "unchanged (never invented)",
-    "reruns": [
-      {
-        "date": "2026-10-16",
-        "changes": {
-          "RAR-01": [
-            "recent_update refreshed",
-            "Oct 11 entry 26 km -> 21 km",
-            "sources+1",
-            "claim refreshed C06573"
-          ]
-        },
-        "apa_refs_added": 1
-      }
-    ]
-  },
-  "be_notes": {
-    "build": "20261001-be",
-    "date": "2026-10-21",
-    "published": false,
-    "local_only": true,
-    "source": [
-      "packs/updates-2026-10-21.json",
-      "packs/updates-2026-10-21-linguist.json"
-    ],
-    "wired": {
-      "DOR-01": [
-        "recent_update added",
-        "sources+3",
-        "claim:scholarship",
-        "source_status live"
-      ],
-      "BP-GIZA": [
-        "recent_update added",
-        "sources+2",
-        "video uCpdIftgYlI (embed only)",
-        "claim:interpretive",
-        "source_status live"
-      ],
-      "CBG-07": [
-        "caveat updated (symposium status); stays Contested, low",
-        "sources+1",
-        "claim:contested"
-      ],
-      "HIT-KAY-01": [
-        "new pin in ot-digs.geojson"
-      ],
-      "GOL-YEH-01": [
-        "new pin in nt-digs.geojson"
-      ],
-      "EGY-BEH-01": [
-        "new pin in oriental-findings.geojson"
-      ],
-      "MOTB-01": [
-        "new pin in ministry-places.geojson"
-      ],
-      "TRD-KEKOVA-01": [
-        "new pin in trade-routes.geojson"
-      ]
-    },
-    "apa_refs_added": 16,
-    "held_not_wired": [
-      "TM-01",
-      "ORI-11 (Qiang)"
-    ],
-    "osm_credit": "TRD-KEKOVA-01 only (coordinates from OpenStreetMap; app makes no OSM calls)",
-    "blocked_host_check": "BLOCK-listed lookalike domain asserted absent",
-    "last_verified": "unchanged/null (never invented)"
-  },
-  "bf_notes": {
-    "build": "20261001-bf",
-    "date": "2026-10-21",
-    "published": false,
-    "local_only": true,
-    "base": "20261001-be (unpublished, kept)",
-    "feature": "Green Mission Work button beside Discover; drawer with month/region/type/org filters; opt-in layer tog-mission-work (off at startup, skipped by Check all); past trips hidden at load by end date",
-    "data": "mission-trips.json from packs/mission-trips-2026-10-21.json",
-    "trips": 60,
-    "by_org": {
-      "CMDA Global Health Outreach": 32,
-      "The Fuller Center for Housing": 3,
-      "Amor Ministries": 1,
-      "e3 Partners": 24
-    },
-    "by_type": {
-      "medical": 36,
-      "building": 4,
-      "teaching-evangelism": 20
-    },
-    "creative_access": 5,
-    "unmapped_region_only": 4,
-    "hosts": "packs/bf-pending-hosts.md",
-    "hint_added": "mission"
+  "per_file": {
+   "ot-digs.geojson": {
+    "dig": 103,
+    "visitor": 2,
+    "none": 0
+   },
+   "nt-digs.geojson": {
+    "dig": 71,
+    "visitor": 3,
+    "none": 0
+   },
+   "sodom-gomorrah.geojson": {
+    "dig": 12,
+    "visitor": 0,
+    "none": 0
+   },
+   "contested-hypotheses.geojson": {
+    "dig": 22,
+    "visitor": 0,
+    "none": 0
+   },
+   "apostle-burial.geojson": {
+    "dig": 0,
+    "visitor": 15,
+    "none": 0
+   },
+   "apostle-ministries.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 9
+   },
+   "artifacts.geojson": {
+    "dig": 0,
+    "visitor": 11,
+    "none": 0
+   },
+   "prophets.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 30
+   },
+   "jesus-miracles.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 25
+   },
+   "exodus-wilderness.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 58
+   },
+   "trade-routes.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 12
+   },
+   "sponsors/expedition-bible/sites.geojson": {
+    "dig": 0,
+    "visitor": 10,
+    "none": 0
+   },
+   "sponsors/alberino/sites.geojson": {
+    "dig": 0,
+    "visitor": 31,
+    "none": 0
+   },
+   "sponsors/expedition-snr/sites.geojson": {
+    "dig": 0,
+    "visitor": 50,
+    "none": 0
+   },
+   "sponsors/_schema-example/sites.geojson": {
+    "dig": 0,
+    "visitor": 1,
+    "none": 0
+   },
+   "event-routes.geojson": {
+    "dig": 0,
+    "visitor": 0,
+    "none": 9
+   }
   }
+ },
+ "marker_cluster": {
+  "library": "leaflet.markercluster@1.5.3",
+  "vendor": [
+   "vendor/leaflet.markercluster.js",
+   "vendor/MarkerCluster.css",
+   "vendor/MarkerCluster.Default.css"
+  ],
+  "clustered_layers": [
+   "ot",
+   "nt",
+   "sg",
+   "ch",
+   "ap",
+   "prophets",
+   "miracles",
+   "wilderness",
+   "artifacts",
+   "sponsor-eb",
+   "sponsor-alb",
+   "sponsor-snr",
+   "ministry-places",
+   "creature-finds"
+  ],
+  "unclustered": [
+   "trade (LineStrings+hubs)",
+   "apostle-ministries (routes)",
+   "event-routes (LineStrings)"
+  ],
+  "options": {
+   "maxClusterRadius": 34,
+   "spiderfyOnMaxZoom": true,
+   "disableClusteringAtZoom": null,
+   "animate": false,
+   "map_maxZoom": 18,
+   "note": "map.maxZoom required by leaflet.markercluster; clustering kept at maxZoom so stacks spiderfy"
+  }
+ },
+ "event_routes": {
+  "version": 1,
+  "build": "20261001-n",
+  "source_pack": "event-routes-site-truth-2026-10-01.json",
+  "geojson": "event-routes.geojson",
+  "attachments": "event-attachments.json",
+  "route_features": 9,
+  "event_attachments": 20,
+  "layer_default": "off",
+  "clustered": false,
+  "deferred": [
+   "ROUTE-jonah-nineveh"
+  ],
+  "optional_included": [
+   "ROUTE-abraham-migration"
+  ],
+  "layers": [
+   "event_route_exodus_main",
+   "event_route_exodus_branch_aqaba",
+   "event_route_exodus_branch_ne_delta",
+   "event_route_assyrian_deportation",
+   "event_route_babylonian_exile",
+   "event_route_return_from_exile",
+   "event_route_holy_family_egypt",
+   "event_route_passion_week",
+   "event_route_abraham_migration"
+  ],
+  "note": "Schematic story LineStrings/MultiLineStrings; attachments merge into existing pin Events section; no new dig pins; pin-gap waypoints are line vertices only."
+ },
+ "travel_advisory": {
+  "build": "20261001-s",
+  "layer_id": "modern_travel_advisory",
+  "snapshot_date": "2026-10-04",
+  "source_pack": "dos-travel-advisory-overlay-2026-10-04.json",
+  "geometry": "vendor/ne_110m_admin_0_countries.geojson",
+  "fills": "travel-advisory-fills.geojson",
+  "filled_countries": 168,
+  "skipped": 47,
+  "skipped_no_iso": [
+   "Bonaire",
+   "French West Indies",
+   "Gaza",
+   "Saba",
+   "Sint Eustatius",
+   "West Bank"
+  ],
+  "iso_match_notes": [
+   "NO, FR, XK matched via ISO_A2_EH because Natural Earth ISO_A2 is -99",
+   "TW matched via ISO_A2_EH because ISO_A2 is CN-TW (not painted as China)"
+  ],
+  "default": "off",
+  "fill_opacity": 0.35,
+  "separate_from": "empire_snapshots",
+  "blurbs": true,
+  "panel_order": "level → blurb → date → State link",
+  "bangladesh_level": 2
+ },
+ "empire_snapshots": {
+  "build": "20261001-p",
+  "source_pack": "empire-snapshots-site-truth-2026-10-04.json",
+  "geojson": "empire-snapshots.geojson",
+  "features": 12,
+  "new_pins": 0,
+  "persia_polygons": 0,
+  "toggles": [
+   "tog-emp-722",
+   "tog-emp-701",
+   "tog-emp-586",
+   "tog-emp-30"
+  ],
+  "default": "off",
+  "paint_note": "~701 reduced Judah draw_rank 2 above Assyria draw_rank 1"
+ },
+ "tribal_allotments": {
+  "build": "20261001-q",
+  "source_pack": "tribal-allotments-site-truth-2026-10-04.json",
+  "geojson": "tribal-allotments.geojson",
+  "layer_id": "tribal_allotments",
+  "toggle": "tog-tribal-allotments",
+  "features": 13,
+  "tribes": 12,
+  "manasseh_polygons": 2,
+  "levi_polygons": 0,
+  "new_pins": 0,
+  "default": "off",
+  "paint_note": "Higher draw_rank on top: Judah 1, most tribes 2, Benjamin 3, Simeon and Dan 4. Simeon inside Judah, not a hole. Dan coastal only.",
+  "separate_from": [
+   "empire_snapshots",
+   "modern_travel_advisory"
+  ]
+ },
+ "destruction_horizons": {
+  "build": "20261001-r",
+  "source_pack": "destruction-horizons-site-truth-2026-10-04.json",
+  "attachments": "destruction-horizons.json",
+  "tags": 15,
+  "unique_pins": 13,
+  "new_pins": 0,
+  "chips": [
+   "701",
+   "586",
+   "70"
+  ],
+  "default": "off",
+  "note": "Filter chips on existing pins. Not markers. Not polygons. Masada and Jericho are not tagged."
+ },
+ "search_aliases": {
+  "build": "20261001-u",
+  "source_pack": "search-aliases-site-truth-2026-10-05.json",
+  "json": "search-aliases.json",
+  "pins": 179,
+  "aliases": 650,
+  "disputed_identification_pins": 16,
+  "matching": "case+accent insensitive; Tell/Tel/Tall and Khirbet/Khirbat/Horvat interchangeable; also called on alias hits",
+  "no_wikipedia": true,
+  "no_new_pins": true
+ },
+ "legend": {
+  "visible": false,
+  "removed": true,
+  "note": "Removed entirely 2026-10-05 per Marcial"
+ },
+ "threat_level": {
+  "source": "U.S. State travel advisory snapshot 2026-10-04",
+  "placement": "below dig status / Open-Closed badge in details drawer",
+  "lookup": "point-in-polygon on travel-advisory-fills.geojson, then location country name fallback"
+ },
+ "pin_travel_advisory": {
+  "build": "20261001-v",
+  "source_pack": "pin-travel-advisory-map-2026-10-05.json",
+  "json": "pin-travel-advisory.json",
+  "rows": 179,
+  "join": "pin_id + layer",
+  "drawer": "Travel advisory: Level N, label + blurb + State Dept updated + travel.state.gov link",
+  "west_bank_gaza": "State separate rows; Jerusalem = Israel"
+ },
+ "visitor_rules": {
+  "source_pack": "visitor-rules-site-truth-2026-10-05.json",
+  "json": "visitor-rules.json",
+  "rows": 25,
+  "pins": 24,
+  "join": "pin_id + layer",
+  "placement": "under travel advisory; JER-NT-03 two lines in file order",
+  "host_vetting": "SAFE 2026-10-05"
+ },
+ "welcome": {
+  "control": "? button above Layers",
+  "first_run": "localStorage digintoscripture_welcome_seen_v1",
+  "copy": "Field draft 2026-10-05"
+ },
+ "ministry_places": {
+  "build": "20261001-v",
+  "source_pack": "creation-attractions-pins-2026-10-05.json",
+  "geojson": "ministry-places.geojson",
+  "layer_id": "ministry_places",
+  "toggle": "tog-ministry-places",
+  "pins": 3,
+  "ids": [
+   "ARK-ENC-01",
+   "CRM-01",
+   "HYS-01"
+  ],
+  "default": "off",
+  "locks": [
+   "gallery link-out only",
+   "press /press/ page only — no zip download",
+   "no kit photos",
+   "no /workspace in Sources"
+  ],
+  "drawer": "attraction vs publisher order per field notes"
+ },
+ "divine_name": {
+  "build": "20261001-v",
+  "source_pack": "tetragrammaton-site-truth-2026-10-05.json",
+  "json": "tetragrammaton-display.json",
+  "display_rows": 137,
+  "footnote_on": 113,
+  "join": "pin_id + layer",
+  "placement": "under Bible (LSB) verse list; contested uses caption-only when footnote off",
+  "font": "vendor/noto-sans-phoenician/NotoSansPhoenician-Regular.ttf",
+  "ofl": "vendor/noto-sans-phoenician/OFL.txt",
+  "font_source": "notofonts/phoenician release NotoSansPhoenician-v2.001 full/ttf",
+  "footnote_override": "SOL-01 Egyptian yhwꜣ line",
+  "cbg14_doi_fix": "10.1186/s40494-023-01130-z",
+  "policebot_dropped": [
+   "halleluyahscripturesfree.com",
+   "emanueltov.info"
+  ],
+  "language_review": "cleared 2026-10-05"
+ },
+ "startup_layers": {
+  "build": "20261001-x",
+  "default_on": [
+   "ot",
+   "nt"
+  ],
+  "default_off": "all other layer-toggle chips"
+ },
+ "onboarding": {
+  "build": "20261001-y",
+  "flow": [
+   "splash",
+   "description",
+   "layers_hint"
+  ],
+  "keys": {
+   "onboarding_seen": "digintoscripture_onboarding_seen_v2",
+   "hints_off": "digintoscripture_hints_off_v1",
+   "layers_hint_seen": "digintoscripture_layers_hint_seen_v1",
+   "legacy_welcome": "digintoscripture_welcome_seen_v1"
+  },
+  "startup_layers": [
+   "ot",
+   "nt"
+  ]
+ },
+ "creature_finds": {
+  "build": "20261001-aa",
+  "source_pack": "creature-finds-pins-2026-10-06.json",
+  "geojson": "creature-finds.geojson",
+  "layer_id": "creature_finds",
+  "label": "Creature finds",
+  "toggle": "tog-creature-finds",
+  "default": "off",
+  "pins_in_pack": 29,
+  "mapped": 28,
+  "held": [
+   "CRF-01 (Skull Creek \"Ebenezer\" Allosaurus quarry) — no published coords; no marker"
+  ],
+  "cm_ae_yes_mapped": 4,
+  "related_points_reuse": [
+   "CRM-01",
+   "ARK-ENC-01 (ministry_places; not duplicated)"
+  ],
+  "clustered": true,
+  "search": "name + aliases + find_facts",
+  "drawer_order": [
+   "cm_ae_evidence.drawer_line_1",
+   "name",
+   "find_facts",
+   "summary",
+   "other_christian_coverage",
+   "neutral_sources",
+   "solidity + caveat",
+   "findspot.precision_note"
+  ],
+  "url_filter": "vetted hosts only (incl. 16 hosts cleared 2026-10-06 + si.edu); coresci.org never linked (Whitmore & Snelling 2014 JCTS cite-only); no press-kit zips; link-out only",
+  "converter": "build_creature_finds_geojson.py",
+  "ux": [
+   "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
+   "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+   "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
+   "official_video_embed only when pack already has YouTube (CRF-11)",
+   "28 mapped pins; CRF-01 held off-map; layer off by default"
+  ]
+ },
+ "published": "2026-10-06",
+ "aa_notes": {
+  "build": "20261001-aa",
+  "date": "2026-10-06",
+  "creature_finds_ux": [
+   "Bone DivIcon: cream 🦴 glyph on lime #84cc16 badge (~26px)",
+   "Drawer uses dig-style storySections + siteActionsHtml (YouTube search); no Strong’s/Divine Name/Hebrew-Greek",
+   "Authority from find_facts.held_at only; official_website only from SAFE institutional URLs already on pin",
+   "official_video_embed only when pack already has YouTube (CRF-11)",
+   "28 mapped pins; CRF-01 held off-map; layer off by default"
+  ],
+  "nested_labels": "Layers tray expand applies OT+NT-only defaults (matches startup lock); startup no longer force-adds sg/ch/ap/trade/prophets/miracles/wilderness",
+  "helpful_hints": "Hints ON by default; sequential tour; ? welcome has Helpful hints toggle; persist digintoscripture_hints_off_v1",
+  "discover": "Gold sparkle CSS on #btn-discover (same size); click flies to first creature find + opens story; long-press or welcome Tours opens path sheet",
+  "zoom": "Leaflet +/- zoomControl disabled; gesture/wheel zoom only"
+ },
+ "zoom_control": false,
+ "ab_notes": {
+  "build": "20261001-ab",
+  "date": "2026-10-06",
+  "discover_categories": [
+   {
+    "id": "creation",
+    "label": "Creation"
+   },
+   {
+    "id": "human-redemption",
+    "label": "Humanity's Redemption"
+   },
+   {
+    "id": "jesus-ot-nt",
+    "label": "Jesus Old-to-New"
+   },
+   {
+    "id": "gentiles-yahweh",
+    "label": "Gentiles Who Followed Yahweh"
+   }
+  ],
+  "discover_path_count": 33,
+  "discover_sources": [
+   "discover-creation-redemption-stories-2026-10-06.md",
+   "discover-more-stories-2026-10-06-pass2.md",
+   "discover-gentiles-yahweh-stories-2026-10-06.md"
+  ],
+  "discover_ui": "Category accordion in #discover-sheet; stops 5-12; long-press/Tours + Discover fly-to-first-creature preserved from aa",
+  "pin_gaps_noted": [
+   "Eden / Haran / Penuel / exact Moriah peak / Upper room / Damascus dig / Magi homeland / Rahab house / baptism ford — narrated without invented pin IDs",
+   "Haman excluded from gentiles category (Naaman is correct)"
+  ]
+ },
+ "ac_notes": {
+  "build": "20261001-ac",
+  "date": "2026-10-06",
+  "helpful_hints": [
+   "Discover step teaches short-tap (Creature fly+story) vs long-press/Tours (category sheet)",
+   "Four categories named: Creation · Humanity's Redemption · Jesus Old-to-New · Gentiles Who Followed Yahweh",
+   "Optional Story tours step opens #discover-sheet (digOpenDiscoverTours) and closes on leave/end",
+   "KEY_TOUR_DONE bumped to digintoscripture_hints_tour_done_v2 (KEY_HINTS_OFF unchanged)",
+   "Welcome muted line mentions category Tours sheet (four story categories)"
+  ],
+  "discover": "No Discover wiring change; hints copy + sheet-open tour step only; categories/paths from ab preserved"
+ },
+ "ad_notes": {
+  "build": "20261001-ad",
+  "date": "2026-10-06",
+  "creature_photo_gallery": [
+   "showCreatureFindStory injects digPhotoGalleryHtml(p) after storySections (before related pins)",
+   "20 CRF-* rows added to site-galleries.json from creature-finds.geojson official_website only",
+   "Outbound gallery-btn links; no rehosted images",
+   "Pins without official_website omit Photo gallery section",
+   "digPhotoGalleryHtml also honors inline gallery_url / photo_gallery if already on feature"
+  ],
+  "site_galleries_count": 32,
+  "creature_gallery_rows": 20
+ },
+ "ae_notes": {
+  "build": "20261001-ae",
+  "date": "2026-10-06",
+  "ministries_paths_ui": "removed",
+  "removed_toggles": [
+   "tog-min",
+   "tog-min-paul",
+   "tog-min-peter",
+   "tog-min-philip",
+   "tog-min-john"
+  ],
+  "kept": [
+   "MIN FeatureCollection in index (and apostle-ministries.geojson on disk) for Discover / findSiteFeatureById",
+   "showMinistryStory for Discover/search open of MIN-* ids",
+   "Apostle Martyrdom tog-ap unchanged"
+  ],
+  "map": "Paul/Peter/Philip/John LineString routes no longer painted; syncMinLayers/refillMinLayersForEra are no-ops"
+ },
+ "af_notes": {
+  "build": "20261001-af",
+  "date": "2026-10-06",
+  "layers_grouping": "OT / NT / Other section headers in Layers tray",
+  "sections": {
+   "OT": [
+    "ot",
+    "prophets",
+    "wilderness",
+    "ev-abraham",
+    "ev-assyrian",
+    "ev-babylon",
+    "ev-return",
+    "tribal-allotments",
+    "emp-722",
+    "emp-701",
+    "emp-586",
+    "ev-exodus-main",
+    "ev-exodus-aqaba",
+    "ev-exodus-nedelta"
+   ],
+   "NT": [
+    "nt",
+    "miracles",
+    "ev-holy-family",
+    "ev-passion",
+    "ap",
+    "emp-30"
+   ],
+   "Other": [
+    "ch",
+    "sg",
+    "trade",
+    "artifacts",
+    "ministry-places",
+    "creature-finds",
+    "travel-advisory",
+    "sponsor-eb",
+    "sponsor-alb",
+    "sponsor-snr"
+   ]
+  },
+  "unchanged": [
+   "Era filter remains a filter (not a layer)",
+   "Destruction horizons remain a filter",
+   "Startup defaults OT digs + NT digs only",
+   "Check/Uncheck all across all layer-toggle inputs",
+   "Ministries path toggles stay removed (ae)"
+  ]
+ },
+ "ag_notes": {
+  "build": "20261001-ag",
+  "date": "2026-10-06",
+  "ux": [
+   "Details drawer (#story-body) resets scrollTop to 0 on every pin open / content swap via openStoryPanel + setStoryHtml",
+   "Covers digs, creature finds, sponsors, Discover, and other show* story paths that call openStoryPanel",
+   "Layers OT/NT/Other grouping unchanged"
+  ]
+ },
+ "ah_notes": {
+  "build": "20261001-ah",
+  "date": "2026-10-06",
+  "alberino_expansion": {
+   "prior": 2,
+   "new_pins": 29,
+   "total": 31,
+   "phase": "expanded",
+   "status": "live",
+   "regions": {
+    "South America": 22,
+    "United States": 4,
+    "other": 3
+   },
+   "preserved": [
+    "SPN-alberino-01",
+    "SPN-alberino-02"
+   ],
+   "sources": [
+    "timothy-alberino-archive (all-videos.tsv + notes)",
+    "timothyalberino.com/pics captions",
+    "existing sponsor-alberino-pack-2026-09-30 off-map list"
+   ],
+   "note": "On-site / expedition / conference pins only; desk-only Giza/Hermon/Markawasi skipped. Contested framing disclosure retained."
+  },
+  "prior_ag_ux": "Details drawer scroll reset retained from 20261001-ag"
+ },
+ "ai_notes": {
+  "build": "20261001-ai",
+  "date": "2026-10-06",
+  "alberino_surveyor_merge": {
+   "source_pack": "packs/alberino-visit-sites-2026-10-06.json + alberino-visit-sites.geojson",
+   "match_rule": "place name + approximate coords (NOT pack id)",
+   "preserved_untouched": [
+    "SPN-alberino-01",
+    "SPN-alberino-02"
+   ],
+   "updated_live_ids": [
+    "SPN-alberino-03",
+    "SPN-alberino-06",
+    "SPN-alberino-08",
+    "SPN-alberino-05",
+    "SPN-alberino-10",
+    "SPN-alberino-11",
+    "SPN-alberino-15",
+    "SPN-alberino-19",
+    "SPN-alberino-20",
+    "SPN-alberino-21",
+    "SPN-alberino-23",
+    "SPN-alberino-24",
+    "SPN-alberino-25",
+    "SPN-alberino-26",
+    "SPN-alberino-29",
+    "SPN-alberino-30",
+    "SPN-alberino-31",
+    "SPN-alberino-17"
+   ],
+   "updated_count": 18,
+   "appended": [
+    {
+     "pack_id": "SPN-alberino-10",
+     "live_id": "SPN-alberino-32",
+     "name": "Capoi megaliths (San Martín high jungle)",
+     "teaching_locus": false
+    },
+    {
+     "pack_id": "SPN-alberino-14",
+     "live_id": "SPN-alberino-33",
+     "name": "Aramu Muru (Hayu Marka doorway)",
+     "teaching_locus": false
+    },
+    {
+     "pack_id": "SPN-alberino-15",
+     "live_id": "SPN-alberino-34",
+     "name": "Puno / Lake Titicaca altiplano",
+     "teaching_locus": false
+    },
+    {
+     "pack_id": "SPN-alberino-22",
+     "live_id": "SPN-alberino-35",
+     "name": "Mount Hermon (Watchers descent locus — Enoch)",
+     "teaching_locus": true
+    },
+    {
+     "pack_id": "SPN-alberino-23",
+     "live_id": "SPN-alberino-36",
+     "name": "Giza plateau (tourist core)",
+     "teaching_locus": true
+    },
+    {
+     "pack_id": "SPN-alberino-25",
+     "live_id": "SPN-alberino-37",
+     "name": "Rome (True Legends Episode 2 shoot)",
+     "teaching_locus": false
+    },
+    {
+     "pack_id": "SPN-alberino-27",
+     "live_id": "SPN-alberino-38",
+     "name": "Peru cloud-forest / high-jungle villages (travelogue)",
+     "teaching_locus": false
+    }
+   ],
+   "appended_count": 7,
+   "teaching_only": [
+    {
+     "id": "SPN-alberino-35",
+     "name": "Mount Hermon (Watchers descent locus — Enoch)"
+    },
+    {
+     "id": "SPN-alberino-36",
+     "name": "Giza plateau (tourist core)"
+    }
+   ],
+   "coords_improved": [
+    "SPN-alberino-25 (Sage Wall)",
+    "SPN-alberino-20 (San Antonio de Pintuyacu)"
+   ],
+   "total_pins": 38,
+   "policebot_hosts_added": [
+    "gensix.com",
+    "www.gensix.com",
+    "sagemountain.org",
+    "www.sagemountain.org",
+    "alberinoapparel.printify.me"
+   ],
+   "policebot_notes": {
+    "gensix.com": "SAFE — disclose commercial/advocacy; paraphrase+link only (no rehost)",
+    "sagemountain.org": "SAFE — check hours/reservations before you go",
+    "alberinoapparel.printify.me": "SAFE — merch CTA"
+   },
+   "note": "Field narrative merged onto live ids by place/coords; pack ids not reused for appends. Hermon/Giza added as teaching-locus (visit_confirmed=false). No existing live pins removed."
+  },
+  "prior_ah": "Alberino expansion 31 pins (20261001-ah)"
+ },
+ "aj_notes": {
+  "build": "20261001-ak",
+  "date": "2026-10-06",
+  "alberino_text_scrub": {
+   "pins_text_changed": 38,
+   "pin_ids": [
+    "SPN-alberino-01",
+    "SPN-alberino-02",
+    "SPN-alberino-03",
+    "SPN-alberino-04",
+    "SPN-alberino-05",
+    "SPN-alberino-06",
+    "SPN-alberino-07",
+    "SPN-alberino-08",
+    "SPN-alberino-09",
+    "SPN-alberino-10",
+    "SPN-alberino-11",
+    "SPN-alberino-12",
+    "SPN-alberino-13",
+    "SPN-alberino-14",
+    "SPN-alberino-15",
+    "SPN-alberino-16",
+    "SPN-alberino-17",
+    "SPN-alberino-18",
+    "SPN-alberino-19",
+    "SPN-alberino-20",
+    "SPN-alberino-21",
+    "SPN-alberino-22",
+    "SPN-alberino-23",
+    "SPN-alberino-24",
+    "SPN-alberino-25",
+    "SPN-alberino-26",
+    "SPN-alberino-27",
+    "SPN-alberino-28",
+    "SPN-alberino-29",
+    "SPN-alberino-30",
+    "SPN-alberino-31",
+    "SPN-alberino-32",
+    "SPN-alberino-33",
+    "SPN-alberino-34",
+    "SPN-alberino-35",
+    "SPN-alberino-36",
+    "SPN-alberino-37",
+    "SPN-alberino-38"
+   ],
+   "ui_label": "sponsorCtaHtml: Confidence → Confidence",
+   "replacements": [
+    "do not raise the confidence rating → dig-consensus confidence",
+    "outbound host for host vetting → outbound visitor-site host"
+   ],
+   "keys_kept": [
+    "surveyor_solidity",
+    "surveyor_caveat",
+    "policebot_hosts"
+   ],
+   "note": "User-visible Alberino detail strings reworded to field-notes voice; contested framing retained."
+  },
+  "prior_ai": "Alberino field-notes merge 38 pins (20261001-ai)"
+ },
+ "al_notes": {
+  "build": "20261001-al",
+  "date": "2026-10-10",
+  "name_scrub": "app-wide editorial-voice scrub; publish guard enforced",
+  "discover": "nested category bodies no longer separate scrollers; single outer finger-scroll list; dvh max-height",
+  "details_scroll": "MutationObserver on #story-body + momentum kill; fixed recursive storyBodyEl fallback",
+  "layers": "ghost-tap guard 500ms after tray opens; open never toggles"
+ },
+ "oct10_packs": {
+  "build": "20261001-am",
+  "published": false,
+  "layers": {
+   "charlie_kirk": 13,
+   "jesus_death_sources": 12,
+   "sponsor_rhb": 1,
+   "breakout_pastors": 10,
+   "oriental_findings": 10
+  },
+  "cctv_enabled_pins": 61
+ },
+ "ken_ham": {
+  "build": "20261001-an",
+  "published": false,
+  "layer": "ken_ham",
+  "pins": 7,
+  "mentions_attached": {
+   "ARK-ENC-01": 7,
+   "CRM-01": 4
+  },
+  "held_off_map": 8,
+  "channel": "https://www.youtube.com/@aigkenham"
+ },
+ "drawer_discover_ao": {
+  "build": "20261001-ao",
+  "published": false,
+  "drawer": "title-first, sectioned (Location and status; Story / What was found; Name & History; Evidence & caveats; Videos & gallery; Webcam; Sources and links; Sponsor)",
+  "name_history_file": "app/name-history.json (optional)",
+  "schema_doc": "NAME-HISTORY-SCHEMA.md",
+  "discover": "outer sheet scroll + per-category nested scroll"
+ },
+ "ap_notes": {
+  "build": "20261001-ap",
+  "date": "2026-10-11",
+  "published": false,
+  "cctv": "deduped 61 pins/76 camera links -> 11 pins/11 links (7 unique cameras); kept only pins each camera shows",
+  "base_maps": "Base Maps tab in Layers drawer: OSM, OpenTopoMap, CARTO Positron, CARTO Dark Matter, DARE Imperium Romanum (radio) + CARTO labels and PEF 1880 overlays; Esri World Imagery skipped (key/account terms). Tiles list: packs/basemap-tiles-2026-10-11.md",
+  "layers": "collapsible categories; Era filter and Destruction horizons filter removed (era shown in drawer, destruction tags in Name & History)",
+  "drawer": "Scripture (LSB) section first; YouTube search inside Videos & gallery; repeated lines removed",
+  "audit": "packs/audit-2026-10-11.{json,md} (applied)",
+  "audit_fixes": {
+   "sam_nt_rename": "SAM-01 (nt-digs) -> SAM-NT-01; stops naaman-syrian-2, ethiopian-gaza-road-2",
+   "drawer_reset": "drawer cleared on every pin open",
+   "discover_first_para_dropped": 205,
+   "dig_halt_boilerplate_shortened_pins": 160,
+   "video_refs_removed": 51,
+   "video_ids_now_single_pin": 19,
+   "wrong_place_text_removed": 0
+  },
+  "updates_2026_10_11": {
+   "updated": [
+    "WW-01 (Ophel purification complex)",
+    "RAR-01 (Lower Aqueduct)",
+    "BETHS-02 (season 10)",
+    "SHI-01 (wall; low-medium)"
+   ],
+   "added": [
+    "CGAT-01 Carmei Gat (nt_digs)"
+   ],
+   "skipped": [
+    "Tupinamba flood tradition: no existing layer fits"
+   ]
+  }
+ },
+ "notes_aq": "Discover zoom-out/pause/zoom-in tour animation; APA 7 Sources with Copy all + per-citation copy",
+ "ar_notes": {
+  "build": "20261001-ar",
+  "date": "2026-10-11",
+  "published": false,
+  "relics_layer": {
+   "file": "relics.geojson",
+   "toggle": "tog-pack-rel",
+   "category": "Other",
+   "default": "off",
+   "pins": [
+    "REL-01"
+   ]
+  },
+  "artifacts_added": [
+   "ART-12 Taylor Prism (NIN-01)",
+   "ART-13 Black Obelisk (NIM-01)",
+   "ART-14 Code of Hammurabi (SUS-01, background)"
+  ],
+  "sources_added_to_reassessed_pins": 37,
+  "host_rename": "oi.uchicago.edu -> isac.uchicago.edu",
+  "apa": {
+   "refs_inline": 286,
+   "hidden_not_loading": 66,
+   "url_cites": 421,
+   "apa_applied": 355
+  },
+  "skipped": [
+   "Lirey 1350s provenance sentence (no cited source)",
+   "JM-GOLGOTHA optional cross-link to REL-01",
+   "British Museum object URLs for ART-12/13 (not confirmed; museum home page used)"
+  ]
+ },
+ "as_notes": {
+  "build": "20261001-as",
+  "date": "2026-10-11",
+  "published": false,
+  "source": "packs/policebot-host-verdicts-2026-10-11.md",
+  "rehost": {
+   "mota.gov.eg": "https://egymonuments.gov.eg/",
+   "israelmuseum.org.il": "https://www.imj.org.il/",
+   "dainst.org": "https://www.dainst.blog/ (homepage; deep path not mapped)"
+  },
+  "removed": [
+   "qantir.de"
+  ],
+  "links_hidden_cite_text_kept": [
+   "ascsa.edu.gr",
+   "oracc.museum.upenn.edu",
+   "expeditiondeadseaplain.org",
+   "cfeetk.cnrs.fr",
+   "izmirmuzeleri.gov.tr",
+   "qeiyafa.huji.ac.il",
+   "rehov.org",
+   "agathe.gr",
+   "mcth.ir",
+   "oracc.org"
+  ],
+  "kept": "moa.portal@mota.gov.eg contact emails (not links)"
+ },
+ "at_notes": {
+  "build": "20261001-at",
+  "date": "2026-10-11",
+  "published": false,
+  "source": [
+   "packs/bibleplaces-sweep-2026-10-11.json",
+   "packs/grok-share-2-sources-2026-10-11.json"
+  ],
+  "pins_added": {
+   "oriental-findings": 12,
+   "ot-digs": 19,
+   "nt-digs": 42,
+   "flood-traditions": 1
+  },
+  "pins_enriched": {
+   "nt-digs": 48,
+   "ot-digs": 40,
+   "exodus-wilderness": 4,
+   "sodom-gomorrah": 2,
+   "jesus-miracles": 2,
+   "prophets": 5,
+   "contested-hypotheses": 2,
+   "apostle-burial": 2,
+   "shi/jer": 2
+  },
+  "folded_into_existing": [
+   "BP-CHURCH_OF_ST_PAUL -> AP-13",
+   "BP-JEBELMUSA -> EW-15",
+   "BP-KARNAK -> KAR-01",
+   "BP-PERSEPOLIS -> PER-01",
+   "BP-VATICAN -> AP-01"
+  ],
+  "skipped": [
+   "NT-CARMEI-GAT (Carmei Gat already CGAT-01)"
+  ],
+  "missing_match_ids": [],
+  "apa_refs_added": 177,
+  "flood_layer": {
+   "file": "flood-traditions.geojson",
+   "toggle": "tog-pack-fld",
+   "category": "Other",
+   "default": "off",
+   "pins": [
+    "FLD-01"
+   ]
+  },
+  "link_only": "BiblePlaces.com links + APA; no copied photos or text",
+  "cctv": {
+   "added_cameras": 5,
+   "pins": 15,
+   "source": "packs/webcams-more-2026-10-11.json"
+  }
+ },
+ "au_notes": {
+  "build": "20261001-au",
+  "date": "2026-10-11",
+  "published": false,
+  "cctv": {
+   "rule": "each camera URL on exactly one pin",
+   "western_wall": {
+    "keep": "WW-01",
+    "removed_from": [
+     "JER-NT-03",
+     "SPN-snr-27",
+     "SPN-snr-28"
+    ]
+   },
+   "castel_santangelo": {
+    "keep": "ROME-02",
+    "removed_from": [
+     "AP-01"
+    ]
+   },
+   "pins_after": 11
+  },
+  "sodom_gomorrah": {
+   "unique_ids": true,
+   "renames": [
+    {
+     "index": 1,
+     "from": "tall-el-hammam-teh-tell-el-hammam-",
+     "to": "tall-el-hammam-teh-tell-el-hammam-2"
+    },
+    {
+     "index": 2,
+     "from": "tall-el-hammam-teh-tell-el-hammam-",
+     "to": "tall-el-hammam-teh-tell-el-hammam-3"
+    },
+    {
+     "index": 3,
+     "from": "tall-el-hammam-teh-tell-el-hammam-",
+     "to": "tall-el-hammam-teh-tell-el-hammam-4"
+    },
+    {
+     "index": 5,
+     "from": "bab-edh-dhra-bab-adh-dhra-",
+     "to": "bab-edh-dhra-bab-adh-dhra-2"
+    },
+    {
+     "index": 6,
+     "from": "bab-edh-dhra-bab-adh-dhra-",
+     "to": "bab-edh-dhra-bab-adh-dhra-3"
+    },
+    {
+     "index": 7,
+     "from": "bab-edh-dhra-bab-adh-dhra-",
+     "to": "bab-edh-dhra-bab-adh-dhra-4"
+    },
+    {
+     "index": 9,
+     "from": "numeira-numayra-an-numayra-",
+     "to": "numeira-numayra-an-numayra-2"
+    },
+    {
+     "index": 10,
+     "from": "numeira-numayra-an-numayra-",
+     "to": "numeira-numayra-an-numayra-3"
+    }
+   ]
+  },
+  "local_only": true
+ },
+ "bd_notes": {
+  "build": "20261001-bd",
+  "date": "2026-10-16",
+  "published": false,
+  "local_only": true,
+  "source": [
+   "packs/updates-2026-10-16.json",
+   "packs/updates-2026-10-16-linguist.json"
+  ],
+  "wired": {
+   "ORI-07": [
+    "recent_update",
+    "sources+1",
+    "video NJ1cBhH803w",
+    "claim:interpretive"
+   ],
+   "KH-01": [
+    "recent_update",
+    "sources+1",
+    "source_status live",
+    "claim:contested"
+   ],
+   "SPN-snr-15": [
+    "recent_update",
+    "sources+3",
+    "video cK9a2t4KbC8",
+    "source_status live",
+    "claim:scholarship"
+   ],
+   "RAR-01": [
+    "recent_update",
+    "sources+3",
+    "source_status live",
+    "claim:scholarship"
+   ],
+   "COD-01,COD-02,COD-04": [
+    "recent_update",
+    "sources+3",
+    "claim:scholarship"
+   ],
+   "HAT-01": [
+    "recent_update",
+    "sources+2",
+    "source_status live",
+    "claim:scholarship"
+   ],
+   "BP-NICOPOLIS": [
+    "recent_update",
+    "sources+3",
+    "source_status live",
+    "C03782 verse-only (Scripture tier)",
+    "claim:scholarship",
+    "claim:scholarship"
+   ],
+   "WW-01": [
+    "recent_update",
+    "sources+3",
+    "claim:scholarship"
+   ],
+   "JER-NT-02": [
+    "recent_update",
+    "sources+2",
+    "claim:scholarship"
+   ],
+   "CBG-07": [
+    "recent_update",
+    "sources+3",
+    "source_status live",
+    "claim:contested",
+    "claim:contested",
+    "contested_set CS-CBG-07-2026 (2 cards, no verdict)"
+   ]
+  },
+  "apa_refs_added": 19,
+  "held_not_wired": [
+   "TM-01",
+   "HIT-KAY-01 Kayalıpınar",
+   "GOL-YEH-01 Yehudiya",
+   "EGY-BEH-01 Behbeit el-Hagar",
+   "MOTB-01 Museum of the Bible"
+  ],
+  "caution_hosts_title_only": {
+   "cityofdavid.org.il": "COD-01,COD-02,COD-04 only, alongside TAU",
+   "noahsarkscans.com.tr": "CBG-07 as claimant only"
+  },
+  "source_checked": "2026-10-16",
+  "last_verified": "unchanged (never invented)",
+  "reruns": [
+   {
+    "date": "2026-10-16",
+    "changes": {
+     "RAR-01": [
+      "recent_update refreshed",
+      "Oct 11 entry 26 km -> 21 km",
+      "sources+1",
+      "claim refreshed C06573"
+     ]
+    },
+    "apa_refs_added": 1
+   }
+  ]
+ },
+ "be_notes": {
+  "build": "20261001-be",
+  "date": "2026-10-21",
+  "published": false,
+  "local_only": true,
+  "source": [
+   "packs/updates-2026-10-21.json",
+   "packs/updates-2026-10-21-linguist.json"
+  ],
+  "wired": {
+   "DOR-01": [
+    "recent_update added",
+    "sources+3",
+    "claim:scholarship",
+    "source_status live"
+   ],
+   "BP-GIZA": [
+    "recent_update added",
+    "sources+2",
+    "video uCpdIftgYlI (embed only)",
+    "claim:interpretive",
+    "source_status live"
+   ],
+   "CBG-07": [
+    "caveat updated (symposium status); stays Contested, low",
+    "sources+1",
+    "claim:contested"
+   ],
+   "HIT-KAY-01": [
+    "new pin in ot-digs.geojson"
+   ],
+   "GOL-YEH-01": [
+    "new pin in nt-digs.geojson"
+   ],
+   "EGY-BEH-01": [
+    "new pin in oriental-findings.geojson"
+   ],
+   "MOTB-01": [
+    "new pin in ministry-places.geojson"
+   ],
+   "TRD-KEKOVA-01": [
+    "new pin in trade-routes.geojson"
+   ]
+  },
+  "apa_refs_added": 16,
+  "held_not_wired": [
+   "TM-01",
+   "ORI-11 (Qiang)"
+  ],
+  "osm_credit": "TRD-KEKOVA-01 only (coordinates from OpenStreetMap; app makes no OSM calls)",
+  "blocked_host_check": "BLOCK-listed lookalike domain asserted absent",
+  "last_verified": "unchanged/null (never invented)"
+ },
+ "bf_notes": {
+  "build": "20261001-bf",
+  "date": "2026-10-21",
+  "published": false,
+  "local_only": true,
+  "base": "20261001-be (unpublished, kept)",
+  "feature": "Green Mission Work button beside Discover; drawer with month/region/type/org filters; opt-in layer tog-mission-work (off at startup, skipped by Check all); past trips hidden at load by end date",
+  "data": "mission-trips.json from packs/mission-trips-2026-10-21.json",
+  "trips": 60,
+  "by_org": {
+   "CMDA Global Health Outreach": 32,
+   "The Fuller Center for Housing": 3,
+   "Amor Ministries": 1,
+   "e3 Partners": 24
+  },
+  "by_type": {
+   "medical": 36,
+   "building": 4,
+   "teaching-evangelism": 20
+  },
+  "creative_access": 5,
+  "unmapped_region_only": 4,
+  "hosts": "packs/bf-pending-hosts.md",
+  "hint_added": "mission"
+ },
+ "bg_notes": {
+  "build": "20261001-bg",
+  "date": "2026-10-27",
+  "published": false,
+  "local_only": true,
+  "base": "20261001-bf (live)",
+  "pin_pack": "packs/bg-coords-yardenit-2026-10-27.json",
+  "cams_added": [
+   [
+    "BP-PETRA",
+    "www.skylinewebcams.com",
+    "Petra — The Treasury (Al-Khazneh)"
+   ],
+   [
+    "BP-PETRA",
+    "www.skylinewebcams.com",
+    "Petra — Visitor Center (entrance plaza)"
+   ],
+   [
+    "PUT-01",
+    "www.skylinewebcams.com",
+    "Pozzuoli — Macellum (Temple of Serapis)"
+   ],
+   [
+    "BP-PHOENIX_CRETE",
+    "www.skylinewebcams.com",
+    "Loutro bay, Sfakia (one of two Phoenix harbour candidates)"
+   ],
+   [
+    "BP-GORTYN_CRETE",
+    "www.skylinewebcams.com",
+    "Agioi Deka, beside Gortyn (ruins not confirmed in view)"
+   ],
+   [
+    "CYP-01",
+    "www.paphoslife.com",
+    "Kato Paphos sea front (still image, refreshes)"
+   ],
+   [
+    "BETHL-01",
+    "tourism.ps",
+    "Nativity Live — Church of the Nativity / Manger Square"
+   ],
+   [
+    "WW-01",
+    "www.youtube.com",
+    "Mt. of Olives Prayer Bridge — YouTube channel (Western Wall, Temple Archaeological Park live view)"
+   ],
+   [
+    "YARD-01",
+    "www.yardenit.com",
+    "Live from Yardenit (official live page)"
+   ],
+   [
+    "JOP-01",
+    "beachcam.co.il",
+    "Old Jaffa — Jaffa Port (from the north)"
+   ],
+   [
+    "BP-COLOSSEUM",
+    "vedetta.org",
+    "Rome — Colosseum (vedetta)"
+   ],
+   [
+    "BP-MAMERTINE_PRISON",
+    "vedetta.org",
+    "Rome — Piazza Venezia: Aracoeli & Vittoriano"
+   ],
+   [
+    "ROME-02",
+    "www.meteoregionelazio.it",
+    "Rome — Monte Ciocci view east to Vatican City"
+   ],
+   [
+    "AP-03",
+    "www.windy.com",
+    "Santiago de Compostela — Praza do Obradoiro"
+   ],
+   [
+    "DELPH-01",
+    "www.forecastweather.gr",
+    "Delphi — village view south-west"
+   ]
+  ],
+  "cams_skipped": [
+   [
+    "TM-01",
+    "https://www.skylinewebcams.com/en/webcam/israel/jerusalem-district/jerusalem/temple-mount.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "OLIV-01",
+    "https://www.skylinewebcams.com/en/webcam/israel/jerusalem-district/jerusalem/mount-of-olives.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "BP-GIZA",
+    "https://www.skylinewebcams.com/en/webcam/egypt/cairo/cairo/great-pyramid-of-giza.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "BP-GIZA",
+    "https://www.skylinewebcams.com/en/webcam/egypt/cairo/cairo/pyramids-giza-sphinx.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "NAZ-01",
+    "https://www.skylinewebcams.com/en/webcam/israel/northern-district/nazareth/grotto-of-the-annunciation.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "YARD-01",
+    "https://www.skylinewebcams.com/en/webcam/israel/northern-district/yardenit/jordan-river.html",
+    "SkylineWebcams page OFFLINE at build time"
+   ],
+   [
+    "OLIV-01",
+    "TV7 Israel News Jerusalem feed",
+    "stream disabled at its host (enabled=0)"
+   ],
+   [
+    "BETHL-01",
+    "Bethlehem Municipality Manger Square cam (bethlehem-city.org)",
+    "host CAUTION (hold): 502 on 2026-10-27"
+   ],
+   [
+    "BP-ISTANBUL",
+    "İBB İstanbulu Seyret Sultanahmet 2 (istanbuluseyret.ibb.gov.tr)",
+    "host CAUTION (hold): TLS fails, unverified"
+   ]
+  ],
+  "coords": [
+   "TM-01: [35.2137, 31.7683] -> [35.2352962, 31.7780172] (Dome of the Rock platform (Haram al-Sharif / Temple Mount))",
+   "BP-RHODES: [27.9194815, 36.1724049] -> [28.2241559, 36.4454776] (Palace of the Grand Master, Medieval City of Rhodes (Rhodes town))",
+   "BP-OLDCITYGATES: [14.4321526, 50.0847768] -> [35.2369282, 31.7808219] (Lions' Gate / St. Stephen's Gate)"
+  ],
+  "new_pins": [
+   "YARD-01 at [35.5708638, 32.7109379] in nt-digs.geojson"
+  ],
+  "pending": [],
+  "tiers": {
+   "to_nt": 0,
+   "to_scholarship": 0,
+   "ambiguous": 0,
+   "covered_by_contested": 118,
+   "records_untagged_no_claims": 168,
+   "nt_verse_in_scholarship_claims_not_moved": 69,
+   "sponsor_records_left_untagged": 99
+  },
+  "site_truth": {
+   "moved": [
+    "BP-RABAT -> [14.3994411, 35.8817571] (2030.25 km), ot-digs -> nt-digs",
+    "BP-ITALICA -> [-6.0453188, 37.4419041] (207.26 km)",
+    "BP-COVEOFSOWER -> [35.560238, 32.874241] (0.97 km)"
+   ],
+   "relinked": [
+    "TIB-01: https://www.bibleplaces.com/tiberias/ -> https://hadashot.iaa.org.il/report_detail_eng.aspx?id=1381&mag_id=117",
+    "UGA-01: https://www.biblicalarchaeology.org/daily/ancient-cultures/ancient-near-eastern-world/ugarit/ -> https://archeologie.culture.gouv.fr/proche-orient/en/ugarit-ras-shamra",
+    "KAJ-01: https://www.biblicalarchaeology.org/daily/biblical-artifacts/inscriptions/the-asherah-of-kuntillet-ajrud/ -> https://www.biblicalarchaeology.org/daily/biblical-artifacts/puzzling-finds-from-kuntillet-ajrud-a-drawing-of-god-labeled-yahweh-and-his-asherah-or-the-egyptian-god-bes/",
+    "JER-01,JER-02: https://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/the-walls-of-jericho/ -> https://biblearchaeology.org/research-articles/the-walls-of-jericho/",
+    "BSH-01: https://www.penn.museum/sites/bethshean/ -> https://www.penn.museum/sites/expedition/beth-shan/",
+    "ORI-08: rewritten, 10 claim rows wired",
+    "NAZ-01: https://www.antiquities.org.il/ -> https://publications.iaa.org.il/atiqot/vol98/iss1/3/",
+    "MEG-01: https://megiddo.tau.ac.il/ -> https://www.themegiddoexpedition.com/past-excavations",
+    "MEG-02,MEG-03: https://megiddo.tau.ac.il/ -> https://www.themegiddoexpedition.com/past-excavations",
+    "SHI-01: https://digshiloh.org/ -> https://biblearchaeology.org/excavation-site/shiloh/",
+    "ROME-02: https://www.scavi.va/ -> https://www.basilicasanpietro.va/en/products/the-necropolis"
+   ],
+   "claims_added": 0,
+   "claims_changed": [
+    "C04433"
+   ],
+   "fills": 44,
+   "held": [],
+   "not_found": [],
+   "notes": [
+    "NUZ-01: UNESCO 1130 removed from dig_halt.sources and C05328-C05332 (now untraceable). The dig-halt text itself still shows (same wording is used on other pins, so it is not added to the global hidden list). C05331 still mentions the UNESCO Danger listing (Ashur): flagged, not changed."
+   ]
+  },
+  "apostle_panel_fix": true,
+  "debug_fixes": [
+   "D1 dot-line",
+   "D2 hide empty sections",
+   "D3 mobile-web-app-capable meta",
+   "D4 192px logo"
+  ],
+  "yardenit_host_cleared": true,
+  "osm_credit": "© OpenStreetMap contributors, ODbL"
+ }
 }

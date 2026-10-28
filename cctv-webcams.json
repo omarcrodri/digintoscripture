@@ -1,154 +1,356 @@
 {
-  "filter_label": "CCTV enabled",
-  "note": "Public tourism webcams, link-out only. Live view may be unavailable; camera spots are approximate.",
-  "pins": [
+ "filter_label": "CCTV enabled",
+ "note": "Public tourism webcams, link-out only. Live view may be unavailable; camera spots are approximate.",
+ "pins": [
+  {
+   "pin_id": "BER-01",
+   "pin_name": "Berea (Veria)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
     {
-      "pin_id": "BER-01",
-      "pin_name": "Berea (Veria)",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Veria (Berea) - Clock Square",
-          "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/veria/clock-square.html",
-          "km": 0.17
-        }
-      ]
-    },
-    {
-      "pin_id": "ATH-01",
-      "pin_name": "Athens — Ancient Agora",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Acropolis of Athens",
-          "url": "https://www.skylinewebcams.com/en/webcam/ellada/atiki/athina/acropolis-athens.html",
-          "km": 0.47
-        }
-      ]
-    },
-    {
-      "pin_id": "ROME-02",
-      "pin_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Rome - Castel Sant'Angelo",
-          "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/castel-santangelo.html",
-          "km": 1.09
-        },
-        {
-          "name": "St. Peter's Square — Vatican Media Live",
-          "url": "https://www.comunicazione.va/en/servizi/live.html",
-          "km": 0.3,
-          "operator": "Vatican Media (Dicastery for Communication, Holy See)",
-          "label": "official"
-        }
-      ]
-    },
-    {
-      "pin_id": "MALT-01",
-      "pin_name": "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Malta - St Paul's Bay",
-          "url": "https://www.skylinewebcams.com/en/webcam/malta/malta/bugibba/st-pauls-bay.html",
-          "km": 0.1
-        }
-      ]
-    },
-    {
-      "pin_id": "WW-01",
-      "pin_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
-          "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
-          "km": 0.14
-        }
-      ]
-    },
-    {
-      "pin_id": "SPN-alberino-04",
-      "pin_name": "Cusco — Plaza de Armas",
-      "layer_file": "sponsors/alberino/sites.geojson",
-      "cameras": [
-        {
-          "name": "Cusco - Plaza Mayor",
-          "url": "https://www.skylinewebcams.com/en/webcam/peru/cusco/cusco/plaza-mayor.html",
-          "km": 0.01
-        }
-      ]
-    },
-    {
-      "pin_id": "SPN-alberino-37",
-      "pin_name": "Rome (True Legends Episode 2 shoot)",
-      "layer_file": "sponsors/alberino/sites.geojson",
-      "cameras": [
-        {
-          "name": "Rome - Piazza Navona",
-          "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
-          "km": 1.62
-        }
-      ]
-    },
-    {
-      "pin_id": "THES-01",
-      "pin_name": "Thessalonica (Thessaloniki — Roman forum / agora)",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Thessaloniki — Aristotelous Square",
-          "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/thessaloniki/plateia-aristotelous.html",
-          "km": 0.86,
-          "operator": "SkylineWebcams",
-          "label": "third-party webcam"
-        }
-      ]
-    },
-    {
-      "pin_id": "PHIL-01",
-      "pin_name": "Philippi",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Kavala (ancient Neapolis) — harbour",
-          "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/kavala/kavala.html",
-          "km": 13.63,
-          "operator": "SkylineWebcams",
-          "label": "third-party webcam"
-        }
-      ]
-    },
-    {
-      "pin_id": "COR-02",
-      "pin_name": "Cenchreae (Kenchreai)",
-      "layer_file": "nt-digs.geojson",
-      "cameras": [
-        {
-          "name": "Corinth — Kalamaki (Saronic Gulf)",
-          "url": "https://www.skylinewebcams.com/en/webcam/ellada/peloponnese/corinth/kalamaki.html",
-          "km": 3.96,
-          "operator": "SkylineWebcams",
-          "label": "third-party webcam"
-        }
-      ]
-    },
-    {
-      "pin_id": "WSJ-01",
-      "pin_name": "Tacitus — Annals 15.44 (Rome)",
-      "layer_file": "jesus-death-sources.geojson",
-      "cameras": [
-        {
-          "name": "Rome — Colosseum",
-          "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
-          "km": 0.63,
-          "operator": "SkylineWebcams",
-          "label": "third-party webcam"
-        }
-      ]
+     "name": "Veria (Berea) - Clock Square",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/veria/clock-square.html",
+     "km": 0.17
     }
-  ],
-  "dedupe_note": "20261001-au: each camera URL on exactly one pin; Western Wall cams only on WW-01; Castel Sant'Angelo only on ROME-02."
+   ]
+  },
+  {
+   "pin_id": "ATH-01",
+   "pin_name": "Athens — Ancient Agora",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Acropolis of Athens",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/atiki/athina/acropolis-athens.html",
+     "km": 0.47
+    }
+   ]
+  },
+  {
+   "pin_id": "ROME-02",
+   "pin_name": "Rome — Vatican Necropolis / St. Peter’s tomb tradition",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Castel Sant'Angelo",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/castel-santangelo.html",
+     "km": 1.09
+    },
+    {
+     "name": "St. Peter's Square — Vatican Media Live",
+     "url": "https://www.comunicazione.va/en/servizi/live.html",
+     "km": 0.3,
+     "operator": "Vatican Media (Dicastery for Communication, Holy See)",
+     "label": "official"
+    },
+    {
+     "name": "Rome — Monte Ciocci view east to Vatican City",
+     "url": "https://www.meteoregionelazio.it/rete/stazione.php?id=RM-064",
+     "km": 1.09,
+     "operator": "Meteo Regione Lazio station RM-064 (IIS Domizia Lucilla)",
+     "label": "webcam via Windy.com; live view may be unavailable; distant skyline view of St Peter’s dome",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1631219815"
+    }
+   ]
+  },
+  {
+   "pin_id": "MALT-01",
+   "pin_name": "Malta — Acts shipwreck candidate sites (St. Paul’s Bay / traditional)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Malta - St Paul's Bay",
+     "url": "https://www.skylinewebcams.com/en/webcam/malta/malta/bugibba/st-pauls-bay.html",
+     "km": 0.1
+    }
+   ]
+  },
+  {
+   "pin_id": "WW-01",
+   "pin_name": "Jerusalem — Southern Temple Mount / Robinson’s Arch area",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Western Wall live cameras (Western Wall Heritage Foundation)",
+     "url": "https://thekotel.org/en/western-wall/western-wall-cameras/",
+     "km": 0.14
+    },
+    {
+     "name": "Mt. of Olives Prayer Bridge — YouTube channel (Western Wall, Temple Archaeological Park live view)",
+     "url": "https://www.youtube.com/@Mt.ofOlivesPrayerBridge",
+     "km": 0.04,
+     "operator": "Mt. of Olives Prayer Bridge (ministry channel on YouTube)",
+     "label": "YouTube channel link; live view may be unavailable"
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-04",
+   "pin_name": "Cusco — Plaza de Armas",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Cusco - Plaza Mayor",
+     "url": "https://www.skylinewebcams.com/en/webcam/peru/cusco/cusco/plaza-mayor.html",
+     "km": 0.01
+    }
+   ]
+  },
+  {
+   "pin_id": "SPN-alberino-37",
+   "pin_name": "Rome (True Legends Episode 2 shoot)",
+   "layer_file": "sponsors/alberino/sites.geojson",
+   "cameras": [
+    {
+     "name": "Rome - Piazza Navona",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-navona.html",
+     "km": 1.62
+    }
+   ]
+  },
+  {
+   "pin_id": "THES-01",
+   "pin_name": "Thessalonica (Thessaloniki — Roman forum / agora)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Thessaloniki — Aristotelous Square",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/thessaloniki/plateia-aristotelous.html",
+     "km": 0.86,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "PHIL-01",
+   "pin_name": "Philippi",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Kavala (ancient Neapolis) — harbour",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/kavala/kavala.html",
+     "km": 13.63,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "COR-02",
+   "pin_name": "Cenchreae (Kenchreai)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Corinth — Kalamaki (Saronic Gulf)",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/peloponnese/corinth/kalamaki.html",
+     "km": 3.96,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "WSJ-01",
+   "pin_name": "Tacitus — Annals 15.44 (Rome)",
+   "layer_file": "jesus-death-sources.geojson",
+   "cameras": [
+    {
+     "name": "Rome — Colosseum",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/roma-colosseo.html",
+     "km": 0.63,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "BP-PETRA",
+   "pin_name": "Petra",
+   "layer_file": "ot-digs.geojson",
+   "cameras": [
+    {
+     "name": "Petra — The Treasury (Al-Khazneh)",
+     "url": "https://www.skylinewebcams.com/en/webcam/jordan/maan/amman/petra-the-treasury.html",
+     "km": 2.23,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    },
+    {
+     "name": "Petra — Visitor Center (entrance plaza)",
+     "url": "https://www.skylinewebcams.com/en/webcam/jordan/maan/amman/petra-visitor-center.html",
+     "km": 0.68,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "PUT-01",
+   "pin_name": "Puteoli (Pozzuoli)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Pozzuoli — Macellum (Temple of Serapis)",
+     "url": "https://www.skylinewebcams.com/en/webcam/italia/campania/napoli/pozzuoli-macellum.html",
+     "km": 0.5,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "BP-PHOENIX_CRETE",
+   "pin_name": "Phoenix, Crete",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Loutro bay, Sfakia (one of two Phoenix harbour candidates)",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/crete/chania/loutro-sfakia.html",
+     "km": 0.44,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "BP-GORTYN_CRETE",
+   "pin_name": "Gortyn, Crete",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Agioi Deka, beside Gortyn (ruins not confirmed in view)",
+     "url": "https://www.skylinewebcams.com/en/webcam/ellada/crete/heraklion/agioi-deka.html",
+     "km": 0.85,
+     "operator": "SkylineWebcams",
+     "label": "third-party webcam"
+    }
+   ]
+  },
+  {
+   "pin_id": "CYP-01",
+   "pin_name": "Paphos (Nea Paphos), Cyprus",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Kato Paphos sea front (still image, refreshes)",
+     "url": "https://www.paphoslife.com/webcam",
+     "km": 0.38,
+     "operator": "Paphos Life",
+     "label": "local webcam page"
+    }
+   ]
+  },
+  {
+   "pin_id": "BETHL-01",
+   "pin_name": "Bethlehem — Church of the Nativity / early Christian complex",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Nativity Live — Church of the Nativity / Manger Square",
+     "url": "https://tourism.ps/nativity-live/",
+     "km": 0.09,
+     "operator": "Palestinian Ministry of Tourism and Antiquities",
+     "label": "official; live view may be unavailable"
+    }
+   ]
+  },
+  {
+   "pin_id": "YARD-01",
+   "pin_name": "Yardenit Baptismal Site (Jordan River)",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Live from Yardenit (official live page)",
+     "url": "https://www.yardenit.com/live-from-yardenit/",
+     "km": 0.0,
+     "operator": "Yardenit Baptismal Site (Kibbutz Kinneret)",
+     "label": "official; live view may be unavailable"
+    }
+   ]
+  },
+  {
+   "pin_id": "JOP-01",
+   "pin_name": "Joppa / Jaffa (Yafo) — Acts & Jonah port",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Old Jaffa — Jaffa Port (from the north)",
+     "url": "https://beachcam.co.il/hamaaravi.html",
+     "km": 0.32,
+     "operator": "BeachCam Israel (beachcam.co.il)",
+     "label": "webcam via Windy.com; live view may be unavailable",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1793900793"
+    }
+   ]
+  },
+  {
+   "pin_id": "BP-COLOSSEUM",
+   "pin_name": "Colosseum",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Rome — Colosseum (vedetta)",
+     "url": "https://vedetta.org/webcam/italia/lazio/roma/colosseo/",
+     "km": 0.09,
+     "operator": "vedetta.org webcam network",
+     "label": "webcam via Windy.com; live view may be unavailable",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1673269970"
+    }
+   ]
+  },
+  {
+   "pin_id": "BP-MAMERTINE_PRISON",
+   "pin_name": "Mamertine Prison",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Rome — Piazza Venezia: Aracoeli & Vittoriano",
+     "url": "https://vedetta.org/webcam/italia/lazio/roma/piazza-venezia/",
+     "km": 0.36,
+     "operator": "vedetta.org webcam network",
+     "label": "webcam via Windy.com; live view may be unavailable; surroundings only; prison not in frame",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1793908135"
+    }
+   ]
+  },
+  {
+   "pin_id": "AP-03",
+   "pin_name": "James son of Zebedee",
+   "layer_file": "apostle-burial.geojson",
+   "cameras": [
+    {
+     "name": "Santiago de Compostela — Praza do Obradoiro",
+     "url": "https://www.windy.com/webcams/1603526705",
+     "km": 0.09,
+     "operator": "CRTVG (Galician public broadcaster)",
+     "label": "webcam via Windy.com; live view may be unavailable; partial view; cathedral façade at frame edge",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1603526705"
+    }
+   ]
+  },
+  {
+   "pin_id": "DELPH-01",
+   "pin_name": "Delphi",
+   "layer_file": "nt-digs.geojson",
+   "cameras": [
+    {
+     "name": "Delphi — village view south-west",
+     "url": "https://www.forecastweather.gr/kameres/stereas-elladas/delfi.html",
+     "km": 0.82,
+     "operator": "forecastweather.gr",
+     "label": "webcam via Windy.com; live view may be unavailable; village view; sanctuary likely out of frame",
+     "attribution": "Webcam via Windy.com",
+     "windy_page": "https://www.windy.com/webcams/1793898136"
+    }
+   ]
+  }
+ ],
+ "dedupe_note": "20261001-au: each camera URL on exactly one pin; Western Wall cams only on WW-01; Castel Sant'Angelo only on ROME-02. 20261001-bg: a pin may list several cameras (BP-PETRA has two); OFFLINE SkylineWebcams cams are left out until live.",
+ "last_verified": "2026-10-27"
 }
