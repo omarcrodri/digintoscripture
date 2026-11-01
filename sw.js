@@ -1,13 +1,16 @@
-/* DigIntoScripture offline cache. Build 20261001-bg (rev c3299a432b). Same-origin app files + viewed map tiles only. */
+/* DigIntoScripture offline cache. Build 20261001-bh (rev 8b8aafbb09). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
 'use strict';
-const BUILD = '20261001-bg', REV = 'c3299a432b';
+const BUILD = '20261001-bh', REV = '8b8aafbb09';
 const CORE = 'dis-core-' + BUILD + '-' + REV;
 const RT = 'dis-rt-' + BUILD + '-' + REV;
 const TILES = 'dis-tiles-' + BUILD + '-' + REV;
-const KEEP = [CORE, RT, TILES];
+const BIBLE = 'dis-bible-1857243d15'; /* opened Bible books; kept across app updates while the text data is unchanged */
+const KEEP = [CORE, RT, TILES, BIBLE];
 const PRECACHE = [
 "./",
 "./artifacts.geojson",
+"./bible/kjv/index.json",
+"./bible/web/index.json",
 "./biblical-place-strongs.json",
 "./brand/favicon-16.png",
 "./brand/favicon-32.png",
@@ -20,7 +23,6 @@ const PRECACHE = [
 "./claims-index.json",
 "./creature-finds.geojson",
 "./data/hidden-claims.json",
-"./data/kjv.json",
 "./discover-paths.json",
 "./empire-snapshots.geojson",
 "./flood-traditions.geojson",
@@ -111,6 +113,16 @@ async function tileFetch(req) {
 }
 function scopePath() { return new URL(self.registration.scope).pathname; }
 async function appFetch(req, url) {
+  if (url.pathname.indexOf(scopePath() + 'bible/') === 0) {
+    const key = url.pathname;
+    const hit = await caches.match(key, { cacheName: BIBLE });
+    if (hit) return hit;
+    try {
+      const res = await fetch(req);
+      if (res && res.ok) { const c = await caches.open(BIBLE); c.put(key, res.clone()); }
+      return res;
+    } catch (e) { return (await caches.match(key, { cacheName: CORE })) || (await caches.match(url.href, { ignoreSearch: true })) || Response.error(); }
+  }
   const isData = req.mode === 'navigate' || /\.(html|json|geojson|webmanifest)$/.test(url.pathname) || url.pathname === scopePath();
   if (isData) {
     try {
