@@ -1,7 +1,7 @@
 {
  "name": "DigIntoScripture",
  "short_name": "DigIntoScripture",
- "description": "Bible archaeology map",
+ "description": "Bible places, archaeology and Scripture on one map",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
@@ -18,5 +18,11 @@
    "sizes": "720x720",
    "type": "image/png"
   }
+ ],
+ "id": "./",
+ "categories": [
+  "books",
+  "education",
+  "reference"
  ]
 }

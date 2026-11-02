@@ -1,10 +1,10 @@
-/* DigIntoScripture offline cache. Build 20261001-bh (rev 8b8aafbb09). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
+/* DigIntoScripture offline cache. Build 20261001-bi (rev a5c2a86ab5). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
 'use strict';
-const BUILD = '20261001-bh', REV = '8b8aafbb09';
+const BUILD = '20261001-bi', REV = 'a5c2a86ab5';
 const CORE = 'dis-core-' + BUILD + '-' + REV;
 const RT = 'dis-rt-' + BUILD + '-' + REV;
 const TILES = 'dis-tiles-' + BUILD + '-' + REV;
-const BIBLE = 'dis-bible-1857243d15'; /* opened Bible books; kept across app updates while the text data is unchanged */
+const BIBLE = 'dis-bible-27e602bde6'; /* opened Bible books; kept across app updates while the text data is unchanged */
 const KEEP = [CORE, RT, TILES, BIBLE];
 const PRECACHE = [
 "./",
@@ -17,6 +17,7 @@ const PRECACHE = [
 "./brand/favicon.ico",
 "./brand/logo-app-192.png",
 "./brand/logo-app.png",
+"./brand/og-card.png",
 "./breakout-pastors.geojson",
 "./cctv-webcams.json",
 "./charlie-kirk.geojson",
@@ -25,7 +26,6 @@ const PRECACHE = [
 "./data/hidden-claims.json",
 "./discover-paths.json",
 "./empire-snapshots.geojson",
-"./flood-traditions.geojson",
 "./index.html",
 "./jesus-death-sources.geojson",
 "./ken-ham.geojson",
@@ -36,12 +36,9 @@ const PRECACHE = [
 "./name-history.json",
 "./oriental-findings.geojson",
 "./pin-travel-advisory.json",
-"./relics.geojson",
 "./search-aliases.json",
 "./search-terms.json",
 "./site-galleries.json",
-"./sponsor-rhb.geojson",
-"./temple-mount.geojson",
 "./tetragrammaton-display.json",
 "./travel-advisory-fills.geojson",
 "./tribal-allotments.geojson",
