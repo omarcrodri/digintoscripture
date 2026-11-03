@@ -1,6 +1,6 @@
-/* DigIntoScripture offline cache. Build 20261001-bi (rev a5c2a86ab5). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
+/* DigIntoScripture offline cache. Build 20261001-bj (rev d2376241f5). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
 'use strict';
-const BUILD = '20261001-bi', REV = 'a5c2a86ab5';
+const BUILD = '20261001-bj', REV = 'd2376241f5';
 const CORE = 'dis-core-' + BUILD + '-' + REV;
 const RT = 'dis-rt-' + BUILD + '-' + REV;
 const TILES = 'dis-tiles-' + BUILD + '-' + REV;
