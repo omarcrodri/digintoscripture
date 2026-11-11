@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bn",
+  "build": "20261001-bo",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1782,5 +1782,16 @@
       "C03358"
     ],
     "C03349": "reword wired from reverify-fixes-2026-11-10.json (text, source doi.org Avci 2007, last_verified, caveat)"
+  },
+  "bo_notes": {
+    "build": "20261001-bo",
+    "date": "2026-11-11",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bn",
+    "netanya": "MIN-oneforisrael-netanya unconfirmed note no longer names an encyclopedia. The city stays unconfirmed and ONE FOR ISRAEL Ministry (Israel College of the Bible) is cited by title.",
+    "dates": "DURA-01, DURA-02, and EW-55 strength reasons now use AD. Two published article titles in the bibliography were left as printed.",
+    "host_url": "HOST-URL.txt stamp set to this build",
+    "readme": "app/README.md rewritten to describe the current map"
   }
 }
