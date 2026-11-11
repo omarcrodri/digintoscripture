@@ -43,27 +43,27 @@
   "lsb_refs": "Included only when already present on the pin (verses field)."
  },
  "counts": {
-  "pins_total": 179,
-  "pins_with_at_least_one_alias": 179,
+  "pins_total": 180,
+  "pins_with_at_least_one_alias": 180,
   "pins_with_zero_aliases": 0,
-  "aliases_total": 650,
+  "aliases_total": 658,
   "disputed_identification_pins": 16,
   "unresolved_cross_pin_collisions": 0,
   "same_place_shared_aliases": 35,
   "aliases_removed_to_resolve_collisions": 2,
   "by_layer": {
-   "ot-digs.geojson": 105,
+   "ot-digs.geojson": 106,
    "nt-digs.geojson": 74
   },
   "by_type": {
-   "ancient-other": 66,
    "biblical": 170,
-   "modern-arabic": 51,
-   "modern-english": 109,
+   "tell-name": 61,
    "modern-hebrew": 33,
-   "modern-turkish": 13,
-   "spelling-variant": 147,
-   "tell-name": 61
+   "spelling-variant": 152,
+   "modern-english": 111,
+   "modern-arabic": 51,
+   "ancient-other": 67,
+   "modern-turkish": 13
   }
  },
  "sites": [
@@ -4957,6 +4957,50 @@
     "Revelation 1:11",
     "Revelation 3:1–6 (same city as the church addressed in Revelation",
     "synagogue illuminates Jewish Sardis continuity)"
+   ]
+  },
+  {
+   "pin_id": "GALON-01",
+   "layer": "ot-digs.geojson",
+   "display_name": "Gal'on Fortress (Rujum el-Masha'ala)",
+   "aliases": [
+    {
+     "name": "Gal'on Fortress",
+     "type": "modern-english"
+    },
+    {
+     "name": "Gal'on",
+     "type": "modern-english"
+    },
+    {
+     "name": "Galeon",
+     "type": "spelling-variant",
+     "note": "KKL-JNF spelling; excavation report writes Gal'on"
+    },
+    {
+     "name": "Galon Fortress",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Galon",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Rujum el-Masha'ala",
+     "type": "ancient-other"
+    },
+    {
+     "name": "Rujum el-Mashaala",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Rujum el Mashaala",
+     "type": "spelling-variant"
+    }
+   ],
+   "lsb_refs": [
+    "Judges 1",
+    "Judges 13–16"
    ]
   }
  ],

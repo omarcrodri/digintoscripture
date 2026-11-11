@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bj",
+  "build": "20261001-bn",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1538,5 +1538,249 @@
       "LSB link + Places toggle moved into the scrolling text area",
       "Places in this chapter: collapsed toggle, one-row chip strip, one chip per place name"
     ]
+  },
+  "bk_notes": {
+    "build": "20261001-bk",
+    "date": "2026-11-10",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bj (live 2026-11-10)",
+    "backup": "_backups/pre-bk",
+    "pack": "packs/new-pins-and-dig-news-2026-11-10.json",
+    "claim_id_remap": {
+      "reason": "C09750–C09753 already used (CATAL-01, NIC-01) and were missing from claims-index",
+      "C09750": "C09754",
+      "C09751": "C09755",
+      "C09752": "C09756"
+    },
+    "changes": [
+      "New OT pin GALON-01 Gal'on Fortress (Rujum el-Masha'ala) at 34.85080, 31.62681 with claims C09754 (strong) and C09755 (mixed)",
+      "Tel Gezer GEZ-01,GEZ-02: added claim C09756 (strong, surface-find caveat) and a November 2026 dig update",
+      "Indexed previously unindexed CATAL-01, NIC-01, YARD-01, BP-OLDCITYGATES claims (text unchanged)",
+      "Reverify notes saved to packs/bk-reverify-todo-2026-11-10.md; old claims not edited"
+    ]
+  },
+  "bk_reverify_notes": {
+    "date": "2026-11-10",
+    "pack": "packs/reverify-fixes-2026-11-10.json",
+    "published": false,
+    "local_only": true,
+    "stamp_unchanged": "20261001-bk",
+    "applied_rewords": [
+      "C04068",
+      "C03997",
+      "C04637",
+      "C02868",
+      "C04588"
+    ],
+    "retired_pending_confirmation": [
+      "C03953",
+      "C04062",
+      "C04295",
+      "C02722"
+    ],
+    "youtube_dropped_pending_confirmation": [
+      "C03349"
+    ],
+    "held": [
+      {
+        "id": "C03040",
+        "hosts": [
+          "oeaw.ac.at"
+        ]
+      },
+      {
+        "id": "C02726",
+        "hosts": [
+          "sbf.custodia.org"
+        ]
+      },
+      {
+        "id": "C02740",
+        "hosts": [
+          "eisenbrauns.org"
+        ]
+      },
+      {
+        "id": "C04032",
+        "hosts": [
+          "pef.org.uk"
+        ]
+      },
+      {
+        "id": "C03163",
+        "hosts": [
+          "ascsa.edu.gr"
+        ]
+      }
+    ],
+    "held_hosts": [
+      "ascsa.edu.gr",
+      "eisenbrauns.org",
+      "oeaw.ac.at",
+      "pef.org.uk",
+      "sbf.custodia.org"
+    ],
+    "undo": "_backups/pre-bk/reverify-undo-2026-11-10.json",
+    "note": "Retirements and C03349 YouTube drop are local only, pending Marcial confirmation. The later Avci 2007 reword of C03349 was not applied."
+  },
+  "bl_notes": {
+    "build": "20261001-bl",
+    "date": "2026-11-11",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bk (handoff /workspace/handoff/dis-bk, SHA256 verified)",
+    "inputs": [
+      "si-tools-findings.md",
+      "claim-sweep-2026-11-11.md",
+      "dis-link-sweep-2026-11-11.md",
+      "dis-bk-new-urls-2026-11-11.txt"
+    ],
+    "link_swaps": {
+      "www.dgam.gov.sy/": "www.dgam.gov.sy/",
+      "www.culture.gov.lb/": "culture.gov.lb/en/Home"
+    },
+    "links_hidden": [
+      "emekshaveh.org/en/mt-ebal-ii/",
+      "emekshaveh.org/en/mount-ebal-curse-tablet/",
+      "emekshaveh.org/en/wp-content/uploads/2013/07/Har-Habayit-Eng-Web.pdf",
+      "www.tabgha.org/"
+    ],
+    "claims_hidden": [
+      "C00617",
+      "C00929",
+      "C00930",
+      "C00933",
+      "C00934",
+      "C00942",
+      "C00943",
+      "C00944",
+      "C00947",
+      "C01061"
+    ],
+    "dates_fixed": [
+      "C00477 artifacts.geojson strength_reason: dated 26–36 CE -> dated AD 26–36",
+      "C09739 artifacts.geojson strength_reason: fell in 71 CE -> fell in AD 71",
+      "C09739 nt-digs.geojson strength_reason: fell in 71 CE -> fell in AD 71",
+      "C03626 nt-digs.geojson strength_source.name: (18–36 CE) -> (AD 18–36)",
+      "C03627 nt-digs.geojson strength_reason: (18–36 CE) -> (AD 18–36)",
+      "C04097 ot-digs.geojson strength_source.name: 10th century BCE -> 10th century BC",
+      "C04822 ot-digs.geojson strength_reason: 9,600–8,200 BCE -> 9,600–8,200 BC",
+      "C04917 ot-digs.geojson strength_reason: 15th–12th c. BCE -> 15th–12th c. BC",
+      "C05131 ot-digs.geojson strength_reason: 6th centuries BCE -> 6th centuries BC",
+      "C05144 ot-digs.geojson strength_reason: 9th c. BCE -> 9th c. BC",
+      "C05339 ot-digs.geojson strength_reason: 3rd millennium BCE -> 3rd millennium BC",
+      "C05356 ot-digs.geojson strength_reason: 3rd millennium BCE -> 3rd millennium BC",
+      "C05507 ot-digs.geojson strength_reason: 6th centuries BCE -> 6th centuries BC",
+      "C05508 ot-digs.geojson strength_reason: 6th c. BCE -> 6th c. BC",
+      "C05648 ot-digs.geojson strength_reason: 790–740 BCE -> 790–740 BC",
+      "C05649 ot-digs.geojson strength_reason: 790–740 BCE -> 790–740 BC"
+    ],
+    "not_changed": [
+      "KJV/LSB order (fix dropped)",
+      "C03349 (reword pending)",
+      "young-earth caveat text (separate batch)"
+    ]
+  },
+  "bm_notes": {
+    "build": "20261001-bm",
+    "date": "2026-11-11",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bl (installed app)",
+    "input": "packs/yec-caveats-draft-2026-11-11.json",
+    "caveats_wired": 59,
+    "shared_caveat_ids": [
+      "C01059",
+      "C01064",
+      "C01071",
+      "C01077",
+      "C01085",
+      "C01092",
+      "C01099",
+      "C01104",
+      "C01110",
+      "C01118",
+      "C01123",
+      "C01128",
+      "C01133",
+      "C01139",
+      "C01145",
+      "C01150",
+      "C01156",
+      "C01162",
+      "C01167",
+      "C01172",
+      "C01177",
+      "C01181",
+      "C01185",
+      "C01190",
+      "C01195",
+      "C01200",
+      "C01205",
+      "C01211"
+    ],
+    "own_caveat_ids": [
+      "C00741",
+      "C00947",
+      "C01061",
+      "C01074",
+      "C01075",
+      "C01087",
+      "C01101",
+      "C01112",
+      "C01147",
+      "C01148",
+      "C01152",
+      "C01158",
+      "C01164",
+      "C01169",
+      "C01174",
+      "C01178",
+      "C01183",
+      "C01187",
+      "C01191",
+      "C01197",
+      "C01198",
+      "C02511",
+      "C02547",
+      "C03355",
+      "C03356",
+      "C03357",
+      "C03358",
+      "C06161",
+      "C06580a",
+      "C06580b",
+      "C06581"
+    ],
+    "field": "claim.caveat (existing field, shown in pin panel Sources by tier)",
+    "not_changed": [
+      "strength / strength_reason from the draft (caveat only)",
+      "C03349",
+      "retired C03953 C04062 C04295 C02722"
+    ]
+  },
+  "bn_notes": {
+    "build": "20261001-bn",
+    "date": "2026-11-11",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bm",
+    "caveat_build_tags_removed": "bm caveat_build tags dropped from claims; bm_notes keeps the 59 ids",
+    "caveat_wording_fixed": [
+      "C01074",
+      "C01075",
+      "C01101",
+      "C01112",
+      "C01164",
+      "C01174",
+      "C01178",
+      "C01183",
+      "C01187",
+      "C01198",
+      "C03356",
+      "C03358"
+    ],
+    "C03349": "reword wired from reverify-fixes-2026-11-10.json (text, source doi.org Avci 2007, last_verified, caveat)"
   }
 }
