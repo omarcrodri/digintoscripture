@@ -43,26 +43,26 @@
   "lsb_refs": "Included only when already present on the pin (verses field)."
  },
  "counts": {
-  "pins_total": 180,
-  "pins_with_at_least_one_alias": 180,
+  "pins_total": 184,
+  "pins_with_at_least_one_alias": 184,
   "pins_with_zero_aliases": 0,
-  "aliases_total": 658,
+  "aliases_total": 675,
   "disputed_identification_pins": 16,
   "unresolved_cross_pin_collisions": 0,
   "same_place_shared_aliases": 35,
   "aliases_removed_to_resolve_collisions": 2,
   "by_layer": {
    "ot-digs.geojson": 106,
-   "nt-digs.geojson": 74
+   "nt-digs.geojson": 78
   },
   "by_type": {
    "biblical": 170,
    "tell-name": 61,
-   "modern-hebrew": 33,
-   "spelling-variant": 152,
+   "modern-hebrew": 40,
+   "spelling-variant": 157,
    "modern-english": 111,
-   "modern-arabic": 51,
-   "ancient-other": 67,
+   "modern-arabic": 54,
+   "ancient-other": 69,
    "modern-turkish": 13
   }
  },
@@ -5002,6 +5002,110 @@
     "Judges 1",
     "Judges 13–16"
    ]
+  },
+  {
+   "pin_id": "BURGIN-01",
+   "layer": "nt-digs.geojson",
+   "display_name": "Horbat Burgin (Horvat Burgin / Kh. Burgin)",
+   "aliases": [
+    {
+     "name": "Horbat Burgin",
+     "type": "modern-hebrew"
+    },
+    {
+     "name": "Horvat Burgin",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Kh. Burgin",
+     "type": "modern-arabic"
+    },
+    {
+     "name": "Burgin",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Caphar Bish",
+     "type": "ancient-other",
+     "note": "proposed identification only"
+    },
+    {
+     "name": "Kfar Bish",
+     "type": "spelling-variant",
+     "note": "proposed identification only"
+    }
+   ],
+   "lsb_refs": []
+  },
+  {
+   "pin_id": "NIZ-01",
+   "layer": "nt-digs.geojson",
+   "display_name": "Niẓẓana (Nessana / Auja el-Hafir)",
+   "aliases": [
+    {
+     "name": "Nizzana",
+     "type": "modern-hebrew"
+    },
+    {
+     "name": "Niẓẓana",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Nessana",
+     "type": "ancient-other"
+    },
+    {
+     "name": "Auja el-Hafir",
+     "type": "modern-arabic"
+    }
+   ],
+   "lsb_refs": []
+  },
+  {
+   "pin_id": "HUQ-01",
+   "layer": "nt-digs.geojson",
+   "display_name": "Horbat Huqoq (Kefar Yaquq) and Giv'at Sheikh Nashi",
+   "aliases": [
+    {
+     "name": "Horbat Huqoq",
+     "type": "modern-hebrew"
+    },
+    {
+     "name": "Huqoq",
+     "type": "spelling-variant"
+    },
+    {
+     "name": "Kefar Yaquq",
+     "type": "modern-arabic"
+    },
+    {
+     "name": "Giv'at Sheikh Nashi",
+     "type": "modern-hebrew"
+    }
+   ],
+   "lsb_refs": [
+    "Habakkuk 1:1"
+   ]
+  },
+  {
+   "pin_id": "SATAF-01",
+   "layer": "nt-digs.geojson",
+   "display_name": "Sataf coin find (unconfirmed)",
+   "aliases": [
+    {
+     "name": "Sataf",
+     "type": "modern-hebrew"
+    },
+    {
+     "name": "Ein Sataf",
+     "type": "modern-hebrew"
+    },
+    {
+     "name": "Ein Bikura",
+     "type": "modern-hebrew"
+    }
+   ],
+   "lsb_refs": []
   }
  ],
  "flagged_same_place_shared_aliases": [

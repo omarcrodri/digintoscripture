@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bo",
+  "build": "20261001-bp",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1793,5 +1793,24 @@
     "dates": "DURA-01, DURA-02, and EW-55 strength reasons now use AD. Two published article titles in the bibliography were left as printed.",
     "host_url": "HOST-URL.txt stamp set to this build",
     "readme": "app/README.md rewritten to describe the current map"
+  },
+  "bp_notes": {
+    "build": "20261001-bp",
+    "date": "2026-11-19",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bo (live)",
+    "source": "packs/new-findings-2026-11-19.json",
+    "changes": [
+      "New NT pin BURGIN-01 Horbat Burgin, C09757 (strong), C09758 (mixed, Caphar Bish caveat)",
+      "New NT pin NIZ-01 Nizzana (Nessana), C09759-C09760 (strong)",
+      "New NT pin HUQ-01 Horbat Huqoq survey, C09761 (strong, Habakkuk tomb tradition caveat)",
+      "BP-ACCO: C09762 (mixed) + caveat graves mapped, not dug; dated from surface finds",
+      "New NT pin SATAF-01, C09763 (weak, unconfirmed), approximate pin; source https://www.jpost.com/archaeology/article-915150 (host rated SAFE 2026-11-19)",
+      "Discover: 9 holy-day tours (47 stops on existing pins) added to discover-paths.json and the inline fallback"
+    ],
+    "url_checks": [
+      "jpost.com rated SAFE 2026-11-19 (SATAF-01 / C09763)"
+    ]
   }
 }
