@@ -1171,6 +1171,11 @@ html.dis-shell #layers-tray:not(.is-open),html.dis-shell #layers-tray:not(.is-op
 html.dis-shell :is(#dis-rail,#dis-tabs,#dis-chips,#dis-side) button,html.dis-shell #dis-fab{opacity:1 !important}
 html.dis-desk.dis-f-sidePanel #site-search input{opacity:1 !important}
 </style>
+<script id="dis-shell-early">/* build 20261001-bq: set the app-shell classes before the first paint. The shell script at the end of the page used to add them only after ~2 MB of built-in data had parsed, so the older controls (top Discover / Mission Work / Directions buttons, help button, layers list) showed for a moment at startup. Same flags as #dis-shell; that script still runs and keeps them in sync. */(function(){var h=document.documentElement,f=Object.assign({rail:true,sidePanel:true,bottomTabs:true,chips:true,discoverOpensTours:true,typeScale:true,discoverLabel:true},window.DIS_SHELL_FLAGS||{});h.classList.add('dis-shell');Object.keys(f).forEach(function(k){if(f[k])h.classList.add('dis-f-'+k);});var d=window.matchMedia&&window.matchMedia('(min-width: 900px)').matches;h.classList.add(d?'dis-desk':'dis-mob');})();</script>
+<style id="dis-pins-wait-css">/* build 20261001-bq: pins wait for the base map on first load */html.dis-pins-wait .leaflet-marker-pane,html.dis-pins-wait .leaflet-shadow-pane{visibility:hidden!important}</style>
+<script id="dis-pin-reveal-early">/* build 20261001-bq: map first, then pins oldest first. On the first load of a session the pin and shadow panes stay hidden until the base map for the opening view has drawn (see #dis-pin-reveal at the end of the page). Safety: never hidden longer than 6 s. */
+(function(){var h=document.documentElement,k='dis.pinReveal.v1';try{if(sessionStorage.getItem(k))return;}catch(e){}
+h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal||!window.__disPinReveal.started)h.classList.remove('dis-pins-wait');},6000);})();</script>
 </head>
 <body>
 <div id="app">
@@ -1181,7 +1186,7 @@ html.dis-desk.dis-f-sidePanel #site-search input{opacity:1 !important}
       <img class="brand-mark" src="brand/logo-app-192.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bp</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bq</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -8408,6 +8413,108 @@ window.digOpenDiscoverTours = function(){
   window.__disShell = {FLAGS, ACT, openTours, layout, syncChips};
 })();
 
+</script>
+<script id="dis-pin-reveal">
+/* build 20261001-bq: map first, then pins in order of age (oldest first).
+   1) Wait until the base map tiles for the opening view have drawn (after the opening fit), at most 3 s.
+   2) Re-add the OT/NT pins into their cluster groups in batches over ~2.4 s, sorted by each pin's earliest era
+      (BC before AD); a clear BC year in the pin text breaks ties inside an era. Pins with no usable date go last.
+   Runs once per browser session (sessionStorage). Reduced motion: pins appear all at once after the map draws.
+   The map stays usable: opening a site (search, tours) or changing the era filter finishes the reveal at once. */
+(function disPinReveal(){
+  var H = document.documentElement, KEY = 'dis.pinReveal.v1';
+  var R = window.__disPinReveal = { started: false, done: false, order: [], batches: [], t0: performance.now() };
+  function show(){ H.classList.remove('dis-pins-wait'); }
+  if(!H.classList.contains('dis-pins-wait')){ R.done = true; R.skipped = 'session'; return; }
+  var map = window._digMap || (typeof window.map !== 'undefined' ? window.map : null);
+  var clusters = [];
+  try { if(typeof otLayer !== 'undefined') clusters.push(otLayer); if(typeof ntLayer !== 'undefined') clusters.push(ntLayer); } catch(e){}
+  if(!map || !clusters.length){ show(); R.done = true; R.skipped = 'no-map'; return; }
+  var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var ERA = { 'Neolithic / Chalcolithic': -10000, 'Bronze Age': -3300, 'Exodus / Wilderness': -1450, 'Iron Age': -1200,
+              'Persian / Hellenistic': -539, 'Roman / Byzantine': -63, 'New Testament era': -4, 'Modern': 1800 };
+  function textYear(p){
+    var s = [p.found, p.support, p.notes].filter(function(x){ return typeof x === 'string'; }).join(' ');
+    var best = null, m, re;
+    re = /\b(\d{1,2},\d{3}|\d{3,4})\s*(?:–|-|to)?\s*(?:\d{1,2},\d{3}|\d{2,4})?\s*BC\b/g;
+    while((m = re.exec(s))){ var y = -parseInt(m[1].replace(',', ''), 10); if(best === null || y < best) best = y; }
+    re = /\b(\d{1,2})(?:st|nd|rd|th)\s+(?:millennium)\s+BC\b/g;
+    while((m = re.exec(s))){ var y2 = -1000 * parseInt(m[1], 10); if(best === null || y2 < best) best = y2; }
+    re = /\b(\d{1,2})(?:st|nd|rd|th)(?:\s*(?:–|-|and|or|to)\s*\d{1,2}(?:st|nd|rd|th))?\s+centur(?:y|ies)\s+BC\b/g;
+    while((m = re.exec(s))){ var y3 = -100 * parseInt(m[1], 10); if(best === null || y3 < best) best = y3; }
+    return best;
+  }
+  function ageKey(p){
+    p = p || {}; var eras = Array.isArray(p.eras) ? p.eras : (p.era ? [p.era] : []);
+    var start = null; eras.forEach(function(e){ if(ERA[e] != null && (start === null || ERA[e] < start)) start = ERA[e]; });
+    if(start === null) return [1, 0, 0];               /* no usable date: last */
+    var ty = textYear(p);
+    /* text year only orders pins inside the same era bucket, and only if it fits that era */
+    return [0, start, (ty !== null && ty >= start) ? ty : start];
+  }
+  function cmp(a, b){ for(var i = 0; i < 3; i++){ if(a.k[i] !== b.k[i]) return a.k[i] - b.k[i]; } return a.i - b.i; }
+  function baseReady(){
+    var st = window.__bg2BaseState, gl = null, rasterOk = false;
+    if(st === 'loading') return false;
+    map.eachLayer(function(l){
+      try {
+        if(l.getMaplibreMap){ gl = l.getMaplibreMap(); }
+        else if(l instanceof L.TileLayer && !l.isLoading() && l._tiles && Object.keys(l._tiles).length) rasterOk = true;
+      } catch(e){}
+    });
+    if(st === 'ready' && gl){ try { return gl.loaded() && gl.areTilesLoaded(); } catch(e){ return true; } }
+    return rasterOk;
+  }
+  function splashUp(){ var s = document.getElementById('app-splash'); return !!(s && !s.hidden && s.offsetParent !== null && getComputedStyle(s).display !== 'none' && getComputedStyle(s).visibility !== 'hidden'); }
+  var items = [], timers = [], origRebuild = [], origOpen = null;
+  function finish(addRest){
+    if(R.done) return; R.done = true;
+    timers.forEach(clearTimeout); timers = [];
+    if(addRest){ var by = new Map(); items.forEach(function(it){ if(!it.added){ it.added = true; if(!by.has(it.c)) by.set(it.c, []); by.get(it.c).push(it.m); } }); by.forEach(function(arr, c){ c.addLayers(arr); }); }
+    clusters.forEach(function(c, i){ if(origRebuild[i]) c._digRebuild = origRebuild[i]; });
+    if(origOpen && window.openSiteById === wrappedOpen) window.openSiteById = origOpen;
+    show(); R.tEnd = Math.round(performance.now());
+  }
+  function wrappedOpen(){ finish(true); return origOpen.apply(this, arguments); }
+  function start(why){
+    if(R.started) return; R.started = true; R.why = why; R.tStart = Math.round(performance.now());
+    try { sessionStorage.setItem(KEY, '1'); } catch(e){}
+    if(reduce){ R.reduced = true; finish(false); return; }
+    try {
+      var n = 0;
+      clusters.forEach(function(c){ (c.getLayers ? c.getLayers() : []).forEach(function(m){ items.push({ m: m, c: c, i: n++, k: ageKey(m.feature && m.feature.properties) }); }); });
+      if(!items.length || !clusters[0].addLayers){ finish(false); return; }
+      items.sort(cmp);
+      R.order = items.map(function(it){ var p = (it.m.feature && it.m.feature.properties) || {}; return [p.id || p.site_id || p.name || '', it.k[1], it.k[2], it.k[0]]; });
+      clusters.forEach(function(c){ c.clearLayers(); });
+      clusters.forEach(function(c, i){ origRebuild[i] = c._digRebuild; if(origRebuild[i]) c._digRebuild = function(){ finish(false); return origRebuild[i].apply(this, arguments); }; });
+      if(typeof window.openSiteById === 'function'){ origOpen = window.openSiteById; window.openSiteById = wrappedOpen; }
+      show();
+      var TOTAL = 2400, nb = Math.max(1, Math.min(24, Math.ceil(items.length / 4))), per = Math.ceil(items.length / nb); nb = Math.ceil(items.length / per); var step = TOTAL / nb;
+      for(var b = 0; b < nb; b++){
+        (function(b){
+          timers.push(setTimeout(function(){
+            if(R.done) return;
+            var slice = items.slice(b * per, (b + 1) * per), by = new Map();
+            slice.forEach(function(it){ it.added = true; if(!by.has(it.c)) by.set(it.c, []); by.get(it.c).push(it.m); });
+            by.forEach(function(arr, c){ c.addLayers(arr); });
+            R.batches.push([Math.round(performance.now()), slice.length]);
+            if(b === nb - 1) finish(true);
+          }, Math.round(b * step)));
+        })(b);
+      }
+    } catch(e){ console.warn('pin reveal', e); finish(true); }
+  }
+  var t0 = performance.now(), tWait = t0, okCount = 0;
+  (function poll(){
+    if(R.started) return;
+    if(splashUp() && performance.now() - t0 < 5000){ tWait = performance.now(); return void setTimeout(poll, 100); }
+    var el = performance.now() - tWait;
+    if(el >= 300 && baseReady()){ if(++okCount >= 2) return start('tiles'); } else okCount = 0;
+    if(el >= 3000) return start('timeout');
+    setTimeout(poll, 100);
+  })();
+})();
 </script>
 </body>
 </html>
