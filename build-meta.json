@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bq",
+  "build": "20261001-bs",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1822,6 +1822,30 @@
     "changes": [
       "Startup flash fix: app-shell classes (dis-shell, dis-f-*, dis-desk/dis-mob) are set by a tiny head script before first paint, so the older pre-shell controls never show while the page loads",
       "Map first, then pins oldest first: on the first load of a session pins wait until the base map for the opening view has drawn (3 s safety), then appear in batches over about 2.4 s sorted by earliest era (BC before AD), undated pins last; reduced motion shows them all at once"
+    ]
+  },
+  "br_notes": {
+    "build": "20261001-br",
+    "date": "2026-11-19",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bq (live)",
+    "changes": [
+      "Feast tour icons (9, art/discover/*.webp) on Discover tour cards and the first stop panel; cached for offline use",
+      "Discover group \"Feasts & holy days\" with the 9 feast tours in calendar order (Sabbath through Jubilee); taken out of \"Jesus Old-to-New\" (and Purim out of \"Humanity's Redemption\")",
+      "Discover subtitle shorthand replaced with: Tap a tour. The map moves to each stop and shows its verses.",
+      "About card shows on the first visit only, even if the visitor leaves without closing it"
+    ]
+  },
+  "bs_notes": {
+    "build": "20261001-bs",
+    "date": "2026-11-19",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-br (local)",
+    "changes": [
+      "Feast tour icons are decorative: empty alt text and hidden from screen readers; the tour title is read once",
+      "Skipping or dismissing the helpful hints is remembered like finishing them, so they do not come back on later visits"
     ]
   }
 }

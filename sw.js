@@ -1,6 +1,6 @@
-/* DigIntoScripture offline cache. Build 20261001-bq (rev 524907220d). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
+/* DigIntoScripture offline cache. Build 20261001-bs (rev 31e97cbb61). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
 'use strict';
-const BUILD = '20261001-bq', REV = '524907220d';
+const BUILD = '20261001-bs', REV = '31e97cbb61';
 const CORE = 'dis-core-' + BUILD + '-' + REV;
 const RT = 'dis-rt-' + BUILD + '-' + REV;
 const TILES = 'dis-tiles-' + BUILD + '-' + REV;
@@ -8,6 +8,15 @@ const BIBLE = 'dis-bible-27e602bde6'; /* opened Bible books; kept across app upd
 const KEEP = [CORE, RT, TILES, BIBLE];
 const PRECACHE = [
 "./",
+"./art/discover/discover-booths.webp",
+"./art/discover/discover-day-of-atonement.webp",
+"./art/discover/discover-dedication.webp",
+"./art/discover/discover-firstfruits.webp",
+"./art/discover/discover-jubilee.webp",
+"./art/discover/discover-purim.webp",
+"./art/discover/discover-sabbath.webp",
+"./art/discover/discover-trumpets.webp",
+"./art/discover/discover-unleavened-bread.webp",
 "./artifacts.geojson",
 "./bible/kjv/index.json",
 "./bible/web/index.json",

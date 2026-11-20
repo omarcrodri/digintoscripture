@@ -1176,6 +1176,7 @@ html.dis-desk.dis-f-sidePanel #site-search input{opacity:1 !important}
 <script id="dis-pin-reveal-early">/* build 20261001-bq: map first, then pins oldest first. On the first load of a session the pin and shadow panes stay hidden until the base map for the opening view has drawn (see #dis-pin-reveal at the end of the page). Safety: never hidden longer than 6 s. */
 (function(){var h=document.documentElement,k='dis.pinReveal.v1';try{if(sessionStorage.getItem(k))return;}catch(e){}
 h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal||!window.__disPinReveal.started)h.classList.remove('dis-pins-wait');},6000);})();</script>
+<style id="br-feast-icons-css">/* build 20261001-br: feast tour icons */#discover-sheet .discover-path-btn.has-icon{display:flex;align-items:center;gap:10px}#discover-sheet .discover-path-btn .dp-icon{flex:0 0 40px;width:40px;height:40px;border-radius:9px;object-fit:cover;background:#0b1530;box-shadow:0 0 0 1px rgba(251,191,36,.35)}#discover-sheet .discover-path-btn .dp-text{display:block;flex:1 1 auto;min-width:0}#story .discover-chrome .dc-icon{float:left;width:72px;height:72px;border-radius:14px;margin:0 12px 6px 0;object-fit:cover;box-shadow:0 0 0 1px rgba(251,191,36,.35)}#story .discover-chrome.has-icon{min-height:72px}#story .discover-chrome.has-icon::after{content:"";display:block;clear:both}</style>
 </head>
 <body>
 <div id="app">
@@ -1186,7 +1187,7 @@ h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal
       <img class="brand-mark" src="brand/logo-app-192.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bq</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bs</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -1220,7 +1221,7 @@ h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal
       <p>On first open, only <strong>Old Testament digs</strong> and <strong>New Testament digs</strong> are turned on. Use Layers (top right) to check off or start more layers. Search finds sites by modern and ancient names.</p>
       <div class="welcome-hints-row">
         <label><input type="checkbox" id="chk-welcome-hints-on" checked/> Helpful hints</label>
-        <p class="muted">Hints are on by default for new visitors. Uncheck to turn them off (you can turn them back on here anytime). Tap Discover (the gold fish) to open the Tours sheet — four story categories of guided walks.</p>
+        <p class="muted">Hints are on by default for new visitors. Uncheck to turn them off (you can turn them back on here anytime). Tap Discover (the gold fish) to open the Tours sheet — five story categories of guided walks.</p>
       </div>
       <div class="welcome-actions">
         <button type="button" id="btn-welcome-tours">Tours</button>
@@ -1717,7 +1718,7 @@ window.__digToggleLayerInfo = toggleLayerInfo;
   </aside>
     <div id="discover-sheet" role="dialog" aria-label="Discover tours" hidden>
     <h2>Discover</h2>
-    <p class="discover-sheet-lead">Guided tours by category · 5–12 stops · pan pin → panel → next · LSB refs on screen</p>
+    <p class="discover-sheet-lead">Guided tours by category · 5–12 stops · Tap a tour. The map moves to each stop and shows its verses. · LSB refs on screen</p>
     <div class="discover-path-list" id="discover-path-list"></div>
     <div class="discover-sheet-actions">
       <button type="button" class="discover-exit-btn" id="discover-sheet-close">Exit</button>
@@ -5625,7 +5626,8 @@ function renderDiscoverPathList(){
         {id:'creation',label:'Creation',order:1},
         {id:'human-redemption',label:"Humanity's Redemption",order:2},
         {id:'jesus-ot-nt',label:'Jesus Old-to-New',order:3},
-        {id:'gentiles-yahweh',label:'Gentiles Who Followed Yahweh',order:4}
+        {id:'feasts',label:'Feasts & holy days',order:4},
+        {id:'gentiles-yahweh',label:'Gentiles Who Followed Yahweh',order:5}
       ];
   const byCat = {};
   paths.forEach(p => {
@@ -5642,9 +5644,10 @@ function renderDiscoverPathList(){
       const n = (p.stops || []).length;
       const era = p.era || '';
       const mins = Math.max(5, Math.min(12, n));
-      return `<button type="button" class="discover-path-btn" data-path-id="${discoverEsc(p.id)}">
-      <span class="dp-title">${discoverEsc(p.title)}</span>
-      <span class="dp-meta">${discoverEsc(era)} · ${n} stops · ~${mins} min</span>
+      const icon = p.icon ? `<img class="dp-icon" src="${discoverEsc(p.icon)}" alt="" aria-hidden="true" width="40" height="40" loading="lazy" decoding="async">` : '';
+      return `<button type="button" class="discover-path-btn${icon ? ' has-icon' : ''}" data-path-id="${discoverEsc(p.id)}">
+      ${icon}<span class="dp-text"><span class="dp-title">${discoverEsc(p.title)}</span>
+      <span class="dp-meta">${discoverEsc(era)} · ${n} stops · ~${mins} min</span></span>
     </button>`;
     }).join('');
     html += `<div class="discover-cat${isOpen ? ' is-open' : ''}" data-cat-id="${discoverEsc(cat.id)}">
@@ -5709,7 +5712,8 @@ function showDiscoverStop(index){
 
   const html = `
     <span class="discover-tag">Discover</span>${solidity}
-    <div class="discover-chrome">
+    <div class="discover-chrome${(i === 0 && path.icon) ? ' has-icon' : ''}">
+      ${(i === 0 && path.icon) ? `<img class="dc-icon" src="${discoverEsc(path.icon)}" alt="" aria-hidden="true" width="72" height="72" decoding="async">` : ''}
       <p class="dc-path">${discoverEsc(path.title)}</p>
       <p class="dc-stop">Stop ${i + 1} of ${stops.length} · ${discoverEsc(stop.biblical_name)}</p>
     </div>
@@ -6470,7 +6474,7 @@ window.digOpenDiscoverTours = function(){
     clearHhPulse();
     const offChk = document.getElementById('chk-hh-off');
     if(offChk && offChk.checked) setHintsOff(true);
-    if(completed) lsSet(KEY_TOUR_DONE);
+    lsSet(KEY_TOUR_DONE); /* bs: skipped or dismissed counts as done, so the tour does not come back; replay: About card "hints" box or window.__digStartHintsTour */
     /* close legacy layers-hint if somehow open */
     if(hint){ hint.hidden = true; }
     if(layersBtn) layersBtn.classList.remove('hint-pulse');
@@ -6550,6 +6554,7 @@ window.digOpenDiscoverTours = function(){
   syncWelcomeHintsChk();
   const onboarded = lsGet(KEY_ONBOARD) || lsGet(KEY_WELCOME_LEGACY);
   if(!onboarded){
+    lsSet(KEY_ONBOARD); lsSet(KEY_WELCOME_LEGACY); /* br: the About card shows on the first visit only, even if it is never closed */
     openSplash();
     setTimeout(finishSplash, 1600);
   } else {
