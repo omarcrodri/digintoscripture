@@ -1,6 +1,6 @@
-/* DigIntoScripture offline cache. Build 20261001-bs (rev 31e97cbb61). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
+/* DigIntoScripture offline cache. Build 20261001-bv (rev 84b068d5de). Same-origin app files + viewed map tiles only; Bible books are kept once opened. */
 'use strict';
-const BUILD = '20261001-bs', REV = '31e97cbb61';
+const BUILD = '20261001-bv', REV = '84b068d5de';
 const CORE = 'dis-core-' + BUILD + '-' + REV;
 const RT = 'dis-rt-' + BUILD + '-' + REV;
 const TILES = 'dis-tiles-' + BUILD + '-' + REV;
@@ -18,6 +18,7 @@ const PRECACHE = [
 "./art/discover/discover-trumpets.webp",
 "./art/discover/discover-unleavened-bread.webp",
 "./artifacts.geojson",
+"./badges.json",
 "./bible/kjv/index.json",
 "./bible/web/index.json",
 "./biblical-place-strongs.json",
@@ -153,6 +154,7 @@ self.addEventListener('fetch', event => {
   const url = new URL(req.url);
   if (url.origin === self.location.origin && url.pathname.indexOf(scopePath()) === 0) {
     if (url.pathname.endsWith('/sw.js')) return;
+    if (/\.(mp4|webm|m4v|mov)$/i.test(url.pathname) || url.pathname.indexOf('/art/badges/video/') !== -1) return; /* bt: badge videos: network only, never cached */
     event.respondWith(appFetch(req, url));
     return;
   }

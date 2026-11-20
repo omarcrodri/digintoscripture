@@ -1177,6 +1177,37 @@ html.dis-desk.dis-f-sidePanel #site-search input{opacity:1 !important}
 (function(){var h=document.documentElement,k='dis.pinReveal.v1';try{if(sessionStorage.getItem(k))return;}catch(e){}
 h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal||!window.__disPinReveal.started)h.classList.remove('dis-pins-wait');},6000);})();</script>
 <style id="br-feast-icons-css">/* build 20261001-br: feast tour icons */#discover-sheet .discover-path-btn.has-icon{display:flex;align-items:center;gap:10px}#discover-sheet .discover-path-btn .dp-icon{flex:0 0 40px;width:40px;height:40px;border-radius:9px;object-fit:cover;background:#0b1530;box-shadow:0 0 0 1px rgba(251,191,36,.35)}#discover-sheet .discover-path-btn .dp-text{display:block;flex:1 1 auto;min-width:0}#story .discover-chrome .dc-icon{float:left;width:72px;height:72px;border-radius:14px;margin:0 12px 6px 0;object-fit:cover;box-shadow:0 0 0 1px rgba(251,191,36,.35)}#story .discover-chrome.has-icon{min-height:72px}#story .discover-chrome.has-icon::after{content:"";display:block;clear:both}</style>
+<style id="bt-badges-css">/* build 20261001-bt: Discover badges (shelf + badge moment) */
+#dis-badge-shelf{flex:0 0 auto;margin:0 0 10px;padding:8px 10px 10px;border:1px solid #334155;border-radius:10px;background:#0f172a}
+#dis-badge-shelf .bs-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 8px}
+#dis-badge-shelf h3{margin:0;font-size:.85rem;font-weight:800;color:#fbbf24}
+#dis-badge-shelf .bs-count{font-size:.74rem;color:#94a3b8;white-space:nowrap}
+#dis-badge-shelf .bs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(44px,1fr));gap:8px;max-height:104px;overflow:hidden}
+#dis-badge-shelf.is-expanded .bs-grid{max-height:none}
+#dis-badge-shelf .bs-item{position:relative;display:flex;justify-content:center}
+#dis-badge-shelf .bs-badge{appearance:none;position:relative;width:44px;height:44px;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer;line-height:0}
+#dis-badge-shelf .bs-badge img{width:44px;height:44px;border-radius:50%;object-fit:cover;display:block}
+#dis-badge-shelf .bs-badge.is-earned img{box-shadow:none} /* bv: art has its own rim */
+#dis-badge-shelf .bs-badge.is-earned:focus-visible{outline:2px solid #38bdf8;outline-offset:2px}
+#dis-badge-shelf .bs-badge.is-locked{cursor:default}
+#dis-badge-shelf .bs-badge.is-locked img{filter:grayscale(1);opacity:.38}
+#dis-badge-shelf .bs-lock{position:absolute;right:-2px;bottom:-2px;width:18px;height:18px;border-radius:50%;background:#1e293b;border:1px solid #475569;display:flex;align-items:center;justify-content:center}
+#dis-badge-shelf .bs-lock svg{width:10px;height:10px;fill:#94a3b8}
+#dis-badge-shelf .bs-more{appearance:none;margin:8px 0 0;padding:4px 10px;min-height:32px;border:1px solid #475569;border-radius:8px;background:#1e293b;color:#e2e8f0;font-size:.74rem;cursor:pointer}
+#dis-badge-moment{position:fixed;inset:0;z-index:10200;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(2,6,23,.72)}
+#dis-badge-moment[hidden]{display:none !important}
+#dis-badge-moment .bm-card{width:min(360px,100%);max-height:calc(100dvh - 32px);overflow:auto;box-sizing:border-box;background:#0b1220;border:1px solid #fbbf24;border-radius:16px;padding:18px 16px 14px;text-align:center;color:#e2e8f0;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+#dis-badge-moment .bm-media{margin:0 auto 12px;display:flex;justify-content:center}
+#dis-badge-moment .bm-media img{width:150px;height:150px;border-radius:50%;box-shadow:0 0 28px rgba(251,191,36,.30)} /* bv: glow only, no ring */
+#dis-badge-moment .bm-media video{width:100%;max-height:50vh;border-radius:12px;background:#000}
+#dis-badge-moment .bm-kicker{margin:0 0 4px;font-size:1.15rem;font-weight:800;color:#fbbf24}
+#dis-badge-moment .bm-title{margin:0 0 14px;font-size:.95rem;line-height:1.35;color:#f1f5f9}
+#dis-badge-moment .bm-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+#dis-badge-moment .bm-actions button{appearance:none;min-height:44px;min-width:44px;padding:8px 14px;border-radius:10px;border:1px solid #475569;background:#1e293b;color:#f1f5f9;font-weight:700;cursor:pointer}
+#dis-badge-moment .bm-actions button.primary{background:#0369a1;border-color:#0284c7}
+#dis-badge-moment .bm-actions button[hidden]{display:none}
+html.bi-light #dis-badge-shelf{background:var(--dis-surf2,#f1f5f9);border-color:#cbd5e1}
+html.bi-light #dis-badge-shelf h3{color:#8A5A00}</style>
 </head>
 <body>
 <div id="app">
@@ -1187,7 +1218,7 @@ h.classList.add('dis-pins-wait');setTimeout(function(){if(!window.__disPinReveal
       <img class="brand-mark" src="brand/logo-app-192.png" width="36" height="36" alt="DigIntoScripture"/>
       <div class="brand-text">
         <h1>DigIntoScripture</h1>
-        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bs</p>
+        <p class="brand-kicker">Bible archaeology map · phone prototype · build 20261001-bv</p>
       </div>
     </div>
     <div class="discover-top" id="discover-top">
@@ -5671,6 +5702,7 @@ function renderDiscoverPathList(){
     }).join('');
   }
   list.innerHTML = html || '<p class="muted">No tours loaded.</p>';
+  if(typeof window.__disBadgeShelf === 'function'){ try { window.__disBadgeShelf(); } catch(e){} } /* bt: badge shelf */
 }
 
 function exitDiscoverTour(opts){
@@ -5731,6 +5763,7 @@ function showDiscoverStop(index){
     </div>`;
 
   if(typeof setStoryHtml === 'function') setStoryHtml(html);
+  if(isLast && typeof window.__disBadgeReached === 'function'){ try { window.__disBadgeReached(path); } catch(e){} } /* bt: badge on reaching the last stop */
   else {
     const el = storyBodyEl();
     if(el){ el.innerHTML = html; openStoryPanel(); }
@@ -8519,6 +8552,125 @@ window.digOpenDiscoverTours = function(){
     if(el >= 3000) return start('timeout');
     setTimeout(poll, 100);
   })();
+})();
+</script>
+<script id="dis-badges">
+/* build 20261001-bt: Discover badges. A tour's badge is earned when its last stop is reached.
+   Saved in localStorage 'digintoscripture_badges_v1' as {"v":1,"earned":{"<tour id>":"YYYY-MM-DD"}} (no other keys touched).
+   Art and optional video come from badges.json ({tourId:{image, video}}), so new files need no code change.
+   Video: created only when the badge moment opens (preload none, muted, inline); never precached or cached by sw.js.
+   Static image when there is no video, offline, or reduced motion. Badge images are decorative (alt=""); the tour title is the label. */
+(function disBadges(){
+  var KEY = 'digintoscripture_badges_v1';
+  var B = window.__disBadges = { manifest: null, videoRequests: 0 };
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function today(){ var d = new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  function load(){ try { var o = JSON.parse(localStorage.getItem(KEY) || 'null'); if(o && o.earned && typeof o.earned === 'object') return o; } catch(e){} return { v: 1, earned: {} }; }
+  function save(o){ try { localStorage.setItem(KEY, JSON.stringify(o)); } catch(e){} }
+  function earned(){ return load().earned; }
+  function entry(id){ var m = B.manifest || {}; var e = m[id] || {}; return { image: e.image || ('art/badges/' + id + '.webp'), video: e.video || null, audio: (typeof e.audio === 'boolean') ? e.audio : null }; }
+  function paths(){
+    var data = (typeof getDiscoverPaths === 'function') ? getDiscoverPaths() : null; if(!data || !data.paths) return [];
+    var cats = (data.categories || []).slice().sort(function(a, b){ return (a.order || 0) - (b.order || 0); });
+    var order = {}; cats.forEach(function(c, i){ order[c.id] = i; });
+    return data.paths.map(function(p, i){ return { p: p, i: i }; }).sort(function(a, b){
+      var ca = order[a.p.category] != null ? order[a.p.category] : 99, cb = order[b.p.category] != null ? order[b.p.category] : 99;
+      return ca - cb || a.i - b.i; }).map(function(x){ return x.p; });
+  }
+  function findPath(id){ return paths().filter(function(p){ return p.id === id; })[0] || null; }
+  var LOCK = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 1 1 6 0v3H9z"/></svg>';
+  function renderShelf(){
+    var sheet = document.getElementById('discover-sheet'), list = document.getElementById('discover-path-list');
+    if(!sheet || !list) return;
+    var shelf = document.getElementById('dis-badge-shelf');
+    if(!shelf){ shelf = document.createElement('section'); shelf.id = 'dis-badge-shelf'; shelf.setAttribute('aria-labelledby', 'dis-badge-h'); list.parentNode.insertBefore(shelf, list); }
+    var all = paths(), got = earned();
+    var have = all.filter(function(p){ return got[p.id]; }).sort(function(a, b){ return String(got[a.id]).localeCompare(String(got[b.id])); });
+    var rest = all.filter(function(p){ return !got[p.id]; });
+    var items = have.concat(rest).map(function(p){
+      var e = entry(p.id), on = !!got[p.id];
+      return '<div class="bs-item" role="listitem">' + (on
+        ? '<button type="button" class="bs-badge is-earned" data-badge-id="' + esc(p.id) + '" aria-label="' + esc(p.title) + ' — badge earned ' + esc(got[p.id]) + '" title="' + esc(p.title) + '"><img src="' + esc(e.image) + '" alt="" aria-hidden="true" width="44" height="44" loading="lazy" decoding="async"></button>'
+        : '<span class="bs-badge is-locked" role="img" aria-label="' + esc(p.title) + ' — locked" title="' + esc(p.title) + ' (locked)"><img src="' + esc(e.image) + '" alt="" aria-hidden="true" width="44" height="44" loading="lazy" decoding="async"><span class="bs-lock">' + LOCK + '</span></span>') + '</div>';
+    }).join('');
+    var expanded = shelf.classList.contains('is-expanded');
+    shelf.innerHTML = '<div class="bs-head"><h3 id="dis-badge-h">My badges</h3><span class="bs-count">' + have.length + ' of ' + all.length + '</span></div>'
+      + '<div class="bs-grid" role="list">' + items + '</div>'
+      + '<button type="button" class="bs-more" aria-expanded="' + (expanded ? 'true' : 'false') + '">' + (expanded ? 'Show fewer' : 'Show all ' + all.length) + '</button>';
+  }
+  var lastFocus = null;
+  function closeMoment(){
+    var ov = document.getElementById('dis-badge-moment'); if(!ov) return;
+    var v = ov.querySelector('video'); if(v){ try { v.pause(); v.removeAttribute('src'); v.load(); } catch(e){} }
+    ov.hidden = true; ov.querySelector('.bm-media').innerHTML = '';
+    if(lastFocus && lastFocus.focus){ try { lastFocus.focus(); } catch(e){} } lastFocus = null;
+  }
+  function staticImg(e){ return '<img src="' + esc(e.image) + '" alt="" aria-hidden="true" width="150" height="150" decoding="async">'; }
+  function openMoment(id){
+    var p = findPath(id); if(!p) return;
+    var e = entry(id);
+    var ov = document.getElementById('dis-badge-moment');
+    if(!ov){
+      ov = document.createElement('div'); ov.id = 'dis-badge-moment'; ov.hidden = true;
+      ov.setAttribute('role', 'dialog'); ov.setAttribute('aria-modal', 'true'); ov.setAttribute('aria-labelledby', 'bm-kicker'); ov.setAttribute('aria-describedby', 'bm-title');
+      ov.innerHTML = '<div class="bm-card"><div class="bm-media"></div><p class="bm-kicker" id="bm-kicker">Badge earned</p><p class="bm-title" id="bm-title"></p>'
+        + '<div class="bm-actions"><button type="button" class="bm-sound" hidden>Tap for sound</button><button type="button" class="bm-skip" hidden>Skip</button><button type="button" class="primary bm-close">Close</button></div></div>';
+      document.body.appendChild(ov);
+      ov.addEventListener('click', function(ev){
+        if(ev.target === ov || ev.target.closest('.bm-close')) return closeMoment();
+        if(ev.target.closest('.bm-sound')){ var v = ov.querySelector('video'); if(v){ v.muted = false; try { v.play(); } catch(e){} } ev.target.closest('.bm-sound').hidden = true; return; }
+        if(ev.target.closest('.bm-skip')){ var cur = B.cur; var vv = ov.querySelector('video'); if(vv){ try { vv.pause(); vv.removeAttribute('src'); vv.load(); } catch(e){} }
+          ov.querySelector('.bm-media').innerHTML = staticImg(cur); ov.querySelector('.bm-sound').hidden = true; ov.querySelector('.bm-skip').hidden = true; }
+      });
+      document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape' && !ov.hidden) closeMoment(); });
+    }
+    B.cur = e;
+    lastFocus = document.activeElement;
+    ov.querySelector('.bm-title').textContent = p.title;
+    var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    var online = navigator.onLine !== false;
+    var media = ov.querySelector('.bm-media'), useVideo = !!(e.video && online && !reduce);
+    ov.querySelector('.bm-sound').hidden = true; ov.querySelector('.bm-skip').hidden = !useVideo; /* bv: sound button only once audio is confirmed */
+    if(useVideo){
+      var v = document.createElement('video');
+      v.preload = 'none'; v.muted = true; v.defaultMuted = true; v.playsInline = true; v.setAttribute('playsinline', ''); v.setAttribute('muted', ''); v.setAttribute('aria-hidden', 'true');
+      v.poster = e.image; v.src = e.video; B.videoRequests++;
+      if(e.audio !== false){
+        var tries = 0, sb = ov.querySelector('.bm-sound');
+        var hasAudio = function(){ try { if(v.mozHasAudio) return true; if(v.audioTracks && v.audioTracks.length > 0) return true; if(typeof v.webkitAudioDecodedByteCount === 'number' && v.webkitAudioDecodedByteCount > 0) return true; } catch(x){} return false; };
+        var check = function(){ if(!v.isConnected || !sb.hidden) return; if(e.audio === true || hasAudio()){ if(v.muted) sb.hidden = false; return; } if(++tries < 12) setTimeout(check, 250); };
+        v.addEventListener('loadeddata', check); v.addEventListener('playing', check);
+      }
+      v.addEventListener('ended', function(){ media.innerHTML = staticImg(e); ov.querySelector('.bm-sound').hidden = true; ov.querySelector('.bm-skip').hidden = true; });
+      v.addEventListener('error', function(){ media.innerHTML = staticImg(e); ov.querySelector('.bm-sound').hidden = true; ov.querySelector('.bm-skip').hidden = true; });
+      media.innerHTML = ''; media.appendChild(v);
+      var pr = v.play(); if(pr && pr.catch) pr.catch(function(){});
+    } else {
+      media.innerHTML = staticImg(e);
+    }
+    ov.hidden = false;
+    var c = ov.querySelector('.bm-close'); if(c) c.focus();
+  }
+  /* called by showDiscoverStop when the last stop of a tour is shown */
+  window.__disBadgeReached = function(path){
+    if(!path || !path.id) return;
+    var o = load(); var isNew = !o.earned[path.id];
+    if(isNew){ o.earned[path.id] = today(); o.v = 1; save(o); }
+    renderShelf();
+    if(!isNew) return;
+    var t0 = Date.now();
+    (function wait(){ if(window._aqAnimating && Date.now() - t0 < 4000) return void setTimeout(wait, 150); openMoment(path.id); })();
+  };
+  window.__disBadgeShelf = renderShelf;
+  window.__disBadgeOpen = openMoment;
+  document.addEventListener('click', function(ev){
+    var b = ev.target.closest && ev.target.closest('#dis-badge-shelf .bs-badge.is-earned');
+    if(b){ ev.preventDefault(); openMoment(b.getAttribute('data-badge-id')); return; }
+    var m = ev.target.closest && ev.target.closest('#dis-badge-shelf .bs-more');
+    if(m){ document.getElementById('dis-badge-shelf').classList.toggle('is-expanded'); renderShelf(); }
+  });
+  fetch('badges.json', { cache: 'no-cache' }).then(function(r){ return r.ok ? r.json() : null; }).then(function(j){ if(j){ B.manifest = j.badges || j; renderShelf(); } }).catch(function(){});
+  renderShelf();
 })();
 </script>
 </body>

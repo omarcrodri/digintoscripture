@@ -76,7 +76,7 @@
   "host_url_file": "app/HOST-URL.txt",
   "bible_version": "LSB",
   "bible_version_note": "All verse refs in app UI link to Legacy Standard Bible (Bible Gateway version=LSB)",
-  "build": "20261001-bs",
+  "build": "20261001-bv",
   "gallery_artifacts": {
     "version": 1,
     "build": "20261001-i",
@@ -1846,6 +1846,42 @@
     "changes": [
       "Feast tour icons are decorative: empty alt text and hidden from screen readers; the tour title is read once",
       "Skipping or dismissing the helpful hints is remembered like finishing them, so they do not come back on later visits"
+    ]
+  },
+  "bt_notes": {
+    "build": "20261001-bt",
+    "date": "2026-11-19",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bs (live)",
+    "changes": [
+      "Discover badges: a tour badge is earned on reaching its last stop (saved on the device)",
+      "My badges shelf at the top of Discover (earned in color, locked in gray, count)",
+      "Badge moment with optional short video from badges.json (loaded only then, never cached); static badge if no video, offline or reduced motion",
+      "Stand-in badge art (navy circle, gold ring, initial) until the final set arrives"
+    ]
+  },
+  "bu_notes": {
+    "build": "20261001-bu",
+    "date": "2026-11-19",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bt (local)",
+    "changes": [
+      "Final badge art (42, gold on navy) replaces the stand-ins",
+      "Dedication badge moment plays a short muted video (loaded only at that moment, never cached)",
+      "Badge images load when shown (not precached, 1.73 MB total)"
+    ]
+  },
+  "bv_notes": {
+    "build": "20261001-bv",
+    "date": "2026-11-20",
+    "published": false,
+    "local_only": true,
+    "base": "20261001-bu (local)",
+    "changes": [
+      "Earned badges show the art alone (no extra gold ring); locked stay gray with a lock",
+      "\"Tap for sound\" shows only for clips that have sound"
     ]
   }
 }
